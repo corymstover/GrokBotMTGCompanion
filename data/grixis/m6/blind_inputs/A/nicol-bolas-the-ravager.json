@@ -1,0 +1,4316 @@
+{
+ "candidates": [
+  {
+   "card": "Torment of Hailfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torment of Hailfire",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b93d90a444d4"
+   }
+  },
+  {
+   "card": "Cruel Ultimatum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Tezzeret's Gambit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:272307edc979"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:4f60dd2ee00d"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Tezzeret's Gambit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:326057162726"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:ff9344439075"
+   }
+  },
+  {
+   "card": "Nicol Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:c08ff0d6cd4a"
+   }
+  },
+  {
+   "card": "Crux of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crux of Fate",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:bfd6d0924c8e"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:0fe9c0bb51a1"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7724521b33be"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:0594137b13ca"
+   }
+  },
+  {
+   "card": "Waste Not",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Waste Not",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:3f225228ffce"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:c459ef063914"
+   }
+  },
+  {
+   "card": "Hour of Devastation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Locust God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b98fa446ff65"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Karn's Bastion"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:3c87c463a0f9"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b6f1344f193e"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:2add0cb73882"
+   }
+  },
+  {
+   "card": "Thrummingbird",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrummingbird",
+       "cut": "Sanctum Lurker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:708d2844db78"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:c832bc82c5e7"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Karn's Bastion"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:cdc2989fdabe"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:bf79763035fc"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "652-1543-2247"
+        ]
+       },
+       "add": "Propaganda",
+       "cut": "Rowan's Talent"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:e615400de4a6"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:01858413102b"
+   }
+  },
+  {
+   "card": "Interplanar Beacon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Interplanar Beacon",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:6f45af493bfe"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Karn's Bastion"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:bcbd1aca4395"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:0856fc5c0866"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:96e1d19a96c3"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:a05179c5f348"
+   }
+  },
+  {
+   "card": "Ashiok, Dream Render",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashiok, Dream Render",
+       "cut": "The Theorist, Jace Beleren"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:a31b3dd2ad28"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Karn's Bastion"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:7c37b747ca1a"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:e7a2b1f7b2cc"
+   }
+  },
+  {
+   "card": "Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:a26a148dfec1"
+   }
+  },
+  {
+   "card": "Visage of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Visage of Bolas",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:58e09a3f0687"
+   }
+  },
+  {
+   "card": "Syphon Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syphon Mind",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:717adf363318"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:5b7646fd0845"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:bc6bfda8f1cd"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:e46c26aa3ec8"
+   }
+  },
+  {
+   "card": "Vronos, Masked Inquisitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vronos, Masked Inquisitor",
+       "cut": "The Theorist, Jace Beleren"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:092833dde434"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:242c88eacbf7"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:922b68905f9e"
+   }
+  },
+  {
+   "card": "Dack Fayden",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dack Fayden",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:457ec7b6b2e8"
+   }
+  },
+  {
+   "card": "Aetheric Amplifier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetheric Amplifier",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4"
+   }
+  },
+  {
+   "card": "Notion Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Notion Thief",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:f9d9104ecd5b"
+   }
+  },
+  {
+   "card": "Slave of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slave of Bolas",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:8c9cba35db98"
+   }
+  },
+  {
+   "card": "Geth's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geth's Grimoire",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:1dbf3b431e50"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:e30b3ea25664"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7b753920e821"
+   }
+  },
+  {
+   "card": "Countersquall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Countersquall",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:8ef18f4c4739"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7dfba554961d"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b905f3cc3eef"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7e007249c448"
+   }
+  },
+  {
+   "card": "Dark Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Ritual",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:cdf3b11ee17f"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "The Theorist, Jace Beleren"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "787-1124"
+        ]
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Teferi, Temporal Archmage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:d03e0d7fc847"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:100dece2fa84"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:1db3e4dd9021"
+   }
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "The Theorist, Jace Beleren"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:1851eb178798"
+   }
+  },
+  {
+   "card": "Kasmina, Enigmatic Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kasmina, Enigmatic Mentor",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:6b170ab3af1e"
+   }
+  },
+  {
+   "card": "Dark Deal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Deal",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:c984d39fdb7f"
+   }
+  },
+  {
+   "card": "Angrath, the Flame-Chained",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Angrath, the Flame-Chained",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:ec859e502989"
+   }
+  },
+  {
+   "card": "Jace, Cunning Castaway",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, Cunning Castaway",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1124-1543-2247",
+         "652-1543-2247"
+        ]
+       },
+       "add": "Jace, Cunning Castaway",
+       "cut": "Teferi, Master of Time"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:daa3e750759b"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:989e7e4f36e7"
+   }
+  },
+  {
+   "card": "In Bolas's Clutches",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "In Bolas's Clutches",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:4cfeb9c79d9b"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:eefb40551221"
+   }
+  },
+  {
+   "card": "God-Pharaoh's Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "God-Pharaoh's Statue",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:680781d12696"
+   }
+  },
+  {
+   "card": "Archon of Cruelty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archon of Cruelty",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b47327a9e2cb"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:cf29e4146925"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7e30a5d77316"
+   }
+  },
+  {
+   "card": "Liliana Vess",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana Vess",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b655c32435a2"
+   }
+  },
+  {
+   "card": "Rankle, Master of Pranks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rankle, Master of Pranks",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:9e43cfb678dc"
+   }
+  },
+  {
+   "card": "Deflecting Swat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deflecting Swat",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:f1132fba9cf9"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:a078846f4444"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:60b7d3f99fd8"
+   }
+  },
+  {
+   "card": "Jace, the Mind Sculptor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, the Mind Sculptor",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:120ab498a9b9"
+   }
+  },
+  {
+   "card": "Liliana's Caress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana's Caress",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:49644a5fbfb8"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:3b6e40f8c32e"
+   }
+  },
+  {
+   "card": "Tinybones, Trinket Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tinybones, Trinket Thief",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:9949b4f25ce7"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3"
+   }
+  },
+  {
+   "card": "Ral Zarek, Guest Lecturer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ral Zarek, Guest Lecturer",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:33126985aa28"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:1923a9ba2a19"
+   }
+  },
+  {
+   "card": "Geier Reach Sanitarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geier Reach Sanitarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:13696dfe32c1"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:acfe5afb92b9"
+   }
+  },
+  {
+   "card": "Gem of Becoming",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gem of Becoming",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:5362d69f5214"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:8cabb1e5e254"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "The Elderspell"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7312545b9bf7"
+   }
+  },
+  {
+   "card": "The Echoverse Fulcrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Echoverse Fulcrum",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:f8b80c42faa8"
+   }
+  },
+  {
+   "card": "Fabled Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabled Passage",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:621beb640bbc"
+   }
+  },
+  {
+   "card": "Honor the God-Pharaoh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Honor the God-Pharaoh",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7c1519b24cad"
+   }
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:dff497c4a78a"
+   }
+  },
+  {
+   "card": "Tezzeret, Artifice Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Artifice Master",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b9d1258f7c65"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:e21d729a3796"
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:2ee8cd73490c"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7b418fad2b47"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:6a992e3dc5f7"
+   }
+  },
+  {
+   "card": "Chromatic Orrery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:394e029ee348"
+   }
+  },
+  {
+   "card": "Aether Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Channeler",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1124-1543-2247",
+         "652-1543-2247"
+        ]
+       },
+       "add": "Aether Channeler",
+       "cut": "Teferi, Master of Time"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:209735389853"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:d2cd3560ce32"
+   }
+  },
+  {
+   "card": "Blazing Firesinger // Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:7df0404e1203"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Nicol Bolas, Dragon-God"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:38701bdcaa0e"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:d9279e11a2c7"
+   }
+  },
+  {
+   "card": "Tasha, the Witch Queen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tasha, the Witch Queen",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1124-1543-2247",
+         "652-1543-2247"
+        ]
+       },
+       "add": "Tasha, the Witch Queen",
+       "cut": "Teferi, Master of Time"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:3a0d2862128c"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:5c89a9fce117"
+   }
+  },
+  {
+   "card": "Goblin Glasswright // Craft with Pride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:6bf0d9c8acf5"
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:174e95ec534c"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:03b888de7065"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:3b9516de80bb"
+   }
+  },
+  {
+   "card": "Lithoform Engine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lithoform Engine",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lithoform Engine",
+       "cut": "Rings of Brighthearth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:72c5150fa061"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:50f1c6711eee"
+   }
+  },
+  {
+   "card": "Venser, Shaper Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Nicol Bolas, Dragon-God"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:0f8877213833"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:ee3cff9cc09f"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Mystical Tutor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Ripples of Potential"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:dfd6d240ddce"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:294350972508"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Nicol Bolas, Dragon-God"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:c414196f5e48"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:04dfbdbf9ee8"
+   }
+  },
+  {
+   "card": "Clockspinning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clockspinning",
+       "cut": "Mystical Tutor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clockspinning",
+       "cut": "Ripples of Potential"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:c050f3f75e76"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b585b98f59ab"
+   }
+  },
+  {
+   "card": "Brinelin, the Moon Kraken",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Nicol Bolas, Dragon-God"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:a12d7ac04109"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:72dd49456ea5"
+   }
+  },
+  {
+   "card": "Magistrate's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magistrate's Scepter",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magistrate's Scepter",
+       "cut": "Rings of Brighthearth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:2e4f3d3fca8b"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:faf997192ac3"
+   }
+  },
+  {
+   "card": "The Peregrine Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Peregrine Dynamo",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Peregrine Dynamo",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:0f07b48753d4"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:3ae8f6aa66c3"
+   }
+  },
+  {
+   "card": "Drafna, Founder of Lat-Nam",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drafna, Founder of Lat-Nam",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drafna, Founder of Lat-Nam",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:66a6a17062a3"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:8964c8ad08eb"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:0bf638b6c18e"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:bc958de90b0e"
+   }
+  },
+  {
+   "card": "Mystic Speculation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Speculation",
+       "cut": "The Elderspell"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Speculation",
+       "cut": "Tezzeret's Gambit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:b43644837eaf"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:c1e986d05897"
+   }
+  },
+  {
+   "card": "Myojin of Cryptic Dreams",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myojin of Cryptic Dreams",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myojin of Cryptic Dreams",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:5fa60fa7ab3a"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:5ef5a268a214"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:b2be2dd79142"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:c9f3e59c832f"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:fe348b8fc176"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:72762e3d5ac0"
+   }
+  },
+  {
+   "card": "Whim of Volrath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whim of Volrath",
+       "cut": "Mystical Tutor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whim of Volrath",
+       "cut": "Ripples of Potential"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:39b25ff0b2aa"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:cf60fca280d0"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:b76a36531ae9"
+   }
+  },
+  {
+   "card": "Chancellor of the Spires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:3acaf23e6a1e"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:04ee3f0ae433"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Sanctum Lurker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Dreamtide Whale"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas-the-ravager:m5:eea6479ac40a"
+    },
+    "swap": "swap:nicol-bolas-the-ravager:m5:91eb9765763c"
+   }
+  }
+ ],
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "slug": "nicol-bolas-the-ravager",
+ "swaps": [
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b93d90a444d4"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:4f60dd2ee00d"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Tezzeret's Gambit"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:272307edc979"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:ff9344439075"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Tezzeret's Gambit"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:326057162726"
+  },
+  {
+   "adds": [
+    "Nicol Bolas"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c08ff0d6cd4a"
+  },
+  {
+   "adds": [
+    "Crux of Fate"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bfd6d0924c8e"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7724521b33be"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0fe9c0bb51a1"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0594137b13ca"
+  },
+  {
+   "adds": [
+    "Waste Not"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3f225228ffce"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c459ef063914"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b98fa446ff65"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b6f1344f193e"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3c87c463a0f9"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:2add0cb73882"
+  },
+  {
+   "adds": [
+    "Thrummingbird"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:708d2844db78"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c832bc82c5e7"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bf79763035fc"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cdc2989fdabe"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:01858413102b"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rowan's Talent"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e615400de4a6"
+  },
+  {
+   "adds": [
+    "Interplanar Beacon"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6f45af493bfe"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0856fc5c0866"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bcbd1aca4395"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:96e1d19a96c3"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a05179c5f348"
+  },
+  {
+   "adds": [
+    "Ashiok, Dream Render"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a31b3dd2ad28"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e7a2b1f7b2cc"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7c37b747ca1a"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a26a148dfec1"
+  },
+  {
+   "adds": [
+    "Visage of Bolas"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:58e09a3f0687"
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:717adf363318"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5b7646fd0845"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bc6bfda8f1cd"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e46c26aa3ec8"
+  },
+  {
+   "adds": [
+    "Vronos, Masked Inquisitor"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:092833dde434"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:242c88eacbf7"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:922b68905f9e"
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:457ec7b6b2e8"
+  },
+  {
+   "adds": [
+    "Aetheric Amplifier"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4"
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:f9d9104ecd5b"
+  },
+  {
+   "adds": [
+    "Slave of Bolas"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8c9cba35db98"
+  },
+  {
+   "adds": [
+    "Geth's Grimoire"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1dbf3b431e50"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e30b3ea25664"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7b753920e821"
+  },
+  {
+   "adds": [
+    "Countersquall"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8ef18f4c4739"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7dfba554961d"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b905f3cc3eef"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7e007249c448"
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cdf3b11ee17f"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:100dece2fa84"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Teferi, Temporal Archmage"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:d03e0d7fc847"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1db3e4dd9021"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1851eb178798"
+  },
+  {
+   "adds": [
+    "Kasmina, Enigmatic Mentor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6b170ab3af1e"
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c984d39fdb7f"
+  },
+  {
+   "adds": [
+    "Angrath, the Flame-Chained"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:ec859e502989"
+  },
+  {
+   "adds": [
+    "Jace, Cunning Castaway"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:989e7e4f36e7"
+  },
+  {
+   "adds": [
+    "Jace, Cunning Castaway"
+   ],
+   "cuts": [
+    "Teferi, Master of Time"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:daa3e750759b"
+  },
+  {
+   "adds": [
+    "In Bolas's Clutches"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:4cfeb9c79d9b"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:eefb40551221"
+  },
+  {
+   "adds": [
+    "God-Pharaoh's Statue"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:680781d12696"
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b47327a9e2cb"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cf29e4146925"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7e30a5d77316"
+  },
+  {
+   "adds": [
+    "Liliana Vess"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b655c32435a2"
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:9e43cfb678dc"
+  },
+  {
+   "adds": [
+    "Deflecting Swat"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:f1132fba9cf9"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a078846f4444"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:60b7d3f99fd8"
+  },
+  {
+   "adds": [
+    "Jace, the Mind Sculptor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:120ab498a9b9"
+  },
+  {
+   "adds": [
+    "Liliana's Caress"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:49644a5fbfb8"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3b6e40f8c32e"
+  },
+  {
+   "adds": [
+    "Tinybones, Trinket Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:9949b4f25ce7"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3"
+  },
+  {
+   "adds": [
+    "Ral Zarek, Guest Lecturer"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:33126985aa28"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1923a9ba2a19"
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:13696dfe32c1"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:acfe5afb92b9"
+  },
+  {
+   "adds": [
+    "Gem of Becoming"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5362d69f5214"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8cabb1e5e254"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "The Elderspell"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7312545b9bf7"
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:f8b80c42faa8"
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:621beb640bbc"
+  },
+  {
+   "adds": [
+    "Honor the God-Pharaoh"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7c1519b24cad"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:dff497c4a78a"
+  },
+  {
+   "adds": [
+    "Tezzeret, Artifice Master"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b9d1258f7c65"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e21d729a3796"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:2ee8cd73490c"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7b418fad2b47"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6a992e3dc5f7"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:394e029ee348"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:d2cd3560ce32"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Teferi, Master of Time"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:209735389853"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7df0404e1203"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:d9279e11a2c7"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:38701bdcaa0e"
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5c89a9fce117"
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Teferi, Master of Time"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3a0d2862128c"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6bf0d9c8acf5"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:174e95ec534c"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3b9516de80bb"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:03b888de7065"
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:50f1c6711eee"
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:72c5150fa061"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:ee3cff9cc09f"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0f8877213833"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:294350972508"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Ripples of Potential"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:dfd6d240ddce"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:04dfbdbf9ee8"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c414196f5e48"
+  },
+  {
+   "adds": [
+    "Clockspinning"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b585b98f59ab"
+  },
+  {
+   "adds": [
+    "Clockspinning"
+   ],
+   "cuts": [
+    "Ripples of Potential"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c050f3f75e76"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:72dd49456ea5"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a12d7ac04109"
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:faf997192ac3"
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:2e4f3d3fca8b"
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3ae8f6aa66c3"
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0f07b48753d4"
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8964c8ad08eb"
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:66a6a17062a3"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bc958de90b0e"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0bf638b6c18e"
+  },
+  {
+   "adds": [
+    "Mystic Speculation"
+   ],
+   "cuts": [
+    "The Elderspell"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c1e986d05897"
+  },
+  {
+   "adds": [
+    "Mystic Speculation"
+   ],
+   "cuts": [
+    "Tezzeret's Gambit"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b43644837eaf"
+  },
+  {
+   "adds": [
+    "Myojin of Cryptic Dreams"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5ef5a268a214"
+  },
+  {
+   "adds": [
+    "Myojin of Cryptic Dreams"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5fa60fa7ab3a"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c9f3e59c832f"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b2be2dd79142"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:72762e3d5ac0"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:fe348b8fc176"
+  },
+  {
+   "adds": [
+    "Whim of Volrath"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cf60fca280d0"
+  },
+  {
+   "adds": [
+    "Whim of Volrath"
+   ],
+   "cuts": [
+    "Ripples of Potential"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:39b25ff0b2aa"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b76a36531ae9"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:04ee3f0ae433"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3acaf23e6a1e"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:91eb9765763c"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:eea6479ac40a"
+  }
+ ]
+}

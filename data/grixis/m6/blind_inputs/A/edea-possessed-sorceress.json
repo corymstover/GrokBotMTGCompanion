@@ -1,0 +1,6030 @@
+{
+ "candidates": [
+  {
+   "card": "The Beast, Deathless Prince",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Beast, Deathless Prince",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8f8158b031b5"
+   }
+  },
+  {
+   "card": "Garland, Royal Kidnapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Garland, Royal Kidnapper",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Garland, Royal Kidnapper",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:f77772ed196d"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:57b12214f26a"
+   }
+  },
+  {
+   "card": "Morbid Opportunist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Morbid Opportunist",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:487c089182ea"
+   }
+  },
+  {
+   "card": "Umbral Collar Zealot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Umbral Collar Zealot",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:27c183a63e50"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Industrial Advancement"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Grave Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:a83fd7c223b5"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:835b182082fa"
+   }
+  },
+  {
+   "card": "Nasty End",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nasty End",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:4c2a5a2f1c00"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:937b9efc17fa"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:87802e4653f9"
+   }
+  },
+  {
+   "card": "Loki's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki's Scepter",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:e368b27e8c84"
+   }
+  },
+  {
+   "card": "Fling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fling",
+       "cut": "Corrupted Conviction"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:eb8705028442"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:41989df5fd01"
+   }
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:3d96dcbed33f"
+   }
+  },
+  {
+   "card": "Chameleon, Master of Disguise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chameleon, Master of Disguise",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:3de43717633d"
+   }
+  },
+  {
+   "card": "Conjurer's Closet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conjurer's Closet",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:986063d78ad1"
+   }
+  },
+  {
+   "card": "Susur Secundi, Void Altar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Susur Secundi, Void Altar",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9d052cd234ae"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:e07ac9830bd0"
+   }
+  },
+  {
+   "card": "Domineering Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:fec476515d2d"
+   }
+  },
+  {
+   "card": "Etali, Primal Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etali, Primal Storm",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:0ae30054a1f7"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:788e9743075d"
+   }
+  },
+  {
+   "card": "Shadowheart, Dark Justiciar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowheart, Dark Justiciar",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:c65d2ee851d9"
+   }
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dauthi Voidwalker",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:81585422bd5f"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:0eaf2ad99f5e"
+   }
+  },
+  {
+   "card": "Mutinous Massacre",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Marchesa, the Black Rose",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marchesa, the Black Rose",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marchesa, the Black Rose",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:102b89494e13"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:7686127973a5"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:a5b602c25f73"
+   }
+  },
+  {
+   "card": "Irenicus's Vile Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:d40a7aa0b7bd"
+   }
+  },
+  {
+   "card": "Locke, Treasure Hunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Locke, Treasure Hunter",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:72ccac306e21"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:f37a5d51e914"
+   }
+  },
+  {
+   "card": "Agent of Treachery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agent of Treachery",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:5530d83e868c"
+   }
+  },
+  {
+   "card": "Dark Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Ritual",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:abea20b5e856"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:c9be9317ba83"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:307222971245"
+   }
+  },
+  {
+   "card": "Abyssal Harvester",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abyssal Harvester",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:84116c8d5001"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:09e3f96b4d73"
+   }
+  },
+  {
+   "card": "Laughing Jasper Flint",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laughing Jasper Flint",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:087a4b2f7a30"
+   }
+  },
+  {
+   "card": "Furnace Reins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Furnace Reins",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:397885b13cad"
+   }
+  },
+  {
+   "card": "Yawgmoth, Thran Physician",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yawgmoth, Thran Physician",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:4831e04f10eb"
+   }
+  },
+  {
+   "card": "Breath of Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breath of Fury",
+       "cut": "Industrial Advancement"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breath of Fury",
+       "cut": "Grave Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:98219c8d9230"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:5ec6297d47bf"
+   }
+  },
+  {
+   "card": "Hideous Taskmaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:4c96b310f47e"
+   }
+  },
+  {
+   "card": "Éomer, Marshal of Rohan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Éomer, Marshal of Rohan",
+       "cut": "Grim Haruspex"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:c6ac3d50a4d2"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9ab548f8d225"
+   }
+  },
+  {
+   "card": "Act of Treason",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Act of Treason",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9e8a3673066e"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:458b5d6939db"
+   }
+  },
+  {
+   "card": "The Soul Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Soul Stone",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:216bd5076c42"
+   }
+  },
+  {
+   "card": "Nowhere to Run",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nowhere to Run",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:68187c3a3fba"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:bb6cccd53a24"
+   }
+  },
+  {
+   "card": "Invert Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invert Polarity",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:a47fe7b087af"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8d5eb69ab9c1"
+   }
+  },
+  {
+   "card": "Oscorp Industries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oscorp Industries",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b464ceda9011"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Reins of Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Seifer, Balamb Rival",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Gravecrawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gravecrawler",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:169d541155b4"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:3418ea9a323c"
+   }
+  },
+  {
+   "card": "Reassembling Skeleton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reassembling Skeleton",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:ed4ae4f28f81"
+   }
+  },
+  {
+   "card": "Blazemire Verge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazemire Verge",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:529707fb6761"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:59ec5fa71cf9"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:e963335010bb"
+   }
+  },
+  {
+   "card": "Taskmaster, Mercenary Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Taskmaster, Mercenary Mimic",
+       "cut": "Grim Haruspex"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:89e05862f31b"
+   }
+  },
+  {
+   "card": "The Locust God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:2f80b37dbe1e"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:ebdef0d5f4a0"
+   }
+  },
+  {
+   "card": "Kitsa, Otterball Elite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsa, Otterball Elite",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsa, Otterball Elite",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:b840d42849b5"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:61a6e96f110c"
+   }
+  },
+  {
+   "card": "Gloomlake Verge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gloomlake Verge",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:f58c7bee1143"
+   }
+  },
+  {
+   "card": "Forsaken Miner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forsaken Miner",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:a4fcc687d826"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9f279afad6ca"
+   }
+  },
+  {
+   "card": "Claim the Firstborn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Claim the Firstborn",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:435a799b63d5"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:c4fd00934708"
+   }
+  },
+  {
+   "card": "Hostage Taker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hostage Taker",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:99da4f3fb168"
+   }
+  },
+  {
+   "card": "River Kelpie",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "River Kelpie",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "River Kelpie",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:493cbdbbf472"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:94fe5fc8c8dc"
+   }
+  },
+  {
+   "card": "Golgari Thug",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Golgari Thug",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8a386d9139be"
+   }
+  },
+  {
+   "card": "Quantum Misalignment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:6f772b1ade26"
+   }
+  },
+  {
+   "card": "Bloodsoaked Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8230b82e5cb5"
+   }
+  },
+  {
+   "card": "Carrion Feeder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carrion Feeder",
+       "cut": "Grim Haruspex"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:f437b2dafb68"
+   }
+  },
+  {
+   "card": "Oathsworn Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathsworn Vampire",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:a98a8b340d4a"
+   }
+  },
+  {
+   "card": "Rev, Tithe Extractor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rev, Tithe Extractor",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:dc30ad193e54"
+   }
+  },
+  {
+   "card": "Liliana, Untouched by Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana, Untouched by Death",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:7205bf059c0d"
+   }
+  },
+  {
+   "card": "Cult Conscript",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cult Conscript",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:02f693e71ea9"
+   }
+  },
+  {
+   "card": "Lesser Masticore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lesser Masticore",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lesser Masticore",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:1a2795367a39"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b825561d35cb"
+   }
+  },
+  {
+   "card": "Haunt of the Dead Marshes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunt of the Dead Marshes",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:f7ced47b3f0d"
+   }
+  },
+  {
+   "card": "Ozox, the Clattering King",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ozox, the Clattering King",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:67d462b690df"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8bea507e8363"
+   }
+  },
+  {
+   "card": "Joo Dee, One of Many",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Joo Dee, One of Many",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:fc589c1300b3"
+   }
+  },
+  {
+   "card": "Razorlash Transmogrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Razorlash Transmogrant",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:0206d6121131"
+   }
+  },
+  {
+   "card": "Scuttletide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scuttletide",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:42d60062d194"
+   }
+  },
+  {
+   "card": "Undead Sprinter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undead Sprinter",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:900801524bae"
+   }
+  },
+  {
+   "card": "Mortuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mortuary",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b5ba7c0fa01d"
+   }
+  },
+  {
+   "card": "Marang River Prowler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marang River Prowler",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b0d56686d344"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:e1f9ab8dafed"
+   }
+  },
+  {
+   "card": "Black Market Connections",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Market Connections",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9b3026cd1067"
+   }
+  },
+  {
+   "card": "Loki, God of Mischief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki, God of Mischief",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:514fc2fe8412"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:29740953398f"
+   }
+  },
+  {
+   "card": "The Horus Heresy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Horus Heresy",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:6c2846868ed8"
+   }
+  },
+  {
+   "card": "Professional Face-Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Professional Face-Breaker",
+       "cut": "Illuminor Szeras"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:d9b09b1f5c5b"
+   }
+  },
+  {
+   "card": "Sundial of the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sundial of the Infinite",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:194cba39c3bb"
+   }
+  },
+  {
+   "card": "Seize the Day",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Day",
+       "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:97d34dac9035"
+   }
+  },
+  {
+   "card": "Kari Zev's Expertise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kari Zev's Expertise",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:03806ed6c576"
+   }
+  },
+  {
+   "card": "Bribery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cascade Bluffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cascade Bluffs",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:bb1fb042bccc"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b65ba66bf89d"
+   }
+  },
+  {
+   "card": "Inside Information",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inside Information",
+       "cut": "Captivating Crew"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b6c8bc2b36d1"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:f2ed2a6829ed"
+   }
+  },
+  {
+   "card": "Act of Aggression",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Vengeful Possession",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vengeful Possession",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8e864d0aa204"
+   }
+  },
+  {
+   "card": "Graven Cairns",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Graven Cairns",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:52470fbf966b"
+   }
+  },
+  {
+   "card": "Riverpyre Verge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Riverpyre Verge",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:32c2e2327c23"
+   }
+  },
+  {
+   "card": "Sunken Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Ruins",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:3d752a3946fa"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:320485234958"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:4d5f56a4dc66"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:07cbfcdc11d6"
+   }
+  },
+  {
+   "card": "Smaug the Impenetrable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smaug the Impenetrable",
+       "cut": "Illuminor Szeras"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smaug the Impenetrable",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:c85dffd5ef32"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:3407109baa14"
+   }
+  },
+  {
+   "card": "Draconic Visitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Draconic Visitor",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Draconic Visitor",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:22564fd85a42"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9f638aa96c28"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:e107fba355c7"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:ff466050daf4"
+   }
+  },
+  {
+   "card": "Combat Celebrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combat Celebrant",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combat Celebrant",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:7fbe4b4d04d5"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:cd168e5d1518"
+   }
+  },
+  {
+   "card": "Scourge of the Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:d08537cf87cf"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:df8b24b16e7f"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:03db2fce1741"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:270a09211a11"
+   }
+  },
+  {
+   "card": "Stridehangar Automaton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stridehangar Automaton",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stridehangar Automaton",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:0e90684a24c5"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:2fd35bff4571"
+   }
+  },
+  {
+   "card": "Glen Elendra Archmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glen Elendra Archmage",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b6bf029885f4"
+   }
+  },
+  {
+   "card": "Unstoppable Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Industrial Advancement"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Grave Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:8a58f9be6ffc"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:eeb3793eff91"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:32275fc177b1"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:56e45707a5d0"
+   }
+  },
+  {
+   "card": "Pashalik Mons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pashalik Mons",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pashalik Mons",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:a7cc5a3d1db0"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:d7700e2c6249"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Industrial Advancement"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Grave Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:2b54ea9fd54d"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9ae97a8116f6"
+   }
+  },
+  {
+   "card": "Putrid Goblin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Putrid Goblin",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Putrid Goblin",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:28fb6fcded8e"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:2f9dacdc09c9"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:bbb754e36f5e"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:5f2787335006"
+   }
+  },
+  {
+   "card": "Akki Battle Squad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:20a239982ec9"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:c3813a7667c1"
+   }
+  },
+  {
+   "card": "Murderous Redcap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Murderous Redcap",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Murderous Redcap",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:02cfa97147ed"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:73bf7155866f"
+   }
+  },
+  {
+   "card": "Animation Module",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animation Module",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animation Module",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:1d7ac45a5302"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:1b3a4cdedcf3"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:ecc358c11e3e"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:4c9e8467c86b"
+   }
+  },
+  {
+   "card": "Stella Lee, Wild Card",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:ae84ec70ff40"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:66513b440edf"
+   }
+  },
+  {
+   "card": "Silverclad Ferocidons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silverclad Ferocidons",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silverclad Ferocidons",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:226df82876e6"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:5ee5109ada37"
+   }
+  },
+  {
+   "card": "Magistrate's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magistrate's Scepter",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magistrate's Scepter",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:2dc22b49a0e9"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9b0c64e143ee"
+   }
+  },
+  {
+   "card": "The Legend of Kuruk // Avatar Kuruk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Legend of Kuruk // Avatar Kuruk",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Legend of Kuruk // Avatar Kuruk",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:af6b634df06e"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:8a0ee8c44133"
+   }
+  },
+  {
+   "card": "Eternal Scourge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eternal Scourge",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eternal Scourge",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:cb3c58947734"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:4011b27ab1c2"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:775ab018bd8c"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:9fb1607e55eb"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:732c2730464c"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:54ffc4fd1c1a"
+   }
+  },
+  {
+   "card": "Magmatic Galleon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmatic Galleon",
+       "cut": "Illuminor Szeras"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmatic Galleon",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:a518aff3a99c"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:369c0a26981e"
+   }
+  },
+  {
+   "card": "Krenko, Baron of Tin Street",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krenko, Baron of Tin Street",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krenko, Baron of Tin Street",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:d79418ff69c1"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:12bc75b67650"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:6741b164523a"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:a8d37265ebcc"
+   }
+  },
+  {
+   "card": "Missy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Missy",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Missy",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:f942908cedfa"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:ec64942fe027"
+   }
+  },
+  {
+   "card": "Mishra, Eminent One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mishra, Eminent One",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mishra, Eminent One",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:e4d5f1b4547f"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:49a238de18b0"
+   }
+  },
+  {
+   "card": "Glitch Interpreter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glitch Interpreter",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glitch Interpreter",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:53db2cfd534c"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:7af9784fefbe"
+   }
+  },
+  {
+   "card": "Oathkeeper, Takeno's Daisho",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:bf5bd8719c3a"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:ae59d0e20ea5"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Illuminor Szeras"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Seize the Spotlight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:fda9a16434c3"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:597ed7fc52cb"
+   }
+  },
+  {
+   "card": "Summoning Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Summoning Station",
+       "cut": "Skullclamp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:acffb5d8656c"
+   }
+  },
+  {
+   "card": "Tenacious Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tenacious Dead",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tenacious Dead",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:e7558d448c70"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:c005afdb673e"
+   }
+  },
+  {
+   "card": "Raptor Hatchling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:80636b719e64"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:5cd74a4f8a64"
+   }
+  },
+  {
+   "card": "Magosi, the Waterveil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magosi, the Waterveil",
+       "cut": "Otawara, Soaring City"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:7bb94aa0c1cf"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:ff7e7789b0ad"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:b06f6e26e02a"
+   }
+  },
+  {
+   "card": "March of the Machines",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Industrial Advancement"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Grave Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:90b6cbcee27d"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:1224e6bfbbce"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:a0155632c171"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:4202e58f1d67"
+   }
+  },
+  {
+   "card": "Goblin Warrens",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Warrens",
+       "cut": "Industrial Advancement"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Warrens",
+       "cut": "Grave Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:e75d989c31b0"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:e2e8323b34b5"
+   }
+  },
+  {
+   "card": "Slick Imitator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slick Imitator",
+       "cut": "Grim Haruspex"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slick Imitator",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:eff1838ce44c"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:52d95a382f9b"
+   }
+  },
+  {
+   "card": "Sands of Time",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sands of Time",
+       "cut": "Skullclamp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sands of Time",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:edea-possessed-sorceress:m5:1c0b1fa06915"
+    },
+    "swap": "swap:edea-possessed-sorceress:m5:84810d40481a"
+   }
+  }
+ ],
+ "deck_id": "Edea__Possessed_Sorceress",
+ "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "slug": "edea-possessed-sorceress",
+ "swaps": [
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8f8158b031b5"
+  },
+  {
+   "adds": [
+    "Garland, Royal Kidnapper"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:57b12214f26a"
+  },
+  {
+   "adds": [
+    "Garland, Royal Kidnapper"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f77772ed196d"
+  },
+  {
+   "adds": [
+    "Morbid Opportunist"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:487c089182ea"
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:27c183a63e50"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:835b182082fa"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a83fd7c223b5"
+  },
+  {
+   "adds": [
+    "Nasty End"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4c2a5a2f1c00"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:87802e4653f9"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:937b9efc17fa"
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e368b27e8c84"
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Corrupted Conviction"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:eb8705028442"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:41989df5fd01"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3d96dcbed33f"
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3de43717633d"
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:986063d78ad1"
+  },
+  {
+   "adds": [
+    "Susur Secundi, Void Altar"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9d052cd234ae"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e07ac9830bd0"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:fec476515d2d"
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0ae30054a1f7"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:788e9743075d"
+  },
+  {
+   "adds": [
+    "Shadowheart, Dark Justiciar"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c65d2ee851d9"
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:81585422bd5f"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0eaf2ad99f5e"
+  },
+  {
+   "adds": [
+    "Marchesa, the Black Rose"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7686127973a5"
+  },
+  {
+   "adds": [
+    "Marchesa, the Black Rose"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:102b89494e13"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a5b602c25f73"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d40a7aa0b7bd"
+  },
+  {
+   "adds": [
+    "Locke, Treasure Hunter"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:72ccac306e21"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f37a5d51e914"
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5530d83e868c"
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:abea20b5e856"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c9be9317ba83"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:307222971245"
+  },
+  {
+   "adds": [
+    "Abyssal Harvester"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:84116c8d5001"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:09e3f96b4d73"
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:087a4b2f7a30"
+  },
+  {
+   "adds": [
+    "Furnace Reins"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:397885b13cad"
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4831e04f10eb"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5ec6297d47bf"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:98219c8d9230"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4c96b310f47e"
+  },
+  {
+   "adds": [
+    "Éomer, Marshal of Rohan"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c6ac3d50a4d2"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9ab548f8d225"
+  },
+  {
+   "adds": [
+    "Act of Treason"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9e8a3673066e"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:458b5d6939db"
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:216bd5076c42"
+  },
+  {
+   "adds": [
+    "Nowhere to Run"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:68187c3a3fba"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bb6cccd53a24"
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a47fe7b087af"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8d5eb69ab9c1"
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b464ceda9011"
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:169d541155b4"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3418ea9a323c"
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ed4ae4f28f81"
+  },
+  {
+   "adds": [
+    "Blazemire Verge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:529707fb6761"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:59ec5fa71cf9"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e963335010bb"
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:89e05862f31b"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ebdef0d5f4a0"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2f80b37dbe1e"
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:61a6e96f110c"
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b840d42849b5"
+  },
+  {
+   "adds": [
+    "Gloomlake Verge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f58c7bee1143"
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a4fcc687d826"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9f279afad6ca"
+  },
+  {
+   "adds": [
+    "Claim the Firstborn"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:435a799b63d5"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c4fd00934708"
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:99da4f3fb168"
+  },
+  {
+   "adds": [
+    "River Kelpie"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:94fe5fc8c8dc"
+  },
+  {
+   "adds": [
+    "River Kelpie"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:493cbdbbf472"
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8a386d9139be"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:6f772b1ade26"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8230b82e5cb5"
+  },
+  {
+   "adds": [
+    "Carrion Feeder"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f437b2dafb68"
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a98a8b340d4a"
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:dc30ad193e54"
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7205bf059c0d"
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:02f693e71ea9"
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b825561d35cb"
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1a2795367a39"
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f7ced47b3f0d"
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:67d462b690df"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8bea507e8363"
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:fc589c1300b3"
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0206d6121131"
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:42d60062d194"
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:900801524bae"
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b5ba7c0fa01d"
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b0d56686d344"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e1f9ab8dafed"
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9b3026cd1067"
+  },
+  {
+   "adds": [
+    "Loki, God of Mischief"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:514fc2fe8412"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:29740953398f"
+  },
+  {
+   "adds": [
+    "The Horus Heresy"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:6c2846868ed8"
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d9b09b1f5c5b"
+  },
+  {
+   "adds": [
+    "Sundial of the Infinite"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:194cba39c3bb"
+  },
+  {
+   "adds": [
+    "Seize the Day"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:97d34dac9035"
+  },
+  {
+   "adds": [
+    "Kari Zev's Expertise"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:03806ed6c576"
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bb1fb042bccc"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b65ba66bf89d"
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b6c8bc2b36d1"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f2ed2a6829ed"
+  },
+  {
+   "adds": [
+    "Vengeful Possession"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8e864d0aa204"
+  },
+  {
+   "adds": [
+    "Graven Cairns"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:52470fbf966b"
+  },
+  {
+   "adds": [
+    "Riverpyre Verge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:32c2e2327c23"
+  },
+  {
+   "adds": [
+    "Sunken Ruins"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3d752a3946fa"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:320485234958"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:07cbfcdc11d6"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4d5f56a4dc66"
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3407109baa14"
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c85dffd5ef32"
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9f638aa96c28"
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:22564fd85a42"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ff466050daf4"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e107fba355c7"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:cd168e5d1518"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7fbe4b4d04d5"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:df8b24b16e7f"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d08537cf87cf"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:270a09211a11"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:03db2fce1741"
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2fd35bff4571"
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0e90684a24c5"
+  },
+  {
+   "adds": [
+    "Glen Elendra Archmage"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b6bf029885f4"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:eeb3793eff91"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8a58f9be6ffc"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:56e45707a5d0"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:32275fc177b1"
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d7700e2c6249"
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a7cc5a3d1db0"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9ae97a8116f6"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2b54ea9fd54d"
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2f9dacdc09c9"
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:28fb6fcded8e"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5f2787335006"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bbb754e36f5e"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c3813a7667c1"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:20a239982ec9"
+  },
+  {
+   "adds": [
+    "Murderous Redcap"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:73bf7155866f"
+  },
+  {
+   "adds": [
+    "Murderous Redcap"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:02cfa97147ed"
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1b3a4cdedcf3"
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1d7ac45a5302"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4c9e8467c86b"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ecc358c11e3e"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:66513b440edf"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ae84ec70ff40"
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5ee5109ada37"
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:226df82876e6"
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9b0c64e143ee"
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2dc22b49a0e9"
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8a0ee8c44133"
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:af6b634df06e"
+  },
+  {
+   "adds": [
+    "Eternal Scourge"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4011b27ab1c2"
+  },
+  {
+   "adds": [
+    "Eternal Scourge"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:cb3c58947734"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9fb1607e55eb"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:775ab018bd8c"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:54ffc4fd1c1a"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:732c2730464c"
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:369c0a26981e"
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a518aff3a99c"
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:12bc75b67650"
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d79418ff69c1"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a8d37265ebcc"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:6741b164523a"
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ec64942fe027"
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f942908cedfa"
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:49a238de18b0"
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e4d5f1b4547f"
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7af9784fefbe"
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:53db2cfd534c"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ae59d0e20ea5"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bf5bd8719c3a"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:597ed7fc52cb"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:fda9a16434c3"
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:acffb5d8656c"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c005afdb673e"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e7558d448c70"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5cd74a4f8a64"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:80636b719e64"
+  },
+  {
+   "adds": [
+    "Magosi, the Waterveil"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7bb94aa0c1cf"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b06f6e26e02a"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ff7e7789b0ad"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1224e6bfbbce"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:90b6cbcee27d"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4202e58f1d67"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a0155632c171"
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e2e8323b34b5"
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e75d989c31b0"
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:52d95a382f9b"
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:eff1838ce44c"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:84810d40481a"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1c0b1fa06915"
+  }
+ ]
+}

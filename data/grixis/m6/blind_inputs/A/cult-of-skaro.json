@@ -1,0 +1,6006 @@
+{
+ "candidates": [
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:801dc4a3f6aa"
+    },
+    "swap": "swap:cult-of-skaro:m5:196f81b28f00"
+   }
+  },
+  {
+   "card": "Cryptothrall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptothrall",
+       "cut": "Deflecting Swat"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptothrall",
+       "cut": "Swiftfoot Boots"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:31a8ad9a7079"
+    },
+    "swap": "swap:cult-of-skaro:m5:40b65753231a"
+   }
+  },
+  {
+   "card": "Foundry Inspector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foundry Inspector",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foundry Inspector",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:76b9459d4d86"
+    },
+    "swap": "swap:cult-of-skaro:m5:77f7246e3d9a"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:9473abfe63cc"
+    },
+    "swap": "swap:cult-of-skaro:m5:d8a36846e8b4"
+   }
+  },
+  {
+   "card": "Cybermat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermat",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermat",
+       "cut": "Full Throttle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": [
+      "pkg:artifact-creature-army"
+     ]
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:bfbd65e3c564"
+    },
+    "swap": "swap:cult-of-skaro:m5:4f171fc42795"
+   }
+  },
+  {
+   "card": "Shaun, Father of Synths",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shaun, Father of Synths",
+       "cut": "Their Name Is Death"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:0dc566354f1e"
+   }
+  },
+  {
+   "card": "Quantum Misalignment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quantum Misalignment",
+       "cut": "Biotransference"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quantum Misalignment",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:08c74ca3772f"
+    },
+    "swap": "swap:cult-of-skaro:m5:c485016e9a19"
+   }
+  },
+  {
+   "card": "Ornithopter of Paradise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ornithopter of Paradise",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ornithopter of Paradise",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:50ec5e20b6a6"
+    },
+    "swap": "swap:cult-of-skaro:m5:ba3342f1c8de"
+   }
+  },
+  {
+   "card": "Weeping Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Weeping Angel",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Weeping Angel",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:62adc44b4ea5"
+    },
+    "swap": "swap:cult-of-skaro:m5:aa4ac9ddeede"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:dba8a49653a3"
+   }
+  },
+  {
+   "card": "Skorpekh Lord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skorpekh Lord",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skorpekh Lord",
+       "cut": "Full Throttle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:70d0090ef3b5"
+    },
+    "swap": "swap:cult-of-skaro:m5:1deeeec1c592"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:2ad310674cca"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:fe897b1d14db"
+   }
+  },
+  {
+   "card": "This Is How It Ends",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "This Is How It Ends",
+       "cut": "Biotransference"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:0ff86054f29d"
+   }
+  },
+  {
+   "card": "Chief of the Foundry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chief of the Foundry",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chief of the Foundry",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:120e11936d99"
+    },
+    "swap": "swap:cult-of-skaro:m5:958b6ad57230"
+   }
+  },
+  {
+   "card": "Death in Heaven",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Death in Heaven",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Death in Heaven",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:395626965396"
+    },
+    "swap": "swap:cult-of-skaro:m5:8c875568e560"
+   }
+  },
+  {
+   "card": "Jhoira, Weatherlight Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jhoira, Weatherlight Captain",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:588907b96388"
+   }
+  },
+  {
+   "card": "Mechanized Production",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mechanized Production",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mechanized Production",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:69a4c8e9dbff"
+    },
+    "swap": "swap:cult-of-skaro:m5:d61b58da738d"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:dd752935fcd0"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:6bec6e4b2c62"
+    },
+    "swap": "swap:cult-of-skaro:m5:c6b262fdc9f6"
+   }
+  },
+  {
+   "card": "Thoughtcast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thoughtcast",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1004a30fd810"
+   }
+  },
+  {
+   "card": "Unwinding Clock",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unwinding Clock",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unwinding Clock",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:15471f552b56"
+    },
+    "swap": "swap:cult-of-skaro:m5:21e5dc104007"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Biotransference"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:04ad3b52051f"
+   }
+  },
+  {
+   "card": "Reverse the Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reverse the Polarity",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:4dfa13b86751"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:d79d371f3f63"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:ebbcf2693a4a"
+    },
+    "swap": "swap:cult-of-skaro:m5:21b3f86dedb4"
+   }
+  },
+  {
+   "card": "Fabricate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabricate",
+       "cut": "Irenicus's Vile Duplication"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabricate",
+       "cut": "Full Throttle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:15f4ffa57703"
+    },
+    "swap": "swap:cult-of-skaro:m5:bc44ac070e90"
+   }
+  },
+  {
+   "card": "Cybership",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybership",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybership",
+       "cut": "Full Throttle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:3837c4bf4b02"
+    },
+    "swap": "swap:cult-of-skaro:m5:c7c8e3c3f94c"
+   }
+  },
+  {
+   "card": "Mirror Box",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror Box",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:501ff4a6f829"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:918e229fdf53"
+   }
+  },
+  {
+   "card": "The Master, Gallifrey's End",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Gallifrey's End",
+       "cut": "Biotransference"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1ea812bb51a6"
+   }
+  },
+  {
+   "card": "Impostor Syndrome",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Impostor Syndrome",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Impostor Syndrome",
+       "cut": "Full Throttle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:dd3bdc1bdd87"
+    },
+    "swap": "swap:cult-of-skaro:m5:62c3a56d8bdb"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:88c6095448d4"
+    },
+    "swap": "swap:cult-of-skaro:m5:7eef8c74434c"
+   }
+  },
+  {
+   "card": "Combat Celebrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combat Celebrant",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Combat Celebrant",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:8875bf5c9e4e"
+    },
+    "swap": "swap:cult-of-skaro:m5:dc282b5c5f73"
+   }
+  },
+  {
+   "card": "Irma, Part-Time Mutant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Irma, Part-Time Mutant",
+       "cut": "Ashad, the Lone Cyberman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:6fb24e7ee758"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:830e4babdc16"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:fb062dd3c905"
+   }
+  },
+  {
+   "card": "Great Intelligence's Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Intelligence's Plan",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:6c094be47a52"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:134028942b6b"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:70a0b0c188b9"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:59934f6517ff"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:b653c79de98c"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1fd3f6592979"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:be5a84696aa1"
+   }
+  },
+  {
+   "card": "Darksteel Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Citadel",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:33671dc48ae6"
+   }
+  },
+  {
+   "card": "Karlach, Fury of Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karlach, Fury of Avernus",
+       "cut": "Adaptive Omnitool"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:5955b4f37c8b"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:dcaf8764c7dc"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:5114ec57ea31"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Biotransference"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:2176448b7c86"
+   }
+  },
+  {
+   "card": "Darksteel Forge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Forge",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:3f1d7462eb4f"
+   }
+  },
+  {
+   "card": "Simulacrum Synthesizer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sonic Screwdriver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sonic Screwdriver",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:8c8109891fa7"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1d2a8566cb6f"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:68e4dfb1905e"
+   }
+  },
+  {
+   "card": "Cursed Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cursed Mirror",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:c4e682fed61d"
+   }
+  },
+  {
+   "card": "Snuff Out",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snuff Out",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1c62ad8ddd14"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:9b84ce8b3aec"
+   }
+  },
+  {
+   "card": "Multiversal Recruitment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Multiversal Recruitment",
+       "cut": "Biotransference"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:b352b97fb7f5"
+   }
+  },
+  {
+   "card": "Phyrexian Scriptures",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Scriptures",
+       "cut": "Their Name Is Death"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:d78da153b881"
+   }
+  },
+  {
+   "card": "Lithoform Engine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:2734a9c26bba"
+    },
+    "swap": "swap:cult-of-skaro:m5:13a672f6e46c"
+   }
+  },
+  {
+   "card": "Noxious Gearhulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Noxious Gearhulk",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:b75cebf8bb84"
+   }
+  },
+  {
+   "card": "Silver Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Brotherhood Regalia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brotherhood Regalia",
+       "cut": "Adaptive Omnitool"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1e3232ae1eb3"
+   }
+  },
+  {
+   "card": "There and Back Again",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "There and Back Again",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "There and Back Again",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:10940f4492a9"
+    },
+    "swap": "swap:cult-of-skaro:m5:7c75326eb6d1"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Their Name Is Death"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1ff9221b2fc0"
+   }
+  },
+  {
+   "card": "Silverbluff Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silverbluff Bridge",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1452f5d01392"
+   }
+  },
+  {
+   "card": "Mistvault Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mistvault Bridge",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:98a84ae4d7e2"
+   }
+  },
+  {
+   "card": "Mystic Forge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Godo, Bandit Warlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Godo, Bandit Warlord",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Godo, Bandit Warlord",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:f2ddf0ff21ef"
+    },
+    "swap": "swap:cult-of-skaro:m5:0a0b6e315e7a"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:5fd86cf120d6"
+   }
+  },
+  {
+   "card": "Leaden Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Vashta Nerada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vashta Nerada",
+       "cut": "Ashad, the Lone Cyberman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:26e7c38980dc"
+   }
+  },
+  {
+   "card": "Iron Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Iron Man, Bleeding Edge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iron Man, Bleeding Edge",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:79b7d9d659d4"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Archway of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archway of Innovation",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:be5934dd8581"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:684c1e93de68"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:47f130b6dd84"
+    },
+    "swap": "swap:cult-of-skaro:m5:4d8f1b81d4eb"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Three Steps Ahead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:b87b20359ef7"
+   }
+  },
+  {
+   "card": "Krang, Utrom Warlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krang, Utrom Warlord",
+       "cut": "Adaptive Omnitool"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:6d32a443b17d"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:16c2a3e9f761"
+    },
+    "swap": "swap:cult-of-skaro:m5:b694763d2212"
+   }
+  },
+  {
+   "card": "Ancient Copper Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:9daa89e0fe0c"
+    },
+    "swap": "swap:cult-of-skaro:m5:1d067f19b69b"
+   }
+  },
+  {
+   "card": "Creeping Tar Pit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creeping Tar Pit",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:5800d301628d"
+   }
+  },
+  {
+   "card": "Fateful Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fateful Discovery",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:3008448b0c0b"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:e1e85d202cc8"
+   }
+  },
+  {
+   "card": "Drossforge Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drossforge Bridge",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:df347b34956a"
+   }
+  },
+  {
+   "card": "Laser Screwdriver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Uthros, Titanic Godcore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uthros, Titanic Godcore",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:9198e0308700"
+   }
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:908323243c54"
+    },
+    "swap": "swap:cult-of-skaro:m5:49223b28d01e"
+   }
+  },
+  {
+   "card": "Scourge of the Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:f6de9b209c81"
+    },
+    "swap": "swap:cult-of-skaro:m5:6d1ddd4e72f3"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:548ca1acbbdb"
+    },
+    "swap": "swap:cult-of-skaro:m5:d43c472cd008"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:e7681e57c841"
+    },
+    "swap": "swap:cult-of-skaro:m5:0b1b68429fbd"
+   }
+  },
+  {
+   "card": "Ganax, Astral Hunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ganax, Astral Hunter",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ganax, Astral Hunter",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:66f5ffcebeb3"
+    },
+    "swap": "swap:cult-of-skaro:m5:425d06a34bca"
+   }
+  },
+  {
+   "card": "Scour for Scrap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scour for Scrap",
+       "cut": "Desynchronization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:75a4a3d17267"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:93c4580b47a9"
+   }
+  },
+  {
+   "card": "Port Razer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Port Razer",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Port Razer",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:7da8d8d52c13"
+    },
+    "swap": "swap:cult-of-skaro:m5:8e1c76c27c19"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Full Throttle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:8beb47c0e7c0"
+    },
+    "swap": "swap:cult-of-skaro:m5:bb73c8bc7999"
+   }
+  },
+  {
+   "card": "Fear of Missing Out",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fear of Missing Out",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:48f9d824f9e7"
+   }
+  },
+  {
+   "card": "Time Sieve",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Time Sieve",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:df62ab5e00c7"
+    },
+    "swap": "swap:cult-of-skaro:m5:296df25b5685"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:86ca0c09be4a"
+   }
+  },
+  {
+   "card": "Shadowblood Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowblood Ridge",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:6310caf6cb6f"
+   }
+  },
+  {
+   "card": "Howlsquad Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:a59c2c9cee95"
+    },
+    "swap": "swap:cult-of-skaro:m5:883bed071679"
+   }
+  },
+  {
+   "card": "Neheb, Dreadhorde Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1139f79cecc8"
+   }
+  },
+  {
+   "card": "Akki Battle Squad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:a3a80faf5509"
+    },
+    "swap": "swap:cult-of-skaro:m5:3a72e672fd1c"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:a11d834d2f56"
+    },
+    "swap": "swap:cult-of-skaro:m5:a56a0a8f9496"
+   }
+  },
+  {
+   "card": "Mithril Coat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mithril Coat",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:9eacfbb357c1"
+   }
+  },
+  {
+   "card": "Breath of Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breath of Fury",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Breath of Fury",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:43ad9d482f21"
+    },
+    "swap": "swap:cult-of-skaro:m5:07c3cc19ef13"
+   }
+  },
+  {
+   "card": "Blazing Sunsteel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:6970f4686e90"
+    },
+    "swap": "swap:cult-of-skaro:m5:70b3622712bf"
+   }
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:3d5289d870a7"
+    },
+    "swap": "swap:cult-of-skaro:m5:92a8cf58ea32"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:5abad034bdf4"
+    },
+    "swap": "swap:cult-of-skaro:m5:f4fe4089899d"
+   }
+  },
+  {
+   "card": "Echocasting Symposium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echocasting Symposium",
+       "cut": "Biotransference"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:b6236c0c90f9"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Ashad, the Lone Cyberman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:bd1823c6f358"
+   }
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:5ea309c34194"
+    },
+    "swap": "swap:cult-of-skaro:m5:97817fe0c559"
+   }
+  },
+  {
+   "card": "Shizo, Death's Storehouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shizo, Death's Storehouse",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:9bf535bcbe9c"
+   }
+  },
+  {
+   "card": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:bffae1f05a96"
+    },
+    "swap": "swap:cult-of-skaro:m5:b29525435500"
+   }
+  },
+  {
+   "card": "Kormus Bell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kormus Bell",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Kormus Bell",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:d8fa1b450deb"
+    },
+    "swap": "swap:cult-of-skaro:m5:dbe7640355aa"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:0ff544a0248f"
+    },
+    "swap": "swap:cult-of-skaro:m5:29867a6d9130"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:8de7071c98c6"
+   }
+  },
+  {
+   "card": "Spellbinder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spellbinder",
+       "cut": "Adaptive Omnitool"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Spellbinder",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:b4e8efd389ab"
+    },
+    "swap": "swap:cult-of-skaro:m5:55a20db93a04"
+   }
+  },
+  {
+   "card": "Clockwork Droid",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clockwork Droid",
+       "cut": "Adaptive Omnitool"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:143d3298c4a7"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:fa71ee96ee87"
+   }
+  },
+  {
+   "card": "Sands of Time",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sands of Time",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Sands of Time",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:8051a2ce3824"
+    },
+    "swap": "swap:cult-of-skaro:m5:1181158e8e19"
+   }
+  },
+  {
+   "card": "Ensnared by the Mara",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sycorax Commander",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sycorax Commander",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:70a3e3af1f92"
+   }
+  },
+  {
+   "card": "Fiery Islet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Islet",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:d5797cf5f6d7"
+   }
+  },
+  {
+   "card": "Crystal Skull, Isu Spyglass",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Urborg, Tomb of Yawgmoth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:352eb2fcee1b"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:ba82a6cf8b97"
+   }
+  },
+  {
+   "card": "Blightsteel Colossus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blightsteel Colossus",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:e4577023605a"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:b5d0b5c72932"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:839753559dba"
+    },
+    "swap": "swap:cult-of-skaro:m5:972343a9ff8f"
+   }
+  },
+  {
+   "card": "Unstoppable Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Biotransference"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:c0518c000b1a"
+    },
+    "swap": "swap:cult-of-skaro:m5:1e51933583fd"
+   }
+  },
+  {
+   "card": "Kitsa, Otterball Elite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsa, Otterball Elite",
+       "cut": "Missy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:1d29454362b0"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:f15a9d32a51e"
+    },
+    "swap": "swap:cult-of-skaro:m5:5c080d9f2c44"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:e504e0e7c8ed"
+    },
+    "swap": "swap:cult-of-skaro:m5:458918e13455"
+   }
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Biotransference"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:2afef5160a1e"
+    },
+    "swap": "swap:cult-of-skaro:m5:fb3297f9dbe7"
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:c2ab66e929ba"
+    },
+    "swap": "swap:cult-of-skaro:m5:4bcd34a0330f"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:cult-of-skaro:m5:3ab59f5806bd"
+   }
+  },
+  {
+   "card": "Stella Lee, Wild Card",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:c29acd540cc3"
+    },
+    "swap": "swap:cult-of-skaro:m5:3934eeb053b4"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:1f593da2ed41"
+    },
+    "swap": "swap:cult-of-skaro:m5:c40c3104d401"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:75d987a206f0"
+    },
+    "swap": "swap:cult-of-skaro:m5:f6e035f74fdb"
+   }
+  },
+  {
+   "card": "Alena, Kessig Trapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Great Train Heist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:e1c34c67ea6a"
+    },
+    "swap": "swap:cult-of-skaro:m5:a72fb351de67"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:77711c4841fc"
+    },
+    "swap": "swap:cult-of-skaro:m5:0a8cfeb2bd95"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:6d51e1c61ffd"
+    },
+    "swap": "swap:cult-of-skaro:m5:dd38d0ec65cf"
+   }
+  },
+  {
+   "card": "Elite Arcanist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Elite Arcanist",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Elite Arcanist",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:daeec2ce010e"
+    },
+    "swap": "swap:cult-of-skaro:m5:f2899f11e9e3"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Missy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Dalek Squadron"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:cult-of-skaro:m5:d657c82b3c58"
+    },
+    "swap": "swap:cult-of-skaro:m5:6a408cc880aa"
+   }
+  }
+ ],
+ "deck_id": "Cult_of_Skaro",
+ "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "slug": "cult-of-skaro",
+ "swaps": [
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:196f81b28f00"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:801dc4a3f6aa"
+  },
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:40b65753231a"
+  },
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Swiftfoot Boots"
+   ],
+   "id": "swap:cult-of-skaro:m5:31a8ad9a7079"
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:77f7246e3d9a"
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:76b9459d4d86"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:d8a36846e8b4"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:9473abfe63cc"
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:4f171fc42795"
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:bfbd65e3c564"
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:cult-of-skaro:m5:0dc566354f1e"
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:c485016e9a19"
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:08c74ca3772f"
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:ba3342f1c8de"
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:50ec5e20b6a6"
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:aa4ac9ddeede"
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:62adc44b4ea5"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:dba8a49653a3"
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:1deeeec1c592"
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:70d0090ef3b5"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:2ad310674cca"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:fe897b1d14db"
+  },
+  {
+   "adds": [
+    "This Is How It Ends"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:0ff86054f29d"
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:958b6ad57230"
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:120e11936d99"
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:8c875568e560"
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:395626965396"
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:588907b96388"
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:d61b58da738d"
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:69a4c8e9dbff"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:dd752935fcd0"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:c6b262fdc9f6"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:6bec6e4b2c62"
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:1004a30fd810"
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:21e5dc104007"
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:15471f552b56"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:04ad3b52051f"
+  },
+  {
+   "adds": [
+    "Reverse the Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:cult-of-skaro:m5:4dfa13b86751"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:d79d371f3f63"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:21b3f86dedb4"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:ebbcf2693a4a"
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Irenicus's Vile Duplication"
+   ],
+   "id": "swap:cult-of-skaro:m5:bc44ac070e90"
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:15f4ffa57703"
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:c7c8e3c3f94c"
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:3837c4bf4b02"
+  },
+  {
+   "adds": [
+    "Mirror Box"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:501ff4a6f829"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:918e229fdf53"
+  },
+  {
+   "adds": [
+    "The Master, Gallifrey's End"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:1ea812bb51a6"
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:62c3a56d8bdb"
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:dd3bdc1bdd87"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:7eef8c74434c"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:88c6095448d4"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:dc282b5c5f73"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:8875bf5c9e4e"
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:cult-of-skaro:m5:6fb24e7ee758"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:830e4babdc16"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:cult-of-skaro:m5:fb062dd3c905"
+  },
+  {
+   "adds": [
+    "Great Intelligence's Plan"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:6c094be47a52"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:134028942b6b"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:70a0b0c188b9"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:59934f6517ff"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:b653c79de98c"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:1fd3f6592979"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:be5a84696aa1"
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:33671dc48ae6"
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:5955b4f37c8b"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:dcaf8764c7dc"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:5114ec57ea31"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:2176448b7c86"
+  },
+  {
+   "adds": [
+    "Darksteel Forge"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:3f1d7462eb4f"
+  },
+  {
+   "adds": [
+    "Sonic Screwdriver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:8c8109891fa7"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:1d2a8566cb6f"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:68e4dfb1905e"
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:c4e682fed61d"
+  },
+  {
+   "adds": [
+    "Snuff Out"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:1c62ad8ddd14"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:9b84ce8b3aec"
+  },
+  {
+   "adds": [
+    "Multiversal Recruitment"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:b352b97fb7f5"
+  },
+  {
+   "adds": [
+    "Phyrexian Scriptures"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:cult-of-skaro:m5:d78da153b881"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:13a672f6e46c"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:2734a9c26bba"
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:b75cebf8bb84"
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:1e3232ae1eb3"
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:7c75326eb6d1"
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:10940f4492a9"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:cult-of-skaro:m5:1ff9221b2fc0"
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:1452f5d01392"
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:98a84ae4d7e2"
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:0a0b6e315e7a"
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:f2ddf0ff21ef"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:5fd86cf120d6"
+  },
+  {
+   "adds": [
+    "Vashta Nerada"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:cult-of-skaro:m5:26e7c38980dc"
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:79b7d9d659d4"
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:be5934dd8581"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:684c1e93de68"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:4d8f1b81d4eb"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:47f130b6dd84"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:b87b20359ef7"
+  },
+  {
+   "adds": [
+    "Krang, Utrom Warlord"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:6d32a443b17d"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:b694763d2212"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:16c2a3e9f761"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:1d067f19b69b"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:9daa89e0fe0c"
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:5800d301628d"
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:3008448b0c0b"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:e1e85d202cc8"
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:df347b34956a"
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:9198e0308700"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:49223b28d01e"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:908323243c54"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:6d1ddd4e72f3"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:f6de9b209c81"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:d43c472cd008"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:548ca1acbbdb"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:0b1b68429fbd"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:e7681e57c841"
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:425d06a34bca"
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:66f5ffcebeb3"
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Desynchronization"
+   ],
+   "id": "swap:cult-of-skaro:m5:75a4a3d17267"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:93c4580b47a9"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:8e1c76c27c19"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:7da8d8d52c13"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:bb73c8bc7999"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:8beb47c0e7c0"
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:48f9d824f9e7"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:296df25b5685"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:df62ab5e00c7"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:86ca0c09be4a"
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:6310caf6cb6f"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:883bed071679"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:a59c2c9cee95"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:1139f79cecc8"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:3a72e672fd1c"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:a3a80faf5509"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:a56a0a8f9496"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:a11d834d2f56"
+  },
+  {
+   "adds": [
+    "Mithril Coat"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:9eacfbb357c1"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:07c3cc19ef13"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:43ad9d482f21"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:70b3622712bf"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:6970f4686e90"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:92a8cf58ea32"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:3d5289d870a7"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:f4fe4089899d"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:5abad034bdf4"
+  },
+  {
+   "adds": [
+    "Echocasting Symposium"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:b6236c0c90f9"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:cult-of-skaro:m5:bd1823c6f358"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:97817fe0c559"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:5ea309c34194"
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:9bf535bcbe9c"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:b29525435500"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:bffae1f05a96"
+  },
+  {
+   "adds": [
+    "Kormus Bell"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:dbe7640355aa"
+  },
+  {
+   "adds": [
+    "Kormus Bell"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:d8fa1b450deb"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:29867a6d9130"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:0ff544a0248f"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:8de7071c98c6"
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:55a20db93a04"
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:b4e8efd389ab"
+  },
+  {
+   "adds": [
+    "Clockwork Droid"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:143d3298c4a7"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:cult-of-skaro:m5:fa71ee96ee87"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:1181158e8e19"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:8051a2ce3824"
+  },
+  {
+   "adds": [
+    "Sycorax Commander"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:70a3e3af1f92"
+  },
+  {
+   "adds": [
+    "Fiery Islet"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:d5797cf5f6d7"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:352eb2fcee1b"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:ba82a6cf8b97"
+  },
+  {
+   "adds": [
+    "Blightsteel Colossus"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:e4577023605a"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:b5d0b5c72932"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:972343a9ff8f"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:839753559dba"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:1e51933583fd"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:cult-of-skaro:m5:c0518c000b1a"
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:1d29454362b0"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:5c080d9f2c44"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:f15a9d32a51e"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:458918e13455"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:e504e0e7c8ed"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:fb3297f9dbe7"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:cult-of-skaro:m5:2afef5160a1e"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:4bcd34a0330f"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:c2ab66e929ba"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:3ab59f5806bd"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:3934eeb053b4"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:c29acd540cc3"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:c40c3104d401"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:1f593da2ed41"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:f6e035f74fdb"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:75d987a206f0"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:a72fb351de67"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:e1c34c67ea6a"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:0a8cfeb2bd95"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:77711c4841fc"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:dd38d0ec65cf"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:6d51e1c61ffd"
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:f2899f11e9e3"
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:daeec2ce010e"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:6a408cc880aa"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:d657c82b3c58"
+  }
+ ]
+}

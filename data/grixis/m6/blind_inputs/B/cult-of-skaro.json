@@ -1,0 +1,2907 @@
+{
+ "deck_id": "Cult_of_Skaro",
+ "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "slug": "cult-of-skaro",
+ "swaps": [
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:196f81b28f00",
+   "tests": [
+    "test:cult-of-skaro:goldfish:7922bf48cd2862bb"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:801dc4a3f6aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:40b65753231a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:854a9bf06cbe3ee4"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Swiftfoot Boots"
+   ],
+   "id": "swap:cult-of-skaro:m5:31a8ad9a7079",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0c959547d46779e5"
+   ]
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:77f7246e3d9a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:20a75ca774c6dbec"
+   ]
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:76b9459d4d86",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:d8a36846e8b4",
+   "tests": [
+    "test:cult-of-skaro:goldfish:41c8ddf9fb394a4c"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:9473abfe63cc",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6f451db6021ae2d6"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:4f171fc42795",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:bfbd65e3c564",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:cult-of-skaro:m5:0dc566354f1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:c485016e9a19",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:08c74ca3772f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:ba3342f1c8de",
+   "tests": [
+    "test:cult-of-skaro:goldfish:e95b290b08c308ca"
+   ]
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:50ec5e20b6a6",
+   "tests": [
+    "test:cult-of-skaro:goldfish:abce025795764d02"
+   ]
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:aa4ac9ddeede",
+   "tests": [
+    "test:cult-of-skaro:goldfish:e4aa8a544412bebb"
+   ]
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:62adc44b4ea5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:dba8a49653a3",
+   "tests": [
+    "test:cult-of-skaro:goldfish:8699e11d6c8d8804"
+   ]
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:1deeeec1c592",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:70d0090ef3b5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:2ad310674cca",
+   "tests": [
+    "test:cult-of-skaro:goldfish:b507f2f298ef3e31"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:fe897b1d14db",
+   "tests": [
+    "test:cult-of-skaro:goldfish:e7970ac6b4b15701"
+   ]
+  },
+  {
+   "adds": [
+    "This Is How It Ends"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:0ff86054f29d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:958b6ad57230",
+   "tests": [
+    "test:cult-of-skaro:goldfish:5a1ed7589c27043c"
+   ]
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:120e11936d99",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:8c875568e560",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6a2912aea7a626dc"
+   ]
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:395626965396",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:588907b96388",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:d61b58da738d",
+   "tests": [
+    "test:cult-of-skaro:goldfish:71a8dc90ab111eff"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:69a4c8e9dbff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:dd752935fcd0",
+   "tests": [
+    "test:cult-of-skaro:goldfish:06bb94a5929b17fb"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:c6b262fdc9f6",
+   "tests": [
+    "test:cult-of-skaro:goldfish:36943c1e2dbcd220"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:6bec6e4b2c62",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a6cf2d20785bdac1"
+   ]
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:1004a30fd810",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a65aeb2f9f9471a7"
+   ]
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:21e5dc104007",
+   "tests": [
+    "test:cult-of-skaro:goldfish:cbf9ce04b074a83e"
+   ]
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:15471f552b56",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:04ad3b52051f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reverse the Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:cult-of-skaro:m5:4dfa13b86751",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:d79d371f3f63",
+   "tests": [
+    "test:cult-of-skaro:goldfish:80bef15d7bb5f817"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:21b3f86dedb4",
+   "tests": [
+    "test:cult-of-skaro:goldfish:456764786476115a"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:ebbcf2693a4a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ed529cbad985540e"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Irenicus's Vile Duplication"
+   ],
+   "id": "swap:cult-of-skaro:m5:bc44ac070e90",
+   "tests": [
+    "test:cult-of-skaro:goldfish:17cecb546674ab74"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:15f4ffa57703",
+   "tests": [
+    "test:cult-of-skaro:goldfish:fda0f7c06b59ced2"
+   ]
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:c7c8e3c3f94c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:3837c4bf4b02",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mirror Box"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:501ff4a6f829",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:918e229fdf53",
+   "tests": [
+    "test:cult-of-skaro:goldfish:efc07d03f9558d5b"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Gallifrey's End"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:1ea812bb51a6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:62c3a56d8bdb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:dd3bdc1bdd87",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:7eef8c74434c",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6242aca6644842d6"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:88c6095448d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:dc282b5c5f73",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ee068e096a91d4bc"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:8875bf5c9e4e",
+   "tests": [
+    "test:cult-of-skaro:goldfish:3f1061f79c86e8aa"
+   ]
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:cult-of-skaro:m5:6fb24e7ee758",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:830e4babdc16",
+   "tests": [
+    "test:cult-of-skaro:goldfish:29fd2f37c748142d"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:cult-of-skaro:m5:fb062dd3c905",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Great Intelligence's Plan"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:6c094be47a52",
+   "tests": [
+    "test:cult-of-skaro:goldfish:64696c672e7e3f86"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:134028942b6b",
+   "tests": [
+    "test:cult-of-skaro:goldfish:bdde6c6f19bf1434"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:70a0b0c188b9",
+   "tests": [
+    "test:cult-of-skaro:goldfish:900b0a4b6c618b6e"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:59934f6517ff",
+   "tests": [
+    "test:cult-of-skaro:goldfish:7b5d1537046960b8"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:b653c79de98c",
+   "tests": [
+    "test:cult-of-skaro:goldfish:670293448c57be63"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:1fd3f6592979",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c1518a086f7033ce"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:be5a84696aa1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:33671dc48ae6",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ae94ad1429a4e889"
+   ]
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:5955b4f37c8b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:dcaf8764c7dc",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0054db2239c479a3"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:5114ec57ea31",
+   "tests": [
+    "test:cult-of-skaro:goldfish:58bc9703d96d8231"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:2176448b7c86",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darksteel Forge"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:3f1d7462eb4f",
+   "tests": [
+    "test:cult-of-skaro:goldfish:1c1f61f1fbb83daf"
+   ]
+  },
+  {
+   "adds": [
+    "Sonic Screwdriver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:8c8109891fa7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:e64b06948d4eb4b6"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:1d2a8566cb6f",
+   "tests": [
+    "test:cult-of-skaro:goldfish:dd4143f020cef972"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:68e4dfb1905e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:c4e682fed61d",
+   "tests": [
+    "test:cult-of-skaro:goldfish:08c7e269ad671ca1"
+   ]
+  },
+  {
+   "adds": [
+    "Snuff Out"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:1c62ad8ddd14",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:9b84ce8b3aec",
+   "tests": [
+    "test:cult-of-skaro:goldfish:604d0afe9fed1f5b"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Recruitment"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:b352b97fb7f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Scriptures"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:cult-of-skaro:m5:d78da153b881",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:13a672f6e46c",
+   "tests": [
+    "test:cult-of-skaro:goldfish:127e3ccd21c0abff"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:2734a9c26bba",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0629af2cc2b4db02"
+   ]
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:b75cebf8bb84",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:1e3232ae1eb3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:7c75326eb6d1",
+   "tests": [
+    "test:cult-of-skaro:goldfish:1d1970fdef864763"
+   ]
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:10940f4492a9",
+   "tests": [
+    "test:cult-of-skaro:goldfish:eca53345a768577a"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:cult-of-skaro:m5:1ff9221b2fc0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:1452f5d01392",
+   "tests": [
+    "test:cult-of-skaro:goldfish:569df043e895e3fb"
+   ]
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:98a84ae4d7e2",
+   "tests": [
+    "test:cult-of-skaro:goldfish:41566728d32cc518"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:0a0b6e315e7a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:4812e892d534de4a"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:f2ddf0ff21ef",
+   "tests": [
+    "test:cult-of-skaro:goldfish:03ac86be1a84af5f"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:5fd86cf120d6",
+   "tests": [
+    "test:cult-of-skaro:goldfish:82b98ad384f59d93"
+   ]
+  },
+  {
+   "adds": [
+    "Vashta Nerada"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:cult-of-skaro:m5:26e7c38980dc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:79b7d9d659d4",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ba481d882670a103"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:be5934dd8581",
+   "tests": [
+    "test:cult-of-skaro:goldfish:82c5c1b9e651c846"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:684c1e93de68",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c189a292bb321ba1"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:4d8f1b81d4eb",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ab18ba7244e3c88d"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:47f130b6dd84",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6e9df172b56eeca2"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:b87b20359ef7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c30a04e20eb567ba"
+   ]
+  },
+  {
+   "adds": [
+    "Krang, Utrom Warlord"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:6d32a443b17d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:b694763d2212",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6d92014cb2fa3452"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:16c2a3e9f761",
+   "tests": [
+    "test:cult-of-skaro:goldfish:1501cb4432c955c8"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:1d067f19b69b",
+   "tests": [
+    "test:cult-of-skaro:goldfish:08ffea6b1ffd4617"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:9daa89e0fe0c",
+   "tests": [
+    "test:cult-of-skaro:goldfish:65b2dfdc5c88096c"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:5800d301628d",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c18bee3fa06a934a"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:3008448b0c0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:e1e85d202cc8",
+   "tests": [
+    "test:cult-of-skaro:goldfish:e2280618df76782a"
+   ]
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:df347b34956a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:19592e50aa85e0c2"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:9198e0308700",
+   "tests": [
+    "test:cult-of-skaro:goldfish:fd750e4e99ae56dd"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:49223b28d01e",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f3110fc1b0369c9c"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:908323243c54",
+   "tests": [
+    "test:cult-of-skaro:goldfish:45cbf15dfa3cf2be"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:6d1ddd4e72f3",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a5181389af1736f9"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:f6de9b209c81",
+   "tests": [
+    "test:cult-of-skaro:goldfish:457d38d50c1b2bb4"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:d43c472cd008",
+   "tests": [
+    "test:cult-of-skaro:goldfish:aea0c50b8845110d"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:548ca1acbbdb",
+   "tests": [
+    "test:cult-of-skaro:goldfish:1e4df3ebf281750f"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:0b1b68429fbd",
+   "tests": [
+    "test:cult-of-skaro:goldfish:aa2051b1c9347da3"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:e7681e57c841",
+   "tests": [
+    "test:cult-of-skaro:goldfish:8fed79938dadaa3a"
+   ]
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:425d06a34bca",
+   "tests": [
+    "test:cult-of-skaro:goldfish:75cb7e8e81f0515a"
+   ]
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:66f5ffcebeb3",
+   "tests": [
+    "test:cult-of-skaro:goldfish:cc9f59d97e8b7efc"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Desynchronization"
+   ],
+   "id": "swap:cult-of-skaro:m5:75a4a3d17267",
+   "tests": [
+    "test:cult-of-skaro:goldfish:9e6dd5c43f6b9c78"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:93c4580b47a9",
+   "tests": [
+    "test:cult-of-skaro:goldfish:53d0aa217b4a8fcf"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:8e1c76c27c19",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6b3e328f177cc6ab"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:7da8d8d52c13",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ad49851e03d70bc2"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:bb73c8bc7999",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0d32ee8036497fc6"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Full Throttle"
+   ],
+   "id": "swap:cult-of-skaro:m5:8beb47c0e7c0",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f388169293e6ae17"
+   ]
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:48f9d824f9e7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:93902cd23660950c"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:296df25b5685",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f775dd6f6c042996"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:df62ab5e00c7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c2be5aa4c3f274cc"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:86ca0c09be4a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:96ac1f3e08216dba"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:6310caf6cb6f",
+   "tests": [
+    "test:cult-of-skaro:goldfish:13adb7093d4a856c"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:883bed071679",
+   "tests": [
+    "test:cult-of-skaro:goldfish:cd0c196aa92ad4b7"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:a59c2c9cee95",
+   "tests": [
+    "test:cult-of-skaro:goldfish:518a4aea6729516d"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:1139f79cecc8",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f51ad412e60a6bd7"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:3a72e672fd1c",
+   "tests": [
+    "test:cult-of-skaro:goldfish:7d23be491752c615"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:a3a80faf5509",
+   "tests": [
+    "test:cult-of-skaro:goldfish:45ef3fb8e9c9fab3"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:a56a0a8f9496",
+   "tests": [
+    "test:cult-of-skaro:goldfish:d6ad98a3a2e37ab1"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:a11d834d2f56",
+   "tests": [
+    "test:cult-of-skaro:goldfish:8f45c17671c31c18"
+   ]
+  },
+  {
+   "adds": [
+    "Mithril Coat"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:cult-of-skaro:m5:9eacfbb357c1",
+   "tests": [
+    "test:cult-of-skaro:goldfish:36b65cb1d0857476"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:07c3cc19ef13",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ea23fa694e7af6be"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:43ad9d482f21",
+   "tests": [
+    "test:cult-of-skaro:goldfish:05c0ad619d1edd4f"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:70b3622712bf",
+   "tests": [
+    "test:cult-of-skaro:goldfish:ee610542ad4a5ca0"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:6970f4686e90",
+   "tests": [
+    "test:cult-of-skaro:goldfish:db45a4e013f5436a"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:92a8cf58ea32",
+   "tests": [
+    "test:cult-of-skaro:goldfish:53a4fa3da46ea473"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:3d5289d870a7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:68ebbe1fcfbf5227"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:f4fe4089899d",
+   "tests": [
+    "test:cult-of-skaro:goldfish:e90b0ea4e902be0c"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:5abad034bdf4",
+   "tests": [
+    "test:cult-of-skaro:goldfish:016cec79fd5428b4"
+   ]
+  },
+  {
+   "adds": [
+    "Echocasting Symposium"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:b6236c0c90f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:cult-of-skaro:m5:bd1823c6f358",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c2ee442173309a98"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:97817fe0c559",
+   "tests": [
+    "test:cult-of-skaro:goldfish:682965b84b932c08"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:5ea309c34194",
+   "tests": [
+    "test:cult-of-skaro:goldfish:4d1ba926bad6847f"
+   ]
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:9bf535bcbe9c",
+   "tests": [
+    "test:cult-of-skaro:goldfish:042efdef1c36cebd"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:b29525435500",
+   "tests": [
+    "test:cult-of-skaro:goldfish:31b0d210aa10ecaf"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:bffae1f05a96",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6fc63987514df28b"
+   ]
+  },
+  {
+   "adds": [
+    "Kormus Bell"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:dbe7640355aa",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f041e4c8c45892a1"
+   ]
+  },
+  {
+   "adds": [
+    "Kormus Bell"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:d8fa1b450deb",
+   "tests": [
+    "test:cult-of-skaro:goldfish:24b21913db80f175"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:29867a6d9130",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a5cc19e9c2d1a108"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:0ff544a0248f",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0fbd250474235ecc"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:8de7071c98c6",
+   "tests": [
+    "test:cult-of-skaro:goldfish:1d98acd313324be9"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:55a20db93a04",
+   "tests": [
+    "test:cult-of-skaro:goldfish:b574a3693f0fa3aa"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:b4e8efd389ab",
+   "tests": [
+    "test:cult-of-skaro:goldfish:7c882d6ff93cbcbf"
+   ]
+  },
+  {
+   "adds": [
+    "Clockwork Droid"
+   ],
+   "cuts": [
+    "Adaptive Omnitool"
+   ],
+   "id": "swap:cult-of-skaro:m5:143d3298c4a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:cult-of-skaro:m5:fa71ee96ee87",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:1181158e8e19",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6817a632f46aebd3"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:cult-of-skaro:m5:8051a2ce3824",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a75403a1b596beb7"
+   ]
+  },
+  {
+   "adds": [
+    "Sycorax Commander"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:70a3e3af1f92",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Islet"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:d5797cf5f6d7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f8eb221ec60e5bfc"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:cult-of-skaro:m5:352eb2fcee1b",
+   "tests": [
+    "test:cult-of-skaro:goldfish:829f2bf606666d57"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:ba82a6cf8b97",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blightsteel Colossus"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:e4577023605a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:c0f5871108516e72"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:b5d0b5c72932",
+   "tests": [
+    "test:cult-of-skaro:goldfish:7fd9095c1b2d48a9"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:972343a9ff8f",
+   "tests": [
+    "test:cult-of-skaro:goldfish:d6feee958ae9c7cc"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:839753559dba",
+   "tests": [
+    "test:cult-of-skaro:goldfish:8a8beb2078071483"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:1e51933583fd",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6329c0593fc3d112"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:cult-of-skaro:m5:c0518c000b1a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0dbc3881341bde5a"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:1d29454362b0",
+   "tests": [
+    "test:cult-of-skaro:goldfish:bd2171e80cecae43"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:5c080d9f2c44",
+   "tests": [
+    "test:cult-of-skaro:goldfish:d03dbef7e56dcd8b"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:f15a9d32a51e",
+   "tests": [
+    "test:cult-of-skaro:goldfish:1600b8fff5203306"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:458918e13455",
+   "tests": [
+    "test:cult-of-skaro:goldfish:0fd86dfe9b0c56b3"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:e504e0e7c8ed",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a6f9b2b348ce46e9"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:cult-of-skaro:m5:fb3297f9dbe7",
+   "tests": [
+    "test:cult-of-skaro:goldfish:3cb4c58e36fced40"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:cult-of-skaro:m5:2afef5160a1e",
+   "tests": [
+    "test:cult-of-skaro:goldfish:6475ab49412e1fc9"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:4bcd34a0330f",
+   "tests": [
+    "test:cult-of-skaro:goldfish:338fe3f2c07cadf4"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:c2ab66e929ba",
+   "tests": [
+    "test:cult-of-skaro:goldfish:29c9ec33f2590df0"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:cult-of-skaro:m5:3ab59f5806bd",
+   "tests": [
+    "test:cult-of-skaro:goldfish:30c5d7f2f9d85d0d"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:3934eeb053b4",
+   "tests": [
+    "test:cult-of-skaro:goldfish:2ac0445f958462cc"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:c29acd540cc3",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a1f9f72be0e6f333"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:c40c3104d401",
+   "tests": [
+    "test:cult-of-skaro:goldfish:8c541a426a10a9b5"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:1f593da2ed41",
+   "tests": [
+    "test:cult-of-skaro:goldfish:7749ca8c597c6a37"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:f6e035f74fdb",
+   "tests": [
+    "test:cult-of-skaro:goldfish:171e0c6d004a84d6"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:75d987a206f0",
+   "tests": [
+    "test:cult-of-skaro:goldfish:41965f6dba3f06a7"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:cult-of-skaro:m5:a72fb351de67",
+   "tests": [
+    "test:cult-of-skaro:goldfish:f95690bed41d54c4"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Great Train Heist"
+   ],
+   "id": "swap:cult-of-skaro:m5:e1c34c67ea6a",
+   "tests": [
+    "test:cult-of-skaro:goldfish:08965da960c3cec8"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:0a8cfeb2bd95",
+   "tests": [
+    "test:cult-of-skaro:goldfish:fa41dfacd737cb53"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:77711c4841fc",
+   "tests": [
+    "test:cult-of-skaro:goldfish:57cde61c3bd35650"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:dd38d0ec65cf",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a2a93a1991c6ae01"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:6d51e1c61ffd",
+   "tests": [
+    "test:cult-of-skaro:goldfish:25be10597f875f7a"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:f2899f11e9e3",
+   "tests": [
+    "test:cult-of-skaro:goldfish:19b6770c8bdd0949"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:daeec2ce010e",
+   "tests": [
+    "test:cult-of-skaro:goldfish:686c6e57b7576998"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Missy"
+   ],
+   "id": "swap:cult-of-skaro:m5:6a408cc880aa",
+   "tests": [
+    "test:cult-of-skaro:goldfish:a64a18151ca91d05"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dalek Squadron"
+   ],
+   "id": "swap:cult-of-skaro:m5:d657c82b3c58",
+   "tests": [
+    "test:cult-of-skaro:goldfish:3ee8a7408a9f6c90"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:cult-of-skaro:goldfish:7922bf48cd2862bb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:854a9bf06cbe3ee4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0c959547d46779e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:20a75ca774c6dbec",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:41c8ddf9fb394a4c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6f451db6021ae2d6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:e95b290b08c308ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:abce025795764d02",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:e4aa8a544412bebb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:8699e11d6c8d8804",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:b507f2f298ef3e31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:e7970ac6b4b15701",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:5a1ed7589c27043c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6a2912aea7a626dc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:71a8dc90ab111eff",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:06bb94a5929b17fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:36943c1e2dbcd220",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a6cf2d20785bdac1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a65aeb2f9f9471a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:cbf9ce04b074a83e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:80bef15d7bb5f817",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:456764786476115a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ed529cbad985540e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:17cecb546674ab74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:fda0f7c06b59ced2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:efc07d03f9558d5b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6242aca6644842d6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ee068e096a91d4bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:3f1061f79c86e8aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:29fd2f37c748142d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:64696c672e7e3f86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:bdde6c6f19bf1434",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:900b0a4b6c618b6e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:7b5d1537046960b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:670293448c57be63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c1518a086f7033ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ae94ad1429a4e889",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0054db2239c479a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:58bc9703d96d8231",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:1c1f61f1fbb83daf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:e64b06948d4eb4b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:dd4143f020cef972",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:08c7e269ad671ca1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:604d0afe9fed1f5b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:127e3ccd21c0abff",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0629af2cc2b4db02",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:1d1970fdef864763",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:eca53345a768577a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:569df043e895e3fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:41566728d32cc518",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:4812e892d534de4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:03ac86be1a84af5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:82b98ad384f59d93",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ba481d882670a103",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:82c5c1b9e651c846",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c189a292bb321ba1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ab18ba7244e3c88d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6e9df172b56eeca2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c30a04e20eb567ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6d92014cb2fa3452",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:1501cb4432c955c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:08ffea6b1ffd4617",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:65b2dfdc5c88096c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c18bee3fa06a934a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:e2280618df76782a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:19592e50aa85e0c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:fd750e4e99ae56dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f3110fc1b0369c9c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:45cbf15dfa3cf2be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a5181389af1736f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:457d38d50c1b2bb4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:aea0c50b8845110d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:1e4df3ebf281750f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:aa2051b1c9347da3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:8fed79938dadaa3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:75cb7e8e81f0515a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:cc9f59d97e8b7efc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:9e6dd5c43f6b9c78",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:53d0aa217b4a8fcf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6b3e328f177cc6ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ad49851e03d70bc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0d32ee8036497fc6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f388169293e6ae17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:93902cd23660950c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f775dd6f6c042996",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c2be5aa4c3f274cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:96ac1f3e08216dba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:13adb7093d4a856c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:cd0c196aa92ad4b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:518a4aea6729516d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f51ad412e60a6bd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:7d23be491752c615",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:45ef3fb8e9c9fab3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:d6ad98a3a2e37ab1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:8f45c17671c31c18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:36b65cb1d0857476",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ea23fa694e7af6be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:05c0ad619d1edd4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:ee610542ad4a5ca0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:db45a4e013f5436a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:53a4fa3da46ea473",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:68ebbe1fcfbf5227",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:e90b0ea4e902be0c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:016cec79fd5428b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c2ee442173309a98",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:682965b84b932c08",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:4d1ba926bad6847f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:042efdef1c36cebd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:31b0d210aa10ecaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6fc63987514df28b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f041e4c8c45892a1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:24b21913db80f175",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a5cc19e9c2d1a108",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0fbd250474235ecc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:1d98acd313324be9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:b574a3693f0fa3aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:7c882d6ff93cbcbf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6817a632f46aebd3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a75403a1b596beb7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f8eb221ec60e5bfc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:829f2bf606666d57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:c0f5871108516e72",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:7fd9095c1b2d48a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:d6feee958ae9c7cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:8a8beb2078071483",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6329c0593fc3d112",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0dbc3881341bde5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:bd2171e80cecae43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:d03dbef7e56dcd8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:1600b8fff5203306",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:0fd86dfe9b0c56b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a6f9b2b348ce46e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:3cb4c58e36fced40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:6475ab49412e1fc9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:338fe3f2c07cadf4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:29c9ec33f2590df0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:30c5d7f2f9d85d0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:2ac0445f958462cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a1f9f72be0e6f333",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:8c541a426a10a9b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:7749ca8c597c6a37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:171e0c6d004a84d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:41965f6dba3f06a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:f95690bed41d54c4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:08965da960c3cec8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:fa41dfacd737cb53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:57cde61c3bd35650",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a2a93a1991c6ae01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:25be10597f875f7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:19b6770c8bdd0949",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:686c6e57b7576998",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:a64a18151ca91d05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cult-of-skaro:goldfish:3ee8a7408a9f6c90",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

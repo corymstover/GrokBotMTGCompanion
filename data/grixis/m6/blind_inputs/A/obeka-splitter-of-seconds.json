@@ -1,0 +1,4030 @@
+{
+ "candidates": [
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:72150fe99dfc"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Dragonfire Blade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:522e73bce1cc"
+   }
+  },
+  {
+   "card": "Lizard Blades",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lizard Blades",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:4e574d9b820f"
+   }
+  },
+  {
+   "card": "Aether Tunnel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Tunnel",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:32a76c4dc2f2"
+   }
+  },
+  {
+   "card": "Generous Plunderer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Generous Plunderer",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:07198e525ca7"
+   }
+  },
+  {
+   "card": "Descent into Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Descent into Avernus",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Descent into Avernus",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:b57ca39affc6"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:c5863883cb78"
+   }
+  },
+  {
+   "card": "Trailblazer's Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trailblazer's Boots",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:76be826f10f4"
+   }
+  },
+  {
+   "card": "Rilsa Rael, Kingpin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:cde61fd54626"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:1b71da57c0d3"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:2801738f8ce3"
+   }
+  },
+  {
+   "card": "Skyline Despot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skyline Despot",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skyline Despot",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:61f998e193d5"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d6aa7aa77a3c"
+   }
+  },
+  {
+   "card": "Indulgent Tormentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Indulgent Tormentor",
+       "cut": "Combat Research"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5085-5471"
+        ]
+       },
+       "add": "Indulgent Tormentor",
+       "cut": "Thopter Spy Network"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:3f14aea293e6"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:fd56efd27cb4"
+   }
+  },
+  {
+   "card": "Caves of Chaos Adventurer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Palace Siege",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5085-5471"
+        ]
+       },
+       "add": "Palace Siege",
+       "cut": "Thopter Spy Network"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:02b272a9f54e"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Braids, Conjurer Adept",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Braids, Conjurer Adept",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Braids, Conjurer Adept",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:1129a4f4b82b"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:340e830d8b8c"
+   }
+  },
+  {
+   "card": "Alexios, Deimos of Kosmos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alexios, Deimos of Kosmos",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:f6c97b5edcfb"
+   }
+  },
+  {
+   "card": "Star Whale",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:435bc85f66be"
+   }
+  },
+  {
+   "card": "Winged Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Winged Boots",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Winged Boots",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:ba18b35c896e"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:900334e820e9"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d78a7dfe0566"
+   }
+  },
+  {
+   "card": "Enter the Enigma",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Enigma",
+       "cut": "Combat Research"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:8d1be067db38"
+   }
+  },
+  {
+   "card": "Access Tunnel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Access Tunnel",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:a3d31f305797"
+   }
+  },
+  {
+   "card": "The Ninth Doctor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:f66e722d9ae5"
+   }
+  },
+  {
+   "card": "Midnight Clock",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Midnight Clock",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:319e717b862a"
+   }
+  },
+  {
+   "card": "Vorrac Battlehorns",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:61f25f0960f4"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:f674d40cf607"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:c92fd64a6108"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Laughing Jasper Flint",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laughing Jasper Flint",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laughing Jasper Flint",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:39e01fe92d05"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:61b93cf2da5f"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:5a18bb76db4d"
+   }
+  },
+  {
+   "card": "Aggravated Assault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3"
+   }
+  },
+  {
+   "card": "Sheoldred, Whispering One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, Whispering One",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:9b2418881f89"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d1f4781c58de"
+   }
+  },
+  {
+   "card": "Scrawling Crawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrawling Crawler",
+       "cut": "Combat Research"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:944902e63b57"
+   }
+  },
+  {
+   "card": "Lavaspur Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lavaspur Boots",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:4ce94c424b80"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:30a5e305da8c"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:c2401b9efccd"
+   }
+  },
+  {
+   "card": "Inevitable Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inevitable Betrayal",
+       "cut": "Demonic Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:9d9b2f555910"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d8a747e35502"
+   }
+  },
+  {
+   "card": "Sol Talisman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sol Talisman",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:fd0ba1108b71"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:cab063e576d9"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:9ee9e229ad68"
+   }
+  },
+  {
+   "card": "Ravenloft Adventurer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shaun, Father of Synths",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:4a0b0071eb1a"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:28bd59f0e617"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Combat Research"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:a75908e0ca7a"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:9b342b0139a1"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:1070b8e93aef"
+   }
+  },
+  {
+   "card": "Blackblade Reforged",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Doom's Time Platform",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doom's Time Platform",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:eadd4797d984"
+   }
+  },
+  {
+   "card": "Slip Out the Back",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slip Out the Back",
+       "cut": "Hatred"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:4139a7eb0669"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:1204d414b993"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:7f9a495aacf3"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:b7e53dca9096"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d12476f329b1"
+   }
+  },
+  {
+   "card": "Blood Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Venser's Journal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Robe of the Archmagi",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Robe of the Archmagi",
+       "cut": "Combat Research"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:f6f9816e82d0"
+   }
+  },
+  {
+   "card": "Reverse the Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reverse the Polarity",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:0388c3ce48d5"
+   }
+  },
+  {
+   "card": "Karlach, Fury of Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karlach, Fury of Avernus",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:af78ad9859cd"
+   }
+  },
+  {
+   "card": "The Tenth Doctor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Tenth Doctor",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Tenth Doctor",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:47d81d8b4258"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3"
+   }
+  },
+  {
+   "card": "Reality Strobe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reality Strobe",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:b03e2a25379c"
+   }
+  },
+  {
+   "card": "Leyline Axe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leyline Axe",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:5d8cfca69550"
+   }
+  },
+  {
+   "card": "Fireshrieker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fireshrieker",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:e44e243c5b90"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:458842ea3369"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:a22251b2332a"
+   }
+  },
+  {
+   "card": "Ant-Man, Elusive Avenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ant-Man, Elusive Avenger",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Ant-Man, Elusive Avenger",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:0d1ceac7062e"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:0f06e04e9b87"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:521f32c81bd5"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:182b22bc5998"
+   }
+  },
+  {
+   "card": "Tomb of Horrors Adventurer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Black Gate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Black Gate",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:db7f9a0c9105"
+   }
+  },
+  {
+   "card": "Myr Battlesphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myr Battlesphere",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:a98897bb7f5b"
+   }
+  },
+  {
+   "card": "Genji Glove",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Genji Glove",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:5f239b2b7517"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:05f4d7377672"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:7e8e3c390134"
+   }
+  },
+  {
+   "card": "Cybermen Squadron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermen Squadron",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:df9fbc236335"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13"
+   }
+  },
+  {
+   "card": "Great Train Heist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Train Heist",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:124a679d9e9b"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:2d59d087a92d"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Hoard Hauler",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:31aef19ee8ec"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5"
+   }
+  },
+  {
+   "card": "Edward Kenway",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Edward Kenway",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Edward Kenway",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:995e3e457e95"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:1b186d9678d6"
+   }
+  },
+  {
+   "card": "Piper Wright, Publick Reporter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Piper Wright, Publick Reporter",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe"
+   }
+  },
+  {
+   "card": "Exsanguinator Cavalry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exsanguinator Cavalry",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:2819b72e8da4"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:faf75d115ce2"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d3a787e7aee0"
+   }
+  },
+  {
+   "card": "Olivia's Attendants",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia's Attendants",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:9c97f2f62e65"
+   }
+  },
+  {
+   "card": "Wanderwine Prophets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wanderwine Prophets",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:e8b8603f3f02"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:18724ca8a8ec"
+   }
+  },
+  {
+   "card": "Inquisitor Eisenhorn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inquisitor Eisenhorn",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:229db20a565d"
+   }
+  },
+  {
+   "card": "Mox Tantalite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mox Tantalite",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:ff4b22c1ca02"
+   }
+  },
+  {
+   "card": "Minas Morgul, Dark Fortress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Minas Morgul, Dark Fortress",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:71e778c3f711"
+   }
+  },
+  {
+   "card": "Prowler's Helm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prowler's Helm",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:8774dadfb6c2"
+   }
+  },
+  {
+   "card": "Sarevok's Tome",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Kang Prime",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kang Prime",
+       "cut": "Ring of Valkas"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:4b739e620733"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:ef5ec43757fa"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:2981dfc32e51"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:29ce1740b2ca"
+   }
+  },
+  {
+   "card": "Sinister Concierge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sinister Concierge",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:4747ff780850"
+   }
+  },
+  {
+   "card": "Academy Manufactor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Academy Manufactor",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5471-7348"
+        ]
+       },
+       "add": "Academy Manufactor",
+       "cut": "Replicating Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:76402f37e370"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d26d107e8a2a"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6"
+   }
+  },
+  {
+   "card": "Inventors' Fair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inventors' Fair",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:e9cdc0fc566f"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Hatred"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:5383220fed4a"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:c346c44e9f45"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:43b83e67bd13"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:da0d4534e384"
+   }
+  },
+  {
+   "card": "Thopter Assembly",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thopter Assembly",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thopter Assembly",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:96a143c2ba2d"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:6cf9af09ca33"
+   }
+  },
+  {
+   "card": "Rift Elemental",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rift Elemental",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rift Elemental",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:50ee6db120ae"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:5294cbf5ec27"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:d69d379dd632"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:687d50eaef75"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:314370e1398a"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:d92089306a81"
+   }
+  },
+  {
+   "card": "Second Chance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Second Chance",
+       "cut": "Paradox Haze"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1558-5085-5471"
+        ]
+       },
+       "add": "Second Chance",
+       "cut": "Thopter Spy Network"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:019597b53427"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:2383c2973a38"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Bonehoard Dracosaur"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-splitter-of-seconds:m5:160d0a5e5c41"
+    },
+    "swap": "swap:obeka-splitter-of-seconds:m5:0e338835ef82"
+   }
+  }
+ ],
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "slug": "obeka-splitter-of-seconds",
+ "swaps": [
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:72150fe99dfc"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Dragonfire Blade"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:522e73bce1cc"
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4e574d9b820f"
+  },
+  {
+   "adds": [
+    "Aether Tunnel"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:32a76c4dc2f2"
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:07198e525ca7"
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c5863883cb78"
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:b57ca39affc6"
+  },
+  {
+   "adds": [
+    "Trailblazer's Boots"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:76be826f10f4"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1b71da57c0d3"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:cde61fd54626"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2801738f8ce3"
+  },
+  {
+   "adds": [
+    "Skyline Despot"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d6aa7aa77a3c"
+  },
+  {
+   "adds": [
+    "Skyline Despot"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:61f998e193d5"
+  },
+  {
+   "adds": [
+    "Indulgent Tormentor"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:fd56efd27cb4"
+  },
+  {
+   "adds": [
+    "Indulgent Tormentor"
+   ],
+   "cuts": [
+    "Thopter Spy Network"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:3f14aea293e6"
+  },
+  {
+   "adds": [
+    "Palace Siege"
+   ],
+   "cuts": [
+    "Thopter Spy Network"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:02b272a9f54e"
+  },
+  {
+   "adds": [
+    "Braids, Conjurer Adept"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:340e830d8b8c"
+  },
+  {
+   "adds": [
+    "Braids, Conjurer Adept"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1129a4f4b82b"
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f6c97b5edcfb"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:435bc85f66be"
+  },
+  {
+   "adds": [
+    "Winged Boots"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:900334e820e9"
+  },
+  {
+   "adds": [
+    "Winged Boots"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:ba18b35c896e"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d78a7dfe0566"
+  },
+  {
+   "adds": [
+    "Enter the Enigma"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:8d1be067db38"
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a3d31f305797"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f66e722d9ae5"
+  },
+  {
+   "adds": [
+    "Midnight Clock"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:319e717b862a"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:61f25f0960f4"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f674d40cf607"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c92fd64a6108"
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:61b93cf2da5f"
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:39e01fe92d05"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5a18bb76db4d"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3"
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9b2418881f89"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d1f4781c58de"
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:944902e63b57"
+  },
+  {
+   "adds": [
+    "Lavaspur Boots"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4ce94c424b80"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:30a5e305da8c"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c2401b9efccd"
+  },
+  {
+   "adds": [
+    "Inevitable Betrayal"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9d9b2f555910"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d8a747e35502"
+  },
+  {
+   "adds": [
+    "Sol Talisman"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:fd0ba1108b71"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:cab063e576d9"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9ee9e229ad68"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:28bd59f0e617"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4a0b0071eb1a"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a75908e0ca7a"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9b342b0139a1"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1070b8e93aef"
+  },
+  {
+   "adds": [
+    "Doom's Time Platform"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:eadd4797d984"
+  },
+  {
+   "adds": [
+    "Slip Out the Back"
+   ],
+   "cuts": [
+    "Hatred"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4139a7eb0669"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1204d414b993"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7f9a495aacf3"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:b7e53dca9096"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d12476f329b1"
+  },
+  {
+   "adds": [
+    "Robe of the Archmagi"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f6f9816e82d0"
+  },
+  {
+   "adds": [
+    "Reverse the Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0388c3ce48d5"
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:af78ad9859cd"
+  },
+  {
+   "adds": [
+    "The Tenth Doctor"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3"
+  },
+  {
+   "adds": [
+    "The Tenth Doctor"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:47d81d8b4258"
+  },
+  {
+   "adds": [
+    "Reality Strobe"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:b03e2a25379c"
+  },
+  {
+   "adds": [
+    "Leyline Axe"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5d8cfca69550"
+  },
+  {
+   "adds": [
+    "Fireshrieker"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e44e243c5b90"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:458842ea3369"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a22251b2332a"
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0f06e04e9b87"
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0d1ceac7062e"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:182b22bc5998"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:521f32c81bd5"
+  },
+  {
+   "adds": [
+    "The Black Gate"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:db7f9a0c9105"
+  },
+  {
+   "adds": [
+    "Myr Battlesphere"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a98897bb7f5b"
+  },
+  {
+   "adds": [
+    "Genji Glove"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5f239b2b7517"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:05f4d7377672"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7e8e3c390134"
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:df9fbc236335"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13"
+  },
+  {
+   "adds": [
+    "Great Train Heist"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:124a679d9e9b"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2d59d087a92d"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:31aef19ee8ec"
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1b186d9678d6"
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:995e3e457e95"
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe"
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2819b72e8da4"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d3a787e7aee0"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:faf75d115ce2"
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9c97f2f62e65"
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e8b8603f3f02"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:18724ca8a8ec"
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:229db20a565d"
+  },
+  {
+   "adds": [
+    "Mox Tantalite"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:ff4b22c1ca02"
+  },
+  {
+   "adds": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:71e778c3f711"
+  },
+  {
+   "adds": [
+    "Prowler's Helm"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:8774dadfb6c2"
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4b739e620733"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:ef5ec43757fa"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2981dfc32e51"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:29ce1740b2ca"
+  },
+  {
+   "adds": [
+    "Sinister Concierge"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4747ff780850"
+  },
+  {
+   "adds": [
+    "Academy Manufactor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d26d107e8a2a"
+  },
+  {
+   "adds": [
+    "Academy Manufactor"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:76402f37e370"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6"
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e9cdc0fc566f"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Hatred"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5383220fed4a"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c346c44e9f45"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:da0d4534e384"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:43b83e67bd13"
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:6cf9af09ca33"
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:96a143c2ba2d"
+  },
+  {
+   "adds": [
+    "Rift Elemental"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5294cbf5ec27"
+  },
+  {
+   "adds": [
+    "Rift Elemental"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:50ee6db120ae"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:687d50eaef75"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d69d379dd632"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d92089306a81"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:314370e1398a"
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Paradox Haze"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2383c2973a38"
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Thopter Spy Network"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:019597b53427"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0e338835ef82"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:160d0a5e5c41"
+  }
+ ]
+}

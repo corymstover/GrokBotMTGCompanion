@@ -1,0 +1,3048 @@
+{
+ "candidates": [
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:ba95c9373e33"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:12c4b4321f82"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:7b0a61fed7d0"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:6fedda408834"
+   }
+  },
+  {
+   "card": "Goblin Electromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:bae62ff0bd97"
+    },
+    "swap": "swap:the-valeyard:m5:c7e72298388d"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:70c878f5351d"
+    },
+    "swap": "swap:the-valeyard:m5:c526a4e6dddf"
+   }
+  },
+  {
+   "card": "Seize the Spotlight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Spotlight",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:f5b00876a95f"
+   }
+  },
+  {
+   "card": "Prisoner's Dilemma",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prisoner's Dilemma",
+       "cut": "Bite of the Black Rose"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prisoner's Dilemma",
+       "cut": "Quantum Misalignment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:9dba909f5686"
+    },
+    "swap": "swap:the-valeyard:m5:f4a0be56615a"
+   }
+  },
+  {
+   "card": "Tempt with Mayhem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tempt with Mayhem",
+       "cut": "Brainstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:84f8d8a88343"
+   }
+  },
+  {
+   "card": "Sadistic Shell Game",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sadistic Shell Game",
+       "cut": "Bite of the Black Rose"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sadistic Shell Game",
+       "cut": "Quantum Misalignment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:7a8bb27409f3"
+    },
+    "swap": "swap:the-valeyard:m5:1fdaa4d3b9e5"
+   }
+  },
+  {
+   "card": "Dalek Squadron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dalek Squadron",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dalek Squadron",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:c97a06af80be"
+    },
+    "swap": "swap:the-valeyard:m5:8fdf0c5d9dcd"
+   }
+  },
+  {
+   "card": "Dalek Drone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dalek Drone",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:b29d0fa78d93"
+   }
+  },
+  {
+   "card": "Exterminate!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exterminate!",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:d7d24d5525e6"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:6e731094ffda"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:0d0d761ef074"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:dfe419a6ff0b"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:44bf5b54893c"
+   }
+  },
+  {
+   "card": "Trenzalore Clocktower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trenzalore Clocktower",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:0982c04cb846"
+   }
+  },
+  {
+   "card": "Cyberman Patrol",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyberman Patrol",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:39d3fb9def30"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:a386377ac3c9"
+   }
+  },
+  {
+   "card": "Cyber Conversion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyber Conversion",
+       "cut": "Brainstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:cd60f7eca566"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:a4f13086dc41"
+   }
+  },
+  {
+   "card": "Death in Heaven",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Death in Heaven",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:addb51577794"
+   }
+  },
+  {
+   "card": "Fatespinner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fatespinner",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:eee1cc7bd07e"
+   }
+  },
+  {
+   "card": "Return the Favor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Return the Favor",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:d788f44f43ac"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:f51aec8a56ca"
+   }
+  },
+  {
+   "card": "The Toymaker's Trap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Toymaker's Trap",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:72f2f52ef874"
+   }
+  },
+  {
+   "card": "Weeping Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Weeping Angel",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:1b831b9f4e1f"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:6379f5a9aef4"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:2834c4374092"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:daba1581f0a8"
+   }
+  },
+  {
+   "card": "Doomsday Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doomsday Confluence",
+       "cut": "Bite of the Black Rose"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:2a1ef336042b"
+   }
+  },
+  {
+   "card": "The Cyber-Controller",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Cyber-Controller",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:e31819139119"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:57189c53ea5a"
+   }
+  },
+  {
+   "card": "Tempting Contract",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cybermen Squadron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermen Squadron",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:d30c681a9cb2"
+   }
+  },
+  {
+   "card": "Choice of Damnations",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Thunderclap Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thunderclap Drake",
+       "cut": "Kess, Dissident Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:0b5a5a949c93"
+   }
+  },
+  {
+   "card": "Double Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Double Vision",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:d19cc3b797fb"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:2ee2305d6be5"
+   }
+  },
+  {
+   "card": "Archmage of Runes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage of Runes",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:b81e4947f448"
+   }
+  },
+  {
+   "card": "Irenicus's Vile Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Irenicus's Vile Duplication",
+       "cut": "Bite of the Black Rose"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:6d14f674bdf6"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:8f70a3dd5ead"
+   }
+  },
+  {
+   "card": "Flatline",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flatline",
+       "cut": "Brainstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:47a882675f51"
+   }
+  },
+  {
+   "card": "Disrupt Decorum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disrupt Decorum",
+       "cut": "Bite of the Black Rose"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:011329da09ac"
+   }
+  },
+  {
+   "card": "Shadowblood Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowblood Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:2527cb9a0cc0"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:1590a0f1ea8c"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:665ee975b178"
+   }
+  },
+  {
+   "card": "Nanogene Conversion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nanogene Conversion",
+       "cut": "Bite of the Black Rose"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:915b734f9e72"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:095bdbc52900"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:7f7fb5b9c0e7"
+   }
+  },
+  {
+   "card": "Wheel of Misfortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Misfortune",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:d60018ab0787"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:affba4b9a10c"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:8a667dab1f30"
+   }
+  },
+  {
+   "card": "Laser Screwdriver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:204864c1e74d"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:f3f416a4cc61"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:fc1f8b2e50f3"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherize",
+       "cut": "Blasphemous Act"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:bfcfd4681feb"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:7426e0f05e60"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:0ff62692d6f2"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:7cbb8a97f0ba"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:bf011ab33c85"
+   }
+  },
+  {
+   "card": "Underworld Breach",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:7fd8006a491b"
+    },
+    "swap": "swap:the-valeyard:m5:fea3497a9290"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:3f9d3bb75051"
+    },
+    "swap": "swap:the-valeyard:m5:69d762871cd3"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:9aad6be4a315"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:da59bcc1b8c2"
+    },
+    "swap": "swap:the-valeyard:m5:06e34a6823ba"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:f8f227ecdc26"
+    },
+    "swap": "swap:the-valeyard:m5:63c2c3ec2eef"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:377a32aa802b"
+    },
+    "swap": "swap:the-valeyard:m5:4d40f559328a"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:ea84e14dcbdf"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:376edddb9d30"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:da8bd14dce2b"
+    },
+    "swap": "swap:the-valeyard:m5:0057a443df46"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:3f7150d572cb"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:89901eca21b4"
+    },
+    "swap": "swap:the-valeyard:m5:f809c16a2cba"
+   }
+  },
+  {
+   "card": "Panoptic Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Panoptic Mirror",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Panoptic Mirror",
+       "cut": "Auton Soldier"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:18b900656cad"
+    },
+    "swap": "swap:the-valeyard:m5:65af7da21494"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:a6d556679eb6"
+    },
+    "swap": "swap:the-valeyard:m5:edea7c6aee7d"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:e729ef466626"
+    },
+    "swap": "swap:the-valeyard:m5:be15d53a19aa"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:f9ca4cb91063"
+    },
+    "swap": "swap:the-valeyard:m5:6341cfff8f67"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Kess, Dissident Mage"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Dr. Eggman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-valeyard:m5:ceea06bbb4f2"
+    },
+    "swap": "swap:the-valeyard:m5:d035e16ebbeb"
+   }
+  },
+  {
+   "card": "Tempt with Reflections",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tempt with Reflections",
+       "cut": "Bite of the Black Rose"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-valeyard:m5:50d1ae87635e"
+   }
+  }
+ ],
+ "deck_id": "The_Valeyard",
+ "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "slug": "the-valeyard",
+ "swaps": [
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:ba95c9373e33"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:12c4b4321f82"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:7b0a61fed7d0"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:6fedda408834"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:c7e72298388d"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:bae62ff0bd97"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:c526a4e6dddf"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:70c878f5351d"
+  },
+  {
+   "adds": [
+    "Seize the Spotlight"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:f5b00876a95f"
+  },
+  {
+   "adds": [
+    "Prisoner's Dilemma"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:f4a0be56615a"
+  },
+  {
+   "adds": [
+    "Prisoner's Dilemma"
+   ],
+   "cuts": [
+    "Quantum Misalignment"
+   ],
+   "id": "swap:the-valeyard:m5:9dba909f5686"
+  },
+  {
+   "adds": [
+    "Tempt with Mayhem"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:the-valeyard:m5:84f8d8a88343"
+  },
+  {
+   "adds": [
+    "Sadistic Shell Game"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:1fdaa4d3b9e5"
+  },
+  {
+   "adds": [
+    "Sadistic Shell Game"
+   ],
+   "cuts": [
+    "Quantum Misalignment"
+   ],
+   "id": "swap:the-valeyard:m5:7a8bb27409f3"
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:8fdf0c5d9dcd"
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:c97a06af80be"
+  },
+  {
+   "adds": [
+    "Dalek Drone"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:b29d0fa78d93"
+  },
+  {
+   "adds": [
+    "Exterminate!"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:d7d24d5525e6"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:6e731094ffda"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:0d0d761ef074"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:dfe419a6ff0b"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:44bf5b54893c"
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:0982c04cb846"
+  },
+  {
+   "adds": [
+    "Cyberman Patrol"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:39d3fb9def30"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:a386377ac3c9"
+  },
+  {
+   "adds": [
+    "Cyber Conversion"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:the-valeyard:m5:cd60f7eca566"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:a4f13086dc41"
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:addb51577794"
+  },
+  {
+   "adds": [
+    "Fatespinner"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:eee1cc7bd07e"
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-valeyard:m5:d788f44f43ac"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:the-valeyard:m5:f51aec8a56ca"
+  },
+  {
+   "adds": [
+    "The Toymaker's Trap"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:72f2f52ef874"
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:1b831b9f4e1f"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:6379f5a9aef4"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:2834c4374092"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:daba1581f0a8"
+  },
+  {
+   "adds": [
+    "Doomsday Confluence"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:2a1ef336042b"
+  },
+  {
+   "adds": [
+    "The Cyber-Controller"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:e31819139119"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:57189c53ea5a"
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:d30c681a9cb2"
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:0b5a5a949c93"
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:d19cc3b797fb"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:2ee2305d6be5"
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:b81e4947f448"
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:6d14f674bdf6"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:8f70a3dd5ead"
+  },
+  {
+   "adds": [
+    "Flatline"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:the-valeyard:m5:47a882675f51"
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:011329da09ac"
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:2527cb9a0cc0"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:1590a0f1ea8c"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-valeyard:m5:665ee975b178"
+  },
+  {
+   "adds": [
+    "Nanogene Conversion"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:915b734f9e72"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:095bdbc52900"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:7f7fb5b9c0e7"
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:d60018ab0787"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:affba4b9a10c"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:8a667dab1f30"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:204864c1e74d"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:f3f416a4cc61"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:fc1f8b2e50f3"
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:the-valeyard:m5:bfcfd4681feb"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:7426e0f05e60"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:0ff62692d6f2"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:7cbb8a97f0ba"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:bf011ab33c85"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:fea3497a9290"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:the-valeyard:m5:7fd8006a491b"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:69d762871cd3"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:3f9d3bb75051"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:9aad6be4a315"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:06e34a6823ba"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:da59bcc1b8c2"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:63c2c3ec2eef"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:f8f227ecdc26"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:4d40f559328a"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:the-valeyard:m5:377a32aa802b"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:ea84e14dcbdf"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:376edddb9d30"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:0057a443df46"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:da8bd14dce2b"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:3f7150d572cb"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:f809c16a2cba"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:89901eca21b4"
+  },
+  {
+   "adds": [
+    "Panoptic Mirror"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:65af7da21494"
+  },
+  {
+   "adds": [
+    "Panoptic Mirror"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:the-valeyard:m5:18b900656cad"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:edea7c6aee7d"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:a6d556679eb6"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:be15d53a19aa"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:e729ef466626"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:6341cfff8f67"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:f9ca4cb91063"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:d035e16ebbeb"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:ceea06bbb4f2"
+  },
+  {
+   "adds": [
+    "Tempt with Reflections"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:50d1ae87635e"
+  }
+ ]
+}

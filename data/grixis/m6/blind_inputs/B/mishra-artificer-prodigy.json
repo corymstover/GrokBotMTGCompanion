@@ -1,0 +1,4825 @@
+{
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "slug": "mishra-artificer-prodigy",
+ "swaps": [
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0e9b1f7c00ae",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:da037cf3d28fbe0a"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6d91e45abe47",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:36a6ab69cf6307ca"
+   ]
+  },
+  {
+   "adds": [
+    "Padeem, Consul of Innovation"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:efc3ba3113c6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:189b0bdd6f623f04"
+   ]
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5c93c5b0953c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c8e21a6afa4cc5ec"
+   ]
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e50fb7f5a34f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:04f032e7512a7e3d"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b1686f15bb1a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f5238f76910dd99e"
+   ]
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:47dc62f079d0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e183268f906279d4"
+   ]
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fa09b6da9e25",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9078e5c01c1c5589"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c5b22a4d8cc4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8718a1a3abf7e3f2"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2c97e34cbb0e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f163ae88018eb556"
+   ]
+  },
+  {
+   "adds": [
+    "Vedalken Archmage"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:25841b82da8a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:00ab6677c477",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2283a318282a779f"
+   ]
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8f33fcbf7558",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Biotransference"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5959bdc7961c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:99de02cf091a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b56d2101af56a8f4"
+   ]
+  },
+  {
+   "adds": [
+    "Thada Adel, Acquisitor"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7c6f0604585b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spine of Ish Sah"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b26a5ed0e671",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:910366a0d7cd1e40"
+   ]
+  },
+  {
+   "adds": [
+    "Spine of Ish Sah"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7eb3ca7f83f0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7fb9d5c80a951398"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8891fe44b7c9",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7dfb98ced56e0c77"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:04961c00bd2b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f944021804a9",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2d293f9aa68d6869"
+   ]
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8b6fa3396d02",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ff10971208bf16a3"
+   ]
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f4b34b1fd881",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:350ecf393081c0fc"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1233b16b4417",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a23aa066b4ed0daf"
+   ]
+  },
+  {
+   "adds": [
+    "Shimmer Myr"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3bb05398625f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:369fe303e696",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:6fb347c77e6211fe"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e1e81956abf3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:45bb2e488b126769"
+   ]
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:72d3bcf38f53",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:22446ff946517de5"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:792c4e3cde82",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:65ef252353231392"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2e0d46bfa3c5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5d500fc7f1339c85"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:363c0bfa66a4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b9e19c2d6d9bf075"
+   ]
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a945f33fdda9",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b6f34b3b9e05ded3"
+   ]
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:35da0e37e37a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:51d2af26066cc268"
+   ]
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:99f0e13c054c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f70c52c0fc98ead6"
+   ]
+  },
+  {
+   "adds": [
+    "Simulacrum Synthesizer"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5076101d8fa5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mirrodin Besieged"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c9e360e319d2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:159eaaef6dfaee6d"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrodin Besieged"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ee38ea0c06fb",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2e4591c7670946eb"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4707cf3568d3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e19ee9790ee0db17"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d9618bdf68e6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:812a2eff0174c738"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Forge"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fd2d5622b8ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wurmcoil Engine"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:faad3044e190",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Portal to Phyrexia"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f0ff63899ed5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reckless Fireweaver"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7c49e64c464a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mishra's Bauble"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8860850cb7ff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ice Cave"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:181247c74592",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blightsteel Colossus"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:deea5dfe5773",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6d8020837115",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:943d46fd3b4f5dc9"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:aa56509895f0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b5bc51e3671e7c66"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6c53771c0a0e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c8427faa3ac0ac17"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c65b355b730b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7a96a96b9b3eabf5"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:927e11431c37",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2a834e9772db5fe4"
+   ]
+  },
+  {
+   "adds": [
+    "Daretti, Scrap Savant"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:72ea0b250aab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kuldotha Forgemaster"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:500617c8fb13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:082afd22a1d7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8ac4145edef4b248"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7208a0e50c9a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ad1d799bc27e43f8"
+   ]
+  },
+  {
+   "adds": [
+    "Ichor Wellspring"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:675f0c8d1824",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:dac97ada6e2094e8"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f1dd250226bf",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b8f55d35651e7cd0"
+   ]
+  },
+  {
+   "adds": [
+    "Scroll Rack"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:18a37eebc000",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lotus Petal"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f104328d626e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:dda2dfd1e82c16a6"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ab03946be9ff",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c68bb2f499c83ddb"
+   ]
+  },
+  {
+   "adds": [
+    "Nevinyrral's Disk"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f57fbb0debda",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Mycosynth Gardens"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5bca99cfddd5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:abd71dedaa8c5325"
+   ]
+  },
+  {
+   "adds": [
+    "Otawara, Soaring City"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:19eb49eabdff",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:1c96f0553c614c1b"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:57f1c0b76b37",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d0e03d7b57080100"
+   ]
+  },
+  {
+   "adds": [
+    "Trinket Mage"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cb144257416c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f85861bc46e45d06"
+   ]
+  },
+  {
+   "adds": [
+    "Imotekh the Stormlord"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:26ce10a42bb8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e1a393b45e0a14c1"
+   ]
+  },
+  {
+   "adds": [
+    "Imotekh the Stormlord"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cd4dcc12a020",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c9c0efa409d43de1"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e3c0f2bb195f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:fc49a51879b525cc"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Sol Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:86b27b4c0a63",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9236dbf727e53917"
+   ]
+  },
+  {
+   "adds": [
+    "Reshape"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:370c1ce74ebf",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4697a741c919f41f"
+   ]
+  },
+  {
+   "adds": [
+    "Staff of Domination"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a19d8d1ab0b9",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4cac49da3f742182"
+   ]
+  },
+  {
+   "adds": [
+    "Staff of Domination"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:26220a9e159d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2960b0a9f6159554"
+   ]
+  },
+  {
+   "adds": [
+    "Efficient Construction"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:290db028eefa",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:198dad984a6da2d4"
+   ]
+  },
+  {
+   "adds": [
+    "Efficient Construction"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:79e67be5dbe0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a2a06144e4722310"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:78b3526241ad",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:95e8c9b98d2a155e"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Tyrant"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3a1a1ae4e2ad",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:770ac869bdf5e2b1"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5c45600a0d12",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:637c7ccb5e3afce3"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:80c79dad1129",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Beseech the Mirror"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3d5fe65701f0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c9a3096e97037fb9"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cacf7d19cc3e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:43d511de2b4225fc"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a1a0b20d427d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:3b6658842be69f35"
+   ]
+  },
+  {
+   "adds": [
+    "Hurkyl's Recall"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:35dd20fe8208",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b61cc4de67135299"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9bba67ae9f93",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d4de4847415e7f68"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:575e9a809bc4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:97f4b174e2bd8232"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b44871b0615f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ce1d69469ed8edd5"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ad090d3483e1",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:433bf43bd5e0272b"
+   ]
+  },
+  {
+   "adds": [
+    "Repurposing Bay"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c030587e2dfa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Progress Tyrant"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9a3c0d7106b8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0d7e131461724140"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fac78c2ad9c4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:95a8b525bd8c0846"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:75df6cce17b6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0c1f4a3dd1afaf95"
+   ]
+  },
+  {
+   "adds": [
+    "Steel Hellkite"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:35926f7c5105",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aether Spellbomb"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:42cae665de17",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0c3a30708584",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5138d153bb0b7162"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9be147b91a4f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ff56990067bddb81"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:725bbf70fa71",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4773a286bc94cf5f"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8e1778caede0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:32596fc50324e392"
+   ]
+  },
+  {
+   "adds": [
+    "Fomori Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:58fda58511e9",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:998c2069196e8e60"
+   ]
+  },
+  {
+   "adds": [
+    "Duplicant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e781ec2f0bb1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:09669792d3d3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:645c27c42cf41176"
+   ]
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1cd5183bd0b6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2a44d3cee6a6e8d7"
+   ]
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1e85dc7508af",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:edfb83240c3c6388"
+   ]
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ad608e14ec36",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4c8b29a4129d0b38"
+   ]
+  },
+  {
+   "adds": [
+    "Glimmervoid"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:056f7637dff8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:fc4b6c92c386cfb9"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0103a05127b6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:89d34692d07b2371"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5f43d7a3c399",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:3141b6237ce8ee49"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f0cd9cf627a9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:caef094337f4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:bec65c98adcbfc48"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d1ec21f32d66",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a0a38af77e17f01c"
+   ]
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b01d4fdc5754",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Transit Mage"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:deb8d0ee69f4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0bd024a0ae44a025"
+   ]
+  },
+  {
+   "adds": [
+    "Knowledge Pool"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:834e81a95bbf",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5f7bd007af19bc4b"
+   ]
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9ad1ec64b2d6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:da275908c34acb87"
+   ]
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ca743b095418",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5de3769f8a5e6c61"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c44baec5824d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:181c96f8e912bcd0"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:67c0433cfca3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:13c9837d3fae88de"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fd0f3e193568",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:71afcd1989038c14"
+   ]
+  },
+  {
+   "adds": [
+    "Crime Novelist"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:53b346ec44c6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f4866cc6f7dd310b"
+   ]
+  },
+  {
+   "adds": [
+    "Crime Novelist"
+   ],
+   "cuts": [
+    "Sol Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9385fbedca16",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4c5b133b0b2700f9"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7fed5ab74266",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Artisans"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:eb48cec3559e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f19e3ed502a2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:00d5d9736ba84119"
+   ]
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f5a7df9e4a89",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:17428cfb2bddbeeb"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:aa38ffb40cfc",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:39c31dc2c6cd2e12"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ef151ae2c6b7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c8f859e7c9c11f93"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:57932b614cc8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2f59e016c76d35de"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a2794c68f2ac",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:259083081d9b20cf"
+   ]
+  },
+  {
+   "adds": [
+    "Weapons Manufacturing"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9f1962de1ea8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:45a9c70c7102",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:996dabfce54d3d17"
+   ]
+  },
+  {
+   "adds": [
+    "Mycosynth Golem"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c16337eb79e2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:419f52d850795bb2"
+   ]
+  },
+  {
+   "adds": [
+    "Mycosynth Golem"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:820fe4e6982c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b26bbf04f9e99e8a"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0d19959c6024",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:cfe382a1cf5ae79c"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:acc8aabf66ce",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:622a730343e79bf2"
+   ]
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4f9189e64b10",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e51c08493a2be89a"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c606ab78440e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:eba57e1370022e88"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Handling"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7a5c4af3d7ac",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:69bd246f7a253c8a"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of the Paruns"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2c963043c1c9",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7723938ed2644056"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of the Paruns"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e19f05921053",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ac0b3dea64084992"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9c2c52e635e6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:718be11ffe184755"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:25889bd24895",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9c3965d63c4f2511"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:652838df40b1",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f3f0b931986b14ac"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7518d48426eb",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f302999c92da031c"
+   ]
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:74488aa9084b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:50a33ef242489143"
+   ]
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:38cd9d286dd3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:490f4e936439ffa7"
+   ]
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d277fb2d28da",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9ed41040bc322c4e"
+   ]
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:06fac5b4c510",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:26540299f8f55494"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Mage"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e6d96b36ba14",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9a883a769df3db66"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:94ed51f43cda",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e03e23d6d377147b"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:03a21b5ff939",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:6aa42cc41c6a58bb"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b1b2202eb7c0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9f33ccaa074fa140"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a274299f9a4a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e3cf0527f565b6f9"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:98873f09eaac",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:be7b8ed8fe5ec93f"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c8f25c0b9a4b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:69b8514ebbd346d1"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c302e3d4b0fb",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:90beb01eadb3dcff"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5f1225e054a7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ce64aa518e0c17c2"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:bff8533c78ce",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8c6f1f299ed27a1e"
+   ]
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a960fac5106e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:34b84900fa407e43"
+   ]
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c97e779be92f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7493ed981bd403ca"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c5db13f74e22",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:91fe65492ce11d1c"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5862ce49644b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0e12e89860d99444"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:139b49e86796",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:13ef7b53b569e56d"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:76ba3b996a99",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f3c908c0d0f289bb"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fb354d0445f2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:22df45498bb06807"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:876b40c09860",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:69da4d87bb3d07c5"
+   ]
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cffe1d51c567",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:39eea5cfab066b43"
+   ]
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:321b901352a5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:aa7586ec757bc3ae"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cab9c9bda358",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:28a2aad8193620e6"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:339e15918a1e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:230920c1469ab6a4"
+   ]
+  },
+  {
+   "adds": [
+    "Scrap Welder"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9a80db2c1f2d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ceec1afb0fac3ca5"
+   ]
+  },
+  {
+   "adds": [
+    "Scrap Welder"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1f7c29334a49",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e1491b74ced05c8e"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:184a9bff3255",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:37e8584542827ca1"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e56bdf479863",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7e85d71575b0a085"
+   ]
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:af42feb2d5c1",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f96c6573f7ebf0c6"
+   ]
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0e287b1c7383",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f92309945b86a3b9"
+   ]
+  },
+  {
+   "adds": [
+    "Pyrite Spellbomb"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0219838f338f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3067cdb8ec83",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ad359113c22b9e4e"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cd642ec7522e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0723af6fbf543d65"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:564c50380b95",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:bbf6a2448a62711e"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5770f990304c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5fca4dac4872dc32"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Scorpion"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6aff13d0e75a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4c86f1b24bf2d623"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Scorpion"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b3ac2e596976",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:034708dca0ccc5c6"
+   ]
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c9cd5e6f47d7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8e111359be223392"
+   ]
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c8ee909e814f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:34bac0859b2c3390"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e7b3bf37ffae",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:3f46b1fd80aee5d7"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3e677c8cc50c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d23cf6ea19bddff1"
+   ]
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:51540fa1e8f7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:359512e01e44d032"
+   ]
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9ed22d2a8bca",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:64ce7fbf25ec95a1"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Assembler"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5f5f4ecb2162",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:1923c04ed054d503"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Assembler"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e76db86254fd",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:cbae55e95f695cfb"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:df5be07c816b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:abb7c654836dd914"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:52e03b2fe1fa",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b756fc619274db94"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:96f5e367f24d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:68147ef92d39a7b6"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2182c1a4e724",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:6b321c20c684870c"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5e2a849866ab",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:70009b2ca1660aff"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:15148c8ea783",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a5070845d327cf72"
+   ]
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:788f65b9d489",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8fd3b7bbde09e758"
+   ]
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0b095605e701",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:6365fe5013d2ff5d"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:21a093b11543",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ea67e4bac69a3449"
+   ]
+  },
+  {
+   "adds": [
+    "Kurkesh, Onakke Ancient"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:69559e036845",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8613246054d933d4"
+   ]
+  },
+  {
+   "adds": [
+    "Kurkesh, Onakke Ancient"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cdd72e861e41",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e1dfcfe8c28788e9"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4be83f2de989",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:461cb71130f806ba"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:36504c30aaf8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b8c13cbb8a119290"
+   ]
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e56ee37b2ffa",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d4c550c315cd3684"
+   ]
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:92d99e936688",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8b646b01a48922d5"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9f1a9d4685b2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:08654b2db6ac8d76"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:767aa435f250",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d548340b11d1f970"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Gate"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:83d4a2bce9d2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:04602544cde6eb08"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Gate"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:08ad5f0def74",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7bce329673c37ebd"
+   ]
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:00cf7275386a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ec4ecbdb7028abca"
+   ]
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2d127648880d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a659e637cd44a956"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:024ba368b79e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:19466f0505fcd3a6"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:de2ff20d0159",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:96ad0b341c1170ea"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e23cc89348cb",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:22e3eb108e070c8f"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5103ddc3d9e7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e08687deee47a64a"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7f05d69baf0a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:df5be5e3f6a57236"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e63d6e417479",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0cdfead82afb87df"
+   ]
+  },
+  {
+   "adds": [
+    "Imperial Seal"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:349c2b69b4c5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:81997b3809b77172"
+   ]
+  },
+  {
+   "adds": [
+    "Terisiare's Devastation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e0267935bbc0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:649166e77e09",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c8cd2e5df2f64bd1"
+   ]
+  },
+  {
+   "adds": [
+    "Verdant Catacombs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c7f0d2bd51f4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:6e0f01752aadcd5a"
+   ]
+  },
+  {
+   "adds": [
+    "Anzrag's Rampage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6269e31cf833",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:cdc27b1c0253bda4"
+   ]
+  },
+  {
+   "adds": [
+    "Nihil Spellbomb"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a3045af9e5c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:48805c4c8daf",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:95ee65d29c4f8207"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Bauble"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8bb34efe5c6d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:53629d623eee",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2f8e1d3e09329cba"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:943618f4a434",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f5c8c32923a05903"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ce5f70964961",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f28b40b72f19915f"
+   ]
+  },
+  {
+   "adds": [
+    "Marsh Flats"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f95bdac126c3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2064b061b89f428e"
+   ]
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2888c8dbf39b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:831f413048d2a2ab"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:128af98061c4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:32d0e239f400955b"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0932f7cc3bfc",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:cab1c6f77a18a438"
+   ]
+  },
+  {
+   "adds": [
+    "Counterbalance"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7937bea3e0ba",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0872bbcb6bd9fe99"
+   ]
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:acc2fc027b2a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:74383af3000c771b"
+   ]
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a8d0fc0834ba",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2e13f6c908d90bc1"
+   ]
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:031ad90c33ea",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:cc34bbc2a96a9e20"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2025e6fb6210",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:aa7833141b221c28"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:199c8a578c7d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:0d66147b97e7ba5f"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3f35e15ab076",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e65bf9bb107bde7f"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:680c9e60875b",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:85d57c096a8f7409"
+   ]
+  },
+  {
+   "adds": [
+    "Exquisite Blood"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1603c29dbe59",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:620c046f6fdcc6a4"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:25ca51deb79e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d136c8481a90b82c"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:26137510ef86",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b3384d95d278af8c"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:abff6de608a7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9bafbd90150119e6"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:18e95d46d230",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:62b54fd4b698d509"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d7d384d1b2ed",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:be6a9144fd1dabbe"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:241a213b8741",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2405f3a39ae98b84"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:887384da6ac5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:51dfc7cd1fa43ff8"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:aac07a70b2ec",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:12d45a20f3f1f1ec"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:37000549b7bc",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:1723f91444897d90"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:99daebbf9b1d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:58bebed050758727"
+   ]
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:bad8a3f5d259",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c8580482146e767a"
+   ]
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Sol Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:74101c34f977",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f64caa1d4eb77137"
+   ]
+  },
+  {
+   "adds": [
+    "Echoes of Eternity"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:96bdd8300875",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f4043fed59601206"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9ce9a1606ee7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f16f7c1c29429a69"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:523cfcd12058",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c1d09f71bbbf89ed"
+   ]
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0083d951474c",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:eeec9f9ffcb163ad"
+   ]
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:53f5c158a24f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4b2c9cd0c06b92a9"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f3bea9789895",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4782188676f1df32"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:158c7827902f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:699f5f0153919efa"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fa394d182fdc",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:16ee4c5a2429cf29"
+   ]
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fb958ead6f37",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:34a7e6a2487ceb3e"
+   ]
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:abb2c40b3307",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:190b99ba0b0cebc0"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Multiverse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:796d6b9e9401",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:fda5d838a9727130"
+   ]
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:bd5763596d84",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:390bf3643e891ac3"
+   ]
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c84869d0098a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a5cc938cd49133df"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos, Lord of Riots"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:36b4632eaf81",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:a40ec2c2cf02b51a"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos, Lord of Riots"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:109d16f4ac28",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e2a2d6944e8d1e9e"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3076116933df",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:665c63a6f49fa3be"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b6549dd2119a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2330bc68f324b915"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5c9b0fbad2f2",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:6e06067d9627bd98"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:542496a236ab",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:1e6a50832e00a1a0"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7fc9584873b5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:3ae7b4eaf0f40450"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:799d1cf6d5e3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:634b978563bf0db8"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Goblin Welder"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2840913c4651",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c87fbc38dd263135"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6cbca11b8da8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:9595d4b36e4ec761"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9e56556a8ff7",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ccf13856e4a0683d"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5e096e32fcfd",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:42da961f383287d5"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ad520fed0369",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b1c9e1625a64fa51"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e36407dd3371",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:53865e587cac26ac"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:431d5d03c703",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:80c53c50a6a17e27"
+   ]
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:eefe99d9e521",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:204471f672be243a"
+   ]
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7207e6328e75",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:ca90826672a7d83b"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ed93644853ee",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:92d9405f6a96acad"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:baf3b0b8f960",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c0f64554d7e1f4b1"
+   ]
+  },
+  {
+   "adds": [
+    "Glistening Oil"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8b6806bd4e12",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:b7a5ee7ad19862c6"
+   ]
+  },
+  {
+   "adds": [
+    "Future Sight"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5dd613c06ffe",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4e034fc09762f744"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ce5a22e3f16d",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5df70a27f7d3ecff"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a32bc07723ca",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:519256bde7fdce2f"
+   ]
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2c3f9f9c0457",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:59b225aa21b8aca0"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:312536317968",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4c640f45cd7cf78e"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4a5997cc0895",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:2207a35dfd76a7d4"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2f4575321415",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f9d6ed1a739927a5"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cac22f383924",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c815835c4e89f053"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:edda54bd4d6f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:72c82e9d7c3fd0b1"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2bcdb64a38a1",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5739de24478cf40b"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:489881eb1581",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:c1b1682ff5a5879a"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Frenzy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:02043a0de5f8",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7cfc76f0ce28e04b"
+   ]
+  },
+  {
+   "adds": [
+    "Ringing Strike Mastery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:37823e830289",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:23ff99b9d3d33c41"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:450d2cfaabc0",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:17ecba084231f7ae"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ca8bde66fefb",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:221154f8dfbdbd49"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Goblin Welder"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d6963e361c61",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4667e60e7d7b2b1d"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:072ca9325a48",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:8f9a192478de9c99"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4567851590c6",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:d9f37738737ce8de"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4fd7ce219363",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e348ffb840b49ffe"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:901ccd26d80a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:5c1c121cf843ed52"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:680a765c37ff",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:e6f500ce1c86f7af"
+   ]
+  },
+  {
+   "adds": [
+    "Second Wind"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:70550ae39ea5",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:f581e6a57648f06b"
+   ]
+  },
+  {
+   "adds": [
+    "Despondency"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:67ca16a8b366",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4f3f7c14f9c2193d"
+   ]
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5a9d46b1e8f4",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:98f1446b3945eda7"
+   ]
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5d38c224b1bd",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:3847c339c4905a26"
+   ]
+  },
+  {
+   "adds": [
+    "Sluggishness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f76a68d6bb3e",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:bc125efc8b23de3a"
+   ]
+  },
+  {
+   "adds": [
+    "Launch"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:eb839dd0fe2a",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:7336365e7b3e1ca6"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2467d545b7f3",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:15afc7f44ce32012"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:231c3565441f",
+   "tests": [
+    "test:mishra-artificer-prodigy:goldfish:4b654ac50281d16d"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:da037cf3d28fbe0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:36a6ab69cf6307ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:189b0bdd6f623f04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c8e21a6afa4cc5ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:04f032e7512a7e3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f5238f76910dd99e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e183268f906279d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9078e5c01c1c5589",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8718a1a3abf7e3f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f163ae88018eb556",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2283a318282a779f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b56d2101af56a8f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:910366a0d7cd1e40",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7fb9d5c80a951398",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7dfb98ced56e0c77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2d293f9aa68d6869",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ff10971208bf16a3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:350ecf393081c0fc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a23aa066b4ed0daf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:6fb347c77e6211fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:45bb2e488b126769",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:22446ff946517de5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:65ef252353231392",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5d500fc7f1339c85",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b9e19c2d6d9bf075",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b6f34b3b9e05ded3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:51d2af26066cc268",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f70c52c0fc98ead6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:159eaaef6dfaee6d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2e4591c7670946eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e19ee9790ee0db17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:812a2eff0174c738",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:943d46fd3b4f5dc9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b5bc51e3671e7c66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c8427faa3ac0ac17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7a96a96b9b3eabf5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2a834e9772db5fe4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8ac4145edef4b248",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ad1d799bc27e43f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:dac97ada6e2094e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b8f55d35651e7cd0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:dda2dfd1e82c16a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c68bb2f499c83ddb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:abd71dedaa8c5325",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:1c96f0553c614c1b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d0e03d7b57080100",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f85861bc46e45d06",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e1a393b45e0a14c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c9c0efa409d43de1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:fc49a51879b525cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9236dbf727e53917",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4697a741c919f41f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4cac49da3f742182",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2960b0a9f6159554",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:198dad984a6da2d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a2a06144e4722310",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:95e8c9b98d2a155e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:770ac869bdf5e2b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:637c7ccb5e3afce3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c9a3096e97037fb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:43d511de2b4225fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:3b6658842be69f35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b61cc4de67135299",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d4de4847415e7f68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:97f4b174e2bd8232",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ce1d69469ed8edd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:433bf43bd5e0272b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0d7e131461724140",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:95a8b525bd8c0846",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0c1f4a3dd1afaf95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5138d153bb0b7162",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ff56990067bddb81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4773a286bc94cf5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:32596fc50324e392",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:998c2069196e8e60",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:645c27c42cf41176",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2a44d3cee6a6e8d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:edfb83240c3c6388",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4c8b29a4129d0b38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:fc4b6c92c386cfb9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:89d34692d07b2371",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:3141b6237ce8ee49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:bec65c98adcbfc48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a0a38af77e17f01c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0bd024a0ae44a025",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5f7bd007af19bc4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:da275908c34acb87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5de3769f8a5e6c61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:181c96f8e912bcd0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:13c9837d3fae88de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:71afcd1989038c14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f4866cc6f7dd310b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4c5b133b0b2700f9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:00d5d9736ba84119",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:17428cfb2bddbeeb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:39c31dc2c6cd2e12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c8f859e7c9c11f93",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2f59e016c76d35de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:259083081d9b20cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:996dabfce54d3d17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:419f52d850795bb2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b26bbf04f9e99e8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:cfe382a1cf5ae79c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:622a730343e79bf2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e51c08493a2be89a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:eba57e1370022e88",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:69bd246f7a253c8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7723938ed2644056",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ac0b3dea64084992",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:718be11ffe184755",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9c3965d63c4f2511",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f3f0b931986b14ac",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f302999c92da031c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:50a33ef242489143",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:490f4e936439ffa7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9ed41040bc322c4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:26540299f8f55494",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9a883a769df3db66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e03e23d6d377147b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:6aa42cc41c6a58bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9f33ccaa074fa140",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e3cf0527f565b6f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:be7b8ed8fe5ec93f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:69b8514ebbd346d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:90beb01eadb3dcff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ce64aa518e0c17c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8c6f1f299ed27a1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:34b84900fa407e43",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7493ed981bd403ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:91fe65492ce11d1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0e12e89860d99444",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:13ef7b53b569e56d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f3c908c0d0f289bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:22df45498bb06807",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:69da4d87bb3d07c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:39eea5cfab066b43",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:aa7586ec757bc3ae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:28a2aad8193620e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:230920c1469ab6a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ceec1afb0fac3ca5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e1491b74ced05c8e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:37e8584542827ca1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7e85d71575b0a085",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f96c6573f7ebf0c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f92309945b86a3b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ad359113c22b9e4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0723af6fbf543d65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:bbf6a2448a62711e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5fca4dac4872dc32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4c86f1b24bf2d623",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:034708dca0ccc5c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8e111359be223392",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:34bac0859b2c3390",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:3f46b1fd80aee5d7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d23cf6ea19bddff1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:359512e01e44d032",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:64ce7fbf25ec95a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:1923c04ed054d503",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:cbae55e95f695cfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:abb7c654836dd914",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b756fc619274db94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:68147ef92d39a7b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:6b321c20c684870c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:70009b2ca1660aff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a5070845d327cf72",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8fd3b7bbde09e758",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:6365fe5013d2ff5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ea67e4bac69a3449",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8613246054d933d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e1dfcfe8c28788e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:461cb71130f806ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b8c13cbb8a119290",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d4c550c315cd3684",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8b646b01a48922d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:08654b2db6ac8d76",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d548340b11d1f970",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:04602544cde6eb08",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7bce329673c37ebd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ec4ecbdb7028abca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a659e637cd44a956",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:19466f0505fcd3a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:96ad0b341c1170ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:22e3eb108e070c8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e08687deee47a64a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:df5be5e3f6a57236",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0cdfead82afb87df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:81997b3809b77172",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c8cd2e5df2f64bd1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:6e0f01752aadcd5a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:cdc27b1c0253bda4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:95ee65d29c4f8207",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2f8e1d3e09329cba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f5c8c32923a05903",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f28b40b72f19915f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2064b061b89f428e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:831f413048d2a2ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:32d0e239f400955b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:cab1c6f77a18a438",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0872bbcb6bd9fe99",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:74383af3000c771b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2e13f6c908d90bc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:cc34bbc2a96a9e20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:aa7833141b221c28",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:0d66147b97e7ba5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e65bf9bb107bde7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:85d57c096a8f7409",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:620c046f6fdcc6a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d136c8481a90b82c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b3384d95d278af8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9bafbd90150119e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:62b54fd4b698d509",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:be6a9144fd1dabbe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2405f3a39ae98b84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:51dfc7cd1fa43ff8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:12d45a20f3f1f1ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:1723f91444897d90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:58bebed050758727",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c8580482146e767a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f64caa1d4eb77137",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f4043fed59601206",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f16f7c1c29429a69",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c1d09f71bbbf89ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:eeec9f9ffcb163ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4b2c9cd0c06b92a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4782188676f1df32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:699f5f0153919efa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:16ee4c5a2429cf29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:34a7e6a2487ceb3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:190b99ba0b0cebc0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:fda5d838a9727130",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:390bf3643e891ac3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a5cc938cd49133df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:a40ec2c2cf02b51a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e2a2d6944e8d1e9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:665c63a6f49fa3be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2330bc68f324b915",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:6e06067d9627bd98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:1e6a50832e00a1a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:3ae7b4eaf0f40450",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:634b978563bf0db8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c87fbc38dd263135",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:9595d4b36e4ec761",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ccf13856e4a0683d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:42da961f383287d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b1c9e1625a64fa51",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:53865e587cac26ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:80c53c50a6a17e27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:204471f672be243a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:ca90826672a7d83b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:92d9405f6a96acad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c0f64554d7e1f4b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:b7a5ee7ad19862c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4e034fc09762f744",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5df70a27f7d3ecff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:519256bde7fdce2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:59b225aa21b8aca0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4c640f45cd7cf78e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:2207a35dfd76a7d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f9d6ed1a739927a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c815835c4e89f053",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:72c82e9d7c3fd0b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5739de24478cf40b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:c1b1682ff5a5879a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7cfc76f0ce28e04b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:23ff99b9d3d33c41",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:17ecba084231f7ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:221154f8dfbdbd49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4667e60e7d7b2b1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:8f9a192478de9c99",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:d9f37738737ce8de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e348ffb840b49ffe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:5c1c121cf843ed52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:e6f500ce1c86f7af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:f581e6a57648f06b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4f3f7c14f9c2193d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:98f1446b3945eda7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:3847c339c4905a26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:bc125efc8b23de3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:7336365e7b3e1ca6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:15afc7f44ce32012",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-artificer-prodigy:goldfish:4b654ac50281d16d",
+   "verdict": "inconclusive"
+  }
+ ]
+}

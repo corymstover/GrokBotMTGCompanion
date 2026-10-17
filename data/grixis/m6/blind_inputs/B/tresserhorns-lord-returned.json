@@ -1,0 +1,6455 @@
+{
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "slug": "tresserhorns-lord-returned",
+ "swaps": [
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1cfdf73cbc6f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:61641de22b2a0403"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d9e57b4cdf36",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c75c503db63a5204"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Dreadhorde General"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5dec8097535f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:af3e928ac62a6259"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Dreadhorde General"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:85bae1b6fbb5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:509e5bf54114bbab"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:900f32d5110c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:74429547edadd97a"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9911e379002e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0cde3a0427d296a6"
+   ]
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9ffc9a00cca1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e78cc8d0e523ea37"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e98756a366a2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8cf0f6df5d30843b"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3b1f52781e06",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Culling the Weak"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:424e224bafe7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b7a1dc9b2917a523"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:311d1ef1c5bc",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2300502406e2d294"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:752444313586",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:875a150f418ba4ad"
+   ]
+  },
+  {
+   "adds": [
+    "Rooftop Storm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0872e8893ac9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:06292af6db8c7cf2"
+   ]
+  },
+  {
+   "adds": [
+    "Rooftop Storm"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9768fffb8e60",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8dc906b296f702f9"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:25b8547d3436",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3062334e407b1a03"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:84d187a3ccbe",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ae8e5fd5442f3a08"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:97aa34790bae",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:99cbaae34c56ea96"
+   ]
+  },
+  {
+   "adds": [
+    "Headless Rider"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:53d2712c2894",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Morbid Opportunist"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e4c40c727a6e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Morbid Opportunist"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9069c57404f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Meathook Massacre"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:39fd9406b33c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tainted Strike"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:654eaaea6ff1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a24782c24514af88"
+   ]
+  },
+  {
+   "adds": [
+    "Tainted Strike"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7a54c67eafa8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6942c238b41c99e0"
+   ]
+  },
+  {
+   "adds": [
+    "Fleshbag Marauder"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c21260f79f3d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c5bcd2bb18dea510"
+   ]
+  },
+  {
+   "adds": [
+    "Fleshbag Marauder"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ea506a2ba307",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0a5438b735d0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6757154418cf1edc"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d06201f42807",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:179799f4300c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:cb53745524e21ed9"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8b0822c0e48a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7050155742105867"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:603c95c1f7a9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8157e1608e6b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d2bdc7d40f94",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e5011e9f0b365f62"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:40dbdf4e6887",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:35a68938aaecd7ac"
+   ]
+  },
+  {
+   "adds": [
+    "Diregraf Colossus"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b6b54fdbb4b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bb6ce3c9e063",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6c172527a2558769"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:fc760422c91c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1b33e4bbe2400a69"
+   ]
+  },
+  {
+   "adds": [
+    "Mirkwood Bats"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:59eac606263c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:12d6fe2676777fb1"
+   ]
+  },
+  {
+   "adds": [
+    "Mirkwood Bats"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f7e9363d9297",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chthonian Nightmare"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:68b8904122f6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:63b95cb1a2c94aa5"
+   ]
+  },
+  {
+   "adds": [
+    "Chthonian Nightmare"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b9ddaf37071e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0674dee0691464a0"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c2f8b564aa13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7d39d26da11f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corrupted Conviction"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b04d4c74bd36",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9e280fcd46c0e5b7"
+   ]
+  },
+  {
+   "adds": [
+    "Corrupted Conviction"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:65582fe83981",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c5ec4035b32206c6"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b0e51db5bab9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8779c302bde88d96"
+   ]
+  },
+  {
+   "adds": [
+    "Altar of Dementia"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d525160c4272",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f47d411a66d92ae5"
+   ]
+  },
+  {
+   "adds": [
+    "Altar of Dementia"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e027fbd09060",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f10a6767dc8f3827"
+   ]
+  },
+  {
+   "adds": [
+    "Grave Titan"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:02b4d3f1db0e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b1be3fabd20a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5057f6d18961",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3fa16b82b5b6b2f5"
+   ]
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2f93c43bfe20",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c37fba21f8818fd0"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8ef04d2ccd53",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:14887b775619",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ad59d7a7c500b746"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d95992b06b7a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c8c18e4a40f9064f"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:86fd6da38ea1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c8e84c79c2bdf301"
+   ]
+  },
+  {
+   "adds": [
+    "Species Specialist"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:96d7fc547da2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:dccc07d93021ee56"
+   ]
+  },
+  {
+   "adds": [
+    "Species Specialist"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:843fa2145a50",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:944a7348cc5fcae1"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2e3f52954c25",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e9844144c22c9d2f"
+   ]
+  },
+  {
+   "adds": [
+    "Deathgreeter"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ce959cd2cb98",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1369e1e818b48f8b"
+   ]
+  },
+  {
+   "adds": [
+    "Deathgreeter"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5359c76e79d5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:82707e24535a2aa3"
+   ]
+  },
+  {
+   "adds": [
+    "Al Bhed Salvagers"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f21714423078",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3a4b16f9048b25b1"
+   ]
+  },
+  {
+   "adds": [
+    "Al Bhed Salvagers"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8bc158c36cd4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f370935a4bcfa2f2"
+   ]
+  },
+  {
+   "adds": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a72078f5d66c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0a8b07e370412ec7"
+   ]
+  },
+  {
+   "adds": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:02f95c3b1f55",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2482f57f20f7c6e3"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:708235738027",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:631d72b93187cc56"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ba8eafe0c1d7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f958b78da587d4c1"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9e20618f4793",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a278afa0f4e11707"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6e6c0d69bfb7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:213acd53dd30a785"
+   ]
+  },
+  {
+   "adds": [
+    "Eloise, Nephalia Sleuth"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3214979a3903",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1f5a33c3ccdf45e7"
+   ]
+  },
+  {
+   "adds": [
+    "Eloise, Nephalia Sleuth"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f9c7bf7eac52",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b64bd27b0841ab2f"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:69f82a1a1df2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:37391df3d6163353"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f0d63af25d54",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:63b877604d7a14b7"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0f7587601a8b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8093d0a346cc0b92"
+   ]
+  },
+  {
+   "adds": [
+    "Xiahou Dun, the One-Eyed"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:24b445a74f78",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9fa746f7c351c277"
+   ]
+  },
+  {
+   "adds": [
+    "Xiahou Dun, the One-Eyed"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0596850dac99",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:43ee6a13aaccdfb9"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8b219474735a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:5fb2532276eddf02"
+   ]
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:dfb9f902cff8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:97f2dd338bac9f88"
+   ]
+  },
+  {
+   "adds": [
+    "Funeral Room // Awakening Hall"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:dbcd6f31e111",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:5e38eacfe3713579"
+   ]
+  },
+  {
+   "adds": [
+    "Shambling Ghast"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1849f3b319ca",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8d08746ca5d3e8ea"
+   ]
+  },
+  {
+   "adds": [
+    "Arnyn, Deathbloom Botanist"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7aa7f8572b9f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:acee8dff09296fd0"
+   ]
+  },
+  {
+   "adds": [
+    "Arnyn, Deathbloom Botanist"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d701246ef27a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1b11bcb08afbc956"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:61d292a10bdd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:833518d9f2d045fe"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:673d34bc85aa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3a43e3bea47b1c66"
+   ]
+  },
+  {
+   "adds": [
+    "Tombstone Stairwell"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:518f452c72c2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8dcff84d002cbccd"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ea1b52733d66",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a1a0909d0e329f84"
+   ]
+  },
+  {
+   "adds": [
+    "Stifle"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9c353fb8c888",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Damnation"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f74098415e5c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f7eb5712bedf",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2b4f12aea820d8f5"
+   ]
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3468f6410f30",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:15ad3087048ed298"
+   ]
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:951b0739dfbd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6f66bc5a637fe17a"
+   ]
+  },
+  {
+   "adds": [
+    "Deflecting Swat"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:eac7979aa014",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b498c22625e4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d364b8511fe428a7"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8a8e8ed4f8c8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:36fb3e5d886729b4"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2db1c46216af",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:88c047cc6bc75b97"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3dccf1b9b016",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:11a8611c033b4aba"
+   ]
+  },
+  {
+   "adds": [
+    "Lazotep Plating"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:70120ecf5f31",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6146373ad46c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:18e2e71b81643d26"
+   ]
+  },
+  {
+   "adds": [
+    "Vengeful Bloodwitch"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b3221a721cd0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8dce1c90ec8d6a65"
+   ]
+  },
+  {
+   "adds": [
+    "Vengeful Bloodwitch"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e160756ddfe8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:208c249739404e46"
+   ]
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:65e9a2e56b52",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:5c98b282cc3bd99b"
+   ]
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2ecb36b59ab6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:91dab87f2b479dc9"
+   ]
+  },
+  {
+   "adds": [
+    "Bolt Bend"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d51f9fbefc04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:35f0fb5bcf8d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:713bda84a8512e9a"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:365074a1be3c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:351994523e41b58f"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:48c2bef0e220",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2c948affbc11877a"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2b0d2b74bcea",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:68e070a84f23381c"
+   ]
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:60881ddc7ba5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:439ff40e943479cd"
+   ]
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f78c0a51053f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2001255f409010df"
+   ]
+  },
+  {
+   "adds": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3f6dc426d7b7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e50025eee9c443dc"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:301eba2ef97f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:60ccf66506ff1a6a"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d5f6641521fa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:371d4db660f73caf"
+   ]
+  },
+  {
+   "adds": [
+    "Nest of Scarabs"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b368e99231d2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3951fcc0cf8cd98d"
+   ]
+  },
+  {
+   "adds": [
+    "Nest of Scarabs"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:424f235d51c9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:84544fcfcf0bada4"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7feb8b456055",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Otawara, Soaring City"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c9bd29ca2559",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:205fb04ce5b6d0da"
+   ]
+  },
+  {
+   "adds": [
+    "Smothering Abomination"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1716378b6c21",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ed259e6aaf618e15"
+   ]
+  },
+  {
+   "adds": [
+    "Smothering Abomination"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3ef8ebd7445f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9b8e64768585542e"
+   ]
+  },
+  {
+   "adds": [
+    "Grave Venerations"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7a9c4ddad90e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9aebbdd2cd4039af"
+   ]
+  },
+  {
+   "adds": [
+    "Grave Venerations"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e0b6b7a74075",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0903e4998d1e2316"
+   ]
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8a7314f1e7fc",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8e3df8fb1af81af8"
+   ]
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bec5d42991de",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:62506723c33631ef"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:073790fd4e53",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:44918f86b6f06fce"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:45af671dd6f9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:00d8288e4ace9b82"
+   ]
+  },
+  {
+   "adds": [
+    "Vindictive Vampire"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b1f3f7f1a039",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c7a15463be7b53b1"
+   ]
+  },
+  {
+   "adds": [
+    "Vindictive Vampire"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:239f78c6685a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:633208d0ab2f8805"
+   ]
+  },
+  {
+   "adds": [
+    "Relentless Dead"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9952a99642b0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8b3f28f0883300f4"
+   ]
+  },
+  {
+   "adds": [
+    "Relentless Dead"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:aff3f83df763",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:90a6d1dffb1bdd50"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:405bf19d8ecf",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0aa0e0f16c83bce2"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:80085635e013",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:59e9c26327676f93"
+   ]
+  },
+  {
+   "adds": [
+    "Venerated Stormsinger"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f91979506f0d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:85447578ec4b3b9f"
+   ]
+  },
+  {
+   "adds": [
+    "Venerated Stormsinger"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:787eec21fc92",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b56240b61f99d319"
+   ]
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:00695d60a790",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:69c7abdbccc83819"
+   ]
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:214b8b90a511",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ab6c0a3f0a03aedf"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow the Hedgehog"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3266412afb68",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:236326f942396069"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow the Hedgehog"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c1da40f39eaf",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:536925c0b3ed35a9"
+   ]
+  },
+  {
+   "adds": [
+    "Acererak the Archlich"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:83c7a7c1f053",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3ea6259a6c9ce91f"
+   ]
+  },
+  {
+   "adds": [
+    "Acererak the Archlich"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3719a380be61",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:92d1e406bee22cca"
+   ]
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:eda9f1a2177f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e0b20add9e0830dd"
+   ]
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2e4bf60ce270",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:815753efc84db699"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c0e54733af70",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:af3d7403684d0fe1"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6a2864bfb4c1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:96665210640f21b0"
+   ]
+  },
+  {
+   "adds": [
+    "Susurian Voidborn"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9ac89b0f1eff",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3cb6b3c67f4360b0"
+   ]
+  },
+  {
+   "adds": [
+    "Susurian Voidborn"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d5b3128f647e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:00424532df68628c"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:27527631e371",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:672bb95e79eba78e"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:98d2b092d16d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d74159be619e03fd"
+   ]
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:571dee950f1e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c3d34ab2bbcd6515"
+   ]
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3ae786ff43c9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:aa83435dea0db68f"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:282901a6b237",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7d5f289ea2a9dffd"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2933fdd112bc",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fb8f9673e58a0bd3"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:63ce64496453",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0544992ca6f51025"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f75becceba6b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:bdc1427c791aa0b7"
+   ]
+  },
+  {
+   "adds": [
+    "Moonstone Eulogist"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1be3c7dee542",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:158650c3370b050e"
+   ]
+  },
+  {
+   "adds": [
+    "Moonstone Eulogist"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4d7bb0e4a8c2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:65f84bb86ef8fba6"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:76ceac0768de",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:40d0f00a850d666c"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:87e968b733cd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3ea5181fd7c1b21f"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a6a8ebdd9763",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f81324eec6be03bb"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4207ca8373ff",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:418f0c682c98b007"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:72493abf68c8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:570a860c04b9149d"
+   ]
+  },
+  {
+   "adds": [
+    "Malevolent Hermit // Benevolent Geist"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:46f44f2859b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:03e188042c83",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6aa4291c335e825a"
+   ]
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5f8278359a3e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:dd68cec79c97ba11"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:16f31435a9ef",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6e2672988a4172a0"
+   ]
+  },
+  {
+   "adds": [
+    "Weatherlight Compleated"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ec9cd7479079",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a0adb7ee9b3edb83"
+   ]
+  },
+  {
+   "adds": [
+    "Weatherlight Compleated"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:703419200583",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:21bec34944255ea7"
+   ]
+  },
+  {
+   "adds": [
+    "Krav, the Unredeemed"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9e96cf9d64bd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:702db1ff6470b7fd"
+   ]
+  },
+  {
+   "adds": [
+    "Krav, the Unredeemed"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cbc040dacb43",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d62afb75fb6ff2ee"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d033b85a90f6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:cf67714c5768b17a"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:05615580fecd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c5248587781e23b0"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f56c0f9a8ced",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:52f4e186a8634b8c"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3e1ebf5e5a16",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c4f1bd648a42b100"
+   ]
+  },
+  {
+   "adds": [
+    "Relic Vial"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5dc75856fccc",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ab9da818376ba5b0"
+   ]
+  },
+  {
+   "adds": [
+    "Relic Vial"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:815222700d0d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2ce88b3df97783b2"
+   ]
+  },
+  {
+   "adds": [
+    "Gas Guzzler"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d2c398e19255",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2ea2cc5fcdd2606f"
+   ]
+  },
+  {
+   "adds": [
+    "Gas Guzzler"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a27ff886f873",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:dcb955d2620402ef"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ef466c19bb9e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:270a855dd89b5e7a"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8f6cf503a1e4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:85cd6be62f54cf2b"
+   ]
+  },
+  {
+   "adds": [
+    "Unholy Grotto"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7897495ca83d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2f3a10016269056a"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a2834dcd1c6b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:19f0654a9dbc70dd"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ab9effaac09b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:70b09f930dc99b65"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:fee5863c6f23",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:862d3e3a9379eae4"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f08fb88b6b93",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d3de33d848c12bee"
+   ]
+  },
+  {
+   "adds": [
+    "The Ghoul, Gunslinger"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:768afe8b08f4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b59bd5912b579400"
+   ]
+  },
+  {
+   "adds": [
+    "The Ghoul, Gunslinger"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3fdd0e5b2234",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a590b21f764ebb2f"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:68cf90f62ae5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ca535eaeace183d7"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:be72935afd5f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0ef7855a7a7c6022"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c203c294bcd6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f08467be11be3d3d"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bd037d31a023",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fef4c8f7a6b3174b"
+   ]
+  },
+  {
+   "adds": [
+    "Endless Cockroaches"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:04bbc1196f7a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:181bc5f6dc526c57"
+   ]
+  },
+  {
+   "adds": [
+    "Endless Cockroaches"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5412d385d198",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1f2e2be8bef20b34"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c8593e4fc6ba",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0ff9ea5e8faf0d2a"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9241dfb5db62",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c6de5046efb6ed27"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6de8e24f16b3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:da025ebc5304a195"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Ghoul"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c2e5687b6846",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fa9b16a6e233d63a"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Ghoul"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:14727e1cbf3e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:990452baa2d9877a"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:22ae60af6518",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:603fd2e04c57",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:148f9f5332a3a8f8"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4f32186b0e07",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:008af69d2e1eedc3"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1d903ec7b9e7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a9f020f240792a07"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2e29ea537d4e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:27c17a0c4ea51975"
+   ]
+  },
+  {
+   "adds": [
+    "Adric, Mathematical Genius"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a0f9cbde03f8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:19a132fcb492",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:53243c3db349d6e6"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0d59e900aeed",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:92c5243b1896a9d4"
+   ]
+  },
+  {
+   "adds": [
+    "Matoya, Archon Elder"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7354b5d7f93c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6ea908faa1465021"
+   ]
+  },
+  {
+   "adds": [
+    "Matoya, Archon Elder"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cfad0cd71640",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:39e835deada8b631"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2a60e37daacd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:399032b4e4afc283"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1f451e8e3b20",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kels, Fight Fixer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2cc31194ccab",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6ee302611866a293"
+   ]
+  },
+  {
+   "adds": [
+    "Kels, Fight Fixer"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1c50983e9bad",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f2eabe44872d01bb"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e938826106fa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:42beeb6983a2c976"
+   ]
+  },
+  {
+   "adds": [
+    "Immortal Phoenix"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:15816773de05",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d9b15135c4a1ca3e"
+   ]
+  },
+  {
+   "adds": [
+    "Immortal Phoenix"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cd4670785dbe",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2355d1bccff4e7cd"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2af8acf40a22",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bc463eedc65f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:aa1eb6c175d3742a"
+   ]
+  },
+  {
+   "adds": [
+    "Initiates of the Ebon Hand"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cb9abf0651ec",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:bc7a72f4510e7f31"
+   ]
+  },
+  {
+   "adds": [
+    "Initiates of the Ebon Hand"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bfc963d1bdfd",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:12d700d8959e16f0"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0a73734ef82a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:379a999e20107a06"
+   ]
+  },
+  {
+   "adds": [
+    "Mortus Strider"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7f9fbec0fbfa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:4157909eb208c0d2"
+   ]
+  },
+  {
+   "adds": [
+    "Mortus Strider"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:31875f5187aa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:accd661fc8a478b5"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Phoenix"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:17a84ae7b847",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:00bb95336b277075"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Phoenix"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7b017ecb7946",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:76233afd772cabf1"
+   ]
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b822229cfab9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ca90716949888c3c"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a284b4a196cc",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:77a0e024c0afe6a3"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:42ca34dca635",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:39dbd66c70780c39"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:086009133280",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:aa6d912c973e99f2"
+   ]
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:52fd6ee734b5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d7b2cd46d9a8807a"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9687e9925a86",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:277a89e9347c80cf"
+   ]
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0eabfa744a42",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:31777a34bb8cdbc9"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4bc045df5a0a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c89cb4afd11d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:44d7771c7e453bdd"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0c00f1deb290",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:99faf8b9df33239b"
+   ]
+  },
+  {
+   "adds": [
+    "Voidmage Prodigy"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4ec903e1eec0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ada18cd05b31",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a80f39766066d6a2"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:30c86f002c63",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d2330f09e9d9e6ff"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cec933566cc1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ef9250e356d3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:008ffc099118fdce"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e12d4241cf22",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2c3cfb17cc9abc31"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e010d896e0f0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:31c245bd81083d34"
+   ]
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:06dbf0f23d12",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2cccac631f2094f3"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:15f66436aab1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1df842ad8bb57a79"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f15a61f3ed6d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b53ec35e2dec142b"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:34ca7196ae44",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0bd88d1d2c846a95"
+   ]
+  },
+  {
+   "adds": [
+    "Stilt-Man, Towering Terror"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:779672496dea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Daring Apprentice"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e74fd9cb4c70",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:59933ef5da98",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:54ac5735b556ffea"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Avenging Archer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4f75198676b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:fd8127e4a001",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6ca96ed9de44307e"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:fbcdabdd89ad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Massacre Girl, Most Wanted"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:607e0007d081",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1cd0cbc66526d39a"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin, Shadow Stalker"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:96a4f4d2d0c8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d88ca9382ef3aa30"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:04f7e996d916",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Plaguecrafter"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0e924f6ce315",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c9b2cdea928386d2"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:53c34062c1cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Silumgar Sorcerer"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1b33e35a1e16",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kaervek, the Spiteful"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b0444bed6dbe",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e32da484ddb46134"
+   ]
+  },
+  {
+   "adds": [
+    "Kaervek, the Spiteful"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1eb95044212d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6f44565d9775a5f8"
+   ]
+  },
+  {
+   "adds": [
+    "Winter, Tormented Loner"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1900e6c20092",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:4d4e66e93b5997a1"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d60989a4ec14",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ad3523f05d77f5c4"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a8158b8a6e70",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:36da993f1cf091a0"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8ae9d29320a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3aae3e8f4a02",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:58e07a75caec6055"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:43f299dfbfc0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Martyr of Frost"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:36975103ebeb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:41d56597b650",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0dd0033d6239244e"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c7333b58f819",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:81fb4f7ee8a6334b"
+   ]
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cf4f624caf41",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:edf6fc09eaf21642"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:31f169f42032",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7e9ab9723fa92b7b"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cadb46f79ad9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f483527a1f819af8"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:95daed7eb00c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b8a78bc5a5e0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brine Shaman"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:22358752eae3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baneblade Scoundrel // Baneclaw Marauder"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7931ad5cafe0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9ef114210964",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:649841a5263fb3ae"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ebfd99596bcb",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:5da94f1ba11e41dc"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f65ebd427d3a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9de2ceb199f703ca"
+   ]
+  },
+  {
+   "adds": [
+    "Tale's End"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:22f65442aa12",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1b45f7a93360",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7beef8e52e2e6856"
+   ]
+  },
+  {
+   "adds": [
+    "Martyr of Ashes"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:69d3ec3f8cd3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Count Nefaria"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:692d105ad1f7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:01f85624c92e1df2"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8a04c69ec596",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1efdfeb2bd275c36"
+   ]
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bf852b0c9c6b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fierce Guardianship"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:070d7dbdd03e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonfire Blade"
+   ],
+   "cuts": [
+    "Not of This World"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:74b1a3524a3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bog Initiate"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e0764f37e98e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e61e7caf98c3cb41"
+   ]
+  },
+  {
+   "adds": [
+    "Bog Initiate"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7b61877bd0f6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:225521ed14cc55df"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2a0b4a5438ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d889d212e5b7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7bf2d9db6712aed6"
+   ]
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:77aae48060a5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7328710e709b5c71"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:eabe5ee6854e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2041da6f7c046c01"
+   ]
+  },
+  {
+   "adds": [
+    "Priest of Forgotten Gods"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ec2088857a20",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b64a310c4a62b7d1"
+   ]
+  },
+  {
+   "adds": [
+    "Blazemire Verge"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c2b14348afd0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7c4c0efee37d16e1"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d1e38e0e8d1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ccb1c6bbadb7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c5490a86cc6ea40b"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0d55f17c3089",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:07c1e03ba67e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:74dd7b7573282fc1"
+   ]
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d14e127a97e4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c7809e8ab106f652"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:47ec9dde715e",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:93d6ff3b21f3b5e9"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:11eedf84eeef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b7a487f03880",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e6f7548df30c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:da826057ecb1627f"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d681c8cafda0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:cad65981776e7fee"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f2cfafe88a3c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:875255caa8e88b7e"
+   ]
+  },
+  {
+   "adds": [
+    "Graven Cairns"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:aacf7b931b74",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c8531c40eb71a65a"
+   ]
+  },
+  {
+   "adds": [
+    "Demon's Disciple"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8a4d1fcaacc9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d070e74f766f722b"
+   ]
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "Shizo, Death's Storehouse"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6741e17dcfea",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2cc6d1f4f5a5e46e"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9e2876a348bb",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d3bbf3692e248f7c"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:94cfb993ceba",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6ca6fcabb18fe6d5"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:00b553176ee7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:149c73476a6ed86d"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:50dd8a5dc0e3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:bd2a608cb662ea89"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7617aff2a619",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e7525f84b7e12b35"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a9c9c6642b38",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fb400e4f516128fb"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bda755d19eb9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:74173383d6efe3cb"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a1e310e780a3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3b194339c7bb9c7c"
+   ]
+  },
+  {
+   "adds": [
+    "Witch of the Moors"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2ef9ee092b09",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f748cde4c3cc4a98"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4ac9a13b19fc",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:603107a4cf68b111"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:126465189291",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:42b48fac579757ea"
+   ]
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e9fb052397ac",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:19d827221acc67bd"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:676eccf15546",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9ad7047bb31ab7d9"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, Glorious Resurrector"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7b436690a439",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c7950198bb27a3ff"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c25686be8b21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:dcfd52d99e2f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8b871d0db813c29f"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0777441c402f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d9fa89d8f5a0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d9d0beeb378a2ff8"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:95d430d464fa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d015ddec1709971a"
+   ]
+  },
+  {
+   "adds": [
+    "Dockside Chef"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4b19cc647690",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9ff1e53fef38",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6c1d31cb3b67ae5f"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c92abb06550a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c2c33379dad31af6"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowheart, Dark Justiciar"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7557b4a5c02f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d3bf08afc8f9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b13a3fb72f6d6cf1"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, Bloodfist of Keld"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ca26bf276725",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:431754a8612d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e6457c5afb3fbbf2"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:31d93dfe06ec",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b024e2b977848d47"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:0d6ddeabc48f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6b2b1f33bbcec257"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a222b368772d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e29564185858fc03"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a244ab63399b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8b7d5145850a7298"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:04ead10112d7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:5b465f001ac03bb9"
+   ]
+  },
+  {
+   "adds": [
+    "Night of Souls' Betrayal"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:597621f0f1d9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a0363b2100c861b3"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:55e9a29373c0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1acc4cfad40b3332"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ce13cc2bbbc0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:349909050c7c6e43"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4bc1d41b7135",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b8458234e1127be0"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:efca41c3ab3c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a8caa799da0904b9"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:40f7a7c810e1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1483c29c6a1f9fc2"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e883561e7152",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:835dc99a3282a2dd"
+   ]
+  },
+  {
+   "adds": [
+    "Bontu's Monument"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e249c313e81a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:94fe607117c67412"
+   ]
+  },
+  {
+   "adds": [
+    "Bontu's Monument"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bba859068b90",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fc00be750b4268df"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2c4314fc48d2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d3d6ad4273873f5f"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:37d5f4229be4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:37ed65ba9f7d538d"
+   ]
+  },
+  {
+   "adds": [
+    "Nadier's Nightblade"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3cb7090f8672",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:baade36049605f3c"
+   ]
+  },
+  {
+   "adds": [
+    "Nadier's Nightblade"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:470021e5e7f9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9232b995f7bef66e"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f28ca80cd727",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:aaf2ed23ef61d968"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e1c65bb12e72",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d84e97a3111ee3ca"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f6d62d93af45",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1c3b3e7dd6926a49"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:478d40e429ae",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8b32af09811ed046"
+   ]
+  },
+  {
+   "adds": [
+    "Mycosynth Lattice"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:19c11a0b1803",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:03974d5dbc09fff2"
+   ]
+  },
+  {
+   "adds": [
+    "Mycosynth Lattice"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a4a60e021c33",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2ce6a75dc8d9858a"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bf8d542cb185",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8c83b4432ad69fcc"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:2b49286cc1e5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2b90f5184f4dbc77"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:59cae4c313c2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1387ab3debadad97"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9bcd11d0030f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:41715575e1af4f85"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:902f7b894ebb",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2c0da112f5d4ca07"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f72bc1d1d420",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2aba1e5369d478ea"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Summoning"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1afa702e31d0",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:cec1f12c8a7598df"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Summoning"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bd92674b8776",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b0641c1c9074d825"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:92b638ea84d3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:28b373d2847871dd"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:1ecb35478b67",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:22ecf8bd0e2a4a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e560c1b0b6b8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:432b78e7442b59d0"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4caf5733bbf8",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:080eec1fe093e3bd"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b2348e6a3489",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9062285d63b2940d"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:590cf5ae5c5d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:efd8cd6044e638c4"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9284fa6a3909",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:9f4c2d6cb05b17a5"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d80056b31af6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a2a000da76266762"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bfb8b0174b95",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7de874c0eeb888be"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:009d7e233f8f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:afbf56a08e5b7025"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ad445e215995",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f3d5fd4756d59bba"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5598efc4e5a3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:98bddbb718176716"
+   ]
+  },
+  {
+   "adds": [
+    "Ebondeath, Dracolich"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a987045d9d9c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1a51b9b1905a7310"
+   ]
+  },
+  {
+   "adds": [
+    "Ebondeath, Dracolich"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:047c7e1daafa",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:3742ec93abac235a"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5a792588999d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:412f2dc8c328f8b3"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:56f0d3dfeb81",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:82b73ca3e124c37a"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:95c211eb6ce7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fcc258b4efe18df7"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:17991d2d2d82",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:d793feb2f1102aba"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ed01b2ee0a8d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:fba1ff73cd8a6e35"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e9d6bd67c1ca",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8ecfac93589c10f1"
+   ]
+  },
+  {
+   "adds": [
+    "Symmetry Matrix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:da709c2963ad",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:43c1413689ef5d63"
+   ]
+  },
+  {
+   "adds": [
+    "Symmetry Matrix"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:8d95aee38697",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:79b33c2b5bd21af2"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:4c29f8ac6b6b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:5edef4b9d8ab28a3"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:c732318404ea",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e1a02b1def749c55"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9a6acddb16f9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:01eabcd1641d4660"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:7302c4a78442",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e8fb9e8dd7c1f5ca"
+   ]
+  },
+  {
+   "adds": [
+    "Eligeth, Crossroads Augur"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e72403559785",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:00dfd66be96d84bc"
+   ]
+  },
+  {
+   "adds": [
+    "Eligeth, Crossroads Augur"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:43e51f93804f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f8f0a427055e79d1"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6b89acd0b555",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:0173e1abfef64fc4"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:47dee0fc64f4",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:58609dfad95ea761"
+   ]
+  },
+  {
+   "adds": [
+    "Carnival of Souls"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:82529be35809",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7ec7721da8220227"
+   ]
+  },
+  {
+   "adds": [
+    "Carnival of Souls"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e6a25840d90b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2b27e8edacde1178"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:db32e9a4907d",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6fb853bc6c2207e6"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:967571c52875",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f0fd962cb8b7ba73"
+   ]
+  },
+  {
+   "adds": [
+    "Gemstone Array"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b2d454139069",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:cde8c27984534188"
+   ]
+  },
+  {
+   "adds": [
+    "Gemstone Array"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:b362d95fb16a",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:cc1e1549b7b7d814"
+   ]
+  },
+  {
+   "adds": [
+    "Prismite"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f988a2f5643c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:721cf51db2902f8a"
+   ]
+  },
+  {
+   "adds": [
+    "Prismite"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:17419771e428",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:2c664b0e45036f9b"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:993192985c90",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:533a136b617e513b"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:3b1dfc97c166",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:1aa22ba8fe817457"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:72e47801a0c3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:01267b387909e5e3"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:d5be44b21b24",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:865448cd77479aec"
+   ]
+  },
+  {
+   "adds": [
+    "Stonework Packbeast"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f57736e4ffb6",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:16038cd190c00be2"
+   ]
+  },
+  {
+   "adds": [
+    "Stonework Packbeast"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:9a06dd705280",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:bc8b3dbc46aac9bb"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Undercurrents"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:399ca8ae0ca7",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:a53c15f6a6ad4966"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Undercurrents"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:f7fb7e105783",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:7a1f4a07c1c5d70b"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Falls"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:6d02a5341cfb",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:109eff57a82e897f"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Falls"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:fe1bc8450023",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:8d3db515faac7fb2"
+   ]
+  },
+  {
+   "adds": [
+    "Unfulfilled Desires"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e5a4189d552f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:ec3bf6e9434edd63"
+   ]
+  },
+  {
+   "adds": [
+    "Unfulfilled Desires"
+   ],
+   "cuts": [
+    "My Precious // Allure of Power"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:045378433ef2",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:19dece6cf3b22d04"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:fb4bf94b9bd3",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:e5f1b9787466f28e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a2224da77a01",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:89d19ed9871c172c"
+   ]
+  },
+  {
+   "adds": [
+    "Crossroads Candleguide"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:72245f160ac9",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:deb32fa0cb115f96"
+   ]
+  },
+  {
+   "adds": [
+    "Crossroads Candleguide"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:bdfa7319522f",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c881812570759a92"
+   ]
+  },
+  {
+   "adds": [
+    "Signpost Scarecrow"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:42018bfec0ed",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6559ff69e7016b70"
+   ]
+  },
+  {
+   "adds": [
+    "Signpost Scarecrow"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:97a79c789945",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:acc2f0ac83f7908f"
+   ]
+  },
+  {
+   "adds": [
+    "Geth, Thane of Contracts"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:34b4800d9b2c",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6596438c68f2e153"
+   ]
+  },
+  {
+   "adds": [
+    "Geth, Thane of Contracts"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:e24a94639db5",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:06587fe7783d8565"
+   ]
+  },
+  {
+   "adds": [
+    "Engineered Plague"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:ebc791b12184",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:b9c705aed054d58a"
+   ]
+  },
+  {
+   "adds": [
+    "Engineered Plague"
+   ],
+   "cuts": [
+    "Bastion of Remembrance"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:849b9c0a030b",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:824f1fd01221d539"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Mahadi, Emporium Master"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:a4c6f06a6218",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:6d9d2122a595e091"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:5cda0b9cdfd1",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:c4f9aa7da99a7e5d"
+   ]
+  },
+  {
+   "adds": [
+    "Entomb"
+   ],
+   "cuts": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "id": "swap:tresserhorns-lord-returned:m5:cd135934c0ce",
+   "tests": [
+    "test:tresserhorns-lord-returned:goldfish:f1d2ed68bc914640"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:61641de22b2a0403",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c75c503db63a5204",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:af3e928ac62a6259",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:509e5bf54114bbab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:74429547edadd97a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0cde3a0427d296a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e78cc8d0e523ea37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8cf0f6df5d30843b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b7a1dc9b2917a523",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2300502406e2d294",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:875a150f418ba4ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:06292af6db8c7cf2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8dc906b296f702f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3062334e407b1a03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ae8e5fd5442f3a08",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:99cbaae34c56ea96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a24782c24514af88",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6942c238b41c99e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c5bcd2bb18dea510",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6757154418cf1edc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:cb53745524e21ed9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7050155742105867",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e5011e9f0b365f62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:35a68938aaecd7ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6c172527a2558769",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1b33e4bbe2400a69",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:12d6fe2676777fb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:63b95cb1a2c94aa5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0674dee0691464a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9e280fcd46c0e5b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c5ec4035b32206c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8779c302bde88d96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f47d411a66d92ae5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f10a6767dc8f3827",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3fa16b82b5b6b2f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c37fba21f8818fd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ad59d7a7c500b746",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c8c18e4a40f9064f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c8e84c79c2bdf301",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:dccc07d93021ee56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:944a7348cc5fcae1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e9844144c22c9d2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1369e1e818b48f8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:82707e24535a2aa3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3a4b16f9048b25b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f370935a4bcfa2f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0a8b07e370412ec7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2482f57f20f7c6e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:631d72b93187cc56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f958b78da587d4c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a278afa0f4e11707",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:213acd53dd30a785",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1f5a33c3ccdf45e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b64bd27b0841ab2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:37391df3d6163353",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:63b877604d7a14b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8093d0a346cc0b92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9fa746f7c351c277",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:43ee6a13aaccdfb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:5fb2532276eddf02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:97f2dd338bac9f88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:5e38eacfe3713579",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8d08746ca5d3e8ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:acee8dff09296fd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1b11bcb08afbc956",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:833518d9f2d045fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3a43e3bea47b1c66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8dcff84d002cbccd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a1a0909d0e329f84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2b4f12aea820d8f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:15ad3087048ed298",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6f66bc5a637fe17a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d364b8511fe428a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:36fb3e5d886729b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:88c047cc6bc75b97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:11a8611c033b4aba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:18e2e71b81643d26",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8dce1c90ec8d6a65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:208c249739404e46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:5c98b282cc3bd99b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:91dab87f2b479dc9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:713bda84a8512e9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:351994523e41b58f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2c948affbc11877a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:68e070a84f23381c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:439ff40e943479cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2001255f409010df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e50025eee9c443dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:60ccf66506ff1a6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:371d4db660f73caf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3951fcc0cf8cd98d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:84544fcfcf0bada4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:205fb04ce5b6d0da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ed259e6aaf618e15",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9b8e64768585542e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9aebbdd2cd4039af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0903e4998d1e2316",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8e3df8fb1af81af8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:62506723c33631ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:44918f86b6f06fce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:00d8288e4ace9b82",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c7a15463be7b53b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:633208d0ab2f8805",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8b3f28f0883300f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:90a6d1dffb1bdd50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0aa0e0f16c83bce2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:59e9c26327676f93",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:85447578ec4b3b9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b56240b61f99d319",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:69c7abdbccc83819",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ab6c0a3f0a03aedf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:236326f942396069",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:536925c0b3ed35a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3ea6259a6c9ce91f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:92d1e406bee22cca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e0b20add9e0830dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:815753efc84db699",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:af3d7403684d0fe1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:96665210640f21b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3cb6b3c67f4360b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:00424532df68628c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:672bb95e79eba78e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d74159be619e03fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c3d34ab2bbcd6515",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:aa83435dea0db68f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7d5f289ea2a9dffd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fb8f9673e58a0bd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0544992ca6f51025",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:bdc1427c791aa0b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:158650c3370b050e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:65f84bb86ef8fba6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:40d0f00a850d666c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3ea5181fd7c1b21f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f81324eec6be03bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:418f0c682c98b007",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:570a860c04b9149d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6aa4291c335e825a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:dd68cec79c97ba11",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6e2672988a4172a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a0adb7ee9b3edb83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:21bec34944255ea7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:702db1ff6470b7fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d62afb75fb6ff2ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:cf67714c5768b17a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c5248587781e23b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:52f4e186a8634b8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c4f1bd648a42b100",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ab9da818376ba5b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2ce88b3df97783b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2ea2cc5fcdd2606f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:dcb955d2620402ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:270a855dd89b5e7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:85cd6be62f54cf2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2f3a10016269056a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:19f0654a9dbc70dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:70b09f930dc99b65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:862d3e3a9379eae4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d3de33d848c12bee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b59bd5912b579400",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a590b21f764ebb2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ca535eaeace183d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0ef7855a7a7c6022",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f08467be11be3d3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fef4c8f7a6b3174b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:181bc5f6dc526c57",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1f2e2be8bef20b34",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0ff9ea5e8faf0d2a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c6de5046efb6ed27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:da025ebc5304a195",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fa9b16a6e233d63a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:990452baa2d9877a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:148f9f5332a3a8f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:008af69d2e1eedc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a9f020f240792a07",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:27c17a0c4ea51975",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:53243c3db349d6e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:92c5243b1896a9d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6ea908faa1465021",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:39e835deada8b631",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:399032b4e4afc283",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6ee302611866a293",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f2eabe44872d01bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:42beeb6983a2c976",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d9b15135c4a1ca3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2355d1bccff4e7cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:aa1eb6c175d3742a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:bc7a72f4510e7f31",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:12d700d8959e16f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:379a999e20107a06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:4157909eb208c0d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:accd661fc8a478b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:00bb95336b277075",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:76233afd772cabf1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ca90716949888c3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:77a0e024c0afe6a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:39dbd66c70780c39",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:aa6d912c973e99f2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d7b2cd46d9a8807a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:277a89e9347c80cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:31777a34bb8cdbc9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:44d7771c7e453bdd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:99faf8b9df33239b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a80f39766066d6a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d2330f09e9d9e6ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:008ffc099118fdce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2c3cfb17cc9abc31",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:31c245bd81083d34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2cccac631f2094f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1df842ad8bb57a79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b53ec35e2dec142b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0bd88d1d2c846a95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:54ac5735b556ffea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6ca96ed9de44307e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1cd0cbc66526d39a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d88ca9382ef3aa30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c9b2cdea928386d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e32da484ddb46134",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6f44565d9775a5f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:4d4e66e93b5997a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ad3523f05d77f5c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:36da993f1cf091a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:58e07a75caec6055",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0dd0033d6239244e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:81fb4f7ee8a6334b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:edf6fc09eaf21642",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7e9ab9723fa92b7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f483527a1f819af8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:649841a5263fb3ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:5da94f1ba11e41dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9de2ceb199f703ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7beef8e52e2e6856",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:01f85624c92e1df2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1efdfeb2bd275c36",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e61e7caf98c3cb41",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:225521ed14cc55df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7bf2d9db6712aed6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7328710e709b5c71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2041da6f7c046c01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b64a310c4a62b7d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7c4c0efee37d16e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c5490a86cc6ea40b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:74dd7b7573282fc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c7809e8ab106f652",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:93d6ff3b21f3b5e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:da826057ecb1627f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:cad65981776e7fee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:875255caa8e88b7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c8531c40eb71a65a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d070e74f766f722b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2cc6d1f4f5a5e46e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d3bbf3692e248f7c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6ca6fcabb18fe6d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:149c73476a6ed86d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:bd2a608cb662ea89",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e7525f84b7e12b35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fb400e4f516128fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:74173383d6efe3cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3b194339c7bb9c7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f748cde4c3cc4a98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:603107a4cf68b111",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:42b48fac579757ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:19d827221acc67bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9ad7047bb31ab7d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c7950198bb27a3ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8b871d0db813c29f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d9d0beeb378a2ff8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d015ddec1709971a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6c1d31cb3b67ae5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c2c33379dad31af6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b13a3fb72f6d6cf1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e6457c5afb3fbbf2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b024e2b977848d47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6b2b1f33bbcec257",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e29564185858fc03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8b7d5145850a7298",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:5b465f001ac03bb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a0363b2100c861b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1acc4cfad40b3332",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:349909050c7c6e43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b8458234e1127be0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a8caa799da0904b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1483c29c6a1f9fc2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:835dc99a3282a2dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:94fe607117c67412",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fc00be750b4268df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d3d6ad4273873f5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:37ed65ba9f7d538d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:baade36049605f3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9232b995f7bef66e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:aaf2ed23ef61d968",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d84e97a3111ee3ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1c3b3e7dd6926a49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8b32af09811ed046",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:03974d5dbc09fff2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2ce6a75dc8d9858a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8c83b4432ad69fcc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2b90f5184f4dbc77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1387ab3debadad97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:41715575e1af4f85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2c0da112f5d4ca07",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2aba1e5369d478ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:cec1f12c8a7598df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b0641c1c9074d825",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:28b373d2847871dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:22ecf8bd0e2a4a2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:432b78e7442b59d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:080eec1fe093e3bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9062285d63b2940d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:efd8cd6044e638c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:9f4c2d6cb05b17a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a2a000da76266762",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7de874c0eeb888be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:afbf56a08e5b7025",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f3d5fd4756d59bba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:98bddbb718176716",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1a51b9b1905a7310",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:3742ec93abac235a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:412f2dc8c328f8b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:82b73ca3e124c37a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fcc258b4efe18df7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:d793feb2f1102aba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:fba1ff73cd8a6e35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8ecfac93589c10f1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:43c1413689ef5d63",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:79b33c2b5bd21af2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:5edef4b9d8ab28a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e1a02b1def749c55",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:01eabcd1641d4660",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e8fb9e8dd7c1f5ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:00dfd66be96d84bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f8f0a427055e79d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:0173e1abfef64fc4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:58609dfad95ea761",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7ec7721da8220227",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2b27e8edacde1178",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6fb853bc6c2207e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f0fd962cb8b7ba73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:cde8c27984534188",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:cc1e1549b7b7d814",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:721cf51db2902f8a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:2c664b0e45036f9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:533a136b617e513b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:1aa22ba8fe817457",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:01267b387909e5e3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:865448cd77479aec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:16038cd190c00be2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:bc8b3dbc46aac9bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:a53c15f6a6ad4966",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:7a1f4a07c1c5d70b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:109eff57a82e897f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:8d3db515faac7fb2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:ec3bf6e9434edd63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:19dece6cf3b22d04",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:e5f1b9787466f28e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:89d19ed9871c172c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:deb32fa0cb115f96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c881812570759a92",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6559ff69e7016b70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:acc2f0ac83f7908f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6596438c68f2e153",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:06587fe7783d8565",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:b9c705aed054d58a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:824f1fd01221d539",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:6d9d2122a595e091",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:c4f9aa7da99a7e5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tresserhorns-lord-returned:goldfish:f1d2ed68bc914640",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

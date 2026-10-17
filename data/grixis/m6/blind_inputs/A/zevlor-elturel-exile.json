@@ -1,0 +1,6522 @@
+{
+ "candidates": [
+  {
+   "card": "Wizards of Thay",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizards of Thay",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:826676ac93b1"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:8c01bb21be5c"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Praetor's Grasp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:51bde8a08e18"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:62906e91fb65"
+   }
+  },
+  {
+   "card": "Lier, Disciple of the Drowned",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mindsplice Apparatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindsplice Apparatus",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindsplice Apparatus",
+       "cut": "Praetor's Grasp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:dd6048594335"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:96c49143ec04"
+   }
+  },
+  {
+   "card": "Stolen Goods",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Goods",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Goods",
+       "cut": "Praetor's Grasp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:c0b9660b5c1d"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f02dcbae03b8"
+   }
+  },
+  {
+   "card": "Arcane Bombardment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Bombardment",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:c6d54e0c7df1"
+   }
+  },
+  {
+   "card": "Archmage of Runes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage of Runes",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:27152f97bf6c"
+   }
+  },
+  {
+   "card": "Clone Legion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clone Legion",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:735d33ae27fd"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a21c1731dbf5"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Baral, Chief of Compliance"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:a4dacb9e0bca"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:ab42d3f683f0"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:2b124e07c8ba"
+   }
+  },
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Praetor's Grasp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:f42e7b9503af"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:10ab759d174b"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:d1137d5af419"
+   }
+  },
+  {
+   "card": "Talrand, Sky Summoner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talrand, Sky Summoner",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7c3a50e323ae"
+   }
+  },
+  {
+   "card": "Rush of Dread",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rush of Dread",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rush of Dread",
+       "cut": "Praetor's Grasp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:ed0bb90b9ac2"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:47de6b98606f"
+   }
+  },
+  {
+   "card": "Extract Brain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Extract Brain",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:328da4d79502"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:eeb01637797b"
+   }
+  },
+  {
+   "card": "Third Path Iconoclast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Third Path Iconoclast",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:ef2b5bbfeb26"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:aceddf086b97"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e9f7a0438d52"
+   }
+  },
+  {
+   "card": "You Find Some Prisoners",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Young Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Young Pyromancer",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7e67677e95f7"
+   }
+  },
+  {
+   "card": "Thunderclap Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thunderclap Drake",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:337140d4c1aa"
+   }
+  },
+  {
+   "card": "Talisman of Creativity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Creativity",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:8a1e3bf78930"
+   }
+  },
+  {
+   "card": "Haughty Djinn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haughty Djinn",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:bb8c60ffda10"
+   }
+  },
+  {
+   "card": "Kelpie Guide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kelpie Guide",
+       "cut": "Baral, Chief of Compliance"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3525-3772"
+        ]
+       },
+       "add": "Kelpie Guide",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:24956596dd1e"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:385f89f0fa62"
+   }
+  },
+  {
+   "card": "Double Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Double Vision",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:9011f10bb449"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:2988dee13ae5"
+   }
+  },
+  {
+   "card": "Professor Onyx",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Professor Onyx",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:b42297904d27"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:19bcd93443a9"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:c22dadbfa564"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:9d2e02f67adc"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:06cb15bc5cff"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f31a0528217a"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Archmage Emeritus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:d451692f7a83"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:1eaa7be12be9"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:071c15716ceb"
+   }
+  },
+  {
+   "card": "Dramatic Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dramatic Reversal",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dramatic Reversal",
+       "cut": "Praetor's Grasp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:0ce67d58e3d9"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:c24e5a6e1b93"
+   }
+  },
+  {
+   "card": "Invoke Despair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invoke Despair",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:777f12d37325"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:280a939addd1"
+   }
+  },
+  {
+   "card": "Talisman of Dominance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Dominance",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:20d78ee990a0"
+   }
+  },
+  {
+   "card": "Narset's Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Narset's Reversal",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Narset's Reversal",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:8b39cfa66d9f"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:91ef05fcad3e"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:75a346ebf38d"
+   }
+  },
+  {
+   "card": "Deekah, Fractal Theorist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mana Geyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Traumatic Critique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Traumatic Critique",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:1b9e7b250cbe"
+   }
+  },
+  {
+   "card": "Ashling, Flame Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashling, Flame Dancer",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:0fb679dc3f05"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:18ce3759c295"
+   }
+  },
+  {
+   "card": "Tablet of Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tablet of Discovery",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:d99b1cdd4fee"
+   }
+  },
+  {
+   "card": "Veyran, Voice of Duality",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Veyran, Voice of Duality",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:24a77a1c8c6b"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a0558ec130fc"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Archmage Emeritus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:0587308ea27c"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:b80e05d8895a"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:d4ee5a3d188c"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:00797b697f2f"
+   }
+  },
+  {
+   "card": "Errant, Street Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Errant, Street Artist",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:d5143a231b01"
+   }
+  },
+  {
+   "card": "Gale, Waterdeep Prodigy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gale, Waterdeep Prodigy",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:473c5242466b"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:be9b6918d468"
+   }
+  },
+  {
+   "card": "Reality Shift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a19e7c2efab4"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a11593385339"
+   }
+  },
+  {
+   "card": "Judith, Carnage Connoisseur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Inside Information",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inside Information",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:20731ee6cfb6"
+   }
+  },
+  {
+   "card": "Pongify",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pongify",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:de65162f53a4"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:0ef17c80b2bd"
+   }
+  },
+  {
+   "card": "Abstract Paintmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abstract Paintmage",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:abb2220c1222"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:46c3cc31a350"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e912d2ffa2c5"
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e6a9211df735"
+   }
+  },
+  {
+   "card": "Saw in Half",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saw in Half",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e64929af420e"
+   }
+  },
+  {
+   "card": "Vizier of Tumbling Sands",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vizier of Tumbling Sands",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:45f1410eeb50"
+   }
+  },
+  {
+   "card": "Zaffai, Thunder Conductor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Return the Favor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Return the Favor",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:366319c53557"
+   }
+  },
+  {
+   "card": "Solve the Equation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solve the Equation",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:9627fe56b6b3"
+   }
+  },
+  {
+   "card": "Twinflame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twinflame",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twinflame",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:ff4684a05dc8"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f8dfe937d8f8"
+   }
+  },
+  {
+   "card": "Banefire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banefire",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:448354d05b19"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:bec67e6dc594"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:3ccf5058eae0"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:fb4306226b7b"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Molten Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Duplication",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Duplication",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:bcdfa9a181fb"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:6aec3ac5a24c"
+   }
+  },
+  {
+   "card": "Freed from the Real",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Freed from the Real",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a5464b9a5ab1"
+   }
+  },
+  {
+   "card": "Mystic Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Confluence",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:0fb5c4cfecfd"
+   }
+  },
+  {
+   "card": "The Scarlet Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Scarlet Witch",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7e1aa4bd5e3d"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:0c47d20e54b4"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:c7780c926fc0"
+   }
+  },
+  {
+   "card": "Chain of Smog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:48190c8484a9"
+   }
+  },
+  {
+   "card": "Heat Shimmer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heat Shimmer",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heat Shimmer",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:20702ce86072"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:87dbe5860de9"
+   }
+  },
+  {
+   "card": "Haze of Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Blue Sun's Twilight"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:edb8d8ea53b8"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:b9380045d222"
+   }
+  },
+  {
+   "card": "Fury Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:2d9586973aef"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:4efc15f58f5b"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:c2172151f46a"
+   }
+  },
+  {
+   "card": "Shuri, Wakandan Inventor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shuri, Wakandan Inventor",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:59bb6b0aa1a3"
+   }
+  },
+  {
+   "card": "Case of the Ransacked Lab",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shaun, Father of Synths",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shaun, Father of Synths",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:8ef94f70e139"
+   }
+  },
+  {
+   "card": "Emeritus of Conflict // Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emeritus of Conflict // Lightning Bolt",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:4549bcc872ae"
+   }
+  },
+  {
+   "card": "Taskmaster, Mercenary Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Taskmaster, Mercenary Mimic",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:6f273fe5fafa"
+   }
+  },
+  {
+   "card": "Samut, Tyrant of Naktamun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Samut, Tyrant of Naktamun",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f0d4a032854d"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:cdab83ed9fd3"
+   }
+  },
+  {
+   "card": "Iron Man, Bleeding Edge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iron Man, Bleeding Edge",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:9503cbf9670d"
+   }
+  },
+  {
+   "card": "Aphetto Alchemist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aphetto Alchemist",
+       "cut": "Archmage Emeritus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aphetto Alchemist",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:aba1ea045997"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:bb1955c69211"
+   }
+  },
+  {
+   "card": "Ironheart, Clever Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ironheart, Clever Champion",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:08996898bc33"
+   }
+  },
+  {
+   "card": "Valeria Richards, Precocious",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Valeria Richards, Precocious",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:28e67c3cbc4e"
+   }
+  },
+  {
+   "card": "Echo, Perceptive Prodigy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echo, Perceptive Prodigy",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a6013929d5d3"
+   }
+  },
+  {
+   "card": "Marchesa, Dealer of Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marchesa, Dealer of Death",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:0f669baff602"
+   }
+  },
+  {
+   "card": "Baron Helmut Zemo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baron Helmut Zemo",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:50ab7b5c13e0"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a467e11eaaf9"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:4b0864fe72ec"
+   }
+  },
+  {
+   "card": "Zaffai and the Tempests",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zaffai and the Tempests",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e4ea31f2fabc"
+   }
+  },
+  {
+   "card": "Prismari, the Inspiration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari, the Inspiration",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:b8289980fdfa"
+   }
+  },
+  {
+   "card": "Rapid Hybridization",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rapid Hybridization",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:2fef74106652"
+   }
+  },
+  {
+   "card": "Council of Reeds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Council of Reeds",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:c5591c6714e4"
+   }
+  },
+  {
+   "card": "Jadzi, Steward of Fate // Oracle's Gift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jadzi, Steward of Fate // Oracle's Gift",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:499c5479f81b"
+   }
+  },
+  {
+   "card": "Leitmotif Composer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leitmotif Composer",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:06b665e3d2dc"
+   }
+  },
+  {
+   "card": "Leech Collector // Bloodletting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leech Collector // Bloodletting",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:129cdb633a33"
+   }
+  },
+  {
+   "card": "Mica, Reader of Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mica, Reader of Ruins",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:ba723ad284bd"
+   }
+  },
+  {
+   "card": "Alicia Masters, Skilled Sculptor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alicia Masters, Skilled Sculptor",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:6a836594246b"
+   }
+  },
+  {
+   "card": "Tomik, Izzet Sparkmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tomik, Izzet Sparkmage",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:184dc83672ce"
+   }
+  },
+  {
+   "card": "Iron Lad, Young Avenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iron Lad, Young Avenger",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:8e56cb7f23ab"
+   }
+  },
+  {
+   "card": "Arco-Flagellant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arco-Flagellant",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:0f13a0680fc1"
+   }
+  },
+  {
+   "card": "Variable Chaser // Arc of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Variable Chaser // Arc of Fortune",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:89d69da8c144"
+   }
+  },
+  {
+   "card": "Saheeli, Jewel of Avishkar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli, Jewel of Avishkar",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:99074846a4fa"
+   }
+  },
+  {
+   "card": "Scientist Supreme of A.I.M.",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scientist Supreme of A.I.M.",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7d583df55e9a"
+   }
+  },
+  {
+   "card": "Venser, Fervent Forger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Fervent Forger",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:681be5d94ac2"
+   }
+  },
+  {
+   "card": "Helmut Zemo, Mastermind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helmut Zemo, Mastermind",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a3367c98afc3"
+   }
+  },
+  {
+   "card": "Adventurous Eater // Have a Bite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Adventurous Eater // Have a Bite",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:bb76360756ea"
+   }
+  },
+  {
+   "card": "Lecturing Scornmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lecturing Scornmage",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:ff8dfbe96456"
+   }
+  },
+  {
+   "card": "Stingcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stingcaster Mage",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a30e9c684eb9"
+   }
+  },
+  {
+   "card": "Immortus, Master of Eternity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Immortus, Master of Eternity",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:08ca6d025462"
+   }
+  },
+  {
+   "card": "Arcane Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Artisan",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a073c18a9df7"
+   }
+  },
+  {
+   "card": "Harmonic Prodigy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Harmonic Prodigy",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7c772d12429e"
+   }
+  },
+  {
+   "card": "Deluge Virtuoso",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deluge Virtuoso",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:3acb30049ee6"
+   }
+  },
+  {
+   "card": "Expressive Firedancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expressive Firedancer",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e3fb722f83c7"
+   }
+  },
+  {
+   "card": "Iron Fist, Hero for Hire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iron Fist, Hero for Hire",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:bde38033447c"
+   }
+  },
+  {
+   "card": "Ponder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Crimson Operative",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crimson Operative",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:41a200148eb3"
+   }
+  },
+  {
+   "card": "Pharaoh Rama-Tut",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pharaoh Rama-Tut",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:09a621d698df"
+   }
+  },
+  {
+   "card": "The Immortal Weapons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Immortal Weapons",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:b7ec6c8592f6"
+   }
+  },
+  {
+   "card": "Winter, Team Player",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Winter, Team Player",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f26d41752762"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e0954fbe5a24"
+   }
+  },
+  {
+   "card": "Tetsuko Umezawa, Pursuer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tetsuko Umezawa, Pursuer",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:79e3e2991837"
+   }
+  },
+  {
+   "card": "Cascade Bluffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cascade Bluffs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:ced030fdda38"
+   }
+  },
+  {
+   "card": "TVA Bureaucrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "TVA Bureaucrat",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:e1703854d2d5"
+   }
+  },
+  {
+   "card": "Cryotheory Adept",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryotheory Adept",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:bc602001edc0"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rings of Brighthearth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rings of Brighthearth",
+       "cut": "Blue Sun's Twilight"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:8be90170f280"
+   }
+  },
+  {
+   "card": "Spellseeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spellseeker",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:68b2af58636f"
+   }
+  },
+  {
+   "card": "Sakashima of a Thousand Faces",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Firebrand Archer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firebrand Archer",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:58c89d8ffc85"
+   }
+  },
+  {
+   "card": "Rimewind Taskmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rimewind Taskmage",
+       "cut": "Archmage Emeritus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rimewind Taskmage",
+       "cut": "Sedgemoor Witch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:3eca8f615988"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:463461c62bc0"
+   }
+  },
+  {
+   "card": "Flux Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flux Channeler",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:834fb523a7dc"
+   }
+  },
+  {
+   "card": "Electro, Assaulting Battery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electro, Assaulting Battery",
+       "cut": "Dark Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:88b2931589cc"
+   }
+  },
+  {
+   "card": "Kessig Flamebreather",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kessig Flamebreather",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f03b75adeb55"
+   }
+  },
+  {
+   "card": "Feldon of the Third Path",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feldon of the Third Path",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:d4069a10d244"
+   }
+  },
+  {
+   "card": "Chameleon, Master of Disguise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Jaxis, the Troublemaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jaxis, the Troublemaker",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7c0a1b105d52"
+   }
+  },
+  {
+   "card": "Boseiju, Who Shelters All",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boseiju, Who Shelters All",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a681df22cf8d"
+   }
+  },
+  {
+   "card": "Thermo-Alchemist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thermo-Alchemist",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:18126d68a494"
+   }
+  },
+  {
+   "card": "Murmuring Mystic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dragon's Rage Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:849688461a85"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a9cbf95c1d94"
+   }
+  },
+  {
+   "card": "Sakashima the Impostor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sarkhan, Soul Aflame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sarkhan, Soul Aflame",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7a6b71a5aad9"
+   }
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Toxic Deluge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toxic Deluge",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:a2db0e03840f"
+   }
+  },
+  {
+   "card": "Thousand-Faced Shadow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Faced Shadow",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:d85ccb56e55d"
+   }
+  },
+  {
+   "card": "Gleeful Arsonist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gleeful Arsonist",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:55b69de75728"
+   }
+  },
+  {
+   "card": "Rionya, Fire Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Longshot, Rebel Bowman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Firebending Student",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firebending Student",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:1d28c38429cb"
+   }
+  },
+  {
+   "card": "Crosis's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Gríma, Saruman's Footman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Ardyn, the Usurper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dire Fleet Daredevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dire Fleet Daredevil",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:63438854a1ce"
+   }
+  },
+  {
+   "card": "Irma, Part-Time Mutant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Irma, Part-Time Mutant",
+       "cut": "Archmage Emeritus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:66082f8ec934"
+   }
+  },
+  {
+   "card": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:cbe1ddd46e89"
+   }
+  },
+  {
+   "card": "Sakashima's Student",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:6818fc375b2e"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:6b6b32b69afe"
+   }
+  },
+  {
+   "card": "Hawkeye's Bow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hawkeye's Bow",
+       "cut": "Exterminator Magmarch"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:6fb9b2008b1c"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:50b4f86bf493"
+   }
+  },
+  {
+   "card": "Unctus, Grand Metatect",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Leadership Vacuum"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:2a64b990024f"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:cfeabb6fe9d9"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f26ee1327b05"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:f8e9fc1b8d14"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Abrade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:1885d180a3a2"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Dark Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3525-3772"
+        ]
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:8b1ea33e17e4"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:ed261553ce87"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Baral, Chief of Compliance"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3525-3772"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:b5d78f1f2e0d"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:7cd66f8baa8a"
+   }
+  },
+  {
+   "card": "Tidewater Minion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidewater Minion",
+       "cut": "Baral, Chief of Compliance"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3525-3772"
+        ]
+       },
+       "add": "Tidewater Minion",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:zevlor-elturel-exile:m5:9c849d71d8b0"
+    },
+    "swap": "swap:zevlor-elturel-exile:m5:5ec1fae5929b"
+   }
+  }
+ ],
+ "deck_id": "Zevlor__Elturel_Exile",
+ "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "slug": "zevlor-elturel-exile",
+ "swaps": [
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:826676ac93b1"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8c01bb21be5c"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:62906e91fb65"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:51bde8a08e18"
+  },
+  {
+   "adds": [
+    "Mindsplice Apparatus"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:96c49143ec04"
+  },
+  {
+   "adds": [
+    "Mindsplice Apparatus"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:dd6048594335"
+  },
+  {
+   "adds": [
+    "Stolen Goods"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f02dcbae03b8"
+  },
+  {
+   "adds": [
+    "Stolen Goods"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c0b9660b5c1d"
+  },
+  {
+   "adds": [
+    "Arcane Bombardment"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c6d54e0c7df1"
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:27152f97bf6c"
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:735d33ae27fd"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a21c1731dbf5"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ab42d3f683f0"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a4dacb9e0bca"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2b124e07c8ba"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:10ab759d174b"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f42e7b9503af"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d1137d5af419"
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7c3a50e323ae"
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:47de6b98606f"
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ed0bb90b9ac2"
+  },
+  {
+   "adds": [
+    "Extract Brain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:328da4d79502"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:eeb01637797b"
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ef2b5bbfeb26"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:aceddf086b97"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e9f7a0438d52"
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7e67677e95f7"
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:337140d4c1aa"
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8a1e3bf78930"
+  },
+  {
+   "adds": [
+    "Haughty Djinn"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bb8c60ffda10"
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:385f89f0fa62"
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:24956596dd1e"
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9011f10bb449"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2988dee13ae5"
+  },
+  {
+   "adds": [
+    "Professor Onyx"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b42297904d27"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:19bcd93443a9"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c22dadbfa564"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9d2e02f67adc"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:06cb15bc5cff"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f31a0528217a"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1eaa7be12be9"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d451692f7a83"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:071c15716ceb"
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c24e5a6e1b93"
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0ce67d58e3d9"
+  },
+  {
+   "adds": [
+    "Invoke Despair"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:777f12d37325"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:280a939addd1"
+  },
+  {
+   "adds": [
+    "Talisman of Dominance"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:20d78ee990a0"
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:91ef05fcad3e"
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8b39cfa66d9f"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:75a346ebf38d"
+  },
+  {
+   "adds": [
+    "Traumatic Critique"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1b9e7b250cbe"
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0fb679dc3f05"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:18ce3759c295"
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d99b1cdd4fee"
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:24a77a1c8c6b"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a0558ec130fc"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b80e05d8895a"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0587308ea27c"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d4ee5a3d188c"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:00797b697f2f"
+  },
+  {
+   "adds": [
+    "Errant, Street Artist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d5143a231b01"
+  },
+  {
+   "adds": [
+    "Gale, Waterdeep Prodigy"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:473c5242466b"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:be9b6918d468"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a19e7c2efab4"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a11593385339"
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:20731ee6cfb6"
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:de65162f53a4"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0ef17c80b2bd"
+  },
+  {
+   "adds": [
+    "Abstract Paintmage"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:abb2220c1222"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:46c3cc31a350"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e912d2ffa2c5"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e6a9211df735"
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e64929af420e"
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:45f1410eeb50"
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:366319c53557"
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9627fe56b6b3"
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f8dfe937d8f8"
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ff4684a05dc8"
+  },
+  {
+   "adds": [
+    "Banefire"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:448354d05b19"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:3ccf5058eae0"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bec67e6dc594"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:fb4306226b7b"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6aec3ac5a24c"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bcdfa9a181fb"
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a5464b9a5ab1"
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0fb5c4cfecfd"
+  },
+  {
+   "adds": [
+    "The Scarlet Witch"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7e1aa4bd5e3d"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c7780c926fc0"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0c47d20e54b4"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:48190c8484a9"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:87dbe5860de9"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:20702ce86072"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b9380045d222"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:edb8d8ea53b8"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2d9586973aef"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:4efc15f58f5b"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c2172151f46a"
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:59bb6b0aa1a3"
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8ef94f70e139"
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:4549bcc872ae"
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6f273fe5fafa"
+  },
+  {
+   "adds": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f0d4a032854d"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:cdab83ed9fd3"
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9503cbf9670d"
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bb1955c69211"
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:aba1ea045997"
+  },
+  {
+   "adds": [
+    "Ironheart, Clever Champion"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:08996898bc33"
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:28e67c3cbc4e"
+  },
+  {
+   "adds": [
+    "Echo, Perceptive Prodigy"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a6013929d5d3"
+  },
+  {
+   "adds": [
+    "Marchesa, Dealer of Death"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0f669baff602"
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:50ab7b5c13e0"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a467e11eaaf9"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:4b0864fe72ec"
+  },
+  {
+   "adds": [
+    "Zaffai and the Tempests"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e4ea31f2fabc"
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b8289980fdfa"
+  },
+  {
+   "adds": [
+    "Rapid Hybridization"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2fef74106652"
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c5591c6714e4"
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:499c5479f81b"
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:06b665e3d2dc"
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:129cdb633a33"
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ba723ad284bd"
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6a836594246b"
+  },
+  {
+   "adds": [
+    "Tomik, Izzet Sparkmage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:184dc83672ce"
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8e56cb7f23ab"
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0f13a0680fc1"
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:89d69da8c144"
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:99074846a4fa"
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7d583df55e9a"
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:681be5d94ac2"
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a3367c98afc3"
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bb76360756ea"
+  },
+  {
+   "adds": [
+    "Lecturing Scornmage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ff8dfbe96456"
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a30e9c684eb9"
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:08ca6d025462"
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a073c18a9df7"
+  },
+  {
+   "adds": [
+    "Harmonic Prodigy"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7c772d12429e"
+  },
+  {
+   "adds": [
+    "Deluge Virtuoso"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:3acb30049ee6"
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e3fb722f83c7"
+  },
+  {
+   "adds": [
+    "Iron Fist, Hero for Hire"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bde38033447c"
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:41a200148eb3"
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:09a621d698df"
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b7ec6c8592f6"
+  },
+  {
+   "adds": [
+    "Winter, Team Player"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f26d41752762"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e0954fbe5a24"
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:79e3e2991837"
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ced030fdda38"
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e1703854d2d5"
+  },
+  {
+   "adds": [
+    "Cryotheory Adept"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bc602001edc0"
+  },
+  {
+   "adds": [
+    "Rings of Brighthearth"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8be90170f280"
+  },
+  {
+   "adds": [
+    "Spellseeker"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:68b2af58636f"
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:58c89d8ffc85"
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:463461c62bc0"
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:3eca8f615988"
+  },
+  {
+   "adds": [
+    "Flux Channeler"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:834fb523a7dc"
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:88b2931589cc"
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f03b75adeb55"
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d4069a10d244"
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7c0a1b105d52"
+  },
+  {
+   "adds": [
+    "Boseiju, Who Shelters All"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a681df22cf8d"
+  },
+  {
+   "adds": [
+    "Thermo-Alchemist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:18126d68a494"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:849688461a85"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a9cbf95c1d94"
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7a6b71a5aad9"
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a2db0e03840f"
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d85ccb56e55d"
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:55b69de75728"
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1d28c38429cb"
+  },
+  {
+   "adds": [
+    "Dire Fleet Daredevil"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:63438854a1ce"
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:66082f8ec934"
+  },
+  {
+   "adds": [
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:cbe1ddd46e89"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6818fc375b2e"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6b6b32b69afe"
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Exterminator Magmarch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6fb9b2008b1c"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:50b4f86bf493"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:cfeabb6fe9d9"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Leadership Vacuum"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2a64b990024f"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f26ee1327b05"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f8e9fc1b8d14"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1885d180a3a2"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ed261553ce87"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8b1ea33e17e4"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7cd66f8baa8a"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b5d78f1f2e0d"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:5ec1fae5929b"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9c849d71d8b0"
+  }
+ ]
+}

@@ -1,0 +1,5332 @@
+{
+ "candidates": [
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Fellwar Stone",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:a1022056d40f"
+    },
+    "swap": "swap:grixistax-october-2026:m5:08d169da6e9a"
+   }
+  },
+  {
+   "card": "Thassa's Oracle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thassa's Oracle",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thassa's Oracle",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:48d570e78f59"
+    },
+    "swap": "swap:grixistax-october-2026:m5:78e67bd4d3dd"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:1dc06500ff2f"
+   }
+  },
+  {
+   "card": "Simian Spirit Guide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Simian Spirit Guide",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Simian Spirit Guide",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:eafc3bd14fe2"
+    },
+    "swap": "swap:grixistax-october-2026:m5:0b293d9f3dba"
+   }
+  },
+  {
+   "card": "Cabal Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cabal Ritual",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Cabal Ritual",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:8329b2c85e69"
+    },
+    "swap": "swap:grixistax-october-2026:m5:df8d2c184d0c"
+   }
+  },
+  {
+   "card": "Demonic Consultation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Demonic Consultation",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:1f0006ec4d7d"
+   }
+  },
+  {
+   "card": "Rite of Flame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Flame",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:2eb8ed160420"
+   }
+  },
+  {
+   "card": "The One Ring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The One Ring",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The One Ring",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:7c098ea69910"
+    },
+    "swap": "swap:grixistax-october-2026:m5:9e9f6eb4a5f8"
+   }
+  },
+  {
+   "card": "Borne Upon a Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Borne Upon a Wind",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Borne Upon a Wind",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:bc9cafc7478f"
+    },
+    "swap": "swap:grixistax-october-2026:m5:23aa922649e3"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:c19e37f0e67a"
+   }
+  },
+  {
+   "card": "Luxury Suite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxury Suite",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f804ae31f713"
+   }
+  },
+  {
+   "card": "Mnemonic Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:a685d2103ef1"
+   }
+  },
+  {
+   "card": "Arcane Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Signet",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Arcane Signet",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:3275294198a3"
+    },
+    "swap": "swap:grixistax-october-2026:m5:80120dee7b2b"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:8af674c7bfb8"
+   }
+  },
+  {
+   "card": "Ad Nauseam",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ad Nauseam",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:60721ca5d214"
+   }
+  },
+  {
+   "card": "Praetor's Grasp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Praetor's Grasp",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f5915cd9464b"
+   }
+  },
+  {
+   "card": "Final Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Displacer Kitten",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Displacer Kitten",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Displacer Kitten",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:9518c9ea435c"
+    },
+    "swap": "swap:grixistax-october-2026:m5:20b7698756fc"
+   }
+  },
+  {
+   "card": "Valley Floodcaller",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Valley Floodcaller",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Valley Floodcaller",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:7b6ef562195b"
+    },
+    "swap": "swap:grixistax-october-2026:m5:fb5fc7f9e84e"
+   }
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:a5da61df82e3"
+    },
+    "swap": "swap:grixistax-october-2026:m5:c8bde234544b"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:32ec3d5e09ab"
+   }
+  },
+  {
+   "card": "City of Traitors",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "City of Traitors",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:646bdfe8bea2"
+   }
+  },
+  {
+   "card": "Spire of Industry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spire of Industry",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:fe0921d53a0e"
+   }
+  },
+  {
+   "card": "Into the Flood Maw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Into the Flood Maw",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:607d23c15686"
+   }
+  },
+  {
+   "card": "Dispel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dispel",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:17ef74fc8337"
+   }
+  },
+  {
+   "card": "Gilded Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gilded Drake",
+       "cut": "Magus of the Moon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:750aefb72a61"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Faerie Mastermind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faerie Mastermind",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:1aa3ddf96d37"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Tangle Wire"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2581-5065"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Dauthi Voidwalker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:f4a8dbd551c2"
+    },
+    "swap": "swap:grixistax-october-2026:m5:5c62b54e1650"
+   }
+  },
+  {
+   "card": "Defense Grid",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Defense Grid",
+       "cut": "Chalice of the Void"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:8d5c6295b1a2"
+   }
+  },
+  {
+   "card": "Rain of Filth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rain of Filth",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:bf961d041d7a"
+   }
+  },
+  {
+   "card": "Gitaxian Probe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gitaxian Probe",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:248b826edde9"
+   }
+  },
+  {
+   "card": "Ashnod's Altar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashnod's Altar",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:56252fe0c4e6"
+   }
+  },
+  {
+   "card": "Phyrexian Metamorph",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Metamorph",
+       "cut": "Magus of the Moon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:b429fa11b520"
+   }
+  },
+  {
+   "card": "Hexing Squelcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hexing Squelcher",
+       "cut": "Magus of the Moon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f932f39bfe2b"
+   }
+  },
+  {
+   "card": "Animate Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Tangle Wire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:9fca3204cfc2"
+   }
+  },
+  {
+   "card": "Emergence Zone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emergence Zone",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:128266d7b957"
+   }
+  },
+  {
+   "card": "Overwrite the Multiverse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Overwrite the Multiverse",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:cdb37e7319a0"
+   }
+  },
+  {
+   "card": "Agent of Treachery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agent of Treachery",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:99f1f0e8e5ff"
+   }
+  },
+  {
+   "card": "Stitcher's Supplier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Tangle Wire"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2581-5065"
+        ]
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Dauthi Voidwalker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:9b98d68795f3"
+    },
+    "swap": "swap:grixistax-october-2026:m5:651406b3381c"
+   }
+  },
+  {
+   "card": "Professional Face-Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Professional Face-Breaker",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:8dc0944adf2c"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:39b6898b10b9"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:e7fd8c2b5402"
+   }
+  },
+  {
+   "card": "Deadly Dispute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Dispute",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:989b6e18f91e"
+   }
+  },
+  {
+   "card": "Vraska, Betrayal's Sting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vraska, Betrayal's Sting",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:0d48a21d6d98"
+   }
+  },
+  {
+   "card": "The Theorist, Jace Beleren",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Theorist, Jace Beleren",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d34533bd0d24"
+   }
+  },
+  {
+   "card": "Snap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snap",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:bc7f05da7f41"
+   }
+  },
+  {
+   "card": "Braids, Arisen Nightmare",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Braids, Arisen Nightmare",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:ce08b4d1b4e8"
+   }
+  },
+  {
+   "card": "Bolas's Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolas's Citadel",
+       "cut": "Tangle Wire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:0e0bf37bd34a"
+   }
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Karn, the Great Creator"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:1bba454eca21"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:3fe2ff5a06c6"
+   }
+  },
+  {
+   "card": "Invert Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invert Polarity",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:550fdee3f1ef"
+   }
+  },
+  {
+   "card": "Yawgmoth's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yawgmoth's Will",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:59263d2e9a58"
+   }
+  },
+  {
+   "card": "Insurrection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insurrection",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:2dda8ec4e8b0"
+   }
+  },
+  {
+   "card": "Volatile Stormdrake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volatile Stormdrake",
+       "cut": "Magus of the Moon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:c19e44542318"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:cdcf06342bec"
+   }
+  },
+  {
+   "card": "Strix Serenade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strix Serenade",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:104c59ba80de"
+   }
+  },
+  {
+   "card": "Innovative Commons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Innovative Commons",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:ef56d55b482e"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:059eeda62de9"
+   }
+  },
+  {
+   "card": "High Market",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "High Market",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:06374369a305"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:9507f57025bf"
+   }
+  },
+  {
+   "card": "Warren Soultrader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warren Soultrader",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:67637b90fad2"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:ecf08f18a85e"
+   }
+  },
+  {
+   "card": "Yawgmoth, Thran Physician",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yawgmoth, Thran Physician",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:26436ce90ae8"
+   }
+  },
+  {
+   "card": "Captivating Crew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captivating Crew",
+       "cut": "Magus of the Moon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:5a4b85b8d99c"
+   }
+  },
+  {
+   "card": "Mistrise Village",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mistrise Village",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:352ed9f82c48"
+   }
+  },
+  {
+   "card": "Cephalid Coliseum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Coliseum",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:3e6e4dc3e592"
+   }
+  },
+  {
+   "card": "Black Market Connections",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Market Connections",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:0898e0067714"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:4cb7837789c1"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:63ce335408d2"
+    },
+    "swap": "swap:grixistax-october-2026:m5:c59059916e5e"
+   }
+  },
+  {
+   "card": "Dack Fayden",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dack Fayden",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:8b1fc33e3d76"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:18f2b42cbc5f"
+    },
+    "swap": "swap:grixistax-october-2026:m5:a2b1b0003a4b"
+   }
+  },
+  {
+   "card": "Zealous Conscripts",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zealous Conscripts",
+       "cut": "Magus of the Moon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:27ae587c5fbf"
+   }
+  },
+  {
+   "card": "Mayhem Devil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mayhem Devil",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:fdd7a82ccc79"
+   }
+  },
+  {
+   "card": "Starting Town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starting Town",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:8bff9e1a1650"
+   }
+  },
+  {
+   "card": "Seize the Spotlight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Spotlight",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:cf6e8974ce24"
+   }
+  },
+  {
+   "card": "Act of Treason",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Act of Treason",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:92d2e5878265"
+   }
+  },
+  {
+   "card": "Reins of Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reins of Power",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:a0a63be17b1a"
+   }
+  },
+  {
+   "card": "Scavenger Grounds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scavenger Grounds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:dc821bbf4451"
+   }
+  },
+  {
+   "card": "Phyrexian Altar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Altar",
+       "cut": "Tangle Wire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:a11f810021b0"
+   }
+  },
+  {
+   "card": "Claim the Firstborn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Claim the Firstborn",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:ffc4f5e5b0fc"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:69c9d3851b4c"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:8fedc8a1c56a"
+   }
+  },
+  {
+   "card": "Spell Pierce",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spell Pierce",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d7896e861791"
+   }
+  },
+  {
+   "card": "Fabled Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabled Passage",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d866425129bd"
+   }
+  },
+  {
+   "card": "Viscera Seer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Viscera Seer",
+       "cut": "Tangle Wire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:873aae50487a"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:6c65ead9730b"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d3769a589917"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f7b77f88c848"
+   }
+  },
+  {
+   "card": "Jace, Reality Sculptor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, Reality Sculptor",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:539776a3b368"
+   }
+  },
+  {
+   "card": "Necrodominance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necrodominance",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:e4b93776e101"
+   }
+  },
+  {
+   "card": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:367157d888b6"
+   }
+  },
+  {
+   "card": "Loki's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki's Scepter",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:4b1a04c1db29"
+   }
+  },
+  {
+   "card": "Aetherflux Reservoir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherflux Reservoir",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:ef33a761352d"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:0a6871701d46"
+    },
+    "swap": "swap:grixistax-october-2026:m5:f238e858fbb6"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:a91ea3bda199"
+    },
+    "swap": "swap:grixistax-october-2026:m5:63242df06131"
+   }
+  },
+  {
+   "card": "Stardew Valley",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stardew Valley",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:fd4afac5928b"
+   }
+  },
+  {
+   "card": "Thranduil's Decree",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thranduil's Decree",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f71572ee72ee"
+   }
+  },
+  {
+   "card": "The Mycosynth Gardens",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mycosynth Gardens",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:73eb8dabcb04"
+   }
+  },
+  {
+   "card": "Bazaar of Wonders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bazaar of Wonders",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:3920106d1014"
+   }
+  },
+  {
+   "card": "Vilis, Broker of Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:ab489e81a20a"
+    },
+    "swap": "swap:grixistax-october-2026:m5:aee739d136dd"
+   }
+  },
+  {
+   "card": "Jin-Gitaxias, Progress Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jin-Gitaxias, Progress Tyrant",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d4dce484eced"
+   }
+  },
+  {
+   "card": "Archmage's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage's Charm",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:94ea16d15889"
+   }
+  },
+  {
+   "card": "Rev, Tithe Extractor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rev, Tithe Extractor",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:2cfc652e905d"
+   }
+  },
+  {
+   "card": "Kellogg, Dangerous Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kellogg, Dangerous Mind",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:2cdb99415282"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:4b9b781478fa"
+    },
+    "swap": "swap:grixistax-october-2026:m5:bf0d15465256"
+   }
+  },
+  {
+   "card": "Decadent Dragon // Expensive Taste",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decadent Dragon // Expensive Taste",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d04feed08d1d"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:a4e0d954b859"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:0a2e8c464009"
+    },
+    "swap": "swap:grixistax-october-2026:m5:a5e11aa570b0"
+   }
+  },
+  {
+   "card": "Thieving Varmint",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thieving Varmint",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f81f06eac81f"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Beseech the Mirror"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:52c247c4dd15"
+    },
+    "swap": "swap:grixistax-october-2026:m5:f904a13dd4fe"
+   }
+  },
+  {
+   "card": "Don Andres, the Renegade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Don Andres, the Renegade",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:9762cc7de7f6"
+   }
+  },
+  {
+   "card": "Ramirez DePietro, Pillager",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ramirez DePietro, Pillager",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:0c0bcc1f6797"
+   }
+  },
+  {
+   "card": "Song-Mad Treachery // Song-Mad Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Song-Mad Treachery // Song-Mad Ruins",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:3be92c41ae6a"
+   }
+  },
+  {
+   "card": "Involuntary Employment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Involuntary Employment",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:b2bb7da89fe7"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:fa3064acfcc2"
+    },
+    "swap": "swap:grixistax-october-2026:m5:49b1aaf9e694"
+   }
+  },
+  {
+   "card": "Furnace Reins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Furnace Reins",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:0acfe6d94445"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:7d3582d40c90"
+    },
+    "swap": "swap:grixistax-october-2026:m5:4f989ae47914"
+   }
+  },
+  {
+   "card": "Vaan, Street Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vaan, Street Thief",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:c2c72f89fe70"
+   }
+  },
+  {
+   "card": "Marina Vendrell's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:29a5b1a2550b"
+    },
+    "swap": "swap:grixistax-october-2026:m5:3cc2ca4b6e36"
+   }
+  },
+  {
+   "card": "Lich's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich's Mastery",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:950bb73920d2"
+    },
+    "swap": "swap:grixistax-october-2026:m5:b69789eb16b8"
+   }
+  },
+  {
+   "card": "Kheru Spellsnatcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kheru Spellsnatcher",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:e4081b31341e"
+   }
+  },
+  {
+   "card": "Voltaic Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voltaic Construct",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voltaic Construct",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:d2f4cc983cb0"
+    },
+    "swap": "swap:grixistax-october-2026:m5:5e380e9fdd54"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2163-5065"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Leyline of the Void"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:ab0cf9d90370"
+    },
+    "swap": "swap:grixistax-october-2026:m5:59e7abffbea3"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:c87aeecd41bb"
+    },
+    "swap": "swap:grixistax-october-2026:m5:71bbe238733f"
+   }
+  },
+  {
+   "card": "Korvold and the Noble Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Korvold and the Noble Thief",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:ed4f23046446"
+   }
+  },
+  {
+   "card": "Nefarious Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "Notion Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Nefarious Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:2c15590d7e70"
+    },
+    "swap": "swap:grixistax-october-2026:m5:e7bc718c4c12"
+   }
+  },
+  {
+   "card": "Amulet of Safekeeping",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Amulet of Safekeeping",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:e3650a520be9"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Magus of the Moon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:871833c6f6ee"
+    },
+    "swap": "swap:grixistax-october-2026:m5:4c49c4eb88d8"
+   }
+  },
+  {
+   "card": "Thrull Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrull Wizard",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:3476a866f311"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Beseech the Mirror"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Breaking // Entering",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:3dfdfe06ba1b"
+    },
+    "swap": "swap:grixistax-october-2026:m5:aa1cc48025bc"
+   }
+  },
+  {
+   "card": "Jester's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jester's Scepter",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:d91e433e50ff"
+   }
+  },
+  {
+   "card": "Grimoire Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grimoire Thief",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:f7b3efef23cb"
+   }
+  },
+  {
+   "card": "Ice Cauldron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ice Cauldron",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:204058b2274d"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:grixistax-october-2026:m5:e4756a3f6650"
+    },
+    "swap": "swap:grixistax-october-2026:m5:3a45f468c2b4"
+   }
+  },
+  {
+   "card": "Mindreaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindreaver",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:428eff15c7e3"
+   }
+  },
+  {
+   "card": "Redirect Lightning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Redirect Lightning",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:grixistax-october-2026:m5:92091fd2fa9a"
+   }
+  }
+ ],
+ "deck_id": "Grixistax___October_2026",
+ "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "slug": "grixistax-october-2026",
+ "swaps": [
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:08d169da6e9a"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a1022056d40f"
+  },
+  {
+   "adds": [
+    "Thassa's Oracle"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:78e67bd4d3dd"
+  },
+  {
+   "adds": [
+    "Thassa's Oracle"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:48d570e78f59"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1dc06500ff2f"
+  },
+  {
+   "adds": [
+    "Simian Spirit Guide"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0b293d9f3dba"
+  },
+  {
+   "adds": [
+    "Simian Spirit Guide"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:eafc3bd14fe2"
+  },
+  {
+   "adds": [
+    "Cabal Ritual"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:df8d2c184d0c"
+  },
+  {
+   "adds": [
+    "Cabal Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8329b2c85e69"
+  },
+  {
+   "adds": [
+    "Demonic Consultation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1f0006ec4d7d"
+  },
+  {
+   "adds": [
+    "Rite of Flame"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2eb8ed160420"
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9e9f6eb4a5f8"
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:7c098ea69910"
+  },
+  {
+   "adds": [
+    "Borne Upon a Wind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:23aa922649e3"
+  },
+  {
+   "adds": [
+    "Borne Upon a Wind"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bc9cafc7478f"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c19e37f0e67a"
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f804ae31f713"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a685d2103ef1"
+  },
+  {
+   "adds": [
+    "Arcane Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:80120dee7b2b"
+  },
+  {
+   "adds": [
+    "Arcane Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3275294198a3"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8af674c7bfb8"
+  },
+  {
+   "adds": [
+    "Ad Nauseam"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:60721ca5d214"
+  },
+  {
+   "adds": [
+    "Praetor's Grasp"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f5915cd9464b"
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:20b7698756fc"
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9518c9ea435c"
+  },
+  {
+   "adds": [
+    "Valley Floodcaller"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fb5fc7f9e84e"
+  },
+  {
+   "adds": [
+    "Valley Floodcaller"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:7b6ef562195b"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c8bde234544b"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a5da61df82e3"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:32ec3d5e09ab"
+  },
+  {
+   "adds": [
+    "City of Traitors"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:646bdfe8bea2"
+  },
+  {
+   "adds": [
+    "Spire of Industry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fe0921d53a0e"
+  },
+  {
+   "adds": [
+    "Into the Flood Maw"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:607d23c15686"
+  },
+  {
+   "adds": [
+    "Dispel"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:17ef74fc8337"
+  },
+  {
+   "adds": [
+    "Gilded Drake"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:750aefb72a61"
+  },
+  {
+   "adds": [
+    "Faerie Mastermind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1aa3ddf96d37"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:5c62b54e1650"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f4a8dbd551c2"
+  },
+  {
+   "adds": [
+    "Defense Grid"
+   ],
+   "cuts": [
+    "Chalice of the Void"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8d5c6295b1a2"
+  },
+  {
+   "adds": [
+    "Rain of Filth"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bf961d041d7a"
+  },
+  {
+   "adds": [
+    "Gitaxian Probe"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:248b826edde9"
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:56252fe0c4e6"
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:b429fa11b520"
+  },
+  {
+   "adds": [
+    "Hexing Squelcher"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f932f39bfe2b"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9fca3204cfc2"
+  },
+  {
+   "adds": [
+    "Emergence Zone"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:128266d7b957"
+  },
+  {
+   "adds": [
+    "Overwrite the Multiverse"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:cdb37e7319a0"
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:99f1f0e8e5ff"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:651406b3381c"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9b98d68795f3"
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8dc0944adf2c"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:39b6898b10b9"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e7fd8c2b5402"
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:989b6e18f91e"
+  },
+  {
+   "adds": [
+    "Vraska, Betrayal's Sting"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0d48a21d6d98"
+  },
+  {
+   "adds": [
+    "The Theorist, Jace Beleren"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d34533bd0d24"
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bc7f05da7f41"
+  },
+  {
+   "adds": [
+    "Braids, Arisen Nightmare"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ce08b4d1b4e8"
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0e0bf37bd34a"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Karn, the Great Creator"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1bba454eca21"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3fe2ff5a06c6"
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:550fdee3f1ef"
+  },
+  {
+   "adds": [
+    "Yawgmoth's Will"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:59263d2e9a58"
+  },
+  {
+   "adds": [
+    "Insurrection"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2dda8ec4e8b0"
+  },
+  {
+   "adds": [
+    "Volatile Stormdrake"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c19e44542318"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:cdcf06342bec"
+  },
+  {
+   "adds": [
+    "Strix Serenade"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:104c59ba80de"
+  },
+  {
+   "adds": [
+    "Innovative Commons"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ef56d55b482e"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:059eeda62de9"
+  },
+  {
+   "adds": [
+    "High Market"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:06374369a305"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9507f57025bf"
+  },
+  {
+   "adds": [
+    "Warren Soultrader"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:67637b90fad2"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ecf08f18a85e"
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:26436ce90ae8"
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:5a4b85b8d99c"
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:352ed9f82c48"
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3e6e4dc3e592"
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0898e0067714"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4cb7837789c1"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c59059916e5e"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:63ce335408d2"
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8b1fc33e3d76"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a2b1b0003a4b"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:18f2b42cbc5f"
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:27ae587c5fbf"
+  },
+  {
+   "adds": [
+    "Mayhem Devil"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fdd7a82ccc79"
+  },
+  {
+   "adds": [
+    "Starting Town"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8bff9e1a1650"
+  },
+  {
+   "adds": [
+    "Seize the Spotlight"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:cf6e8974ce24"
+  },
+  {
+   "adds": [
+    "Act of Treason"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:92d2e5878265"
+  },
+  {
+   "adds": [
+    "Reins of Power"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a0a63be17b1a"
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:dc821bbf4451"
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a11f810021b0"
+  },
+  {
+   "adds": [
+    "Claim the Firstborn"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ffc4f5e5b0fc"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:69c9d3851b4c"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8fedc8a1c56a"
+  },
+  {
+   "adds": [
+    "Spell Pierce"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d7896e861791"
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d866425129bd"
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:873aae50487a"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:6c65ead9730b"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d3769a589917"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f7b77f88c848"
+  },
+  {
+   "adds": [
+    "Jace, Reality Sculptor"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:539776a3b368"
+  },
+  {
+   "adds": [
+    "Necrodominance"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e4b93776e101"
+  },
+  {
+   "adds": [
+    "Valki, God of Lies // Tibalt, Cosmic Impostor"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:367157d888b6"
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4b1a04c1db29"
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ef33a761352d"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f238e858fbb6"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0a6871701d46"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:63242df06131"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a91ea3bda199"
+  },
+  {
+   "adds": [
+    "Stardew Valley"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fd4afac5928b"
+  },
+  {
+   "adds": [
+    "Thranduil's Decree"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f71572ee72ee"
+  },
+  {
+   "adds": [
+    "The Mycosynth Gardens"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:73eb8dabcb04"
+  },
+  {
+   "adds": [
+    "Bazaar of Wonders"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3920106d1014"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:aee739d136dd"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ab489e81a20a"
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Progress Tyrant"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d4dce484eced"
+  },
+  {
+   "adds": [
+    "Archmage's Charm"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:94ea16d15889"
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2cfc652e905d"
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2cdb99415282"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bf0d15465256"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4b9b781478fa"
+  },
+  {
+   "adds": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d04feed08d1d"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a4e0d954b859"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a5e11aa570b0"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0a2e8c464009"
+  },
+  {
+   "adds": [
+    "Thieving Varmint"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f81f06eac81f"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f904a13dd4fe"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:52c247c4dd15"
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9762cc7de7f6"
+  },
+  {
+   "adds": [
+    "Ramirez DePietro, Pillager"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0c0bcc1f6797"
+  },
+  {
+   "adds": [
+    "Song-Mad Treachery // Song-Mad Ruins"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3be92c41ae6a"
+  },
+  {
+   "adds": [
+    "Involuntary Employment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:b2bb7da89fe7"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:49b1aaf9e694"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fa3064acfcc2"
+  },
+  {
+   "adds": [
+    "Furnace Reins"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0acfe6d94445"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4f989ae47914"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:7d3582d40c90"
+  },
+  {
+   "adds": [
+    "Vaan, Street Thief"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c2c72f89fe70"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3cc2ca4b6e36"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:29a5b1a2550b"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:b69789eb16b8"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:950bb73920d2"
+  },
+  {
+   "adds": [
+    "Kheru Spellsnatcher"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e4081b31341e"
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:5e380e9fdd54"
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d2f4cc983cb0"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:grixistax-october-2026:m5:59e7abffbea3"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Leyline of the Void"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ab0cf9d90370"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:71bbe238733f"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c87aeecd41bb"
+  },
+  {
+   "adds": [
+    "Korvold and the Noble Thief"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ed4f23046446"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e7bc718c4c12"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2c15590d7e70"
+  },
+  {
+   "adds": [
+    "Amulet of Safekeeping"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e3650a520be9"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4c49c4eb88d8"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:871833c6f6ee"
+  },
+  {
+   "adds": [
+    "Thrull Wizard"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3476a866f311"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:aa1cc48025bc"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3dfdfe06ba1b"
+  },
+  {
+   "adds": [
+    "Jester's Scepter"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d91e433e50ff"
+  },
+  {
+   "adds": [
+    "Grimoire Thief"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f7b3efef23cb"
+  },
+  {
+   "adds": [
+    "Ice Cauldron"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:204058b2274d"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3a45f468c2b4"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e4756a3f6650"
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:428eff15c7e3"
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:grixistax-october-2026:m5:92091fd2fa9a"
+  }
+ ]
+}

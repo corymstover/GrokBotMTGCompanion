@@ -1,0 +1,1223 @@
+{
+ "deck_id": "Tetsuo_Umezawa",
+ "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "slug": "tetsuo-umezawa",
+ "swaps": [
+  {
+   "adds": [
+    "Backlash"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:2779ceabe229",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Backlash"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:609545e9ee03",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:681202755b0e04a8"
+   ]
+  },
+  {
+   "adds": [
+    "Spectacular Showdown"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:f56337a7c563",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spectacular Showdown"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:00032b25ec45",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:c6c60890a9d3a863"
+   ]
+  },
+  {
+   "adds": [
+    "Maeve, Insidious Singer"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:cebdcc6431a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:0cf85ed7ac5a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:fdb0fe9cbac3",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:69c13902cdcc8fd5"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:79914c8211f7",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:8b56ecd575e6c4f3"
+   ]
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:ed40a4da961a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b0a43f053400",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:d37fd81cd6ee72db"
+   ]
+  },
+  {
+   "adds": [
+    "Icy Manipulator"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:02d40bfec842",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Icy Manipulator"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:26fa697df0e5",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:3722af15d26ec5bf"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptic Command"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b7592478328e",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:808ae4ae2a899a4a"
+   ]
+  },
+  {
+   "adds": [
+    "Uphill Battle"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:355679f06e9d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frost Titan"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:acd28f723d04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:ad03a4afe40e",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:fd7825bb7cc5878f"
+   ]
+  },
+  {
+   "adds": [
+    "Rhystic Study"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:73f1942dad4c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "City of Brass"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:00dda51eea7f",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:71a4d8b019e7b0a3"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:fd4423f5e4f3",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:39f8df8727e0cb61"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:074e0635582d",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:058884d7afc962b2"
+   ]
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:737d6b1a0041",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tamiyo, the Moon Sage"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5b2758194cf4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:ef461f83c50c",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:edb7b52b32d13141"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d6a1f3cdc66a",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:03038aa90dcfecd0"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5f50d5409523",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:1af05e861b0327e6"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:c1f6574ef719",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:eba70a8230ddb623"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulish Impetus"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:05b91b018aca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:355e240cd6f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Umezawa's Jitte"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:10842d29f7a0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:cea2789f6762",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:54b7440aeb78b49b"
+   ]
+  },
+  {
+   "adds": [
+    "Mocking Doppelganger"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e82ae888d76c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Death Kiss"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:87238b1fc5e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scalding Tarn"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:1f0b35ee580e",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:1f8f66664342d20e"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:dcc31d5a6ba3",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:22424639448c4a80"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:54741a0c43f1",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:021e7518b3000b53"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:dab56b1256ff",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:49ef9da3c416932c"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Mesmerist"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5508ae584182",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:a1bf50871d80",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:b25e35efdf3ca0cf"
+   ]
+  },
+  {
+   "adds": [
+    "Staff of Domination"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:f9c8e63309bf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e730323d7c1d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baeloth Barrityl, Entertainer"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b8ac4e02565c",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:26b608de7c64c481"
+   ]
+  },
+  {
+   "adds": [
+    "Life of the Party"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:dd4ac93fbac9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Parasitic Impetus"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:22c5968bea13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e34b3e1484c3",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:1756c7c411316059"
+   ]
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:6a86e53586d4",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:97c09b2e7df361bd"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:37917626d8b7",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:11f9b17f128f5349"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e7d5b972597a",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:f005fb98cff2effa"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Monolith"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:c91ea174da61",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:8b67e20525e73d55"
+   ]
+  },
+  {
+   "adds": [
+    "The Sound of Drums"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:19c815efb36d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hot Pursuit"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:20d279752d7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:275b71a4c452",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:cd7400eea95f025e"
+   ]
+  },
+  {
+   "adds": [
+    "Taunting Kobold"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:30eb10485f6b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Popular Entertainer"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:864620243b3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:df420da6d009",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:4147c75a3596c290"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:480e8c82642c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:78b82c9374f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:9e18572d3963",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:c243dd0250f558ef"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:a8e63c687dfe",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:f4577a65f82ba161"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:328d8b02e89b",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:c4ed24988ad108bf"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e19d589552b9",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:3898e4579c1d59a5"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d9f7df301f95",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:5a02856a495a0866"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:97ef2c08d491",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:f122c6ee05164a9f"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:89b7a1c2d859",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:340daf53413cfd3d"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Lighthouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b3b7b24ec23a",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:981834ee545e96dd"
+   ]
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:f7c656ef4ec7",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:e898e2c0e8db29fe"
+   ]
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b08fd9a5c51f",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:981f53402ad3391f"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:65a03475c965",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:981ab2dbf6c3a5e9"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:bbc12406a669",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:82f05e1b071745f1"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Puppeteer"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d360f677e420",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:227542f28f0377d4"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:caa72ac16f7d",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:d0e24b41be1e8d74"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:738d76b7ca71",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:c569431aac405081"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:1b6d164dafd9",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:b9e49b2fa0b963a1"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e805c47c259b",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:e760c379be4be15a"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:2c2eee3e0044",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:51a2936ec4282ac8"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:332215019f86",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:55f79d615bf19898"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:049f86fe5ef9",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:973efe4a5e96dd51"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:a6ee151e2a97",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:5a711a5f5597ee4a"
+   ]
+  },
+  {
+   "adds": [
+    "Magosi, the Waterveil"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:9840e2c42af7",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:03d04b3e88f10437"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:c77f2e176c73",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:a3586f1b3d19d9b5"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Puppeteer"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:4e4dece74541",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:0d29e46f347e3b69"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:60da35da331f",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:b1f716011ad6c372"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Puppeteer"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d774d5d563b5",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:9b9aa958a3e0890c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5eea532012b6",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:04bfd4551ee9a9b1"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:49325edace00",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:38e9557372198b58"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:2c6182a982b5",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:1fdf635b7f226b2d"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:92bb1efcae52",
+   "tests": [
+    "test:tetsuo-umezawa:goldfish:d9da3912259cb4c8"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:tetsuo-umezawa:goldfish:681202755b0e04a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:c6c60890a9d3a863",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:69c13902cdcc8fd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:8b56ecd575e6c4f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:d37fd81cd6ee72db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:3722af15d26ec5bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:808ae4ae2a899a4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:fd7825bb7cc5878f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:71a4d8b019e7b0a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:39f8df8727e0cb61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:058884d7afc962b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:edb7b52b32d13141",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:03038aa90dcfecd0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:1af05e861b0327e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:eba70a8230ddb623",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:54b7440aeb78b49b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:1f8f66664342d20e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:22424639448c4a80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:021e7518b3000b53",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:49ef9da3c416932c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:b25e35efdf3ca0cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:26b608de7c64c481",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:1756c7c411316059",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:97c09b2e7df361bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:11f9b17f128f5349",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:f005fb98cff2effa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:8b67e20525e73d55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:cd7400eea95f025e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:4147c75a3596c290",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:c243dd0250f558ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:f4577a65f82ba161",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:c4ed24988ad108bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:3898e4579c1d59a5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:5a02856a495a0866",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:f122c6ee05164a9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:340daf53413cfd3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:981834ee545e96dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:e898e2c0e8db29fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:981f53402ad3391f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:981ab2dbf6c3a5e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:82f05e1b071745f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:227542f28f0377d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:d0e24b41be1e8d74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:c569431aac405081",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:b9e49b2fa0b963a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:e760c379be4be15a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:51a2936ec4282ac8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:55f79d615bf19898",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:973efe4a5e96dd51",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:5a711a5f5597ee4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:03d04b3e88f10437",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:a3586f1b3d19d9b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:0d29e46f347e3b69",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:b1f716011ad6c372",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:9b9aa958a3e0890c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:04bfd4551ee9a9b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:38e9557372198b58",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:1fdf635b7f226b2d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-umezawa:goldfish:d9da3912259cb4c8",
+   "verdict": "pass"
+  }
+ ]
+}

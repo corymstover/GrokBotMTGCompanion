@@ -1,0 +1,6941 @@
+{
+ "candidates": [
+  {
+   "card": "Storm-Kiln Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:0bb5940827a8"
+    },
+    "swap": "swap:fire-lord-azula:m5:2ca86f18a142"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:ff1016c526c0"
+    },
+    "swap": "swap:fire-lord-azula:m5:b50b23c716f4"
+   }
+  },
+  {
+   "card": "Twinning Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twinning Staff",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Twinning Staff",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:1274326c35d3"
+    },
+    "swap": "swap:fire-lord-azula:m5:f8a725c87f9f"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:4d4b2519eac7"
+   }
+  },
+  {
+   "card": "Veyran, Voice of Duality",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Veyran, Voice of Duality",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Veyran, Voice of Duality",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:3d675da6f468"
+    },
+    "swap": "swap:fire-lord-azula:m5:d4a89e64de51"
+   }
+  },
+  {
+   "card": "Firebending Student",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firebending Student",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:40c7d6873c82"
+   }
+  },
+  {
+   "card": "Etali, Primal Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etali, Primal Storm",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:8c7f27f4b57d"
+   }
+  },
+  {
+   "card": "Ozai, the Phoenix King",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ozai, the Phoenix King",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0b3fe1e5bc56"
+   }
+  },
+  {
+   "card": "Sozin's Comet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sozin's Comet",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:fce9b8b7e845"
+   }
+  },
+  {
+   "card": "Ashling, Flame Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashling, Flame Dancer",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Ashling, Flame Dancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:2b4a4b296c33"
+    },
+    "swap": "swap:fire-lord-azula:m5:0342d2b5b2b5"
+   }
+  },
+  {
+   "card": "Firebender Ascension",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firebender Ascension",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Firebender Ascension",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:21c91352af22"
+    },
+    "swap": "swap:fire-lord-azula:m5:99078614297a"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Brainstorm",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:b853ff704a02"
+    },
+    "swap": "swap:fire-lord-azula:m5:3316710810b5"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:88f10624b8ee"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:ea5085c0393d"
+   }
+  },
+  {
+   "card": "Azula, Cunning Usurper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Azula, Cunning Usurper",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:bdf3e8271006"
+   }
+  },
+  {
+   "card": "Thrill of Possibility",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:6421e9a47de6"
+    },
+    "swap": "swap:fire-lord-azula:m5:ea1dd9193824"
+   }
+  },
+  {
+   "card": "Unexpected Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:9a199866f9b7"
+    },
+    "swap": "swap:fire-lord-azula:m5:926d14d224f9"
+   }
+  },
+  {
+   "card": "Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Seething Song",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:36497a459f39"
+    },
+    "swap": "swap:fire-lord-azula:m5:318036dc8bbd"
+   }
+  },
+  {
+   "card": "Leyline of Anticipation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leyline of Anticipation",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:84f9522d99e0"
+   }
+  },
+  {
+   "card": "Electro, Assaulting Battery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electro, Assaulting Battery",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Electro, Assaulting Battery",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:bc5504622763"
+    },
+    "swap": "swap:fire-lord-azula:m5:62841019f063"
+   }
+  },
+  {
+   "card": "Electrodominance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electrodominance",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:00728870e7bd"
+   }
+  },
+  {
+   "card": "The Last Agni Kai",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Last Agni Kai",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "The Last Agni Kai",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:8c51eb5d3427"
+    },
+    "swap": "swap:fire-lord-azula:m5:13d6f60ce037"
+   }
+  },
+  {
+   "card": "Bulk Up",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bulk Up",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Bulk Up",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:1f78ae54b366"
+    },
+    "swap": "swap:fire-lord-azula:m5:6dbd9b852fe9"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Arena of Glory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:97451f0c70ba"
+    },
+    "swap": "swap:fire-lord-azula:m5:9d0956a2046f"
+   }
+  },
+  {
+   "card": "Reverberate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reverberate",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reverberate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:a9860bd94551"
+    },
+    "swap": "swap:fire-lord-azula:m5:e1f15ffa8a18"
+   }
+  },
+  {
+   "card": "Zuko, Firebending Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zuko, Firebending Master",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:2b50b0707ad5"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:dbc55743b545"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:b6e5ff57b67b"
+   }
+  },
+  {
+   "card": "Fated Firepower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fated Firepower",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:77f9e2d2335c"
+   }
+  },
+  {
+   "card": "Goblin Electromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:e30c0bbfeab0"
+   }
+  },
+  {
+   "card": "Pyretic Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pyretic Ritual",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Pyretic Ritual",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:13d1ec13fd35"
+    },
+    "swap": "swap:fire-lord-azula:m5:d87879af98ed"
+   }
+  },
+  {
+   "card": "Deadly Rollick",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Rollick",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:e59de0c657e1"
+   }
+  },
+  {
+   "card": "Thousand-Year Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:39a2f7f3ffd7"
+    },
+    "swap": "swap:fire-lord-azula:m5:11b6c6c4974d"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:f3cf5fe1d38f"
+   }
+  },
+  {
+   "card": "Archmage Emeritus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:cf206fa33a50"
+    },
+    "swap": "swap:fire-lord-azula:m5:b465b47184f4"
+   }
+  },
+  {
+   "card": "Opt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opt",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Opt",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:0e680ada0cc2"
+    },
+    "swap": "swap:fire-lord-azula:m5:015e813d6e98"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arena of Glory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:4fd259407d16"
+    },
+    "swap": "swap:fire-lord-azula:m5:afd19060271c"
+   }
+  },
+  {
+   "card": "Fire Nation Palace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Nation Palace",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Nation Palace",
+       "cut": "Arena of Glory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:40dbd5321d89"
+    },
+    "swap": "swap:fire-lord-azula:m5:817092ce715c"
+   }
+  },
+  {
+   "card": "Increasing Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Increasing Vengeance",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Increasing Vengeance",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:eed3c75acf6f"
+    },
+    "swap": "swap:fire-lord-azula:m5:8fffa97f232b"
+   }
+  },
+  {
+   "card": "Torrential Gearhulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torrential Gearhulk",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:caa7a6b0b39a"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Flashback",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:b43d211cd691"
+    },
+    "swap": "swap:fire-lord-azula:m5:d060b25feb55"
+   }
+  },
+  {
+   "card": "Lightning Strike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Strike",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:b3e8a19e4390"
+   }
+  },
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:bf72f70df460"
+   }
+  },
+  {
+   "card": "Abrade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abrade",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:b55cbb21c623"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Strix Serenade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0e6968fc8ef0"
+   }
+  },
+  {
+   "card": "Fire Nation Attacks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Nation Attacks",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:c1b9f36f07f1"
+   }
+  },
+  {
+   "card": "Unleash Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unleash Fury",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Unleash Fury",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:479665ecc03e"
+    },
+    "swap": "swap:fire-lord-azula:m5:f85435add76b"
+   }
+  },
+  {
+   "card": "Zuko, Exiled Prince",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zuko, Exiled Prince",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:73b5181dbf08"
+   }
+  },
+  {
+   "card": "Enduring Curiosity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enduring Curiosity",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Enduring Curiosity",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:ed884c73d86a"
+    },
+    "swap": "swap:fire-lord-azula:m5:0fe6167e8db4"
+   }
+  },
+  {
+   "card": "Desperate Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desperate Ritual",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Desperate Ritual",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:67edab728b70"
+    },
+    "swap": "swap:fire-lord-azula:m5:c485249c6f43"
+   }
+  },
+  {
+   "card": "Comet Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Comet Storm",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Comet Storm",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:1fbd00195f8c"
+    },
+    "swap": "swap:fire-lord-azula:m5:a9c5393bbf93"
+   }
+  },
+  {
+   "card": "Avatar Roku, Firebender",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Avatar Roku, Firebender",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:6d76e1e68821"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arena of Glory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:f7b98fe27a8e"
+    },
+    "swap": "swap:fire-lord-azula:m5:1dbc23eb00bc"
+   }
+  },
+  {
+   "card": "Cascade Bluffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cascade Bluffs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:6d41dc5bf74c"
+   }
+  },
+  {
+   "card": "Invoke Calamity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invoke Calamity",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:91829d152368"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:a9465987836c"
+   }
+  },
+  {
+   "card": "Vedalken Orrery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vedalken Orrery",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0d2d12f3bb32"
+   }
+  },
+  {
+   "card": "Silver Shroud Costume",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silver Shroud Costume",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:e2a53d809807"
+   }
+  },
+  {
+   "card": "Snapcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snapcaster Mage",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:91a43b00ef52"
+   }
+  },
+  {
+   "card": "Bolt Bend",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Consider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consider",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:9842f53e441f"
+   }
+  },
+  {
+   "card": "Prismari Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari Command",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:ac740eaf9f11"
+   }
+  },
+  {
+   "card": "Brotherhood Regalia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brotherhood Regalia",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:988d8537c1e0"
+   }
+  },
+  {
+   "card": "Bender's Waterskin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bender's Waterskin",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:b1d566ae688d"
+   }
+  },
+  {
+   "card": "Insidious Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insidious Will",
+       "cut": "Strix Serenade"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:e1f611181c76"
+   }
+  },
+  {
+   "card": "Return the Favor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Return the Favor",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:41db68072435"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:4d747e6f6e10"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:c74b2d324acd"
+   }
+  },
+  {
+   "card": "Abandon Attachments",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abandon Attachments",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:be6f6fa535a0"
+   }
+  },
+  {
+   "card": "Azula, On the Hunt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Azula, On the Hunt",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:8133f94a0bd5"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:aac0dcaaf5f4"
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:e7845a08f06d"
+   }
+  },
+  {
+   "card": "Mana Geyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Geyser",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:eb3599a55090"
+   }
+  },
+  {
+   "card": "Wild Ricochet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wild Ricochet",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:abfce90510d7"
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0c7f4645f618"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:909f348f0271"
+   }
+  },
+  {
+   "card": "Octopus Form",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Octopus Form",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0f3307c015e7"
+   }
+  },
+  {
+   "card": "Prismari, the Inspiration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari, the Inspiration",
+       "cut": "Flusterstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:d1b2cf1d5281"
+   }
+  },
+  {
+   "card": "Amphibian Downpour",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Amphibian Downpour",
+       "cut": "Flusterstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:7e5b61227ff1"
+   }
+  },
+  {
+   "card": "Fists of Flame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fists of Flame",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:ace7c1552e45"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:231c32318ad7"
+   }
+  },
+  {
+   "card": "Grapeshot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grapeshot",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:87095141f8b1"
+   }
+  },
+  {
+   "card": "Flare of Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flare of Duplication",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Flare of Duplication",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:783908fc0661"
+    },
+    "swap": "swap:fire-lord-azula:m5:d9687f02523e"
+   }
+  },
+  {
+   "card": "Primal Amulet // Primal Wellspring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Primal Amulet // Primal Wellspring",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Primal Amulet // Primal Wellspring",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:f08ab863ab38"
+    },
+    "swap": "swap:fire-lord-azula:m5:9425730c4430"
+   }
+  },
+  {
+   "card": "Saheeli, Sublime Artificer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli, Sublime Artificer",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Saheeli, Sublime Artificer",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:cbcdb0e0f5c3"
+    },
+    "swap": "swap:fire-lord-azula:m5:9100b503360f"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:944b1f8b81d9"
+    },
+    "swap": "swap:fire-lord-azula:m5:870772536a2d"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:1867fbda1a1c"
+   }
+  },
+  {
+   "card": "Expansion // Explosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expansion // Explosion",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Expansion // Explosion",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:cf707de52534"
+    },
+    "swap": "swap:fire-lord-azula:m5:3b4152b69360"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:94ec656d7ad9"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:c62b88687c91"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:46de1131043e"
+   }
+  },
+  {
+   "card": "Shizo, Death's Storehouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shizo, Death's Storehouse",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:7d7a9a11a7d8"
+   }
+  },
+  {
+   "card": "Bonus Round",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bonus Round",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Bonus Round",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:7d975f609aae"
+    },
+    "swap": "swap:fire-lord-azula:m5:907f3038a191"
+   }
+  },
+  {
+   "card": "Swarm Intelligence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swarm Intelligence",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Swarm Intelligence",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:1bbfcf1758c9"
+    },
+    "swap": "swap:fire-lord-azula:m5:89bf96491047"
+   }
+  },
+  {
+   "card": "Morphic Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Morphic Pool",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:ac8ab043e78d"
+   }
+  },
+  {
+   "card": "Twincast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twincast",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Twincast",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:e225c6f205d3"
+    },
+    "swap": "swap:fire-lord-azula:m5:d90abde3352f"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:45f0e11fe1e8"
+    },
+    "swap": "swap:fire-lord-azula:m5:2305dd83d609"
+   }
+  },
+  {
+   "card": "Aqueous Form",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aqueous Form",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:e8535d09879f"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:2e988c3f326d"
+   }
+  },
+  {
+   "card": "Fork",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fork",
+       "cut": "Flusterstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Fork",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:9fb840407d19"
+    },
+    "swap": "swap:fire-lord-azula:m5:27c35213d1a9"
+   }
+  },
+  {
+   "card": "Mysterious Stranger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mysterious Stranger",
+       "cut": "Flusterstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:05180f274dd1"
+   }
+  },
+  {
+   "card": "Part the Waterveil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Part the Waterveil",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:cf2b35ad72fd"
+   }
+  },
+  {
+   "card": "Wizards of Thay",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizards of Thay",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:160bea776591"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:8c685796f962"
+   }
+  },
+  {
+   "card": "Sedgemoor Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sedgemoor Witch",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0f608a62cc5d"
+   }
+  },
+  {
+   "card": "Secret Tunnel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Secret Tunnel",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:caab180dd6b9"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:0e2a61f9e526"
+   }
+  },
+  {
+   "card": "Fire Sages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Sages",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:788c084cee46"
+   }
+  },
+  {
+   "card": "Lost in Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lost in Memories",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:6e7336ed66c7"
+   }
+  },
+  {
+   "card": "Azula Always Lies",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Azula Always Lies",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:b3ee8fc2009b"
+   }
+  },
+  {
+   "card": "Luxury Suite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxury Suite",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:7cd229ee51cf"
+   }
+  },
+  {
+   "card": "Callidus Assassin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Callidus Assassin",
+       "cut": "Flusterstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:722370a42b00"
+   }
+  },
+  {
+   "card": "Mithril Coat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Twin Blades",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twin Blades",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:7c2721a82b66"
+   }
+  },
+  {
+   "card": "Cruel Administrator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Administrator",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:7febbd6aeb18"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:1d0fd21b0732"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:326166603d12"
+   }
+  },
+  {
+   "card": "Aggravated Assault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Crimson Wisps"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:8bd9396ff21e"
+   }
+  },
+  {
+   "card": "Frostcliff Siege",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostcliff Siege",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:534bc348d01e"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:9c6e4f7f22b8"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:4f696e221b3e"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:06d4f8e91fd2"
+    },
+    "swap": "swap:fire-lord-azula:m5:187600b3b8a4"
+   }
+  },
+  {
+   "card": "High Tide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "High Tide",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "High Tide",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:0e1502bd1a2c"
+    },
+    "swap": "swap:fire-lord-azula:m5:0c5bb3872ed2"
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3698--44"
+        ]
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Grinding Station"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:b186c79ba830"
+    },
+    "swap": "swap:fire-lord-azula:m5:6055878f6a8b"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:071f8e9ebee9"
+    },
+    "swap": "swap:fire-lord-azula:m5:83e5b2fefba9"
+   }
+  },
+  {
+   "card": "Deadeye Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:d2da786492e6"
+    },
+    "swap": "swap:fire-lord-azula:m5:356ecd8f9223"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:5496b0d2d955"
+    },
+    "swap": "swap:fire-lord-azula:m5:1b953e6cc965"
+   }
+  },
+  {
+   "card": "Dragon's Rage Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:1753fc3f24a1"
+    },
+    "swap": "swap:fire-lord-azula:m5:ee669e63e666"
+   }
+  },
+  {
+   "card": "Time Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Warp",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Time Warp",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:101ddc6f35bb"
+    },
+    "swap": "swap:fire-lord-azula:m5:715ff73807be"
+   }
+  },
+  {
+   "card": "Memnite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memnite",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:db55eccf1208"
+   }
+  },
+  {
+   "card": "Expropriate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expropriate",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Expropriate",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:20f308b53667"
+    },
+    "swap": "swap:fire-lord-azula:m5:744c88ed4d36"
+   }
+  },
+  {
+   "card": "Temporal Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temporal Mastery",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Temporal Mastery",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:f66069fab609"
+    },
+    "swap": "swap:fire-lord-azula:m5:784c5d40b785"
+   }
+  },
+  {
+   "card": "Temporal Manipulation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temporal Manipulation",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Temporal Manipulation",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:51f8373fab4c"
+    },
+    "swap": "swap:fire-lord-azula:m5:8ebdb842e7c4"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Burning Inquiry",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:06f361b3f0c4"
+    },
+    "swap": "swap:fire-lord-azula:m5:3c9bca573905"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Repeal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:f6f93a051601"
+   }
+  },
+  {
+   "card": "Karn's Temporal Sundering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karn's Temporal Sundering",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Karn's Temporal Sundering",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:2f1d7fbfcd27"
+    },
+    "swap": "swap:fire-lord-azula:m5:56ba4ef3152f"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Retraction Helix",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:7b9fd759fb46"
+    },
+    "swap": "swap:fire-lord-azula:m5:e72bd7f4d234"
+   }
+  },
+  {
+   "card": "Turnabout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Turnabout",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Turnabout",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:7346f4033c2b"
+    },
+    "swap": "swap:fire-lord-azula:m5:0f08948c78cd"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Cool but Rude",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:1256af36c870"
+    },
+    "swap": "swap:fire-lord-azula:m5:5b72d412d241"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Enter the Infinite",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:3f89231d4a9d"
+    },
+    "swap": "swap:fire-lord-azula:m5:3ba330b6ccaf"
+   }
+  },
+  {
+   "card": "Alrund's Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alrund's Epiphany",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Alrund's Epiphany",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:95847b08ae9a"
+    },
+    "swap": "swap:fire-lord-azula:m5:3dceb95a6ca7"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:8cde9ffc6087"
+    },
+    "swap": "swap:fire-lord-azula:m5:21a458febd7a"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:497e5e619bf3"
+    },
+    "swap": "swap:fire-lord-azula:m5:5c35d0f55263"
+   }
+  },
+  {
+   "card": "Capture of Jingzhou",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Capture of Jingzhou",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Capture of Jingzhou",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:33eb57d99b44"
+    },
+    "swap": "swap:fire-lord-azula:m5:53ebd5426067"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:db10f04ce7e4"
+    },
+    "swap": "swap:fire-lord-azula:m5:57c007aed973"
+   }
+  },
+  {
+   "card": "Beacon of Tomorrows",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Beacon of Tomorrows",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Beacon of Tomorrows",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:52c6ddbbdd06"
+    },
+    "swap": "swap:fire-lord-azula:m5:fb5a0715833e"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:4e3860f6b1a4"
+    },
+    "swap": "swap:fire-lord-azula:m5:ada0d91ff835"
+   }
+  },
+  {
+   "card": "Walk the Aeons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Walk the Aeons",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Walk the Aeons",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:c6987485077e"
+    },
+    "swap": "swap:fire-lord-azula:m5:6ecab58c3be4"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Banishing Knack",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:378ed6b48047"
+    },
+    "swap": "swap:fire-lord-azula:m5:3bdb0eb76f7b"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:95fb19de6897"
+    },
+    "swap": "swap:fire-lord-azula:m5:2387d0ba1139"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:0f293d71695c"
+    },
+    "swap": "swap:fire-lord-azula:m5:d6e1af42ed70"
+   }
+  },
+  {
+   "card": "Quicksilver Elemental",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quicksilver Elemental",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Quicksilver Elemental",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:3ca211984041"
+    },
+    "swap": "swap:fire-lord-azula:m5:b601c15cbd5c"
+   }
+  },
+  {
+   "card": "Grinning Ignus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Grinning Ignus",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:2a611c4b8ff6"
+    },
+    "swap": "swap:fire-lord-azula:m5:c10d7ec1215d"
+   }
+  },
+  {
+   "card": "Drowned Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Secrets",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:f624ff46886c"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2196-7089",
+         "1368-2706-3518",
+         "1368-3518-4856",
+         "1368-3698--44"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:c551a887f994"
+    },
+    "swap": "swap:fire-lord-azula:m5:ca460ae85526"
+   }
+  },
+  {
+   "card": "Alchemist's Gambit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alchemist's Gambit",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Alchemist's Gambit",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:762e0b45ae51"
+    },
+    "swap": "swap:fire-lord-azula:m5:47763a1186f8"
+   }
+  },
+  {
+   "card": "Twice Upon a Time // Unlikely Meeting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twice Upon a Time // Unlikely Meeting",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:fire-lord-azula:m5:333ca4dc82e9"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:86b1c0f75631"
+    },
+    "swap": "swap:fire-lord-azula:m5:24fa5155777e"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:79faee1b8893"
+    },
+    "swap": "swap:fire-lord-azula:m5:f200255f0152"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Repeal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:fire-lord-azula:m5:8dad8b30d78a"
+    },
+    "swap": "swap:fire-lord-azula:m5:e630d0ee074f"
+   }
+  }
+ ],
+ "deck_id": "Fire_Lord_Azula",
+ "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "slug": "fire-lord-azula",
+ "swaps": [
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:2ca86f18a142"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0bb5940827a8"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:b50b23c716f4"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:ff1016c526c0"
+  },
+  {
+   "adds": [
+    "Twinning Staff"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:f8a725c87f9f"
+  },
+  {
+   "adds": [
+    "Twinning Staff"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1274326c35d3"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:4d4b2519eac7"
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d4a89e64de51"
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:3d675da6f468"
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:40c7d6873c82"
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8c7f27f4b57d"
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:0b3fe1e5bc56"
+  },
+  {
+   "adds": [
+    "Sozin's Comet"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:fce9b8b7e845"
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:0342d2b5b2b5"
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:2b4a4b296c33"
+  },
+  {
+   "adds": [
+    "Firebender Ascension"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:99078614297a"
+  },
+  {
+   "adds": [
+    "Firebender Ascension"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:21c91352af22"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3316710810b5"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:b853ff704a02"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:88f10624b8ee"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:ea5085c0393d"
+  },
+  {
+   "adds": [
+    "Azula, Cunning Usurper"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:bdf3e8271006"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:ea1dd9193824"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:6421e9a47de6"
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:926d14d224f9"
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:9a199866f9b7"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:318036dc8bbd"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:36497a459f39"
+  },
+  {
+   "adds": [
+    "Leyline of Anticipation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:84f9522d99e0"
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:62841019f063"
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:bc5504622763"
+  },
+  {
+   "adds": [
+    "Electrodominance"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:00728870e7bd"
+  },
+  {
+   "adds": [
+    "The Last Agni Kai"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:13d6f60ce037"
+  },
+  {
+   "adds": [
+    "The Last Agni Kai"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:8c51eb5d3427"
+  },
+  {
+   "adds": [
+    "Bulk Up"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:6dbd9b852fe9"
+  },
+  {
+   "adds": [
+    "Bulk Up"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1f78ae54b366"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:9d0956a2046f"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:97451f0c70ba"
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:e1f15ffa8a18"
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:a9860bd94551"
+  },
+  {
+   "adds": [
+    "Zuko, Firebending Master"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:2b50b0707ad5"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:dbc55743b545"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:b6e5ff57b67b"
+  },
+  {
+   "adds": [
+    "Fated Firepower"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:77f9e2d2335c"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:e30c0bbfeab0"
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:d87879af98ed"
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:13d1ec13fd35"
+  },
+  {
+   "adds": [
+    "Deadly Rollick"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:e59de0c657e1"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:11b6c6c4974d"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:39a2f7f3ffd7"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:f3cf5fe1d38f"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b465b47184f4"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:cf206fa33a50"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:015e813d6e98"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e680ada0cc2"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:afd19060271c"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:4fd259407d16"
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:817092ce715c"
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:40dbd5321d89"
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:8fffa97f232b"
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:eed3c75acf6f"
+  },
+  {
+   "adds": [
+    "Torrential Gearhulk"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:caa7a6b0b39a"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:d060b25feb55"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:b43d211cd691"
+  },
+  {
+   "adds": [
+    "Lightning Strike"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b3e8a19e4390"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:bf72f70df460"
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b55cbb21c623"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Strix Serenade"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e6968fc8ef0"
+  },
+  {
+   "adds": [
+    "Fire Nation Attacks"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:c1b9f36f07f1"
+  },
+  {
+   "adds": [
+    "Unleash Fury"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f85435add76b"
+  },
+  {
+   "adds": [
+    "Unleash Fury"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:479665ecc03e"
+  },
+  {
+   "adds": [
+    "Zuko, Exiled Prince"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:73b5181dbf08"
+  },
+  {
+   "adds": [
+    "Enduring Curiosity"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0fe6167e8db4"
+  },
+  {
+   "adds": [
+    "Enduring Curiosity"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:ed884c73d86a"
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:c485249c6f43"
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:67edab728b70"
+  },
+  {
+   "adds": [
+    "Comet Storm"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:a9c5393bbf93"
+  },
+  {
+   "adds": [
+    "Comet Storm"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1fbd00195f8c"
+  },
+  {
+   "adds": [
+    "Avatar Roku, Firebender"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:6d76e1e68821"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:1dbc23eb00bc"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:f7b98fe27a8e"
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:6d41dc5bf74c"
+  },
+  {
+   "adds": [
+    "Invoke Calamity"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:91829d152368"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:a9465987836c"
+  },
+  {
+   "adds": [
+    "Vedalken Orrery"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:0d2d12f3bb32"
+  },
+  {
+   "adds": [
+    "Silver Shroud Costume"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:e2a53d809807"
+  },
+  {
+   "adds": [
+    "Snapcaster Mage"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:91a43b00ef52"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:9842f53e441f"
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:ac740eaf9f11"
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:988d8537c1e0"
+  },
+  {
+   "adds": [
+    "Bender's Waterskin"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:b1d566ae688d"
+  },
+  {
+   "adds": [
+    "Insidious Will"
+   ],
+   "cuts": [
+    "Strix Serenade"
+   ],
+   "id": "swap:fire-lord-azula:m5:e1f611181c76"
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:41db68072435"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:4d747e6f6e10"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:c74b2d324acd"
+  },
+  {
+   "adds": [
+    "Abandon Attachments"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:be6f6fa535a0"
+  },
+  {
+   "adds": [
+    "Azula, On the Hunt"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8133f94a0bd5"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:aac0dcaaf5f4"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:e7845a08f06d"
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:eb3599a55090"
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:abfce90510d7"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:0c7f4645f618"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:909f348f0271"
+  },
+  {
+   "adds": [
+    "Octopus Form"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f3307c015e7"
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d1b2cf1d5281"
+  },
+  {
+   "adds": [
+    "Amphibian Downpour"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:7e5b61227ff1"
+  },
+  {
+   "adds": [
+    "Fists of Flame"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:ace7c1552e45"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:231c32318ad7"
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:87095141f8b1"
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d9687f02523e"
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:783908fc0661"
+  },
+  {
+   "adds": [
+    "Primal Amulet // Primal Wellspring"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:9425730c4430"
+  },
+  {
+   "adds": [
+    "Primal Amulet // Primal Wellspring"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f08ab863ab38"
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:9100b503360f"
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:cbcdb0e0f5c3"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:870772536a2d"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:944b1f8b81d9"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:1867fbda1a1c"
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3b4152b69360"
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:cf707de52534"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:94ec656d7ad9"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:c62b88687c91"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:46de1131043e"
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:7d7a9a11a7d8"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:907f3038a191"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:7d975f609aae"
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:89bf96491047"
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1bbfcf1758c9"
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:ac8ab043e78d"
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d90abde3352f"
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:e225c6f205d3"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:fire-lord-azula:m5:2305dd83d609"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:45f0e11fe1e8"
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:e8535d09879f"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:2e988c3f326d"
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:27c35213d1a9"
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:9fb840407d19"
+  },
+  {
+   "adds": [
+    "Mysterious Stranger"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:05180f274dd1"
+  },
+  {
+   "adds": [
+    "Part the Waterveil"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:cf2b35ad72fd"
+  },
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:160bea776591"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8c685796f962"
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f608a62cc5d"
+  },
+  {
+   "adds": [
+    "Secret Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:caab180dd6b9"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e2a61f9e526"
+  },
+  {
+   "adds": [
+    "Fire Sages"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:788c084cee46"
+  },
+  {
+   "adds": [
+    "Lost in Memories"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:6e7336ed66c7"
+  },
+  {
+   "adds": [
+    "Azula Always Lies"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b3ee8fc2009b"
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:7cd229ee51cf"
+  },
+  {
+   "adds": [
+    "Callidus Assassin"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:722370a42b00"
+  },
+  {
+   "adds": [
+    "Twin Blades"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:7c2721a82b66"
+  },
+  {
+   "adds": [
+    "Cruel Administrator"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:7febbd6aeb18"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:1d0fd21b0732"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:326166603d12"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8bd9396ff21e"
+  },
+  {
+   "adds": [
+    "Frostcliff Siege"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:534bc348d01e"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:9c6e4f7f22b8"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:4f696e221b3e"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:187600b3b8a4"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:06d4f8e91fd2"
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0c5bb3872ed2"
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e1502bd1a2c"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:6055878f6a8b"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:fire-lord-azula:m5:b186c79ba830"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:83e5b2fefba9"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:071f8e9ebee9"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:356ecd8f9223"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:d2da786492e6"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:1b953e6cc965"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:5496b0d2d955"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:ee669e63e666"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:1753fc3f24a1"
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:715ff73807be"
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:101ddc6f35bb"
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:db55eccf1208"
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:744c88ed4d36"
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:20f308b53667"
+  },
+  {
+   "adds": [
+    "Temporal Mastery"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:784c5d40b785"
+  },
+  {
+   "adds": [
+    "Temporal Mastery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:f66069fab609"
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:8ebdb842e7c4"
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:51f8373fab4c"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3c9bca573905"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:06f361b3f0c4"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f6f93a051601"
+  },
+  {
+   "adds": [
+    "Karn's Temporal Sundering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:56ba4ef3152f"
+  },
+  {
+   "adds": [
+    "Karn's Temporal Sundering"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:2f1d7fbfcd27"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:e72bd7f4d234"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:7b9fd759fb46"
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f08948c78cd"
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:7346f4033c2b"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:5b72d412d241"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:1256af36c870"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3ba330b6ccaf"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:3f89231d4a9d"
+  },
+  {
+   "adds": [
+    "Alrund's Epiphany"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:3dceb95a6ca7"
+  },
+  {
+   "adds": [
+    "Alrund's Epiphany"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:95847b08ae9a"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:21a458febd7a"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:8cde9ffc6087"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:5c35d0f55263"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:497e5e619bf3"
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:53ebd5426067"
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:33eb57d99b44"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:57c007aed973"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:db10f04ce7e4"
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:fb5a0715833e"
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:52c6ddbbdd06"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:ada0d91ff835"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:4e3860f6b1a4"
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:6ecab58c3be4"
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:c6987485077e"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3bdb0eb76f7b"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:378ed6b48047"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:2387d0ba1139"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:95fb19de6897"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:d6e1af42ed70"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f293d71695c"
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:b601c15cbd5c"
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:3ca211984041"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:c10d7ec1215d"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:2a611c4b8ff6"
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:f624ff46886c"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:ca460ae85526"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:fire-lord-azula:m5:c551a887f994"
+  },
+  {
+   "adds": [
+    "Alchemist's Gambit"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:47763a1186f8"
+  },
+  {
+   "adds": [
+    "Alchemist's Gambit"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:762e0b45ae51"
+  },
+  {
+   "adds": [
+    "Twice Upon a Time // Unlikely Meeting"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:fire-lord-azula:m5:333ca4dc82e9"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:24fa5155777e"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:86b1c0f75631"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f200255f0152"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:79faee1b8893"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:e630d0ee074f"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:8dad8b30d78a"
+  }
+ ]
+}

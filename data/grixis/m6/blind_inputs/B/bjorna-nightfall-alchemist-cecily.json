@@ -1,0 +1,4151 @@
+{
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "swaps": [
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5ddd1e61e46f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f44ad4ff5895ee11"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cde8ad10749d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0576cb54b3fca709"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:88f9a448ec61",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:d50767fe37e63d14"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:74973b6d2633",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:82f3c844ac57",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:913aec9bd437",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:55d11d6492d215b9"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5457099b2eb7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a954acaf30c4c5a0"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2a4acde65123",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ab8bf14939c7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:d6da6e823fd61069"
+   ]
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7cfd921732f9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4f5fc257962842d7"
+   ]
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6740631d70a9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:29faf528b6ab4df7"
+   ]
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:51084cfc520a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:451e738279dc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d66815f59a0c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:3bdd11661b8bb0e5"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1d8efd1d9fdf",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:d689a0ef2421595f"
+   ]
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:467321f69c7a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1bbdf05329b2fb9f"
+   ]
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8fea7f51d9a3",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0e5fb3b5e37bc5ed"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:caca48b0c7f5",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:994fc7266ddb126d"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:bd2c87d2fe85",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:b6a91d5a95df4252"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:08a337078fe0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e069543c1b881d4d"
+   ]
+  },
+  {
+   "adds": [
+    "Wisdom of Ages"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ed95e06126cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hit the Mother Lode"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7890b917e8a5",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:92e33f4dd9d107d9"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:690949663273",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:93b73da140b839dc"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2b14e50026e6",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4002bd509bd56f18"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:409403067aa6",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:25a598e9f54a1d34"
+   ]
+  },
+  {
+   "adds": [
+    "Wizard Class"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9a050fb6ed84",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wizard Class"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c2cc19dade36",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5f625641bd2ad000"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3495a6f31f80",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:fe114aef361b97ad"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a629c6fb3caa",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a3c83c0fb6ef248d"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e61c50faca91",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f2836bcabe8d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:856d5216d3b7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:289e055afc7a4575"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:69ad7cb55ef8",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e219fb34dcb7a0a4"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0d8e8fab9691",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:edebaf3944c1b532"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:695050066b1a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:53a84b48751fc3e3"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:98f4d497e658",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0a61c7d9fcf10342"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7ffaa4b51ee3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:af296ab95b9c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aminatou's Augury"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:39b8aa9f4fd3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cb01d9f91d67",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smaug, Wicked Worm"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:834eec9a3c90",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:79796dad98d1cc27"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ce2e45b1e21a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c24e2a7d390cc2a9"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e07ecd8e1f93",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:98fe0bfab0855fef"
+   ]
+  },
+  {
+   "adds": [
+    "Curiosity"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d97708481e86",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7daf7dcf1b1e1968"
+   ]
+  },
+  {
+   "adds": [
+    "Curiosity"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4ff50e704c4b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:253088a8c844402d"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0eec9b31d027",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:62b8b5c08faff6c9"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2d1d9932aa49",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:8c9e365eb404f650"
+   ]
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0a4990bffa04",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c8ad862d61ea992a"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:81ddf6ab1183",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:d8e32d3030d3c696"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fa5341db46d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58b6678fcd2a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9872e2a4edc4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f49af8310768",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f749c2c5bc79901b"
+   ]
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1cd33e236e91",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:381293a2b3462326"
+   ]
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d2515996226e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:683746351be4cbfd"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:34237b8379fd",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e8c05568660c46c1"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:59c5f5551364",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e95477901b28814c"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ea26993237ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deflecting Swat"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:17705cbeba18",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Maestros Confluence"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cdf25172b22e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Galazeth Prismari"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4862d988ae8c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:36b75f18e575cabf"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:924bfce200db",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:08131aa15ea47488"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b8e232153e84",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7627cf4bebcbce4c"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:61650dc62e03",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a1c68fa0a5157bde"
+   ]
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9b64a608fa1d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2913923de893a3b0"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5cbf0b19944d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ed38a59a80e65b5e"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fa65ddd6642d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flusterstorm"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c820f85b9976",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Faerie Mastermind"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9d3dcea4f7b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a9393eeb5d5b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0085abac9bacbbea"
+   ]
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2f1e68e33aa7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:cc6a74ba724bad49"
+   ]
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:02e9504f92ba",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c1a4a2330d5c5cfb"
+   ]
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8aeaf570eb8e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ae1cfbf744553c5a"
+   ]
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:76181ee3b7e0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:162d9ab662f8dddf"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b6da8ff6b797",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:dbfe512a2dbdba57"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f624b797d530",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:851b112beb4679c3"
+   ]
+  },
+  {
+   "adds": [
+    "Cryogen Relic"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cbb65269ee1b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:32d963716bac9288"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d97bd705b55d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:73c9509442458c87"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7c58d82cea9f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5cf6a192a2538b57"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Vault"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:88e47fabe786",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:b26b439c46d5f3ba"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0d7ccc884ca1",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:8779e17cf45b3e2b"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1d4ae2802ba9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:189cb4bf2c4e5503"
+   ]
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0fe8f84d1201",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:476589d3a47b32aa"
+   ]
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:25031fc45b6c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7ef8d791773f2cd1"
+   ]
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9286f1dff89e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:8913d85380a63d07"
+   ]
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d5b083402805",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e64565c15479039b"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:695c18e975d0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4ea87df78bb658e3"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:199dfa3ddcb3",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:11b553409005474a"
+   ]
+  },
+  {
+   "adds": [
+    "Gamble"
+   ],
+   "cuts": [
+    "Goblin Engineer"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6aebb3ec27a8",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1de3cd7b2f60698e"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4612be5a9168",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c58d24c52f45cdb4"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2253294c2558",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:472438b70a36e3e5"
+   ]
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:57a98c24d3df",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f4f153a8e9cb5655"
+   ]
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d0e33700880a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e6c429b3306b15e3"
+   ]
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b58f69ca35bc",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:12774bfa10bdeb16"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9287c696c3f4",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a5dd0ca5a5f6d46d"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1ffc88ae464e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c738147349585a2e"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3b0d005954f0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c6191618fff994bd"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6a5b8e5d06fa",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c142d6884fb3aef7"
+   ]
+  },
+  {
+   "adds": [
+    "Sticky Fingers"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:10d5a09d02b9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:188407ced1546012"
+   ]
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ce9105c4f3ea",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:82413a62ab96706d"
+   ]
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:08af75b26de6",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ed053c941299cc42"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8744e2677cb3",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:52f6be6520cbc36a"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b13d6aebd412",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:9e21d2d365b3310b"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5d5d340874df",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2b3d8e08e4a1aabb"
+   ]
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:414db364b499",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:be5867ba7c40c6fa"
+   ]
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:56d84bc7c847",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:43606e0439ea86d7"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ae2467c7a035",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6483903cf30dadbb"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d22e6e264a75",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:94d3bae6b13562fb"
+   ]
+  },
+  {
+   "adds": [
+    "Xorn"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:578b1392751d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0c1d37aaf84ef73b"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58b665d3d205",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f8f595f2527fd3f3"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b33b58710677",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7785b5c53cc94c21"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d429fd18ac0d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5fd02732c0c5f26c"
+   ]
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ddc4be30e870",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c48b4b5b88a3",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1ebcff1c732d1e8c"
+   ]
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:16edac6470ae",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:3f739a7a6ae6cec7"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:650b016290a0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:529c4dc937aa62a4"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0db670a0d3b5",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ea0a0e1b5ea18abc"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d49e4692402c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6785899c44e21487"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3fa01047a99c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0973f5a96c805279"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:827e8616f9df",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:75ea97e32afdb463"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4afb9cea7e8a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:291d8d53d6d2fec9"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b4e9eed2fa90",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a4dfdc9db1b292ca"
+   ]
+  },
+  {
+   "adds": [
+    "The Misty Mountains Cold"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6e8f9e524b97",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4243e193effecb3b"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e2d450218ce9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:9af6fdb9c53796e7"
+   ]
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a6a4af8454b2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3585539d362d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:462b391054216b27"
+   ]
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5587e1954577",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:57574f0268242f76"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c09d2c847d2b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e7090552abd22c7e"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1f17266440ac",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:12d84d10fa416a9f"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d8260fe72ef4",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:b726b6cfbc8afc56"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Cruel Ultimatum"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9385741ecb52",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f1daad53cff40b13"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5e4a4da3507d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6e90d6f9787e361d"
+   ]
+  },
+  {
+   "adds": [
+    "Fevered Visions"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:782ba9cd0f46",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thieves' Tools"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9e6904127745",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:648cde02700165ba"
+   ]
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:205d0ac2c327",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1768efaf721a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:d3781f412c847a3c"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c8022a5554a1",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7203bbd1596eb8ea"
+   ]
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:02790a1a4dba",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:40590b9fc613bce7"
+   ]
+  },
+  {
+   "adds": [
+    "Goldspan Dragon"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:86865f8d687b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f5fbc732e0d774a0"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:90af2539c200",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:015f3827d97a7245"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a9b47e2f667f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a7e28e58448396fe"
+   ]
+  },
+  {
+   "adds": [
+    "Seize the Spoils"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3b47055b55f1",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f4e80fd9d8963244"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ebedfb21cbd3",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:9585cbcf1814aa75"
+   ]
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e8ec5bf94636",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Potioner's Trove"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:517d1ae0e82e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e88e247b7ac8e155"
+   ]
+  },
+  {
+   "adds": [
+    "Consecrated Sphinx"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:839262b65551",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:76f6bb3b7808",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:9d4505b14554c7bb"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8485ed1947b7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6e55925f58523a7b"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b2583e731553",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:b2f9ed49a8b47556"
+   ]
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:11483fba4ae4",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:43bd8ea2c6b3201a"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b8efcef9842c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e9890b44692a454a"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e1193fa17d31",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:43b211bf9e33ab44"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8561ce659f94",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a958311738295b4b"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e61ab4b5006c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Cruel Ultimatum"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:619a9063ecc6",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2237b768c638df39"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:de57c096deb1",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4c6b4f425965f6ae"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:83261769b5db",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:54f2b9e8fe9abed7"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9c1aeaef1482",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Getaway Barrel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c89134587641",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:64fabcdbf554cf3c"
+   ]
+  },
+  {
+   "adds": [
+    "Lotus Petal"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:572d457fb7a4",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2e078343b082a1f6"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6e3806dd9efa",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:cef09c5458129597"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:738c59deca6b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a20973896fabab72"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:824ab0166486",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7036c266cb54805c"
+   ]
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:63443906c18d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:89dda66e3bca7cd6"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:563e45091a8a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6b339d6d69a29a28"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:31d64ba07ffd",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:679912c21a77e4a1"
+   ]
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ca082f7b5f19",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chasm Skulker"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3eadecef92b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Metallurgic Summonings"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5b103655f24e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c7fa519f4d3d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5c66a9f5574e2e0e"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:13123c65be9e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:58acdec04bdd46bc"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:68b1e494bdf9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:421fb02e628a4f75"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0cc9c959768a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5e65c8549d2d32b8"
+   ]
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:62606fcbb959",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e7a93dcf4e7a90c8"
+   ]
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:06b68b73b021",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f89064b91b22b94b"
+   ]
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6fe542570c82",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:8eb0267c22ca223a"
+   ]
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:dd4cb9b9d229",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:8a3abf9691ec56fb"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f2791c451af0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f8567f49448a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Magic Mirror"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:574faa3f79e0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:51f0cce3b09bdd37"
+   ]
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3fc2f517a4a0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e79f1b6a78d183ff"
+   ]
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e23fa9c8d410",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:22887014e3c29f45"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Quanar"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7deeb4840dac",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2d8dcfaefdfebb7e"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Quanar"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:527129c8874f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2690eefd569adb87"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5cced045a8c9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:cb3f8565ef75d762"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e5eba75c0b9c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:08679a9722c7c3e3"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Consultation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d2eb07cb7b90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:751121af3b26",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1016c8167db01cf4"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:99f5127eb003",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:d559f307574202f7"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:be125f881c93",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:cf55219e48105d13"
+   ]
+  },
+  {
+   "adds": [
+    "Wishclaw Talisman"
+   ],
+   "cuts": [
+    "Goblin Engineer"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:dcd03d051753",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5141a2e3aa1c",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:3f69685f5bec9b78"
+   ]
+  },
+  {
+   "adds": [
+    "Mox Amber"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7307da9f6988",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6f83f51546d9b3b3"
+   ]
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:906307ef40a0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:f840e0836a90fcd9"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:498df8a7c192",
+   "tests": []
+  },
+  {
+   "adds": [
+    "My Precious // Allure of Power"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e7bc6b654351",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Endeavor"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:65f091dc5d35",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Underworld Dreams"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2d440a7c2172",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1c5da7a1259e5771"
+   ]
+  },
+  {
+   "adds": [
+    "Hex Magic"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4a6bd35c3051",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:394d7e725740",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:68f1f9468f32b7c9"
+   ]
+  },
+  {
+   "adds": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:dccee5e9a025",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:41bbb4e05455",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6917041650261c4b"
+   ]
+  },
+  {
+   "adds": [
+    "Nerd Rage"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7ef68e3705ae",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:986c6b97ab502260"
+   ]
+  },
+  {
+   "adds": [
+    "Pact of Negation"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:545be5a6309a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Teferi's Puzzle Box"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6af230882187",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5e28b9367992bf60"
+   ]
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1492a18c464f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Vault"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d4b73f386a61",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ea4442e077f6727d"
+   ]
+  },
+  {
+   "adds": [
+    "Cabal Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:616529ce6cf2",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:281240b9f4caf6b0"
+   ]
+  },
+  {
+   "adds": [
+    "Drown in Dreams"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b0191867f244",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:b52599f30aa5cbd9"
+   ]
+  },
+  {
+   "adds": [
+    "Mental Misstep"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9d765b1f6a21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chrome Mox"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d03bae8a638a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:cd17ea0c5cf4221b"
+   ]
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cd4177796bc0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5aeaaf7cdcc48542"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6d1571b89939",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cd316cb40710",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:bbea3e3f981f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:95a9c5f684b1dff3"
+   ]
+  },
+  {
+   "adds": [
+    "Folio of Fancies"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e0eb4a6230eb",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:de5d8f5df81755b1"
+   ]
+  },
+  {
+   "adds": [
+    "Splatter Technique"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58bcaaf05c0e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4d80a3ddd8dbead8"
+   ]
+  },
+  {
+   "adds": [
+    "Confusticate and Bebother"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:90bad3e9a557",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:eaed9705835c1309"
+   ]
+  },
+  {
+   "adds": [
+    "Stroke of Genius"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d70e89c5cf94",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:932a66f9e8d19b24"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f9fa48b2c707",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:9e391c88ba765be7"
+   ]
+  },
+  {
+   "adds": [
+    "Recurring Insight"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:20c5f4293c81",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Hate-Twisted"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ed7ed602216e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:357e1b7989247659"
+   ]
+  },
+  {
+   "adds": [
+    "Old Fat Spider Can't See Me"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6ed71fbbbd02",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b77536a566c8",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:e72067dadc1a5f7f"
+   ]
+  },
+  {
+   "adds": [
+    "Mox Opal"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ddcfff150dab",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:4abd42a95e760ef4"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Deathbringer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6ac85b026c35",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Davros, Dalek Creator"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58016c2dcf54",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Theorix Charm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:aa3209ab4122",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:9549052f23facb3a"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:53b867002dde",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basilisk Collar"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:33e92cb1e378",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a45bfdfc342bab21"
+   ]
+  },
+  {
+   "adds": [
+    "Eruth, Tormented Prophet"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:514e83fc7986",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:744b2cd46a3e99f2"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexia's Core"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fa30bb221aa4",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1197443808237979"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9f6080dea33b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0d3067dc0f6e3610"
+   ]
+  },
+  {
+   "adds": [
+    "Padeem, Consul of Innovation"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a6ae065f16f0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ae7c59c37a17c08d"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:182cc3ab02fe",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:bad982ecbc734b18"
+   ]
+  },
+  {
+   "adds": [
+    "Mox Diamond"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4c72c10107da",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:287adc0fe10ed70e"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f901bca04b51",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:6c0294c64a4f4d2d"
+   ]
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9e55d3301a9a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a970decdcb2228d6"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:bf7af58b2ced",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vexing Bauble"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:76232dc0a34a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6e32ce658ddb",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:94c1a8628ee4bfbf"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fb06ac647a68",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:368c33074b1e",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:bd3ad4841965ace6"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ac2a2c484f1b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:3b2569c395885bff"
+   ]
+  },
+  {
+   "adds": [
+    "Bothersome Quasit"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8dbc350809d1",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5f6a334e1c609cde"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d7b703fcd2d0",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:243fb2786d0ca233"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9d411d8a5a82",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:90e63fa1bbc7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:cff770162d6ae572"
+   ]
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:47ff1f17006c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cryptic Command"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5d8b354a7f88",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:07882ccf8f788c76"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:71d11a9220d7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:0f3c6a8fc9a6f7d7"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage's Charm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:736becebf689",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a4914ccf3c835045"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2df8fe1eac06",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5195bcb841ad6fe0"
+   ]
+  },
+  {
+   "adds": [
+    "Fast Forward"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5ba35eddaefd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Refute"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:62dbb46176e9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a381f169b6f8f64f"
+   ]
+  },
+  {
+   "adds": [
+    "Warping Wail"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6d0ab80e0848",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a615c15cdb682785"
+   ]
+  },
+  {
+   "adds": [
+    "Coercive Impetus"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:27f88b143fc8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6946e914e4e3",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:89a99543a6555510"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d44e61385cee",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a1791ee831d4b8bc"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:34f67765b1d9",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7cbc75f6836d348f"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b26358f9ecbc",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7c49ccf5dd16909b"
+   ]
+  },
+  {
+   "adds": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5b29b70979e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Karazikar, the Eye Tyrant"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2895bd6adccd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e6657c4a5a5f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:c8aa936d1036eef0"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6a5fe06cc3ac",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a842bdc5b0752292"
+   ]
+  },
+  {
+   "adds": [
+    "Khârn the Betrayer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:919a999819b0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Choreographed Sparks"
+   ],
+   "cuts": [
+    "Cruel Ultimatum"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:04c328c4df9d",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:fe663d032326bab8"
+   ]
+  },
+  {
+   "adds": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5c38f9cf5d94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Death, Shipwrecker"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:13c32223f83f",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:caca7c262fe0ffd2"
+   ]
+  },
+  {
+   "adds": [
+    "Anje's Ravager"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c88f431d28b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e2747a72053b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2c91495c4696a158"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f1fa5366f8d7",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:5d67334c22b1c8c6"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c86e03f3e8ed",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:7518ad34282f17ee"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7034e40a7d8a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:ae34e16c0d9c716e"
+   ]
+  },
+  {
+   "adds": [
+    "Vislor Turlough"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:13e04cbbff62",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mystic Redaction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:083637255a55",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:3b767ed6feeef3f0"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Redaction"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1552b0b68f32",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:8d91dfe51fa6ab91"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Mesmerist"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e994bb0eb4b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Maeve, Insidious Singer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:72b7bb4371a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6ae775e5f248",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:2cc1b22d10affa04"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2843b9c9e12b",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:723d8df836262eb7"
+   ]
+  },
+  {
+   "adds": [
+    "Boiling Blood"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:93693d7a215a",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:a7780fc495ee16f0"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e04ea9974f44",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:1493f056ce733ff2"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:828e09265b14",
+   "tests": [
+    "test:bjorna-nightfall-alchemist-cecily:goldfish:dd259e0a3755d360"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f44ad4ff5895ee11",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0576cb54b3fca709",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:d50767fe37e63d14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:55d11d6492d215b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a954acaf30c4c5a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:d6da6e823fd61069",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4f5fc257962842d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:29faf528b6ab4df7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:3bdd11661b8bb0e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:d689a0ef2421595f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1bbdf05329b2fb9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0e5fb3b5e37bc5ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:994fc7266ddb126d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:b6a91d5a95df4252",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e069543c1b881d4d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:92e33f4dd9d107d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:93b73da140b839dc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4002bd509bd56f18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:25a598e9f54a1d34",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5f625641bd2ad000",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:fe114aef361b97ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a3c83c0fb6ef248d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:289e055afc7a4575",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e219fb34dcb7a0a4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:edebaf3944c1b532",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:53a84b48751fc3e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0a61c7d9fcf10342",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:79796dad98d1cc27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c24e2a7d390cc2a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:98fe0bfab0855fef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7daf7dcf1b1e1968",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:253088a8c844402d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:62b8b5c08faff6c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:8c9e365eb404f650",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c8ad862d61ea992a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:d8e32d3030d3c696",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f749c2c5bc79901b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:381293a2b3462326",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:683746351be4cbfd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e8c05568660c46c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e95477901b28814c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:36b75f18e575cabf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:08131aa15ea47488",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7627cf4bebcbce4c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a1c68fa0a5157bde",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2913923de893a3b0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ed38a59a80e65b5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0085abac9bacbbea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:cc6a74ba724bad49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c1a4a2330d5c5cfb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ae1cfbf744553c5a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:162d9ab662f8dddf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:dbfe512a2dbdba57",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:851b112beb4679c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:32d963716bac9288",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:73c9509442458c87",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5cf6a192a2538b57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:b26b439c46d5f3ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:8779e17cf45b3e2b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:189cb4bf2c4e5503",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:476589d3a47b32aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7ef8d791773f2cd1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:8913d85380a63d07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e64565c15479039b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4ea87df78bb658e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:11b553409005474a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1de3cd7b2f60698e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c58d24c52f45cdb4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:472438b70a36e3e5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f4f153a8e9cb5655",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e6c429b3306b15e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:12774bfa10bdeb16",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a5dd0ca5a5f6d46d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c738147349585a2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c6191618fff994bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c142d6884fb3aef7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:188407ced1546012",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:82413a62ab96706d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ed053c941299cc42",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:52f6be6520cbc36a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:9e21d2d365b3310b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2b3d8e08e4a1aabb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:be5867ba7c40c6fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:43606e0439ea86d7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6483903cf30dadbb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:94d3bae6b13562fb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0c1d37aaf84ef73b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f8f595f2527fd3f3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7785b5c53cc94c21",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5fd02732c0c5f26c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1ebcff1c732d1e8c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:3f739a7a6ae6cec7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:529c4dc937aa62a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ea0a0e1b5ea18abc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6785899c44e21487",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0973f5a96c805279",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:75ea97e32afdb463",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:291d8d53d6d2fec9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a4dfdc9db1b292ca",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4243e193effecb3b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:9af6fdb9c53796e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:462b391054216b27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:57574f0268242f76",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e7090552abd22c7e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:12d84d10fa416a9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:b726b6cfbc8afc56",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f1daad53cff40b13",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6e90d6f9787e361d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:648cde02700165ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:d3781f412c847a3c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7203bbd1596eb8ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:40590b9fc613bce7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f5fbc732e0d774a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:015f3827d97a7245",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a7e28e58448396fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f4e80fd9d8963244",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:9585cbcf1814aa75",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e88e247b7ac8e155",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:9d4505b14554c7bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6e55925f58523a7b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:b2f9ed49a8b47556",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:43bd8ea2c6b3201a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e9890b44692a454a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:43b211bf9e33ab44",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a958311738295b4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2237b768c638df39",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4c6b4f425965f6ae",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:54f2b9e8fe9abed7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:64fabcdbf554cf3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2e078343b082a1f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:cef09c5458129597",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a20973896fabab72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7036c266cb54805c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:89dda66e3bca7cd6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6b339d6d69a29a28",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:679912c21a77e4a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5c66a9f5574e2e0e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:58acdec04bdd46bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:421fb02e628a4f75",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5e65c8549d2d32b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e7a93dcf4e7a90c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f89064b91b22b94b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:8eb0267c22ca223a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:8a3abf9691ec56fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:51f0cce3b09bdd37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e79f1b6a78d183ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:22887014e3c29f45",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2d8dcfaefdfebb7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2690eefd569adb87",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:cb3f8565ef75d762",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:08679a9722c7c3e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1016c8167db01cf4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:d559f307574202f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:cf55219e48105d13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:3f69685f5bec9b78",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6f83f51546d9b3b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:f840e0836a90fcd9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1c5da7a1259e5771",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:68f1f9468f32b7c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6917041650261c4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:986c6b97ab502260",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5e28b9367992bf60",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ea4442e077f6727d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:281240b9f4caf6b0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:b52599f30aa5cbd9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:cd17ea0c5cf4221b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5aeaaf7cdcc48542",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:95a9c5f684b1dff3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:de5d8f5df81755b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4d80a3ddd8dbead8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:eaed9705835c1309",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:932a66f9e8d19b24",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:9e391c88ba765be7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:357e1b7989247659",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:e72067dadc1a5f7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:4abd42a95e760ef4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:9549052f23facb3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a45bfdfc342bab21",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:744b2cd46a3e99f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1197443808237979",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0d3067dc0f6e3610",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ae7c59c37a17c08d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:bad982ecbc734b18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:287adc0fe10ed70e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:6c0294c64a4f4d2d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a970decdcb2228d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:94c1a8628ee4bfbf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:bd3ad4841965ace6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:3b2569c395885bff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5f6a334e1c609cde",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:243fb2786d0ca233",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:cff770162d6ae572",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:07882ccf8f788c76",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:0f3c6a8fc9a6f7d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a4914ccf3c835045",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5195bcb841ad6fe0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a381f169b6f8f64f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a615c15cdb682785",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:89a99543a6555510",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a1791ee831d4b8bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7cbc75f6836d348f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7c49ccf5dd16909b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:c8aa936d1036eef0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a842bdc5b0752292",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:fe663d032326bab8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:caca7c262fe0ffd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2c91495c4696a158",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:5d67334c22b1c8c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:7518ad34282f17ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:ae34e16c0d9c716e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:3b767ed6feeef3f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:8d91dfe51fa6ab91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:2cc1b22d10affa04",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:723d8df836262eb7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:a7780fc495ee16f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:1493f056ce733ff2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:bjorna-nightfall-alchemist-cecily:goldfish:dd259e0a3755d360",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

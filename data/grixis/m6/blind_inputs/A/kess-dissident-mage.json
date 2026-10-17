@@ -1,0 +1,6532 @@
+{
+ "candidates": [
+  {
+   "card": "Frantic Search",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frantic Search",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Frantic Search",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:4c7056770931"
+    },
+    "swap": "swap:kess-dissident-mage:m5:226210190a77"
+   }
+  },
+  {
+   "card": "Preordain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Preordain",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Preordain",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:341041e0a731"
+    },
+    "swap": "swap:kess-dissident-mage:m5:288af0598d3f"
+   }
+  },
+  {
+   "card": "Archmage Emeritus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:96c5dd1661ca"
+    },
+    "swap": "swap:kess-dissident-mage:m5:2d7d693ae66a"
+   }
+  },
+  {
+   "card": "Jeska's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeska's Will",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeska's Will",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:9b07e23b7a94"
+    },
+    "swap": "swap:kess-dissident-mage:m5:af41d3a2895a"
+   }
+  },
+  {
+   "card": "Storm-Kiln Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:540f2bda9e10"
+    },
+    "swap": "swap:kess-dissident-mage:m5:389855049fcb"
+   }
+  },
+  {
+   "card": "Consider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consider",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Consider",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:7866b0fddfa2"
+    },
+    "swap": "swap:kess-dissident-mage:m5:2c3068af2f31"
+   }
+  },
+  {
+   "card": "Goblin Electromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:0d4c2543274b"
+    },
+    "swap": "swap:kess-dissident-mage:m5:3986142fb50c"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d304ea3e8205"
+   }
+  },
+  {
+   "card": "Opt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opt",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Opt",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:9c19ddf90118"
+    },
+    "swap": "swap:kess-dissident-mage:m5:a28f495decf5"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:81ed93d9015f"
+   }
+  },
+  {
+   "card": "Cyclonic Rift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonic Rift",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:c0a623ea0cb0"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:32eea5fe4af3"
+   }
+  },
+  {
+   "card": "Mana Geyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Geyser",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Geyser",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:57c327263783"
+    },
+    "swap": "swap:kess-dissident-mage:m5:5ac556da0722"
+   }
+  },
+  {
+   "card": "Baral, Chief of Compliance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baral, Chief of Compliance",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:b0c72d74a74e"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:f3034bce7a94"
+   }
+  },
+  {
+   "card": "Fact or Fiction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Fact or Fiction",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:e3cb6f4d1358"
+    },
+    "swap": "swap:kess-dissident-mage:m5:18504bd9645e"
+   }
+  },
+  {
+   "card": "Increasing Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Increasing Vengeance",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Increasing Vengeance",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:f456b9e1e3e2"
+    },
+    "swap": "swap:kess-dissident-mage:m5:f472083182ec"
+   }
+  },
+  {
+   "card": "Mana Drain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Drain",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:eb3735ee0e03"
+   }
+  },
+  {
+   "card": "Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:a06e0062e480"
+    },
+    "swap": "swap:kess-dissident-mage:m5:df78df7e1075"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:82b562ea5528"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:6b8f1a02c587"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:0f341ad37af4"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:fb0f2ef4e99a"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:e38f2fb41cc6"
+    },
+    "swap": "swap:kess-dissident-mage:m5:da75e016153f"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Arcane Denial",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:0605aedf3ca5"
+    },
+    "swap": "swap:kess-dissident-mage:m5:5acf6afdd657"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:27de43944aba"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:701e19c0026b"
+    },
+    "swap": "swap:kess-dissident-mage:m5:00917927fb68"
+   }
+  },
+  {
+   "card": "Narset's Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Narset's Reversal",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:0018d2165f9b"
+   }
+  },
+  {
+   "card": "Flame of Anor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:4ee639ff0c3d"
+   }
+  },
+  {
+   "card": "Young Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Young Pyromancer",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:1d3d12dcc9d8"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:3e89a6d3d6a1"
+   }
+  },
+  {
+   "card": "See the Truth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "See the Truth",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:45ab37249dd2"
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:deff5f11e02f"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:25b23c357be7"
+   }
+  },
+  {
+   "card": "Thrill of Possibility",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:dede45ee1ad7"
+   }
+  },
+  {
+   "card": "Snap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snap",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:7c53c98acafe"
+   }
+  },
+  {
+   "card": "Mizzix's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix's Mastery",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mizzix's Mastery",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:bc608d628106"
+    },
+    "swap": "swap:kess-dissident-mage:m5:d45cb6f35ee2"
+   }
+  },
+  {
+   "card": "Expressive Iteration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expressive Iteration",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e8d8c416789b"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:0a74ba60ad5c"
+   }
+  },
+  {
+   "card": "Archmage of Runes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage of Runes",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:5ae9b5d9015d"
+   }
+  },
+  {
+   "card": "Thought Scour",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Scour",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:180ff4e11558"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:502be4a784c9"
+   }
+  },
+  {
+   "card": "Serum Visions",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Serum Visions",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:dad8718415d9"
+   }
+  },
+  {
+   "card": "Abrade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abrade",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:df5374228163"
+   }
+  },
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:c512d573c8fa"
+   }
+  },
+  {
+   "card": "Torment of Hailfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torment of Hailfire",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:cde2a369a22a"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undercity Sewers",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:ae7029075a3b"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:cc3d20e3c81d"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:113411383924"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Archaeomancer",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:ee2d14f6137e"
+    },
+    "swap": "swap:kess-dissident-mage:m5:274d4d1d2f0a"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:ac782cb5fd1f"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:ced238506dc7"
+   }
+  },
+  {
+   "card": "Solve the Equation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solve the Equation",
+       "cut": "Spellseeker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:2a179cd59b33"
+   }
+  },
+  {
+   "card": "Night's Whisper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night's Whisper",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:20f4b129a516"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e0e06d5d306a"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:410be4327644"
+   }
+  },
+  {
+   "card": "Secrets of the Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Secrets of the Dead",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:cef889d1ac38"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sedgemoor Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sedgemoor Witch",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:39d5d1cc12af"
+   }
+  },
+  {
+   "card": "Grapeshot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grapeshot",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:4569b56fe595"
+   }
+  },
+  {
+   "card": "Muddle the Mixture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Muddle the Mixture",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:6579081771ea"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:38f4e8f6893b"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:368be48008e4"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Parun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:9e3d04c03feb"
+   }
+  },
+  {
+   "card": "Big Score",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Big Score",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d6108d34127a"
+   }
+  },
+  {
+   "card": "Izzet Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Charm",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:a37a0156ea75"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d1a1b86ae7ec"
+   }
+  },
+  {
+   "card": "Pongify",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pongify",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:28eb7268931e"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:ce5243bd36c2"
+   }
+  },
+  {
+   "card": "Coruscation Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coruscation Mage",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:6982936c795a"
+   }
+  },
+  {
+   "card": "Prismari Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari Command",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:3f2be5e2470d"
+   }
+  },
+  {
+   "card": "Thousand-Year Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:8b3ad2e0fa27"
+   }
+  },
+  {
+   "card": "Careful Study",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Careful Study",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:13ec818a5c63"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e525ba79be0e"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:3d89a1e654a0"
+    },
+    "swap": "swap:kess-dissident-mage:m5:6c0412a97001"
+   }
+  },
+  {
+   "card": "Flow State",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flow State",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:937f43d4e8a3"
+   }
+  },
+  {
+   "card": "Wheel of Misfortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Misfortune",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d78a8939a691"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:443a2beb0b3c"
+   }
+  },
+  {
+   "card": "Veyran, Voice of Duality",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Veyran, Voice of Duality",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e4ad635b8c5a"
+   }
+  },
+  {
+   "card": "Past in Flames",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Past in Flames",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e3a816f8793b"
+   }
+  },
+  {
+   "card": "Fiery Inscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Inscription",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:025224acb9f0"
+   }
+  },
+  {
+   "card": "Treasure Cruise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Cruise",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e846f05471fa"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Cool but Rude",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:ddc8cd1445f7"
+    },
+    "swap": "swap:kess-dissident-mage:m5:94bdf6095e2a"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Enter the Infinite",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:efad543eeebb"
+    },
+    "swap": "swap:kess-dissident-mage:m5:16cb730d688c"
+   }
+  },
+  {
+   "card": "Reality Shift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reality Shift",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:1138593bf6aa"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:e31dd340917b"
+    },
+    "swap": "swap:kess-dissident-mage:m5:70684229ad6d"
+   }
+  },
+  {
+   "card": "Circle of Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Circle of Power",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:cfb6e28078fa"
+   }
+  },
+  {
+   "card": "Prismari, the Inspiration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari, the Inspiration",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:78d485d5edd5"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:7b07cbc86433"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:49904d9f8805"
+   }
+  },
+  {
+   "card": "Third Path Iconoclast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Third Path Iconoclast",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:ab479925d8b7"
+   }
+  },
+  {
+   "card": "Cathartic Reunion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathartic Reunion",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:f66da35b38c9"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:37bdb17d158e"
+   }
+  },
+  {
+   "card": "Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sign in Blood",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:22d9c9daf7c3"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:159323da2283"
+   }
+  },
+  {
+   "card": "Saheeli, Sublime Artificer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli, Sublime Artificer",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Saheeli, Sublime Artificer",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:f714be47512d"
+    },
+    "swap": "swap:kess-dissident-mage:m5:57d0741ff2c0"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:51ea0f391c10"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:930b68fcc868"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-2706-3518",
+         "1368-3518-4856",
+         "1368-3698--44"
+        ]
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:a1da685b203b"
+    },
+    "swap": "swap:kess-dissident-mage:m5:c7718a90ac57"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Retraction Helix",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:af2b2597178e"
+    },
+    "swap": "swap:kess-dissident-mage:m5:8132b3227070"
+   }
+  },
+  {
+   "card": "Exhibition Tidecaller",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exhibition Tidecaller",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:bf0c341bfb50"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:6c5cfa899ecc"
+    },
+    "swap": "swap:kess-dissident-mage:m5:aa6c96585692"
+   }
+  },
+  {
+   "card": "Double Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Double Vision",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:2679fa8c4176"
+   }
+  },
+  {
+   "card": "Yawgmoth's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:6ffbea94dc96"
+    },
+    "swap": "swap:kess-dissident-mage:m5:b02d7e794454"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Banishing Knack",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:0356e2836f80"
+    },
+    "swap": "swap:kess-dissident-mage:m5:0dfb173ae2cd"
+   }
+  },
+  {
+   "card": "Mnemonic Wall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:01ce54f80e56"
+    },
+    "swap": "swap:kess-dissident-mage:m5:7ef706dbc920"
+   }
+  },
+  {
+   "card": "Shipwreck Dowser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:e9e1119a38b9"
+    },
+    "swap": "swap:kess-dissident-mage:m5:73e0e6fac89e"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:230d2d631a87"
+   }
+  },
+  {
+   "card": "Invasion of Arcavios // Invocation of the Founders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invasion of Arcavios // Invocation of the Founders",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Invasion of Arcavios // Invocation of the Founders",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:c5aff0d3131d"
+    },
+    "swap": "swap:kess-dissident-mage:m5:259a9cc49692"
+   }
+  },
+  {
+   "card": "Ral, Crackling Wit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ral, Crackling Wit",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:c3374c802297"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d3bf6774bd20"
+   }
+  },
+  {
+   "card": "Notion Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Notion Thief",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:bb73af776d49"
+   }
+  },
+  {
+   "card": "Laboratory Maniac",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laboratory Maniac",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e0031ed410af"
+   }
+  },
+  {
+   "card": "Artist's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Artist's Talent",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:c1436e776d01"
+   }
+  },
+  {
+   "card": "Chancellor of the Spires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:ba5268da1fbd"
+    },
+    "swap": "swap:kess-dissident-mage:m5:cfaa46b6809c"
+   }
+  },
+  {
+   "card": "Thunderclap Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thunderclap Drake",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:ad4323e50fd3"
+   }
+  },
+  {
+   "card": "Cascade Bluffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cascade Bluffs",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:fa8c8c8820c9"
+   }
+  },
+  {
+   "card": "Electrostatic Field",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electrostatic Field",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:5a91a224d5ec"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:15dfe6b1ba36"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d8fddac5a56a"
+   }
+  },
+  {
+   "card": "Breach the Multiverse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breach the Multiverse",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:acc53a6c84de"
+   }
+  },
+  {
+   "card": "Hex Magic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hex Magic",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:c32106ba3c38"
+   }
+  },
+  {
+   "card": "Murmuring Mystic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Murmuring Mystic",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:7deef1ed020c"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d88e1ce0be49"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:a4046febb4c9"
+   }
+  },
+  {
+   "card": "Talrand, Sky Summoner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talrand, Sky Summoner",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:323de190336a"
+   }
+  },
+  {
+   "card": "Tablet of Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tablet of Discovery",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:5f7241a1b2ed"
+   }
+  },
+  {
+   "card": "Buried Alive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Buried Alive",
+       "cut": "Spellseeker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:fbf2cc98e36f"
+   }
+  },
+  {
+   "card": "Whispering Madness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispering Madness",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:eb4f1d64a1d8"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:8357a29557d6"
+   }
+  },
+  {
+   "card": "Splatter Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splatter Technique",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:91fedf0bd0b2"
+   }
+  },
+  {
+   "card": "Firebrand Archer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firebrand Archer",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:8c7c07868d0d"
+   }
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Takenuma, Abandoned Mire",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:297c30cdda1b"
+   }
+  },
+  {
+   "card": "Jace, Wielder of Mysteries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, Wielder of Mysteries",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d6a7c7ee69d2"
+   }
+  },
+  {
+   "card": "Reforge the Soul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reforge the Soul",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:907592d8772f"
+   }
+  },
+  {
+   "card": "Kessig Flamebreather",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kessig Flamebreather",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:8b035714f62b"
+   }
+  },
+  {
+   "card": "The Echoverse Fulcrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Echoverse Fulcrum",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:e29ff8e3f3fd"
+   }
+  },
+  {
+   "card": "Victimize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Victimize",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:b6864278023d"
+   }
+  },
+  {
+   "card": "Rise of the Deathbringer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rise of the Deathbringer",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:716b6e1896dc"
+   }
+  },
+  {
+   "card": "Swarm Intelligence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swarm Intelligence",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:31a655e9cf97"
+   }
+  },
+  {
+   "card": "Dark Deal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Deal",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:11a0cb76fba7"
+   }
+  },
+  {
+   "card": "Paradigm Shift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Paradigm Shift",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:52602a1c9020"
+   }
+  },
+  {
+   "card": "Persist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Persist",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d05a8b6888f9"
+   }
+  },
+  {
+   "card": "Arcane Bombardment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Divining Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Divining Witch",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:cda8335ab908"
+   }
+  },
+  {
+   "card": "Praetor's Grasp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Praetor's Grasp",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:8af346c93c1b"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:b425b2d679de"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:d850085d4967"
+   }
+  },
+  {
+   "card": "Shark Typhoon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Aether Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Channeler",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Aether Channeler",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:7f80156a4e29"
+    },
+    "swap": "swap:kess-dissident-mage:m5:2b618aa8c693"
+   }
+  },
+  {
+   "card": "Blazing Firesinger // Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:2bed71738c73"
+    },
+    "swap": "swap:kess-dissident-mage:m5:a1e42669305b"
+   }
+  },
+  {
+   "card": "Goblin Glasswright // Craft with Pride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:11430cc7f3d2"
+    },
+    "swap": "swap:kess-dissident-mage:m5:e3f68d432119"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:0cf6a0de1178"
+    },
+    "swap": "swap:kess-dissident-mage:m5:72559e09397d"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:2ddd210cb3da"
+    },
+    "swap": "swap:kess-dissident-mage:m5:8805dd706f64"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:dbf97df90409"
+   }
+  },
+  {
+   "card": "Venser, Shaper Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:84e498f96798"
+   }
+  },
+  {
+   "card": "Memnite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memnite",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:6ca56ba4d9a3"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:acbbcfb4fc0f"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:80f0c7345014"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:599584b81816"
+   }
+  },
+  {
+   "card": "Brinelin, the Moon Kraken",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:65128e3c8b8c"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:469b541a7c0a"
+    },
+    "swap": "swap:kess-dissident-mage:m5:981b398ba4a7"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:18a085a21bc7"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:66a94402ea1f"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-2706-3518",
+         "1368-3518-4856",
+         "1368-3698--44"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kess-dissident-mage:m5:d19fd759c5ed"
+    },
+    "swap": "swap:kess-dissident-mage:m5:1181827b141e"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:c6a1ce465886"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:081fe9f023f9"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kess-dissident-mage:m5:bfd26abab25e"
+   }
+  }
+ ],
+ "deck_id": "Kess__Dissident_Mage",
+ "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "slug": "kess-dissident-mage",
+ "swaps": [
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:226210190a77"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:4c7056770931"
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:288af0598d3f"
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:341041e0a731"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2d7d693ae66a"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:96c5dd1661ca"
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:af41d3a2895a"
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:9b07e23b7a94"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:389855049fcb"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:540f2bda9e10"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2c3068af2f31"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7866b0fddfa2"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3986142fb50c"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0d4c2543274b"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d304ea3e8205"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a28f495decf5"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:9c19ddf90118"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:81ed93d9015f"
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c0a623ea0cb0"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:32eea5fe4af3"
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5ac556da0722"
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:57c327263783"
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b0c72d74a74e"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f3034bce7a94"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:18504bd9645e"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e3cb6f4d1358"
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f472083182ec"
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f456b9e1e3e2"
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:eb3735ee0e03"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:df78df7e1075"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a06e0062e480"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:82b562ea5528"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6b8f1a02c587"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0f341ad37af4"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:fb0f2ef4e99a"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:da75e016153f"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e38f2fb41cc6"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5acf6afdd657"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0605aedf3ca5"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:27de43944aba"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:00917927fb68"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:701e19c0026b"
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0018d2165f9b"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:4ee639ff0c3d"
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:1d3d12dcc9d8"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3e89a6d3d6a1"
+  },
+  {
+   "adds": [
+    "See the Truth"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:45ab37249dd2"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:deff5f11e02f"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:25b23c357be7"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:dede45ee1ad7"
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7c53c98acafe"
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d45cb6f35ee2"
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bc608d628106"
+  },
+  {
+   "adds": [
+    "Expressive Iteration"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e8d8c416789b"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0a74ba60ad5c"
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5ae9b5d9015d"
+  },
+  {
+   "adds": [
+    "Thought Scour"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:180ff4e11558"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:502be4a784c9"
+  },
+  {
+   "adds": [
+    "Serum Visions"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:dad8718415d9"
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:df5374228163"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c512d573c8fa"
+  },
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cde2a369a22a"
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ae7029075a3b"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cc3d20e3c81d"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:113411383924"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:274d4d1d2f0a"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ee2d14f6137e"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ac782cb5fd1f"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ced238506dc7"
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Spellseeker"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2a179cd59b33"
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:20f4b129a516"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e0e06d5d306a"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:410be4327644"
+  },
+  {
+   "adds": [
+    "Secrets of the Dead"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cef889d1ac38"
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:39d5d1cc12af"
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:4569b56fe595"
+  },
+  {
+   "adds": [
+    "Muddle the Mixture"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6579081771ea"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:38f4e8f6893b"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:368be48008e4"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:9e3d04c03feb"
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d6108d34127a"
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a37a0156ea75"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d1a1b86ae7ec"
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:28eb7268931e"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ce5243bd36c2"
+  },
+  {
+   "adds": [
+    "Coruscation Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6982936c795a"
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3f2be5e2470d"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8b3ad2e0fa27"
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:13ec818a5c63"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e525ba79be0e"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6c0412a97001"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3d89a1e654a0"
+  },
+  {
+   "adds": [
+    "Flow State"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:937f43d4e8a3"
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d78a8939a691"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:443a2beb0b3c"
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e4ad635b8c5a"
+  },
+  {
+   "adds": [
+    "Past in Flames"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e3a816f8793b"
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:025224acb9f0"
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e846f05471fa"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:94bdf6095e2a"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ddc8cd1445f7"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:16cb730d688c"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:efad543eeebb"
+  },
+  {
+   "adds": [
+    "Reality Shift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:1138593bf6aa"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:70684229ad6d"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e31dd340917b"
+  },
+  {
+   "adds": [
+    "Circle of Power"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cfb6e28078fa"
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:78d485d5edd5"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7b07cbc86433"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:49904d9f8805"
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ab479925d8b7"
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f66da35b38c9"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:37bdb17d158e"
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:22d9c9daf7c3"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:159323da2283"
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:57d0741ff2c0"
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f714be47512d"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:51ea0f391c10"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:930b68fcc868"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c7718a90ac57"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a1da685b203b"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8132b3227070"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:af2b2597178e"
+  },
+  {
+   "adds": [
+    "Exhibition Tidecaller"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bf0c341bfb50"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:aa6c96585692"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6c5cfa899ecc"
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2679fa8c4176"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b02d7e794454"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6ffbea94dc96"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0dfb173ae2cd"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0356e2836f80"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7ef706dbc920"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:01ce54f80e56"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:73e0e6fac89e"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e9e1119a38b9"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:230d2d631a87"
+  },
+  {
+   "adds": [
+    "Invasion of Arcavios // Invocation of the Founders"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:259a9cc49692"
+  },
+  {
+   "adds": [
+    "Invasion of Arcavios // Invocation of the Founders"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c5aff0d3131d"
+  },
+  {
+   "adds": [
+    "Ral, Crackling Wit"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c3374c802297"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d3bf6774bd20"
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bb73af776d49"
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e0031ed410af"
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c1436e776d01"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cfaa46b6809c"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ba5268da1fbd"
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ad4323e50fd3"
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:fa8c8c8820c9"
+  },
+  {
+   "adds": [
+    "Electrostatic Field"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5a91a224d5ec"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:15dfe6b1ba36"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d8fddac5a56a"
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:acc53a6c84de"
+  },
+  {
+   "adds": [
+    "Hex Magic"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c32106ba3c38"
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7deef1ed020c"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d88e1ce0be49"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a4046febb4c9"
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:323de190336a"
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5f7241a1b2ed"
+  },
+  {
+   "adds": [
+    "Buried Alive"
+   ],
+   "cuts": [
+    "Spellseeker"
+   ],
+   "id": "swap:kess-dissident-mage:m5:fbf2cc98e36f"
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:eb4f1d64a1d8"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8357a29557d6"
+  },
+  {
+   "adds": [
+    "Splatter Technique"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:91fedf0bd0b2"
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8c7c07868d0d"
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:297c30cdda1b"
+  },
+  {
+   "adds": [
+    "Jace, Wielder of Mysteries"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d6a7c7ee69d2"
+  },
+  {
+   "adds": [
+    "Reforge the Soul"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:907592d8772f"
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8b035714f62b"
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e29ff8e3f3fd"
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b6864278023d"
+  },
+  {
+   "adds": [
+    "Rise of the Deathbringer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:716b6e1896dc"
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:31a655e9cf97"
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:11a0cb76fba7"
+  },
+  {
+   "adds": [
+    "Paradigm Shift"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:kess-dissident-mage:m5:52602a1c9020"
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d05a8b6888f9"
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cda8335ab908"
+  },
+  {
+   "adds": [
+    "Praetor's Grasp"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8af346c93c1b"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b425b2d679de"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d850085d4967"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2b618aa8c693"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7f80156a4e29"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a1e42669305b"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2bed71738c73"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e3f68d432119"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:11430cc7f3d2"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:72559e09397d"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0cf6a0de1178"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8805dd706f64"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2ddd210cb3da"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:dbf97df90409"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:84e498f96798"
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6ca56ba4d9a3"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:acbbcfb4fc0f"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:80f0c7345014"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:599584b81816"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:65128e3c8b8c"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:981b398ba4a7"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:469b541a7c0a"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:18a085a21bc7"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:66a94402ea1f"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:kess-dissident-mage:m5:1181827b141e"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d19fd759c5ed"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c6a1ce465886"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:081fe9f023f9"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bfd26abab25e"
+  }
+ ]
+}

@@ -1,0 +1,2505 @@
+{
+ "deck_id": "Saruman__the_White_Hand",
+ "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "slug": "saruman-the-white-hand",
+ "swaps": [
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:baebcc47d453",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ba8f2359f77c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lazotep Plating"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:eb7be7e9c338",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:d3c06b18aa02dcc2"
+   ]
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:720e5cacf97c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:833f4eb1168a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:674f709253c7",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:c4cb40ab8540af08"
+   ]
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:b41d6c010fdc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7e632e8f30e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:211f44c6288b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:3844999b1fdec04a"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:675f6fb5c699",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:bac562d96514",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corsairs of Umbar"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e326b80b93e8",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:cecbdff0a3903323"
+   ]
+  },
+  {
+   "adds": [
+    "March from the Black Gate"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f56fc28cbfa5",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:e0cca715867fbdcf"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:5793af5447dc",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:a971e9ec9f7333bd"
+   ]
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1cf955eb0f83",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:71d12dc5bcb5903a"
+   ]
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "The Great Goblin"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:71f01ceb7c6a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:9683883de8c64bd2"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:62142107b953",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:3731ad3b1099a780"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:970f13bc8f2d",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:5e1dc09b69ad93cd"
+   ]
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:edc32eb85bfe",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:9b0f1a1b7bccfb4e"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d3aacf4c189a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:26fd93fde06bbb86"
+   ]
+  },
+  {
+   "adds": [
+    "Gothmog, Morgul Lieutenant"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:5131c3ed8518",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:cbe16b807f084f2b"
+   ]
+  },
+  {
+   "adds": [
+    "Warg Rider"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cec8149887d9",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:749576a3bc92a5be"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of the Nazgûl"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:24f8fede22e7",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:5a45f4af8bd5c3c0"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:08454b1eb998",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:e2dc6a99919d8513"
+   ]
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d8a4ab8e1fca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:be1a5da54567",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:27fef7782d95",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ed57b7fbff6e9932"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4062b95b003b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:1aeae0fb6b1dad89"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fa71ea413361",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:7a3432d1b49cc37a"
+   ]
+  },
+  {
+   "adds": [
+    "Storm of Saruman"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1c66d332059b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:aaff10c8014166a6"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:42cf759cb3ed",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:16e41bc4cbf43ddf"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2485efc67e3f",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:1ec3a2edb53607d5"
+   ]
+  },
+  {
+   "adds": [
+    "Mordor Muster"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9ecaefc301c9",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:105112d891f5fc3d"
+   ]
+  },
+  {
+   "adds": [
+    "Surrounded by Orcs"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:81643909015e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Surrounded by Orcs"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c34c2c7d8f2a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saruman the White"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:07394f60c2ef",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:8901fca50d00e607"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8a899f80c5ab",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ff3f47c280a8612f"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1eddff7bb3e6",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:f2a73d588d0b615e"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f3f7d1e38fb9",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:34f7c2a1072249f9"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:eeef2ee01701",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:919a583a169d0bc3"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c24464114a94",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:c4ab223278637b9b"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f82f9d050344",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:5121f051c0f58679"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e9383d18f91a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:c1b30bf5f0586e35"
+   ]
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0aad104eeed9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:21b43cdd056f",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:66204fa5fdd1cc81"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:15ca8943b5ab",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:bf2539c13d16569e"
+   ]
+  },
+  {
+   "adds": [
+    "Moria Scavenger"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0f517dc4411f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9425b5565082",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:b4e307b7aa09c0ef"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:22c6c4f6e55a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:79af38692aadd7a8"
+   ]
+  },
+  {
+   "adds": [
+    "Book of Mazarbul"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d6e083d826a7",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:2678859dfc2ff0c7"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Rage into the Valley"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7f659cc4da58",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ac6b7464c9d9f571"
+   ]
+  },
+  {
+   "adds": [
+    "Wake the Dragon"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6bf6d37789c9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gathering of Darkness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:a14480a24239",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tidings of War"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:181ebfd8992c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sauron, Lord of the Rings"
+   ],
+   "cuts": [
+    "Swarming of Moria"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:20f19f406f51",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Languish"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d230d1529acd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ebaa200c25e8",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ae41c7052d8f2304"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Plate Mail"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c8cea1c2268a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:413c4335c796b9d2"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:66c3ec19d361",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:54591613a9f1e438"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4bc18e8f09df",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:461f246b7b2c82c0"
+   ]
+  },
+  {
+   "adds": [
+    "Invade the City"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:201548c7639b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d18ebde61b0a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:86fa4618e399",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:beda7402a0b9",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:4c71c2cca901a426"
+   ]
+  },
+  {
+   "adds": [
+    "Azog, Moria's Ruin"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3ea69a6307bf",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:a96043b4aeb456d4"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Mountains Raider"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f9d87939dd5d",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:5645564960f501b7"
+   ]
+  },
+  {
+   "adds": [
+    "Bolg of the North"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d28e94aa5f6c",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:1b5bb8fd2371210b"
+   ]
+  },
+  {
+   "adds": [
+    "Uglúk of the White Hand"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d15836eded95",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:b9cbc722f415661e"
+   ]
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fcc90a630155",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:7109acfa2b339dce"
+   ]
+  },
+  {
+   "adds": [
+    "Great Goblin, Foul-Hearted"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:238886fc4d7e",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ce476b4eb595c22d"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin-town"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9857feb12c49",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:6764f45b86067565"
+   ]
+  },
+  {
+   "adds": [
+    "Mines of Moria"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f00a2b5425e8",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:0661ac33efafde0a"
+   ]
+  },
+  {
+   "adds": [
+    "Gleaming Overseer"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6839b7868924",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:8fe6e80cea227ed7"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:402dc4bb99f0",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:9d74bbff5bb09b69"
+   ]
+  },
+  {
+   "adds": [
+    "Fearsome Goblin Pair"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:afd41d16f071",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:9d96ec53c62d9c5f"
+   ]
+  },
+  {
+   "adds": [
+    "Dunland Crebain"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:80ed1663ef90",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:99babc466602f019"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:99b1e1b64166",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:9cb526994fe06950"
+   ]
+  },
+  {
+   "adds": [
+    "Spiteful Banditry"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d40be766c0eb",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:1649d0270ffd7b69"
+   ]
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3a7cca8befc9",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:64a8531065bf5a6e"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:95888877c414",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:bc5c882008700e62"
+   ]
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6651904d99b7",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:db89fb2f3e12a683"
+   ]
+  },
+  {
+   "adds": [
+    "Star of Extinction"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d2db94432684",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:c47ad6aad3de46c1"
+   ]
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1344fe724f5d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1d1e367ff87d",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:6e98f1624aa50f83"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:07e5aa41bbbc",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:89f243e2c3b1d1a2"
+   ]
+  },
+  {
+   "adds": [
+    "Forbidden Alchemy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dc1578cdcc2a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gorbag of Minas Morgul"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:b6bc77ed6967",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:39f902ee27d2d0a4"
+   ]
+  },
+  {
+   "adds": [
+    "Glamdring"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f9b30d67003c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worldfire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dc034e988087",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:b9cca9db075bc327"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:920f19152627",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:dd9241ead5535da8"
+   ]
+  },
+  {
+   "adds": [
+    "Deceive the Messenger"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:da1f817d7016",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fea94ea76624",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:b6441724b72db4be"
+   ]
+  },
+  {
+   "adds": [
+    "Lidless Gaze"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:a916a41c4dbb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7f8c53642a03",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:8eb2eaafbc51272c"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ec571ca8b043",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:6fbca20ac6eab30a"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2c2ee5612835",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:e40ffa36b369df47"
+   ]
+  },
+  {
+   "adds": [
+    "Isengard Unleashed"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c07b38b16175",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Boseiju, Who Shelters All"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0adc902923f8",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:b725c4d05b87ef7d"
+   ]
+  },
+  {
+   "adds": [
+    "The Balrog of Moria"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:aa5d888c5c39",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:d6a3b09988e95113"
+   ]
+  },
+  {
+   "adds": [
+    "Along the Crooked Way"
+   ],
+   "cuts": [
+    "Rage into the Valley"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:54db06248e0a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:bc4f789741983629"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2ae6092b6a70",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:07374cd0466de541"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ca7613b5d505",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:1a3d1a767cbea446"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:791582107501",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:56cb1534c33dc238"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:51c21864fa6b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:fb6c826e20ecfac9"
+   ]
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fd7f94664ebb",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:d4c653cc9b350e49"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c6ce912564ac",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:cbda799f36652e32"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2c7ffb866f90",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:abb9b7924d4797e2"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Harmonic Prodigy"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0f021246f201",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:6656b9972a61cc52"
+   ]
+  },
+  {
+   "adds": [
+    "Ovika, Enigma Goliath"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9babcd8b6479",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Torment of Gollum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d0ef695b0dbc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:34d389646cb2",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:4fdccd74bf4d1b76"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d9c9951a17e1",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:f05ade0d434ff994"
+   ]
+  },
+  {
+   "adds": [
+    "Ob Nixilis, Captive Kingpin"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e74e5fe6c9f0",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:2643e1d47426c82e"
+   ]
+  },
+  {
+   "adds": [
+    "Ob Nixilis, Captive Kingpin"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2dbec5912fdf",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:d1d47a64884ceccf"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dec4032177cd",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:dc8165fdccff5553"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2fee5aa161f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Enter the God-Eternals"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:84f6998ea50d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f2b1ea592471",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:988aba0491fd",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:09d3b32e897e2bfc"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0f64439331aa",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:86d07ea646a9db92"
+   ]
+  },
+  {
+   "adds": [
+    "The Red Terror"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:20b97a56bb30",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:30cac14fded5ebc0"
+   ]
+  },
+  {
+   "adds": [
+    "The Red Terror"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8f33e1a5afd6",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:cd147c7d2ec3c8d2"
+   ]
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9f4e6ac9f3df",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8fc4b89389dd",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:f718dee80a3ab5f5"
+   ]
+  },
+  {
+   "adds": [
+    "Living Death"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3601cfac7bf5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:490ac5f1a4d1",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:46cd48665c206e6b"
+   ]
+  },
+  {
+   "adds": [
+    "War Elemental"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:61b8a884d51f",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:67fac260017ba886"
+   ]
+  },
+  {
+   "adds": [
+    "War Elemental"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:47d8ff4fb007",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:5ec2c078585047ff"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2bafdff2eee6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6fe440369cc9",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:a1f0725027e9ab26"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:652f009e6781",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:e31676f7263ad50c"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:44775865e5bc",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:bd3f0b328944991f"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Chandra's Ignition"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f27391997456",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:69335cb4197172f4"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d27dc2f8c52b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:2d65e605ad993354"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dd4824af0087",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:926ad196d0258ddf"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2a21c19f529d",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:58d9ebf2c26d9c7b"
+   ]
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:a4436f70c296",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:cc9e348f5bc5a06f"
+   ]
+  },
+  {
+   "adds": [
+    "Down, Down to Goblin-town"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e33b43ad2cfe",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:91a98ba1884090f0"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:21de15a20e19",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:64c046ddab514d25"
+   ]
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:191ebb553726",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d125a5a6c53f",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:f495b068e886e3c5"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2feeefb1bd7a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hidetsugu Consumes All // Vessel of the All-Consuming"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:47ac3f4876e4",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ac725c5880d69d37"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4c1bd3611543",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:aced6c73f783e1b0"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:5ab7d3c955b8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hexing Squelcher"
+   ],
+   "cuts": [
+    "Rage into the Valley"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:de0f94b82050",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:fad8e55f39c52994"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ef9bea3c498a",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ada3ed4871a4321a"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:89eee8057882",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:15446fb3f90216f9"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8c77b5551caa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:96e59ae22a99",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:133d72e1a34ef7ad"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:58d98c84ec09",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:69e5e05547a687cb"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f3bbdde57af2",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:a1ed8dc228a0ba9f"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "All Will Be One"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3f027a35b6aa",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:9160fde8f7c7141a"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:80b0a42cf7f8",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:2bd69644f92c2644"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:41e3f8647743",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:1a92dd3250052cfd"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8fb154be82a7",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:c8c28e364b0d0fb8"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e66e5a11f696",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:89e37ae511b25837"
+   ]
+  },
+  {
+   "adds": [
+    "Everlasting Torment"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ab4307c40656",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:bcdf80f93dcdb467"
+   ]
+  },
+  {
+   "adds": [
+    "Everlasting Torment"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:039baaf35241",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:539dafa79deb0229"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7d822479e25c",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:f9677fde6572eecf"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:453dd19c269b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:bb9857c9108a3cd1"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "All Will Be One"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:635e5fac39ca",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:4703e0a951e0a0d2"
+   ]
+  },
+  {
+   "adds": [
+    "Eternity Vessel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4fc8e88f63ba",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:ad3cc5460a64514c"
+   ]
+  },
+  {
+   "adds": [
+    "Eternity Vessel"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f1ae92edbc4b",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:4f45db676db6ab32"
+   ]
+  },
+  {
+   "adds": [
+    "Quest for Pure Flame"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cbf953c2b185",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:fffe73c1c7c1d856"
+   ]
+  },
+  {
+   "adds": [
+    "Quest for Pure Flame"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8561d8687620",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:88c14985037e2d1c"
+   ]
+  },
+  {
+   "adds": [
+    "Soul-Scar Mage"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cbb835590e88",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:49d7281ebda9011e"
+   ]
+  },
+  {
+   "adds": [
+    "Soul-Scar Mage"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cfe158375ec2",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:645896ab90f7b4c2"
+   ]
+  },
+  {
+   "adds": [
+    "Night Dealings"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ae835f629315",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:3c678eba2a9e1de8"
+   ]
+  },
+  {
+   "adds": [
+    "Talon of Pain"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f39f5fe307d4",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:45e5cd454f7d1e08"
+   ]
+  },
+  {
+   "adds": [
+    "Talon of Pain"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:09bb513060fa",
+   "tests": [
+    "test:saruman-the-white-hand:goldfish:7211357d07ad9be6"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:saruman-the-white-hand:goldfish:d3c06b18aa02dcc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:c4cb40ab8540af08",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:3844999b1fdec04a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:cecbdff0a3903323",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:e0cca715867fbdcf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:a971e9ec9f7333bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:71d12dc5bcb5903a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:9683883de8c64bd2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:3731ad3b1099a780",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:5e1dc09b69ad93cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:9b0f1a1b7bccfb4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:26fd93fde06bbb86",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:cbe16b807f084f2b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:749576a3bc92a5be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:5a45f4af8bd5c3c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:e2dc6a99919d8513",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ed57b7fbff6e9932",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:1aeae0fb6b1dad89",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:7a3432d1b49cc37a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:aaff10c8014166a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:16e41bc4cbf43ddf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:1ec3a2edb53607d5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:105112d891f5fc3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:8901fca50d00e607",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ff3f47c280a8612f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:f2a73d588d0b615e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:34f7c2a1072249f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:919a583a169d0bc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:c4ab223278637b9b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:5121f051c0f58679",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:c1b30bf5f0586e35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:66204fa5fdd1cc81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:bf2539c13d16569e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:b4e307b7aa09c0ef",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:79af38692aadd7a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:2678859dfc2ff0c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ac6b7464c9d9f571",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ae41c7052d8f2304",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:413c4335c796b9d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:54591613a9f1e438",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:461f246b7b2c82c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:4c71c2cca901a426",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:a96043b4aeb456d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:5645564960f501b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:1b5bb8fd2371210b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:b9cbc722f415661e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:7109acfa2b339dce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ce476b4eb595c22d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:6764f45b86067565",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:0661ac33efafde0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:8fe6e80cea227ed7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:9d74bbff5bb09b69",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:9d96ec53c62d9c5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:99babc466602f019",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:9cb526994fe06950",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:1649d0270ffd7b69",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:64a8531065bf5a6e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:bc5c882008700e62",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:db89fb2f3e12a683",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:c47ad6aad3de46c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:6e98f1624aa50f83",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:89f243e2c3b1d1a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:39f902ee27d2d0a4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:b9cca9db075bc327",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:dd9241ead5535da8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:b6441724b72db4be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:8eb2eaafbc51272c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:6fbca20ac6eab30a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:e40ffa36b369df47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:b725c4d05b87ef7d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:d6a3b09988e95113",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:bc4f789741983629",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:07374cd0466de541",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:1a3d1a767cbea446",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:56cb1534c33dc238",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:fb6c826e20ecfac9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:d4c653cc9b350e49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:cbda799f36652e32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:abb9b7924d4797e2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:6656b9972a61cc52",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:4fdccd74bf4d1b76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:f05ade0d434ff994",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:2643e1d47426c82e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:d1d47a64884ceccf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:dc8165fdccff5553",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:09d3b32e897e2bfc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:86d07ea646a9db92",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:30cac14fded5ebc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:cd147c7d2ec3c8d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:f718dee80a3ab5f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:46cd48665c206e6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:67fac260017ba886",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:5ec2c078585047ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:a1f0725027e9ab26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:e31676f7263ad50c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:bd3f0b328944991f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:69335cb4197172f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:2d65e605ad993354",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:926ad196d0258ddf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:58d9ebf2c26d9c7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:cc9e348f5bc5a06f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:91a98ba1884090f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:64c046ddab514d25",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:f495b068e886e3c5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ac725c5880d69d37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:aced6c73f783e1b0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:fad8e55f39c52994",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ada3ed4871a4321a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:15446fb3f90216f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:133d72e1a34ef7ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:69e5e05547a687cb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:a1ed8dc228a0ba9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:9160fde8f7c7141a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:2bd69644f92c2644",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:1a92dd3250052cfd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:c8c28e364b0d0fb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:89e37ae511b25837",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:bcdf80f93dcdb467",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:539dafa79deb0229",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:f9677fde6572eecf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:bb9857c9108a3cd1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:4703e0a951e0a0d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:ad3cc5460a64514c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:4f45db676db6ab32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:fffe73c1c7c1d856",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:88c14985037e2d1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:49d7281ebda9011e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:645896ab90f7b4c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:3c678eba2a9e1de8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:45e5cd454f7d1e08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:saruman-the-white-hand:goldfish:7211357d07ad9be6",
+   "verdict": "pass"
+  }
+ ]
+}

@@ -1,0 +1,2505 @@
+{
+ "candidates": [
+  {
+   "card": "Alexios, Deimos of Kosmos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alexios, Deimos of Kosmos",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:21c3ddfbea0b"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:4afbbb0fb9c6"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:25340d95b4a9"
+   }
+  },
+  {
+   "card": "Modify Memory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Modify Memory",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:b50f901947d7"
+   }
+  },
+  {
+   "card": "Zuko, Conflicted",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zuko, Conflicted",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:427f32adcfcd"
+   }
+  },
+  {
+   "card": "Abyssal Persecutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abyssal Persecutor",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:09abdaecf71d"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:1c5933a761d7"
+   }
+  },
+  {
+   "card": "Wishclaw Talisman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wishclaw Talisman",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:9d672ba6a9f2"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:ab812d61f57b"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Dark Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:c2a8aa5ce989"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:d1a8ccf3111b"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Bojuka Bog"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:793a6c20f778"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:95f4b0574cdc"
+   }
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:983207fc4bad"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:fe555e7f4284"
+   }
+  },
+  {
+   "card": "Witch Hunt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Bojuka Bog"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:a453de145cd5"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:ab842bdb32bd"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:7d0a8cc3bc8f"
+   }
+  },
+  {
+   "card": "Disrupt Decorum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disrupt Decorum",
+       "cut": "Visions of Duplicity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disrupt Decorum",
+       "cut": "Demonic Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:fd7049209938"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:ef5c9e84144a"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:1b51e77a1b9e"
+   }
+  },
+  {
+   "card": "Pendant of Prosperity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pendant of Prosperity",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:d8ff4f8121c7"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:7dd8efb2d774"
+   }
+  },
+  {
+   "card": "Hithlain Rope",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hithlain Rope",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:a9d839b75aed"
+   }
+  },
+  {
+   "card": "Coveted Jewel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coveted Jewel",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:beb65fd4b516"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:f6166d89bcb1"
+   }
+  },
+  {
+   "card": "Akroan Horse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Akroan Horse",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:197055892fa7"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:d362c6178d52"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:ebcf9c17701c"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:769777f6830b"
+   }
+  },
+  {
+   "card": "Blur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blur",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:6af1a18182f5"
+   }
+  },
+  {
+   "card": "Sleeper Agent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sleeper Agent",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:87bf927d3b5f"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:bcc90bc4044e"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:de5fc4b0912d"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:138f6b12afcc"
+   }
+  },
+  {
+   "card": "Candlekeep Sage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Candlekeep Sage",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:9ceea7abb356"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:8baa9a89fe55"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:72a8e5ce67d2"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:a7d1ba12114f"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:a1fff8d930fc"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:57861a67fb16"
+   }
+  },
+  {
+   "card": "Bucknard's Everfull Purse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bucknard's Everfull Purse",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:735543f67bb9"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:df71cb284c52"
+   }
+  },
+  {
+   "card": "Deadpool, Trading Card",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadpool, Trading Card",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:0a2503c0b2b5"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Ertai Resurrected"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "6676-6922"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Coveted Falcon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:12c60e95c1d5"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:fb1123c624f5"
+   }
+  },
+  {
+   "card": "Chef's Kiss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chef's Kiss",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:d15e083b7992"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:e49b3da3c8d8"
+   }
+  },
+  {
+   "card": "Dismal Backwater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dismal Backwater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:56b0c6d4d283"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Ertai Resurrected"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:8d22af2eb56f"
+   }
+  },
+  {
+   "card": "Exchange of Words",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exchange of Words",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:d06c9e4b81a0"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:39778211694c"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:7d3465b45a8a"
+   }
+  },
+  {
+   "card": "Swiftwater Cliffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftwater Cliffs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:154df81c40e6"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:3c549fad82c9"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:1ae53d6d6352"
+   }
+  },
+  {
+   "card": "Sword of Fire and Ice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Fire and Ice",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:4192dd08304e"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherize",
+       "cut": "Spiteful Banditry"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:de11441b5ed3"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:97a07445ccbc"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:92b90a944e5d"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:7d38636e3f5c"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:aa47a1accdf6"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:540bce12b51c"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:b15a4410a5a1"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Ertai Resurrected"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "6676-6922"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Coveted Falcon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:ee5c96132f39"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:51e5f306fa6f"
+   }
+  },
+  {
+   "card": "Body of Knowledge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Body of Knowledge",
+       "cut": "Ertai Resurrected"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:729d022cb459"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Spiteful Banditry"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:411035346a90"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:934f751c22a1"
+   }
+  },
+  {
+   "card": "Stella Lee, Wild Card",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:454898cd4556"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:af462f2d61c7"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:eb884ddc718a"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:2c78aa20a53e"
+   }
+  },
+  {
+   "card": "Invert Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invert Polarity",
+       "cut": "Ertai Resurrected"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:62d22c7fb2e7"
+   }
+  },
+  {
+   "card": "Raptor Hatchling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:9544cd1d7ae4"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:9c5561bff0b4"
+   }
+  },
+  {
+   "card": "Sigil Tracer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sigil Tracer",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sigil Tracer",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:8d28f7718ca5"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:74dbe6d03da5"
+   }
+  },
+  {
+   "card": "Echo Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echo Mage",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echo Mage",
+       "cut": "Bazaar Trader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-tainted:m5:f6c73210cdef"
+    },
+    "swap": "swap:solkanar-the-tainted:m5:282e28849616"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-tainted:m5:04bdcca230d0"
+   }
+  }
+ ],
+ "deck_id": "Sol_kanar_the_Tainted",
+ "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "slug": "solkanar-the-tainted",
+ "swaps": [
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:21c3ddfbea0b"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:25340d95b4a9"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:4afbbb0fb9c6"
+  },
+  {
+   "adds": [
+    "Modify Memory"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:b50f901947d7"
+  },
+  {
+   "adds": [
+    "Zuko, Conflicted"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:427f32adcfcd"
+  },
+  {
+   "adds": [
+    "Abyssal Persecutor"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:09abdaecf71d"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:1c5933a761d7"
+  },
+  {
+   "adds": [
+    "Wishclaw Talisman"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9d672ba6a9f2"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ab812d61f57b"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d1a8ccf3111b"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:c2a8aa5ce989"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:95f4b0574cdc"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Bojuka Bog"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:793a6c20f778"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:fe555e7f4284"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:983207fc4bad"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ab842bdb32bd"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Bojuka Bog"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a453de145cd5"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7d0a8cc3bc8f"
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Visions of Duplicity"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ef5c9e84144a"
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:fd7049209938"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:1b51e77a1b9e"
+  },
+  {
+   "adds": [
+    "Pendant of Prosperity"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d8ff4f8121c7"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7dd8efb2d774"
+  },
+  {
+   "adds": [
+    "Hithlain Rope"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a9d839b75aed"
+  },
+  {
+   "adds": [
+    "Coveted Jewel"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:beb65fd4b516"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:f6166d89bcb1"
+  },
+  {
+   "adds": [
+    "Akroan Horse"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:197055892fa7"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d362c6178d52"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ebcf9c17701c"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:769777f6830b"
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:6af1a18182f5"
+  },
+  {
+   "adds": [
+    "Sleeper Agent"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:87bf927d3b5f"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:bcc90bc4044e"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:de5fc4b0912d"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:138f6b12afcc"
+  },
+  {
+   "adds": [
+    "Candlekeep Sage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9ceea7abb356"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:8baa9a89fe55"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a7d1ba12114f"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:72a8e5ce67d2"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a1fff8d930fc"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:57861a67fb16"
+  },
+  {
+   "adds": [
+    "Bucknard's Everfull Purse"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:735543f67bb9"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:df71cb284c52"
+  },
+  {
+   "adds": [
+    "Deadpool, Trading Card"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:0a2503c0b2b5"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:fb1123c624f5"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Coveted Falcon"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:12c60e95c1d5"
+  },
+  {
+   "adds": [
+    "Chef's Kiss"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d15e083b7992"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:e49b3da3c8d8"
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:56b0c6d4d283"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:8d22af2eb56f"
+  },
+  {
+   "adds": [
+    "Exchange of Words"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d06c9e4b81a0"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7d3465b45a8a"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:39778211694c"
+  },
+  {
+   "adds": [
+    "Swiftwater Cliffs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:154df81c40e6"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:3c549fad82c9"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:1ae53d6d6352"
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:4192dd08304e"
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:de11441b5ed3"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:92b90a944e5d"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:97a07445ccbc"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:aa47a1accdf6"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7d38636e3f5c"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:b15a4410a5a1"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:540bce12b51c"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:51e5f306fa6f"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Coveted Falcon"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ee5c96132f39"
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:729d022cb459"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:934f751c22a1"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:411035346a90"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:af462f2d61c7"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:454898cd4556"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:2c78aa20a53e"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:eb884ddc718a"
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:62d22c7fb2e7"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9c5561bff0b4"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9544cd1d7ae4"
+  },
+  {
+   "adds": [
+    "Sigil Tracer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:74dbe6d03da5"
+  },
+  {
+   "adds": [
+    "Sigil Tracer"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:8d28f7718ca5"
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:282e28849616"
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:f6c73210cdef"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:04bdcca230d0"
+  }
+ ]
+}

@@ -1,0 +1,5466 @@
+{
+ "candidates": [
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:0fd90b6bb38d"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:6d62647ff784"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:848a36df4feb"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:7f92f8ecc232"
+   }
+  },
+  {
+   "card": "Great Intelligence's Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Intelligence's Plan",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:24708402a5bc"
+   }
+  },
+  {
+   "card": "Canyon Slough",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Canyon Slough",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Canyon Slough",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:6963e36a0a2d"
+    },
+    "swap": "swap:davros-dalek-creator:m5:9a6dbff2dadb"
+   }
+  },
+  {
+   "card": "Fetid Pools",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fetid Pools",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fetid Pools",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:9fd970588edb"
+    },
+    "swap": "swap:davros-dalek-creator:m5:06b689420d6a"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:06bbd23533a3"
+   }
+  },
+  {
+   "card": "Laser Screwdriver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laser Screwdriver",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:11e738790d05"
+   }
+  },
+  {
+   "card": "Cybermat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermat",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:2946ef246daf"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:3cad6314f21b"
+    },
+    "swap": "swap:davros-dalek-creator:m5:8dd48d5ed21b"
+   }
+  },
+  {
+   "card": "The Master, Gallifrey's End",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Gallifrey's End",
+       "cut": "Tezzeret, Master of the Bridge"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Gallifrey's End",
+       "cut": "Torment of Hailfire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:7a2b520bb343"
+    },
+    "swap": "swap:davros-dalek-creator:m5:69e9df56835d"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:85131e614a88"
+    },
+    "swap": "swap:davros-dalek-creator:m5:202276933198"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Death in Heaven"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:ba3563afc4d9"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:50885dba348b"
+    },
+    "swap": "swap:davros-dalek-creator:m5:f64ba3e496a2"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:c5f59ed87a10"
+    },
+    "swap": "swap:davros-dalek-creator:m5:25f6ab479cf1"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:2e22fa6bfff7"
+    },
+    "swap": "swap:davros-dalek-creator:m5:a2688336948e"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:89715161dd0b"
+    },
+    "swap": "swap:davros-dalek-creator:m5:cba99c214c0e"
+   }
+  },
+  {
+   "card": "Steel Overseer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Steel Overseer",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a91e69a315dc"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:d6d49b594011"
+    },
+    "swap": "swap:davros-dalek-creator:m5:f97b0bfa8f01"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:7dd252e9d610"
+    },
+    "swap": "swap:davros-dalek-creator:m5:1a1b067c6d9e"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:c8e04df8f842"
+    },
+    "swap": "swap:davros-dalek-creator:m5:e2fd8f1ead2d"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:6b526bc150eb"
+    },
+    "swap": "swap:davros-dalek-creator:m5:c98676bb1fd0"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:9ac844fe87d5"
+    },
+    "swap": "swap:davros-dalek-creator:m5:133d986ed2c3"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:1b71934f171c"
+    },
+    "swap": "swap:davros-dalek-creator:m5:f8adeb7f3b00"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:e39014d2c50d"
+    },
+    "swap": "swap:davros-dalek-creator:m5:6eda0f82040a"
+   }
+  },
+  {
+   "card": "Shadowblood Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowblood Ridge",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowblood Ridge",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:f5e3c4abdd12"
+    },
+    "swap": "swap:davros-dalek-creator:m5:4e3388e17786"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:4bd658642d9e"
+    },
+    "swap": "swap:davros-dalek-creator:m5:b5b131ad76d0"
+   }
+  },
+  {
+   "card": "The Master, Multiplied",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Multiplied",
+       "cut": "Ashad, the Lone Cyberman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a77dcde1f91d"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:45e5dae830e9"
+    },
+    "swap": "swap:davros-dalek-creator:m5:fa4812140efb"
+   }
+  },
+  {
+   "card": "Unlicensed Disintegration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unlicensed Disintegration",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:d1c268abcaa2"
+   }
+  },
+  {
+   "card": "Clockwork Droid",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clockwork Droid",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:fff9a44f9169"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:22950476929a"
+    },
+    "swap": "swap:davros-dalek-creator:m5:5562f7ebca3f"
+   }
+  },
+  {
+   "card": "Hunted by The Family",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hunted by The Family",
+       "cut": "Ashad, the Lone Cyberman"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:664316344a51"
+   }
+  },
+  {
+   "card": "Brudiclad, Telchor Engineer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brudiclad, Telchor Engineer",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:5801362dfba1"
+   }
+  },
+  {
+   "card": "Cybership",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybership",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:bd2ef148519c"
+   }
+  },
+  {
+   "card": "Temple of the False God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of the False God",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of the False God",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:f66c83b1dfe7"
+    },
+    "swap": "swap:davros-dalek-creator:m5:7e8bba25e423"
+   }
+  },
+  {
+   "card": "Creeping Tar Pit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creeping Tar Pit",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creeping Tar Pit",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:644c5cabf889"
+    },
+    "swap": "swap:davros-dalek-creator:m5:a3f5cee0daf7"
+   }
+  },
+  {
+   "card": "Gallifrey Council Chamber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gallifrey Council Chamber",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gallifrey Council Chamber",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:f2dd6c570b27"
+    },
+    "swap": "swap:davros-dalek-creator:m5:6d9d797af363"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:d751091f4310"
+    },
+    "swap": "swap:davros-dalek-creator:m5:730e4b40f306"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:bb3ad7290334"
+    },
+    "swap": "swap:davros-dalek-creator:m5:ba4d04bff486"
+   }
+  },
+  {
+   "card": "Ominous Cemetery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ominous Cemetery",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ominous Cemetery",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:ea60bea246a3"
+    },
+    "swap": "swap:davros-dalek-creator:m5:e93546a6a556"
+   }
+  },
+  {
+   "card": "Vashta Nerada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vashta Nerada",
+       "cut": "Dauthi Voidwalker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a1440b0ec8eb"
+   }
+  },
+  {
+   "card": "Etherium Sculptor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etherium Sculptor",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:cb9f92fdb183"
+   }
+  },
+  {
+   "card": "River of Tears",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "River of Tears",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "River of Tears",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:a9231556e8cd"
+    },
+    "swap": "swap:davros-dalek-creator:m5:a27c5ec8e2bb"
+   }
+  },
+  {
+   "card": "Midnight Crusader Shuttle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Midnight Crusader Shuttle",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:f03c97859f6b"
+   }
+  },
+  {
+   "card": "Lavaclaw Reaches",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lavaclaw Reaches",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lavaclaw Reaches",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:9bc0a73a7b64"
+    },
+    "swap": "swap:davros-dalek-creator:m5:6046927d8d1f"
+   }
+  },
+  {
+   "card": "Foundry Inspector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foundry Inspector",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:27c93cf627b2"
+   }
+  },
+  {
+   "card": "Thriving Moor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thriving Moor",
+       "cut": "Ancient Tomb"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thriving Moor",
+       "cut": "Geier Reach Sanitarium"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:5673902a77df"
+    },
+    "swap": "swap:davros-dalek-creator:m5:ed2fe00f23f6"
+   }
+  },
+  {
+   "card": "Tectonic Giant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tectonic Giant",
+       "cut": "Tezzeret, Master of the Bridge"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tectonic Giant",
+       "cut": "Torment of Hailfire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:d84dd3dfa48e"
+    },
+    "swap": "swap:davros-dalek-creator:m5:829ce889dc89"
+   }
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:bb73b0dccd5d"
+   }
+  },
+  {
+   "card": "The Flood of Mars",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Flood of Mars",
+       "cut": "Dauthi Voidwalker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:238a2c587ae9"
+   }
+  },
+  {
+   "card": "The Rani",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Truth or Consequences",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Truth or Consequences",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:e9bdd08b3821"
+   }
+  },
+  {
+   "card": "Shuri, Wakandan Inventor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shuri, Wakandan Inventor",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:7ca93ac83902"
+   }
+  },
+  {
+   "card": "Dragon's Approach",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Approach",
+       "cut": "Demonic Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:1d6e83727c77"
+   }
+  },
+  {
+   "card": "Thopter Spy Network",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thopter Spy Network",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:3460112854fa"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:e016d2199b39"
+   }
+  },
+  {
+   "card": "Kroxa, Titan of Death's Hunger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kroxa, Titan of Death's Hunger",
+       "cut": "Tezzeret, Master of the Bridge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:14448017004e"
+   }
+  },
+  {
+   "card": "Seat of the Synod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seat of the Synod",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:9f380387d38f"
+   }
+  },
+  {
+   "card": "Damocles Base, Sword of Kang",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Damocles Base, Sword of Kang",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:099dcb950d3e"
+   }
+  },
+  {
+   "card": "Great Furnace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Furnace",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:58d806c52574"
+   }
+  },
+  {
+   "card": "Unwinding Clock",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unwinding Clock",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:d4aae24f5b1c"
+   }
+  },
+  {
+   "card": "Vault of Whispers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vault of Whispers",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a5d922838e8a"
+   }
+  },
+  {
+   "card": "Fateful Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fateful Discovery",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a763bb12b989"
+   }
+  },
+  {
+   "card": "Golbez, Crystal Collector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Golbez, Crystal Collector",
+       "cut": "Tezzeret, Master of the Bridge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:dfbd14322a18"
+   }
+  },
+  {
+   "card": "Cryptothrall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptothrall",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:0dc5bc2c9125"
+   }
+  },
+  {
+   "card": "Academy Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Academy Ruins",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:fcf92ff8a5f5"
+   }
+  },
+  {
+   "card": "Pox Plague",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pox Plague",
+       "cut": "Doomsday Confluence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pox Plague",
+       "cut": "Torment of Hailfire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:0b8f35eddd93"
+    },
+    "swap": "swap:davros-dalek-creator:m5:b672fcf628e7"
+   }
+  },
+  {
+   "card": "Sonic Screwdriver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sonic Screwdriver",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:611a9c3632b2"
+   }
+  },
+  {
+   "card": "Rassilon, the War President",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rassilon, the War President",
+       "cut": "Tezzeret, Master of the Bridge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:aca40c74dea9"
+   }
+  },
+  {
+   "card": "Thoughtcast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thoughtcast",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:86d7b5f7c5f0"
+   }
+  },
+  {
+   "card": "Skorpekh Lord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skorpekh Lord",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:15697c4e5932"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Ashad, the Lone Cyberman"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:1e74bb3be5e3"
+    },
+    "swap": "swap:davros-dalek-creator:m5:42b71494dd36"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:b644be8325f2"
+   }
+  },
+  {
+   "card": "Ultron, Artificial Malevolence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ultron, Artificial Malevolence",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:0406455b68a1"
+   }
+  },
+  {
+   "card": "Inventors' Fair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inventors' Fair",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a1427d344d3a"
+   }
+  },
+  {
+   "card": "Shaun, Father of Synths",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shaun, Father of Synths",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:626d03a2b871"
+   }
+  },
+  {
+   "card": "Fabricate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabricate",
+       "cut": "Demonic Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:81bc67e37656"
+   }
+  },
+  {
+   "card": "Quietus Spike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quietus Spike",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quietus Spike",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:f6dffb5f5a36"
+    },
+    "swap": "swap:davros-dalek-creator:m5:571d03c7ea2a"
+   }
+  },
+  {
+   "card": "Time Sieve",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:e86263c0e523"
+    },
+    "swap": "swap:davros-dalek-creator:m5:079d9f572a85"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Exterminate!"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:b08aeac1f64d"
+    },
+    "swap": "swap:davros-dalek-creator:m5:8275794bc8e1"
+   }
+  },
+  {
+   "card": "Shredder, Shadow Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shredder, Shadow Master",
+       "cut": "Ashad, the Lone Cyberman"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shredder, Shadow Master",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:f16a84fdfcdb"
+    },
+    "swap": "swap:davros-dalek-creator:m5:11ff1d14c026"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Exterminate!"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:16aa85455fdd"
+    },
+    "swap": "swap:davros-dalek-creator:m5:ba45a3d15c99"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:a198a182ad60"
+    },
+    "swap": "swap:davros-dalek-creator:m5:4936d99aaf3e"
+   }
+  },
+  {
+   "card": "Scytheclaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scytheclaw",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scytheclaw",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:902802375e05"
+    },
+    "swap": "swap:davros-dalek-creator:m5:b7383a0dff77"
+   }
+  },
+  {
+   "card": "Fraying Omnipotence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fraying Omnipotence",
+       "cut": "Doomsday Confluence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fraying Omnipotence",
+       "cut": "Torment of Hailfire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:4e909683ea63"
+    },
+    "swap": "swap:davros-dalek-creator:m5:921f7fddd9b1"
+   }
+  },
+  {
+   "card": "Uthros, Titanic Godcore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uthros, Titanic Godcore",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:18b9d099f491"
+   }
+  },
+  {
+   "card": "Alpharael, Stonechosen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alpharael, Stonechosen",
+       "cut": "Doomsday Confluence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alpharael, Stonechosen",
+       "cut": "Torment of Hailfire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:1638f0639a02"
+    },
+    "swap": "swap:davros-dalek-creator:m5:4eb6b7df2329"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:02bb9a566ad1"
+   }
+  },
+  {
+   "card": "Emry, Lurker of the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:46d430886d20"
+   }
+  },
+  {
+   "card": "Slagstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slagstorm",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:30320db9f0e0"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:156efd4c8c93"
+    },
+    "swap": "swap:davros-dalek-creator:m5:202d621c2d34"
+   }
+  },
+  {
+   "card": "Infinite Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infinite Reflection",
+       "cut": "Ashad, the Lone Cyberman"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infinite Reflection",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:1cc23cbb20d7"
+    },
+    "swap": "swap:davros-dalek-creator:m5:32a2a7976ac0"
+   }
+  },
+  {
+   "card": "Cursed Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cursed Mirror",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:2f70629d33ef"
+   }
+  },
+  {
+   "card": "Sands of Time",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sands of Time",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sands of Time",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:a76b698e7290"
+    },
+    "swap": "swap:davros-dalek-creator:m5:df83c4d2aa06"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:46345ed475d0"
+   }
+  },
+  {
+   "card": "Mystic Forge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Forge",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:ed83b5c2b56e"
+   }
+  },
+  {
+   "card": "Bloodchief Ascension",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodchief Ascension",
+       "cut": "Tezzeret, Master of the Bridge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:7ec35dab7142"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:20f9073cc50d"
+   }
+  },
+  {
+   "card": "Phyrexian Scriptures",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Scriptures",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:6f3e02e46eb0"
+   }
+  },
+  {
+   "card": "Archway of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archway of Innovation",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:c66102875cfa"
+   }
+  },
+  {
+   "card": "Ruby Medallion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ruby Medallion",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:b37aeec091b3"
+   }
+  },
+  {
+   "card": "Insatiable Avarice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insatiable Avarice",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:680049f37176"
+   }
+  },
+  {
+   "card": "Skullclamp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skullclamp",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:3667d29964cd"
+   }
+  },
+  {
+   "card": "Buried Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Buried Ruin",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:edeeb452d08f"
+   }
+  },
+  {
+   "card": "Locket of Yesterdays",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Locket of Yesterdays",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:982bbe53697d"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Exterminate!"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:4877203aae6b"
+    },
+    "swap": "swap:davros-dalek-creator:m5:2c5167549085"
+   }
+  },
+  {
+   "card": "Unstoppable Slasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Slasher",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Slasher",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:a34231fa86e4"
+    },
+    "swap": "swap:davros-dalek-creator:m5:0a67525f4e31"
+   }
+  },
+  {
+   "card": "Unstoppable Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Death in Heaven"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Wound Reflection"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:fe31eba33258"
+    },
+    "swap": "swap:davros-dalek-creator:m5:3be84ec0ee8f"
+   }
+  },
+  {
+   "card": "Tree of Perdition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tree of Perdition",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tree of Perdition",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:8dc91dfa93e1"
+    },
+    "swap": "swap:davros-dalek-creator:m5:8bce9a9fffd8"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Cyber Conversion"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:9f988dadfaaa"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Death in Heaven"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Wound Reflection"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:42f6f08828c6"
+    },
+    "swap": "swap:davros-dalek-creator:m5:67785f3b0f4d"
+   }
+  },
+  {
+   "card": "Heartless Hidetsugu",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Hidetsugu",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Hidetsugu",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:8d9eeb941371"
+    },
+    "swap": "swap:davros-dalek-creator:m5:fd62a69f0eec"
+   }
+  },
+  {
+   "card": "Grievous Wound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grievous Wound",
+       "cut": "Death in Heaven"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grievous Wound",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:674cc1306ef3"
+    },
+    "swap": "swap:davros-dalek-creator:m5:9ccc01f58927"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Exterminate!"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:fda0c06604c8"
+    },
+    "swap": "swap:davros-dalek-creator:m5:a4d4276f47a2"
+   }
+  },
+  {
+   "card": "Shard of the Nightbringer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shard of the Nightbringer",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shard of the Nightbringer",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:b413c82ed76d"
+    },
+    "swap": "swap:davros-dalek-creator:m5:2c695a3038b4"
+   }
+  },
+  {
+   "card": "Plea for Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plea for Power",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:858b0be7de9b"
+   }
+  },
+  {
+   "card": "Dire Fleet Ravager",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dire Fleet Ravager",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dire Fleet Ravager",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:1ad50b3dbc9b"
+    },
+    "swap": "swap:davros-dalek-creator:m5:e38ac12977d2"
+   }
+  },
+  {
+   "card": "Illusion of Choice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Illusion of Choice",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:a1f8f7c7e161"
+   }
+  },
+  {
+   "card": "Havoc Festival",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Havoc Festival",
+       "cut": "Death in Heaven"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Havoc Festival",
+       "cut": "Genesis of the Daleks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:b5b7263252e8"
+    },
+    "swap": "swap:davros-dalek-creator:m5:0a3ba511ee08"
+   }
+  },
+  {
+   "card": "Scourge of the Skyclaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Skyclaves",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Skyclaves",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:c19d0735cc1e"
+    },
+    "swap": "swap:davros-dalek-creator:m5:0dace0bd43c5"
+   }
+  },
+  {
+   "card": "Torgaar, Famine Incarnate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torgaar, Famine Incarnate",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torgaar, Famine Incarnate",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:99d2bd4f8c57"
+    },
+    "swap": "swap:davros-dalek-creator:m5:eabb440b2964"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:5a496260d7d4"
+    },
+    "swap": "swap:davros-dalek-creator:m5:7254426a557c"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:cdcf640c793c"
+    },
+    "swap": "swap:davros-dalek-creator:m5:b11278aa9f42"
+   }
+  },
+  {
+   "card": "Raving Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raving Dead",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raving Dead",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:9b07f1d78662"
+    },
+    "swap": "swap:davros-dalek-creator:m5:8d96d118b5ca"
+   }
+  },
+  {
+   "card": "Path of the Enigma",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Enigma",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:davros-dalek-creator:m5:30f651d86383"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Dauthi Voidwalker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Labyrinth Raptor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:davros-dalek-creator:m5:3d079292bb1c"
+    },
+    "swap": "swap:davros-dalek-creator:m5:ac713179c23a"
+   }
+  },
+  {
+   "card": "Reverse the Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  }
+ ],
+ "deck_id": "Davros__Dalek_Creator",
+ "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "slug": "davros-dalek-creator",
+ "swaps": [
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0fd90b6bb38d"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6d62647ff784"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:848a36df4feb"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7f92f8ecc232"
+  },
+  {
+   "adds": [
+    "Great Intelligence's Plan"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:24708402a5bc"
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9a6dbff2dadb"
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6963e36a0a2d"
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:06b689420d6a"
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9fd970588edb"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:06bbd23533a3"
+  },
+  {
+   "adds": [
+    "Laser Screwdriver"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:11e738790d05"
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2946ef246daf"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8dd48d5ed21b"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3cad6314f21b"
+  },
+  {
+   "adds": [
+    "The Master, Gallifrey's End"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:69e9df56835d"
+  },
+  {
+   "adds": [
+    "The Master, Gallifrey's End"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7a2b520bb343"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:202276933198"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:85131e614a88"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ba3563afc4d9"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f64ba3e496a2"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:50885dba348b"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:25f6ab479cf1"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c5f59ed87a10"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a2688336948e"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2e22fa6bfff7"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:cba99c214c0e"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:89715161dd0b"
+  },
+  {
+   "adds": [
+    "Steel Overseer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a91e69a315dc"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f97b0bfa8f01"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d6d49b594011"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1a1b067c6d9e"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7dd252e9d610"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e2fd8f1ead2d"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c8e04df8f842"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c98676bb1fd0"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6b526bc150eb"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:133d986ed2c3"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9ac844fe87d5"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f8adeb7f3b00"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1b71934f171c"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6eda0f82040a"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e39014d2c50d"
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4e3388e17786"
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f5e3c4abdd12"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b5b131ad76d0"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4bd658642d9e"
+  },
+  {
+   "adds": [
+    "The Master, Multiplied"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a77dcde1f91d"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fa4812140efb"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:45e5dae830e9"
+  },
+  {
+   "adds": [
+    "Unlicensed Disintegration"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d1c268abcaa2"
+  },
+  {
+   "adds": [
+    "Clockwork Droid"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fff9a44f9169"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5562f7ebca3f"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:22950476929a"
+  },
+  {
+   "adds": [
+    "Hunted by The Family"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:664316344a51"
+  },
+  {
+   "adds": [
+    "Brudiclad, Telchor Engineer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5801362dfba1"
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:bd2ef148519c"
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7e8bba25e423"
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f66c83b1dfe7"
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a3f5cee0daf7"
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:644c5cabf889"
+  },
+  {
+   "adds": [
+    "Gallifrey Council Chamber"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6d9d797af363"
+  },
+  {
+   "adds": [
+    "Gallifrey Council Chamber"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f2dd6c570b27"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:730e4b40f306"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d751091f4310"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ba4d04bff486"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:bb3ad7290334"
+  },
+  {
+   "adds": [
+    "Ominous Cemetery"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e93546a6a556"
+  },
+  {
+   "adds": [
+    "Ominous Cemetery"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ea60bea246a3"
+  },
+  {
+   "adds": [
+    "Vashta Nerada"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a1440b0ec8eb"
+  },
+  {
+   "adds": [
+    "Etherium Sculptor"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:cb9f92fdb183"
+  },
+  {
+   "adds": [
+    "River of Tears"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a27c5ec8e2bb"
+  },
+  {
+   "adds": [
+    "River of Tears"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a9231556e8cd"
+  },
+  {
+   "adds": [
+    "Midnight Crusader Shuttle"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f03c97859f6b"
+  },
+  {
+   "adds": [
+    "Lavaclaw Reaches"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6046927d8d1f"
+  },
+  {
+   "adds": [
+    "Lavaclaw Reaches"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9bc0a73a7b64"
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:27c93cf627b2"
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ed2fe00f23f6"
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5673902a77df"
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:829ce889dc89"
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d84dd3dfa48e"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:bb73b0dccd5d"
+  },
+  {
+   "adds": [
+    "The Flood of Mars"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:238a2c587ae9"
+  },
+  {
+   "adds": [
+    "Truth or Consequences"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e9bdd08b3821"
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7ca93ac83902"
+  },
+  {
+   "adds": [
+    "Dragon's Approach"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1d6e83727c77"
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3460112854fa"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e016d2199b39"
+  },
+  {
+   "adds": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:14448017004e"
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9f380387d38f"
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:099dcb950d3e"
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:58d806c52574"
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d4aae24f5b1c"
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a5d922838e8a"
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a763bb12b989"
+  },
+  {
+   "adds": [
+    "Golbez, Crystal Collector"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:dfbd14322a18"
+  },
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0dc5bc2c9125"
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fcf92ff8a5f5"
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Doomsday Confluence"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b672fcf628e7"
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0b8f35eddd93"
+  },
+  {
+   "adds": [
+    "Sonic Screwdriver"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:611a9c3632b2"
+  },
+  {
+   "adds": [
+    "Rassilon, the War President"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:aca40c74dea9"
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:86d7b5f7c5f0"
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:15697c4e5932"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:42b71494dd36"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1e74bb3be5e3"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b644be8325f2"
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0406455b68a1"
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a1427d344d3a"
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:626d03a2b871"
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:81bc67e37656"
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:571d03c7ea2a"
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f6dffb5f5a36"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:079d9f572a85"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e86263c0e523"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8275794bc8e1"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b08aeac1f64d"
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:11ff1d14c026"
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f16a84fdfcdb"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ba45a3d15c99"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:16aa85455fdd"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4936d99aaf3e"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a198a182ad60"
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b7383a0dff77"
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:902802375e05"
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Doomsday Confluence"
+   ],
+   "id": "swap:davros-dalek-creator:m5:921f7fddd9b1"
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4e909683ea63"
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:18b9d099f491"
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Doomsday Confluence"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4eb6b7df2329"
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1638f0639a02"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:02bb9a566ad1"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:46d430886d20"
+  },
+  {
+   "adds": [
+    "Slagstorm"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:30320db9f0e0"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:202d621c2d34"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:156efd4c8c93"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:32a2a7976ac0"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1cc23cbb20d7"
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2f70629d33ef"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:df83c4d2aa06"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a76b698e7290"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:46345ed475d0"
+  },
+  {
+   "adds": [
+    "Mystic Forge"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ed83b5c2b56e"
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7ec35dab7142"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:20f9073cc50d"
+  },
+  {
+   "adds": [
+    "Phyrexian Scriptures"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6f3e02e46eb0"
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c66102875cfa"
+  },
+  {
+   "adds": [
+    "Ruby Medallion"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b37aeec091b3"
+  },
+  {
+   "adds": [
+    "Insatiable Avarice"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:680049f37176"
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3667d29964cd"
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:edeeb452d08f"
+  },
+  {
+   "adds": [
+    "Locket of Yesterdays"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:982bbe53697d"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2c5167549085"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4877203aae6b"
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0a67525f4e31"
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a34231fa86e4"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3be84ec0ee8f"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Wound Reflection"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fe31eba33258"
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8bce9a9fffd8"
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8dc91dfa93e1"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Cyber Conversion"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9f988dadfaaa"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:67785f3b0f4d"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Wound Reflection"
+   ],
+   "id": "swap:davros-dalek-creator:m5:42f6f08828c6"
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fd62a69f0eec"
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8d9eeb941371"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9ccc01f58927"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:674cc1306ef3"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a4d4276f47a2"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fda0c06604c8"
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2c695a3038b4"
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b413c82ed76d"
+  },
+  {
+   "adds": [
+    "Plea for Power"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:858b0be7de9b"
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e38ac12977d2"
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1ad50b3dbc9b"
+  },
+  {
+   "adds": [
+    "Illusion of Choice"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a1f8f7c7e161"
+  },
+  {
+   "adds": [
+    "Havoc Festival"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0a3ba511ee08"
+  },
+  {
+   "adds": [
+    "Havoc Festival"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b5b7263252e8"
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0dace0bd43c5"
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c19d0735cc1e"
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:eabb440b2964"
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:99d2bd4f8c57"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7254426a557c"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5a496260d7d4"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b11278aa9f42"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:cdcf640c793c"
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8d96d118b5ca"
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9b07f1d78662"
+  },
+  {
+   "adds": [
+    "Path of the Enigma"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:30f651d86383"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ac713179c23a"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3d079292bb1c"
+  }
+ ]
+}

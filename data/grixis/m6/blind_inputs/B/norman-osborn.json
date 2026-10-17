@@ -1,0 +1,3387 @@
+{
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "slug": "norman-osborn",
+ "swaps": [
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:503780221e85",
+   "tests": [
+    "test:norman-osborn:goldfish:13b87c1390d71674"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:5ea15a2831e2",
+   "tests": [
+    "test:norman-osborn:goldfish:a60ca42ae1f662f3"
+   ]
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:12bc4a526cb4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:3a5c2b3a4513",
+   "tests": [
+    "test:norman-osborn:goldfish:dfb31b03c113fad8"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:2fe21213b1c4",
+   "tests": [
+    "test:norman-osborn:goldfish:2b386b035d3b346e"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:b6afa8a8d569",
+   "tests": [
+    "test:norman-osborn:goldfish:db13369f91bf697e"
+   ]
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:9d2531e92496",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:5df3753cda8b",
+   "tests": [
+    "test:norman-osborn:goldfish:3073b69837841748"
+   ]
+  },
+  {
+   "adds": [
+    "Secrets of the Dead"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:94e12e3b086b",
+   "tests": [
+    "test:norman-osborn:goldfish:7d673170973ba224"
+   ]
+  },
+  {
+   "adds": [
+    "Secrets of the Dead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:40816b673876",
+   "tests": [
+    "test:norman-osborn:goldfish:679d501eb7df36c3"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Revenant"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:534f9221238f",
+   "tests": [
+    "test:norman-osborn:goldfish:c31e338418dac117"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:1b72f961b1ab",
+   "tests": [
+    "test:norman-osborn:goldfish:0fea995e2d873353"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8bd83db3ac86",
+   "tests": [
+    "test:norman-osborn:goldfish:d5a76a804ae75c08"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:faff1ce602f1",
+   "tests": [
+    "test:norman-osborn:goldfish:89876eedc52a7a2f"
+   ]
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6e44668ff44c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:785e599fcff8",
+   "tests": [
+    "test:norman-osborn:goldfish:1f3c7d9f91738b6a"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:96189055a109",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:c9e15253a476",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:8230efd907e2",
+   "tests": [
+    "test:norman-osborn:goldfish:b083b5ab0ccf6393"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:ad782ef0fcd8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:187f591d542f",
+   "tests": [
+    "test:norman-osborn:goldfish:cf5bc93881ffa782"
+   ]
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:5d6e6317752d",
+   "tests": [
+    "test:norman-osborn:goldfish:61a6da94ad4b1b8e"
+   ]
+  },
+  {
+   "adds": [
+    "Emet-Selch of the Third Seat"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:3d82c097cd56",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emet-Selch of the Third Seat"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:a7e2bb9b151e",
+   "tests": [
+    "test:norman-osborn:goldfish:01e3979f5734cb9e"
+   ]
+  },
+  {
+   "adds": [
+    "Ultimate Green Goblin"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4d9ebb2b4316",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ultimate Green Goblin"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:4636222e0ac7",
+   "tests": [
+    "test:norman-osborn:goldfish:e163af3feb49ab17"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Nemesis"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:cbd0c0da51d6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Green Goblin, Nemesis"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:fd0a937018f6",
+   "tests": [
+    "test:norman-osborn:goldfish:df2756495083a244"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f91899556eb7",
+   "tests": [
+    "test:norman-osborn:goldfish:70c8fdf725a30b59"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:c4a1b817eea8",
+   "tests": [
+    "test:norman-osborn:goldfish:e63cd9198dfe1b72"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:79ec884f2353",
+   "tests": [
+    "test:norman-osborn:goldfish:c8d27fe3bba69243"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:bff11cd8543e",
+   "tests": [
+    "test:norman-osborn:goldfish:da25498c1464a5dd"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5fa905d1ad16",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:17c196a11569",
+   "tests": [
+    "test:norman-osborn:goldfish:ace32561267ad3fb"
+   ]
+  },
+  {
+   "adds": [
+    "Leader, Super-Genius"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:c6714aa5e732",
+   "tests": [
+    "test:norman-osborn:goldfish:fb93e7a6d9131786"
+   ]
+  },
+  {
+   "adds": [
+    "Leader, Super-Genius"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:e3de15a9d92e",
+   "tests": [
+    "test:norman-osborn:goldfish:56771dbbeead1aec"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:bc3351b86208",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laughing Mad"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:7b6421a5673c",
+   "tests": [
+    "test:norman-osborn:goldfish:f28c17193bec95a0"
+   ]
+  },
+  {
+   "adds": [
+    "Laughing Mad"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:fd677c965b6d",
+   "tests": [
+    "test:norman-osborn:goldfish:ec47c8a16ad93c8d"
+   ]
+  },
+  {
+   "adds": [
+    "Likeness Looter"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:cbcddfb09bff",
+   "tests": [
+    "test:norman-osborn:goldfish:9e77e360ea01383c"
+   ]
+  },
+  {
+   "adds": [
+    "Likeness Looter"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:3c85754e4800",
+   "tests": [
+    "test:norman-osborn:goldfish:916b087fd203fcbe"
+   ]
+  },
+  {
+   "adds": [
+    "Bitter Triumph"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:015c6df9254f",
+   "tests": [
+    "test:norman-osborn:goldfish:d11fb346d8ff8387"
+   ]
+  },
+  {
+   "adds": [
+    "Pumpkin Bombs"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:eeee4f4d3ef2",
+   "tests": [
+    "test:norman-osborn:goldfish:41ac95afabfc0767"
+   ]
+  },
+  {
+   "adds": [
+    "Pumpkin Bombs"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:5e089267f4dd",
+   "tests": [
+    "test:norman-osborn:goldfish:a578346eb7e1f882"
+   ]
+  },
+  {
+   "adds": [
+    "Surly Badgersaur"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4c260ab29c46",
+   "tests": [
+    "test:norman-osborn:goldfish:9ca9ffc5ef988cda"
+   ]
+  },
+  {
+   "adds": [
+    "Surly Badgersaur"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:4479bdd831c6",
+   "tests": [
+    "test:norman-osborn:goldfish:c0b5fa08da0c069e"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:68bf5165164e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hobgoblin, Mantled Marauder"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:0ff96419bb66",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:877163636689",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:ec002207c881",
+   "tests": [
+    "test:norman-osborn:goldfish:f61a4cf07080ae41"
+   ]
+  },
+  {
+   "adds": [
+    "Villainous Hideout"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:19bde9cfab5f",
+   "tests": [
+    "test:norman-osborn:goldfish:c070a0ee0f242913"
+   ]
+  },
+  {
+   "adds": [
+    "Ledger Shredder"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:f694e135f711",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ledger Shredder"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:fff97e63ba62",
+   "tests": [
+    "test:norman-osborn:goldfish:42f6f3e5776bb492"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:norman-osborn:m5:dd92e7d822b0",
+   "tests": [
+    "test:norman-osborn:goldfish:7e8c09bc638bc075"
+   ]
+  },
+  {
+   "adds": [
+    "Rocket-Powered Goblin Glider"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:ac8224de3a33",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:f4cea21d8e1d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:636d6ad2e948",
+   "tests": [
+    "test:norman-osborn:goldfish:55ca80344aecf073"
+   ]
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4586c261d867",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:e9f799280c02",
+   "tests": [
+    "test:norman-osborn:goldfish:1c0d8b8bb638ba66"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Octopus, Master Planner"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:c452a8e41b56",
+   "tests": [
+    "test:norman-osborn:goldfish:c7dce97fd8275a2b"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Octopus, Master Planner"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:77a3d4ce50b0",
+   "tests": [
+    "test:norman-osborn:goldfish:2c689f891243d3e6"
+   ]
+  },
+  {
+   "adds": [
+    "River Kelpie"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:b59046342ce2",
+   "tests": [
+    "test:norman-osborn:goldfish:2906e3f45d949ff3"
+   ]
+  },
+  {
+   "adds": [
+    "Behold the Sinister Six!"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4964021d6d34",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Behold the Sinister Six!"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:84e01a8c56c4",
+   "tests": [
+    "test:norman-osborn:goldfish:c39377e101795bf0"
+   ]
+  },
+  {
+   "adds": [
+    "Romantic Rendezvous"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:2bace6318f8d",
+   "tests": [
+    "test:norman-osborn:goldfish:35aa51fb718236bb"
+   ]
+  },
+  {
+   "adds": [
+    "Prowler, Clawed Thief"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:b39cc14a65b2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tombstone, Career Criminal"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:d37224ab804c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tombstone, Career Criminal"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:c13e7eb4eb2c",
+   "tests": [
+    "test:norman-osborn:goldfish:8686bcf5b7bc805c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:2d3a7b82197d",
+   "tests": [
+    "test:norman-osborn:goldfish:bd7a1d5ca672fcc0"
+   ]
+  },
+  {
+   "adds": [
+    "Pumpkin Bombardment"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:e20f640e1c4d",
+   "tests": [
+    "test:norman-osborn:goldfish:977e8694b62cd130"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Unlimited"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:5f75c2b06bee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:a2f9673f9305",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:172ee945c4ad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shriek, Treblemaker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6df19fb56f95",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shriek, Treblemaker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:8b5023212fe4",
+   "tests": [
+    "test:norman-osborn:goldfish:6cc909755792b1d7"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5cbaaedbef89",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:5a1c96f44a0d",
+   "tests": [
+    "test:norman-osborn:goldfish:9b9661c1e7a7e1eb"
+   ]
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:5cb0ff60bdcd",
+   "tests": [
+    "test:norman-osborn:goldfish:d7b73be05fa60e35"
+   ]
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:6ca97fad46da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:fd76dbaba2de",
+   "tests": [
+    "test:norman-osborn:goldfish:980bd3564e5a88fb"
+   ]
+  },
+  {
+   "adds": [
+    "M.O.D.O.K."
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:94c5498c79d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:a0ee147c76c0",
+   "tests": [
+    "test:norman-osborn:goldfish:ed5dd54988e8380c"
+   ]
+  },
+  {
+   "adds": [
+    "Change of Fortune"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:834fe9a5c803",
+   "tests": [
+    "test:norman-osborn:goldfish:288f97d891a8568f"
+   ]
+  },
+  {
+   "adds": [
+    "Demand Answers"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:035204f99ffb",
+   "tests": [
+    "test:norman-osborn:goldfish:f758492a3af4fbed"
+   ]
+  },
+  {
+   "adds": [
+    "Teval's Judgment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6bbe8b6c3dfc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Teval's Judgment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:7d9f61dcbff2",
+   "tests": [
+    "test:norman-osborn:goldfish:2f7c7470fc86a203"
+   ]
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:2000438dd187",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:9f59f055fa47",
+   "tests": [
+    "test:norman-osborn:goldfish:f5ed680ae8233354"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:9eb542080818",
+   "tests": [
+    "test:norman-osborn:goldfish:f0528cfca5480d29"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:bc36dc20af3e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:3c94e798e8ac",
+   "tests": [
+    "test:norman-osborn:goldfish:8235ab13c5e7aa1e"
+   ]
+  },
+  {
+   "adds": [
+    "Villainous Wrath"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:norman-osborn:m5:bc009f45ea87",
+   "tests": [
+    "test:norman-osborn:goldfish:f1642823d92b46ba"
+   ]
+  },
+  {
+   "adds": [
+    "Prison Break"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:e463f8305835",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lethal Scheme"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:68e843fd208e",
+   "tests": [
+    "test:norman-osborn:goldfish:dc9221af6bfb9ec6"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Vengeance"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:a7212573abda",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:1b953a834939",
+   "tests": [
+    "test:norman-osborn:goldfish:df610ca4e8c56338"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:61e61deed610",
+   "tests": [
+    "test:norman-osborn:goldfish:cf9fbd5d5a172acf"
+   ]
+  },
+  {
+   "adds": [
+    "Vohar, Vodalian Desecrator"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:dfefc20ab6b0",
+   "tests": [
+    "test:norman-osborn:goldfish:de48bbf9c0dc82bb"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:635f51ab2b2b",
+   "tests": [
+    "test:norman-osborn:goldfish:529d24b42d2aacf7"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:908d5c10b58f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Living Laser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:89eedd3881d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abomination, World Ravager"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:d29ec2066a01",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Loki, the Deceiver"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:278a2604523a",
+   "tests": [
+    "test:norman-osborn:goldfish:bfb453629b2681b1"
+   ]
+  },
+  {
+   "adds": [
+    "The Death of Gwen Stacy"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:b2852e06f091",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seize the Spoils"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5b413efbe3d1",
+   "tests": [
+    "test:norman-osborn:goldfish:c28ff31514b0b95d"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:dc1f00526250",
+   "tests": [
+    "test:norman-osborn:goldfish:08cf32948c4bc925"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:norman-osborn:m5:1f9005ffe875",
+   "tests": [
+    "test:norman-osborn:goldfish:8db9f367a3d496cd"
+   ]
+  },
+  {
+   "adds": [
+    "Glorious Purpose"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:b7e15efb5399",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:c260e4b062f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:e11727ff179e",
+   "tests": [
+    "test:norman-osborn:goldfish:addf33208789c8e2"
+   ]
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:a9560b65f376",
+   "tests": [
+    "test:norman-osborn:goldfish:5d8286dde11d0574"
+   ]
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:44a805f62b07",
+   "tests": [
+    "test:norman-osborn:goldfish:cc3a84edb648c9af"
+   ]
+  },
+  {
+   "adds": [
+    "Scorpion, Seething Striker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6091efe9b8b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:a9d9c74facc8",
+   "tests": [
+    "test:norman-osborn:goldfish:41be3301bebb949c"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:3d6b991c95e3",
+   "tests": [
+    "test:norman-osborn:goldfish:c6dc31fe61eec01b"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:4f6eb8ae55f5",
+   "tests": [
+    "test:norman-osborn:goldfish:7a69cc85ef413691"
+   ]
+  },
+  {
+   "adds": [
+    "Sandman's Quicksand"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8e8a285190e2",
+   "tests": [
+    "test:norman-osborn:goldfish:839c8bd2cc284786"
+   ]
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:ccf3b1f2af06",
+   "tests": [
+    "test:norman-osborn:goldfish:2774dea0112da42c"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:e0e52aa61399",
+   "tests": [
+    "test:norman-osborn:goldfish:2a79b76814ee7fc4"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:0ee36eb28a29",
+   "tests": [
+    "test:norman-osborn:goldfish:771adbf0d2d97648"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:80ac9f2302b0",
+   "tests": [
+    "test:norman-osborn:goldfish:ca26d60764be9a53"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:norman-osborn:m5:babb7b21de48",
+   "tests": [
+    "test:norman-osborn:goldfish:f55e36b2bd2069d3"
+   ]
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:d4d6441081be",
+   "tests": [
+    "test:norman-osborn:goldfish:c0d8d693bd70a99c"
+   ]
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:511afbf3896f",
+   "tests": [
+    "test:norman-osborn:goldfish:f07757c4deae6be3"
+   ]
+  },
+  {
+   "adds": [
+    "Sinister Hideout"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:f1546972b3be",
+   "tests": [
+    "test:norman-osborn:goldfish:ef97a26f5539ae59"
+   ]
+  },
+  {
+   "adds": [
+    "Decaying Time Loop"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:c6e7e2fc41bc",
+   "tests": [
+    "test:norman-osborn:goldfish:e4ec1f173fe82aaf"
+   ]
+  },
+  {
+   "adds": [
+    "Neerdiv, Devious Diver"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:4c003f6aae0a",
+   "tests": [
+    "test:norman-osborn:goldfish:095a59df4c6412a0"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:ac01372428eb",
+   "tests": [
+    "test:norman-osborn:goldfish:5667d45885e727d5"
+   ]
+  },
+  {
+   "adds": [
+    "Key to the City"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8eb90a27acf6",
+   "tests": [
+    "test:norman-osborn:goldfish:f1f358db85336c7c"
+   ]
+  },
+  {
+   "adds": [
+    "Ominous Asylum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:64cbe74fa0fe",
+   "tests": [
+    "test:norman-osborn:goldfish:097aa68ed54c5df2"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:18b3eaec1df0",
+   "tests": [
+    "test:norman-osborn:goldfish:3cf37e5992a61855"
+   ]
+  },
+  {
+   "adds": [
+    "Steal the Show"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:77f0ab539ddc",
+   "tests": [
+    "test:norman-osborn:goldfish:fbb2a5929c488c97"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:cf151476ffeb",
+   "tests": [
+    "test:norman-osborn:goldfish:bd9677eeafce7fe1"
+   ]
+  },
+  {
+   "adds": [
+    "Wonder"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:95b017168ad9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:1616a0413bcf",
+   "tests": [
+    "test:norman-osborn:goldfish:b42f8306fd8a89cc"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:e3db520af883",
+   "tests": [
+    "test:norman-osborn:goldfish:6bab895220d3db73"
+   ]
+  },
+  {
+   "adds": [
+    "Electro's Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:62bccd61e8f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:51d69be460a0",
+   "tests": [
+    "test:norman-osborn:goldfish:c7e63041dc53ae46"
+   ]
+  },
+  {
+   "adds": [
+    "Circular Logic"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:norman-osborn:m5:2c2f0e9771ac",
+   "tests": [
+    "test:norman-osborn:goldfish:c28efae688d93022"
+   ]
+  },
+  {
+   "adds": [
+    "Lórien Revealed"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:6b3c382b6d70",
+   "tests": [
+    "test:norman-osborn:goldfish:5fd0354a0f77f93f"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:bff98c41775e",
+   "tests": [
+    "test:norman-osborn:goldfish:f3b670df2335a3f5"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:c33bac95bf85",
+   "tests": [
+    "test:norman-osborn:goldfish:dc53f33253dab748"
+   ]
+  },
+  {
+   "adds": [
+    "Construct a Cosmic Cube"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:3ce11d0000b8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bone Shards"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:3b658b4057b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grab the Prize"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f7e5c960aae0",
+   "tests": [
+    "test:norman-osborn:goldfish:cf4ee9d8bce604da"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:fa6d5db23353",
+   "tests": [
+    "test:norman-osborn:goldfish:8b51f585dc23758c"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:f16cf2ac7e9c",
+   "tests": [
+    "test:norman-osborn:goldfish:bb3f20f69ece7f60"
+   ]
+  },
+  {
+   "adds": [
+    "Risky Research"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:0ffb969289d5",
+   "tests": [
+    "test:norman-osborn:goldfish:f24309b2167cf274"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:0f6902a7b7a5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Collector's Vault"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:17ef2e0d6a70",
+   "tests": [
+    "test:norman-osborn:goldfish:d35030f90bf06f36"
+   ]
+  },
+  {
+   "adds": [
+    "Winternight Stories"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:cb5219f5aabc",
+   "tests": [
+    "test:norman-osborn:goldfish:b31829165ea47c6b"
+   ]
+  },
+  {
+   "adds": [
+    "Archnemesis"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:61bdda45e071",
+   "tests": [
+    "test:norman-osborn:goldfish:a352c655f7a1f398"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:1a59bbd6557b",
+   "tests": [
+    "test:norman-osborn:goldfish:210ad1d5dd82d985"
+   ]
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:aab0ab28b0c9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:492f601f697f",
+   "tests": [
+    "test:norman-osborn:goldfish:28a1260b9f7c25ab"
+   ]
+  },
+  {
+   "adds": [
+    "Agna Qel'a"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:5b1521553130",
+   "tests": [
+    "test:norman-osborn:goldfish:bf083e855dcb6393"
+   ]
+  },
+  {
+   "adds": [
+    "Avengers: Under Siege"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:25d2cc2fc44e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spider-Sense"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:norman-osborn:m5:41a5030e7980",
+   "tests": [
+    "test:norman-osborn:goldfish:05abe13c392d5a1c"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:9bca5b6e0214",
+   "tests": [
+    "test:norman-osborn:goldfish:3488b1935895c419"
+   ]
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:dd2054a8b031",
+   "tests": [
+    "test:norman-osborn:goldfish:55f052662dbb05ce"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterio's Mirage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:0c72deab02dd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:ad24792b68c6",
+   "tests": [
+    "test:norman-osborn:goldfish:cdf1be743bbe1bc5"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate's Pillage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5ef977d11ed2",
+   "tests": [
+    "test:norman-osborn:goldfish:1b48108213acfa44"
+   ]
+  },
+  {
+   "adds": [
+    "Reforge the Soul"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:5de3d9a4a515",
+   "tests": [
+    "test:norman-osborn:goldfish:6049738cf0e68aa5"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:bfb7eb410f76",
+   "tests": [
+    "test:norman-osborn:goldfish:118743f9fcb6c195"
+   ]
+  },
+  {
+   "adds": [
+    "Snort"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:b719f32a313e",
+   "tests": [
+    "test:norman-osborn:goldfish:c6c20e05180d6714"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:6cabf3280b64",
+   "tests": []
+  },
+  {
+   "adds": [
+    "My Precious // Allure of Power"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f4406ab6e114",
+   "tests": [
+    "test:norman-osborn:goldfish:669e7e713dfbb1cd"
+   ]
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:cc9cde6fb40a",
+   "tests": [
+    "test:norman-osborn:goldfish:bce0363c4f264450"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:08221456ec4a",
+   "tests": [
+    "test:norman-osborn:goldfish:4f746decd2f10e52"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:cc3f8eb73b58",
+   "tests": [
+    "test:norman-osborn:goldfish:3aa92ce44fafefdb"
+   ]
+  },
+  {
+   "adds": [
+    "Currency Converter"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:082cb572763a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:2ce31d1c99ad",
+   "tests": [
+    "test:norman-osborn:goldfish:053326c8d7ef9828"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:d59e29fabde2",
+   "tests": [
+    "test:norman-osborn:goldfish:79ad98424ba667a5"
+   ]
+  },
+  {
+   "adds": [
+    "Crucible of Worlds"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:f38f7598967d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Clone Saga"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:a4250f08182d",
+   "tests": [
+    "test:norman-osborn:goldfish:538c997d710e8b6c"
+   ]
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:8db7bdd55f3c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:82a1bf1ebfe3",
+   "tests": [
+    "test:norman-osborn:goldfish:2bc6dfe9fc87d466"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:1d64312274e3",
+   "tests": [
+    "test:norman-osborn:goldfish:0259d2fa6a7a2c34"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:922fbaf1e14d",
+   "tests": [
+    "test:norman-osborn:goldfish:0333abf64712ac34"
+   ]
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:0aca16a058b0",
+   "tests": [
+    "test:norman-osborn:goldfish:8f885cbdedfcbf82"
+   ]
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:1ea2124bed36",
+   "tests": [
+    "test:norman-osborn:goldfish:39c6a4f277102572"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:23485b84aaf9",
+   "tests": [
+    "test:norman-osborn:goldfish:69a1e98d34ff5170"
+   ]
+  },
+  {
+   "adds": [
+    "Doom's Time Platform"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:139dda48fbdb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:98a286902a04",
+   "tests": [
+    "test:norman-osborn:goldfish:0a879af0e8eb9252"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:4ce340e0858b",
+   "tests": [
+    "test:norman-osborn:goldfish:0e0f8793d06ef352"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f32031d9b306",
+   "tests": [
+    "test:norman-osborn:goldfish:42e3e31ee5e9bce8"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8c57297fb6ac",
+   "tests": [
+    "test:norman-osborn:goldfish:c4f0e7874621a0a7"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:919e64b8d845",
+   "tests": [
+    "test:norman-osborn:goldfish:cdced86894c9347a"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:a35da86e6aad",
+   "tests": [
+    "test:norman-osborn:goldfish:f105e7ce943dc2fa"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:f12ed085e218",
+   "tests": [
+    "test:norman-osborn:goldfish:02bc534a754188e1"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:88c6aa6a382b",
+   "tests": [
+    "test:norman-osborn:goldfish:0497a035ca88a4df"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:91e66b9b68c3",
+   "tests": [
+    "test:norman-osborn:goldfish:92af3c34a37ba1e4"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:3a4d23d38513",
+   "tests": [
+    "test:norman-osborn:goldfish:b2fb9615bc6509fe"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:c0b35ae6fea8",
+   "tests": [
+    "test:norman-osborn:goldfish:80d9bf56ccd85979"
+   ]
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:7e081b7c01aa",
+   "tests": [
+    "test:norman-osborn:goldfish:06c318b40b635470"
+   ]
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:1adbfabd036a",
+   "tests": [
+    "test:norman-osborn:goldfish:74513ac09cc23d66"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:norman-osborn:m5:3b2bf73cfaa5",
+   "tests": [
+    "test:norman-osborn:goldfish:7d7523efc55f9c9e"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:norman-osborn:m5:5b430708fae4",
+   "tests": [
+    "test:norman-osborn:goldfish:e9416afd965d192c"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:4b9cfd9c7054",
+   "tests": [
+    "test:norman-osborn:goldfish:0d65ed4f5465c5c5"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:f5004d1a430e",
+   "tests": [
+    "test:norman-osborn:goldfish:8b4ca0fdb712cd72"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:norman-osborn:m5:2c1905bdd364",
+   "tests": [
+    "test:norman-osborn:goldfish:c71c9ae79f95c821"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:16235a2b432e",
+   "tests": [
+    "test:norman-osborn:goldfish:f3bfa5f81190e774"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:7b16425c8e43",
+   "tests": [
+    "test:norman-osborn:goldfish:30f63e5ed31db3b5"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:8f3778dcdcf9",
+   "tests": [
+    "test:norman-osborn:goldfish:9ae157f32a010824"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:03700d796fbd",
+   "tests": [
+    "test:norman-osborn:goldfish:d428d92f61416bdd"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:fcdd0d03f2a8",
+   "tests": [
+    "test:norman-osborn:goldfish:5dc062c7576ce210"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:729c590d318a",
+   "tests": [
+    "test:norman-osborn:goldfish:a713faa851fbd570"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:2f11af2a535f",
+   "tests": [
+    "test:norman-osborn:goldfish:707916a538bfe45d"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:f00593214ed6",
+   "tests": [
+    "test:norman-osborn:goldfish:e14f90d9cc6463b4"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f2b2fa7deb2c",
+   "tests": [
+    "test:norman-osborn:goldfish:dd0991ae6a7faf7c"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:e21dd5211bb9",
+   "tests": [
+    "test:norman-osborn:goldfish:e791cff5d203baa9"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:0abf7871744e",
+   "tests": [
+    "test:norman-osborn:goldfish:4a33516b70035099"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:2348653286dd",
+   "tests": [
+    "test:norman-osborn:goldfish:061f5457cd42b2a3"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:ad945072eba2",
+   "tests": [
+    "test:norman-osborn:goldfish:37e4d8f8e5376400"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:e590ea8369b5",
+   "tests": [
+    "test:norman-osborn:goldfish:5a5191c4e2f18436"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:c87e38cde0e2",
+   "tests": [
+    "test:norman-osborn:goldfish:1438d1e8bcdd0b70"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:3d7714413979",
+   "tests": [
+    "test:norman-osborn:goldfish:3e03f55a918cbacb"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:818eb24bde69",
+   "tests": [
+    "test:norman-osborn:goldfish:dadc211c857d5c0a"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:653f0780e8d2",
+   "tests": [
+    "test:norman-osborn:goldfish:6b7f4b202182dc63"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:a9e63a602d41",
+   "tests": [
+    "test:norman-osborn:goldfish:4040c4169f25fe8d"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:8aee87bf33a0",
+   "tests": [
+    "test:norman-osborn:goldfish:c334f248e05e7d33"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:7e6c516aa7e4",
+   "tests": [
+    "test:norman-osborn:goldfish:29c74105e69a463f"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:11e5fec5fffb",
+   "tests": [
+    "test:norman-osborn:goldfish:59c60cc6bf389e7b"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:a78e75f2c14a",
+   "tests": [
+    "test:norman-osborn:goldfish:0b3d86b52e932c48"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:cda59ed94d2a",
+   "tests": [
+    "test:norman-osborn:goldfish:5294ea809c0018fa"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:norman-osborn:m5:afd1ead1c2da",
+   "tests": [
+    "test:norman-osborn:goldfish:21955aa719358185"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:norman-osborn:m5:a91c424eca71",
+   "tests": [
+    "test:norman-osborn:goldfish:e631ce2cc29f6a4c"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:norman-osborn:m5:0dfe622c50e7",
+   "tests": [
+    "test:norman-osborn:goldfish:3ee6db39992bfc7e"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:2c41b79d6315",
+   "tests": [
+    "test:norman-osborn:goldfish:5b2ec882d0e02048"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:14a23f7ba8ad",
+   "tests": [
+    "test:norman-osborn:goldfish:6564fadfd5f3c20b"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:norman-osborn:goldfish:13b87c1390d71674",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:a60ca42ae1f662f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:dfb31b03c113fad8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2b386b035d3b346e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:db13369f91bf697e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:3073b69837841748",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:7d673170973ba224",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:679d501eb7df36c3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c31e338418dac117",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0fea995e2d873353",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:d5a76a804ae75c08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:89876eedc52a7a2f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:1f3c7d9f91738b6a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:b083b5ab0ccf6393",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:cf5bc93881ffa782",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:61a6da94ad4b1b8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:01e3979f5734cb9e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e163af3feb49ab17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:df2756495083a244",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:70c8fdf725a30b59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e63cd9198dfe1b72",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c8d27fe3bba69243",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:da25498c1464a5dd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:ace32561267ad3fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:fb93e7a6d9131786",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:56771dbbeead1aec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f28c17193bec95a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:ec47c8a16ad93c8d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:9e77e360ea01383c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:916b087fd203fcbe",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:d11fb346d8ff8387",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:41ac95afabfc0767",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:a578346eb7e1f882",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:9ca9ffc5ef988cda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c0b5fa08da0c069e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f61a4cf07080ae41",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c070a0ee0f242913",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:42f6f3e5776bb492",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:7e8c09bc638bc075",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:55ca80344aecf073",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:1c0d8b8bb638ba66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c7dce97fd8275a2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2c689f891243d3e6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2906e3f45d949ff3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c39377e101795bf0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:35aa51fb718236bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:8686bcf5b7bc805c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:bd7a1d5ca672fcc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:977e8694b62cd130",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:6cc909755792b1d7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:9b9661c1e7a7e1eb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:d7b73be05fa60e35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:980bd3564e5a88fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:ed5dd54988e8380c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:288f97d891a8568f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f758492a3af4fbed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2f7c7470fc86a203",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f5ed680ae8233354",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f0528cfca5480d29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:8235ab13c5e7aa1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f1642823d92b46ba",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:dc9221af6bfb9ec6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:df610ca4e8c56338",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:cf9fbd5d5a172acf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:de48bbf9c0dc82bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:529d24b42d2aacf7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:bfb453629b2681b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c28ff31514b0b95d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:08cf32948c4bc925",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:8db9f367a3d496cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:addf33208789c8e2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5d8286dde11d0574",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:cc3a84edb648c9af",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:41be3301bebb949c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c6dc31fe61eec01b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:7a69cc85ef413691",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:839c8bd2cc284786",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2774dea0112da42c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2a79b76814ee7fc4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:771adbf0d2d97648",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:ca26d60764be9a53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f55e36b2bd2069d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c0d8d693bd70a99c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f07757c4deae6be3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:ef97a26f5539ae59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e4ec1f173fe82aaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:095a59df4c6412a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5667d45885e727d5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f1f358db85336c7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:097aa68ed54c5df2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:3cf37e5992a61855",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:fbb2a5929c488c97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:bd9677eeafce7fe1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:b42f8306fd8a89cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:6bab895220d3db73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c7e63041dc53ae46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c28efae688d93022",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5fd0354a0f77f93f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f3b670df2335a3f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:dc53f33253dab748",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:cf4ee9d8bce604da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:8b51f585dc23758c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:bb3f20f69ece7f60",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f24309b2167cf274",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:d35030f90bf06f36",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:b31829165ea47c6b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:a352c655f7a1f398",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:210ad1d5dd82d985",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:28a1260b9f7c25ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:bf083e855dcb6393",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:05abe13c392d5a1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:3488b1935895c419",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:55f052662dbb05ce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:cdf1be743bbe1bc5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:1b48108213acfa44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:6049738cf0e68aa5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:118743f9fcb6c195",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c6c20e05180d6714",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:669e7e713dfbb1cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:bce0363c4f264450",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:4f746decd2f10e52",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:3aa92ce44fafefdb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:053326c8d7ef9828",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:79ad98424ba667a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:538c997d710e8b6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:2bc6dfe9fc87d466",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0259d2fa6a7a2c34",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0333abf64712ac34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:8f885cbdedfcbf82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:39c6a4f277102572",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:69a1e98d34ff5170",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0a879af0e8eb9252",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0e0f8793d06ef352",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:42e3e31ee5e9bce8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c4f0e7874621a0a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:cdced86894c9347a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f105e7ce943dc2fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:02bc534a754188e1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0497a035ca88a4df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:92af3c34a37ba1e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:b2fb9615bc6509fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:80d9bf56ccd85979",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:06c318b40b635470",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:74513ac09cc23d66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:7d7523efc55f9c9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e9416afd965d192c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0d65ed4f5465c5c5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:8b4ca0fdb712cd72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c71c9ae79f95c821",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:f3bfa5f81190e774",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:30f63e5ed31db3b5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:9ae157f32a010824",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:d428d92f61416bdd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5dc062c7576ce210",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:a713faa851fbd570",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:707916a538bfe45d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e14f90d9cc6463b4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:dd0991ae6a7faf7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e791cff5d203baa9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:4a33516b70035099",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:061f5457cd42b2a3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:37e4d8f8e5376400",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5a5191c4e2f18436",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:1438d1e8bcdd0b70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:3e03f55a918cbacb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:dadc211c857d5c0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:6b7f4b202182dc63",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:4040c4169f25fe8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:c334f248e05e7d33",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:29c74105e69a463f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:59c60cc6bf389e7b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:0b3d86b52e932c48",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5294ea809c0018fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:21955aa719358185",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:e631ce2cc29f6a4c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:3ee6db39992bfc7e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:5b2ec882d0e02048",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:norman-osborn:goldfish:6564fadfd5f3c20b",
+   "verdict": "pass"
+  }
+ ]
+}

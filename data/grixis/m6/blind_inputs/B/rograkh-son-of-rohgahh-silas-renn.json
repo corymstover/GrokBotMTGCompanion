@@ -1,0 +1,1411 @@
+{
+ "deck_id": "RogSi",
+ "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "swaps": [
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a38c18853c00",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ad6f93bd7bf10ef5"
+   ]
+  },
+  {
+   "adds": [
+    "Starting Town"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b57b3d4eb33c",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b7fa370573350a5e"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e89112b4f5",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:68fbbe50d474a27c"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:eaa5683b9cc0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c13db8799341",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:11d10d4e2c222217"
+   ]
+  },
+  {
+   "adds": [
+    "Last Chance"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8a206d71d87e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Last Chance"
+   ],
+   "cuts": [
+    "Warrior's Oath"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:d562740cf4ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:41cf4e6292efb80d"
+   ]
+  },
+  {
+   "adds": [
+    "Gemstone Mine"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:51b100949aa4",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:806b042f9b9c4a8b"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Tutor"
+   ],
+   "cuts": [
+    "Demonic Counsel"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:0d38cf84c611",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b2471153ceb9a3fc"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2203296d3715",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c77f123599056030"
+   ]
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:cdf3fd1bd1b1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:13620b5cb0ae34aa"
+   ]
+  },
+  {
+   "adds": [
+    "Strike It Rich"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:563d762bf1cf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:0c68d03b7b06e4bf"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2eba5f7b5476",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:0a074bb386d22121"
+   ]
+  },
+  {
+   "adds": [
+    "Pyromancer's Goggles"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9e6e5d453d2c6428"
+   ]
+  },
+  {
+   "adds": [
+    "Pyromancer's Goggles"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7e0bb2f3b980",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:3db19a35bc0e96b9"
+   ]
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:53209d96175f",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:2fcb5d5be138d796"
+   ]
+  },
+  {
+   "adds": [
+    "Spire of Industry"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ba60e291be4a",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:81a78c255354af6c"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:6fa337d80eb6356a"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5fc16f7cf91f",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:5ab06d936ba05c03"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:7e11fb24f946128b"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7ac8f113eafe",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:cda19464c9b7826c"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:81fdeac5ee6f2a54"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:90d0b2a7217c81d6"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:d927664225b2",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b30d74375ae70920"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9400a7e01b25a82f"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7b4088cb70fb",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:30dfee19fbbf51f6"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:0bfb8ca515703015"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34939320f55b",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:2f763a5753a8737c"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:57930e7dee0288b5"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:39159f087cc12aea"
+   ]
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:96a0b4c0ec25",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1e8085e3f5bdb6b8"
+   ]
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7d1d77680a7f",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:52244b2cbb901611"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:627c2a26bca60ac5"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dc44a3182e85",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:7d2f4745819ddef5"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:115b13becb4b86cc"
+   ]
+  },
+  {
+   "adds": [
+    "Mount Doom"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45b2f4c30a31",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9078beb3874817a3"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bcaff7155c32bdfc"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:829a99360c93",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1bd133fce9d321f5"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:94b11bfe6272",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b4320d0e4d3c81e9"
+   ]
+  },
+  {
+   "adds": [
+    "Dispel"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5f7fd42cbbfa",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c213677cb271d94d"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:464c53dc29f5",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1b23e9773bb5ac44"
+   ]
+  },
+  {
+   "adds": [
+    "Leveler"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af4ab301bf1b",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:d143326fecf940cb"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7d856744a1ed",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ff31b020e320b4c1"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:6868baf1064f",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f4321e49641e3566"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:01d1b22781e0",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bdde9537c880374c"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror of Fate"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:604c117806e3",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ff051684f49af60d"
+   ]
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:500b4b99ea49",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bf49172d53f935fa"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:66abab512288",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:54e11923b92a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:60874d2da1f2",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c7ba706a5a545b9d"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:dd28a5fcb0d21802"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:062d0e57f7164d16"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:5924c0379d751843"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:be8ea2573a3790bf"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:d6c1587a5f9aa03a"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:4036f0f5e7ae0c8f"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e93be3bb2ca1",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:6790bddeb0f00512"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Rain of Filth"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:69b9d7af22cfe04b"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f0391f916f70ea24"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:33c5e95e83b612cd"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c337cc979b86a23e"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:cae0c6a3cb3efedc"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:835156ff2403aa0c"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:fd9ffeabf039ea90"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9a0362ac9c147559"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f1b26243b33689d6"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:330cb24ec9cf7d50"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:cd48089e366eee76"
+   ]
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f754f371f4c20274"
+   ]
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:76840f7331002f23"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f9e2984ab613be61"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f7ccc014b278d08d"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:e2fbf889afce35f6"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Warrior's Oath"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:d41351f5c43a9bd2"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ff2981ec919f599e"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:8603a0b4fd59e2af"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bfd8259abfc80670"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:745122d80e96e215"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:961727d9170aacb4"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:44a2b5e2d0dffbc9"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1748d9f6c1b31989"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:821e7743798e6b95"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:58b96888fdcd27fa"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9b01152875e7e061"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:a35c2c0cfde4de11"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1",
+   "tests": [
+    "test:rograkh-son-of-rohgahh-silas-renn:goldfish:3097ec4596469770"
+   ]
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c16287cc350e",
+   "tests": []
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ad6f93bd7bf10ef5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b7fa370573350a5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:68fbbe50d474a27c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:11d10d4e2c222217",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:41cf4e6292efb80d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:806b042f9b9c4a8b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b2471153ceb9a3fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c77f123599056030",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:13620b5cb0ae34aa",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:0c68d03b7b06e4bf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:0a074bb386d22121",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9e6e5d453d2c6428",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:3db19a35bc0e96b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:2fcb5d5be138d796",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:81a78c255354af6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:6fa337d80eb6356a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:5ab06d936ba05c03",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:7e11fb24f946128b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:cda19464c9b7826c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:81fdeac5ee6f2a54",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:90d0b2a7217c81d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b30d74375ae70920",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9400a7e01b25a82f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:30dfee19fbbf51f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:0bfb8ca515703015",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:2f763a5753a8737c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:57930e7dee0288b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:39159f087cc12aea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1e8085e3f5bdb6b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:52244b2cbb901611",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:627c2a26bca60ac5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:7d2f4745819ddef5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:115b13becb4b86cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9078beb3874817a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bcaff7155c32bdfc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1bd133fce9d321f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:b4320d0e4d3c81e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c213677cb271d94d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1b23e9773bb5ac44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:d143326fecf940cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ff31b020e320b4c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f4321e49641e3566",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bdde9537c880374c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ff051684f49af60d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bf49172d53f935fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c7ba706a5a545b9d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:dd28a5fcb0d21802",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:062d0e57f7164d16",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:5924c0379d751843",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:be8ea2573a3790bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:d6c1587a5f9aa03a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:4036f0f5e7ae0c8f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:6790bddeb0f00512",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:69b9d7af22cfe04b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f0391f916f70ea24",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:33c5e95e83b612cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:c337cc979b86a23e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:cae0c6a3cb3efedc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:835156ff2403aa0c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:fd9ffeabf039ea90",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9a0362ac9c147559",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f1b26243b33689d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:330cb24ec9cf7d50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:cd48089e366eee76",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f754f371f4c20274",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:76840f7331002f23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f9e2984ab613be61",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:f7ccc014b278d08d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:e2fbf889afce35f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:d41351f5c43a9bd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:ff2981ec919f599e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:8603a0b4fd59e2af",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:bfd8259abfc80670",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:745122d80e96e215",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:961727d9170aacb4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:44a2b5e2d0dffbc9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:1748d9f6c1b31989",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:821e7743798e6b95",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:58b96888fdcd27fa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:9b01152875e7e061",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:a35c2c0cfde4de11",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:rograkh-son-of-rohgahh-silas-renn:goldfish:3097ec4596469770",
+   "verdict": "inconclusive"
+  }
+ ]
+}

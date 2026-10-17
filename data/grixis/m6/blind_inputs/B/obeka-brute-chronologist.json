@@ -1,0 +1,4561 @@
+{
+ "deck_id": "Obeka__Brute_Chronologist",
+ "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "slug": "obeka-brute-chronologist",
+ "swaps": [
+  {
+   "adds": [
+    "Starwinder"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b092dfd4631c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1eea101e3b4a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a35704af680351ab"
+   ]
+  },
+  {
+   "adds": [
+    "Mulldrifter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f4f6ff2853f4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:efc7d12555ad2521"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:08be845fc8c6",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:cd3686308d15076d"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:aa809a9271bf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b66effd5fc20",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mimic Vat"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cd91c8397fd3",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:7edd7891f38b4cd6"
+   ]
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:03700b8b0c3e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ec2537531e78",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0da7d2288db75cc5"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bca505be6038",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:43b546e56baf7829"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60492b9390a3",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:899a2913ca0b61c2"
+   ]
+  },
+  {
+   "adds": [
+    "Sedris, the Traitor King"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8f16c1fd0143",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1580c2d30db3",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3eb188220b85a6a3"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:16b44a9618c8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:82a7be97476a77e1"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e7112bbefbd8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:7c79bae709b074bf"
+   ]
+  },
+  {
+   "adds": [
+    "Lotus Field"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:168b4169bd24",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1187a520ca4cf0c9"
+   ]
+  },
+  {
+   "adds": [
+    "Araumi of the Dead Tide"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1e172b94a3c6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Broodbirth Viper"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:303e0d2086ca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Firbolg Flutist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c6e56f24470f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:49177ccec37d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2c2e01c14ecf62d6"
+   ]
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6eb9e5ec68c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:80aa532e51d0",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:618860e6ca1dda55"
+   ]
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ae291e46ba36",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:682dd4bc9588f1a2"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:27d9dcdedc36",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:13f30870c36015b7"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c00f0956e257",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:87f235da5ef34214"
+   ]
+  },
+  {
+   "adds": [
+    "Red Sun's Twilight"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f2044fa65885",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:00c7711a80af",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:dfc457e13fe678b9"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2dd36560d484",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6e7c2b046a35afa5"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c44438d84d21",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f6af67c6054e840f"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1f508daa7582",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mirror March"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:394fdc41e258",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terror of the Peaks"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d46f12945f21",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:8d69443460da0661"
+   ]
+  },
+  {
+   "adds": [
+    "Terror of the Peaks"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7c3c52f2c01b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:7605d1e9de40a378"
+   ]
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:348edc591fcc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Elturel Survivors"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:51f810cb24bc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3d5a66371fc2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5c5fcc7b364c530e"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cf6360ce22f7",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:60e77679cb167551"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:065ebe89911e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3cca30644f957d0c"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cdd7a100a7d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:12219aef57d8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:46e6bd4e1dc4e846"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stop"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:066fa2b999d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:17e2e9737ef2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6f292efe0e7a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tannuk, Steadfast Second"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f769e29584ae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7e24e4894d2e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:7b959d7a0383298f"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:109bdcf72312",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:df32395850f860d8"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bf5b0c9cf812",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:89371f9ae626",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:02bfaa940414a1ab"
+   ]
+  },
+  {
+   "adds": [
+    "Determined Iteration"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fe65ed9dfe0a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6d3856178448",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e7c897e62b9cbea1"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e6d50a043831",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b1ca5de344904025"
+   ]
+  },
+  {
+   "adds": [
+    "Fatestitcher"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:afc6bf6872bd",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5101c6f68481cad7"
+   ]
+  },
+  {
+   "adds": [
+    "Fatestitcher"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:dd564ec71038",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:fca1c1441b06ecbb"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:55b0ccbd1184",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:26470cded14762ae"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8339fd23cf42",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e64079c46c7f5efe"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4658254c0fb7",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:44bb68646b2a2a6b"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b9d5f8c3ffcd",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2eb9e68dd6f0bfd3"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:928fb02d2f43",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:92ea00b112246aa7"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4c01724c3482",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:61d59999a87e0640"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eb411e641477",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:183539a22186c56d"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d145cb0933b9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e4a580260c8f7029"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a8e94f0d171b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6946967c417fa211"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60ea88dc77e2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:04959e449e3cdcfd"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:64e4f850dc2b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:128c185b9eb01d4d"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2e0c85d3ad4f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9bde6eb8a767d7e5"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f2e74338471e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ca70841c796145a1"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fa523402db7a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:91c70f38507de5ee"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:605a10836e34",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:27b62f827e0622be"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Multiplied"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:255ba3e871d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f40d3ac2a160",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:09019517c9a9bb61"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:319bbc8a2762",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d1764bee4cecf704"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b45977e73c5d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4b52051757e1bf28"
+   ]
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f6019314ede9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:84e5e921d41d17ca"
+   ]
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:12cc34a9c908",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c20d67f716be9e33"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9c4a67e560f2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d508ce0369b57e3c"
+   ]
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:37fb7bbe569a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:90f6504a5251",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:aac6404db67b210d"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eaeac3de346d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1fca4355a78ab9e4"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Avaricious Dragon"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:325cbd01ed6d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5f18a95ad841fcbc"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5cab576cf13b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d1204e9209775622"
+   ]
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f502156b5d68",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:788f0c3fbe25be08"
+   ]
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:33602ce8d84d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f2cc2332f39bfae1"
+   ]
+  },
+  {
+   "adds": [
+    "Sea-Dasher Octopus"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:288eed78c828",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b1afb0d419c5e612"
+   ]
+  },
+  {
+   "adds": [
+    "Sea-Dasher Octopus"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3fa15b63294c",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b0c8fd3776e6e247"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:128a468fffc5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b2c794fbb7500e68"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:75ef932ade5d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:abef6dc78834daa6"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:801056bfb8c2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2b2baf2916f95f52"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f9303160a79d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0df20454180c1360"
+   ]
+  },
+  {
+   "adds": [
+    "Dreamtail Heron"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5277fab3a453",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0a0de11335708526"
+   ]
+  },
+  {
+   "adds": [
+    "Dreamtail Heron"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b738ba3a0c91",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4d0f72f5d04955f0"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f9a7c9bd3757",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f99558cb0417918e"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a3b205bbf59e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4f90e4158e18bc4f"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b530821bde03",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a4a7ebd4474a6279"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8547cd9100a5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:fb6d08d9e1a936d0"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7b635ecd76d4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f66cae9207c0bd8a"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:87c750984202",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:7d8828803458d676"
+   ]
+  },
+  {
+   "adds": [
+    "Muddle the Mixture"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1b9c112dca17",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cavern Whisperer"
+   ],
+   "cuts": [
+    "Avaricious Dragon"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b5198bf032e2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b067724435f4f47d"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern Whisperer"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8969821f26da",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:59d7099d794dd0b3"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:87ff1b08efe9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:830a768d71ef4e72"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:57ed93e20ce3",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:fb995103a0fcf658"
+   ]
+  },
+  {
+   "adds": [
+    "Cloudpiercer"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8538e7860ae0",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e226c2d59e1db220"
+   ]
+  },
+  {
+   "adds": [
+    "Cloudpiercer"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3d2af64f79d2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c7862aa540a9d6a4"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of Obsession"
+   ],
+   "cuts": [
+    "Avaricious Dragon"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b3292c8a0f22",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f2d462ccfba8b382"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7de40d205ea9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3f37880d11096c07"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:68f7ba7b69ab",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:8bf9b7fe2f229cc0"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:0e85005e6f1e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1759ee0db640e322"
+   ]
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8d12c41c41b2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:383fbae2542052ff"
+   ]
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3bcefe349d3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saheeli Rai"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:49dd655fc937",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6e6eefd68b9c567a"
+   ]
+  },
+  {
+   "adds": [
+    "Hide on the Ceiling"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2a6740bcd36f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goryo's Vengeance"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e35891a8c39a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:14f0bb431a2e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2135e84dd5d9d467"
+   ]
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fe4291c503fc",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:94cb355724ad79be"
+   ]
+  },
+  {
+   "adds": [
+    "Necromantic Selection"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:caf9e803b469",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:617f78d9c269c0a0"
+   ]
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:895e277ff08f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a6ea0cebf0e602c7"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7130ca3e28a2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ea52c01aec99b546"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Delina, Wild Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9bccee3358db",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:67745a195d1e0743"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:55bddda81d85",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b1c558a865c1f4b8"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:04f2d6e218d7",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5a26073a4a37bf5b"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c7306548bfbe",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1a3c813f2f5c578c"
+   ]
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:83e08550d477",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:cc777abcd9ced632"
+   ]
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b5fcf1fa673c",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3fbd0b3674b72129"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b126b9c7e116",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:343cbb244ec0cac2"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Sundial of the Infinite"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4a0d08c181cb",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9830d6ec7f4b1506"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ead1f7d05d39",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a18403e39b8fbfdd"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fa8fff41edff",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d4e53a19bf9e5d1d"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a52ee9bbf84a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2008c756903d4a70"
+   ]
+  },
+  {
+   "adds": [
+    "Giant-Sized Flying Ant"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1385177a8395",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5393765d1f2935c8"
+   ]
+  },
+  {
+   "adds": [
+    "Giant-Sized Flying Ant"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ffdf5789fe8b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e0378536effade15"
+   ]
+  },
+  {
+   "adds": [
+    "Brain Freeze"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:01dd19d564f6",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f60a359ba8a2d8cc"
+   ]
+  },
+  {
+   "adds": [
+    "Brain Freeze"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:054224ad5ece",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:727026464c11b25a"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:31fb10d53f43",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:95172a2d651b2dc3"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a38899f000ec",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:8c63f05373d56bed"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7e7a8a839e16",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b171b074463d543e"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c01acf923d88",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:17ebd3918a1767c0"
+   ]
+  },
+  {
+   "adds": [
+    "Peregrine Drake"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a6f7a32b87d5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b0fb4cafe7c912c9"
+   ]
+  },
+  {
+   "adds": [
+    "Peregrine Drake"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3cdf3844b8fb",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6122c2cab7c586cb"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6e176eab2365",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e8310bad08e73153"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c0a864b06a9e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:54262c54afd7c915"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f08fd9ad0cb5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:aa83fb2324fe6f6f"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:82d80b5b19c1",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a1a904cb32d1cad5"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a7db47aadde5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:96bd8e81f233093d"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9ea8a1bd8830",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2d3e078f7ebee219"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:47de7a3b03e8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b1c52ba01009eed4"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Sundial of the Infinite"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fea5b7418529",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:86eee860156c6089"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2bef58611602",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:078d3072a9936404"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5bfec0c3096a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:83a8ac606759b5f2"
+   ]
+  },
+  {
+   "adds": [
+    "Tale's End"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ad97f167b419",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:15b0fcc98884",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:acaec2a43c78c3a5"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7bfe09109b2e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9902f5806b6c3f29"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1c70ab4a4f1a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2cbfcb956064e64e"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:680ed642492a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:801ffd2a65fb0a1c"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:394e5b9f9a52",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:44a5ab3524601725"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f50a678b77b2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:628376dddbb1de4d"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60a21be096ba",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:069c0c79dff541d2"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:74b0fee17c36",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:88b65f6bab95fa13"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5215ba005f1e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3f59ce7fdfbe431e"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:af9e06e20112",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:08e674c5aeb1a67f"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cc821e172da4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:63af1be8f343793f"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1c872089a4ed",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4209291cfff2949e"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:83cef2bc1a19",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:10dd44ddf07a3f1e"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9a88723c29b4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a83ab3a9471dd696"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b89cf47cd267",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b744267ebabf2bb5"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Sundial of the Infinite"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a394a4215467",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e190fc73adc78bc7"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8ae5eb951df0",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1fb3b9b09110fbb4"
+   ]
+  },
+  {
+   "adds": [
+    "Nexus of Fate"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:aa0b8b26f49e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:656af7818a21e0cf"
+   ]
+  },
+  {
+   "adds": [
+    "Nexus of Fate"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:56bc348a7d78",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:08da09bb791e52cd"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cb68189d6387",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5b94a6c58cdc6ce9"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9e2733858cdf",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4fe12791e48f899a"
+   ]
+  },
+  {
+   "adds": [
+    "Hazel's Brewmaster"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3a5ff94be02d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5545fa2f9efedd65"
+   ]
+  },
+  {
+   "adds": [
+    "Hazel's Brewmaster"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e150f236fd95",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:60d4b8d29cff928d"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c285a0ff6899",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6e551c428fc24bd1"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6a0092484f65",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:12583f863c3e0575"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f6a407d64ad4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b5b44be1dfd841b5"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60727f90786c",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:fd32e1ff8bf3808c"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f85657c7bdb0",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1775e390d224386b"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:0ca39cc040f3",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:787b4d5ebc389a14"
+   ]
+  },
+  {
+   "adds": [
+    "Conspicuous Snoop"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4deab3b83a2f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e7fb2fa4e2bb700e"
+   ]
+  },
+  {
+   "adds": [
+    "Conspicuous Snoop"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bb90dfbf3b89",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:551b05eeb37d00c0"
+   ]
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:67ad5d1d1b5d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:84ffc720a2846719"
+   ]
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4619eb40d129",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9f9cca2ab6169e7a"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:77d3c260fd16",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6041ef445f5c5ed6"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8e904a72f4fc",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ee52da4b3c591629"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:71d827516fe8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:069bdb9f8ad1a814"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:db68ac4f9ee4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:519c5ec4dcec2503"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4bd55022c8ba",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:bf6e2e2ff45867bd"
+   ]
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a605a0848296",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:fd737c7b8e466d92"
+   ]
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bd431ed3950a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:855a794bf38ae185"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7cf04a9b436f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b5a3b34955f06595"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f677d72cba83",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:e0549c98eb7e5302"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2df97aa6d54f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:54da1db7493b5a53"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9c6a2da318af",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:633fa7d6b24babcf"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e3f5f548b18e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c51057199c8a722a"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:11155509f39e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a5400d47c797ead3"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c5b62dcb58e3",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3d9fd41550b9fe1b"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:06b243ee1327",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2f858e0c679f7902"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:42a3e9aec928",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c492f968ae46f06a"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9a6829382fc1",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:550e80c5b74b42fa"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5712e367a7b8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c5be6e7a86fa4ece"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:357de3240375",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c5768bc35799edd7"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:043dc371f2a7",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:7063c0ccd6beb64c"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9bb08f75177f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:36c21a451a485c03"
+   ]
+  },
+  {
+   "adds": [
+    "Necrotic Ooze"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:58e78cedf74c",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d43db0681133fc0b"
+   ]
+  },
+  {
+   "adds": [
+    "Necrotic Ooze"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c0b20fea6ee9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2a4c82802b25cb80"
+   ]
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9d65c3ba1dc6",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ede0c0f1d8681443"
+   ]
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a59943b4f064",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0d04a135b956035c"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2f9f1c6b78bc",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0ba1b6133edee3ed"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9f766d7de824",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ebe9b7020d6fcf94"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3462a8094953",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:462d54c694d315bc"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:45c0f4018888",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3e78a3d95048eb49"
+   ]
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d540ede6b9c1",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:44d27d8863e07b17"
+   ]
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:248db1eb4bf2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5bfaa8891bf3f2e6"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Runner"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a9d85a41082e",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f95882a866a72334"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Runner"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d95d356b616c",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a2c752eaf9a0720c"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:78f6ac943c71",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2ff5b5d26652c828"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ad1d569a7b68",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d0ca6b1c6e34cd05"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:33edc01e585b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:640550b9604eccd3"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2dba8822bf6f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5e4e8fd6a309b8ff"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:47c0d7593357",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:336d39ebab8c35c5"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3fce49b12386",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c1ea3e5865ea3418"
+   ]
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b6207ff93660",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:41be64ac2611b1e3"
+   ]
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2338388797bc",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:41280e0a9367b125"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:36d1475aa7aa",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:380a3440f206656a"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7686683822cd",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:96ac37ce56c28038"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f971e44e65d9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ca8a378e6ccebcc6"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f5846e24c221",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5348a2b4483b3e9c"
+   ]
+  },
+  {
+   "adds": [
+    "Pouncing Shoreshark"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b2b556a0c781",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0f059678550d03cd"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c34e7b3b43d0",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3ce5a6581907e919"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f123ee343adb",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4a66a3a19ebf9e7b"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cc58fa822b26",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:97d321ae0896926e"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:52a6407cdc67",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6e64f2030f32ebed"
+   ]
+  },
+  {
+   "adds": [
+    "Dirge Bat"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e6f654726fa2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ca82ede304ce41e2"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bda4da10f4bb",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6a708b0bd33e2d4b"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:82fa16d5f5dc",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:825c4990d199515d"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5fe2ca806bee",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1cf60a7386141766"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cf96f5f6d8c6",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:aedc1c88f5c07f26"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f8f5da9885b7",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:64c1683646926531"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:70e8885781a4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3a4b1fd8717b05c5"
+   ]
+  },
+  {
+   "adds": [
+    "Souvenir Snatcher"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:96e7a354fd9a",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:125fd96c14ab127a"
+   ]
+  },
+  {
+   "adds": [
+    "Corridor Monitor"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:da3985b34382",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:d807fc44559888e6"
+   ]
+  },
+  {
+   "adds": [
+    "Corridor Monitor"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c53955adea79",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:27ce0080939f6cda"
+   ]
+  },
+  {
+   "adds": [
+    "Chittering Harvester"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a0e8cb1ab1d8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:ae1bf143c252f3f0"
+   ]
+  },
+  {
+   "adds": [
+    "Chittering Harvester"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:db05c6001316",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0183d64b39e67465"
+   ]
+  },
+  {
+   "adds": [
+    "Insatiable Hemophage"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c20118f17cbb",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f59e84be03bfdea1"
+   ]
+  },
+  {
+   "adds": [
+    "Insatiable Hemophage"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:beddd777b561",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:f7d6f73f0ea3be96"
+   ]
+  },
+  {
+   "adds": [
+    "Archipelagore"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d202ece6bd03",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:63423abd4246f935"
+   ]
+  },
+  {
+   "adds": [
+    "Archipelagore"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:13de2c0f6ca4",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b5870c5bd329814a"
+   ]
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:283ea402bb4f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:290de468a496165e"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8752ba03189b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:74a9784b2a2b29e7"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a745e888e847",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:8c5298fcef225d37"
+   ]
+  },
+  {
+   "adds": [
+    "Mindleecher"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:387cb5a87770",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b74d162ec96f57a9"
+   ]
+  },
+  {
+   "adds": [
+    "Mindleecher"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8f5385917022",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:057a656b013d05c9"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f4eafb5b6478",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:a2748cfb47646e8d"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b5cd5936a9bd",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:5abb432df460c971"
+   ]
+  },
+  {
+   "adds": [
+    "Pestermite"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e1ba160fd28c",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:998f977298617974"
+   ]
+  },
+  {
+   "adds": [
+    "Pestermite"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d94b28cb0a84",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6a0baae829793a21"
+   ]
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fc04f6493120",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:de4059f6c366daf2"
+   ]
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2969c6b236e5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:07d9cad2d8e6cc26"
+   ]
+  },
+  {
+   "adds": [
+    "Everquill Phoenix"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bfd063c09c1f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:34223fa7595bada6"
+   ]
+  },
+  {
+   "adds": [
+    "Everquill Phoenix"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6799b7eab804",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2604a231408819e5"
+   ]
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ba8d8f4ce853",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:492b6e550c2b0cc8"
+   ]
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c97ba01352a7",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9d1c33bb019bf273"
+   ]
+  },
+  {
+   "adds": [
+    "Lore Drakkis"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a5ee6fc591c2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:82567c87e8f4de43"
+   ]
+  },
+  {
+   "adds": [
+    "Lore Drakkis"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:0801bc85fba8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:92600d5a225c76f9"
+   ]
+  },
+  {
+   "adds": [
+    "Dominating Vampire"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e37ac709deb6",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:356c9f0982e1e661"
+   ]
+  },
+  {
+   "adds": [
+    "Dominating Vampire"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f04bdc2b0389",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:238dd30ad973517e"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6132bd016e90",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2a5c1cf471efcc32"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:da55bfdd91b9",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:79b28b283fcb0a84"
+   ]
+  },
+  {
+   "adds": [
+    "Glamermite"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4344d973afee",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:1c103586c7db0763"
+   ]
+  },
+  {
+   "adds": [
+    "Glamermite"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e25073304519",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:87efaf12da6f70a7"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:09a4bfa213d1",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:746a03a80fa09b02"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f1779c562c9b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9edeacdedad62c92"
+   ]
+  },
+  {
+   "adds": [
+    "Deceiver Exarch"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5ff8ef5ab8aa",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0a2b7986327957a3"
+   ]
+  },
+  {
+   "adds": [
+    "Deceiver Exarch"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ec5b6203b30d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6d24a497e1d812bc"
+   ]
+  },
+  {
+   "adds": [
+    "Porcuparrot"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ee75522b8fee",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b88a072fa95e4ad8"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eb5fb359be5f",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:60381d79a1c24485"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eae737b64b64",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:6a7098f4117be959"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f5bd96332d6d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c18bff1b02ed4941"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:33ab3181c6e1",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:06eb8d8ca35b6525"
+   ]
+  },
+  {
+   "adds": [
+    "Breaching Hippocamp"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:49c2f7f34c0d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:4b2a55cace30df7a"
+   ]
+  },
+  {
+   "adds": [
+    "Breaching Hippocamp"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:908ce643d683",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:15952da70a99ccda"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4fe0e16e1668",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b7c43e473d0ac889"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c1a2b835f396",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:c892b17dd415cca3"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e7bad7fc32e2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:59386b7586434b18"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4e7dc12baeb8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:06d940044e8d6812"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9757b529643d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:18dbcfaf760843e0"
+   ]
+  },
+  {
+   "adds": [
+    "Teardrop Kami"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b499520d8b56",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:b880dfef3b13285d"
+   ]
+  },
+  {
+   "adds": [
+    "Teardrop Kami"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2b30463efad8",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:3e74f199b3afe19b"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8b82ffdd4292",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:dd4efac7d6df5f15"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a6f8916bf10b",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:587c108cc64092da"
+   ]
+  },
+  {
+   "adds": [
+    "Janjeet Sentry"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4eea15e4f0e5",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:2b825fe60d47b036"
+   ]
+  },
+  {
+   "adds": [
+    "Janjeet Sentry"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3cdcd754665d",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:9624394663a9a189"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8eb3362395d2",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:50e00e8cfcc01313"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b397c40a3efc",
+   "tests": [
+    "test:obeka-brute-chronologist:goldfish:0884cae6309bbb86"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a35704af680351ab",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:efc7d12555ad2521",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:cd3686308d15076d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:7edd7891f38b4cd6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0da7d2288db75cc5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:43b546e56baf7829",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:899a2913ca0b61c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3eb188220b85a6a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:82a7be97476a77e1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:7c79bae709b074bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1187a520ca4cf0c9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2c2e01c14ecf62d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:618860e6ca1dda55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:682dd4bc9588f1a2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:13f30870c36015b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:87f235da5ef34214",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:dfc457e13fe678b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6e7c2b046a35afa5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f6af67c6054e840f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:8d69443460da0661",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:7605d1e9de40a378",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5c5fcc7b364c530e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:60e77679cb167551",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3cca30644f957d0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:46e6bd4e1dc4e846",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:7b959d7a0383298f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:df32395850f860d8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:02bfaa940414a1ab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e7c897e62b9cbea1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b1ca5de344904025",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5101c6f68481cad7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:fca1c1441b06ecbb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:26470cded14762ae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e64079c46c7f5efe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:44bb68646b2a2a6b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2eb9e68dd6f0bfd3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:92ea00b112246aa7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:61d59999a87e0640",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:183539a22186c56d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e4a580260c8f7029",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6946967c417fa211",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:04959e449e3cdcfd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:128c185b9eb01d4d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9bde6eb8a767d7e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ca70841c796145a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:91c70f38507de5ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:27b62f827e0622be",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:09019517c9a9bb61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d1764bee4cecf704",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4b52051757e1bf28",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:84e5e921d41d17ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c20d67f716be9e33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d508ce0369b57e3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:aac6404db67b210d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1fca4355a78ab9e4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5f18a95ad841fcbc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d1204e9209775622",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:788f0c3fbe25be08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f2cc2332f39bfae1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b1afb0d419c5e612",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b0c8fd3776e6e247",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b2c794fbb7500e68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:abef6dc78834daa6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2b2baf2916f95f52",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0df20454180c1360",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0a0de11335708526",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4d0f72f5d04955f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f99558cb0417918e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4f90e4158e18bc4f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a4a7ebd4474a6279",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:fb6d08d9e1a936d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f66cae9207c0bd8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:7d8828803458d676",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b067724435f4f47d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:59d7099d794dd0b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:830a768d71ef4e72",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:fb995103a0fcf658",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e226c2d59e1db220",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c7862aa540a9d6a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f2d462ccfba8b382",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3f37880d11096c07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:8bf9b7fe2f229cc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1759ee0db640e322",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:383fbae2542052ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6e6eefd68b9c567a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2135e84dd5d9d467",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:94cb355724ad79be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:617f78d9c269c0a0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a6ea0cebf0e602c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ea52c01aec99b546",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:67745a195d1e0743",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b1c558a865c1f4b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5a26073a4a37bf5b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1a3c813f2f5c578c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:cc777abcd9ced632",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3fbd0b3674b72129",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:343cbb244ec0cac2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9830d6ec7f4b1506",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a18403e39b8fbfdd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d4e53a19bf9e5d1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2008c756903d4a70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5393765d1f2935c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e0378536effade15",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f60a359ba8a2d8cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:727026464c11b25a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:95172a2d651b2dc3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:8c63f05373d56bed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b171b074463d543e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:17ebd3918a1767c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b0fb4cafe7c912c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6122c2cab7c586cb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e8310bad08e73153",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:54262c54afd7c915",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:aa83fb2324fe6f6f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a1a904cb32d1cad5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:96bd8e81f233093d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2d3e078f7ebee219",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b1c52ba01009eed4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:86eee860156c6089",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:078d3072a9936404",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:83a8ac606759b5f2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:acaec2a43c78c3a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9902f5806b6c3f29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2cbfcb956064e64e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:801ffd2a65fb0a1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:44a5ab3524601725",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:628376dddbb1de4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:069c0c79dff541d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:88b65f6bab95fa13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3f59ce7fdfbe431e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:08e674c5aeb1a67f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:63af1be8f343793f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4209291cfff2949e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:10dd44ddf07a3f1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a83ab3a9471dd696",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b744267ebabf2bb5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e190fc73adc78bc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1fb3b9b09110fbb4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:656af7818a21e0cf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:08da09bb791e52cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5b94a6c58cdc6ce9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4fe12791e48f899a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5545fa2f9efedd65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:60d4b8d29cff928d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6e551c428fc24bd1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:12583f863c3e0575",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b5b44be1dfd841b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:fd32e1ff8bf3808c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1775e390d224386b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:787b4d5ebc389a14",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e7fb2fa4e2bb700e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:551b05eeb37d00c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:84ffc720a2846719",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9f9cca2ab6169e7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6041ef445f5c5ed6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ee52da4b3c591629",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:069bdb9f8ad1a814",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:519c5ec4dcec2503",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:bf6e2e2ff45867bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:fd737c7b8e466d92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:855a794bf38ae185",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b5a3b34955f06595",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:e0549c98eb7e5302",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:54da1db7493b5a53",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:633fa7d6b24babcf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c51057199c8a722a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a5400d47c797ead3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3d9fd41550b9fe1b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2f858e0c679f7902",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c492f968ae46f06a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:550e80c5b74b42fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c5be6e7a86fa4ece",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c5768bc35799edd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:7063c0ccd6beb64c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:36c21a451a485c03",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d43db0681133fc0b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2a4c82802b25cb80",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ede0c0f1d8681443",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0d04a135b956035c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0ba1b6133edee3ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ebe9b7020d6fcf94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:462d54c694d315bc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3e78a3d95048eb49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:44d27d8863e07b17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5bfaa8891bf3f2e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f95882a866a72334",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a2c752eaf9a0720c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2ff5b5d26652c828",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d0ca6b1c6e34cd05",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:640550b9604eccd3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5e4e8fd6a309b8ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:336d39ebab8c35c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c1ea3e5865ea3418",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:41be64ac2611b1e3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:41280e0a9367b125",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:380a3440f206656a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:96ac37ce56c28038",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ca8a378e6ccebcc6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5348a2b4483b3e9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0f059678550d03cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3ce5a6581907e919",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4a66a3a19ebf9e7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:97d321ae0896926e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6e64f2030f32ebed",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ca82ede304ce41e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6a708b0bd33e2d4b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:825c4990d199515d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1cf60a7386141766",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:aedc1c88f5c07f26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:64c1683646926531",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3a4b1fd8717b05c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:125fd96c14ab127a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:d807fc44559888e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:27ce0080939f6cda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:ae1bf143c252f3f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0183d64b39e67465",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f59e84be03bfdea1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:f7d6f73f0ea3be96",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:63423abd4246f935",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b5870c5bd329814a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:290de468a496165e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:74a9784b2a2b29e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:8c5298fcef225d37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b74d162ec96f57a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:057a656b013d05c9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:a2748cfb47646e8d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:5abb432df460c971",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:998f977298617974",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6a0baae829793a21",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:de4059f6c366daf2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:07d9cad2d8e6cc26",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:34223fa7595bada6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2604a231408819e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:492b6e550c2b0cc8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9d1c33bb019bf273",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:82567c87e8f4de43",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:92600d5a225c76f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:356c9f0982e1e661",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:238dd30ad973517e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2a5c1cf471efcc32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:79b28b283fcb0a84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:1c103586c7db0763",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:87efaf12da6f70a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:746a03a80fa09b02",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9edeacdedad62c92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0a2b7986327957a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6d24a497e1d812bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b88a072fa95e4ad8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:60381d79a1c24485",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:6a7098f4117be959",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c18bff1b02ed4941",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:06eb8d8ca35b6525",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:4b2a55cace30df7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:15952da70a99ccda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b7c43e473d0ac889",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:c892b17dd415cca3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:59386b7586434b18",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:06d940044e8d6812",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:18dbcfaf760843e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:b880dfef3b13285d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:3e74f199b3afe19b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:dd4efac7d6df5f15",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:587c108cc64092da",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:2b825fe60d47b036",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:9624394663a9a189",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:50e00e8cfcc01313",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-brute-chronologist:goldfish:0884cae6309bbb86",
+   "verdict": "pass"
+  }
+ ]
+}

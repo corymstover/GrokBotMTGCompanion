@@ -1,0 +1,2969 @@
+{
+ "deck_id": "Sedris__the_Traitor_King",
+ "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "slug": "sedris-the-traitor-king",
+ "swaps": [
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e934d07d6f4f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mulldrifter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e24bab6fde7c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a4080afa7f85ca8a"
+   ]
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:13d79172649b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:910dc688acf0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Combustible Gearhulk"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b8cc939b6e11",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:072672002230",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4cccbd776fb4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gyruda, Doom of Depths"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b5c3d47f90ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gray Merchant of Asphodel"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f78ea6c04eb5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Embalmer's Tools"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e45a7c7013bd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:314e623d813d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:06483239682ba2eb"
+   ]
+  },
+  {
+   "adds": [
+    "Ravenous Chupacabra"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:cb3627274944",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ravenous Chupacabra"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0f81d7fab6be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lord Xander, the Collector"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3882c72fe734",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7c9fac6427ae",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a2130dd274db324f"
+   ]
+  },
+  {
+   "adds": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:717a012c9c90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:58b4f50cbe87",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:238399e27f2b1dba"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8a607ab74340",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:fc6b4607a4a4e8f5"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:813262191e42",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:800d21323e9b03f2"
+   ]
+  },
+  {
+   "adds": [
+    "Diluvian Primordial"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:03bb6befaba5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:edd3e7dd94b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6d2e3ff847d1",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:e8bf49b3e8a5563b"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing, Deathless Tyrant"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ffac7537152e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:613a40ab5bea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Delver"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c7579b929ac8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:5f287b26e3f5",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:6e038b923c201843"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:20c829ad6992",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:990c618fbc8390c5"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:181a6c212722",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:b244b8cfe1f3ad18"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:70c4b8e2bdef",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:cacc7162eacbbf8c"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:55fe8ec36ec9",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:d40caf7d0a92fdd7"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:40778c845909",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:bae66cd61d5aa58f"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b46aee35c7a0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:cf65a9e14a27",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:1b865eb1b7721325"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:00dc905042d5",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:5a4dba16634e64ea"
+   ]
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f6282a94657e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:89914328aa0c3450"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:66215340a3ce",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:9bbee5d718005442"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Primordial"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8c739836280c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b088e38de1e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gravebreaker Lamia"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e28758dc91f9",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:d0020b793a67e4e2"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e3bd0e237a16",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c54e6877ae4a123d"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:22af33e9155d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:5476fe38c332cdb5"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c6e39dd0baec",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:f809127631c4c1ae"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1d6d8fe9673f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e355f1431eee",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:273c344d6647d4cd"
+   ]
+  },
+  {
+   "adds": [
+    "Singularity Rupture"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:752b43f2cfa7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:556e91fd334e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:3c0776111c1267eb"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a2089dfb5c9c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:afdce793337a",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:1ddc3342b1e20177"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2aa6e189e8f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6ac3f938dd7e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:9818586bad279a6c"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:dee36ae51bfa",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:5c3ea0974f7e4bd3"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6e65faada6a8",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:7329a62f105fc75d"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:97e12ad8ee63",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:aa93e8dba78c535d"
+   ]
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:342f922a0f53",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:aaae03050e9048e1"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8f6c5dd2592e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:86daee15e0b5d649"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:91c256e1de76",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:99c064806bbf1bd7"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4ccf205cffe3",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:667066d26431d74c"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1bb6dbde972c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c5217830b7321bd1"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:731754aa32df",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:26698fe984f3ede2"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c554e8a96aff",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ba1927e9bcf51a8b"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0c9a92846767",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ed7d5b34cab78c63"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:724d728b6f33",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c31f5c6fd0cf72f2"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b68e1751d8cb",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:80bceaf02646bf43"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:26a906a1efce",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c6479ec5b8ecce19"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:fb130ff50572",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:da2578aaa92f68de"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9e06db147487",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a47a1136cb3dad23"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7c12a55eb1ea",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:7f9959181902345d"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a5b1571b5677",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:14a6ba4fc9625edc"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1e23909080b0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0067c8bcf4f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:de032ccd1ea9",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:647887273a3d7903"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2d1571e421f4",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:9c1331d967b29ae2"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:84cc971fd8c3",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:06150f9e7b872738"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:769e00aa3007",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a28570cd7f3c4e81"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:5a95cbf3455d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ecfe83ccce1d76a3"
+   ]
+  },
+  {
+   "adds": [
+    "Rapacious Dragon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:fa6d77aafeed",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4ce0c2afc49ae647"
+   ]
+  },
+  {
+   "adds": [
+    "Patron of the Arts"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:10dbb310b623",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:195443a5b8a76c40"
+   ]
+  },
+  {
+   "adds": [
+    "Swashbuckler Extraordinaire"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:577352a7c9c6",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c8df8981894b447f"
+   ]
+  },
+  {
+   "adds": [
+    "Kalain, Reclusive Painter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0b972577bd84",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:1b18f8e8d6038d4f"
+   ]
+  },
+  {
+   "adds": [
+    "Plundering Barbarian"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:bf9863bc3464",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:678f6237c5f3363d"
+   ]
+  },
+  {
+   "adds": [
+    "Shrieking Drake"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:54470fea21bb",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:987f54839793aacc"
+   ]
+  },
+  {
+   "adds": [
+    "Shrieking Drake"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:d1a5c5f5489d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ce6fef9d36f57489"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Death's Majesty"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b293e5baf361",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corsair Captain"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:43b92e9297a4",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4e30b5b9ad8aad68"
+   ]
+  },
+  {
+   "adds": [
+    "Dakmor Salvage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8b2cf1a1c46a",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ec608d50495b65e0"
+   ]
+  },
+  {
+   "adds": [
+    "Galazeth Prismari"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1e331b6118b8",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:99a1fee783ae0b31"
+   ]
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f418a345809e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:7a5e7423d65ffaf0"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6bd1dd86bb8c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:be3bb499887432d2"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:d75ea99e56af",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:2adfb652044ad2ec"
+   ]
+  },
+  {
+   "adds": [
+    "Skullport Merchant"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:01bff344856e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:2fc90588b3f2514f"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:21801ec750c3",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:46d8c02280532b83"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4e23e18c2b21",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:e42c3dd155a95a39"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3b488382cef6",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c3c89da8c745c2c6"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4fe647050b6d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:b4de73ce38f85183"
+   ]
+  },
+  {
+   "adds": [
+    "Man-o'-War"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f67136e143cf",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c55089e66c966919"
+   ]
+  },
+  {
+   "adds": [
+    "Man-o'-War"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:129a7a97539c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:6e52992802c5feaa"
+   ]
+  },
+  {
+   "adds": [
+    "Wily Goblin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:fb7dc283e168",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:db620d11c39518fd"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man 2099, Miguel O'Hara"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7e6df9f44778",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:49708dbf98fcae3c"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man 2099, Miguel O'Hara"
+   ],
+   "cuts": [
+    "Archon of Cruelty"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ccc14ab814be",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:48dc3f1a04ec6f0f"
+   ]
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a8a664f0da90",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:bcc2e8b45e0b5d9f"
+   ]
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0e9b0d5431fa",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:bbc41458aea380cd"
+   ]
+  },
+  {
+   "adds": [
+    "Perigee Beckoner"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c818da9ee645",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4e76025471ed0c42"
+   ]
+  },
+  {
+   "adds": [
+    "Perigee Beckoner"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a9d6c56edc78",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:e7663b846705abe9"
+   ]
+  },
+  {
+   "adds": [
+    "Obsessive Stitcher"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4110702ddaad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Boommobile"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9a21d9e99c7f",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4eda3398e18fcbe2"
+   ]
+  },
+  {
+   "adds": [
+    "Boommobile"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ea7640da8d19",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8dd52a528a9b1f92"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Stalker"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4eb2591a0629",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:b4ef375016b83be0"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Stalker"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:095af46de291",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ff437d3e3fd774a4"
+   ]
+  },
+  {
+   "adds": [
+    "Sailor of Means"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3ed8369d3c2d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:72e9a3914c66f7eb"
+   ]
+  },
+  {
+   "adds": [
+    "Redcap Thief"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:415bbe0f39c8",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:79a138da13e978a5"
+   ]
+  },
+  {
+   "adds": [
+    "Plundering Pirate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0f51588c6870",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:113580e3aeb05b78"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Pirates"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:40a69788f6f6",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a49a79b316a7a122"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:eb3879738682",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8416453e0de5c859"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2fbe59e97d83",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c708a32fd32ac849"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1900c225091a",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:80071218527822a3"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9331429f8852",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4ba123d974bfb1e8"
+   ]
+  },
+  {
+   "adds": [
+    "Exhibition Magician"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2ae1cc28fc8e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:9f3f6775cf52599a"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b719f0f62f8f",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:1d7e16c3310a1ae3"
+   ]
+  },
+  {
+   "adds": [
+    "Faceless Butcher"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7abf6e5a03f6",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:6bd80bb33f5dedbc"
+   ]
+  },
+  {
+   "adds": [
+    "Burdened Aerialist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:17369e21b953",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:d2d507fb37c332c0"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1a831fe07e3c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ffd98c353c7dd47b"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8a333300341e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:e08a0722b10ba6ea"
+   ]
+  },
+  {
+   "adds": [
+    "Brazen Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2fea437352cf",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4bbed76ba6d27715"
+   ]
+  },
+  {
+   "adds": [
+    "Meticulous Artisan"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:727185d881ef",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4f49081d820f0854"
+   ]
+  },
+  {
+   "adds": [
+    "Wonder"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3aef4214c8d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wormfang Drake"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6372d130cbc0",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:56e299577d76fb49"
+   ]
+  },
+  {
+   "adds": [
+    "Wormfang Drake"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:69b5c8fe9700",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:cfd5e251a8487d46"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6d9e2fb51942",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:6ad293438251d4ec"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:80e71397d280",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:d012342fc10c0f1f"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:95d9fc7b55c7",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:36912a80218e8fa6"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0d51c6de9382",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8dd0150acb0218ff"
+   ]
+  },
+  {
+   "adds": [
+    "Crypt of Agadeem"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:49c2c426522e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a5ebfa0cb879a524"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7f7748455da2",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:48ae49d0af447fb6"
+   ]
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:aa1b1bc87888",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:eae44fc268b4d61a"
+   ]
+  },
+  {
+   "adds": [
+    "Out of the Tombs"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:df3900970c57",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:947af4473fde",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:2b6650e369ebb38d"
+   ]
+  },
+  {
+   "adds": [
+    "Tomb Fortress"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:90a28c8e186d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8f5f4e682079f8d6"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f34d30fb0b88",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:54c9785558bbbaf0"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4f951b146980",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:37b64d8fb5117931"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6670de1e54d2",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8b5d6d4497e7f8bd"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c2930959af96",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:025137b1557c2101"
+   ]
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2d6598a982f7",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:271aab2b4859a034"
+   ]
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:170190e72989",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:9da8dbdb64cd90a1"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4017a7947b14",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:fb606f8dbc0e7527"
+   ]
+  },
+  {
+   "adds": [
+    "Metallic Mimic"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8da9fdd4dcc3",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:bc60e4e2a3f5579e"
+   ]
+  },
+  {
+   "adds": [
+    "Metallic Mimic"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:5217d88ed71d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:16c928a83c052f99"
+   ]
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:899a3b223879",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:cb48855c674252c1"
+   ]
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:bdac7d556e9c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:dd0766ed07420651"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:39bd9ee8d2c1",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:b80aaab255628140"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:104956bec4fe",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:44401f402d94b317"
+   ]
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2e7c9ffe265c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c0a443cdec1e4e21"
+   ]
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b052ebb9140e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8d57f51ccca2ff62"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:43132e0a5408",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4f978478f1a7",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:5311e6c12e63382c"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:29193efd728a",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:12cdaa80f73ce6cf"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3279532b1420",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:5d5a28c97011f677"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3a8bddf5e965",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:3a869d300db1ed7e"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:88bccd3c130d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:d9c8b0f9892d5663"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:086e7e9d9973",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c5986e195dbea7be"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:dd5824bf9b6d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:003489e82b8a6e0e"
+   ]
+  },
+  {
+   "adds": [
+    "Uncivil Unrest"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:91438169e562",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:9ca217a6f7abdd6d"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:69357f1ae0df",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c3a2d96064c0dbfd"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1189fd05d01d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:94aed93f63db1e97"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:dd878ed1535b",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ff2d9d0e5daa4255"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4161b6370f16",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:fc873698b9aaa646"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e17819d31614",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:e7b3b422d6ca992a"
+   ]
+  },
+  {
+   "adds": [
+    "Body Double"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:25aab187262b",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:aa5e0bf3fc167a0e"
+   ]
+  },
+  {
+   "adds": [
+    "Body Double"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7821a4efce49",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:b71c88f9d7d6923e"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Vigil"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:be97d7cc1c91",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:10a23ba7636f45ad"
+   ]
+  },
+  {
+   "adds": [
+    "Gev, Scaled Scorch"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:eda08d7fefea",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:bc8d21bce97e0c50"
+   ]
+  },
+  {
+   "adds": [
+    "Gev, Scaled Scorch"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ff150adc3a2c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:0d8fc28db3dfe6ba"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:49fac154bb10",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:96bd199b1c659ae9"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of Fables"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7faff6d5eaee",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:312f218785eb223f"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of Fables"
+   ],
+   "cuts": [
+    "Archon of Cruelty"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9303321ee420",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8a623c73cc675a7e"
+   ]
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:19be512b746c",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:0401165f3b11e36f"
+   ]
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a577b738693d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:710c0661e497a9d1"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e8ab77ef8616",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:8ce59c87aad339b3"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:37b2d3aa6395",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:3b0a9893e3ce5d80"
+   ]
+  },
+  {
+   "adds": [
+    "First Day of Class"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3d6d09f0077d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:b1aaed39c0921083"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Izzet Signet"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:bd8c571ecab3",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:17ba76fc72e95018"
+   ]
+  },
+  {
+   "adds": [
+    "Prowling Geistcatcher"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b8da5fc6596e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:f34c0588ca15084e"
+   ]
+  },
+  {
+   "adds": [
+    "Prowling Geistcatcher"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:acc213e9520d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:6a39d72310de7170"
+   ]
+  },
+  {
+   "adds": [
+    "Corpse Dance"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b74ffeb66460",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:1bcdfef795afc656"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8e208b70b172",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:69e2aaf6abcb5070"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a88efb1390bf",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:48ecde36ec5d5cd7"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2fd77616fa9f",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:c08ba393a3588ef8"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4351bfe7d276",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:a0983c17b0c1bbd5"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c40074d6c0b0",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:ce9da38ff542f13c"
+   ]
+  },
+  {
+   "adds": [
+    "Fool's Demise"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:58100f0245b6",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:e7b811d5294954ea"
+   ]
+  },
+  {
+   "adds": [
+    "Fool's Demise"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f59397e0c92e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:4da5115800342908"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9228cb835eed",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:109b10a91b94c25c"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e3d0bb1354e8",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:448057f8b7f33d8b"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c032d9bd0ba7",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:80ce70905df2d783"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e01c1bab6d0b",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:53c6c111fd59fb37"
+   ]
+  },
+  {
+   "adds": [
+    "Casey & Raph, Hotheads"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:62aeccb8ec4e",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:7ada3c9ac7d2f447"
+   ]
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6ead0c20384d",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:bbd57210c60bd779"
+   ]
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8bd997b4faf6",
+   "tests": [
+    "test:sedris-the-traitor-king:goldfish:0c39ab93f6a89423"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a4080afa7f85ca8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:06483239682ba2eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a2130dd274db324f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:238399e27f2b1dba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:fc6b4607a4a4e8f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:800d21323e9b03f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:e8bf49b3e8a5563b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:6e038b923c201843",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:990c618fbc8390c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:b244b8cfe1f3ad18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:cacc7162eacbbf8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:d40caf7d0a92fdd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:bae66cd61d5aa58f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:1b865eb1b7721325",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:5a4dba16634e64ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:89914328aa0c3450",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:9bbee5d718005442",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:d0020b793a67e4e2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c54e6877ae4a123d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:5476fe38c332cdb5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:f809127631c4c1ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:273c344d6647d4cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:3c0776111c1267eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:1ddc3342b1e20177",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:9818586bad279a6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:5c3ea0974f7e4bd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:7329a62f105fc75d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:aa93e8dba78c535d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:aaae03050e9048e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:86daee15e0b5d649",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:99c064806bbf1bd7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:667066d26431d74c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c5217830b7321bd1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:26698fe984f3ede2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ba1927e9bcf51a8b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ed7d5b34cab78c63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c31f5c6fd0cf72f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:80bceaf02646bf43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c6479ec5b8ecce19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:da2578aaa92f68de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a47a1136cb3dad23",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:7f9959181902345d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:14a6ba4fc9625edc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:647887273a3d7903",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:9c1331d967b29ae2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:06150f9e7b872738",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a28570cd7f3c4e81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ecfe83ccce1d76a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4ce0c2afc49ae647",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:195443a5b8a76c40",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c8df8981894b447f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:1b18f8e8d6038d4f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:678f6237c5f3363d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:987f54839793aacc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ce6fef9d36f57489",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4e30b5b9ad8aad68",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ec608d50495b65e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:99a1fee783ae0b31",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:7a5e7423d65ffaf0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:be3bb499887432d2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:2adfb652044ad2ec",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:2fc90588b3f2514f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:46d8c02280532b83",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:e42c3dd155a95a39",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c3c89da8c745c2c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:b4de73ce38f85183",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c55089e66c966919",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:6e52992802c5feaa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:db620d11c39518fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:49708dbf98fcae3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:48dc3f1a04ec6f0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:bcc2e8b45e0b5d9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:bbc41458aea380cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4e76025471ed0c42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:e7663b846705abe9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4eda3398e18fcbe2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8dd52a528a9b1f92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:b4ef375016b83be0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ff437d3e3fd774a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:72e9a3914c66f7eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:79a138da13e978a5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:113580e3aeb05b78",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a49a79b316a7a122",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8416453e0de5c859",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c708a32fd32ac849",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:80071218527822a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4ba123d974bfb1e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:9f3f6775cf52599a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:1d7e16c3310a1ae3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:6bd80bb33f5dedbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:d2d507fb37c332c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ffd98c353c7dd47b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:e08a0722b10ba6ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4bbed76ba6d27715",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4f49081d820f0854",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:56e299577d76fb49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:cfd5e251a8487d46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:6ad293438251d4ec",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:d012342fc10c0f1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:36912a80218e8fa6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8dd0150acb0218ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a5ebfa0cb879a524",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:48ae49d0af447fb6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:eae44fc268b4d61a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:2b6650e369ebb38d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8f5f4e682079f8d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:54c9785558bbbaf0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:37b64d8fb5117931",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8b5d6d4497e7f8bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:025137b1557c2101",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:271aab2b4859a034",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:9da8dbdb64cd90a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:fb606f8dbc0e7527",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:bc60e4e2a3f5579e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:16c928a83c052f99",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:cb48855c674252c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:dd0766ed07420651",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:b80aaab255628140",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:44401f402d94b317",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c0a443cdec1e4e21",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8d57f51ccca2ff62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:5311e6c12e63382c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:12cdaa80f73ce6cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:5d5a28c97011f677",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:3a869d300db1ed7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:d9c8b0f9892d5663",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c5986e195dbea7be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:003489e82b8a6e0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:9ca217a6f7abdd6d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c3a2d96064c0dbfd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:94aed93f63db1e97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ff2d9d0e5daa4255",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:fc873698b9aaa646",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:e7b3b422d6ca992a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:aa5e0bf3fc167a0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:b71c88f9d7d6923e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:10a23ba7636f45ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:bc8d21bce97e0c50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:0d8fc28db3dfe6ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:96bd199b1c659ae9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:312f218785eb223f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8a623c73cc675a7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:0401165f3b11e36f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:710c0661e497a9d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:8ce59c87aad339b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:3b0a9893e3ce5d80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:b1aaed39c0921083",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:17ba76fc72e95018",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:f34c0588ca15084e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:6a39d72310de7170",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:1bcdfef795afc656",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:69e2aaf6abcb5070",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:48ecde36ec5d5cd7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:c08ba393a3588ef8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:a0983c17b0c1bbd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:ce9da38ff542f13c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:e7b811d5294954ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:4da5115800342908",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:109b10a91b94c25c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:448057f8b7f33d8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:80ce70905df2d783",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:53c6c111fd59fb37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:7ada3c9ac7d2f447",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:bbd57210c60bd779",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sedris-the-traitor-king:goldfish:0c39ab93f6a89423",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

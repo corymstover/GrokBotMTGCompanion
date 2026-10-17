@@ -1,0 +1,2951 @@
+{
+ "deck_id": "Davros__Dalek_Creator",
+ "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "slug": "davros-dalek-creator",
+ "swaps": [
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0fd90b6bb38d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8f64d08d6ba67ccd"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6d62647ff784",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:307d5e5e7c2886a6"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:848a36df4feb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f420af4a9f6ad839"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7f92f8ecc232",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a1a3014d3508e5ce"
+   ]
+  },
+  {
+   "adds": [
+    "Great Intelligence's Plan"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:24708402a5bc",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2d321239c84a8d5c"
+   ]
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9a6dbff2dadb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f6798c5a4ae759a6"
+   ]
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6963e36a0a2d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:017e36e70fc7386b"
+   ]
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:06b689420d6a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:39f41222cc0a92e8"
+   ]
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9fd970588edb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f759ce9a2b34986d"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:06bbd23533a3",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:4e17b717cfb10533"
+   ]
+  },
+  {
+   "adds": [
+    "Laser Screwdriver"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:11e738790d05",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ef12031946d5bc40"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2946ef246daf",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b3b530e02e9ddb42"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8dd48d5ed21b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:39f33740e0c1b749"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3cad6314f21b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:d99e9b107ee2a900"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Gallifrey's End"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:69e9df56835d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Master, Gallifrey's End"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7a2b520bb343",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:014a8d6515254cbc"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:202276933198",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:861b38e17ba8fd8f"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:85131e614a88",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:7c31e9e86fd456bc"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ba3563afc4d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f64ba3e496a2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8e6608e2fc4f83d0"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:50885dba348b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5a48736dc12fc4fc"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:25f6ab479cf1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:666f8adef40d8172"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c5f59ed87a10",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e651bb9c98534094"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a2688336948e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a6b16771199e8a70"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2e22fa6bfff7",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:356d3196a63204e4"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:cba99c214c0e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8c448660fba4822d"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:89715161dd0b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:809a0bbeb4c9a82d"
+   ]
+  },
+  {
+   "adds": [
+    "Steel Overseer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a91e69a315dc",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:09085f3d967a4611"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f97b0bfa8f01",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a84f84e5a6b2c57a"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d6d49b594011",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e5efe1128a648d32"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1a1b067c6d9e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:7dda5d0c00923d9f"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7dd252e9d610",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:9020376e0d2c4559"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e2fd8f1ead2d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:36328f9172ced091"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c8e04df8f842",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:c688ea35d78f746f"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c98676bb1fd0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f849d5ec3e7df7ac"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6b526bc150eb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:7c1f4b63702eab82"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:133d986ed2c3",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:d0b1172e258c3a9c"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9ac844fe87d5",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:dad37c442aec7c88"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f8adeb7f3b00",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5c7c892a0c0396bb"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1b71934f171c",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f9525770582fe348"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6eda0f82040a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:1a8d93548ce10035"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e39014d2c50d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:3064c333a8be4ace"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4e3388e17786",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ad683a34f2a2b295"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f5e3c4abdd12",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2226a19a1b188b7a"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b5b131ad76d0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:22c7109ebd72ca1f"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4bd658642d9e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:975b6d97dc5d78bd"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Multiplied"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a77dcde1f91d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fa4812140efb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:c516aa9feb052324"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:45e5dae830e9",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:99d930a83c7cc744"
+   ]
+  },
+  {
+   "adds": [
+    "Unlicensed Disintegration"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d1c268abcaa2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ec4a0616c548870c"
+   ]
+  },
+  {
+   "adds": [
+    "Clockwork Droid"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fff9a44f9169",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b4b0d2dead2c01d8"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5562f7ebca3f",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b2b686c3142a933d"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:22950476929a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:c76f6d296e971813"
+   ]
+  },
+  {
+   "adds": [
+    "Hunted by The Family"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:664316344a51",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brudiclad, Telchor Engineer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5801362dfba1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e8c5d9e73dd94a9c"
+   ]
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:bd2ef148519c",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:85da35bf2264e667"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7e8bba25e423",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:3adb540396b81b6e"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f66c83b1dfe7",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:88e5612de02550a1"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a3f5cee0daf7",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b348aa8b501fcc3c"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:644c5cabf889",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ef19c5717ad69a33"
+   ]
+  },
+  {
+   "adds": [
+    "Gallifrey Council Chamber"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6d9d797af363",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:405087738821ebc5"
+   ]
+  },
+  {
+   "adds": [
+    "Gallifrey Council Chamber"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f2dd6c570b27",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a57d62f3ffb28a1d"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:730e4b40f306",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:20686ecfa4d604e7"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d751091f4310",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e933b8dbdb32d90a"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ba4d04bff486",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8d14b3aea989e06f"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:bb3ad7290334",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8d5845aa491c3bb7"
+   ]
+  },
+  {
+   "adds": [
+    "Ominous Cemetery"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e93546a6a556",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:de95cc563415d5f9"
+   ]
+  },
+  {
+   "adds": [
+    "Ominous Cemetery"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ea60bea246a3",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:9f2d2d4a8f913b68"
+   ]
+  },
+  {
+   "adds": [
+    "Vashta Nerada"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a1440b0ec8eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Etherium Sculptor"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:cb9f92fdb183",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:80d5e019726c7cf5"
+   ]
+  },
+  {
+   "adds": [
+    "River of Tears"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a27c5ec8e2bb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:212cae2bb2486626"
+   ]
+  },
+  {
+   "adds": [
+    "River of Tears"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a9231556e8cd",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:4ae4a00626034272"
+   ]
+  },
+  {
+   "adds": [
+    "Midnight Crusader Shuttle"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f03c97859f6b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:6596d9fc2e2a2f26"
+   ]
+  },
+  {
+   "adds": [
+    "Lavaclaw Reaches"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6046927d8d1f",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:023a2ff58b55af36"
+   ]
+  },
+  {
+   "adds": [
+    "Lavaclaw Reaches"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9bc0a73a7b64",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ba7cec6db71ddf6f"
+   ]
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:27c93cf627b2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f7153a8d17544b3d"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ed2fe00f23f6",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:6c21153d8b9b83c5"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5673902a77df",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:504c24a9b19560d8"
+   ]
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:829ce889dc89",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d84dd3dfa48e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0fc6b9e74617e34b"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:bb73b0dccd5d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:85dfc8ae9077393e"
+   ]
+  },
+  {
+   "adds": [
+    "The Flood of Mars"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:238a2c587ae9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Truth or Consequences"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e9bdd08b3821",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a4552240358ee1f9"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7ca93ac83902",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ab54659f5ed44bda"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Approach"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1d6e83727c77",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:4a9ef4c40f05acc8"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3460112854fa",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a92276e8f1ca2c76"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e016d2199b39",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b0e043601ba39236"
+   ]
+  },
+  {
+   "adds": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:14448017004e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9f380387d38f",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:cf893aa6bf8aa54e"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:099dcb950d3e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5e94aec3f7b6408c"
+   ]
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:58d806c52574",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:3d690e3c61a5883d"
+   ]
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:d4aae24f5b1c",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:d51b27801265065d"
+   ]
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a5d922838e8a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0fa6a13cce869074"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a763bb12b989",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b9f1f7828add4d3e"
+   ]
+  },
+  {
+   "adds": [
+    "Golbez, Crystal Collector"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:dfbd14322a18",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0dc5bc2c9125",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b393d236e4e2f505"
+   ]
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fcf92ff8a5f5",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:acaa33cb8a60b284"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Doomsday Confluence"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b672fcf628e7",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8722437e9d7c8dbe"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0b8f35eddd93",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8f25be92fb1a66b1"
+   ]
+  },
+  {
+   "adds": [
+    "Sonic Screwdriver"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:611a9c3632b2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:1e1abccaa2eed8e7"
+   ]
+  },
+  {
+   "adds": [
+    "Rassilon, the War President"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:aca40c74dea9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:86d7b5f7c5f0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b143a4b61c4fb09a"
+   ]
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:15697c4e5932",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:13bfc2a80ce561c4"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:42b71494dd36",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:9c4e872d3997c858"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1e74bb3be5e3",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2b250008ac30ebdd"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b644be8325f2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:1a18dc1f5410396d"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0406455b68a1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:4163ce6f3e9ad245"
+   ]
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a1427d344d3a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:d91a2333b20bd9ea"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:626d03a2b871",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:be02766a8065bd5f"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:81bc67e37656",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:cce4c431df378dd3"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:571d03c7ea2a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2840ae48975d0ac1"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f6dffb5f5a36",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0e024bbfc15f349d"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:079d9f572a85",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5c61164cdde23af9"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e86263c0e523",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:9323db7d77cf327f"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8275794bc8e1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0ea7bc2fce067cd8"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b08aeac1f64d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ce2bf057221a56cf"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:11ff1d14c026",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5130357b568b490a"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:f16a84fdfcdb",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:1e8fa0b6af13e156"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ba45a3d15c99",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0fa51872dea954d6"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:16aa85455fdd",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:c049bfd93eb0b278"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4936d99aaf3e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a5effcb8ba2d1a3f"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a198a182ad60",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:6894926d2bf676e4"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b7383a0dff77",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:bd8d27ebca191c14"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:902802375e05",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:995bcde93b978a9a"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Doomsday Confluence"
+   ],
+   "id": "swap:davros-dalek-creator:m5:921f7fddd9b1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:4e601fa91b824c0b"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4e909683ea63",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2412ef01afba79dc"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:18b9d099f491",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ab55203e8a8047aa"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Doomsday Confluence"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4eb6b7df2329",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:911a8156da795667"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1638f0639a02",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8d0a68df2732ac8c"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:02bb9a566ad1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a8fe0fb62f61e622"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:46d430886d20",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:bbd01e1700e4ae77"
+   ]
+  },
+  {
+   "adds": [
+    "Slagstorm"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:30320db9f0e0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8e5796786e85bfac"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:202d621c2d34",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5b35e2e283e00473"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:156efd4c8c93",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e203f79a144aa79e"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:davros-dalek-creator:m5:32a2a7976ac0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0079e8a3886dc2ab"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1cc23cbb20d7",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:c10f8c09580f6122"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2f70629d33ef",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:d9e445025cf0228e"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:df83c4d2aa06",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b3964a5b561e6828"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a76b698e7290",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:1cc4d611aa84574f"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:46345ed475d0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:06a42ee1be4040a2"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Forge"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ed83b5c2b56e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f10fc9936647bd5a"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7ec35dab7142",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:20f9073cc50d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a7ad36c49683fa53"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Scriptures"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:davros-dalek-creator:m5:6f3e02e46eb0",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:55ade5e1d03e2d73"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c66102875cfa",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:b02128502f7452b9"
+   ]
+  },
+  {
+   "adds": [
+    "Ruby Medallion"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b37aeec091b3",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:31c3fb8b0202bd9d"
+   ]
+  },
+  {
+   "adds": [
+    "Insatiable Avarice"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:680049f37176",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:47a0c22640d6fa8c"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3667d29964cd",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:cc0f7b7ec49f8d03"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:davros-dalek-creator:m5:edeeb452d08f",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e44a5da1e0627643"
+   ]
+  },
+  {
+   "adds": [
+    "Locket of Yesterdays"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:davros-dalek-creator:m5:982bbe53697d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:bffe0e4ed669f8a3"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2c5167549085",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e202351534c1eb19"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:4877203aae6b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:74f8ef83658ccae1"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0a67525f4e31",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2ae40b69d9c42511"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a34231fa86e4",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:6acfd0957ca0c8f3"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3be84ec0ee8f",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8ca3a1bea61b9432"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Wound Reflection"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fe31eba33258",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:954944f13dc6bba1"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8bce9a9fffd8",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:cdb357964bd03017"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8dc91dfa93e1",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:741c0cb083d2743f"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Cyber Conversion"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9f988dadfaaa",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f0e8a1cb5060d505"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:67785f3b0f4d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:a1e54d68fe4439e7"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Wound Reflection"
+   ],
+   "id": "swap:davros-dalek-creator:m5:42f6f08828c6",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:4b57f98da6254434"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fd62a69f0eec",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:646d148576c705a3"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8d9eeb941371",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:6ae72899b32e54b9"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9ccc01f58927",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:77e3e856a7889eba"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:674cc1306ef3",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:59308b7b0683d48c"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a4d4276f47a2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:ba9cc41ec19b61f9"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Exterminate!"
+   ],
+   "id": "swap:davros-dalek-creator:m5:fda0c06604c8",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:196db8aeb6522c12"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:2c695a3038b4",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8b580166023ba321"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b413c82ed76d",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e07a1e1ea9e46f4d"
+   ]
+  },
+  {
+   "adds": [
+    "Plea for Power"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:858b0be7de9b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:bed13e1b3baae083"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:e38ac12977d2",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f7af443707a3c0b7"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:1ad50b3dbc9b",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:d8f599b59ad2e042"
+   ]
+  },
+  {
+   "adds": [
+    "Illusion of Choice"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:a1f8f7c7e161",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5f9ea799bef85d4b"
+   ]
+  },
+  {
+   "adds": [
+    "Havoc Festival"
+   ],
+   "cuts": [
+    "Death in Heaven"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0a3ba511ee08",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:c455948dc363e367"
+   ]
+  },
+  {
+   "adds": [
+    "Havoc Festival"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b5b7263252e8",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:1701d66d63b683e3"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:0dace0bd43c5",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:323da8cdb2197405"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:c19d0735cc1e",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:f58cfda2ad2fe5b2"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:eabb440b2964",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:aed2ef139570c40b"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:99d2bd4f8c57",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:96f4b059e1f02b2f"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:7254426a557c",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:e7884afcbaa1dbfb"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:5a496260d7d4",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:0b92af8c10a53a3e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:b11278aa9f42",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:9b9b89c62728ed69"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:cdcf640c793c",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:5353830184385af7"
+   ]
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:8d96d118b5ca",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:734cb8620230191c"
+   ]
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:9b07f1d78662",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:2d5a1bb39e7ba0b4"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Enigma"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:davros-dalek-creator:m5:30f651d86383",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:01770bcff14a896d"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:davros-dalek-creator:m5:ac713179c23a",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:8c9668f9a380cd68"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Labyrinth Raptor"
+   ],
+   "id": "swap:davros-dalek-creator:m5:3d079292bb1c",
+   "tests": [
+    "test:davros-dalek-creator:goldfish:6617ef7026af613c"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:davros-dalek-creator:goldfish:8f64d08d6ba67ccd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:307d5e5e7c2886a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f420af4a9f6ad839",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a1a3014d3508e5ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2d321239c84a8d5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f6798c5a4ae759a6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:017e36e70fc7386b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:39f41222cc0a92e8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f759ce9a2b34986d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:4e17b717cfb10533",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ef12031946d5bc40",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b3b530e02e9ddb42",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:39f33740e0c1b749",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:d99e9b107ee2a900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:014a8d6515254cbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:861b38e17ba8fd8f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:7c31e9e86fd456bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8e6608e2fc4f83d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5a48736dc12fc4fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:666f8adef40d8172",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e651bb9c98534094",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a6b16771199e8a70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:356d3196a63204e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8c448660fba4822d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:809a0bbeb4c9a82d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:09085f3d967a4611",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a84f84e5a6b2c57a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e5efe1128a648d32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:7dda5d0c00923d9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:9020376e0d2c4559",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:36328f9172ced091",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:c688ea35d78f746f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f849d5ec3e7df7ac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:7c1f4b63702eab82",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:d0b1172e258c3a9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:dad37c442aec7c88",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5c7c892a0c0396bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f9525770582fe348",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:1a8d93548ce10035",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:3064c333a8be4ace",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ad683a34f2a2b295",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2226a19a1b188b7a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:22c7109ebd72ca1f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:975b6d97dc5d78bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:c516aa9feb052324",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:99d930a83c7cc744",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ec4a0616c548870c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b4b0d2dead2c01d8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b2b686c3142a933d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:c76f6d296e971813",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e8c5d9e73dd94a9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:85da35bf2264e667",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:3adb540396b81b6e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:88e5612de02550a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b348aa8b501fcc3c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ef19c5717ad69a33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:405087738821ebc5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a57d62f3ffb28a1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:20686ecfa4d604e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e933b8dbdb32d90a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8d14b3aea989e06f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8d5845aa491c3bb7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:de95cc563415d5f9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:9f2d2d4a8f913b68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:80d5e019726c7cf5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:212cae2bb2486626",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:4ae4a00626034272",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:6596d9fc2e2a2f26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:023a2ff58b55af36",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ba7cec6db71ddf6f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f7153a8d17544b3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:6c21153d8b9b83c5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:504c24a9b19560d8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0fc6b9e74617e34b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:85dfc8ae9077393e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a4552240358ee1f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ab54659f5ed44bda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:4a9ef4c40f05acc8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a92276e8f1ca2c76",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b0e043601ba39236",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:cf893aa6bf8aa54e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5e94aec3f7b6408c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:3d690e3c61a5883d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:d51b27801265065d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0fa6a13cce869074",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b9f1f7828add4d3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b393d236e4e2f505",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:acaa33cb8a60b284",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8722437e9d7c8dbe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8f25be92fb1a66b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:1e1abccaa2eed8e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b143a4b61c4fb09a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:13bfc2a80ce561c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:9c4e872d3997c858",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2b250008ac30ebdd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:1a18dc1f5410396d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:4163ce6f3e9ad245",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:d91a2333b20bd9ea",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:be02766a8065bd5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:cce4c431df378dd3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2840ae48975d0ac1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0e024bbfc15f349d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5c61164cdde23af9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:9323db7d77cf327f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0ea7bc2fce067cd8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ce2bf057221a56cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5130357b568b490a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:1e8fa0b6af13e156",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0fa51872dea954d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:c049bfd93eb0b278",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a5effcb8ba2d1a3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:6894926d2bf676e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:bd8d27ebca191c14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:995bcde93b978a9a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:4e601fa91b824c0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2412ef01afba79dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ab55203e8a8047aa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:911a8156da795667",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8d0a68df2732ac8c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a8fe0fb62f61e622",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:bbd01e1700e4ae77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8e5796786e85bfac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5b35e2e283e00473",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e203f79a144aa79e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0079e8a3886dc2ab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:c10f8c09580f6122",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:d9e445025cf0228e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b3964a5b561e6828",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:1cc4d611aa84574f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:06a42ee1be4040a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f10fc9936647bd5a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a7ad36c49683fa53",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:55ade5e1d03e2d73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:b02128502f7452b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:31c3fb8b0202bd9d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:47a0c22640d6fa8c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:cc0f7b7ec49f8d03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e44a5da1e0627643",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:bffe0e4ed669f8a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e202351534c1eb19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:74f8ef83658ccae1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2ae40b69d9c42511",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:6acfd0957ca0c8f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8ca3a1bea61b9432",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:954944f13dc6bba1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:cdb357964bd03017",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:741c0cb083d2743f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f0e8a1cb5060d505",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:a1e54d68fe4439e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:4b57f98da6254434",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:646d148576c705a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:6ae72899b32e54b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:77e3e856a7889eba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:59308b7b0683d48c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:ba9cc41ec19b61f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:196db8aeb6522c12",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8b580166023ba321",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e07a1e1ea9e46f4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:bed13e1b3baae083",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f7af443707a3c0b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:d8f599b59ad2e042",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5f9ea799bef85d4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:c455948dc363e367",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:1701d66d63b683e3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:323da8cdb2197405",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:f58cfda2ad2fe5b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:aed2ef139570c40b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:96f4b059e1f02b2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:e7884afcbaa1dbfb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:0b92af8c10a53a3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:9b9b89c62728ed69",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:5353830184385af7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:734cb8620230191c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:2d5a1bb39e7ba0b4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:01770bcff14a896d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:8c9668f9a380cd68",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:davros-dalek-creator:goldfish:6617ef7026af613c",
+   "verdict": "inconclusive"
+  }
+ ]
+}

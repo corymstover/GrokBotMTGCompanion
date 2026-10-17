@@ -1,0 +1,7132 @@
+{
+ "candidates": [
+  {
+   "card": "Sanguine Bond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sanguine Bond",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Sanguine Bond",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:6be0ec716781"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:62595520eafc"
+   }
+  },
+  {
+   "card": "Epicure of Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3966-5755",
+         "5755-6191"
+        ]
+       },
+       "add": "Epicure of Blood",
+       "cut": "Enduring Tenacity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:39d10fb47d1a"
+   }
+  },
+  {
+   "card": "Bloodthirsty Aerialist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "110-6191",
+         "314-6191",
+         "4740-6191",
+         "5755-6191",
+         "5867-6191"
+        ]
+       },
+       "add": "Bloodthirsty Aerialist",
+       "cut": "Bloodthirsty Conqueror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7d12c282e411"
+   }
+  },
+  {
+   "card": "Veinwitch Coven",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "110-6191",
+         "314-6191",
+         "4740-6191",
+         "5755-6191",
+         "5867-6191"
+        ]
+       },
+       "add": "Veinwitch Coven",
+       "cut": "Bloodthirsty Conqueror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3d293f1a8c6a"
+   }
+  },
+  {
+   "card": "Defiant Bloodlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3966-5755",
+         "5755-6191"
+        ]
+       },
+       "add": "Defiant Bloodlord",
+       "cut": "Enduring Tenacity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:f3bc4a7fa8ba"
+   }
+  },
+  {
+   "card": "Staff of the Death Magus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Staff of the Death Magus",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:07bcafe5cdf2"
+   }
+  },
+  {
+   "card": "Filth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Filth",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7522337f716d"
+   }
+  },
+  {
+   "card": "Well of Lost Dreams",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Well of Lost Dreams",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Well of Lost Dreams",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:eb72b5c47c44"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ea09f4ced449"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:8e264ef4eac9"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:328b69d31715"
+   }
+  },
+  {
+   "card": "Greed",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Greed",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Greed",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:f34943efefea"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3a4bbacd42ac"
+   }
+  },
+  {
+   "card": "Creeping Bloodsucker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "110-6191",
+         "314-6191",
+         "4740-6191",
+         "5755-6191",
+         "5867-6191"
+        ]
+       },
+       "add": "Creeping Bloodsucker",
+       "cut": "Bloodthirsty Conqueror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0f61c43c480e"
+   }
+  },
+  {
+   "card": "Diamond Mare",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diamond Mare",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Diamond Mare",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:46e526de4608"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6d0834038ea5"
+   }
+  },
+  {
+   "card": "Evil Presence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evil Presence",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:1a9c90e29aab"
+   }
+  },
+  {
+   "card": "Prism Ring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prism Ring",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Prism Ring",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:7c3666a6131a"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7a44c0385351"
+   }
+  },
+  {
+   "card": "Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sign in Blood",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sign in Blood",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:5b8c6d25188b"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:c40a63d964fe"
+   }
+  },
+  {
+   "card": "Contaminated Ground",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Contaminated Ground",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:00810b3f6a2d"
+   }
+  },
+  {
+   "card": "Defile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Defile",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:9bdaa3421e00"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Terminate",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:863e781a075d"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:64e1c30b11d0"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Feed the Swarm",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:35fc5b6e4b75"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:f8c5122f36f3"
+   }
+  },
+  {
+   "card": "Tainted Isle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tainted Isle",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:5ab46b5207be"
+   }
+  },
+  {
+   "card": "Night's Whisper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night's Whisper",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night's Whisper",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:e72f1bada23e"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:67025400063f"
+   }
+  },
+  {
+   "card": "Ayara, First of Locthwain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ayara, First of Locthwain",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ayara, First of Locthwain",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:c5f1e420ace2"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:78ebc8be0be3"
+   }
+  },
+  {
+   "card": "Countersquall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Countersquall",
+       "cut": "Swan Song"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:c790a4a8c289"
+   }
+  },
+  {
+   "card": "Blood Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Artist",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3341bf9c1055"
+   }
+  },
+  {
+   "card": "Tainted Peak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tainted Peak",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3766e8e40ec9"
+   }
+  },
+  {
+   "card": "South Wind Avatar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "South Wind Avatar",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "South Wind Avatar",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:7732ceec7f87"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:c80f246df65b"
+   }
+  },
+  {
+   "card": "Read the Bones",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Read the Bones",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Read the Bones",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:73e54c24138e"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3616c17dfde9"
+   }
+  },
+  {
+   "card": "Kardur, Doomscourge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kardur, Doomscourge",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:d8c6eeda6033"
+   }
+  },
+  {
+   "card": "Moseo, Vein's New Dean",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Moseo, Vein's New Dean",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7918551d9daa"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Bedevil",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:23a4f3b77ab3"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Wall of Limbs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wall of Limbs",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:26863b288a52"
+   }
+  },
+  {
+   "card": "Essence Pulse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Pulse",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:848445cf81b0"
+   }
+  },
+  {
+   "card": "Bloodfell Caves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodfell Caves",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7f2d641fafcf"
+   }
+  },
+  {
+   "card": "Dismal Backwater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dismal Backwater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6644775ac720"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:25c9b5180166"
+   }
+  },
+  {
+   "card": "Scion of the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scion of the Swarm",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:f87c8353ea73"
+   }
+  },
+  {
+   "card": "Witch's Cottage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Witch's Cottage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:61dc06720470"
+   }
+  },
+  {
+   "card": "Paradise Plume",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Paradise Plume",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:8776825f8e7b"
+   }
+  },
+  {
+   "card": "Infernal Grasp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infernal Grasp",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:314e5f17c429"
+   }
+  },
+  {
+   "card": "Defiling Daemogoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Defiling Daemogoth",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:9c2827713740"
+   }
+  },
+  {
+   "card": "Tainted Well",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tainted Well",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:1f60d3d3017a"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:eda78708a87f"
+   }
+  },
+  {
+   "card": "Liliana of the Dark Realms",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana of the Dark Realms",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:01504fb432bb"
+   }
+  },
+  {
+   "card": "Leechridden Swamp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leechridden Swamp",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0b2cd5b12077"
+   }
+  },
+  {
+   "card": "Twilight Prophet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twilight Prophet",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:f87745f6b261"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:a3f7dbed23a6"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:42a3e7c6c385"
+   }
+  },
+  {
+   "card": "Nightcreep",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0ba472bdfc00"
+   }
+  },
+  {
+   "card": "Bloodbond Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodbond Vampire",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:94688a201d2e"
+   }
+  },
+  {
+   "card": "Lashwrithe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:eae090da2aeb"
+   }
+  },
+  {
+   "card": "Mutilate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mutilate",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:81f6fa43eed3"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:441fc608b0d8"
+   }
+  },
+  {
+   "card": "Vilis, Broker of Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:b96ee1c60e63"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:abd6fcc39597"
+   }
+  },
+  {
+   "card": "Witch's Clinic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Witch's Clinic",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3686050df802"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6920eb3bbb76"
+   }
+  },
+  {
+   "card": "Cabal Stronghold",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cabal Stronghold",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:49f48e34e403"
+   }
+  },
+  {
+   "card": "Revenge of Ravens",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Revenge of Ravens",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:c0d3cbdc5326"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:095d4a4aa651"
+   }
+  },
+  {
+   "card": "Sheoldred, Whispering One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, Whispering One",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:a2bbb55ecfb9"
+   }
+  },
+  {
+   "card": "Bubbling Muck",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bubbling Muck",
+       "cut": "Consuming Corruption"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:e233884b319f"
+   }
+  },
+  {
+   "card": "Castle Locthwain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Castle Locthwain",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ef31c45d1649"
+   }
+  },
+  {
+   "card": "Fetid Pools",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fetid Pools",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:68a2b3c7e7c0"
+   }
+  },
+  {
+   "card": "Pristine Talisman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pristine Talisman",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ccc7e549950a"
+   }
+  },
+  {
+   "card": "Wrexial, the Risen Deep",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7da92ba508f7"
+   }
+  },
+  {
+   "card": "Snuff Out",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snuff Out",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:fc1d6c81eee8"
+   }
+  },
+  {
+   "card": "Tree of Perdition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tree of Perdition",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Tree of Perdition",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:1306a9ec2384"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ae8c44345b11"
+   }
+  },
+  {
+   "card": "Canyon Slough",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Canyon Slough",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:fe6f11fd2b48"
+   }
+  },
+  {
+   "card": "Gwenom, Remorseless",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gwenom, Remorseless",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gwenom, Remorseless",
+       "cut": "Exsanguinate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:572b5db3aede"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ca2c4476546f"
+   }
+  },
+  {
+   "card": "Swiftwater Cliffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftwater Cliffs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:855d6147ce9c"
+   }
+  },
+  {
+   "card": "Grievous Wound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grievous Wound",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Grievous Wound",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:e6763d71533b"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:2386bd467f36"
+   }
+  },
+  {
+   "card": "Diabolic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diabolic Tutor",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:49c11e2f618e"
+   }
+  },
+  {
+   "card": "Shard of the Nightbringer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shard of the Nightbringer",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Shard of the Nightbringer",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:da64ccfcad29"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:f06ea7f50013"
+   }
+  },
+  {
+   "card": "Blood Tribute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Tribute",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Blood Tribute",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:6043f695f1a0"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:cb3255a2e572"
+   }
+  },
+  {
+   "card": "Scheming Silvertongue // Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scheming Silvertongue // Sign in Blood",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:67f99d942ba3"
+   }
+  },
+  {
+   "card": "Marina Vendrell's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:85856307b34c"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:788fcaa9d09b"
+   }
+  },
+  {
+   "card": "Starving Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starving Revenant",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starving Revenant",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:7cb675f1ba6d"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:4dbf5cfa4ab5"
+   }
+  },
+  {
+   "card": "Lich's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Lich's Mastery",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:b7f2a987a8a0"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:a913aa176861"
+   }
+  },
+  {
+   "card": "Stensian Sanguinist // Exsanguinate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stensian Sanguinist // Exsanguinate",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:d44f2c99d46a"
+   }
+  },
+  {
+   "card": "Orcish Farmer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Scourge of the Skyclaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Skyclaves",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Scourge of the Skyclaves",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:46fa6c68608c"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:98dd09457724"
+   }
+  },
+  {
+   "card": "Torgaar, Famine Incarnate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torgaar, Famine Incarnate",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Torgaar, Famine Incarnate",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:b3089d35fb6a"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:8026a986cd83"
+   }
+  },
+  {
+   "card": "Golem's Heart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Golem's Heart",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Golem's Heart",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:3fb444945c54"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:e41056546ee6"
+   }
+  },
+  {
+   "card": "Undermine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undermine",
+       "cut": "Swan Song"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:f4e172026efe"
+   }
+  },
+  {
+   "card": "Tezzeret, Agent of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Agent of Bolas",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Tezzeret, Agent of Bolas",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:dcce36fc09d6"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0db301135bda"
+   }
+  },
+  {
+   "card": "Nefarious Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Nefarious Lich",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:3a4a9c408fc9"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:eea73b6318bd"
+   }
+  },
+  {
+   "card": "Arnyn, Deathbloom Botanist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arnyn, Deathbloom Botanist",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:5b90b193b1e0"
+   }
+  },
+  {
+   "card": "Volcano Hellion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volcano Hellion",
+       "cut": "Alhammarret's Archive"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Volcano Hellion",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:1152cb0d7c18"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:03b3064f1152"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:92b50936cbb6"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:4c6c7e372ce7"
+   }
+  },
+  {
+   "card": "Nightmare Lash",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:376633fc7694"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:9e4b106e23b9"
+   }
+  },
+  {
+   "card": "Silversmote Ghoul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silversmote Ghoul",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:cc2d4bf67b31"
+   }
+  },
+  {
+   "card": "Trespasser's Curse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trespasser's Curse",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:9dee938026ee"
+   }
+  },
+  {
+   "card": "Mask of Griselbrand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mask of Griselbrand",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:e8e925743b10"
+   }
+  },
+  {
+   "card": "Ebonblade Reaper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3966-5755",
+         "5755-6191"
+        ]
+       },
+       "add": "Ebonblade Reaper",
+       "cut": "Enduring Tenacity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:865a90586d85"
+   }
+  },
+  {
+   "card": "Sneering Shadewriter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sneering Shadewriter",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0f3a35c5d2e9"
+   }
+  },
+  {
+   "card": "Alpharael, Stonechosen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3966-5755",
+         "5755-6191"
+        ]
+       },
+       "add": "Alpharael, Stonechosen",
+       "cut": "Enduring Tenacity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:9167453f2e5d"
+   }
+  },
+  {
+   "card": "Corrupt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Charcoal Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Charcoal Diamond",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:4f0dfb3ff461"
+   }
+  },
+  {
+   "card": "Tendrils of Corruption",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tendrils of Corruption",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:013ebcde9a65"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:3f9960eef864"
+   }
+  },
+  {
+   "card": "Vengeful Bloodwitch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vengeful Bloodwitch",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:e5bb6f5959ad"
+   }
+  },
+  {
+   "card": "Vampire Nighthawk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Nighthawk",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:cc719010dd9c"
+   }
+  },
+  {
+   "card": "Nighthawk Scavenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nighthawk Scavenger",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0531915cd15e"
+   }
+  },
+  {
+   "card": "Sangromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sangromancer",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:03a82764b3e3"
+   }
+  },
+  {
+   "card": "Falkenrath Noble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Falkenrath Noble",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:635f43b9a5ed"
+   }
+  },
+  {
+   "card": "Qarsi Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Qarsi Revenant",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:fbc53b9576f0"
+   }
+  },
+  {
+   "card": "Sanctum Seeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sanctum Seeker",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:4e84a7f9a29c"
+   }
+  },
+  {
+   "card": "Indulgent Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Indulgent Aristocrat",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:536e3aed68cb"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:35b0ee07e976"
+   }
+  },
+  {
+   "card": "Vein Ripper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vein Ripper",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:2906e84959aa"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ec1863539b54"
+   }
+  },
+  {
+   "card": "Metamorphosis Fanatic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Metamorphosis Fanatic",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:b9c476c89e3a"
+   }
+  },
+  {
+   "card": "Nirkana Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nirkana Revenant",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6cdcc884e132"
+   }
+  },
+  {
+   "card": "Retreat to Hagra",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retreat to Hagra",
+       "cut": "Alhammarret's Archive"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:863720a0aba1"
+   }
+  },
+  {
+   "card": "Vampire of the Dire Moon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire of the Dire Moon",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:186ba93c9444"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:03cf19b2166d"
+   }
+  },
+  {
+   "card": "Malakir Bloodwitch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Malakir Bloodwitch",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:18e2aa54ce4d"
+   }
+  },
+  {
+   "card": "Crossway Troublemakers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crossway Troublemakers",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:38b176d9ff76"
+   }
+  },
+  {
+   "card": "Markov Baron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Markov Baron",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:d5c5ecad8ad8"
+   }
+  },
+  {
+   "card": "The Master of Lake-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master of Lake-town",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:f5d75b11479d"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:df84d3c2680f"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:9b9613dda6f5"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ff6a922276cd"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:445230c75dde"
+   }
+  },
+  {
+   "card": "Pox Plague",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pox Plague",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pox Plague",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:635f6262f83f"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:49994eff2408"
+   }
+  },
+  {
+   "card": "Quag Vampires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quag Vampires",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:946844d19bfe"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:68c5bf775641"
+   }
+  },
+  {
+   "card": "Guul Draz Overseer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guul Draz Overseer",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:81756e33acbf"
+   }
+  },
+  {
+   "card": "Underworld Breach",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Underworld Dreams"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:24f61cc898ee"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ad652cfd170f"
+   }
+  },
+  {
+   "card": "Blighted Shaman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blighted Shaman",
+       "cut": "Baleful Strix"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:39d11342de22"
+   }
+  },
+  {
+   "card": "Blazemire Verge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazemire Verge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:acad1df553a4"
+   }
+  },
+  {
+   "card": "Gloomlake Verge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gloomlake Verge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ae2b969e4fa8"
+   }
+  },
+  {
+   "card": "Brash Taunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brash Taunter",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Brash Taunter",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:c479cbc1f714"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7403d10a88bb"
+   }
+  },
+  {
+   "card": "Rite of Replication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Replication",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Replication",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:a8eea656fc51"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:32f024f2fc3d"
+   }
+  },
+  {
+   "card": "Cyberdrive Awakener",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyberdrive Awakener",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Cyberdrive Awakener",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:b316c5d4bf80"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:cecabecdd1a2"
+   }
+  },
+  {
+   "card": "Mindcrank",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindcrank",
+       "cut": "Mana Vault"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1078-2302"
+        ]
+       },
+       "add": "Mindcrank",
+       "cut": "Grindstone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:2d572c3b914f"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:d4c1e2acbc74"
+   }
+  },
+  {
+   "card": "Spymaster's Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spymaster's Vault",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:8778c3677154"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:08b0f3400e07"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:63dc6596469f"
+   }
+  },
+  {
+   "card": "Unstoppable Slasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Slasher",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Unstoppable Slasher",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:23cb04ba43bd"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:4adcb12f69c2"
+   }
+  },
+  {
+   "card": "Karn, the Great Creator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:36e79be42994"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:cae81af85fda"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7d3c9eefdff2"
+   }
+  },
+  {
+   "card": "Quietus Spike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quietus Spike",
+       "cut": "Mana Vault"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1078-2302"
+        ]
+       },
+       "add": "Quietus Spike",
+       "cut": "Grindstone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:885f31cabadc"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:ecdfa60fab1f"
+   }
+  },
+  {
+   "card": "Fortune Teller's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fortune Teller's Talent",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fortune Teller's Talent",
+       "cut": "Underworld Dreams"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:cb868e1e987e"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:449d1a134c14"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-4740-5078",
+         "3966-4740",
+         "4740-6191"
+        ]
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Aetherflux Reservoir"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:593d4e457806"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:437cf442b9f4"
+   }
+  },
+  {
+   "card": "Tezzeret, Betrayer of Flesh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Betrayer of Flesh",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078",
+         "2173-4740-5078"
+        ]
+       },
+       "add": "Tezzeret, Betrayer of Flesh",
+       "cut": "Sensei's Divining Top"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:2a3cacc7dc93"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:a3e58aeb1584"
+   }
+  },
+  {
+   "card": "Jund Panorama",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jund Panorama",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:adc7ea6e5180"
+   }
+  },
+  {
+   "card": "Lake of the Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lake of the Dead",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:77a33c032925"
+   }
+  },
+  {
+   "card": "Rush of Dread",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rush of Dread",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rush of Dread",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:72e21f519d14"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:5faafc413aef"
+   }
+  },
+  {
+   "card": "Shredder, Shadow Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shredder, Shadow Master",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Shredder, Shadow Master",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:bc5bf857d98e"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:849992f77895"
+   }
+  },
+  {
+   "card": "Magus of the Coffers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Coffers",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:169ffc532a29"
+   }
+  },
+  {
+   "card": "Grixis Panorama",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grixis Panorama",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0746d943bf47"
+   }
+  },
+  {
+   "card": "Esper Panorama",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Esper Panorama",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:715a7ad4e0e7"
+   }
+  },
+  {
+   "card": "Scytheclaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scytheclaw",
+       "cut": "Mana Vault"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1078-2302"
+        ]
+       },
+       "add": "Scytheclaw",
+       "cut": "Grindstone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:09bc17fb4fe2"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:2bd5a03a53c2"
+   }
+  },
+  {
+   "card": "Myr Welder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myr Welder",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Myr Welder",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:d888ebc37600"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:29c1153a7328"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Underworld Dreams"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:b4dc364d80d5"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:246132efa300"
+   }
+  },
+  {
+   "card": "Virtus the Veiled",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Virtus the Veiled",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Virtus the Veiled",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:ff35b5066721"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:62b29c8c8f23"
+   }
+  },
+  {
+   "card": "Katsumasa, the Animator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Katsumasa, the Animator",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Katsumasa, the Animator",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:590cc15dd835"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:62b01811a3e4"
+   }
+  },
+  {
+   "card": "Fraying Omnipotence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fraying Omnipotence",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fraying Omnipotence",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:a2b69ca0a49a"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:a7ec68983624"
+   }
+  },
+  {
+   "card": "Urborg",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:21d4c189f40c"
+   }
+  },
+  {
+   "card": "Mishra, Eminent One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mishra, Eminent One",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Mishra, Eminent One",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:8e3fec880d8b"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:5bd260b01871"
+   }
+  },
+  {
+   "card": "Trazyn the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trazyn the Infinite",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Trazyn the Infinite",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:756f507fde9c"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:600ee03fc2ce"
+   }
+  },
+  {
+   "card": "Everglades",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Everglades",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:248343099094"
+   }
+  },
+  {
+   "card": "Karn, Silver Golem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karn, Silver Golem",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Karn, Silver Golem",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:d47ed2c20edb"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:120c4f6f70f3"
+   }
+  },
+  {
+   "card": "March of the Machines",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Underworld Dreams"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:9dbbd56b5077"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:d025e5872ff7"
+   }
+  },
+  {
+   "card": "Leshrac's Sigil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leshrac's Sigil",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leshrac's Sigil",
+       "cut": "Underworld Dreams"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:d929ef537b9c"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:14781eab6d40"
+   }
+  },
+  {
+   "card": "Toymaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toymaker",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Toymaker",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:4fc7d81d70bf"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:874bbd2ea305"
+   }
+  },
+  {
+   "card": "Xenic Poltergeist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xenic Poltergeist",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Xenic Poltergeist",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:7961900c7339"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:0c8fb2b6ce29"
+   }
+  },
+  {
+   "card": "Yotia Declares War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yotia Declares War",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6ac4573a13d7"
+   }
+  },
+  {
+   "card": "Skilled Animator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skilled Animator",
+       "cut": "Baleful Strix"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2173-2498-5078"
+        ]
+       },
+       "add": "Skilled Animator",
+       "cut": "Sheoldred, the Apocalypse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:32919e335d7e"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6083792ca6a2"
+   }
+  },
+  {
+   "card": "Witch Engine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Witch Engine",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:8a96007cc0c7"
+   }
+  },
+  {
+   "card": "Animate Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Artifact",
+       "cut": "Underworld Dreams"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:solkanar-the-swamp-king:m5:b27269bde08e"
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:7f865868c930"
+   }
+  },
+  {
+   "card": "Karn's Touch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karn's Touch",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:solkanar-the-swamp-king:m5:6c37262d9538"
+   }
+  }
+ ],
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "slug": "solkanar-the-swamp-king",
+ "swaps": [
+  {
+   "adds": [
+    "Sanguine Bond"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:62595520eafc"
+  },
+  {
+   "adds": [
+    "Sanguine Bond"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6be0ec716781"
+  },
+  {
+   "adds": [
+    "Epicure of Blood"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:39d10fb47d1a"
+  },
+  {
+   "adds": [
+    "Bloodthirsty Aerialist"
+   ],
+   "cuts": [
+    "Bloodthirsty Conqueror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7d12c282e411"
+  },
+  {
+   "adds": [
+    "Veinwitch Coven"
+   ],
+   "cuts": [
+    "Bloodthirsty Conqueror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3d293f1a8c6a"
+  },
+  {
+   "adds": [
+    "Defiant Bloodlord"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f3bc4a7fa8ba"
+  },
+  {
+   "adds": [
+    "Staff of the Death Magus"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:07bcafe5cdf2"
+  },
+  {
+   "adds": [
+    "Filth"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7522337f716d"
+  },
+  {
+   "adds": [
+    "Well of Lost Dreams"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ea09f4ced449"
+  },
+  {
+   "adds": [
+    "Well of Lost Dreams"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eb72b5c47c44"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:328b69d31715"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8e264ef4eac9"
+  },
+  {
+   "adds": [
+    "Greed"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3a4bbacd42ac"
+  },
+  {
+   "adds": [
+    "Greed"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f34943efefea"
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Bloodthirsty Conqueror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0f61c43c480e"
+  },
+  {
+   "adds": [
+    "Diamond Mare"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6d0834038ea5"
+  },
+  {
+   "adds": [
+    "Diamond Mare"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:46e526de4608"
+  },
+  {
+   "adds": [
+    "Evil Presence"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1a9c90e29aab"
+  },
+  {
+   "adds": [
+    "Prism Ring"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7a44c0385351"
+  },
+  {
+   "adds": [
+    "Prism Ring"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7c3666a6131a"
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c40a63d964fe"
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5b8c6d25188b"
+  },
+  {
+   "adds": [
+    "Contaminated Ground"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:00810b3f6a2d"
+  },
+  {
+   "adds": [
+    "Defile"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9bdaa3421e00"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:64e1c30b11d0"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:863e781a075d"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f8c5122f36f3"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:35fc5b6e4b75"
+  },
+  {
+   "adds": [
+    "Tainted Isle"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5ab46b5207be"
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:67025400063f"
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e72f1bada23e"
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:78ebc8be0be3"
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c5f1e420ace2"
+  },
+  {
+   "adds": [
+    "Countersquall"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c790a4a8c289"
+  },
+  {
+   "adds": [
+    "Blood Artist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3341bf9c1055"
+  },
+  {
+   "adds": [
+    "Tainted Peak"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3766e8e40ec9"
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c80f246df65b"
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7732ceec7f87"
+  },
+  {
+   "adds": [
+    "Read the Bones"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3616c17dfde9"
+  },
+  {
+   "adds": [
+    "Read the Bones"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:73e54c24138e"
+  },
+  {
+   "adds": [
+    "Kardur, Doomscourge"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d8c6eeda6033"
+  },
+  {
+   "adds": [
+    "Moseo, Vein's New Dean"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7918551d9daa"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:23a4f3b77ab3"
+  },
+  {
+   "adds": [
+    "Wall of Limbs"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:26863b288a52"
+  },
+  {
+   "adds": [
+    "Essence Pulse"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:848445cf81b0"
+  },
+  {
+   "adds": [
+    "Bloodfell Caves"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7f2d641fafcf"
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6644775ac720"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:25c9b5180166"
+  },
+  {
+   "adds": [
+    "Scion of the Swarm"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f87c8353ea73"
+  },
+  {
+   "adds": [
+    "Witch's Cottage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:61dc06720470"
+  },
+  {
+   "adds": [
+    "Paradise Plume"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8776825f8e7b"
+  },
+  {
+   "adds": [
+    "Infernal Grasp"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:314e5f17c429"
+  },
+  {
+   "adds": [
+    "Defiling Daemogoth"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9c2827713740"
+  },
+  {
+   "adds": [
+    "Tainted Well"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1f60d3d3017a"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eda78708a87f"
+  },
+  {
+   "adds": [
+    "Liliana of the Dark Realms"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:01504fb432bb"
+  },
+  {
+   "adds": [
+    "Leechridden Swamp"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0b2cd5b12077"
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f87745f6b261"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a3f7dbed23a6"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:42a3e7c6c385"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0ba472bdfc00"
+  },
+  {
+   "adds": [
+    "Bloodbond Vampire"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:94688a201d2e"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eae090da2aeb"
+  },
+  {
+   "adds": [
+    "Mutilate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:81f6fa43eed3"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:441fc608b0d8"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:abd6fcc39597"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b96ee1c60e63"
+  },
+  {
+   "adds": [
+    "Witch's Clinic"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3686050df802"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6920eb3bbb76"
+  },
+  {
+   "adds": [
+    "Cabal Stronghold"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:49f48e34e403"
+  },
+  {
+   "adds": [
+    "Revenge of Ravens"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c0d3cbdc5326"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:095d4a4aa651"
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a2bbb55ecfb9"
+  },
+  {
+   "adds": [
+    "Bubbling Muck"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e233884b319f"
+  },
+  {
+   "adds": [
+    "Castle Locthwain"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ef31c45d1649"
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:68a2b3c7e7c0"
+  },
+  {
+   "adds": [
+    "Pristine Talisman"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ccc7e549950a"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7da92ba508f7"
+  },
+  {
+   "adds": [
+    "Snuff Out"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:fc1d6c81eee8"
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ae8c44345b11"
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1306a9ec2384"
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:fe6f11fd2b48"
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ca2c4476546f"
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Exsanguinate"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:572b5db3aede"
+  },
+  {
+   "adds": [
+    "Swiftwater Cliffs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:855d6147ce9c"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2386bd467f36"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e6763d71533b"
+  },
+  {
+   "adds": [
+    "Diabolic Tutor"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:49c11e2f618e"
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f06ea7f50013"
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:da64ccfcad29"
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cb3255a2e572"
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6043f695f1a0"
+  },
+  {
+   "adds": [
+    "Scheming Silvertongue // Sign in Blood"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:67f99d942ba3"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:788fcaa9d09b"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:85856307b34c"
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4dbf5cfa4ab5"
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7cb675f1ba6d"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a913aa176861"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b7f2a987a8a0"
+  },
+  {
+   "adds": [
+    "Stensian Sanguinist // Exsanguinate"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d44f2c99d46a"
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:98dd09457724"
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:46fa6c68608c"
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8026a986cd83"
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b3089d35fb6a"
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e41056546ee6"
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3fb444945c54"
+  },
+  {
+   "adds": [
+    "Undermine"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f4e172026efe"
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0db301135bda"
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:dcce36fc09d6"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eea73b6318bd"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3a4a9c408fc9"
+  },
+  {
+   "adds": [
+    "Arnyn, Deathbloom Botanist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5b90b193b1e0"
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:03b3064f1152"
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1152cb0d7c18"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4c6c7e372ce7"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:92b50936cbb6"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:376633fc7694"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9e4b106e23b9"
+  },
+  {
+   "adds": [
+    "Silversmote Ghoul"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cc2d4bf67b31"
+  },
+  {
+   "adds": [
+    "Trespasser's Curse"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9dee938026ee"
+  },
+  {
+   "adds": [
+    "Mask of Griselbrand"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e8e925743b10"
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:865a90586d85"
+  },
+  {
+   "adds": [
+    "Sneering Shadewriter"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0f3a35c5d2e9"
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9167453f2e5d"
+  },
+  {
+   "adds": [
+    "Charcoal Diamond"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4f0dfb3ff461"
+  },
+  {
+   "adds": [
+    "Tendrils of Corruption"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:013ebcde9a65"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3f9960eef864"
+  },
+  {
+   "adds": [
+    "Vengeful Bloodwitch"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e5bb6f5959ad"
+  },
+  {
+   "adds": [
+    "Vampire Nighthawk"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cc719010dd9c"
+  },
+  {
+   "adds": [
+    "Nighthawk Scavenger"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0531915cd15e"
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:03a82764b3e3"
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:635f43b9a5ed"
+  },
+  {
+   "adds": [
+    "Qarsi Revenant"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:fbc53b9576f0"
+  },
+  {
+   "adds": [
+    "Sanctum Seeker"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4e84a7f9a29c"
+  },
+  {
+   "adds": [
+    "Indulgent Aristocrat"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:536e3aed68cb"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:35b0ee07e976"
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2906e84959aa"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ec1863539b54"
+  },
+  {
+   "adds": [
+    "Metamorphosis Fanatic"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b9c476c89e3a"
+  },
+  {
+   "adds": [
+    "Nirkana Revenant"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6cdcc884e132"
+  },
+  {
+   "adds": [
+    "Retreat to Hagra"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:863720a0aba1"
+  },
+  {
+   "adds": [
+    "Vampire of the Dire Moon"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:186ba93c9444"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:03cf19b2166d"
+  },
+  {
+   "adds": [
+    "Malakir Bloodwitch"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:18e2aa54ce4d"
+  },
+  {
+   "adds": [
+    "Crossway Troublemakers"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:38b176d9ff76"
+  },
+  {
+   "adds": [
+    "Markov Baron"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d5c5ecad8ad8"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:df84d3c2680f"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f5d75b11479d"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ff6a922276cd"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9b9613dda6f5"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:445230c75dde"
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:49994eff2408"
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:635f6262f83f"
+  },
+  {
+   "adds": [
+    "Quag Vampires"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:946844d19bfe"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:68c5bf775641"
+  },
+  {
+   "adds": [
+    "Guul Draz Overseer"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:81756e33acbf"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ad652cfd170f"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:24f61cc898ee"
+  },
+  {
+   "adds": [
+    "Blighted Shaman"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:39d11342de22"
+  },
+  {
+   "adds": [
+    "Blazemire Verge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:acad1df553a4"
+  },
+  {
+   "adds": [
+    "Gloomlake Verge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ae2b969e4fa8"
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7403d10a88bb"
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c479cbc1f714"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:32f024f2fc3d"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a8eea656fc51"
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cecabecdd1a2"
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b316c5d4bf80"
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Mana Vault"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d4c1e2acbc74"
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Grindstone"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2d572c3b914f"
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8778c3677154"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:63dc6596469f"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:08b0f3400e07"
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4adcb12f69c2"
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:23cb04ba43bd"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cae81af85fda"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:36e79be42994"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7d3c9eefdff2"
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Mana Vault"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ecdfa60fab1f"
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Grindstone"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:885f31cabadc"
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:449d1a134c14"
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cb868e1e987e"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:437cf442b9f4"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:593d4e457806"
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a3e58aeb1584"
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2a3cacc7dc93"
+  },
+  {
+   "adds": [
+    "Jund Panorama"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:adc7ea6e5180"
+  },
+  {
+   "adds": [
+    "Lake of the Dead"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:77a33c032925"
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5faafc413aef"
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:72e21f519d14"
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:849992f77895"
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:bc5bf857d98e"
+  },
+  {
+   "adds": [
+    "Magus of the Coffers"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:169ffc532a29"
+  },
+  {
+   "adds": [
+    "Grixis Panorama"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0746d943bf47"
+  },
+  {
+   "adds": [
+    "Esper Panorama"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:715a7ad4e0e7"
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Mana Vault"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2bd5a03a53c2"
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Grindstone"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:09bc17fb4fe2"
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:29c1153a7328"
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d888ebc37600"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:246132efa300"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b4dc364d80d5"
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:62b29c8c8f23"
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ff35b5066721"
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:62b01811a3e4"
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:590cc15dd835"
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a7ec68983624"
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a2b69ca0a49a"
+  },
+  {
+   "adds": [
+    "Urborg"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:21d4c189f40c"
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5bd260b01871"
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8e3fec880d8b"
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:600ee03fc2ce"
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:756f507fde9c"
+  },
+  {
+   "adds": [
+    "Everglades"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:248343099094"
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:120c4f6f70f3"
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d47ed2c20edb"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d025e5872ff7"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9dbbd56b5077"
+  },
+  {
+   "adds": [
+    "Leshrac's Sigil"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:14781eab6d40"
+  },
+  {
+   "adds": [
+    "Leshrac's Sigil"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d929ef537b9c"
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:874bbd2ea305"
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4fc7d81d70bf"
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0c8fb2b6ce29"
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7961900c7339"
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6ac4573a13d7"
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6083792ca6a2"
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:32919e335d7e"
+  },
+  {
+   "adds": [
+    "Witch Engine"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8a96007cc0c7"
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7f865868c930"
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b27269bde08e"
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6c37262d9538"
+  }
+ ]
+}

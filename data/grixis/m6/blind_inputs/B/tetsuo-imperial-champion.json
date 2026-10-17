@@ -1,0 +1,2301 @@
+{
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+ "slug": "tetsuo-imperial-champion",
+ "swaps": [
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:75dac09407dc",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:21bf34428e0fe3ea"
+   ]
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b8b8c88b1932",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b9c0220d2b46",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:9892e28af6f0f841"
+   ]
+  },
+  {
+   "adds": [
+    "Seize the Day"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b9033453d58c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seize the Day"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6949dafe91f9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:f851e41f7a04ca86"
+   ]
+  },
+  {
+   "adds": [
+    "Pact Weapon"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d054c7b76ef1",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:26ee1ea5d3bed388"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0a2f995f118c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magnetic Theft"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0ce3c48a6760",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:28d625394b41646b"
+   ]
+  },
+  {
+   "adds": [
+    "Magnetic Theft"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1a1b68e5e535",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:edbd2fb7af2ff9ed"
+   ]
+  },
+  {
+   "adds": [
+    "Slip Out the Back"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e602170aa1ce",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:04ce67f68990e15a"
+   ]
+  },
+  {
+   "adds": [
+    "Drach'Nyen"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5763c02eca2d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8d3dec0eb88d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:90c66f56eb73",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:e0ab1a0d15c6f084"
+   ]
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:740f038d0f3d",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c67f4766bcfe22b6"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6927cbab3c9c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b9a989142da9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:f176f3d3201fbb65"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:82cd600a371f",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:9a402a7cfb90def9"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:021421d4a33d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sword of Hearth and Home"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0bec97720725",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:e2d042cca69c968b"
+   ]
+  },
+  {
+   "adds": [
+    "Relentless Assault"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:94ea0dd647da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Relentless Assault"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:62fa7765b2e2",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:5aff832673cfaeef"
+   ]
+  },
+  {
+   "adds": [
+    "Blackblade Reforged"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d98b30533243",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:29c88c1d3ba656db"
+   ]
+  },
+  {
+   "adds": [
+    "Blackblade Reforged"
+   ],
+   "cuts": [
+    "Leyline Axe"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:07fe1af8d8e4",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:2fce6430ea327d7a"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Wealth and Power"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a41f711921ec",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:95970ff15fdc7b69"
+   ]
+  },
+  {
+   "adds": [
+    "Mask of Riddles"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c6c4191da9bd",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:1aa96dcdad89b079"
+   ]
+  },
+  {
+   "adds": [
+    "Blade of the Oni"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0915c07f65db",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blade of the Oni"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e3df441ac077",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:6f84df24bd64f8aa"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b3dc9255c355",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unscythe, Killer of Kings"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c47456c8574b",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:7e19934240003a1c"
+   ]
+  },
+  {
+   "adds": [
+    "Unscythe, Killer of Kings"
+   ],
+   "cuts": [
+    "Leyline Axe"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:65a1611e0e5c",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:01c0ec8102db5e9a"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowspear"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4b1014a6b427",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ebdb0b1b89daa492"
+   ]
+  },
+  {
+   "adds": [
+    "Champion's Helm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4e869eaff000",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d9c2a1cbd5bc",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:417b8c247c4f05da"
+   ]
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6733336024c6",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:be5bf2b46a33656d"
+   ]
+  },
+  {
+   "adds": [
+    "Tainted Strike"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:3b5284c9768b",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ea50f2535673e99a"
+   ]
+  },
+  {
+   "adds": [
+    "Tainted Strike"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b8bc7313d631",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:6ffeaa3691f67b99"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Machine"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f1a48731fd05",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:153eaa9446a7b2bc"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Ageless Innovator"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:00214327c318",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:f021c3bdd73d41ea"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:157a8a016e1f",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:718bba427a4912fd"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:21801c83236f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fda0fd3129f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:130e1e85ecb5",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:f642b9909b2fa9e7"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:98fc8c111b98",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:72766d5c41be30a8"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Vengeance"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4edee48b8e5e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sword of Vengeance"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0430572703c9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:49fa3718e24d6582"
+   ]
+  },
+  {
+   "adds": [
+    "Chart a Course"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f445c46eea73",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:7f75a4ab92ae1f13"
+   ]
+  },
+  {
+   "adds": [
+    "Mjölnir, Hammer of Thor"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:001bab35a514",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nazgûl Battle-Mace"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:38ef8380702e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nazgûl Battle-Mace"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5a30b3ff4027",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:776ef8f01a5c3fa9"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonfire Blade"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4143436341ff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Acquisition Octopus"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:9de9fd100db7",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ca6b254a404de844"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e82dc9130c1a",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:5dd1fb42b4d3f42a"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:49bbdbbf2594",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:3f15472a5ee3466c"
+   ]
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c9a4070303f6",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:5505f4b1ebe90027"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b2202ac4c7a9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:28756ab59dcf0786"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Power Suit"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:320bc17bb626",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:9fcbf2609901c1cc"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b55f02e84228",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:5faebde8cdce7973"
+   ]
+  },
+  {
+   "adds": [
+    "Glamdring"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:91447c90dd5d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glamdring"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a2ec4f337fd9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:dd7cbd93e06a8943"
+   ]
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5e278ff73572",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:db752b6e4299cf8b"
+   ]
+  },
+  {
+   "adds": [
+    "The Key to the Vault"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:91e8e17ad1bd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:552c2d16f7e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:88b7569a55a6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sword of Once and Future"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5b1eab254dba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1548139aebd8",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c904774c58d149b2"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:23bf4765f0a6",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:7fc73f2aa2c3556f"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6a833bbf485e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Umezawa's Jitte"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:89c310adc7a9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d2844b751abf",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:37194c4a22ae85ec"
+   ]
+  },
+  {
+   "adds": [
+    "Tenza, Godo's Maul"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:7473ed88b792",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:39b3feb299dccc30"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:17f0563b9e61",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:7e174e98ea8aeb7a"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:112a196b3d91",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:8d53dfd72a8144b5"
+   ]
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:51d53e6149b7",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:aef810c62efb1751"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1124789e0f73",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c8f43726a24b22ea"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f8dd964433db",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:4e6a4da0776de276"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Forge and Frontier"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:32f947364589",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grafted Exoskeleton"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:043a180e3a90",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:2148ba8b071b1267"
+   ]
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:3a680ccadbf0",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:92eaee03ce26ed70"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fa51aaaec8ea",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c8b1feda3439992b"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:9ca0e75e4852",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Trophy Mage"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cd4a6326582b",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ff240d225b51c234"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5de153827cba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e7de607d2695",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:802518b6c4c92077"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5a3f97cfa6ff",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:7070d517d41af32e"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cf540afa1f46",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:f9aba0c0129ba41a"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:417129ef7add",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:fd54085d4c20d4a8"
+   ]
+  },
+  {
+   "adds": [
+    "Plaza of Heroes"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cbe51daa28f8",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d3e4f082a4889e6f"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5ed96f585523",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:22d95e14008e2f73"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:46e3cba18665",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:f79a59d4db8aabd8"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b16867eba814",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:450dafc56be91590"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:02c90f69f770",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:8050521cd7da8d79"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:bc2292848929",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:1be92bbdc96a1a7d"
+   ]
+  },
+  {
+   "adds": [
+    "Shinka, the Bloodsoaked Keep"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:2bc5a15c2c2a",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:69b2b5d5ce8f738b"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6aff09259205",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:3c585fe7a932669e"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:2eaa7958903d",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:9fd7bae1e7086ed1"
+   ]
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:41ba95d5f3f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:eef1814b45763567"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:9c34cb8358bd",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ac46836d72438333"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f2a12c0932ca",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d452621f4d947595"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4f2426ff174d",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:43beaa64b5777263"
+   ]
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b2d97b6bfa36",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:7efdb60237ab2a5e"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e341fc7b833c",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:733d5314e5fe869c"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Tutor"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:43cc408ca500",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:610d0298a70933be"
+   ]
+  },
+  {
+   "adds": [
+    "Surge to Victory"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:706029979f6e",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:1a2951ddc9814702"
+   ]
+  },
+  {
+   "adds": [
+    "Surge to Victory"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:39b9e708331e",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c85e9dce22ee3527"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6eed754932b1",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d77cf86ca19a90dc"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f6eaf534c248",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:0af0c092eaff7f67"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:13f8260869b7",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:3aaf7dd02e0d9598"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6ae1e5dbaf01",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d52006c366900c24"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ad408291dbb7",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:3c9a1c85bb5f6d80"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:36cfc8baa30f",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d70b47fb345b0b00"
+   ]
+  },
+  {
+   "adds": [
+    "March of Swirling Mist"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c4e90ad17568",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:b2937df43ddb0230"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ae7f04dd1af9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:8ef40be8a5760ede"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ec89f9c28e79",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ee0c727770e55929"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:955aae7f6d63",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:151f656838262995"
+   ]
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:de2862b432de",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:6b1f015d7fbbb1bc"
+   ]
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a08e85efe7f7",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d1379c5e2202fc50"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a0c3c1902a17",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:30d26472595fa35c"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:2b68cfa93df2",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:92750c4471a330ea"
+   ]
+  },
+  {
+   "adds": [
+    "Damnation"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:82048bd3a77d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:4e0812fd2fb41207"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b90fd1e0fa88",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:db9978046b789852"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cd583fe559b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:711a9b047c8c",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:a897decf0c41d376"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Rollick"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b7c7262ad825",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cb2dbe3d8036",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:274a911d200b4388"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5c9acd5415f1",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:2f58082aecac2748"
+   ]
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8b6e88e6f603",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:d78768f04d2bb16f"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c11a6434648c",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:a5dcd1a28dd8767a"
+   ]
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:72263c44ce93",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Diabolic Tutor"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:312566140242",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:28fdd51d57739dc3"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fdf2e53976f1",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:5e7ddc78eacb3882"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d855ed0c718b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8358260ad930",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:3d3743ad80eaf979"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f1900c1fd5e3",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:6ae4d9bb8b8f342f"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ee3503eb7f18",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:b121784851268e5b"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6e51015e32f8",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:498d9896052b0f26"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fca99dc57cf6",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:ad680d32f905c178"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:87afc8f3523d",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:0215b76320c5ea97"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fa1230c5cb71",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:77add3f1f63b2802"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0b0ac6b42b89",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:185fd9b1e9ceaf15"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:96662accc80f",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c6255b9550dbfdbb"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0332917a1f86",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:51f62e4d8ae6999d"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Leyline Axe"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4c99a9c690ec",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c79844903b132dba"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f92643d1dd43",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:0db43c2fb9f3c252"
+   ]
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fc701ff28962",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:969a4747f38ca534"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:24c2585c59c5",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:2d84c13af186913f"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ed425abe74f4",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:a155364a6faac5f8"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f30c0f085bac",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c09525001e945680"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8debee7486b3",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:dee3126b8e12d7d0"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f9713e71b639",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:3dd68b7889e1ab62"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:3fa3e71f4a1c",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:e35ae032af06a120"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1cbb9b523872",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:c267832aeab52324"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:46663d1cd9e9",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:b96b24332a8d7e11"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4",
+   "tests": [
+    "test:tetsuo-imperial-champion:goldfish:6cca156947520619"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:21bf34428e0fe3ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:9892e28af6f0f841",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:f851e41f7a04ca86",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:26ee1ea5d3bed388",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:28d625394b41646b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:edbd2fb7af2ff9ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:04ce67f68990e15a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:e0ab1a0d15c6f084",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c67f4766bcfe22b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:f176f3d3201fbb65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:9a402a7cfb90def9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:e2d042cca69c968b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:5aff832673cfaeef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:29c88c1d3ba656db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:2fce6430ea327d7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:95970ff15fdc7b69",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:1aa96dcdad89b079",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:6f84df24bd64f8aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:7e19934240003a1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:01c0ec8102db5e9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ebdb0b1b89daa492",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:417b8c247c4f05da",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:be5bf2b46a33656d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ea50f2535673e99a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:6ffeaa3691f67b99",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:153eaa9446a7b2bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:f021c3bdd73d41ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:718bba427a4912fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:f642b9909b2fa9e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:72766d5c41be30a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:49fa3718e24d6582",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:7f75a4ab92ae1f13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:776ef8f01a5c3fa9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ca6b254a404de844",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:5dd1fb42b4d3f42a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:3f15472a5ee3466c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:5505f4b1ebe90027",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:28756ab59dcf0786",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:9fcbf2609901c1cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:5faebde8cdce7973",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:dd7cbd93e06a8943",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:db752b6e4299cf8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c904774c58d149b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:7fc73f2aa2c3556f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:37194c4a22ae85ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:39b3feb299dccc30",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:7e174e98ea8aeb7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:8d53dfd72a8144b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:aef810c62efb1751",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c8f43726a24b22ea",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:4e6a4da0776de276",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:2148ba8b071b1267",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:92eaee03ce26ed70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c8b1feda3439992b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ff240d225b51c234",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:802518b6c4c92077",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:7070d517d41af32e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:f9aba0c0129ba41a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:fd54085d4c20d4a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d3e4f082a4889e6f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:22d95e14008e2f73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:f79a59d4db8aabd8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:450dafc56be91590",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:8050521cd7da8d79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:1be92bbdc96a1a7d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:69b2b5d5ce8f738b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:3c585fe7a932669e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:9fd7bae1e7086ed1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:eef1814b45763567",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ac46836d72438333",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d452621f4d947595",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:43beaa64b5777263",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:7efdb60237ab2a5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:733d5314e5fe869c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:610d0298a70933be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:1a2951ddc9814702",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c85e9dce22ee3527",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d77cf86ca19a90dc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:0af0c092eaff7f67",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:3aaf7dd02e0d9598",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d52006c366900c24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:3c9a1c85bb5f6d80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d70b47fb345b0b00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:b2937df43ddb0230",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:8ef40be8a5760ede",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ee0c727770e55929",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:151f656838262995",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:6b1f015d7fbbb1bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d1379c5e2202fc50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:30d26472595fa35c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:92750c4471a330ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:4e0812fd2fb41207",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:db9978046b789852",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:a897decf0c41d376",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:274a911d200b4388",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:2f58082aecac2748",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:d78768f04d2bb16f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:a5dcd1a28dd8767a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:28fdd51d57739dc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:5e7ddc78eacb3882",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:3d3743ad80eaf979",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:6ae4d9bb8b8f342f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:b121784851268e5b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:498d9896052b0f26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:ad680d32f905c178",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:0215b76320c5ea97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:77add3f1f63b2802",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:185fd9b1e9ceaf15",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c6255b9550dbfdbb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:51f62e4d8ae6999d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c79844903b132dba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:0db43c2fb9f3c252",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:969a4747f38ca534",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:2d84c13af186913f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:a155364a6faac5f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c09525001e945680",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:dee3126b8e12d7d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:3dd68b7889e1ab62",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:e35ae032af06a120",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:c267832aeab52324",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:b96b24332a8d7e11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:tetsuo-imperial-champion:goldfish:6cca156947520619",
+   "verdict": "inconclusive"
+  }
+ ]
+}

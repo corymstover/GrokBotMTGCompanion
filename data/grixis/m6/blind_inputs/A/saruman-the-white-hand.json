@@ -1,0 +1,5682 @@
+{
+ "candidates": [
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:ba8f2359f77c"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:baebcc47d453"
+   }
+  },
+  {
+   "card": "Lazotep Plating",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lazotep Plating",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:eb7be7e9c338"
+   }
+  },
+  {
+   "card": "Fiery Inscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Inscription",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Inscription",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:833f4eb1168a"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:720e5cacf97c"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:674f709253c7"
+   }
+  },
+  {
+   "card": "Fling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fling",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fling",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:7e632e8f30e9"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:b41d6c010fdc"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:211f44c6288b"
+   }
+  },
+  {
+   "card": "Gríma, Saruman's Footman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gríma, Saruman's Footman",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gríma, Saruman's Footman",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:bac562d96514"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:675f6fb5c699"
+   }
+  },
+  {
+   "card": "Corsairs of Umbar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corsairs of Umbar",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:e326b80b93e8"
+   }
+  },
+  {
+   "card": "March from the Black Gate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March from the Black Gate",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f56fc28cbfa5"
+   }
+  },
+  {
+   "card": "Consider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consider",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:5793af5447dc"
+   }
+  },
+  {
+   "card": "Grishnákh, Brash Instigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grishnákh, Brash Instigator",
+       "cut": "Commence the Endgame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grishnákh, Brash Instigator",
+       "cut": "The Great Goblin"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:71f01ceb7c6a"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:1cf955eb0f83"
+   }
+  },
+  {
+   "card": "Dreadhorde Invasion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dreadhorde Invasion",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:62142107b953"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:970f13bc8f2d"
+   }
+  },
+  {
+   "card": "Deep Analysis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deep Analysis",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:edc32eb85bfe"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d3aacf4c189a"
+   }
+  },
+  {
+   "card": "Gothmog, Morgul Lieutenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gothmog, Morgul Lieutenant",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:5131c3ed8518"
+   }
+  },
+  {
+   "card": "Warg Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warg Rider",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:cec8149887d9"
+   }
+  },
+  {
+   "card": "Lord of the Nazgûl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lord of the Nazgûl",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:24f8fede22e7"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:08454b1eb998"
+   }
+  },
+  {
+   "card": "The Mouth of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mouth of Sauron",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mouth of Sauron",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:be1a5da54567"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d8a4ab8e1fca"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:27fef7782d95"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:4062b95b003b"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:fa71ea413361"
+   }
+  },
+  {
+   "card": "Storm of Saruman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm of Saruman",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:1c66d332059b"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:42cf759cb3ed"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2485efc67e3f"
+   }
+  },
+  {
+   "card": "Mordor Muster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mordor Muster",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:9ecaefc301c9"
+   }
+  },
+  {
+   "card": "Surrounded by Orcs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surrounded by Orcs",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surrounded by Orcs",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:c34c2c7d8f2a"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:81643909015e"
+   }
+  },
+  {
+   "card": "Saruman the White",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saruman the White",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:07394f60c2ef"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:8a899f80c5ab"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:1eddff7bb3e6"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f3f7d1e38fb9"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:eeef2ee01701"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:c24464114a94"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f82f9d050344"
+   }
+  },
+  {
+   "card": "Thrill of Possibility",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:e9383d18f91a"
+   }
+  },
+  {
+   "card": "Fact or Fiction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:0aad104eeed9"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:21b43cdd056f"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:15ca8943b5ab"
+   }
+  },
+  {
+   "card": "Moria Scavenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Moria Scavenger",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:0f517dc4411f"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:9425b5565082"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:22c6c4f6e55a"
+   }
+  },
+  {
+   "card": "Book of Mazarbul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Book of Mazarbul",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d6e083d826a7"
+   }
+  },
+  {
+   "card": "Treasure Nabber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Nabber",
+       "cut": "Rage into the Valley"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:7f659cc4da58"
+   }
+  },
+  {
+   "card": "Wake the Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake the Dragon",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:6bf6d37789c9"
+   }
+  },
+  {
+   "card": "Gathering of Darkness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gathering of Darkness",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:a14480a24239"
+   }
+  },
+  {
+   "card": "Tidings of War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidings of War",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:181ebfd8992c"
+   }
+  },
+  {
+   "card": "Sauron, Lord of the Rings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sauron, Lord of the Rings",
+       "cut": "Swarming of Moria"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:20f19f406f51"
+   }
+  },
+  {
+   "card": "Languish",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Languish",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d230d1529acd"
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:ebaa200c25e8"
+   }
+  },
+  {
+   "card": "Goblin Plate Mail",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Plate Mail",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:c8cea1c2268a"
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:66c3ec19d361"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:4bc18e8f09df"
+   }
+  },
+  {
+   "card": "Invade the City",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invade the City",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:201548c7639b"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d18ebde61b0a"
+   }
+  },
+  {
+   "card": "Kess, Dissident Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:86fa4618e399"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:beda7402a0b9"
+   }
+  },
+  {
+   "card": "Azog, Moria's Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Azog, Moria's Ruin",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:3ea69a6307bf"
+   }
+  },
+  {
+   "card": "Call Forth the Tempest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Misty Mountains Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Misty Mountains Raider",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f9d87939dd5d"
+   }
+  },
+  {
+   "card": "Bolg of the North",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolg of the North",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d28e94aa5f6c"
+   }
+  },
+  {
+   "card": "Uglúk of the White Hand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uglúk of the White Hand",
+       "cut": "Commence the Endgame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d15836eded95"
+   }
+  },
+  {
+   "card": "Preordain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Preordain",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:fcc90a630155"
+   }
+  },
+  {
+   "card": "Great Goblin, Foul-Hearted",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Goblin, Foul-Hearted",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:238886fc4d7e"
+   }
+  },
+  {
+   "card": "Goblin-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin-town",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:9857feb12c49"
+   }
+  },
+  {
+   "card": "Mines of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mines of Moria",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f00a2b5425e8"
+   }
+  },
+  {
+   "card": "Gleaming Overseer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gleaming Overseer",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:6839b7868924"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:402dc4bb99f0"
+   }
+  },
+  {
+   "card": "Fearsome Goblin Pair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fearsome Goblin Pair",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:afd41d16f071"
+   }
+  },
+  {
+   "card": "Dunland Crebain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dunland Crebain",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:80ed1663ef90"
+   }
+  },
+  {
+   "card": "Opt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opt",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:99b1e1b64166"
+   }
+  },
+  {
+   "card": "Spiteful Banditry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spiteful Banditry",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d40be766c0eb"
+   }
+  },
+  {
+   "card": "Big Score",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Big Score",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:3a7cca8befc9"
+   }
+  },
+  {
+   "card": "Tablet of Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tablet of Discovery",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:95888877c414"
+   }
+  },
+  {
+   "card": "Worn Powerstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worn Powerstone",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:6651904d99b7"
+   }
+  },
+  {
+   "card": "Star of Extinction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Star of Extinction",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d2db94432684"
+   }
+  },
+  {
+   "card": "Improvisation Capstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Improvisation Capstone",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:1344fe724f5d"
+   }
+  },
+  {
+   "card": "Night's Whisper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night's Whisper",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:1d1e367ff87d"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:07e5aa41bbbc"
+   }
+  },
+  {
+   "card": "Forbidden Alchemy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forbidden Alchemy",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:dc1578cdcc2a"
+   }
+  },
+  {
+   "card": "Gorbag of Minas Morgul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gorbag of Minas Morgul",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:b6bc77ed6967"
+   }
+  },
+  {
+   "card": "Glamdring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glamdring",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f9b30d67003c"
+   }
+  },
+  {
+   "card": "Worldfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldfire",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:dc034e988087"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:920f19152627"
+   }
+  },
+  {
+   "card": "Deceive the Messenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deceive the Messenger",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:da1f817d7016"
+   }
+  },
+  {
+   "card": "Decorum Dissertation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decorum Dissertation",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:fea94ea76624"
+   }
+  },
+  {
+   "card": "Lidless Gaze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lidless Gaze",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:a916a41c4dbb"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:7f8c53642a03"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:ec571ca8b043"
+   }
+  },
+  {
+   "card": "Angrath, Captain of Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2c2ee5612835"
+   }
+  },
+  {
+   "card": "Isengard Unleashed",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Isengard Unleashed",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:c07b38b16175"
+   }
+  },
+  {
+   "card": "Boseiju, Who Shelters All",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boseiju, Who Shelters All",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:0adc902923f8"
+   }
+  },
+  {
+   "card": "Bolt Bend",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Balrog of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Balrog of Moria",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:aa5d888c5c39"
+   }
+  },
+  {
+   "card": "Along the Crooked Way",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Along the Crooked Way",
+       "cut": "Rage into the Valley"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:54db06248e0a"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2ae6092b6a70"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:ca7613b5d505"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:51c21864fa6b"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:791582107501"
+   }
+  },
+  {
+   "card": "Shiny Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shiny Impetus",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:fd7f94664ebb"
+   }
+  },
+  {
+   "card": "Dark Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Ritual",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:c6ce912564ac"
+   }
+  },
+  {
+   "card": "Chain of Smog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Harmonic Prodigy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:0f021246f201"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2c7ffb866f90"
+   }
+  },
+  {
+   "card": "Ovika, Enigma Goliath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ovika, Enigma Goliath",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:9babcd8b6479"
+   }
+  },
+  {
+   "card": "The Torment of Gollum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Torment of Gollum",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d0ef695b0dbc"
+   }
+  },
+  {
+   "card": "Haze of Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:d9c9951a17e1"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:34d389646cb2"
+   }
+  },
+  {
+   "card": "Ob Nixilis, Captive Kingpin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ob Nixilis, Captive Kingpin",
+       "cut": "Commence the Endgame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Ob Nixilis, Captive Kingpin",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:2dbec5912fdf"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:e74e5fe6c9f0"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:dec4032177cd"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2fee5aa161f2"
+   }
+  },
+  {
+   "card": "Enter the God-Eternals",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the God-Eternals",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:84f6998ea50d"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f2b1ea592471"
+   }
+  },
+  {
+   "card": "Fury Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:0f64439331aa"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:988aba0491fd"
+   }
+  },
+  {
+   "card": "The Red Terror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Red Terror",
+       "cut": "Commence the Endgame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "The Red Terror",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:8f33e1a5afd6"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:20b97a56bb30"
+   }
+  },
+  {
+   "card": "Palantír of Orthanc",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palantír of Orthanc",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:9f4e6ac9f3df"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:8fc4b89389dd"
+   }
+  },
+  {
+   "card": "Living Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Living Death",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:3601cfac7bf5"
+   }
+  },
+  {
+   "card": "There and Back Again",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "There and Back Again",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:490ac5f1a4d1"
+   }
+  },
+  {
+   "card": "Mithril Coat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "War Elemental",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "War Elemental",
+       "cut": "Commence the Endgame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "War Elemental",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:47d8ff4fb007"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:61b8a884d51f"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2bafdff2eee6"
+   }
+  },
+  {
+   "card": "Phyrexian Devourer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Devourer",
+       "cut": "Commence the Endgame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Phyrexian Devourer",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:652f009e6781"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:6fe440369cc9"
+   }
+  },
+  {
+   "card": "View from Above",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "View from Above",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "View from Above",
+       "cut": "Chandra's Ignition"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:f27391997456"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:44775865e5bc"
+   }
+  },
+  {
+   "card": "Nasty End",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Unexpected Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d27dc2f8c52b"
+   }
+  },
+  {
+   "card": "Black Market Connections",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Market Connections",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:dd4824af0087"
+   }
+  },
+  {
+   "card": "Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2a21c19f529d"
+   }
+  },
+  {
+   "card": "Everflowing Chalice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Everflowing Chalice",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:a4436f70c296"
+   }
+  },
+  {
+   "card": "Down, Down to Goblin-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Down, Down to Goblin-town",
+       "cut": "Storm-Kiln Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:e33b43ad2cfe"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:21de15a20e19"
+   }
+  },
+  {
+   "card": "Notion Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Notion Thief",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:191ebb553726"
+   }
+  },
+  {
+   "card": "Enter the Enigma",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Minas Morgul, Dark Fortress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Minas Morgul, Dark Fortress",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:d125a5a6c53f"
+   }
+  },
+  {
+   "card": "Sorcerous Squall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:2feeefb1bd7a"
+   }
+  },
+  {
+   "card": "Hidetsugu Consumes All // Vessel of the All-Consuming",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hidetsugu Consumes All // Vessel of the All-Consuming",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:47ac3f4876e4"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:4c1bd3611543"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:5ab7d3c955b8"
+   }
+  },
+  {
+   "card": "Birthday Escape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Hexing Squelcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hexing Squelcher",
+       "cut": "Rage into the Valley"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:de0f94b82050"
+   }
+  },
+  {
+   "card": "Honor the God-Pharaoh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:ef9bea3c498a"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Mana Geyser"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:89eee8057882"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:8c77b5551caa"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:58d98c84ec09"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:96e59ae22a99"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "All Will Be One"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:3f027a35b6aa"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f3bbdde57af2"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:41e3f8647743"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:80b0a42cf7f8"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:e66e5a11f696"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:8fb154be82a7"
+   }
+  },
+  {
+   "card": "Everlasting Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Everlasting Torment",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Everlasting Torment",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:039baaf35241"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:ab4307c40656"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:7d822479e25c"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "All Will Be One"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:635e5fac39ca"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:453dd19c269b"
+   }
+  },
+  {
+   "card": "Eternity Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eternity Vessel",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eternity Vessel",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:f1ae92edbc4b"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:4fc8e88f63ba"
+   }
+  },
+  {
+   "card": "Quest for Pure Flame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quest for Pure Flame",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Quest for Pure Flame",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:8561d8687620"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:cbf953c2b185"
+   }
+  },
+  {
+   "card": "Soul-Scar Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soul-Scar Mage",
+       "cut": "Storm-Kiln Artist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soul-Scar Mage",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:cfe158375ec2"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:cbb835590e88"
+   }
+  },
+  {
+   "card": "Night Dealings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night Dealings",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:saruman-the-white-hand:m5:ae835f629315"
+   }
+  },
+  {
+   "card": "Talon of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talon of Pain",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1823-2484"
+        ]
+       },
+       "add": "Talon of Pain",
+       "cut": "Fall of Cair Andros"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:saruman-the-white-hand:m5:09bb513060fa"
+    },
+    "swap": "swap:saruman-the-white-hand:m5:f39f5fe307d4"
+   }
+  }
+ ],
+ "deck_id": "Saruman__the_White_Hand",
+ "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "slug": "saruman-the-white-hand",
+ "swaps": [
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:baebcc47d453"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ba8f2359f77c"
+  },
+  {
+   "adds": [
+    "Lazotep Plating"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:eb7be7e9c338"
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:720e5cacf97c"
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:833f4eb1168a"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:674f709253c7"
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:b41d6c010fdc"
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7e632e8f30e9"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:211f44c6288b"
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:675f6fb5c699"
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:bac562d96514"
+  },
+  {
+   "adds": [
+    "Corsairs of Umbar"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e326b80b93e8"
+  },
+  {
+   "adds": [
+    "March from the Black Gate"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f56fc28cbfa5"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:5793af5447dc"
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1cf955eb0f83"
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "The Great Goblin"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:71f01ceb7c6a"
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:62142107b953"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:970f13bc8f2d"
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:edc32eb85bfe"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d3aacf4c189a"
+  },
+  {
+   "adds": [
+    "Gothmog, Morgul Lieutenant"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:5131c3ed8518"
+  },
+  {
+   "adds": [
+    "Warg Rider"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cec8149887d9"
+  },
+  {
+   "adds": [
+    "Lord of the Nazgûl"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:24f8fede22e7"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:08454b1eb998"
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d8a4ab8e1fca"
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:be1a5da54567"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:27fef7782d95"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4062b95b003b"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fa71ea413361"
+  },
+  {
+   "adds": [
+    "Storm of Saruman"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1c66d332059b"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:42cf759cb3ed"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2485efc67e3f"
+  },
+  {
+   "adds": [
+    "Mordor Muster"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9ecaefc301c9"
+  },
+  {
+   "adds": [
+    "Surrounded by Orcs"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:81643909015e"
+  },
+  {
+   "adds": [
+    "Surrounded by Orcs"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c34c2c7d8f2a"
+  },
+  {
+   "adds": [
+    "Saruman the White"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:07394f60c2ef"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8a899f80c5ab"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1eddff7bb3e6"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f3f7d1e38fb9"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:eeef2ee01701"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c24464114a94"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f82f9d050344"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e9383d18f91a"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0aad104eeed9"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:21b43cdd056f"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:15ca8943b5ab"
+  },
+  {
+   "adds": [
+    "Moria Scavenger"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0f517dc4411f"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9425b5565082"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:22c6c4f6e55a"
+  },
+  {
+   "adds": [
+    "Book of Mazarbul"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d6e083d826a7"
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Rage into the Valley"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7f659cc4da58"
+  },
+  {
+   "adds": [
+    "Wake the Dragon"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6bf6d37789c9"
+  },
+  {
+   "adds": [
+    "Gathering of Darkness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:a14480a24239"
+  },
+  {
+   "adds": [
+    "Tidings of War"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:181ebfd8992c"
+  },
+  {
+   "adds": [
+    "Sauron, Lord of the Rings"
+   ],
+   "cuts": [
+    "Swarming of Moria"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:20f19f406f51"
+  },
+  {
+   "adds": [
+    "Languish"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d230d1529acd"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ebaa200c25e8"
+  },
+  {
+   "adds": [
+    "Goblin Plate Mail"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c8cea1c2268a"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:66c3ec19d361"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4bc18e8f09df"
+  },
+  {
+   "adds": [
+    "Invade the City"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:201548c7639b"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d18ebde61b0a"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:86fa4618e399"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:beda7402a0b9"
+  },
+  {
+   "adds": [
+    "Azog, Moria's Ruin"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3ea69a6307bf"
+  },
+  {
+   "adds": [
+    "Misty Mountains Raider"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f9d87939dd5d"
+  },
+  {
+   "adds": [
+    "Bolg of the North"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d28e94aa5f6c"
+  },
+  {
+   "adds": [
+    "Uglúk of the White Hand"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d15836eded95"
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fcc90a630155"
+  },
+  {
+   "adds": [
+    "Great Goblin, Foul-Hearted"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:238886fc4d7e"
+  },
+  {
+   "adds": [
+    "Goblin-town"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9857feb12c49"
+  },
+  {
+   "adds": [
+    "Mines of Moria"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f00a2b5425e8"
+  },
+  {
+   "adds": [
+    "Gleaming Overseer"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6839b7868924"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:402dc4bb99f0"
+  },
+  {
+   "adds": [
+    "Fearsome Goblin Pair"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:afd41d16f071"
+  },
+  {
+   "adds": [
+    "Dunland Crebain"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:80ed1663ef90"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:99b1e1b64166"
+  },
+  {
+   "adds": [
+    "Spiteful Banditry"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d40be766c0eb"
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3a7cca8befc9"
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:95888877c414"
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6651904d99b7"
+  },
+  {
+   "adds": [
+    "Star of Extinction"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d2db94432684"
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1344fe724f5d"
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:1d1e367ff87d"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:07e5aa41bbbc"
+  },
+  {
+   "adds": [
+    "Forbidden Alchemy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dc1578cdcc2a"
+  },
+  {
+   "adds": [
+    "Gorbag of Minas Morgul"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:b6bc77ed6967"
+  },
+  {
+   "adds": [
+    "Glamdring"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f9b30d67003c"
+  },
+  {
+   "adds": [
+    "Worldfire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dc034e988087"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:920f19152627"
+  },
+  {
+   "adds": [
+    "Deceive the Messenger"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:da1f817d7016"
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fea94ea76624"
+  },
+  {
+   "adds": [
+    "Lidless Gaze"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:a916a41c4dbb"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7f8c53642a03"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ec571ca8b043"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2c2ee5612835"
+  },
+  {
+   "adds": [
+    "Isengard Unleashed"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c07b38b16175"
+  },
+  {
+   "adds": [
+    "Boseiju, Who Shelters All"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0adc902923f8"
+  },
+  {
+   "adds": [
+    "The Balrog of Moria"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:aa5d888c5c39"
+  },
+  {
+   "adds": [
+    "Along the Crooked Way"
+   ],
+   "cuts": [
+    "Rage into the Valley"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:54db06248e0a"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2ae6092b6a70"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ca7613b5d505"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:791582107501"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:51c21864fa6b"
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:fd7f94664ebb"
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:c6ce912564ac"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2c7ffb866f90"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Harmonic Prodigy"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0f021246f201"
+  },
+  {
+   "adds": [
+    "Ovika, Enigma Goliath"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9babcd8b6479"
+  },
+  {
+   "adds": [
+    "The Torment of Gollum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d0ef695b0dbc"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:34d389646cb2"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d9c9951a17e1"
+  },
+  {
+   "adds": [
+    "Ob Nixilis, Captive Kingpin"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e74e5fe6c9f0"
+  },
+  {
+   "adds": [
+    "Ob Nixilis, Captive Kingpin"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2dbec5912fdf"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dec4032177cd"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2fee5aa161f2"
+  },
+  {
+   "adds": [
+    "Enter the God-Eternals"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:84f6998ea50d"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f2b1ea592471"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:988aba0491fd"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:0f64439331aa"
+  },
+  {
+   "adds": [
+    "The Red Terror"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:20b97a56bb30"
+  },
+  {
+   "adds": [
+    "The Red Terror"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8f33e1a5afd6"
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:9f4e6ac9f3df"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8fc4b89389dd"
+  },
+  {
+   "adds": [
+    "Living Death"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3601cfac7bf5"
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:490ac5f1a4d1"
+  },
+  {
+   "adds": [
+    "War Elemental"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:61b8a884d51f"
+  },
+  {
+   "adds": [
+    "War Elemental"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:47d8ff4fb007"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2bafdff2eee6"
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Commence the Endgame"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:6fe440369cc9"
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:652f009e6781"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:44775865e5bc"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Chandra's Ignition"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f27391997456"
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d27dc2f8c52b"
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:dd4824af0087"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2a21c19f529d"
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:a4436f70c296"
+  },
+  {
+   "adds": [
+    "Down, Down to Goblin-town"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e33b43ad2cfe"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:21de15a20e19"
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:191ebb553726"
+  },
+  {
+   "adds": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:d125a5a6c53f"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:2feeefb1bd7a"
+  },
+  {
+   "adds": [
+    "Hidetsugu Consumes All // Vessel of the All-Consuming"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:47ac3f4876e4"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4c1bd3611543"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:5ab7d3c955b8"
+  },
+  {
+   "adds": [
+    "Hexing Squelcher"
+   ],
+   "cuts": [
+    "Rage into the Valley"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:de0f94b82050"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ef9bea3c498a"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:89eee8057882"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8c77b5551caa"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:96e59ae22a99"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:58d98c84ec09"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f3bbdde57af2"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "All Will Be One"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:3f027a35b6aa"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:80b0a42cf7f8"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:41e3f8647743"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8fb154be82a7"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:e66e5a11f696"
+  },
+  {
+   "adds": [
+    "Everlasting Torment"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ab4307c40656"
+  },
+  {
+   "adds": [
+    "Everlasting Torment"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:039baaf35241"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:7d822479e25c"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:453dd19c269b"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "All Will Be One"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:635e5fac39ca"
+  },
+  {
+   "adds": [
+    "Eternity Vessel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:4fc8e88f63ba"
+  },
+  {
+   "adds": [
+    "Eternity Vessel"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f1ae92edbc4b"
+  },
+  {
+   "adds": [
+    "Quest for Pure Flame"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cbf953c2b185"
+  },
+  {
+   "adds": [
+    "Quest for Pure Flame"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:8561d8687620"
+  },
+  {
+   "adds": [
+    "Soul-Scar Mage"
+   ],
+   "cuts": [
+    "Storm-Kiln Artist"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cbb835590e88"
+  },
+  {
+   "adds": [
+    "Soul-Scar Mage"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:cfe158375ec2"
+  },
+  {
+   "adds": [
+    "Night Dealings"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:ae835f629315"
+  },
+  {
+   "adds": [
+    "Talon of Pain"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:f39f5fe307d4"
+  },
+  {
+   "adds": [
+    "Talon of Pain"
+   ],
+   "cuts": [
+    "Fall of Cair Andros"
+   ],
+   "id": "swap:saruman-the-white-hand:m5:09bb513060fa"
+  }
+ ]
+}

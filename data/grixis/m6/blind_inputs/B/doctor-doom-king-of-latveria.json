@@ -1,0 +1,5045 @@
+{
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "slug": "doctor-doom-king-of-latveria",
+ "swaps": [
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:140cf68c615d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:0ef83616f090f560"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ff5314eb0aee",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c69902d5a43fa30e"
+   ]
+  },
+  {
+   "adds": [
+    "Living Laser"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b2403cd266d4",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d5a84e6330c22f79"
+   ]
+  },
+  {
+   "adds": [
+    "Typhoid Mary, Fractured"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:0f0946a185ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Typhoid Mary, Fractured"
+   ],
+   "cuts": [
+    "Bone Miser"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:57ca15ad7932",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f37a716c2818",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b1f6c719211d9737"
+   ]
+  },
+  {
+   "adds": [
+    "Molecule Man"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:23e7af4f1dce",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7c1bd7e9f5909d84"
+   ]
+  },
+  {
+   "adds": [
+    "The Frightful Four"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:55c0abd64077",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d05780f1d3b7eb84"
+   ]
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:78196cca1a7d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c61f6bd6c856e0bb"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Octopus, Master Planner"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f515d9b68209",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:48a8ccbed70c00fa"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Octopus, Master Planner"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e6f347110dca",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:61eeb8c98b622e64"
+   ]
+  },
+  {
+   "adds": [
+    "Archnemesis"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e2e066ac6d8d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1c0b9e9795b48321"
+   ]
+  },
+  {
+   "adds": [
+    "Archnemesis"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4112bdc378ea",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c017d0bf58af1518"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:41474e394c44",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c0a4b2a6afa37fb6"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:eea741bf8713",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:895e8b4e04980979"
+   ]
+  },
+  {
+   "adds": [
+    "Coastal Peak"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:34792b28f0b6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:af1240dc4e966afa"
+   ]
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:51e554595bda",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:26963ca31c2fa864"
+   ]
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Bone Miser"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8dbac94ca5ba",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:10ef36b36a448347"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8b0cfa56d0c2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6d8a09ae4a89",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:57632364e58f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abomination, World Ravager"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7623ba7b13c6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ffab0040221a5317"
+   ]
+  },
+  {
+   "adds": [
+    "Titan of Littjara"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6307fb7598dc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:f94e2e2bbccfd4d4"
+   ]
+  },
+  {
+   "adds": [
+    "Titan of Littjara"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b797b499a81f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8b124ef474946d12"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, God of Mischief"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6a74ed79df01",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d64f0d5ba45516f5"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, God of Mischief"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:28b438b9259a",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1e0c539ed9674e38"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b7ecde102acf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:88f406231dbb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ultimate Green Goblin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e0cc310d5813",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:83cb79276875",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:f88e922a42fed103"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:91a8bd2fd5d5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3ee1b8cbe6e8771f"
+   ]
+  },
+  {
+   "adds": [
+    "Ledger Shredder"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:17e3bff0ecbb",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c37b2114dff5b512"
+   ]
+  },
+  {
+   "adds": [
+    "Ledger Shredder"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:71a2ee1fd70c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a859a7d1076324d5"
+   ]
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:40ae3456f74a",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:76e240a22369a482"
+   ]
+  },
+  {
+   "adds": [
+    "Stilt-Man, Towering Terror"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:90ca092414ca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scorched Geyser"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9e96acb48aa5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b0b64281a80a0e5a"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:74236605e80f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d4c99b81245b5bbd"
+   ]
+  },
+  {
+   "adds": [
+    "Construct a Cosmic Cube"
+   ],
+   "cuts": [
+    "Green Goblin, Revenant"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7228268ecb4f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d88481905caa",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c11dc5057750fd06"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Doom Reigns Supreme"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fdb0a39c887d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8470ca54d1f4",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c6dc1b978e7324b8"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e448da334cd6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b7a2e10d995a5062"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Bone Miser"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9009b2e80c34",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a37533406d2889fe"
+   ]
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7a3ed24e49be",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:014292b1f5d0bf2d"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7131556b28d3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4e577eaa26fd",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:af15ce2ef2a1f415"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c96cfa91a69e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:48dda0eed1bc70cc"
+   ]
+  },
+  {
+   "adds": [
+    "Doom's Time Platform"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e51b701bfcf0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7969ba921da2e85b"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:17ef373a4cf2",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:dae5cd5047762593"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:aedb54d20079",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:83589db46d6b122c"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:77f4b1bfab4c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1fcd6d86a45aa535"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e8a372de596c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:2ec6bf04b08f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5b94ece85cee0f11"
+   ]
+  },
+  {
+   "adds": [
+    "Endless Ranks of HYDRA"
+   ],
+   "cuts": [
+    "Green Goblin, Revenant"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:944a5456b759",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Age of Ultron"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:280e3a48f83d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:1ab3900e951c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:11943d7c1e53eab3"
+   ]
+  },
+  {
+   "adds": [
+    "Titania, Proud Pummeler"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:28ef1a19eebe",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:87a23d5261ca4a18"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Doom Reigns Supreme"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6b19ed35a701",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Klaw, Master of Sound"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:049c2a3bf445",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e11451beef84741e"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7efce0c800b7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:64bbaae56ff054f5"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9f40a045d774",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:af94dffd794642bf"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterio, Master of Illusion"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:951209e72174",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:618e55d9e7151d61"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5203abeebf21",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a5e9721dba8aa52b"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a2863ebbabcc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d3c87709237b26db"
+   ]
+  },
+  {
+   "adds": [
+    "Tri-Sentinel, Act of Vengeance"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:da0ed441bcf3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4e9366c00ca69759"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6eac1ff6b836",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:11e3f37098bb3d36"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, Unrivaled"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dc6ff441e51d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:dc4420fefa32af44"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, Unrivaled"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f37a7926c6be",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:6154361c1cbc1fef"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Dynasty"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8786c24bae50",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7926da39ab977cf2"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Dynasty"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3c82a392e4c3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8f1479c0876e73a7"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Loki, Agent of Chaos"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:92de2170a578",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:170600c221b91296"
+   ]
+  },
+  {
+   "adds": [
+    "M.O.D.O.K., Evil Intellect"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:420615051c20",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:0dcf77bfa7ef9e9b"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:01fe7b18a679",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3ba3c3131d4389af"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6cb50c5c10ce",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c95e1e509ae87536"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, Lord of Misrule"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ab0e30fd78e5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:bf6925bb4a1b8f34"
+   ]
+  },
+  {
+   "adds": [
+    "Progenitor's Icon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c876c2402b76",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:215e6d59f2ef9784"
+   ]
+  },
+  {
+   "adds": [
+    "Barren Moor"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dc6a1bc01d5b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7fb361673255f8de"
+   ]
+  },
+  {
+   "adds": [
+    "Forgotten Cave"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:17636cb0c8e3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:000e8674f1d1a5aa"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a15d0644e230",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d1fab2f0c5f3d9dc"
+   ]
+  },
+  {
+   "adds": [
+    "Lonely Sandbar"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fcd826216fb8",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:149da0804f66c7f2"
+   ]
+  },
+  {
+   "adds": [
+    "Avengers: Under Siege"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e106136813e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a64c6f93e124",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:0d31df5d5592ea0a"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:60f575206024",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4d5a65c45f8d56f9"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6b6b8c05dbc3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:6cd7f9dd244cb0a2"
+   ]
+  },
+  {
+   "adds": [
+    "Extract Power"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ce82ba793e7e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3e4b0679589705a6"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:86f3149f73ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unstable Experiment"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e7064f824a21",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:bb70e0dec9566555"
+   ]
+  },
+  {
+   "adds": [
+    "Unstable Experiment"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:0506a9509507",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e929d3036c8596b6"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderbolts Conspiracy"
+   ],
+   "cuts": [
+    "Green Goblin, Revenant"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8ff395a4dc85",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:747639c409ee",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3eb66266af57c32e"
+   ]
+  },
+  {
+   "adds": [
+    "Hobgoblin, Mantled Marauder"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8509a7109082",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1ab75fa13f2831eb"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9070e6c70bac",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:95d385b5257c2b2f"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c41684c2fbb7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:14baf7c25dcdb4bc"
+   ]
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a29a6723721d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e9fc49bf22789eb0"
+   ]
+  },
+  {
+   "adds": [
+    "Superior Foes of Spider-Man"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:478bb6cb680f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:98629166d29f760e"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Goblin"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:0bad67c7c634",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:52b7d5f32050a32a"
+   ]
+  },
+  {
+   "adds": [
+    "Ash Barrens"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3268b1f87987",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:9b00a730349d2d83"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8405e846b0d7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:bf2afd9fa8e36e87"
+   ]
+  },
+  {
+   "adds": [
+    "Castle Doom"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b0898718971a",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5753b19aeed838ef"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Fortress"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:67a01d757ce2",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:791f600cef33ee57"
+   ]
+  },
+  {
+   "adds": [
+    "Hidden Lair"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:95e067dfb697",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:0d877e0a68f84b11"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:56c070ff9234",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:0da0f7db64366313"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterio's Mirage"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9aebd7e0bec4",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e1bc16abb0e0296e"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3ad700bb88b0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3bd471e7f626c445"
+   ]
+  },
+  {
+   "adds": [
+    "Visions of Villainy"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:83eaca32cfe3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:02b1af1f7513f854"
+   ]
+  },
+  {
+   "adds": [
+    "Faith of the Devoted"
+   ],
+   "cuts": [
+    "Doom Reigns Supreme"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d4db719399f7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Change of Plans"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:57c0031b9b2e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7be5b4cae89cb0f8"
+   ]
+  },
+  {
+   "adds": [
+    "Necropotence"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b91a78419064",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a1ba862b2213fea6"
+   ]
+  },
+  {
+   "adds": [
+    "Necropotence"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:961308536ace",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:773808caa8a29ef7"
+   ]
+  },
+  {
+   "adds": [
+    "Kid Loki"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:16c05673fa79",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Masters of Evil"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:824d1794131d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:17753b8f3f7ea7e9"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Green Goblin, Revenant"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c3c2f92b3344",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "M.O.D.O.K."
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5881c21e4bb4",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:2532f5b9c479eaea"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Surly Badgersaur"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d08b44e7b192",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:084b5dadfb44bd55"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b302309cac04",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1be82c6d14067089"
+   ]
+  },
+  {
+   "adds": [
+    "Oriq Loremage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:55691eb35dc0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:27a1739b927fd7af"
+   ]
+  },
+  {
+   "adds": [
+    "Pensive Professor"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7d1460dc7192",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:133306a717fc40a8"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:db9af895f644",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e96bf5c495df",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ed1afd8abf1291e8"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7932ed4ffbbd",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:700c09cf37db66f8"
+   ]
+  },
+  {
+   "adds": [
+    "Zulaport Cutthroat"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a052eeb0eeaf",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:fa6f4040927c15a6"
+   ]
+  },
+  {
+   "adds": [
+    "Forerunner of the Coalition"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f8cdf46e2164",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:71ef094a45090cce"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5bda57f8b7c0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b7573a4277b56614"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:779a8cf9603e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Hulk"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cffd34d929a7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:74e2c8d782b6c826"
+   ]
+  },
+  {
+   "adds": [
+    "Ares, God of War"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6e947872b133",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8321deb09ebdf5a2"
+   ]
+  },
+  {
+   "adds": [
+    "Namor the Sub-Mariner"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fd621ba96903",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:898300b5fdaafbf8"
+   ]
+  },
+  {
+   "adds": [
+    "Attuma, Atlantean Warlord"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:21bb64ac6234",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7b8b77b3a2ee442c"
+   ]
+  },
+  {
+   "adds": [
+    "Nico Minoru, Runaway"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b37d8eeeb66c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a8e53fc52143913a"
+   ]
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:53313c32afe5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Asmoranomardicadaistinaculdacar"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:088e40a77479",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:148e0b75a3aa0916"
+   ]
+  },
+  {
+   "adds": [
+    "Human Torch, Johnny Storm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4f84bfe1bcfe",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:da21b435638ba898"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana the Repentant"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9936723810e0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e7fa361fc6375ed5"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron the Annihilator"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fa993dc370d1",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:753d4be2a2253846"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:49a117f418d3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:746ac71bc7344142"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Man, Inferno Incarnate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:0ee215c89c1f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3ed435b51d259102"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f1964c24521a",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3938545f4cff8b4e"
+   ]
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dfd220a62081",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:781f4f0e89565ea0"
+   ]
+  },
+  {
+   "adds": [
+    "Super-Adaptoid"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ab9b037c4af3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:33dd35e3bcc9ed22"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Machine Overlord"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:746e7ed3fd8e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:951a4a08611fda6d"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Assault Robot"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:2707fd65fa27",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5b9f247e6d4f7edc"
+   ]
+  },
+  {
+   "adds": [
+    "Crossbones, Malicious Mercenary"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c1f28b25c50d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b3d498867bf3ae35"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:156e0532a0a9",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:f1fa0ab021545a38"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Knight, Hero for Hire"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:1b86494a22f1",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:161e08e84d5e7c62"
+   ]
+  },
+  {
+   "adds": [
+    "Koth, the Geomancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e0aa85f584be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c04454b2b624",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rescue, Pepper Potts"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e1f17132aa6d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:9b29501f2b17cb98"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Master Marksman"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b2992a597555",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a426446b691af4b5"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Deadly Hunter"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:41df79168dce",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5e0ca6b71d46e0ce"
+   ]
+  },
+  {
+   "adds": [
+    "Loki Laufeyson"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:960a67af31d8",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e3b04fbf2a1e4ab5"
+   ]
+  },
+  {
+   "adds": [
+    "Elektra, Daughter of the Hand"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:19a45be6d954",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spider-Man, New Champion"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7f48529d0728",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e232a59cbb930798"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6a7ee0a030cf",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:6ce821477adf7b35"
+   ]
+  },
+  {
+   "adds": [
+    "Machinesmith Automaton"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b896482a2011",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d16275f989d472cf"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron Drone"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fb2522eec651",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:aa6b747e4fa3e809"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8c0251c70ca0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5cf0369e5d74b588"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c917aa03885f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4d0a50ed953759ab"
+   ]
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c18ce2b04936",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:110fdeb42da1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jaya Ballard, Task Mage"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a08500050eb1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kang the Conqueror"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8f75c0eba13b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:83e0aa91bde14d2b"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d5c7f076282c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:aefa6ec814eb6bd8"
+   ]
+  },
+  {
+   "adds": [
+    "Thanos, Death's Consort"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4da06afc867c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:01686d415d8f280e"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Deceit"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:eb19616dc234",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:db4d4899c1898862"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3bb3c10f7324",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c9bd4e6e143b545f"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:68dcf25f3b2d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:fb98d568245cf53f"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8fdafd245da8",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ddfd5c1a55dcbe8a"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Hand Ninja"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8395eb4ffd43",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b25c5e52ad6f2ae8"
+   ]
+  },
+  {
+   "adds": [
+    "Namor, Scourge of the Seas"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b49c74f08ff2",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:da942655127027c8"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7b3dd4dfc852",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8b04d6f065b0e97d"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c6cfb2aae2fa",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:98a482dc7f6987b6"
+   ]
+  },
+  {
+   "adds": [
+    "Doombot Harbinger"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:08a2f655ddbc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a2ee7cc5508cf331"
+   ]
+  },
+  {
+   "adds": [
+    "Lecturing Scornmage"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a6571f5ac863",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:379ff5a3b5a63fa7"
+   ]
+  },
+  {
+   "adds": [
+    "Wonder Man, Hollywood Hero"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:52c80739ac09",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:276fd76690706b81"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:93a1f15d9521",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5ce604c5b6c88d59"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Avenging Archer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:888e39ea00cc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:cd26363a99234a4f"
+   ]
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7cc37ed7f3b6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:626732c34b4d619c"
+   ]
+  },
+  {
+   "adds": [
+    "Aerial Doombot"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d83c0e9cb777",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4eefc9647970f53d"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ff7b3a4e9609",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:040f03725cbf8422"
+   ]
+  },
+  {
+   "adds": [
+    "Whiplash, Vengeful Engineer"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a16e57fbe825",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e36087ce824eae55"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c52323e6d924",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d729588a960c72f9"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Synthoids"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fe6e75e514a1",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7245d05f88ea99ed"
+   ]
+  },
+  {
+   "adds": [
+    "Vulture, Feathered Fiend"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:fc725780db1b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:baec305033d8e9f0"
+   ]
+  },
+  {
+   "adds": [
+    "Diplomatic Escort"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:84bfa8227ae3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Room Recruit"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:99a7d3fca119",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:f69b45fc8ce13ef4"
+   ]
+  },
+  {
+   "adds": [
+    "Citizen V, Helmut Zemo"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a1093758f0c5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a62d7009fbca34b3"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:abb7ceb2936e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:dfbbb3ddce954692"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron's Auxiliary"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ced45e386aad",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:fddcabe8b02f92cb"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Most Wanted"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:79f52bf37cb6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:75d01ae4eeb563c1"
+   ]
+  },
+  {
+   "adds": [
+    "Ultimo, Civilization's End"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6c0388fa42a3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:af9a07e457c50a18"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:37af90d682df",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ee686e800459f2b1"
+   ]
+  },
+  {
+   "adds": [
+    "Arnim Zola, Bio-Fanatic"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b4bd0b3bede9",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4a8ce5ac8641e56b"
+   ]
+  },
+  {
+   "adds": [
+    "Fin Fang Foom"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7fb22e26d2f2",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:2234f13b6acbf9d3"
+   ]
+  },
+  {
+   "adds": [
+    "Gideon the Oathless"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c4e0e3549376",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5f6c44982443b9ec"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, God of Lies"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6fd8a201a345",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:57549123a00b0e0c"
+   ]
+  },
+  {
+   "adds": [
+    "Batroc the Leaper"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c8a275001283",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:79d388483bbf9394"
+   ]
+  },
+  {
+   "adds": [
+    "Plaguecrafter"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ac45d56839f6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4fbc050ab74f01fc"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:0fbaadf1fe27",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:9ec98364c5b40e08"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9d54aef32e16",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8faafa15c4a9923e"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:84c82488ce0b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:cb5ea1999fe643ce"
+   ]
+  },
+  {
+   "adds": [
+    "Lakeshore Apothecary"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5991e38fa279",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:228638a56a87c738"
+   ]
+  },
+  {
+   "adds": [
+    "Yellowjacket, Heartless Marauder"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dcfe4bab843c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b0eb1a3398f9e911"
+   ]
+  },
+  {
+   "adds": [
+    "Ghost, Spectral Saboteur"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c34b871687e0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e026ea0c764f93aa"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Fireweaver"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dd63a96a130c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:6e882ef81fb5073a"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Scientists"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:2ccc31d33cb5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:52ae384e148a2e9a"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b0fa1755baeb",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:19e10a82bf775960"
+   ]
+  },
+  {
+   "adds": [
+    "Radioactive Man"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:43d96011f4ae",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ad0fa74418408f98"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5e7b20f79857",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:f82be829c896f712"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:679e5cd28ecb",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7139656c7fa71e3f"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e85cfa60b98f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ninja of the Hand"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3b0c7f1fb6b6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d7f45fb1e480bb5f"
+   ]
+  },
+  {
+   "adds": [
+    "Stronghold Machinist"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5211f0d8f84c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:33ee7ac73eff",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:0a84071e1eeb5135"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Consulting Detective"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dbe8dce1b66e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:95fddc2a61d118ae"
+   ]
+  },
+  {
+   "adds": [
+    "Seasoned Cryomancer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f9d634ae8af3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:11cad77a33153fdb"
+   ]
+  },
+  {
+   "adds": [
+    "Doom's Servo-Guards"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4e770dbdb1f0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:261cbdaf7a045636"
+   ]
+  },
+  {
+   "adds": [
+    "Valentina Allegra de Fontaine"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:99b608ba0942",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d9d5e33dbcba1ad4"
+   ]
+  },
+  {
+   "adds": [
+    "Viper, Cruel Conspirator"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:05f667ae6d45",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:180f21200f53b282"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Fist, Hero for Hire"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9dba5b344419",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:86c34374d5b55051"
+   ]
+  },
+  {
+   "adds": [
+    "Minotaur, Roxxon CEO"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d9875c15421c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:2d73033fc7b36eba"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Spider, Maybelle Reilly"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:63e03259b391",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e7d1690ca59b8ede"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f24a68dcd7a1",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1384ecdfa5f0ee65"
+   ]
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:667ab0c5fe70",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:edc23e355e1a30ff"
+   ]
+  },
+  {
+   "adds": [
+    "Chase Stein, Runaway"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a9701d3d1313",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c5b721835aab7ace"
+   ]
+  },
+  {
+   "adds": [
+    "Confusticate and Bebother"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f2f51abe56dc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ef550ed817cfdd60"
+   ]
+  },
+  {
+   "adds": [
+    "Graviton, Fundamental Force"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:0c0a776981df",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:9d3057ca463c1436"
+   ]
+  },
+  {
+   "adds": [
+    "Kree Sentinel"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:09dbd1ee0866",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4e797acdd5646893"
+   ]
+  },
+  {
+   "adds": [
+    "Bob, Reluctant HYDRA Agent"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ceb2307b74a7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:9a6d8c680c9c96cb"
+   ]
+  },
+  {
+   "adds": [
+    "Boomerang, Blade Flinger"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:573e194c3cf3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e46dd041467b3c00"
+   ]
+  },
+  {
+   "adds": [
+    "Hammer Mage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:9cc3a5cc8d61",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8e9094337b59",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:97fb8122a87bb437"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ee9da4fa5745",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b7b45254f355b6b8"
+   ]
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:406b35b7c825",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b66f2074e715008a"
+   ]
+  },
+  {
+   "adds": [
+    "Living Lies of Loki"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:461efbf97bcb",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ee178bbb37dc3c3f"
+   ]
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ac199dee2fe8",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:1a9bfc83d578c9e8"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3db9383b3c6f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:09dab9f23a452dd6"
+   ]
+  },
+  {
+   "adds": [
+    "Klaw, Sonic Subjugator"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:75f436a90610",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e95e60f0ea59a708"
+   ]
+  },
+  {
+   "adds": [
+    "Stronghold Biologist"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cae4d260e5d2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unliving Legionnaire"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dfb8fad3c981",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:84344da486d98d77"
+   ]
+  },
+  {
+   "adds": [
+    "Blightspeaker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3377a5be291d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c75352b8b0027e28"
+   ]
+  },
+  {
+   "adds": [
+    "Volcanic Villain"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:925b3fce09f6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7e9b8a544c405fc8"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:872b62e8ad1f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8acff276b5a1ac1e"
+   ]
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b849fd973167",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4bb71611afeecf76"
+   ]
+  },
+  {
+   "adds": [
+    "Fixer, Techno Terror"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cf5926637dde",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c17087f0de17dba0"
+   ]
+  },
+  {
+   "adds": [
+    "MACH-1, Swooping Scoundrel"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:167c5dc715d9",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4c2297ce5ba91715"
+   ]
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:aae7a4d29f03",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:701388d0a0fa5233"
+   ]
+  },
+  {
+   "adds": [
+    "Agna Qel'a"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4277f8d3239b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:53be7fa5cbd54104"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:218a8f173976",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5c7c8cd2b8366bef"
+   ]
+  },
+  {
+   "adds": [
+    "Bold Biochemist"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5069c67f7cc7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:bcb42de77b66e082"
+   ]
+  },
+  {
+   "adds": [
+    "Baneblade Scoundrel // Baneclaw Marauder"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7d3c694fbe0d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Lavamancer"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4a73c90b29cc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5b0a00f5cd325a96"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Timely, Wily Tycoon"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8fa1a64d630a",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:9a8e6efd5d30bc1d"
+   ]
+  },
+  {
+   "adds": [
+    "Hisoka, Minamo Sensei"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ccc1cd964423",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4ed7c5ecdb93",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b2333b9bbfa448ee"
+   ]
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6ee732ddbc03",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whirlwind, Killer Cyclone"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:aea35fda2a94",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:c32625cf7052aaa4"
+   ]
+  },
+  {
+   "adds": [
+    "Teyo, Diamondblade Mage"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:1402206dd26d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d2350b7c32f14699"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Bot"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ff34758847c5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e848a028c7c5d8eb"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:459f7829f8a8",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:63d15f5b601106c7"
+   ]
+  },
+  {
+   "adds": [
+    "Danitha, Spear of Agony"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:680fea0747e0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e0796c09b39027ad"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ff466d7f21be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Extremis Elite"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:be01d361c53d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gamble"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:528820523b4b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3c49df88439a0451"
+   ]
+  },
+  {
+   "adds": [
+    "Count Nefaria"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ac0ca01687e9",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7dabd46a472bdbbe"
+   ]
+  },
+  {
+   "adds": [
+    "Armed Assailant"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b86f03e2f5fe",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b81b1f4a1945145a"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Grapplers"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:dae0985908d0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7d072485c165f838"
+   ]
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b452857e3235",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:5d4dca81ae5324d6"
+   ]
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:1a4449c372e3",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b1d48bfad4650810"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5317034e0b61",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7e8c20967d128fa3"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7b2ec62efcbe",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:2fdc6bb24dd8dcb8"
+   ]
+  },
+  {
+   "adds": [
+    "Flux Channeler"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a250e8f087c4",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:76b7c461b45f6ba1"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cbf719ba73a0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ecc1ef84ed4f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:97b72efda7ab07ac"
+   ]
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a5506c31837f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:308a78fad8d46f98"
+   ]
+  },
+  {
+   "adds": [
+    "Priest of Forgotten Gods"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:2e4ed7e93983",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f6030d417eff",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:f81b6168078b268e"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c4a77ac44298",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4be5c92c25d99320"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:1adbde22acfa",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7cf8e482b7599a4c"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:181ab48135b2",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:89f527e0b151a7bc"
+   ]
+  },
+  {
+   "adds": [
+    "Thermo-Alchemist"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4c6a728856bc",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:cab04afe86a26b77"
+   ]
+  },
+  {
+   "adds": [
+    "Mask of the Schemer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:1e4f90928373",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:35e6e272837a9075"
+   ]
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:23536bf9727c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:19732f1a09781a39"
+   ]
+  },
+  {
+   "adds": [
+    "Inti, Seneschal of the Sun"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:2f419c556d12",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:666599032668f9bc"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a01d8945a533",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:6c4c08fad82360f2"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:4be5a0cb1f81",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b2107f1b28aa541a"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of the Vault"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d6ab776dd760",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:817c6199a853aba0"
+   ]
+  },
+  {
+   "adds": [
+    "Harsh Mentor"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:f5245b4595fa",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:739c53c28d8ac09b"
+   ]
+  },
+  {
+   "adds": [
+    "Yuriko, the Tiger's Shadow"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:43f715e8f166",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b1d24227e7f51207"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ab7bb09deb72",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:64422edf74c336d2"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ae4c790190cd",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:fe26f001ac1f21ec"
+   ]
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:25f30ad20c09",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:cabd4f37a6e8106c"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:41abd7a56615",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:efc857e10181cbe0"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a6e8f478bc00",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:2a77f21914372dbb"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:7983909014eb",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:95f87c735f8fa401"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Doom Reigns Supreme"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:89db013e1d94",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a0ec0a573bc96dd0"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Trade Routes"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:259bf0666599",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:875f1ff850b435d2"
+   ]
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8770c86d1ce5",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ea2d173cf6fc70b9"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:27c55e703622",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3943ee45d6c33048"
+   ]
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:67029c58ab30",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b18b47f0a1f33a7e"
+   ]
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cdb8c2ac2ba7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3a2baf8be5a06de1"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:17d1893fc48c",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:cd5a9daafd3cf6ec"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:5155327f3cd8",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a10b92913713e5c1"
+   ]
+  },
+  {
+   "adds": [
+    "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:31556dec3ecf",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d24f8936cc68034b"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:d0226c9ac33f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6b01763c80c6",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a175958f629704a9"
+   ]
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:968c7bc26e32",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e31fe022c05a88c1"
+   ]
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:12428fef9a57",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:a122a9791e4a22e8"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:c919b3da1100",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rona, Herald of Invasion // Rona, Tolarian Obliterator"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ff0aad4bc538",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:dc28d0fd36cbe7a4"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Punk"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:2b506c8c09e9",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:74692b489fb61654"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, Bloodfist of Keld"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:b452053254cd",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:e94a533e7b7c340b"
+   ]
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:35ee2956e11d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4a5794a73dc0b361"
+   ]
+  },
+  {
+   "adds": [
+    "Refute"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:74ccc90ba788",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:951efee30dcf7aa9"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Octopus, Inspired Inventor"
+   ],
+   "cuts": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:de36941fe319",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4a8ee7b2acd17088"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cf3874eb7ea7",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:feba31b6b419018a"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Surly Badgersaur"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:41f6788ab9df",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:3eae4055822cda11"
+   ]
+  },
+  {
+   "adds": [
+    "Common Crook"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e2740eab398b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:63373bad1929603e"
+   ]
+  },
+  {
+   "adds": [
+    "Hydro-Man, Fluid Felon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:3e87260c041e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:7454fe9affa6fd57"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:792536b9ac9d",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:4e1bccd37f73672a"
+   ]
+  },
+  {
+   "adds": [
+    "Shocker, Unshakable"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:68ffc602f363",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:21566b270cfe",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:274d4247553e7f57"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Monument to Endurance"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:6de6f277ce4b",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:445e1d7996f333d5"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Green Goblin, Revenant"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:8c8723162ce0",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:509cae7bb4acb00c"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Surly Badgersaur"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:47d965fc43cf",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:d60860b0987fcdbe"
+   ]
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:229549235d53",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:ebcd232761eae9d9"
+   ]
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "Surly Badgersaur"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:cc9dada407cd",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:de2ae3fe20b2e675"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Demand Answers"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:e3d30bb88b0f",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:8f333bb789ae3390"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:ce1c7c333d45",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:b81d5244e50656d8"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:aa53b32b5626",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:33d4882fe6410766"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Surly Badgersaur"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:440b0da62c1a",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:610029011eec3de3"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Green Goblin, Revenant"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:75ef6ca7c2f1",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:dd1f3e5dc627e472"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Surly Badgersaur"
+   ],
+   "id": "swap:doctor-doom-king-of-latveria:m5:a8c3d021080e",
+   "tests": [
+    "test:doctor-doom-king-of-latveria:goldfish:75d161a753a73f69"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:0ef83616f090f560",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c69902d5a43fa30e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d5a84e6330c22f79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b1f6c719211d9737",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7c1bd7e9f5909d84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d05780f1d3b7eb84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c61f6bd6c856e0bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:48a8ccbed70c00fa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:61eeb8c98b622e64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1c0b9e9795b48321",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c017d0bf58af1518",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c0a4b2a6afa37fb6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:895e8b4e04980979",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:af1240dc4e966afa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:26963ca31c2fa864",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:10ef36b36a448347",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ffab0040221a5317",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:f94e2e2bbccfd4d4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8b124ef474946d12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d64f0d5ba45516f5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1e0c539ed9674e38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:f88e922a42fed103",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3ee1b8cbe6e8771f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c37b2114dff5b512",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a859a7d1076324d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:76e240a22369a482",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b0b64281a80a0e5a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d4c99b81245b5bbd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c11dc5057750fd06",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c6dc1b978e7324b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b7a2e10d995a5062",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a37533406d2889fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:014292b1f5d0bf2d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:af15ce2ef2a1f415",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:48dda0eed1bc70cc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7969ba921da2e85b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:dae5cd5047762593",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:83589db46d6b122c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1fcd6d86a45aa535",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5b94ece85cee0f11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:11943d7c1e53eab3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:87a23d5261ca4a18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e11451beef84741e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:64bbaae56ff054f5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:af94dffd794642bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:618e55d9e7151d61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a5e9721dba8aa52b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d3c87709237b26db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4e9366c00ca69759",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:11e3f37098bb3d36",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:dc4420fefa32af44",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:6154361c1cbc1fef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7926da39ab977cf2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8f1479c0876e73a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:170600c221b91296",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:0dcf77bfa7ef9e9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3ba3c3131d4389af",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c95e1e509ae87536",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:bf6925bb4a1b8f34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:215e6d59f2ef9784",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7fb361673255f8de",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:000e8674f1d1a5aa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d1fab2f0c5f3d9dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:149da0804f66c7f2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:0d31df5d5592ea0a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4d5a65c45f8d56f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:6cd7f9dd244cb0a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3e4b0679589705a6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:bb70e0dec9566555",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e929d3036c8596b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3eb66266af57c32e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1ab75fa13f2831eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:95d385b5257c2b2f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:14baf7c25dcdb4bc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e9fc49bf22789eb0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:98629166d29f760e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:52b7d5f32050a32a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:9b00a730349d2d83",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:bf2afd9fa8e36e87",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5753b19aeed838ef",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:791f600cef33ee57",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:0d877e0a68f84b11",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:0da0f7db64366313",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e1bc16abb0e0296e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3bd471e7f626c445",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:02b1af1f7513f854",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7be5b4cae89cb0f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a1ba862b2213fea6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:773808caa8a29ef7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:17753b8f3f7ea7e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:2532f5b9c479eaea",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:084b5dadfb44bd55",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1be82c6d14067089",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:27a1739b927fd7af",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:133306a717fc40a8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ed1afd8abf1291e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:700c09cf37db66f8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:fa6f4040927c15a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:71ef094a45090cce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b7573a4277b56614",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:74e2c8d782b6c826",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8321deb09ebdf5a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:898300b5fdaafbf8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7b8b77b3a2ee442c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a8e53fc52143913a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:148e0b75a3aa0916",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:da21b435638ba898",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e7fa361fc6375ed5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:753d4be2a2253846",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:746ac71bc7344142",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3ed435b51d259102",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3938545f4cff8b4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:781f4f0e89565ea0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:33dd35e3bcc9ed22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:951a4a08611fda6d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5b9f247e6d4f7edc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b3d498867bf3ae35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:f1fa0ab021545a38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:161e08e84d5e7c62",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:9b29501f2b17cb98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a426446b691af4b5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5e0ca6b71d46e0ce",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e3b04fbf2a1e4ab5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e232a59cbb930798",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:6ce821477adf7b35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d16275f989d472cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:aa6b747e4fa3e809",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5cf0369e5d74b588",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4d0a50ed953759ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:83e0aa91bde14d2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:aefa6ec814eb6bd8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:01686d415d8f280e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:db4d4899c1898862",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c9bd4e6e143b545f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:fb98d568245cf53f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ddfd5c1a55dcbe8a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b25c5e52ad6f2ae8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:da942655127027c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8b04d6f065b0e97d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:98a482dc7f6987b6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a2ee7cc5508cf331",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:379ff5a3b5a63fa7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:276fd76690706b81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5ce604c5b6c88d59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:cd26363a99234a4f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:626732c34b4d619c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4eefc9647970f53d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:040f03725cbf8422",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e36087ce824eae55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d729588a960c72f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7245d05f88ea99ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:baec305033d8e9f0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:f69b45fc8ce13ef4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a62d7009fbca34b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:dfbbb3ddce954692",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:fddcabe8b02f92cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:75d01ae4eeb563c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:af9a07e457c50a18",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ee686e800459f2b1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4a8ce5ac8641e56b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:2234f13b6acbf9d3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5f6c44982443b9ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:57549123a00b0e0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:79d388483bbf9394",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4fbc050ab74f01fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:9ec98364c5b40e08",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8faafa15c4a9923e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:cb5ea1999fe643ce",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:228638a56a87c738",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b0eb1a3398f9e911",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e026ea0c764f93aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:6e882ef81fb5073a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:52ae384e148a2e9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:19e10a82bf775960",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ad0fa74418408f98",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:f82be829c896f712",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7139656c7fa71e3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d7f45fb1e480bb5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:0a84071e1eeb5135",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:95fddc2a61d118ae",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:11cad77a33153fdb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:261cbdaf7a045636",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d9d5e33dbcba1ad4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:180f21200f53b282",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:86c34374d5b55051",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:2d73033fc7b36eba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e7d1690ca59b8ede",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1384ecdfa5f0ee65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:edc23e355e1a30ff",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c5b721835aab7ace",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ef550ed817cfdd60",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:9d3057ca463c1436",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4e797acdd5646893",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:9a6d8c680c9c96cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e46dd041467b3c00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:97fb8122a87bb437",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b7b45254f355b6b8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b66f2074e715008a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ee178bbb37dc3c3f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:1a9bfc83d578c9e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:09dab9f23a452dd6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e95e60f0ea59a708",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:84344da486d98d77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c75352b8b0027e28",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7e9b8a544c405fc8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8acff276b5a1ac1e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4bb71611afeecf76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c17087f0de17dba0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4c2297ce5ba91715",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:701388d0a0fa5233",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:53be7fa5cbd54104",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5c7c8cd2b8366bef",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:bcb42de77b66e082",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5b0a00f5cd325a96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:9a8e6efd5d30bc1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b2333b9bbfa448ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:c32625cf7052aaa4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d2350b7c32f14699",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e848a028c7c5d8eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:63d15f5b601106c7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e0796c09b39027ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3c49df88439a0451",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7dabd46a472bdbbe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b81b1f4a1945145a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7d072485c165f838",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:5d4dca81ae5324d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b1d48bfad4650810",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7e8c20967d128fa3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:2fdc6bb24dd8dcb8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:76b7c461b45f6ba1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:97b72efda7ab07ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:308a78fad8d46f98",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:f81b6168078b268e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4be5c92c25d99320",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7cf8e482b7599a4c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:89f527e0b151a7bc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:cab04afe86a26b77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:35e6e272837a9075",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:19732f1a09781a39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:666599032668f9bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:6c4c08fad82360f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b2107f1b28aa541a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:817c6199a853aba0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:739c53c28d8ac09b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b1d24227e7f51207",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:64422edf74c336d2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:fe26f001ac1f21ec",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:cabd4f37a6e8106c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:efc857e10181cbe0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:2a77f21914372dbb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:95f87c735f8fa401",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a0ec0a573bc96dd0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:875f1ff850b435d2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ea2d173cf6fc70b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3943ee45d6c33048",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b18b47f0a1f33a7e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3a2baf8be5a06de1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:cd5a9daafd3cf6ec",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a10b92913713e5c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d24f8936cc68034b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a175958f629704a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e31fe022c05a88c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:a122a9791e4a22e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:dc28d0fd36cbe7a4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:74692b489fb61654",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:e94a533e7b7c340b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4a5794a73dc0b361",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:951efee30dcf7aa9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4a8ee7b2acd17088",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:feba31b6b419018a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:3eae4055822cda11",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:63373bad1929603e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:7454fe9affa6fd57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:4e1bccd37f73672a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:274d4247553e7f57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:445e1d7996f333d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:509cae7bb4acb00c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:d60860b0987fcdbe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:ebcd232761eae9d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:de2ae3fe20b2e675",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:8f333bb789ae3390",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:b81d5244e50656d8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:33d4882fe6410766",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:610029011eec3de3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:dd1f3e5dc627e472",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:doctor-doom-king-of-latveria:goldfish:75d161a753a73f69",
+   "verdict": "inconclusive"
+  }
+ ]
+}

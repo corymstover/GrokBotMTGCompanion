@@ -1,0 +1,5065 @@
+{
+ "deck_id": "Missy",
+ "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+ "slug": "missy",
+ "swaps": [
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:ec9dbc37bc08",
+   "tests": [
+    "test:missy:goldfish:4659444198893eed"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:bd75a6944c43",
+   "tests": [
+    "test:missy:goldfish:8fa3c0a1aec5a660"
+   ]
+  },
+  {
+   "adds": [
+    "Davros, Dalek Creator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:392b0ea6d881",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:5140c06db252",
+   "tests": [
+    "test:missy:goldfish:07e4ead34947a6c0"
+   ]
+  },
+  {
+   "adds": [
+    "Cult of Skaro"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:e367e509989a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Dalek Emperor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:3fb9e9c44b32",
+   "tests": [
+    "test:missy:goldfish:491c24c27dcb1f3e"
+   ]
+  },
+  {
+   "adds": [
+    "The Dalek Emperor"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:753b146f6a9a",
+   "tests": [
+    "test:missy:goldfish:de4973541f07bdb4"
+   ]
+  },
+  {
+   "adds": [
+    "Great Intelligence's Plan"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:8d2b0139f866",
+   "tests": [
+    "test:missy:goldfish:f39fd9dc3dbf6b80"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:ff0a2d056450",
+   "tests": [
+    "test:missy:goldfish:b7f863fbf12343da"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Drone"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:9af796c57839",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dalek Drone"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:c38ebe8f5fa1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:4532f545cd04",
+   "tests": [
+    "test:missy:goldfish:c1c4f64e865c5300"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:9d4926f80040",
+   "tests": [
+    "test:missy:goldfish:5126d1fa13f368f4"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:179def7532d0",
+   "tests": [
+    "test:missy:goldfish:a5fcad240b3066bf"
+   ]
+  },
+  {
+   "adds": [
+    "Genesis of the Daleks"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:63270ff3969d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gallifrey Council Chamber"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:d3d54ca178be",
+   "tests": [
+    "test:missy:goldfish:6c3bf57e8092ea35"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:15457326183a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "This Is How It Ends"
+   ],
+   "cuts": [
+    "The Master, Gallifrey's End"
+   ],
+   "id": "swap:missy:m5:a5950eadff3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laser Screwdriver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:5a8b2bd569a4",
+   "tests": [
+    "test:missy:goldfish:e5fbedb2b031f36b"
+   ]
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "The Master, Gallifrey's End"
+   ],
+   "id": "swap:missy:m5:3f11bbe51dde",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:7bdc51ab2b8b",
+   "tests": [
+    "test:missy:goldfish:d37dfc52d34f21fb"
+   ]
+  },
+  {
+   "adds": [
+    "Roshan, Hidden Magister"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:fb5c3d660f88",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:af1193279702",
+   "tests": [
+    "test:missy:goldfish:ad382d80fa54a06e"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:ac2ab4045d17",
+   "tests": [
+    "test:missy:goldfish:ae9fd62afed0ef13"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:80e1931862cf",
+   "tests": [
+    "test:missy:goldfish:a426a4a4501b6279"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:7ba59c451d6b",
+   "tests": [
+    "test:missy:goldfish:1b2ad509a835f9cc"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermat"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:9490b181b200",
+   "tests": [
+    "test:missy:goldfish:dbd56198472baf91"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:309f4954fc83",
+   "tests": [
+    "test:missy:goldfish:e313b33c676e9614"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:5d71b0e68d5c",
+   "tests": [
+    "test:missy:goldfish:e7d5f1c85648b5a2"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:d202a2609318",
+   "tests": [
+    "test:missy:goldfish:9e55a7e52bfa7cb6"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred's Edict"
+   ],
+   "cuts": [
+    "Cyber Conversion"
+   ],
+   "id": "swap:missy:m5:58aca9fe0dd5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scroll of Fate"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:cddc23713272",
+   "tests": [
+    "test:missy:goldfish:abf26566a85e872b"
+   ]
+  },
+  {
+   "adds": [
+    "Midnight Crusader Shuttle"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:af63b0d42e3d",
+   "tests": [
+    "test:missy:goldfish:9247f99edfe5e014"
+   ]
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:missy:m5:5bedfaede27e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vesuvan Shapeshifter"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:fd2ffcc5c8bb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vesuvan Shapeshifter"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:1da7f0c51461",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:055b44abbcd0",
+   "tests": [
+    "test:missy:goldfish:19348ccf8abfb79b"
+   ]
+  },
+  {
+   "adds": [
+    "Exterminate!"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:cb8e6ad41e3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exterminate!"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:4592c71d870c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:2151e8291c93",
+   "tests": [
+    "test:missy:goldfish:d3e2b7a1454bea89"
+   ]
+  },
+  {
+   "adds": [
+    "Snuff Out"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:2a74e799e2e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Snuff Out"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:75ba374e6f73",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:missy:m5:5af74a187d5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:missy:m5:0dc36b3e1993",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:1e17717289eb",
+   "tests": [
+    "test:missy:goldfish:c30584c27ab41522"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:06ca905d8252",
+   "tests": [
+    "test:missy:goldfish:650ad9233b0579f0"
+   ]
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:ddc8fd60d639",
+   "tests": [
+    "test:missy:goldfish:87e093f459ff57f2"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:107a3cec1d5a",
+   "tests": [
+    "test:missy:goldfish:be4c8291ee7c3166"
+   ]
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:6cb71e3a4d61",
+   "tests": [
+    "test:missy:goldfish:e83e3fca8207581e"
+   ]
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:25f8ac4fb8ef",
+   "tests": [
+    "test:missy:goldfish:0cd65d6fc671af61"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:cc447f148040",
+   "tests": [
+    "test:missy:goldfish:06b50a64f48a8e8f"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:161699609ffe",
+   "tests": [
+    "test:missy:goldfish:e143c0b254e9bfe2"
+   ]
+  },
+  {
+   "adds": [
+    "Hunted by The Family"
+   ],
+   "cuts": [
+    "The Master, Gallifrey's End"
+   ],
+   "id": "swap:missy:m5:7685f83f7161",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:4f1d0b9f1ea6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:cac7332095c4",
+   "tests": [
+    "test:missy:goldfish:bebb912c2ea5d32e"
+   ]
+  },
+  {
+   "adds": [
+    "Ixidron"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:9a87e4bc295b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kheru Spellsnatcher"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:missy:m5:33344068d9cf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:7d9e8b193617",
+   "tests": [
+    "test:missy:goldfish:a63ed23ab0beb035"
+   ]
+  },
+  {
+   "adds": [
+    "Coral Trickster"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:ddf17d484ae7",
+   "tests": [
+    "test:missy:goldfish:15c5076e80dc5834"
+   ]
+  },
+  {
+   "adds": [
+    "Coral Trickster"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:5b90dde8844a",
+   "tests": [
+    "test:missy:goldfish:d49dc0f4ba944c34"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:4bb03b7ae076",
+   "tests": [
+    "test:missy:goldfish:aced1c9fc7d642d7"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:a86e15c25ee5",
+   "tests": [
+    "test:missy:goldfish:fcf6366ba1e20006"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Scriptures"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:ef84246d2020",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:2684eadcfdfe",
+   "tests": [
+    "test:missy:goldfish:25dafe50d743dc78"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:499755112c02",
+   "tests": [
+    "test:missy:goldfish:66572c94a9af79a8"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:0a0ad11af605",
+   "tests": [
+    "test:missy:goldfish:26b125ede4cb1144"
+   ]
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:988aba9f3468",
+   "tests": [
+    "test:missy:goldfish:9dee673ce5add198"
+   ]
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Ixidor, Reality Sculptor"
+   ],
+   "id": "swap:missy:m5:c332037bc098",
+   "tests": [
+    "test:missy:goldfish:6c689bb7b65b3c7e"
+   ]
+  },
+  {
+   "adds": [
+    "Marchesa, the Black Rose"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:8f17de72c1ed",
+   "tests": [
+    "test:missy:goldfish:7849b58ba5d6eb87"
+   ]
+  },
+  {
+   "adds": [
+    "Carrion Feeder"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:2bec83af9a3c",
+   "tests": [
+    "test:missy:goldfish:a214f674c8a7a5ca"
+   ]
+  },
+  {
+   "adds": [
+    "Carrion Feeder"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:ac4abc7b9c05",
+   "tests": [
+    "test:missy:goldfish:3b72e822d3e61cfe"
+   ]
+  },
+  {
+   "adds": [
+    "Fleshbag Marauder"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:4bfbbe2b1ed2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:08a3209199df",
+   "tests": [
+    "test:missy:goldfish:d3a19d065856b20f"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:7aafcd638fd8",
+   "tests": [
+    "test:missy:goldfish:06f4011286a81596"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:8a23883309d7",
+   "tests": [
+    "test:missy:goldfish:0cfb57e9781d88cb"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:4f2b3ddfdeb0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:0b4936b0760b",
+   "tests": [
+    "test:missy:goldfish:66d87ce127825738"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:64d083eb265b",
+   "tests": [
+    "test:missy:goldfish:a3d3effdaec24623"
+   ]
+  },
+  {
+   "adds": [
+    "Voidmage Apprentice"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:missy:m5:0455d67b9e3c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:c0500cf5e989",
+   "tests": [
+    "test:missy:goldfish:8843fbaaf10b51a5"
+   ]
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:0302d08d3c33",
+   "tests": [
+    "test:missy:goldfish:90e87569e5905e75"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:66af78c7be11",
+   "tests": [
+    "test:missy:goldfish:7cdf5ddcd3433750"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ixidor, Reality Sculptor"
+   ],
+   "id": "swap:missy:m5:c47b1ca6378a",
+   "tests": [
+    "test:missy:goldfish:0de088c0d13a033f"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:d76ef8e0f17f",
+   "tests": [
+    "test:missy:goldfish:ab7f18f4f2408225"
+   ]
+  },
+  {
+   "adds": [
+    "Silumgar Assassin"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:c8da51c076d6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:274b0db44d22",
+   "tests": [
+    "test:missy:goldfish:ef8b60e59dfe55fe"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:e23fd677e9d8",
+   "tests": [
+    "test:missy:goldfish:ff73c5ac211eaee0"
+   ]
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:c44fc5bcc771",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:eb9df11eb6a9",
+   "tests": [
+    "test:missy:goldfish:360876db80d3fb27"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:38ab1b6258f5",
+   "tests": [
+    "test:missy:goldfish:f495d9685d132fc2"
+   ]
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:cb9b400ee820",
+   "tests": [
+    "test:missy:goldfish:c76b7358f7b4ad7c"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:9f602c035111",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:missy:m5:3b39db0abce5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Demon's Disciple"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:b1020ca25521",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wound Reflection"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:missy:m5:863070851f4e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:6cc35ada4012",
+   "tests": [
+    "test:missy:goldfish:6444552f6434403c"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:missy:m5:ae9adbe549cf",
+   "tests": [
+    "test:missy:goldfish:0ef6496c8a366cdd"
+   ]
+  },
+  {
+   "adds": [
+    "Exit Specialist"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:2b0d0049f886",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:5d5e46a77b6f",
+   "tests": [
+    "test:missy:goldfish:fcfe05c1294bfdc0"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:missy:m5:dab77b48de44",
+   "tests": [
+    "test:missy:goldfish:9a8144b0cc2b93b9"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:46ca19964bc0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:e911707988bd",
+   "tests": [
+    "test:missy:goldfish:e9d15620cdd0005f"
+   ]
+  },
+  {
+   "adds": [
+    "Ominous Cemetery"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:9dc9a4a95d42",
+   "tests": [
+    "test:missy:goldfish:13c8b723c3359f25"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:30a891e1b96f",
+   "tests": [
+    "test:missy:goldfish:66a5925e2955b148"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:0d45590f6562",
+   "tests": [
+    "test:missy:goldfish:c029161c46c2f432"
+   ]
+  },
+  {
+   "adds": [
+    "Age of Ultron"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:24a1a0676d65",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Islet"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:90fc51d16c5e",
+   "tests": [
+    "test:missy:goldfish:05b67320ae032a3b"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:7f1bea53d881",
+   "tests": [
+    "test:missy:goldfish:7002de9f8910fa28"
+   ]
+  },
+  {
+   "adds": [
+    "The Masters of Evil"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:6fc9b2128339",
+   "tests": [
+    "test:missy:goldfish:0ab4264a01951971"
+   ]
+  },
+  {
+   "adds": [
+    "Sycorax Commander"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:3f4b5554d025",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:e25445c30926",
+   "tests": [
+    "test:missy:goldfish:22f4db3a8df25cf9"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:missy:m5:d22c7acc8245",
+   "tests": [
+    "test:missy:goldfish:badba52003baacee"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:16d436a2bad0",
+   "tests": [
+    "test:missy:goldfish:73dca88e963c4020"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:ae3b3d0f02b0",
+   "tests": [
+    "test:missy:goldfish:68e583881d50ad09"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:ec29aa8e62a2",
+   "tests": [
+    "test:missy:goldfish:ea8dd26dc0906d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:1666eb699156",
+   "tests": [
+    "test:missy:goldfish:a2223421fb257a1a"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:49725fce5ade",
+   "tests": [
+    "test:missy:goldfish:69ef72925f5d2959"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:89f37cb26f8f",
+   "tests": [
+    "test:missy:goldfish:fdf29b96213aa4cb"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:17e4262c3c5a",
+   "tests": [
+    "test:missy:goldfish:dba3562fc826c4df"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:474ad551e675",
+   "tests": [
+    "test:missy:goldfish:410d047cc97fede5"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:ba7c5a3874a3",
+   "tests": [
+    "test:missy:goldfish:fb26d0cb452fe29e"
+   ]
+  },
+  {
+   "adds": [
+    "Trinket Mage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:798da4a090fd",
+   "tests": [
+    "test:missy:goldfish:39d3eafbebd53e37"
+   ]
+  },
+  {
+   "adds": [
+    "Tribute Mage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:825609947729",
+   "tests": [
+    "test:missy:goldfish:f41dff1d225e9bdb"
+   ]
+  },
+  {
+   "adds": [
+    "Trophy Mage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:34e2b2af80db",
+   "tests": [
+    "test:missy:goldfish:ff6f5f86961c7fda"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:f343795190b1",
+   "tests": [
+    "test:missy:goldfish:918feaa23ed7ec95"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:bbe144ed26af",
+   "tests": [
+    "test:missy:goldfish:49debfb3617e37c2"
+   ]
+  },
+  {
+   "adds": [
+    "Tolarian Sentinel"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:69b33e02365b",
+   "tests": [
+    "test:missy:goldfish:7d7dade3ebef21b6"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:e7a36a00fe96",
+   "tests": [
+    "test:missy:goldfish:2d3c6c8679c668b2"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:missy:m5:ba5411028e97",
+   "tests": [
+    "test:missy:goldfish:5fd9c2f9053a91a5"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:ee12a4e6858d",
+   "tests": [
+    "test:missy:goldfish:4d8506394c99b2a3"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:c506474c1bba",
+   "tests": [
+    "test:missy:goldfish:2eba06762555e8da"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:995fcf6e5e6a",
+   "tests": [
+    "test:missy:goldfish:6d1f4349a0566df5"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:missy:m5:60b6dd4e61a7",
+   "tests": [
+    "test:missy:goldfish:ae34f6ad03984bea"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:4142dd289cea",
+   "tests": [
+    "test:missy:goldfish:c6844ba470ff4a1c"
+   ]
+  },
+  {
+   "adds": [
+    "Oriq Loremage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:0452ef6d8f3a",
+   "tests": [
+    "test:missy:goldfish:8a689a92d6cda047"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:bba2ea8a7d1b",
+   "tests": [
+    "test:missy:goldfish:53474ca0fa2945db"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:621378776bfa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Transit Mage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:d998d599caa1",
+   "tests": [
+    "test:missy:goldfish:f52b2a3fc52221f2"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Inventor"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:41df97cdbad4",
+   "tests": [
+    "test:missy:goldfish:81bc2832da337800"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:89b2740da800",
+   "tests": [
+    "test:missy:goldfish:669628167559f807"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:4e6a71b53633",
+   "tests": [
+    "test:missy:goldfish:6e280509ec13ee13"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Dementia Master"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:c2041b222299",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:cff13aa6d75a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:e641b1a8e515",
+   "tests": [
+    "test:missy:goldfish:41b57336401ac803"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:624f97456834",
+   "tests": [
+    "test:missy:goldfish:2d969c6bb7bc912a"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:62e8d35819e8",
+   "tests": [
+    "test:missy:goldfish:21da5aebfbd1440e"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "id": "swap:missy:m5:517d6b1d5faa",
+   "tests": [
+    "test:missy:goldfish:fb7a1449a100dd7c"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:fc0f8c204e00",
+   "tests": [
+    "test:missy:goldfish:f045ce57bd74b1fe"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:b35ca599e420",
+   "tests": [
+    "test:missy:goldfish:253747628df609d7"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:91b3d60c6892",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:814c39a1d738",
+   "tests": [
+    "test:missy:goldfish:b24f1cfa251f1e81"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:b05a1a602562",
+   "tests": [
+    "test:missy:goldfish:f026444afd806aed"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:49505b7ebe4d",
+   "tests": [
+    "test:missy:goldfish:309cb0eab44df7a4"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:missy:m5:253d36a00c98",
+   "tests": [
+    "test:missy:goldfish:d88263bbf4c7c62e"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:4d4f2c4d712b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:ee223c2c7ba4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "River of Tears"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:296416d21511",
+   "tests": [
+    "test:missy:goldfish:51d27baadfb99e39"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Mage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:8697c44f3c22",
+   "tests": [
+    "test:missy:goldfish:774be17d640f9950"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:8edf59260d00",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:91fafc00bc76",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cynical Loner"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:bd8284271921",
+   "tests": [
+    "test:missy:goldfish:f23da21836733dc3"
+   ]
+  },
+  {
+   "adds": [
+    "Corpse Connoisseur"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:6a382cabd423",
+   "tests": [
+    "test:missy:goldfish:567d1fc7084f6817"
+   ]
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:257c7607fc89",
+   "tests": [
+    "test:missy:goldfish:36b430e2cbf6026e"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:bb3ebdce9617",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:82d2a073bc7d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:7e150180eef7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:7611cd9755fd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ironheart, Clever Champion"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:6bff3b08ad2c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Memnarch, the Warden"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:665a1a7e3ddc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:34aad6ab9b54",
+   "tests": [
+    "test:missy:goldfish:b857a5ba39cc262b"
+   ]
+  },
+  {
+   "adds": [
+    "Moonstone, Harsh Mistress"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:58dcf69dc2d3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:f9d0dbf7f5cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:f51846fdf3db",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Lad, Diverging Destiny"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:4c484db5d1ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:47c46e684a9b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nico Minoru, Runaway"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:a0d7c796c02c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:a907f94acb4a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:d5aeb5e7601d",
+   "tests": [
+    "test:missy:goldfish:fad1d9f43477418f"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana the Repentant"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:9ae4906e5ce5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:aae8e442cfd3",
+   "tests": [
+    "test:missy:goldfish:6efdc7eeac4f9994"
+   ]
+  },
+  {
+   "adds": [
+    "Warren Soultrader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:ec1b0660a76c",
+   "tests": [
+    "test:missy:goldfish:429af9dec644e6c5"
+   ]
+  },
+  {
+   "adds": [
+    "Muse Seeker"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:1d0edccdd27c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:1dd9236f7e22",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "They Came from the Pipes"
+   ],
+   "id": "swap:missy:m5:7d428818e000",
+   "tests": [
+    "test:missy:goldfish:41834ce6520f1e68"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:3c80bde3ae0a",
+   "tests": [
+    "test:missy:goldfish:2850a2176a4d8ae5"
+   ]
+  },
+  {
+   "adds": [
+    "Plasmancer"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:cc5196fbfb1f",
+   "tests": [
+    "test:missy:goldfish:7b334077c8a6de66"
+   ]
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:f3b17e0aaf92",
+   "tests": [
+    "test:missy:goldfish:5dfff7bacb83740f"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:86c0e37a9204",
+   "tests": [
+    "test:missy:goldfish:cce92627843510f9"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Knight, Hero for Hire"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:cf0dcf58d1cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:755fcd0ac39e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:abb32aa4d542",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rescue, Pepper Potts"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:cf563480cecb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Renowned Weaponsmith"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:388e97e51602",
+   "tests": [
+    "test:missy:goldfish:a5a242aa5c9d2705"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Master Marksman"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:a9db603835fd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:4b1f11a4011e",
+   "tests": [
+    "test:missy:goldfish:cf975e500f840c26"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:fc76bb3f0208",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spider-Man, New Champion"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:137633d1a6ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:afede8e0c42f",
+   "tests": [
+    "test:missy:goldfish:0ee215f9011d2467"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:48bb09893af9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spellbook Seeker // Careful Study"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:5943f85a811f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:d69990673a1f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:2218a1300c71",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:19e601cdb52b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:34c2209c99aa",
+   "tests": [
+    "test:missy:goldfish:7aba331b72ce4628"
+   ]
+  },
+  {
+   "adds": [
+    "Diviner of Victory // Unwind History"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:321f588be97e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:c9c5c9e62af2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Futurist Paragon"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:177bfb4bd78b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:c3915595bbb1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jaya Ballard, Task Mage"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:0e7e3348421a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:1c07fc75db09",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disciple of Deceit"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:c168d25762ec",
+   "tests": [
+    "test:missy:goldfish:f099c02b3cced0a7"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:139a933f524f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:4ac04e7a0579",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disciples of Gix"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:582370af5873",
+   "tests": [
+    "test:missy:goldfish:11876737add093a2"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:8f9824517ba1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:ba15598026cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Textbook Tabulator"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:7ce8af40b8e9",
+   "tests": [
+    "test:missy:goldfish:1f104c51a32a0576"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:1c02f633817f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:db508f780ad1",
+   "tests": [
+    "test:missy:goldfish:f1a3d18e84ab074b"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:7b00b91b9a02",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Maximus, Knight Apparent"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:43e66d3d596a",
+   "tests": [
+    "test:missy:goldfish:a42ad7a79dd056e3"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:5da616797858",
+   "tests": [
+    "test:missy:goldfish:b1cd61ed900c9a09"
+   ]
+  },
+  {
+   "adds": [
+    "Diplomatic Escort"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:missy:m5:18d8ff80e6d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Room Recruit"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:be055cc9f541",
+   "tests": [
+    "test:missy:goldfish:a4143dcbaf5fcdb7"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Matter Manipulator"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:094bdf4685ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:59d3e373493c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gideon the Oathless"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:e9dcee1464c1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:10c27b120d90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:7c82310a146d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:e85ea3d84e77",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yuriko, Hope from the Shadows"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:1ae1c0569dd5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:a026bdd8ccf7",
+   "tests": [
+    "test:missy:goldfish:00b566e2bd42d2bb"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:missy:m5:693df1f884fb",
+   "tests": [
+    "test:missy:goldfish:5f060bdbf4901900"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Scientists"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:3f1a5b8d1d9a",
+   "tests": [
+    "test:missy:goldfish:012f4466fb5f3c38"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:f33bea30fb9d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:39a5e5101d0e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:157d826f1a35",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:b638a927338e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:10c31ebbbaeb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Proft, Consulting Detective"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:21f646582c74",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seasoned Cryomancer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:fb3fac908065",
+   "tests": [
+    "test:missy:goldfish:dc686a314242aa6b"
+   ]
+  },
+  {
+   "adds": [
+    "Valentina Allegra de Fontaine"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:69743674ee60",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Paradox Shaper // Omit Variables"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:3f44f0d62fc3",
+   "tests": [
+    "test:missy:goldfish:c776ea2fc618d03f"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Mancha, Runaway"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:941a38a7675d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lady Spider, Maybelle Reilly"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:6db38f9424a5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:15c705a56452",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:bf18ff7773ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chase Stein, Runaway"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:57269840428b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hammer Mage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:8923df22ea04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:7a5dfb6e8c5f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:5aeadc1f3cd5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:c9e292aedef5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:31d0d00416c8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:f0aa9111ae4d",
+   "tests": [
+    "test:missy:goldfish:e00ed677f97e1428"
+   ]
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:55aefbb38f3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:99454bb344de",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:2af59c70fb71",
+   "tests": [
+    "test:missy:goldfish:66e7c060d3d33c4e"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:c2291afd7945",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:e9e8691635ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:ff3bc7cd25cd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fixer, Techno Terror"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:7d70421f660e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:1e403dca7bc3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "MACH-1, Swooping Scoundrel"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:0818c0c3020c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Divining Duelist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:ce3e09255ff5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:7c180e586198",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Theorix Metamage // Omit Variables"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:9934fdfe7570",
+   "tests": [
+    "test:missy:goldfish:2073bc324964ffb9"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Timely, Wily Tycoon"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:03ccf8270833",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hakim, Loreweaver"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:46af2fb66e91",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:8d54e40fa210",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vizier of the Anointed"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:e5238e34dd03",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:missy:m5:400e7751e141",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Voidmage Prodigy"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:missy:m5:1d08926293ad",
+   "tests": [
+    "test:missy:goldfish:69dfb34e1041abb9"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:c30d2a47b4f2",
+   "tests": [
+    "test:missy:goldfish:b7351e6573ab657d"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx's Herald"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:missy:m5:0b2fbe12ab97",
+   "tests": [
+    "test:missy:goldfish:fafbdaf8ff90155a"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:6852009616b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cryotheory Adept"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:0e01228b8258",
+   "tests": [
+    "test:missy:goldfish:3de3eca0e47692d3"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:f74890bd3f37",
+   "tests": [
+    "test:missy:goldfish:62214e9a7c105541"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:25df6e7db36a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Timebender"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:a50a2110a8f8",
+   "tests": [
+    "test:missy:goldfish:ed3e7c0237da4b7d"
+   ]
+  },
+  {
+   "adds": [
+    "Timebender"
+   ],
+   "cuts": [
+    "Ixidor, Reality Sculptor"
+   ],
+   "id": "swap:missy:m5:19466e74130c",
+   "tests": [
+    "test:missy:goldfish:486bf9c52b63f71e"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:cf9d6e559677",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disruptive Pitmage"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:missy:m5:6b2ab25b699d",
+   "tests": [
+    "test:missy:goldfish:dce442b0928e749a"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:7f17f3daf3f8",
+   "tests": [
+    "test:missy:goldfish:0590ceffae69a764"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:765c55885b38",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:6a6fcb8d07f7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:727ff843a3db",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Snapcaster Mage"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:73a789115c0b",
+   "tests": [
+    "test:missy:goldfish:acd8d7fc91f193b0"
+   ]
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:f791768b7bcc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:1f500575508b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:1b3eb7f367d8",
+   "tests": [
+    "test:missy:goldfish:30610a15581e5ee3"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:dce32390e694",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Headhunter"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:3a47101fc0cc",
+   "tests": [
+    "test:missy:goldfish:581227404843d76b"
+   ]
+  },
+  {
+   "adds": [
+    "Headhunter"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:67573cd45227",
+   "tests": [
+    "test:missy:goldfish:39d1ea6476b26ecf"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:6925ecf9f94d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:83842fc32203",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:4e2af89c0aee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ingenious Artillerist"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:f2cc89c7781a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kolaghan Stormsinger"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:fa20a658e2f8",
+   "tests": [
+    "test:missy:goldfish:136e32b1f2128565"
+   ]
+  },
+  {
+   "adds": [
+    "Kolaghan Stormsinger"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:40875d9ecf43",
+   "tests": [
+    "test:missy:goldfish:7a53fb75281b0d34"
+   ]
+  },
+  {
+   "adds": [
+    "Scornful Egotist"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:c14577c24259",
+   "tests": [
+    "test:missy:goldfish:e35490c025cc4b36"
+   ]
+  },
+  {
+   "adds": [
+    "Scornful Egotist"
+   ],
+   "cuts": [
+    "Ixidor, Reality Sculptor"
+   ],
+   "id": "swap:missy:m5:f8ac209b47ee",
+   "tests": [
+    "test:missy:goldfish:83cf82f054fa4527"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:e3ff441beae0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:aec8003a7fe0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inti, Seneschal of the Sun"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:ed91ff5dc104",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:c740d294f032",
+   "tests": [
+    "test:missy:goldfish:25acc7ff0232f330"
+   ]
+  },
+  {
+   "adds": [
+    "Party Thrasher"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:45d65913826c",
+   "tests": [
+    "test:missy:goldfish:9bd7ea15dd159620"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:88d4ba2b4e78",
+   "tests": [
+    "test:missy:goldfish:3435abc04801a28c"
+   ]
+  },
+  {
+   "adds": [
+    "Bruvac the Grandiloquent"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:0b4267759846",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:851e928b9e00",
+   "tests": [
+    "test:missy:goldfish:6eb1fa691ccb5dd5"
+   ]
+  },
+  {
+   "adds": [
+    "Master of Etherium"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:a1a46a26744c",
+   "tests": [
+    "test:missy:goldfish:ae86872f2b756bc4"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:841ea3d88490",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:missy:m5:a34e5db0cd45",
+   "tests": [
+    "test:missy:goldfish:9bf4c1f5bf002e98"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:471ecd28e0fb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:2afddca57ebf",
+   "tests": [
+    "test:missy:goldfish:ee5ba8209eabd117"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:e3cb0897e128",
+   "tests": [
+    "test:missy:goldfish:dd97334b807be26b"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of the Vault"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:529c54c8eaf8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Harsh Mentor"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:0f41c1548ff4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:a2c4926f2a9e",
+   "tests": [
+    "test:missy:goldfish:87b38c9e2df6904d"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:6737762326a9",
+   "tests": [
+    "test:missy:goldfish:15987eaed614dfb9"
+   ]
+  },
+  {
+   "adds": [
+    "Witch of the Moors"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:29df44a79265",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tishana's Tidebinder"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:6aeafb44c40b",
+   "tests": [
+    "test:missy:goldfish:7de10953b445d937"
+   ]
+  },
+  {
+   "adds": [
+    "Metamorphosis Fanatic"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:259cc330236d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emet-Selch of the Third Seat"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:e1a2e1b1347e",
+   "tests": [
+    "test:missy:goldfish:005d6c02ff0c22bc"
+   ]
+  },
+  {
+   "adds": [
+    "Vedalken Archmage"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:dc3a584cd3c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:7cd940e259c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fandaniel, Telophoroi Ascian"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:65ddbb97d3ee",
+   "tests": [
+    "test:missy:goldfish:66598bbe913750fb"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:4ed26bf3cb79",
+   "tests": [
+    "test:missy:goldfish:30cb141a0cc38601"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:4f56a054030f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:09c28b25fbc2",
+   "tests": [
+    "test:missy:goldfish:2453dac917c5c62b"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:39366bb6071e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dockside Chef"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:b7df03b0aa95",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:c5cba0a4196d",
+   "tests": [
+    "test:missy:goldfish:dd9d95eb03cfe4b7"
+   ]
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:21e33407374f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:8e615d84e55a",
+   "tests": [
+    "test:missy:goldfish:bb2930e03e2b0dd3"
+   ]
+  },
+  {
+   "adds": [
+    "Rona, Herald of Invasion // Rona, Tolarian Obliterator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:0d44f912f5e0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:5df2f578a285",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:9c6cb8f9968b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:778f97c0bb7a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vohar, Vodalian Desecrator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:4843456f6150",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dr. Eggman"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:missy:m5:781dcd6d3935",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grudge Keeper"
+   ],
+   "cuts": [
+    "Boltbender"
+   ],
+   "id": "swap:missy:m5:54223f26a474",
+   "tests": [
+    "test:missy:goldfish:45b7b09c92ad3c92"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:065847684860",
+   "tests": [
+    "test:missy:goldfish:1dc0f4aeecb19b0b"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:06dbcbe18fd7",
+   "tests": [
+    "test:missy:goldfish:9218aabb7010e4aa"
+   ]
+  },
+  {
+   "adds": [
+    "Tombstone Stairwell"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:missy:m5:70643931d207",
+   "tests": [
+    "test:missy:goldfish:72484812074dbb50"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:missy:m5:d7327fa97761",
+   "tests": [
+    "test:missy:goldfish:2561868bab9c7712"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:5bf0537588ee",
+   "tests": [
+    "test:missy:goldfish:d30f2c505fd68041"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:90ea1c85e78a",
+   "tests": [
+    "test:missy:goldfish:bee07c2ef5cfa7c3"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:514e0d25788e",
+   "tests": [
+    "test:missy:goldfish:846b66e26fa967b5"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:d5be7896faa8",
+   "tests": [
+    "test:missy:goldfish:52fc1687b45711fe"
+   ]
+  },
+  {
+   "adds": [
+    "Gudul Lurker"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:5ef70e348813",
+   "tests": [
+    "test:missy:goldfish:23340c119f206b92"
+   ]
+  },
+  {
+   "adds": [
+    "Gudul Lurker"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:347432d0e72f",
+   "tests": [
+    "test:missy:goldfish:401e2545b99029b2"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:fcaa23341563",
+   "tests": [
+    "test:missy:goldfish:7e9df7fdc7bda7e7"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Zulaport Cutthroat"
+   ],
+   "id": "swap:missy:m5:89036c79d3fd",
+   "tests": [
+    "test:missy:goldfish:e7b31f78fb2c0095"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:c8865c6a3158",
+   "tests": [
+    "test:missy:goldfish:d716934d76651ebc"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:missy:m5:8556855d155b",
+   "tests": [
+    "test:missy:goldfish:d34101261cb8b6b7"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:missy:m5:9216c9697fcf",
+   "tests": [
+    "test:missy:goldfish:1dc2763a8466edb1"
+   ]
+  },
+  {
+   "adds": [
+    "Dwarven Blastminer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:missy:m5:fd51a87eff37",
+   "tests": [
+    "test:missy:goldfish:d5c3fb0348d4636a"
+   ]
+  },
+  {
+   "adds": [
+    "Dwarven Blastminer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:f934597b336b",
+   "tests": [
+    "test:missy:goldfish:d5a07f5114fb4e0d"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:aaa1a53cc579",
+   "tests": [
+    "test:missy:goldfish:d911a16eb35d5439"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:5dd1c54806c5",
+   "tests": [
+    "test:missy:goldfish:5d40df62f660651d"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:3881ea1f58a2",
+   "tests": [
+    "test:missy:goldfish:30d0c84a904e2202"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:e6b79349ebe1",
+   "tests": [
+    "test:missy:goldfish:2df9dbf506ccb730"
+   ]
+  },
+  {
+   "adds": [
+    "Dulcet Sirens"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:e83104cca90b",
+   "tests": [
+    "test:missy:goldfish:1379abb545d319a1"
+   ]
+  },
+  {
+   "adds": [
+    "Dulcet Sirens"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:e20db3060e17",
+   "tests": [
+    "test:missy:goldfish:18117d235d9bc960"
+   ]
+  },
+  {
+   "adds": [
+    "Monastery Flock"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:caebd88aa906",
+   "tests": [
+    "test:missy:goldfish:f1315ff5509b062d"
+   ]
+  },
+  {
+   "adds": [
+    "Monastery Flock"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:4bcd41044a3e",
+   "tests": [
+    "test:missy:goldfish:276f569752d072de"
+   ]
+  },
+  {
+   "adds": [
+    "Warbreak Trumpeter"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:87126172610f",
+   "tests": [
+    "test:missy:goldfish:32bcbd5f94475a20"
+   ]
+  },
+  {
+   "adds": [
+    "Warbreak Trumpeter"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:b63c0aee3b01",
+   "tests": [
+    "test:missy:goldfish:57bf7fbeeb411c08"
+   ]
+  },
+  {
+   "adds": [
+    "Wall of Deceit"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:8309d15b1b23",
+   "tests": [
+    "test:missy:goldfish:58d024e55074757e"
+   ]
+  },
+  {
+   "adds": [
+    "Wall of Deceit"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:82f6b0fe8494",
+   "tests": [
+    "test:missy:goldfish:6bfe7bd1d20ad469"
+   ]
+  },
+  {
+   "adds": [
+    "Ire Shaman"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:685606eb3fb6",
+   "tests": [
+    "test:missy:goldfish:2f95b135f40a06c7"
+   ]
+  },
+  {
+   "adds": [
+    "Ire Shaman"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:861b48026aa8",
+   "tests": [
+    "test:missy:goldfish:da1da3877f004fb8"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Pilferer"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:76f8875bb0da",
+   "tests": [
+    "test:missy:goldfish:c48d524109eb90b0"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Pilferer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:a4cff0e798ef",
+   "tests": [
+    "test:missy:goldfish:3fc5b9feb8b33d71"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Taskmaster"
+   ],
+   "cuts": [
+    "Reckless Fireweaver"
+   ],
+   "id": "swap:missy:m5:eecaa7f7a0bd",
+   "tests": [
+    "test:missy:goldfish:dce8046df7f05e03"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Taskmaster"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:missy:m5:2fabec1b2a23",
+   "tests": [
+    "test:missy:goldfish:6ac60dd078a497d6"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:missy:goldfish:4659444198893eed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:8fa3c0a1aec5a660",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:07e4ead34947a6c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:491c24c27dcb1f3e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:de4973541f07bdb4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:f39fd9dc3dbf6b80",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:b7f863fbf12343da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:c1c4f64e865c5300",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:5126d1fa13f368f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:a5fcad240b3066bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:6c3bf57e8092ea35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:e5fbedb2b031f36b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d37dfc52d34f21fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:ad382d80fa54a06e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:ae9fd62afed0ef13",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:missy:goldfish:a426a4a4501b6279",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:1b2ad509a835f9cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:dbd56198472baf91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:e313b33c676e9614",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:e7d5f1c85648b5a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:9e55a7e52bfa7cb6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:missy:goldfish:abf26566a85e872b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:9247f99edfe5e014",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:19348ccf8abfb79b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:d3e2b7a1454bea89",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:c30584c27ab41522",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:650ad9233b0579f0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:missy:goldfish:87e093f459ff57f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:be4c8291ee7c3166",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:e83e3fca8207581e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:0cd65d6fc671af61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:06b50a64f48a8e8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:e143c0b254e9bfe2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:bebb912c2ea5d32e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:a63ed23ab0beb035",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:15c5076e80dc5834",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d49dc0f4ba944c34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:aced1c9fc7d642d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:fcf6366ba1e20006",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:25dafe50d743dc78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:66572c94a9af79a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:26b125ede4cb1144",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:9dee673ce5add198",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:6c689bb7b65b3c7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:7849b58ba5d6eb87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:a214f674c8a7a5ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:3b72e822d3e61cfe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d3a19d065856b20f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:06f4011286a81596",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:0cfb57e9781d88cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:66d87ce127825738",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:a3d3effdaec24623",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:8843fbaaf10b51a5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:90e87569e5905e75",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:7cdf5ddcd3433750",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:0de088c0d13a033f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:ab7f18f4f2408225",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:ef8b60e59dfe55fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:ff73c5ac211eaee0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:360876db80d3fb27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:f495d9685d132fc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:c76b7358f7b4ad7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:6444552f6434403c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:0ef6496c8a366cdd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:fcfe05c1294bfdc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:9a8144b0cc2b93b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:e9d15620cdd0005f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:13c8b723c3359f25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:66a5925e2955b148",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:c029161c46c2f432",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:05b67320ae032a3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:7002de9f8910fa28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:0ab4264a01951971",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:22f4db3a8df25cf9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:badba52003baacee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:73dca88e963c4020",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:68e583881d50ad09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:ea8dd26dc0906d4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:a2223421fb257a1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:69ef72925f5d2959",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:fdf29b96213aa4cb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:dba3562fc826c4df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:410d047cc97fede5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:fb26d0cb452fe29e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:39d3eafbebd53e37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:f41dff1d225e9bdb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:ff6f5f86961c7fda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:918feaa23ed7ec95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:49debfb3617e37c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:7d7dade3ebef21b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:2d3c6c8679c668b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:5fd9c2f9053a91a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:4d8506394c99b2a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:2eba06762555e8da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:6d1f4349a0566df5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:ae34f6ad03984bea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:c6844ba470ff4a1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:8a689a92d6cda047",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:53474ca0fa2945db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:f52b2a3fc52221f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:81bc2832da337800",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:669628167559f807",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:6e280509ec13ee13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:41b57336401ac803",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:2d969c6bb7bc912a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:21da5aebfbd1440e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:fb7a1449a100dd7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:f045ce57bd74b1fe",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:253747628df609d7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:b24f1cfa251f1e81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:f026444afd806aed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:309cb0eab44df7a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:d88263bbf4c7c62e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:51d27baadfb99e39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:774be17d640f9950",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:f23da21836733dc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:567d1fc7084f6817",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:36b430e2cbf6026e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:b857a5ba39cc262b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:fad1d9f43477418f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:6efdc7eeac4f9994",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:429af9dec644e6c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:41834ce6520f1e68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:2850a2176a4d8ae5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:7b334077c8a6de66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:5dfff7bacb83740f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:cce92627843510f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:a5a242aa5c9d2705",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:cf975e500f840c26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:0ee215f9011d2467",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:7aba331b72ce4628",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:f099c02b3cced0a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:11876737add093a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:1f104c51a32a0576",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:f1a3d18e84ab074b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:a42ad7a79dd056e3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:b1cd61ed900c9a09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:a4143dcbaf5fcdb7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:00b566e2bd42d2bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:5f060bdbf4901900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:012f4466fb5f3c38",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:dc686a314242aa6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:c776ea2fc618d03f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:e00ed677f97e1428",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:66e7c060d3d33c4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:2073bc324964ffb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:69dfb34e1041abb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:b7351e6573ab657d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:fafbdaf8ff90155a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:3de3eca0e47692d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:62214e9a7c105541",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:ed3e7c0237da4b7d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:486bf9c52b63f71e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:dce442b0928e749a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:0590ceffae69a764",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:acd8d7fc91f193b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:30610a15581e5ee3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:581227404843d76b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:39d1ea6476b26ecf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:136e32b1f2128565",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:7a53fb75281b0d34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:e35490c025cc4b36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:83cf82f054fa4527",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:25acc7ff0232f330",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:9bd7ea15dd159620",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:3435abc04801a28c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:6eb1fa691ccb5dd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:ae86872f2b756bc4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:9bf4c1f5bf002e98",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:ee5ba8209eabd117",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:dd97334b807be26b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:87b38c9e2df6904d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:15987eaed614dfb9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:7de10953b445d937",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:005d6c02ff0c22bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:66598bbe913750fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:30cb141a0cc38601",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:2453dac917c5c62b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:dd9d95eb03cfe4b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:bb2930e03e2b0dd3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:45b7b09c92ad3c92",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:1dc0f4aeecb19b0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:9218aabb7010e4aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:72484812074dbb50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:2561868bab9c7712",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d30f2c505fd68041",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:bee07c2ef5cfa7c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:846b66e26fa967b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:52fc1687b45711fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:23340c119f206b92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:401e2545b99029b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:7e9df7fdc7bda7e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:e7b31f78fb2c0095",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:missy:goldfish:d716934d76651ebc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d34101261cb8b6b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:1dc2763a8466edb1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:missy:goldfish:d5c3fb0348d4636a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d5a07f5114fb4e0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:d911a16eb35d5439",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:5d40df62f660651d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:30d0c84a904e2202",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:2df9dbf506ccb730",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:1379abb545d319a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:18117d235d9bc960",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:f1315ff5509b062d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:276f569752d072de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:32bcbd5f94475a20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:57bf7fbeeb411c08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:58d024e55074757e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:6bfe7bd1d20ad469",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:2f95b135f40a06c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:da1da3877f004fb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:c48d524109eb90b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:3fc5b9feb8b33d71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:dce8046df7f05e03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:missy:goldfish:6ac60dd078a497d6",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

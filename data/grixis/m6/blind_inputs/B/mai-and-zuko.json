@@ -1,0 +1,6305 @@
+{
+ "deck_id": "Mai_and_Zuko",
+ "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "slug": "mai-and-zuko",
+ "swaps": [
+  {
+   "adds": [
+    "Iroh, Dragon of the West"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:78009832eaea",
+   "tests": [
+    "test:mai-and-zuko:goldfish:50ae2570356123c7"
+   ]
+  },
+  {
+   "adds": [
+    "Wartime Protestors"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:d436818f034f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4a6d02df89a91c04"
+   ]
+  },
+  {
+   "adds": [
+    "Mai, Scornful Striker"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:250a80fed17b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:68fad7e4c27bf6ad"
+   ]
+  },
+  {
+   "adds": [
+    "Smellerbee, Rebel Fighter"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:a5005be4fe9c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sea Gate Loremaster"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:f5ab313bb546",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mai-and-zuko:m5:bdbadd444200",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fire Nation Turret"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:5425f343d89b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jasmine Dragon Tea Shop"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:f9bbfa2de84d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8d78b073f6cab681"
+   ]
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:778ee8ea1c58",
+   "tests": [
+    "test:mai-and-zuko:goldfish:75a58ee075a464ea"
+   ]
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mai-and-zuko:m5:18fe187930ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jwari Shapeshifter"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:acdcd5f893c5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cf590af5bbb0d9c6"
+   ]
+  },
+  {
+   "adds": [
+    "Kazuul Warlord"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:28bd4694cc32",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5f607245710e99f4"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Fire Sage"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:a31b2c502d00",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4510e0cf60d07908"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:268bf97f5df3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:621370dae0552593"
+   ]
+  },
+  {
+   "adds": [
+    "Hagra Diabolist"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:92dc61690278",
+   "tests": [
+    "test:mai-and-zuko:goldfish:09c7e3fd17707e9f"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:c31eb876eab9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:993387234be79588"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:d16e1a1029cc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0686f1acf043ebd0"
+   ]
+  },
+  {
+   "adds": [
+    "White Lotus Tile"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:04517d74860e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e545c78d46ae3a52"
+   ]
+  },
+  {
+   "adds": [
+    "White Lotus Tile"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:cbd41c6415d5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8fc00897d53bf04c"
+   ]
+  },
+  {
+   "adds": [
+    "Katara, Bending Prodigy"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:1891f8fc42f1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:485d763be9f4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ce47eaa02affe9f0"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:f3260ef5f725",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2bf9e93178034f7a"
+   ]
+  },
+  {
+   "adds": [
+    "Sozin's Comet"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:66ed586126c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kalastria Healer"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:e1ac6274b0f3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:375e33103997df94"
+   ]
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:c134e3bdda6c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:54340c7507308e77"
+   ]
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:fa845cd78660",
+   "tests": [
+    "test:mai-and-zuko:goldfish:266f72588e9c1b7f"
+   ]
+  },
+  {
+   "adds": [
+    "Firemantle Mage"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:235a4d13c5c3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a6a102edabe0ea9f"
+   ]
+  },
+  {
+   "adds": [
+    "Zuko, Exiled Prince"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:38e987e0b5ce",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7275ea862869370b"
+   ]
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:152ed74518a3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:637d16b9d5a69590"
+   ]
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "The Blue Spirit"
+   ],
+   "id": "swap:mai-and-zuko:m5:cd0a3b257002",
+   "tests": [
+    "test:mai-and-zuko:goldfish:309ded84e97c373d"
+   ]
+  },
+  {
+   "adds": [
+    "Yue, the Moon Spirit"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:e2c647a57808",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f25dab8a78d91817"
+   ]
+  },
+  {
+   "adds": [
+    "Agadeem Occultist"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:702ffa72f1de",
+   "tests": [
+    "test:mai-and-zuko:goldfish:96e91377290f4be0"
+   ]
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:127f9ea207a2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4d7d1d60adcd2cd5"
+   ]
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:396170570f5f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d82a2cb9ce87866b"
+   ]
+  },
+  {
+   "adds": [
+    "Vanquisher's Banner"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:89a6ad1e2292",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Murasa Pyromancer"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:5e5f655a0fa4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:c1636081ea0d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9481ea5db54c3b36"
+   ]
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:f5e2a3fd0f64",
+   "tests": [
+    "test:mai-and-zuko:goldfish:581accae19d77a3d"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:f81ca2b2e5f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:1741a78deca5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:87e5c2f9edd9f800"
+   ]
+  },
+  {
+   "adds": [
+    "Seascape Aerialist"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:697e52b7ce7b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a05bf8c9cc8882ce"
+   ]
+  },
+  {
+   "adds": [
+    "The Reality Chip"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:8bbb46107c15",
+   "tests": [
+    "test:mai-and-zuko:goldfish:792f65b360cc2f0d"
+   ]
+  },
+  {
+   "adds": [
+    "The Reality Chip"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:0b8571bda7fb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a2382844a0449b2e"
+   ]
+  },
+  {
+   "adds": [
+    "Highland Berserker"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:c615b62a24b6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e8f572e80f76406d"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:d777b7786c09",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c65ae1923a013c00"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:8ff1e664d7d2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:01df6fd869e0fc6f"
+   ]
+  },
+  {
+   "adds": [
+    "Jeong Jeong, the Deserter"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:abaa6b9df65d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9d6be4350a6f7325"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:0d9cc982278c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f46134aa74b97a17"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:c215ebdd01b4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d8ef3274bc13a702"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:f9a2ed763faf",
+   "tests": [
+    "test:mai-and-zuko:goldfish:900b7b72099bf319"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:09a75f6cdf15",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7284a19f7d33d75e"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:cf80519b6183",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6aa242f0ea2a35c2"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:cf66afd765b6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3e3521e7080d2926"
+   ]
+  },
+  {
+   "adds": [
+    "The Walls of Ba Sing Se"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mai-and-zuko:m5:bbe6e7ba8baa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iroh, Firebending Instructor"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:bef479a2ad05",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ee980eea9014a1a3"
+   ]
+  },
+  {
+   "adds": [
+    "Azula, On the Hunt"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:6077a0de9f3e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:81d2f625f40fbb01"
+   ]
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:613b45039355",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f70fda2238b021ae"
+   ]
+  },
+  {
+   "adds": [
+    "Professor Zei, Anthropologist"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:f9ccddcb8135",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:41e42d26ba50",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Ten Rings"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:0512280440ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:1284cb1ca7e0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e9612222147ea8ba"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:6514c392e181",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4d8b7f969efbebb4"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:8489872c11b5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b48a7eeb4fe06de8"
+   ]
+  },
+  {
+   "adds": [
+    "Akoum Battlesinger"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:0684c6e61170",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fe492bdb89e2bb88"
+   ]
+  },
+  {
+   "adds": [
+    "Waterbender Ascension"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:4ad21746a7a4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:75053bea0b9a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:aec64ad78c5d6d88"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:7c5676d6a820",
+   "tests": [
+    "test:mai-and-zuko:goldfish:05d30aa1548910ad"
+   ]
+  },
+  {
+   "adds": [
+    "Zulaport Cutthroat"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:62ef0dfcaa1a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:285829e627e68449"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:b70c2c0157b5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ff1f2b533ab99f02"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:91624f50ef6e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4f6a2aa20aa7a9a2"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:c44fd2d5936f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a3cfd71dd99874bc"
+   ]
+  },
+  {
+   "adds": [
+    "Azula, Cunning Usurper"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:c400e1e5a450",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f0e7bda086d9c749"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:a0cf9c3f4deb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:778c4ee273c239b5"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:10275c572156",
+   "tests": [
+    "test:mai-and-zuko:goldfish:afd6f2643ec72ace"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:345c2aaffd74",
+   "tests": [
+    "test:mai-and-zuko:goldfish:41c335c72ed4e14b"
+   ]
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:a632b5d02d45",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3a15c1c916b2f691"
+   ]
+  },
+  {
+   "adds": [
+    "Chronicle of Victory"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:1abcf20a4b3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "North Pole Patrol"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:195960d3a6f4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8e77b18ae68aa174"
+   ]
+  },
+  {
+   "adds": [
+    "Treetop Freedom Fighters"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:48e2d62ec2f6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1095b7aff0e4919b"
+   ]
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:8f124d8e4f76",
+   "tests": [
+    "test:mai-and-zuko:goldfish:79dcc11a65992890"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:390184616b34",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rowdy Snowballers"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:3bfc6894d7b0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8a27e400a95f2c5e"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:17f34696732e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ab2683160f486b1d"
+   ]
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:1808cb17f44c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:441e08c9fe4c42f6"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:3e16fb4ce27d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c6da18ac7c9447c2"
+   ]
+  },
+  {
+   "adds": [
+    "Spirit Water Revival"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:ec2a3ce7f86d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3aef1f3cb19d642e"
+   ]
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:1343b87b272d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8d49ac8f07f0bdd8"
+   ]
+  },
+  {
+   "adds": [
+    "Overwhelming Victory"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:a8d0b3e3a351",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ondu Champion"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:85aa8ce4fec8",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1451de60346b459f"
+   ]
+  },
+  {
+   "adds": [
+    "Spire of Industry"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:966bdd1a7ee0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b43acc5a7be107fe"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:ef9eb1246cd6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:06d02f703b004df6"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Firepower"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:ba62148440b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:39e26191cb13",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cbe53d29fcd7c148"
+   ]
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:d4ab9750ddd2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:06b23b592a373f2d"
+   ]
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:72175998e346",
+   "tests": [
+    "test:mai-and-zuko:goldfish:52d6cc2687dbf8fe"
+   ]
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:7d0ff2957ca6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:582ca15d906a9b45"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:4a3b73b06ecb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6c8c7c19531aa7ba"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:c4909f24db93",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fe271e4c53cc3395"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:36c83dd494ec",
+   "tests": [
+    "test:mai-and-zuko:goldfish:348f988f95b2d588"
+   ]
+  },
+  {
+   "adds": [
+    "Agna Qel'a"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:12a53bdc4abc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cd240c0563f1058e"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:9d6a4ad7f1e4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4c4f1d98075fb231"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:de2fad1f0318",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3bb6665ecf27ddf4"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:f2d0be83f437",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3b91a3c457864e75"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:1204c05b0adc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:41c0847bbe45f1f2"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:06bf2fa1637a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:37496a0fde6004d7"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:7425efbe86d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whir of Invention"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:a865c1b6d398",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d29197168ada99c3"
+   ]
+  },
+  {
+   "adds": [
+    "Sculpting Steel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:ae2afb19eb9d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:55e5817faa55",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c645d69e3f0f7d2c"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:b86d45ebedeb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:62ecae68852d0d31"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:deac93416aa6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:55515a6da6277c0d"
+   ]
+  },
+  {
+   "adds": [
+    "Secret Tunnel"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:60c5b378069c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7d9a37441f1d160a"
+   ]
+  },
+  {
+   "adds": [
+    "Simulacrum Synthesizer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:af7964f3bf49",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:93f25c189bcc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8eac071d7e42f581"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:mai-and-zuko:m5:c77384a7c51c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:382c12ff3dbe4335"
+   ]
+  },
+  {
+   "adds": [
+    "Combustible Gearhulk"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:b0abf1114016",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:d6b06f9ec56a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c87554009545121a"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:c7e0ca751f6d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:64d4b6ab31a2c7ae"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:aa0bbac783fe",
+   "tests": [
+    "test:mai-and-zuko:goldfish:245f862ae8fc427b"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:5a5989e46b04",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ba03003de1e19dbe"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:6a988e48e49f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6f77f4d49b3d9b66"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:b79ab648e091",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3592f90786f0cebb"
+   ]
+  },
+  {
+   "adds": [
+    "Insight Engine"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:3632d1899fb2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:af09f221f4ba",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8982524a4878e1a8"
+   ]
+  },
+  {
+   "adds": [
+    "Ichor Wellspring"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:a5d8e880a5a1",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6e0f66813b039045"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:efea4143158c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bc73c8e133937095"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mai-and-zuko:m5:84552ddd1f35",
+   "tests": [
+    "test:mai-and-zuko:goldfish:48ab56f20f61507c"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:c5c77e3d9642",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mithril Coat"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mai-and-zuko:m5:951c74a4dba9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:d7556dcaf6f7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6dc8de9cabb8a015"
+   ]
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:818e42772210",
+   "tests": [
+    "test:mai-and-zuko:goldfish:28cf57609d2e4313"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Incubator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:dd2db400d41a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:7f1074f7a9a9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8f30903dc65ba07b"
+   ]
+  },
+  {
+   "adds": [
+    "Twin Blades"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:56688162bfac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:b9698b3de15a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2dddaa7a275610bd"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Monument"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:61ea112177f2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2fdb4836077838d5"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Monument"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:4a9e28dc0587",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b355005d6c325188"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:c6046634a8c9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3c39ad788f48dad6"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:147c418b18c8",
+   "tests": [
+    "test:mai-and-zuko:goldfish:561b141275a5199f"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:b813d28fb8a1",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6d5fad3531e7330f"
+   ]
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:6056226ac8e0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a079252975d45503"
+   ]
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:5d2037ee2914",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5866edc54c3ee831"
+   ]
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:94e38a562b75",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0b5d95875e3449da"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:ebc5b4ec5516",
+   "tests": [
+    "test:mai-and-zuko:goldfish:220ce72d3ab67c6a"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:801df90f038d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:db7d5bc3afd992f6"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:c9fc7822995e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mox Amber"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:790e86160a9f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:77d4de5796ff1f17"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:37ecd0a12bb0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:35cd03b3eff5c363"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:d99cff641688",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1067dc56dd346f73"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:8d286ba25096",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5ce7c2df2e0499b8"
+   ]
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:43d7eb9e50ce",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b4f3ed30ec17fa2d"
+   ]
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:2e6f22b3ad3a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c855fe7c3453edcf"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, the Great Creator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:83b35b4210b4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6d65a6e9c35b34de"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, the Great Creator"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:6a79add3abcc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:369564cfdfb37d84"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:c186f92ce08f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b8c138bb1dc2a27c"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:1bb8ddb5d0d8",
+   "tests": [
+    "test:mai-and-zuko:goldfish:218f028c24e6c24e"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:33e996ea4f53",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:7735b31690c4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7e1e62b05429c5cd"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:6febd2587ac3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b052ba1111545bfb"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mai-and-zuko:m5:b97ad1a4e5fd",
+   "tests": [
+    "test:mai-and-zuko:goldfish:919e0c293b8a6aed"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mai-and-zuko:m5:ca6b53df56b9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e53d60339deed7aa"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:0c63666fd27f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5dfa4808842497d7"
+   ]
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:29b64a519208",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain's Claws"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:cb45aaee4e4b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mishra's Bauble"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:bfe6faedf909",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:d97b20bd6700",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:146fae82b82c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a171ad1ff9585461"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:c800ffade1a4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b200959feff07132"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:e16ffa50a4af",
+   "tests": [
+    "test:mai-and-zuko:goldfish:214891cba6093b32"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:e3cf2a110497",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6b5f993701156231"
+   ]
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:71fa641c3d3c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a02b54e356800cb1"
+   ]
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:ceb25aa1efd6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cfcb5b32e802141a"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:374105292c2e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:eec954640613a6c2"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:545e9cae1c33",
+   "tests": [
+    "test:mai-and-zuko:goldfish:96f7d4128549ae1f"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:b5c3f718d1b9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:33f9bc79add9d23e"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:95e02c3726e2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:14519f2dfc7db261"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:d4b536a6510c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a5288b7f4bee3581"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:11b3ae0c111a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:38179c2e59e1097d"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:cea15a3d50ad",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ff78cba31f7f27f7"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:10380a347d02",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e69a6bb1f0d682f0"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:ee4ffe1cb6ef",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f8f0ce51e15e136c"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:ebb3b4e9928d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0bec7c28197c4c30"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:3171edc219c3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b9a1d4e91b2b225e"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:72e6dcc09813",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bf296318312997b2"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:313e2af90149",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0ef3a409a2238c1a"
+   ]
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:f7775f785411",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9d711427a797170b"
+   ]
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:f9cbc748a21a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:accbcead38f30230"
+   ]
+  },
+  {
+   "adds": [
+    "Cryogen Relic"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:a5ac587ddbfe",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e7ab872652dacf86"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:5d5034c9f101",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9e89b8deffd93bce"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:44dd52ba1df1",
+   "tests": [
+    "test:mai-and-zuko:goldfish:707f70b3a808aa23"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:eebb9666cbef",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9b444fcd28e19969"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:446c84918a77",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:da18f2a8b1d6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f6e9244f2fe9309e"
+   ]
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:ceacc872d438",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d59f04eba64c3412"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:c616b992ebad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:419999d3659c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7f40473e2c2bc5ca"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:9e73c0ef3559",
+   "tests": [
+    "test:mai-and-zuko:goldfish:db7ac52b84761080"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:54cc47ccaae5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b20e14dd3e603cea"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:0a71bb6d9d40",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3385d8103ef54eb8"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:c0147cc9b369",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f4f7deae3779f388"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:257a38b43302",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9e6ca280bf1f08cd"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:bfcb8bd67575",
+   "tests": [
+    "test:mai-and-zuko:goldfish:86777a4a2983d7b7"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:929f47852744",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:3d5af0254d41",
+   "tests": [
+    "test:mai-and-zuko:goldfish:383ed124669ce9e1"
+   ]
+  },
+  {
+   "adds": [
+    "Airship Engine Room"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:4dc4032e074e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b2fe1eaa8881bada"
+   ]
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:e8e1e1b9df30",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7e2cd810f43c7eac"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:279b7168dcc5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:71f166614c7aa2c0"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:efc8f247f356",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f646cc0ea31c19c7"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:8cc49306651d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ironheart, Clever Champion"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:ee8ccae49218",
+   "tests": [
+    "test:mai-and-zuko:goldfish:993d9f7dd95405d6"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:65a60490c126",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0c24c570efbc7b76"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:56c44536b01d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:13eb7dd6fbe54568"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:dd28ff1042f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:89c91880f01b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d225102f4d4b848a"
+   ]
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:9abfad50a8b5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4eb7e76dbf9441dc"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:9c1055cc6124",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e6f0f06392d1fcf5"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:ce76a097c776",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7f8ea0b99368c489"
+   ]
+  },
+  {
+   "adds": [
+    "My Precious // Allure of Power"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:a401d047e4e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:a2d8b8105821",
+   "tests": [
+    "test:mai-and-zuko:goldfish:46a0c6b8451a148a"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:cc663fafb3a5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c333d9d5847d8795"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Diverging Destiny"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:db635123f330",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:ce27d672c628",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Boiling Rock Prison"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:b18ea781b838",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8cebadf9aff36aee"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:2fc323dcf143",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:837238006218",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:8f1654f81cfb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6e9b5c21d760ad34"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:4a4051813682",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4d65bd019e669876"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:2ab1009677fc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:76b8153b2bd02547"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:2b0356b89ca3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d64a4a99640cc1bd"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:mai-and-zuko:m5:2b95a1b98f70",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d5d8d42dc2a6d304"
+   ]
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:4745c7e8a6c7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bfcf1bab24c776ed"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:a0d345acf627",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:105f62da1132",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:befcd3632489",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b784cb4da1c61806"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:4deb1bac6234",
+   "tests": [
+    "test:mai-and-zuko:goldfish:312d444b6507b7e9"
+   ]
+  },
+  {
+   "adds": [
+    "Rescue, Pepper Potts"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:caebabdb8422",
+   "tests": [
+    "test:mai-and-zuko:goldfish:08beb4c36fe77660"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:4957388d3ee0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:9a8dfb1c7595",
+   "tests": [
+    "test:mai-and-zuko:goldfish:79bd5460302180eb"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:7ec5bb670306",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d24b622d02686f47"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:3c980944d023",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c8f8006cc5dc448b"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:caf27ecacd5e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f9d526c41e781497"
+   ]
+  },
+  {
+   "adds": [
+    "Cover of Darkness"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:53b92f92f8b2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Futurist Paragon"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:35cc05c0184b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0a5bd53531bdab10"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:248c22ddf933",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d01c3ca3a7d05782"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:548503636777",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0e0d7ed71a857290"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:aff4cf8677de",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b482a41f45fe4ec2"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Fireweaver"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:3c0aeeacd419",
+   "tests": [
+    "test:mai-and-zuko:goldfish:352c4ddfed42f4ab"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:1107a75eba87",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:0299570a941c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Victor Mancha, Runaway"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:4cd1a37113f4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:98b98f921cef7fb3"
+   ]
+  },
+  {
+   "adds": [
+    "Hammer Mage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:00384ea32358",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:08edd24f5cb8",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2131ee20fec489fd"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:9b7786cf2222",
+   "tests": [
+    "test:mai-and-zuko:goldfish:24580af68ca14635"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:6ab3349e4886",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0725f0810e125c55"
+   ]
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:41c3f3452436",
+   "tests": [
+    "test:mai-and-zuko:goldfish:32f017288d07ad74"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:78d21ce82005",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:fd7abf8456c7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7f796bd226f488ca"
+   ]
+  },
+  {
+   "adds": [
+    "Fixer, Techno Terror"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:689c4a5496d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "MACH-1, Swooping Scoundrel"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:86268f898711",
+   "tests": [
+    "test:mai-and-zuko:goldfish:76cf32489973e1f1"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Timely, Wily Tycoon"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:1ba912eeff21",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c4f8c1d69342224c"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:f1c770db17e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:59eaa1231151",
+   "tests": [
+    "test:mai-and-zuko:goldfish:31501f87e3e19bcf"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:d178bde190ec",
+   "tests": [
+    "test:mai-and-zuko:goldfish:325a9ac1e600747c"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:8b14fad9f5ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Manifold Key"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:84a1b3246891",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Octopus Form"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mai-and-zuko:m5:057b356536bb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:4d27b1ada300",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4b85d0396a3cd741"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:d69852677e9f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:65b8b3b862900db6"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:62d600d18518",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8ed2d85c00702539"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:bd3ec758a0ea",
+   "tests": [
+    "test:mai-and-zuko:goldfish:64911a9344e9fcc5"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Junker"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:fa52367d9b72",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Serpent's Pass"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:4023d1508462",
+   "tests": [
+    "test:mai-and-zuko:goldfish:43b69a1919b5bde4"
+   ]
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:337e86d2eef0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6a4b21989a68ffa0"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:b8076599af1d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9904b4c73e92836d"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexia's Core"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:07ea2db4e41f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:335df825000736a1"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Artillerist"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:66d6065ec49b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2bb2b26977c727ec"
+   ]
+  },
+  {
+   "adds": [
+    "Padeem, Consul of Innovation"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:2e6101cb4252",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b695aaab82d5dc05"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:c53f148d2abf",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a0a47696567d434e"
+   ]
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:f080603bb57d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:206f3593a263",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Trinket Mage"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:8da58747b51c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:399aa22ea35a8af6"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:20f9b18beea7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tribute Mage"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:8d4b8bc31a64",
+   "tests": [
+    "test:mai-and-zuko:goldfish:44029569e7f0fa0c"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:c32b1cc96851",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c8fb8f423d773c65"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:39bf63878c2a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d5cc726f843d6981"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:686184e1539b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1938e03f448aeb0e"
+   ]
+  },
+  {
+   "adds": [
+    "Trophy Mage"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:f7c9054fd1e4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ae90085400bca792"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:35f64afebf1c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:737501715961271b"
+   ]
+  },
+  {
+   "adds": [
+    "Icon of Ancestry"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:e33e85e78481",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:46623b0e293d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Invasion Submersible"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:a50d12b9f132",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disciple of the Vault"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:3a45b5b8cd61",
+   "tests": [
+    "test:mai-and-zuko:goldfish:be1cdf60fbce79ec"
+   ]
+  },
+  {
+   "adds": [
+    "Harsh Mentor"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:18bba0101d0e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f5e302501591d6de"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:633d860577c4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:da822e3e2bbb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:63ff85eac00e0559"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:392632c5f7d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:mai-and-zuko:m5:9d458c964b8e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5c195d596c492854"
+   ]
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:497285309feb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Repurposing Bay"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mai-and-zuko:m5:9833d7d48a42",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e4d829d5fc0acae3"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:ea07c6467d32",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dockside Chef"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:6977fc6a10db",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:f983fba49996",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Zada, Hedron Grinder"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:1062e6996cc9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9fd44fb5130ba7c7"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:c041eff91c73",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Isochron Scepter"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mai-and-zuko:m5:20378fb8fdd2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:df31b0fc8c4c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6046ebf546b5744b"
+   ]
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:8894753c3faa",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a857754eb956f4b3"
+   ]
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:22c920153e7b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:15fe0c3fad2dd467"
+   ]
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mai-and-zuko:m5:9bd834bad5fc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d0748e38bb5148e2"
+   ]
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:6f6b2da92fff",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fa79973a5a773207"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:c4c86d6c2718",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fec3db7675ae0d31"
+   ]
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:5b94baab5970",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3be97e33d28dad34"
+   ]
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:acdc0fa04236",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2b0e4fc16ee461b4"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:f0fea220fd94",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cc80567b36269e36"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:008c5fef987a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:b4918abe73ee69e0"
+   ]
+  },
+  {
+   "adds": [
+    "Master Pakku"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:257f28923201",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6fd08fa2b15fbcb8"
+   ]
+  },
+  {
+   "adds": [
+    "Princess Yue"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:5ef082e823fc",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bc31252cfc698cf2"
+   ]
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:0b74a43e4f0d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:01a72f0169858900"
+   ]
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:1d6520b2d575",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9d8cd5e74f295c65"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodbond Vampire"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:a1dcd537439a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6dcb0a5b3a1507cd"
+   ]
+  },
+  {
+   "adds": [
+    "Halimar Excavator"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:6ceceeb2754e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9f2f6ca24217be3a"
+   ]
+  },
+  {
+   "adds": [
+    "Chasm Guide"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:65684f19c8a2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:029d82197c3e83e9"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Bushwhacker"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:350f7faa7d68",
+   "tests": [
+    "test:mai-and-zuko:goldfish:ac1ac97ed91cb947"
+   ]
+  },
+  {
+   "adds": [
+    "Deserter's Disciple"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:71c35eb5f63d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8cb2a378632ed22e"
+   ]
+  },
+  {
+   "adds": [
+    "Halimar Tidecaller"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:d627f31a9ec0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:047e2e15fdd028db"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:a7138c90fb13",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cab383b999087700"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mai-and-zuko:m5:ec2def4f2147",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0946c816546cc8f6"
+   ]
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:61ab9298cb54",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1b59f9f52efd713a"
+   ]
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:72a58108a30f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f0afa9ac8d632cc1"
+   ]
+  },
+  {
+   "adds": [
+    "Teo, Spirited Glider"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:ad1c71174465",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Umara Raptor"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:41065177d3dd",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d34e1c2df08876d4"
+   ]
+  },
+  {
+   "adds": [
+    "Foggy Swamp Spirit Keeper"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:5e1131120b76",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6c2d2eba528f844a"
+   ]
+  },
+  {
+   "adds": [
+    "First-Time Flyer"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:7ed5c63eebc5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e6e94b414e32d2a5"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Envoy"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:fe5d0d40bdb2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a6aa66781fbdf64b"
+   ]
+  },
+  {
+   "adds": [
+    "Merchant of Many Hats"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:a09d8cd735c9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:311ba09536a700f0"
+   ]
+  },
+  {
+   "adds": [
+    "Bala Ged Thief"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:cb644e58b87b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a8133902cfeff217"
+   ]
+  },
+  {
+   "adds": [
+    "Chong and Lily, Nomads"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:3cdf9db77de6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3a8b966c11499740"
+   ]
+  },
+  {
+   "adds": [
+    "Freedom Fighter Recruit"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:163e5b7f6008",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0053121d9cba6ffb"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Freerunner"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:313657318808",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fb9edd157014c79f"
+   ]
+  },
+  {
+   "adds": [
+    "Moku, Meandering Drummer"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:eee7725d3925",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c57d12530ecf4ba3"
+   ]
+  },
+  {
+   "adds": [
+    "Coralhelm Guide"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:a16638eceb46",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4468706db056c1d5"
+   ]
+  },
+  {
+   "adds": [
+    "Foggy Swamp Hunters"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:dc74c697f14a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2eae2e248cc81262"
+   ]
+  },
+  {
+   "adds": [
+    "Nirkana Assassin"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:ce281a08f28d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4fb50c632253aca2"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Brigand"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:d9b2a74ee0e2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8637659589e57374"
+   ]
+  },
+  {
+   "adds": [
+    "Zada's Commando"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:bb096ebe434f",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2029add230369288"
+   ]
+  },
+  {
+   "adds": [
+    "Malakir Soothsayer"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:731f377f8e43",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kalastria Nightwatch"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:897d97105d7c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a811377cca474c72"
+   ]
+  },
+  {
+   "adds": [
+    "Drana's Chosen"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:894a7904ace6",
+   "tests": [
+    "test:mai-and-zuko:goldfish:47bc02a17c389771"
+   ]
+  },
+  {
+   "adds": [
+    "Umara Entangler"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:a3d142250ed3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:448c53e67e38b00a"
+   ]
+  },
+  {
+   "adds": [
+    "Akoum Flameseeker"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:62a73426b920",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:47e1e1ad2e18",
+   "tests": [
+    "test:mai-and-zuko:goldfish:66f67199cb034cfc"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Basalt Monolith"
+   ],
+   "id": "swap:mai-and-zuko:m5:4218e0846ade",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9dd7308745b9e8fd"
+   ]
+  },
+  {
+   "adds": [
+    "Tuktuk Grunts"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:6f41f8e7542a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:561e8b659a9036c0"
+   ]
+  },
+  {
+   "adds": [
+    "Nimana Sell-Sword"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:83817e354cf7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2499382c82c21f07"
+   ]
+  },
+  {
+   "adds": [
+    "Shatterskull Recruit"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:8d83a0146191",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d2c10d071b47e58c"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:ce8a554cd897",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2ec57eb6964758a5"
+   ]
+  },
+  {
+   "adds": [
+    "Zulaport Chainmage"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:25966eb8f749",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a894e929f4513f97"
+   ]
+  },
+  {
+   "adds": [
+    "Hagra Sharpshooter"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:8816c829a7d9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bcab347959cf3f8e"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Cohort"
+   ],
+   "cuts": [
+    "Avatar Roku, Firebender"
+   ],
+   "id": "swap:mai-and-zuko:m5:32e88f3f4c2c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e3ed605829fa87de"
+   ]
+  },
+  {
+   "adds": [
+    "Exquisite Blood"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:c01d7444a9d1",
+   "tests": [
+    "test:mai-and-zuko:goldfish:59002e6cc1e5f5b7"
+   ]
+  },
+  {
+   "adds": [
+    "Exquisite Blood"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:aba2471c64b0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:9cdf9637a7236253"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:00218f968032",
+   "tests": [
+    "test:mai-and-zuko:goldfish:21a004aed156c16b"
+   ]
+  },
+  {
+   "adds": [
+    "Mephidross Vampire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:9f4c9cba15a7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c9240e3d939305ed"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:5009b3ede214",
+   "tests": [
+    "test:mai-and-zuko:goldfish:33d4040ec3f26dec"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:f2ac52e0edf3",
+   "tests": [
+    "test:mai-and-zuko:goldfish:143f62acc57dbc45"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:8422747e1627",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bc8267aca33c9c04"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:9f19ac2036b2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c7011aa2eb6fd253"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:f190b1815c8d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5e705920597c9568"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:0d4fedace6ae",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6277f8d1aa4dcff2"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mai-and-zuko:m5:571a0f7b4c80",
+   "tests": [
+    "test:mai-and-zuko:goldfish:607567338928c626"
+   ]
+  },
+  {
+   "adds": [
+    "Echoes of Eternity"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:814979fc706b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:65f4de256d253a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Echoes of Eternity"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:a81249fe5d3b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fb9d0847666dc0fd"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:717cafdbc928",
+   "tests": [
+    "test:mai-and-zuko:goldfish:84a4e124217327d6"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:0f596046f25c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6907d4c5e33be79d"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:3889c0c9a7b5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:fa51cb8794952419"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:ae839e636f47",
+   "tests": [
+    "test:mai-and-zuko:goldfish:3ddcd10675000ced"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:8cc9beedc45c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6d9130f1ec7c86c2"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:66f109ccbb09",
+   "tests": [
+    "test:mai-and-zuko:goldfish:922f3c8218b084da"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Multiverse"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:8dba11dc9877",
+   "tests": [
+    "test:mai-and-zuko:goldfish:a77b0b4d91105645"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Multiverse"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:3bcd087bc86a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1e78325564e38de0"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:e2f17c953f66",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c77b75ebd9b54351"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:10fa9c607559",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bc901b4bf54695c6"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:8c4706f3a689",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0dbbeaf7019fb2e0"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:cd16c79185fb",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5f4382ed0f323d96"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:889f8cef4c69",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8278a6139c50e620"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:8ccd0f9b5e9d",
+   "tests": [
+    "test:mai-and-zuko:goldfish:0db087cb78ceff92"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:bc3afb9612a0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:611aeded90e9ecd7"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:843108c9dc99",
+   "tests": [
+    "test:mai-and-zuko:goldfish:484b413745ba9ed1"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mai-and-zuko:m5:153a9df25936",
+   "tests": [
+    "test:mai-and-zuko:goldfish:88c5f672d1cd6ddf"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mai-and-zuko:m5:ea487f7b5437",
+   "tests": [
+    "test:mai-and-zuko:goldfish:d8d4e0fbd60bb940"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:0432f33e6c39",
+   "tests": [
+    "test:mai-and-zuko:goldfish:23bbf4a8b0427ebd"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:9bf548002f91",
+   "tests": [
+    "test:mai-and-zuko:goldfish:958fafe8cb078196"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:50bf2ad8d9b0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:250b8b1855baae62"
+   ]
+  },
+  {
+   "adds": [
+    "Chakram Retriever"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:ed673622fc18",
+   "tests": [
+    "test:mai-and-zuko:goldfish:03e39d764acf7776"
+   ]
+  },
+  {
+   "adds": [
+    "Chakram Retriever"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:50f00b5334ba",
+   "tests": [
+    "test:mai-and-zuko:goldfish:76f9a19b00bdb786"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:a1e690ad448e",
+   "tests": [
+    "test:mai-and-zuko:goldfish:34e57b811cf281f4"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:7cb6b8e871cd",
+   "tests": [
+    "test:mai-and-zuko:goldfish:c7cf2cabbe7cff7c"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:973b4f1240c0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:1ef76a5942e104d5"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:9190496984d4",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5f568cf17f6375b2"
+   ]
+  },
+  {
+   "adds": [
+    "Future Sight"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:78d9565a95b7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:04e6ea9dbf56e211"
+   ]
+  },
+  {
+   "adds": [
+    "Future Sight"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:c6b24618ee3b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7554c29fa9dca052"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:c5bb273ef215",
+   "tests": [
+    "test:mai-and-zuko:goldfish:304a0587ec16e413"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:73bfa5e3db4b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:8abf29148b785b22"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:8cc5f62a6890",
+   "tests": [
+    "test:mai-and-zuko:goldfish:2fc28264479a8709"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Frenzy"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:f7774a6d821c",
+   "tests": [
+    "test:mai-and-zuko:goldfish:44336aa3ea3c55c1"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Frenzy"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:mai-and-zuko:m5:814cde9d0892",
+   "tests": [
+    "test:mai-and-zuko:goldfish:e9aa64e7e06e914f"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:c24365aba3f8",
+   "tests": [
+    "test:mai-and-zuko:goldfish:7ae0e7a4aa6b7647"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:aca47648e98a",
+   "tests": [
+    "test:mai-and-zuko:goldfish:839ddd22ff9f7fc7"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:ae7f99e5864b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:69f4305f21443949"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:4bf592f687f7",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4b38b1600b63270c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:365b66eedfc5",
+   "tests": [
+    "test:mai-and-zuko:goldfish:74eced99a041b1cd"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:c104952cf9e2",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6c2c70c4d8d778f2"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:14c358f24ed0",
+   "tests": [
+    "test:mai-and-zuko:goldfish:4a63bd53733b5f91"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:e177e6ba96da",
+   "tests": [
+    "test:mai-and-zuko:goldfish:6cb96496e6e3dfec"
+   ]
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:89b3b5ad1649",
+   "tests": [
+    "test:mai-and-zuko:goldfish:614fc2e21fbd8c2e"
+   ]
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:c0a5c28eac51",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f3f63ce989a177c4"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mai-and-zuko:m5:03e1d6072c10",
+   "tests": [
+    "test:mai-and-zuko:goldfish:afff28108a58454e"
+   ]
+  },
+  {
+   "adds": [
+    "Founding of Omashu"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:mai-and-zuko:m5:81dde3094e06",
+   "tests": []
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:mai-and-zuko:m5:ad9c5469cbc8",
+   "tests": [
+    "test:mai-and-zuko:goldfish:bd4f0a1da195acb4"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:mai-and-zuko:m5:bd4f3f71e0b9",
+   "tests": [
+    "test:mai-and-zuko:goldfish:f34b95709f8b4244"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:mai-and-zuko:m5:affe50f7131b",
+   "tests": [
+    "test:mai-and-zuko:goldfish:5c832a6e4af540ae"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "id": "swap:mai-and-zuko:m5:04f97b24a913",
+   "tests": [
+    "test:mai-and-zuko:goldfish:cd8de43c392b78e8"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:mai-and-zuko:goldfish:50ae2570356123c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4a6d02df89a91c04",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:68fad7e4c27bf6ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8d78b073f6cab681",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:75a58ee075a464ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cf590af5bbb0d9c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5f607245710e99f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4510e0cf60d07908",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:621370dae0552593",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:09c7e3fd17707e9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:993387234be79588",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0686f1acf043ebd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e545c78d46ae3a52",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8fc00897d53bf04c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ce47eaa02affe9f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2bf9e93178034f7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:375e33103997df94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:54340c7507308e77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:266f72588e9c1b7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a6a102edabe0ea9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7275ea862869370b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:637d16b9d5a69590",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:309ded84e97c373d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f25dab8a78d91817",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:96e91377290f4be0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4d7d1d60adcd2cd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d82a2cb9ce87866b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9481ea5db54c3b36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:581accae19d77a3d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:87e5c2f9edd9f800",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a05bf8c9cc8882ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:792f65b360cc2f0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a2382844a0449b2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e8f572e80f76406d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c65ae1923a013c00",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:01df6fd869e0fc6f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9d6be4350a6f7325",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f46134aa74b97a17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d8ef3274bc13a702",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:900b7b72099bf319",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7284a19f7d33d75e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6aa242f0ea2a35c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3e3521e7080d2926",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ee980eea9014a1a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:81d2f625f40fbb01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f70fda2238b021ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e9612222147ea8ba",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4d8b7f969efbebb4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b48a7eeb4fe06de8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fe492bdb89e2bb88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:aec64ad78c5d6d88",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:05d30aa1548910ad",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:285829e627e68449",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ff1f2b533ab99f02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4f6a2aa20aa7a9a2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a3cfd71dd99874bc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f0e7bda086d9c749",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:778c4ee273c239b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:afd6f2643ec72ace",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:41c335c72ed4e14b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3a15c1c916b2f691",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8e77b18ae68aa174",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1095b7aff0e4919b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:79dcc11a65992890",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8a27e400a95f2c5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ab2683160f486b1d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:441e08c9fe4c42f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c6da18ac7c9447c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3aef1f3cb19d642e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8d49ac8f07f0bdd8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1451de60346b459f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b43acc5a7be107fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:06d02f703b004df6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cbe53d29fcd7c148",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:06b23b592a373f2d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:52d6cc2687dbf8fe",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:582ca15d906a9b45",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6c8c7c19531aa7ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fe271e4c53cc3395",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:348f988f95b2d588",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cd240c0563f1058e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4c4f1d98075fb231",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3bb6665ecf27ddf4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3b91a3c457864e75",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:41c0847bbe45f1f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:37496a0fde6004d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d29197168ada99c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c645d69e3f0f7d2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:62ecae68852d0d31",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:55515a6da6277c0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7d9a37441f1d160a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8eac071d7e42f581",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:382c12ff3dbe4335",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c87554009545121a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:64d4b6ab31a2c7ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:245f862ae8fc427b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ba03003de1e19dbe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6f77f4d49b3d9b66",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3592f90786f0cebb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8982524a4878e1a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6e0f66813b039045",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bc73c8e133937095",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:48ab56f20f61507c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6dc8de9cabb8a015",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:28cf57609d2e4313",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8f30903dc65ba07b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2dddaa7a275610bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2fdb4836077838d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b355005d6c325188",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3c39ad788f48dad6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:561b141275a5199f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6d5fad3531e7330f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a079252975d45503",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5866edc54c3ee831",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0b5d95875e3449da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:220ce72d3ab67c6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:db7d5bc3afd992f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:77d4de5796ff1f17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:35cd03b3eff5c363",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1067dc56dd346f73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5ce7c2df2e0499b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b4f3ed30ec17fa2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c855fe7c3453edcf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6d65a6e9c35b34de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:369564cfdfb37d84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b8c138bb1dc2a27c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:218f028c24e6c24e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7e1e62b05429c5cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b052ba1111545bfb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:919e0c293b8a6aed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e53d60339deed7aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5dfa4808842497d7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a171ad1ff9585461",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b200959feff07132",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:214891cba6093b32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6b5f993701156231",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a02b54e356800cb1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cfcb5b32e802141a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:eec954640613a6c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:96f7d4128549ae1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:33f9bc79add9d23e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:14519f2dfc7db261",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a5288b7f4bee3581",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:38179c2e59e1097d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ff78cba31f7f27f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e69a6bb1f0d682f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f8f0ce51e15e136c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0bec7c28197c4c30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b9a1d4e91b2b225e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bf296318312997b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0ef3a409a2238c1a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9d711427a797170b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:accbcead38f30230",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e7ab872652dacf86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9e89b8deffd93bce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:707f70b3a808aa23",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9b444fcd28e19969",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f6e9244f2fe9309e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d59f04eba64c3412",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7f40473e2c2bc5ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:db7ac52b84761080",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b20e14dd3e603cea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3385d8103ef54eb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f4f7deae3779f388",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9e6ca280bf1f08cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:86777a4a2983d7b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:383ed124669ce9e1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b2fe1eaa8881bada",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7e2cd810f43c7eac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:71f166614c7aa2c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f646cc0ea31c19c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:993d9f7dd95405d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0c24c570efbc7b76",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:13eb7dd6fbe54568",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d225102f4d4b848a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4eb7e76dbf9441dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e6f0f06392d1fcf5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7f8ea0b99368c489",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:46a0c6b8451a148a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c333d9d5847d8795",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8cebadf9aff36aee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6e9b5c21d760ad34",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4d65bd019e669876",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:76b8153b2bd02547",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d64a4a99640cc1bd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d5d8d42dc2a6d304",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bfcf1bab24c776ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b784cb4da1c61806",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:312d444b6507b7e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:08beb4c36fe77660",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:79bd5460302180eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d24b622d02686f47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c8f8006cc5dc448b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f9d526c41e781497",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0a5bd53531bdab10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d01c3ca3a7d05782",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0e0d7ed71a857290",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b482a41f45fe4ec2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:352c4ddfed42f4ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:98b98f921cef7fb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2131ee20fec489fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:24580af68ca14635",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0725f0810e125c55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:32f017288d07ad74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7f796bd226f488ca",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:76cf32489973e1f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c4f8c1d69342224c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:31501f87e3e19bcf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:325a9ac1e600747c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4b85d0396a3cd741",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:65b8b3b862900db6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8ed2d85c00702539",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:64911a9344e9fcc5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:43b69a1919b5bde4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6a4b21989a68ffa0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9904b4c73e92836d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:335df825000736a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2bb2b26977c727ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b695aaab82d5dc05",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a0a47696567d434e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:399aa22ea35a8af6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:44029569e7f0fa0c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c8fb8f423d773c65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d5cc726f843d6981",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1938e03f448aeb0e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ae90085400bca792",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:737501715961271b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:be1cdf60fbce79ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f5e302501591d6de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:63ff85eac00e0559",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5c195d596c492854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e4d829d5fc0acae3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9fd44fb5130ba7c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6046ebf546b5744b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a857754eb956f4b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:15fe0c3fad2dd467",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d0748e38bb5148e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fa79973a5a773207",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fec3db7675ae0d31",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3be97e33d28dad34",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2b0e4fc16ee461b4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cc80567b36269e36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:b4918abe73ee69e0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6fd08fa2b15fbcb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bc31252cfc698cf2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:01a72f0169858900",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9d8cd5e74f295c65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6dcb0a5b3a1507cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9f2f6ca24217be3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:029d82197c3e83e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:ac1ac97ed91cb947",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8cb2a378632ed22e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:047e2e15fdd028db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cab383b999087700",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0946c816546cc8f6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1b59f9f52efd713a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f0afa9ac8d632cc1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d34e1c2df08876d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6c2d2eba528f844a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e6e94b414e32d2a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a6aa66781fbdf64b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:311ba09536a700f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a8133902cfeff217",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3a8b966c11499740",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0053121d9cba6ffb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fb9edd157014c79f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c57d12530ecf4ba3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4468706db056c1d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2eae2e248cc81262",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4fb50c632253aca2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8637659589e57374",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2029add230369288",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a811377cca474c72",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:47bc02a17c389771",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:448c53e67e38b00a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:66f67199cb034cfc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9dd7308745b9e8fd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:561e8b659a9036c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2499382c82c21f07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d2c10d071b47e58c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2ec57eb6964758a5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a894e929f4513f97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bcab347959cf3f8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e3ed605829fa87de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:59002e6cc1e5f5b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:9cdf9637a7236253",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:21a004aed156c16b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c9240e3d939305ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:33d4040ec3f26dec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:143f62acc57dbc45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bc8267aca33c9c04",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c7011aa2eb6fd253",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5e705920597c9568",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6277f8d1aa4dcff2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:607567338928c626",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:65f4de256d253a2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fb9d0847666dc0fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:84a4e124217327d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6907d4c5e33be79d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:fa51cb8794952419",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:3ddcd10675000ced",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6d9130f1ec7c86c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:922f3c8218b084da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:a77b0b4d91105645",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1e78325564e38de0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c77b75ebd9b54351",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bc901b4bf54695c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0dbbeaf7019fb2e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5f4382ed0f323d96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8278a6139c50e620",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:0db087cb78ceff92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:611aeded90e9ecd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:484b413745ba9ed1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:88c5f672d1cd6ddf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:d8d4e0fbd60bb940",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:23bbf4a8b0427ebd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:958fafe8cb078196",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:250b8b1855baae62",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:03e39d764acf7776",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:76f9a19b00bdb786",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:34e57b811cf281f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:c7cf2cabbe7cff7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:1ef76a5942e104d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5f568cf17f6375b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:04e6ea9dbf56e211",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7554c29fa9dca052",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:304a0587ec16e413",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:8abf29148b785b22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:2fc28264479a8709",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:44336aa3ea3c55c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:e9aa64e7e06e914f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:7ae0e7a4aa6b7647",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:839ddd22ff9f7fc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:69f4305f21443949",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4b38b1600b63270c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:74eced99a041b1cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6c2c70c4d8d778f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:4a63bd53733b5f91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:6cb96496e6e3dfec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:614fc2e21fbd8c2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f3f63ce989a177c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:afff28108a58454e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:bd4f0a1da195acb4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:f34b95709f8b4244",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:5c832a6e4af540ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mai-and-zuko:goldfish:cd8de43c392b78e8",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

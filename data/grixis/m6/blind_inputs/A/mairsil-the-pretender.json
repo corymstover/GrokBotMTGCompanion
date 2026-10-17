@@ -1,0 +1,6034 @@
+{
+ "candidates": [
+  {
+   "card": "Conjurer's Closet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conjurer's Closet",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conjurer's Closet",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:b3ab955282fa"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:921c60764096"
+   }
+  },
+  {
+   "card": "Pendant of Prosperity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pendant of Prosperity",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:69d83bd35e66"
+   }
+  },
+  {
+   "card": "Pili-Pala",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pili-Pala",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pili-Pala",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:58f627c4ae90"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:dbfb57381d38"
+   }
+  },
+  {
+   "card": "Illusionist's Bracers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Illusionist's Bracers",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Illusionist's Bracers",
+       "cut": "Rings of Brighthearth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:1c514e3e5e55"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:2e7895546deb"
+   }
+  },
+  {
+   "card": "Planar Incision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Incision",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Incision",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:85f8323f12c4"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:8bc823e0f19d"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:1f12d0ed3a13"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Basalt Monolith",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:3c7fe32a687a"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:a415e0204c9c"
+   }
+  },
+  {
+   "card": "Mirage Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirage Mirror",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:531c1bd0c5f4"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Riptide Laboratory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Riptide Laboratory",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:45bc5203ed8b"
+   }
+  },
+  {
+   "card": "Vivi Ornitier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vivi Ornitier",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Vivi Ornitier",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:cf30e5fabac6"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:3282dad547b4"
+   }
+  },
+  {
+   "card": "Jace's Archivist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace's Archivist",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:e9f1044ce035"
+   }
+  },
+  {
+   "card": "Fact or Fiction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:0119c448140d"
+   }
+  },
+  {
+   "card": "Cavern Harpy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern Harpy",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern Harpy",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:617a90406dcf"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ea89cbbcf092"
+   }
+  },
+  {
+   "card": "Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:f81b02763aa7"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:40a3cd3f144c"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:599268319863"
+   }
+  },
+  {
+   "card": "Coveted Jewel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coveted Jewel",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:9149c2cda9ae"
+   }
+  },
+  {
+   "card": "Ulamog's Dreadsire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ulamog's Dreadsire",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ulamog's Dreadsire",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:8b3310dc7914"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:376a3d55e862"
+   }
+  },
+  {
+   "card": "Argent Sphinx",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mercurial Chemister",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mercurial Chemister",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:fd25f6c4d3ce"
+   }
+  },
+  {
+   "card": "Avatar of Woe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Avatar of Woe",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:7ca8efc79858"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:155c3487633b"
+   }
+  },
+  {
+   "card": "Soliton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Teferi's Time Twist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teferi's Time Twist",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:fbe7f403fd75"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:45cdeb16a726"
+   }
+  },
+  {
+   "card": "Spikeshot Elder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spikeshot Elder",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:7625aab93423"
+   }
+  },
+  {
+   "card": "Thrill of Possibility",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:a899edb9a348"
+   }
+  },
+  {
+   "card": "Ovinomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ovinomancer",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ovinomancer",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:34546041920d"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c6affcab4c70"
+   }
+  },
+  {
+   "card": "Cathartic Reunion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathartic Reunion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:3f7f26a528c1"
+   }
+  },
+  {
+   "card": "Chromatic Orrery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:891bfd0438ed"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:6df56073eca4"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:755cf15b29ba"
+   }
+  },
+  {
+   "card": "The One Ring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The One Ring",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:9734b265d3cc"
+   }
+  },
+  {
+   "card": "Blood Vassal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Vassal",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Blood Vassal",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:e4872f524865"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:22bff62209e4"
+   }
+  },
+  {
+   "card": "Deadeye Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:d8af70916b23"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:81e5df61a0eb"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:66ed101d7aa6"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:9d38f0da9bc9"
+   }
+  },
+  {
+   "card": "Careful Study",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Careful Study",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:edab9721a5db"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:fc81862c4e0c"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:d6bee4702330"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:a2b119b53a86"
+   }
+  },
+  {
+   "card": "Necrotic Ooze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necrotic Ooze",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:e11769f76da6"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undercity Sewers",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:49d965a9a983"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:28bd22bde68f"
+   }
+  },
+  {
+   "card": "Joo Dee, One of Many",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:aeb295b9d837"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:01e92375d818"
+   }
+  },
+  {
+   "card": "Chainer, Dementia Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Command Beacon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Command Beacon",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:7eaca5fa2033"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:91d14843a5f3"
+   }
+  },
+  {
+   "card": "Cinderhaze Wretch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cinderhaze Wretch",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:921e72abb0cb"
+   }
+  },
+  {
+   "card": "Hawkeye's Bow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hawkeye's Bow",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Hawkeye's Bow",
+       "cut": "Rings of Brighthearth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:c19f027e1b43"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:97270e443168"
+   }
+  },
+  {
+   "card": "Goblin Glasswright // Craft with Pride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:b6ed88949429"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:510d38ed1efd"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:94131d112e9e"
+   }
+  },
+  {
+   "card": "Seat of the Synod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seat of the Synod",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:98f81ed7d010"
+   }
+  },
+  {
+   "card": "Fabricate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabricate",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:986ddba18b20"
+   }
+  },
+  {
+   "card": "Emry, Lurker of the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:37f6613a6a6e"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:96ee5b33b1e8"
+   }
+  },
+  {
+   "card": "Arco-Flagellant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Rings of Brighthearth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:e8939d3ba20b"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:cb7fbec1c2cb"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:b1475f65ceca"
+   }
+  },
+  {
+   "card": "Mikaeus, the Unhallowed",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mikaeus, the Unhallowed",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Mikaeus, the Unhallowed",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:7bbff137f81f"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:aba849f1ce98"
+   }
+  },
+  {
+   "card": "Nyx Lotus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nyx Lotus",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Nyx Lotus",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:ef08a08e4ffc"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:8451b919e575"
+   }
+  },
+  {
+   "card": "Paradise Mantle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Paradise Mantle",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Paradise Mantle",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:3a93b1496755"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ed1400ab3629"
+   }
+  },
+  {
+   "card": "Thassa, Deep-Dwelling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thassa, Deep-Dwelling",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:8dde491cbf3c"
+   }
+  },
+  {
+   "card": "Amaranthine Wall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Amaranthine Wall",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ce8de249bf23"
+   }
+  },
+  {
+   "card": "Blighted Bat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blighted Bat",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:5733860c9861"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:77ecc037fa23"
+   }
+  },
+  {
+   "card": "Reckless Handling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reckless Handling",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:d137d15c9af9"
+   }
+  },
+  {
+   "card": "Collector's Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Collector's Vault",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:bd1f1f36d9b1"
+   }
+  },
+  {
+   "card": "Great Furnace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Furnace",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:64410e562bf3"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:1febc7c21d4e"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:8dbd43e05a70"
+   }
+  },
+  {
+   "card": "Lively Dirge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lively Dirge",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:d11b3aa250a1"
+   }
+  },
+  {
+   "card": "Metalworker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Metalworker",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Metalworker",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:8f791e1af12a"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:f26d93f818e6"
+   }
+  },
+  {
+   "card": "Unctus, Grand Metatect",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116"
+        ]
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Staff of Domination"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:54b1d38c2730"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:41c26a76df58"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:b53fcbf675f7"
+   }
+  },
+  {
+   "card": "Vault of Whispers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vault of Whispers",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:712a1aae3740"
+   }
+  },
+  {
+   "card": "The Legend of Kuruk // Avatar Kuruk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Legend of Kuruk // Avatar Kuruk",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116"
+        ]
+       },
+       "add": "The Legend of Kuruk // Avatar Kuruk",
+       "cut": "Staff of Domination"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:1fdf15c62332"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:416edc5a727c"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:4d75a6bb6570"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:aca568a39919"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Ancestral Statue",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:0dd07e40320f"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:42e0006ba580"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:974ddc75c304"
+   }
+  },
+  {
+   "card": "Myr Welder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myr Welder",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Myr Welder",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:dc8b48eb0473"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c16eda0b4092"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:49062bc91842"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:dd5deb3b6f36"
+   }
+  },
+  {
+   "card": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:875004fc0c54"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:2c5ce758b7ff"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:9bce89a5d58a"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:183027dda280"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Dynamo",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:8dd8c8e2fe75"
+   }
+  },
+  {
+   "card": "Trazyn the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trazyn the Infinite",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Trazyn the Infinite",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:54bc91591ed7"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c6352507b1c2"
+   }
+  },
+  {
+   "card": "Filigree Sages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Filigree Sages",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Filigree Sages",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:69fc2565d749"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:77c2814029ae"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Rings of Brighthearth"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:8d35e0a33012"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:d896c448e5ec"
+   }
+  },
+  {
+   "card": "Sakashima of a Thousand Faces",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sakashima of a Thousand Faces",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:224e8eb9c3a2"
+   }
+  },
+  {
+   "card": "Phyrexian Devourer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Devourer",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Phyrexian Devourer",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:37642d4f9f3e"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:2a8f2b1845c4"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:4c257756f290"
+   }
+  },
+  {
+   "card": "Spaceshift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spaceshift",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c6a597d9809b"
+   }
+  },
+  {
+   "card": "Anthroplasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anthroplasm",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:eb1b8c20c427"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ead2859616fe"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:5de17a9e1db2"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:cc059b6d3a3d"
+   }
+  },
+  {
+   "card": "Sanctum of Eternity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sanctum of Eternity",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:fe6ab238e610"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:4a148750335f"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:4d3a9acee8cf"
+   }
+  },
+  {
+   "card": "Flooded Strand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flooded Strand",
+       "cut": "Sokenzan, Crucible of Defiance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:95da0a962f7d"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:69dfae3cd7ff"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c88f26030530"
+   }
+  },
+  {
+   "card": "Blazing Firesinger // Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:c3e12961e32b"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ebbe593c37bf"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:94949a1a8682"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:cfba712b0517"
+   }
+  },
+  {
+   "card": "Kozilek, the Great Distortion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kozilek, the Great Distortion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:1bf60c279ad2"
+   }
+  },
+  {
+   "card": "Mephidross Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mephidross Vampire",
+       "cut": "Toxic Deluge"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1050-4068-4439-5112"
+        ]
+       },
+       "add": "Mephidross Vampire",
+       "cut": "Nevinyrral's Disk"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:98c98bfab86c"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:6cc24dbe1a17"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:9a3feb718130"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:8edcabe4d16d"
+   }
+  },
+  {
+   "card": "Bloodletter of Aclazotz",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:5f371b027b47"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:d9f4948d2803"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:ed2b061e2628"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ceab3d8059da"
+   }
+  },
+  {
+   "card": "Aether Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Channeler",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116"
+        ]
+       },
+       "add": "Aether Channeler",
+       "cut": "Staff of Domination"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:44cab1cbbd6e"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c9e39036fca3"
+   }
+  },
+  {
+   "card": "Freed from the Real",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Freed from the Real",
+       "cut": "Training Grounds"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:291147f734ba"
+   }
+  },
+  {
+   "card": "Venser, Shaper Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:fcc9dca9384d"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:74361dae57b2"
+   }
+  },
+  {
+   "card": "Wound Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wound Reflection",
+       "cut": "Training Grounds"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:cf9d6f7e0cbd"
+   }
+  },
+  {
+   "card": "Archfiend of Despair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archfiend of Despair",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Archfiend of Despair",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:03ffa36b0ad8"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:6a37e095767d"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:6536c271bf76"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:b205a9649c8e"
+   }
+  },
+  {
+   "card": "Pemmin's Aura",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pemmin's Aura",
+       "cut": "Deflecting Swat"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-5112-5116-5137"
+        ]
+       },
+       "add": "Pemmin's Aura",
+       "cut": "Morphling"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:bc535f7a58cf"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:651239aa8416"
+   }
+  },
+  {
+   "card": "Skirge Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skirge Familiar",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Skirge Familiar",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:4db91cd17278"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:546bd0296f7b"
+   }
+  },
+  {
+   "card": "Howlsquad Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:d20ed6ff6cfe"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:f58d5ea1fa17"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:3413b95052ff"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:e9145b4d0c1b"
+   }
+  },
+  {
+   "card": "Jaws of Defeat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jaws of Defeat",
+       "cut": "Training Grounds"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:0b2f88b78364"
+   }
+  },
+  {
+   "card": "Phenax, God of Deception",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phenax, God of Deception",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Phenax, God of Deception",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:5200bf5dade0"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:1f3d02096087"
+   }
+  },
+  {
+   "card": "Splinter Twin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splinter Twin",
+       "cut": "Training Grounds"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:3b38d91d2fe5"
+   }
+  },
+  {
+   "card": "Brinelin, the Moon Kraken",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:b17e3cb3be57"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:37d59a4373cc"
+   }
+  },
+  {
+   "card": "Magus of the Coffers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Coffers",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Magus of the Coffers",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:00691219222b"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:967a1aeaea0c"
+   }
+  },
+  {
+   "card": "Soul Immolation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soul Immolation",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:a9acd14631ff"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:c2c8586614ff"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:77980c830e1e"
+   }
+  },
+  {
+   "card": "Warlock Class",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warlock Class",
+       "cut": "Training Grounds"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:0d72b7d143e3"
+   }
+  },
+  {
+   "card": "Mystic Speculation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Speculation",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:0cb58e107865"
+   }
+  },
+  {
+   "card": "Alena, Kessig Trapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:6b0c5951c1ed"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:f95b205aebf7"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:7c6b521454a7"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:4610175eb268"
+   }
+  },
+  {
+   "card": "Grinning Ignus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Grinning Ignus",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:14141b809543"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:c5c330626c5a"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:4eccd31fa506"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:ec33c86a69ff"
+   }
+  },
+  {
+   "card": "Whim of Volrath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whim of Volrath",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:9fac1fb6738f"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:e9f1ae504f1c"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:597ddf237fdd"
+   }
+  },
+  {
+   "card": "Chancellor of the Spires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:5693c2ba3516"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:b536fb1e9b53"
+   }
+  },
+  {
+   "card": "Overeager Apprentice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Overeager Apprentice",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Overeager Apprentice",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:8ce3b07feb01"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:18cc48637a86"
+   }
+  },
+  {
+   "card": "Vhal, Candlekeep Researcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vhal, Candlekeep Researcher",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116",
+         "1369-3995-5112-5116",
+         "1369-5112-5116-5137",
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Vhal, Candlekeep Researcher",
+       "cut": "Gilded Lotus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:0e4df4959aeb"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:bfb6ea22b610"
+   }
+  },
+  {
+   "card": "Hangar Scrounger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hangar Scrounger",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1369-2645-5112-5116"
+        ]
+       },
+       "add": "Hangar Scrounger",
+       "cut": "Staff of Domination"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:27ece8058201"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:9667380994af"
+   }
+  },
+  {
+   "card": "Wake Thrasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake Thrasher",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake Thrasher",
+       "cut": "Walking Ballista"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:3f03485f3b4c"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:fa68cbcd4f95"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:2b6ce0e646a9"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:869210253234"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Omen Hawker"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-4235-5116"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mairsil-the-pretender:m5:4bebb71df7b5"
+    },
+    "swap": "swap:mairsil-the-pretender:m5:90597a241a8a"
+   }
+  },
+  {
+   "card": "Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mimic",
+       "cut": "Omen Hawker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mairsil-the-pretender:m5:4f4571e8c35b"
+   }
+  }
+ ],
+ "deck_id": "Mairsil__the_Pretender",
+ "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "slug": "mairsil-the-pretender",
+ "swaps": [
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:921c60764096"
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b3ab955282fa"
+  },
+  {
+   "adds": [
+    "Pendant of Prosperity"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:69d83bd35e66"
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:dbfb57381d38"
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:58f627c4ae90"
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2e7895546deb"
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1c514e3e5e55"
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8bc823e0f19d"
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:85f8323f12c4"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1f12d0ed3a13"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a415e0204c9c"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3c7fe32a687a"
+  },
+  {
+   "adds": [
+    "Mirage Mirror"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:531c1bd0c5f4"
+  },
+  {
+   "adds": [
+    "Riptide Laboratory"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:45bc5203ed8b"
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3282dad547b4"
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cf30e5fabac6"
+  },
+  {
+   "adds": [
+    "Jace's Archivist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e9f1044ce035"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0119c448140d"
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ea89cbbcf092"
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:617a90406dcf"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f81b02763aa7"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:599268319863"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:40a3cd3f144c"
+  },
+  {
+   "adds": [
+    "Coveted Jewel"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9149c2cda9ae"
+  },
+  {
+   "adds": [
+    "Ulamog's Dreadsire"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:376a3d55e862"
+  },
+  {
+   "adds": [
+    "Ulamog's Dreadsire"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8b3310dc7914"
+  },
+  {
+   "adds": [
+    "Mercurial Chemister"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fd25f6c4d3ce"
+  },
+  {
+   "adds": [
+    "Avatar of Woe"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7ca8efc79858"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:155c3487633b"
+  },
+  {
+   "adds": [
+    "Teferi's Time Twist"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fbe7f403fd75"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:45cdeb16a726"
+  },
+  {
+   "adds": [
+    "Spikeshot Elder"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7625aab93423"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a899edb9a348"
+  },
+  {
+   "adds": [
+    "Ovinomancer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c6affcab4c70"
+  },
+  {
+   "adds": [
+    "Ovinomancer"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:34546041920d"
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3f7f26a528c1"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6df56073eca4"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:891bfd0438ed"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:755cf15b29ba"
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9734b265d3cc"
+  },
+  {
+   "adds": [
+    "Blood Vassal"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:22bff62209e4"
+  },
+  {
+   "adds": [
+    "Blood Vassal"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e4872f524865"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d8af70916b23"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:81e5df61a0eb"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:66ed101d7aa6"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9d38f0da9bc9"
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:edab9721a5db"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fc81862c4e0c"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d6bee4702330"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a2b119b53a86"
+  },
+  {
+   "adds": [
+    "Necrotic Ooze"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e11769f76da6"
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:49d965a9a983"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:28bd22bde68f"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:aeb295b9d837"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:01e92375d818"
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7eaca5fa2033"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:91d14843a5f3"
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:921e72abb0cb"
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:97270e443168"
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c19f027e1b43"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:510d38ed1efd"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b6ed88949429"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:94131d112e9e"
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:98f81ed7d010"
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:986ddba18b20"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:96ee5b33b1e8"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:37f6613a6a6e"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cb7fbec1c2cb"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e8939d3ba20b"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b1475f65ceca"
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:aba849f1ce98"
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7bbff137f81f"
+  },
+  {
+   "adds": [
+    "Nyx Lotus"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8451b919e575"
+  },
+  {
+   "adds": [
+    "Nyx Lotus"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ef08a08e4ffc"
+  },
+  {
+   "adds": [
+    "Paradise Mantle"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ed1400ab3629"
+  },
+  {
+   "adds": [
+    "Paradise Mantle"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3a93b1496755"
+  },
+  {
+   "adds": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8dde491cbf3c"
+  },
+  {
+   "adds": [
+    "Amaranthine Wall"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ce8de249bf23"
+  },
+  {
+   "adds": [
+    "Blighted Bat"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5733860c9861"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:77ecc037fa23"
+  },
+  {
+   "adds": [
+    "Reckless Handling"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d137d15c9af9"
+  },
+  {
+   "adds": [
+    "Collector's Vault"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:bd1f1f36d9b1"
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:64410e562bf3"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8dbd43e05a70"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1febc7c21d4e"
+  },
+  {
+   "adds": [
+    "Lively Dirge"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d11b3aa250a1"
+  },
+  {
+   "adds": [
+    "Metalworker"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f26d93f818e6"
+  },
+  {
+   "adds": [
+    "Metalworker"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8f791e1af12a"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:41c26a76df58"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:54b1d38c2730"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b53fcbf675f7"
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:712a1aae3740"
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:416edc5a727c"
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1fdf15c62332"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:aca568a39919"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4d75a6bb6570"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:42e0006ba580"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0dd07e40320f"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:974ddc75c304"
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c16eda0b4092"
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:dc8b48eb0473"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:dd5deb3b6f36"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:49062bc91842"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2c5ce758b7ff"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:875004fc0c54"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9bce89a5d58a"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:183027dda280"
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8dd8c8e2fe75"
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c6352507b1c2"
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:54bc91591ed7"
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:77c2814029ae"
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:69fc2565d749"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d896c448e5ec"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8d35e0a33012"
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:224e8eb9c3a2"
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2a8f2b1845c4"
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:37642d4f9f3e"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4c257756f290"
+  },
+  {
+   "adds": [
+    "Spaceshift"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c6a597d9809b"
+  },
+  {
+   "adds": [
+    "Anthroplasm"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:eb1b8c20c427"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ead2859616fe"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5de17a9e1db2"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cc059b6d3a3d"
+  },
+  {
+   "adds": [
+    "Sanctum of Eternity"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fe6ab238e610"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4a148750335f"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4d3a9acee8cf"
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:95da0a962f7d"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:69dfae3cd7ff"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c88f26030530"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ebbe593c37bf"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c3e12961e32b"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cfba712b0517"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:94949a1a8682"
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1bf60c279ad2"
+  },
+  {
+   "adds": [
+    "Mephidross Vampire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6cc24dbe1a17"
+  },
+  {
+   "adds": [
+    "Mephidross Vampire"
+   ],
+   "cuts": [
+    "Nevinyrral's Disk"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:98c98bfab86c"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8edcabe4d16d"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9a3feb718130"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d9f4948d2803"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5f371b027b47"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ceab3d8059da"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ed2b061e2628"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c9e39036fca3"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:44cab1cbbd6e"
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:291147f734ba"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:74361dae57b2"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fcc9dca9384d"
+  },
+  {
+   "adds": [
+    "Wound Reflection"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cf9d6f7e0cbd"
+  },
+  {
+   "adds": [
+    "Archfiend of Despair"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6a37e095767d"
+  },
+  {
+   "adds": [
+    "Archfiend of Despair"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:03ffa36b0ad8"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b205a9649c8e"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6536c271bf76"
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:651239aa8416"
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Morphling"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:bc535f7a58cf"
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:546bd0296f7b"
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4db91cd17278"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f58d5ea1fa17"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d20ed6ff6cfe"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e9145b4d0c1b"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3413b95052ff"
+  },
+  {
+   "adds": [
+    "Jaws of Defeat"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0b2f88b78364"
+  },
+  {
+   "adds": [
+    "Phenax, God of Deception"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1f3d02096087"
+  },
+  {
+   "adds": [
+    "Phenax, God of Deception"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5200bf5dade0"
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3b38d91d2fe5"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:37d59a4373cc"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b17e3cb3be57"
+  },
+  {
+   "adds": [
+    "Magus of the Coffers"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:967a1aeaea0c"
+  },
+  {
+   "adds": [
+    "Magus of the Coffers"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:00691219222b"
+  },
+  {
+   "adds": [
+    "Soul Immolation"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a9acd14631ff"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:77980c830e1e"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c2c8586614ff"
+  },
+  {
+   "adds": [
+    "Warlock Class"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0d72b7d143e3"
+  },
+  {
+   "adds": [
+    "Mystic Speculation"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0cb58e107865"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f95b205aebf7"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6b0c5951c1ed"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4610175eb268"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7c6b521454a7"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c5c330626c5a"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:14141b809543"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ec33c86a69ff"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4eccd31fa506"
+  },
+  {
+   "adds": [
+    "Whim of Volrath"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9fac1fb6738f"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:597ddf237fdd"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e9f1ae504f1c"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b536fb1e9b53"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5693c2ba3516"
+  },
+  {
+   "adds": [
+    "Overeager Apprentice"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:18cc48637a86"
+  },
+  {
+   "adds": [
+    "Overeager Apprentice"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8ce3b07feb01"
+  },
+  {
+   "adds": [
+    "Vhal, Candlekeep Researcher"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:bfb6ea22b610"
+  },
+  {
+   "adds": [
+    "Vhal, Candlekeep Researcher"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0e4df4959aeb"
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9667380994af"
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:27ece8058201"
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fa68cbcd4f95"
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3f03485f3b4c"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:869210253234"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2b6ce0e646a9"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:90597a241a8a"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4bebb71df7b5"
+  },
+  {
+   "adds": [
+    "Mimic"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4f4571e8c35b"
+  }
+ ]
+}

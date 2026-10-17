@@ -1,0 +1,2871 @@
+{
+ "candidates": [
+  {
+   "card": "Crystal Chimes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crystal Chimes",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:bee08d56c3ef"
+   }
+  },
+  {
+   "card": "Curse of Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Chaos",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:0c0fb01f596c"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:a6d75edda551"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Swan Song"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:20fb9b12dcb0"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Swan Song"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:7f5bdfbd45fe"
+   }
+  },
+  {
+   "card": "Cloud Key",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloud Key",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:b9fa72204b35"
+   }
+  },
+  {
+   "card": "Protean Thaumaturge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Protean Thaumaturge",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:78aa5dc32683"
+   }
+  },
+  {
+   "card": "Curse of Shallow Graves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Shallow Graves",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:ef6ae4a0da63"
+   }
+  },
+  {
+   "card": "Curse of the Nightly Hunt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of the Nightly Hunt",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:c7b0359cee5a"
+   }
+  },
+  {
+   "card": "Curse of the Pierced Heart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of the Pierced Heart",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:5824243e8552"
+   }
+  },
+  {
+   "card": "Extravagant Replication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Extravagant Replication",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:700819c15068"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:8c28f18395c6"
+   }
+  },
+  {
+   "card": "Curse of Stalked Prey",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Stalked Prey",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:a84fb335b9d5"
+   }
+  },
+  {
+   "card": "Curse of Inertia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Inertia",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:11e192d11ba0"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:2090d812aaf2"
+   }
+  },
+  {
+   "card": "Crawlspace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crawlspace",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:0a0ec01781b0"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d2ace3b2cb5f"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:a80b349ceb24"
+   }
+  },
+  {
+   "card": "Silent Arbiter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silent Arbiter",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:b4701aea0fb8"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:dd1a097064a4"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:add8c7970357"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:fa3c9b41379e"
+   }
+  },
+  {
+   "card": "Curse of the Bloody Tome",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of the Bloody Tome",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:535bbb140638"
+   }
+  },
+  {
+   "card": "Thoughtrender Lamia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thoughtrender Lamia",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:ace4e65396e6"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:53a9aa42f72e"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:95edb628cad1"
+   }
+  },
+  {
+   "card": "Stuffy Doll",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stuffy Doll",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:e590d17b7a75"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:0389c726c2e8"
+   }
+  },
+  {
+   "card": "Disrupt Decorum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disrupt Decorum",
+       "cut": "Imperial Seal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:26ce1aae4b22"
+   }
+  },
+  {
+   "card": "Curse of the Swine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of the Swine",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:65a6440df098"
+   }
+  },
+  {
+   "card": "Grievous Wound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grievous Wound",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:724660e0ec13"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:2c94c1eb3fc5"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:66db4b3ad355"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:34d2075ffa28"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:14f1add4d74e"
+   }
+  },
+  {
+   "card": "Fraying Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fraying Sanity",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:e126d5a82d07"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:68c925f670fe"
+   }
+  },
+  {
+   "card": "Fog Bank",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fog Bank",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:873432fbb6d4"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:bd5062133b28"
+   }
+  },
+  {
+   "card": "No Mercy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "No Mercy",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:ac4f12e38747"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d02eb466b068"
+   }
+  },
+  {
+   "card": "Strionic Resonator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Captive Audience",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d91e0d6d93fd"
+   }
+  },
+  {
+   "card": "Court of Vantress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Court of Vantress",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:4dd51663c4ab"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:b8d459277e87"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d2289b06007c"
+   }
+  },
+  {
+   "card": "Curse of Oblivion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Oblivion",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:61fa763d3e8f"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:a7dfafec9788"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:753b45cf07a8"
+   }
+  },
+  {
+   "card": "Blightcaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blightcaster",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:7ee735f2f2bb"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:45322272c3b8"
+   }
+  },
+  {
+   "card": "Brash Taunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brash Taunter",
+       "cut": "Accursed Witch // Infectious Curse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:635b6c04c92a"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:3295aa7e0c1d"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:5536262847ec"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:9674eeea9fab"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:7bb120be8248"
+   }
+  },
+  {
+   "card": "Final Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Final Vengeance",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:b0b7f97d7fcd"
+   }
+  },
+  {
+   "card": "Forgeborn Oreads",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forgeborn Oreads",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:8b63ac5bdfe2"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d4c7dd549c8c"
+   }
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rakdos Joins Up",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Joins Up",
+       "cut": "Curse of Fool's Wisdom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Joins Up",
+       "cut": "Torment of Scarabs"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:c0b534c851e1"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:ee4bc28900e8"
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Curse of Fool's Wisdom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Torment of Scarabs"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:d70b035f00a7"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:a49682106930"
+   }
+  },
+  {
+   "card": "Painful Quandary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Quandary",
+       "cut": "Curse of Fool's Wisdom"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:cd6872b97be3"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:ffc9fb900c8d"
+   }
+  },
+  {
+   "card": "Ice Out",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ice Out",
+       "cut": "Swan Song"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d0c05e512a0d"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:6227a651b4de"
+   }
+  },
+  {
+   "card": "Extinguish All Hope",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136"
+   }
+  },
+  {
+   "card": "Descent into Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Descent into Avernus",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:d6779fb6357a"
+   }
+  },
+  {
+   "card": "Vilis, Broker of Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Ashiok's Reaper"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:628d5d8a9f80"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:7b67e8216364"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Swan Song"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:28f42a935583"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Curse of Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca"
+   }
+  },
+  {
+   "card": "Heartless Hidetsugu",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Hidetsugu",
+       "cut": "Accursed Witch // Infectious Curse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Hidetsugu",
+       "cut": "Ashiok's Reaper"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:01488caae8db"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:737409132ff9"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52"
+   }
+  },
+  {
+   "card": "Blazing Sunsteel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:363f901a3f08"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Withering Torment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:189c3996c9d2"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Accursed Witch // Infectious Curse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Ashiok's Reaper"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:64de238a88ad"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:5556bafe96fc"
+   }
+  },
+  {
+   "card": "Second Chance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Second Chance",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Second Chance",
+       "cut": "Curse of Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e"
+    },
+    "swap": "swap:lynde-cheerful-tormentor:m5:969046a1d1ba"
+   }
+  }
+ ],
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "slug": "lynde-cheerful-tormentor",
+ "swaps": [
+  {
+   "adds": [
+    "Crystal Chimes"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:bee08d56c3ef"
+  },
+  {
+   "adds": [
+    "Curse of Chaos"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:0c0fb01f596c"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a6d75edda551"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:20fb9b12dcb0"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7f5bdfbd45fe"
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b9fa72204b35"
+  },
+  {
+   "adds": [
+    "Protean Thaumaturge"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:78aa5dc32683"
+  },
+  {
+   "adds": [
+    "Curse of Shallow Graves"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ef6ae4a0da63"
+  },
+  {
+   "adds": [
+    "Curse of the Nightly Hunt"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:c7b0359cee5a"
+  },
+  {
+   "adds": [
+    "Curse of the Pierced Heart"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5824243e8552"
+  },
+  {
+   "adds": [
+    "Extravagant Replication"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:700819c15068"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:8c28f18395c6"
+  },
+  {
+   "adds": [
+    "Curse of Stalked Prey"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a84fb335b9d5"
+  },
+  {
+   "adds": [
+    "Curse of Inertia"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:11e192d11ba0"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:2090d812aaf2"
+  },
+  {
+   "adds": [
+    "Crawlspace"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:0a0ec01781b0"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d2ace3b2cb5f"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a80b349ceb24"
+  },
+  {
+   "adds": [
+    "Silent Arbiter"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b4701aea0fb8"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:dd1a097064a4"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:add8c7970357"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:fa3c9b41379e"
+  },
+  {
+   "adds": [
+    "Curse of the Bloody Tome"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:535bbb140638"
+  },
+  {
+   "adds": [
+    "Thoughtrender Lamia"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ace4e65396e6"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:53a9aa42f72e"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:95edb628cad1"
+  },
+  {
+   "adds": [
+    "Stuffy Doll"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:e590d17b7a75"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:0389c726c2e8"
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:26ce1aae4b22"
+  },
+  {
+   "adds": [
+    "Curse of the Swine"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:65a6440df098"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:724660e0ec13"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:2c94c1eb3fc5"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:66db4b3ad355"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:34d2075ffa28"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:14f1add4d74e"
+  },
+  {
+   "adds": [
+    "Fraying Sanity"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:e126d5a82d07"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:68c925f670fe"
+  },
+  {
+   "adds": [
+    "Fog Bank"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:873432fbb6d4"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:bd5062133b28"
+  },
+  {
+   "adds": [
+    "No Mercy"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ac4f12e38747"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d02eb466b068"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d91e0d6d93fd"
+  },
+  {
+   "adds": [
+    "Court of Vantress"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:4dd51663c4ab"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b8d459277e87"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d2289b06007c"
+  },
+  {
+   "adds": [
+    "Curse of Oblivion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:61fa763d3e8f"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a7dfafec9788"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:753b45cf07a8"
+  },
+  {
+   "adds": [
+    "Blightcaster"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7ee735f2f2bb"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:45322272c3b8"
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:635b6c04c92a"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:3295aa7e0c1d"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5536262847ec"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:9674eeea9fab"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7bb120be8248"
+  },
+  {
+   "adds": [
+    "Final Vengeance"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b0b7f97d7fcd"
+  },
+  {
+   "adds": [
+    "Forgeborn Oreads"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:8b63ac5bdfe2"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d4c7dd549c8c"
+  },
+  {
+   "adds": [
+    "Rakdos Joins Up"
+   ],
+   "cuts": [
+    "Curse of Fool's Wisdom"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ee4bc28900e8"
+  },
+  {
+   "adds": [
+    "Rakdos Joins Up"
+   ],
+   "cuts": [
+    "Torment of Scarabs"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:c0b534c851e1"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Curse of Fool's Wisdom"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a49682106930"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Torment of Scarabs"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d70b035f00a7"
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Curse of Fool's Wisdom"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:cd6872b97be3"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ffc9fb900c8d"
+  },
+  {
+   "adds": [
+    "Ice Out"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d0c05e512a0d"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:6227a651b4de"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136"
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d6779fb6357a"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7b67e8216364"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Ashiok's Reaper"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:628d5d8a9f80"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:28f42a935583"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Curse of Vengeance"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5"
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:01488caae8db"
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Ashiok's Reaper"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:737409132ff9"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:363f901a3f08"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:189c3996c9d2"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5556bafe96fc"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Ashiok's Reaper"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:64de238a88ad"
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:969046a1d1ba"
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Curse of Vengeance"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e"
+  }
+ ]
+}

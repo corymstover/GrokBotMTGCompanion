@@ -1,0 +1,7137 @@
+{
+ "deck_id": "Loki__the_Deceiver",
+ "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "slug": "loki-the-deceiver",
+ "swaps": [
+  {
+   "adds": [
+    "The Masters of Evil"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cbf1d7216221",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3434acec9bc51608"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Loki, Agent of Chaos"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:dcd54edcaeaa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a674b3fe5ad85bfd"
+   ]
+  },
+  {
+   "adds": [
+    "Ares, God of War"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e19b5a84c3cc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c0ad8a1246555a43"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fbf65fc5f209",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a93f5551cb6ac2c8"
+   ]
+  },
+  {
+   "adds": [
+    "Typhoid Mary, Fractured"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d4ae5c2eaba3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dcefdcccd6b1c93c"
+   ]
+  },
+  {
+   "adds": [
+    "Glorious Purpose"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:59d3068984a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glorious Purpose"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6608e7b0aaaa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Titania, Proud Pummeler"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:efb2ef767dbe",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:aa0861c629db7eb4"
+   ]
+  },
+  {
+   "adds": [
+    "Archnemesis"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0b2513e958d7",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:60ee9528ffd86944"
+   ]
+  },
+  {
+   "adds": [
+    "Archnemesis"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6e34dcbe3dc8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Frightful Four"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5753580ab4de",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f345275ee1c43bec"
+   ]
+  },
+  {
+   "adds": [
+    "Kid Loki"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c84e200d5fe8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molecule Man"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:edb7f160d0dd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f174cf2dcc5b6f72"
+   ]
+  },
+  {
+   "adds": [
+    "Construct a Cosmic Cube"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:833221566369",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Construct a Cosmic Cube"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:loki-the-deceiver:m5:01f08ee16eba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:755fa2137714",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Living Lies of Loki"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a4b44e32db3b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:608e5ea0f9459ea7"
+   ]
+  },
+  {
+   "adds": [
+    "Living Lies of Loki"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:324840949946",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Elektra, Daughter of the Hand"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:85b2818368ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Doom's Time Platform"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:278fcd35db2e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:de97e002365a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b84b6e51661e5d64"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:868b6aa552e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scorched Geyser"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:05857841431d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0baffe3023346a79"
+   ]
+  },
+  {
+   "adds": [
+    "Endless Ranks of HYDRA"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:184fb666a663",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:61c1338c05eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:loki-the-deceiver:m5:75a82d79b049",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:99811308d23a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e8710577d0b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b148f8720035",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1fe55380cf70890e"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c45a73ece136",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f5842d1ab099",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ffc5bd8ac999a736"
+   ]
+  },
+  {
+   "adds": [
+    "Vulture, Scheming Scavenger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:265b2e67d9d0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ac0533235a3c020c"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3080926934fc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tri-Sentinel, Act of Vengeance"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8586ea6a5819",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e008091986a0b010"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:93e4d34a18a3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:90dae1ba0c41fd04"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:eeedf315387b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lethal Scheme"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:12ccb4d36987",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5897620f6f7ca3ed"
+   ]
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:535597bb8b2b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f7b30310a3bce81f"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Assault Robot"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d1011ce5cfdd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a965bd4ae98ecb29"
+   ]
+  },
+  {
+   "adds": [
+    "Moonstone, Harsh Mistress"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e7134f4ab3fa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bacf4c74ff87c214"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8447f6e61c3c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d0a45320d3bfd501"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fa86954587e5",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9deae5e2fb491a3e"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e135e0e7c3c1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a63773c478053a31"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9e605ebdfa69",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:aa04d257d9c2929e"
+   ]
+  },
+  {
+   "adds": [
+    "Abomination, World Ravager"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cc3893bb770c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:879af2ced3728a6c"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:efbbaacd74f3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ba58baac22d2392b"
+   ]
+  },
+  {
+   "adds": [
+    "Klaw, Master of Sound"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e8e9fa0cb826",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:60c09abe35c48c7c"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d724f284a9f0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:728f66260fb600c7"
+   ]
+  },
+  {
+   "adds": [
+    "Loki Laufeyson"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:644390926974",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e5d7ef6899f16b7e"
+   ]
+  },
+  {
+   "adds": [
+    "Kang the Conqueror"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8ededadee370",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:df907a94d02e05d1"
+   ]
+  },
+  {
+   "adds": [
+    "Thanos, Death's Consort"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0db84f38b8b0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6e20d50056c4fe8f"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bcd7b8433746",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:55d768587f1fbc4e"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6e04afb77547",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:59eb75294095e34e"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2b230bcb8a06",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9a3991722de27800"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:59039c5ceddd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4cd9575cee53a2b9"
+   ]
+  },
+  {
+   "adds": [
+    "Living Laser"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4520ced05166",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:12d2bcf7026a04a2"
+   ]
+  },
+  {
+   "adds": [
+    "M.O.D.O.K., Evil Intellect"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:26729f11bc6d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1e40c54254a8c695"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron the Annihilator"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:db20b18f06c3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bf642bc03d96ed19"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5b33b93a93ba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Coastal Peak"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f4aebeb861d7",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a03d94d112220f2e"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:31120bdbe854",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:add30142f9ee5dae"
+   ]
+  },
+  {
+   "adds": [
+    "Visions of Villainy"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cdc1736042eb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1f67afbe6a5a145c"
+   ]
+  },
+  {
+   "adds": [
+    "Visions of Villainy"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3288105e66ce",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:76799d9c0d21442d"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8fd3967355dc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0fffa9aed0c087e8"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:707ff3ea9e33",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flying Octobot"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fb0ad7d82144",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ff1c062e2f2fda80"
+   ]
+  },
+  {
+   "adds": [
+    "Criminal Enterprise"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:009bc0765de6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Spot's Portal"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d1b0ee6084c6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c5f57f88262c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7fb316669f932b14"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Dynasty"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f30b1b0c9acf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:01ca6fadd504352f"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Dynasty"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a8d44f58e0e1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Common Crook"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b3907e3b69bf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:83c049723a19a822"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c363474e605f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a973230885fc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a47482d0cf076f0a"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:373a1d1c4ba1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:93e391ddd86f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9131b750603e4579"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cbe7fe2134f3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d8cc657687129edc"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, God of Lies"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:da3b7dcdebf0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8a52c261611f94ee"
+   ]
+  },
+  {
+   "adds": [
+    "Age of Ultron"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6c26707caf21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Green Goblin, Revenant"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:df3c9383d721",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:24045eabca34a484"
+   ]
+  },
+  {
+   "adds": [
+    "Minn, Wily Illusionist"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5c84c91caa59",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6620cc12f255",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:df638e48df222087"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d7c59147cdfb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9d75274e3cdfae4d"
+   ]
+  },
+  {
+   "adds": [
+    "Obeka, Brute Chronologist"
+   ],
+   "cuts": [
+    "The Squadron Sinister"
+   ],
+   "id": "swap:loki-the-deceiver:m5:57972bb1a27d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Multiversal Recruitment"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3e0ab807126a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0d02d79bbf25",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:15e6e9983d189efc"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a3d6ecd53e40",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4927d2e7f8fc620e"
+   ]
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fc456a4afcf1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:58934b70908fbd82"
+   ]
+  },
+  {
+   "adds": [
+    "Alchemax Slayer-Bots"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:214fc41effba",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1a8237c53bccecaa"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a75a85115ef4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Currency Converter"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a6bef87e05b3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:79417a5434563745"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c8ca129bee81",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:752a23a37e0151c6"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:04976136beb9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:15dfdf54796851b6"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:240645e8efdf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9aab4e718f613e36"
+   ]
+  },
+  {
+   "adds": [
+    "Glasspool Mimic // Glasspool Shore"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0e6031f744fe",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f60e8ae2f7281276"
+   ]
+  },
+  {
+   "adds": [
+    "Glasspool Mimic // Glasspool Shore"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0f6bc1101809",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:88b7138ad00131c1"
+   ]
+  },
+  {
+   "adds": [
+    "Evil's Thrall"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:583b230c5793",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:577384b038b7",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:39509d0881b23bc3"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7b7ec052326d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9abe1d957ebae69e"
+   ]
+  },
+  {
+   "adds": [
+    "Extract Power"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fd3575808f2a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f17acd56df14",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:20757d5a91249ee6"
+   ]
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:795996705121",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f366d3df7c5a108e"
+   ]
+  },
+  {
+   "adds": [
+    "Symbiote Spawn"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:42773b9eb321",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b1b4fff5286a8976"
+   ]
+  },
+  {
+   "adds": [
+    "Phantasmal Image"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8cf2c8af0173",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:eba6f804fb1767af"
+   ]
+  },
+  {
+   "adds": [
+    "Phantasmal Image"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:37a90fe4d91e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2176f3a3ee204086"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5f4e949ca2d0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:884dc9d843dc199d"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:592a60383bdd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c49f9be22dee7409"
+   ]
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:30b15b3b04da",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5435abeb1fe636df"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:792068e97c26",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d68fe353d3561559"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterio's Mirage"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:606ec82035b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flesh Duplicate"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b9d8dbd9c40f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4f7f6789af94b0a0"
+   ]
+  },
+  {
+   "adds": [
+    "Flesh Duplicate"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c7272b2290b5",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:82733eadad9ae6d0"
+   ]
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0a1c0adf9015",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e9d9d012f9c51706"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Fortress"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:48ebc6658fb3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9a2f6402fbb0d4ec"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e17895f145fa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:095b6f71b5ac9c62"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:441da056b02e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deceptive Frostkite"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b11ac057461a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9f8cd9c627a7fbaa"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e877dace79d8",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:db0c552af029d653"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4ec3a0c83895",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6edd05337f8fa98f"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5d924b387b7e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:052c2dab25e9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6cefd178967994c3"
+   ]
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7ebf2f802902",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0c6d078c7c0f6362"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b04cc4e4a6f4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7ea2c141baedd33d"
+   ]
+  },
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6c61663d2ab1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7489b33236263f10"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:886f9c17b98a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1734afffb2ca78f5"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:15e48acc3e69",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:72ab16ea04ba19c1"
+   ]
+  },
+  {
+   "adds": [
+    "Silver Shroud Costume"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:62d5d87fced4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:97978da9fd3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hidden Lair"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c1a203baa976",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3f70653b1edcaea4"
+   ]
+  },
+  {
+   "adds": [
+    "Malevolent Hermit // Benevolent Geist"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9c1fdb268f77",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f1627defee68",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f478d6b250c92129"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b3685b04618c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f817640b5da27b1b"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d4b61516f374",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:31857aaed7bcabe1"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b55f250292fa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:17d94ce22c71c869"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Avengers: Under Siege"
+   ],
+   "id": "swap:loki-the-deceiver:m5:94afcd05860a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0795a3658df5fce2"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d771076b8370",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3d402bf8f7583da9"
+   ]
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2b80a5cae1e2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d5bbd4a692014928"
+   ]
+  },
+  {
+   "adds": [
+    "Higure, the Still Wind"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:716b44d90cfd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b97127f00296b600"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:216db37ffcc9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dbb8889cf4bc9dac"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1200b8eca982",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:345909ef2d2e53c3"
+   ]
+  },
+  {
+   "adds": [
+    "Decoy Ploy"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7df6c2429eff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c687dd610c96",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:17c82d629f930821"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a55a0517dc0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:acd372374a93",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8b9999a0dfb6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:35887ee8abed9614"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7a34ae4fc0c9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1168ee3464ef3a49"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c1cb6fa29108",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:50afa2b1b7ff0135"
+   ]
+  },
+  {
+   "adds": [
+    "Zulaport Cutthroat"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bb78f535d31c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:47444db84d4889a1"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3f9ed5b66b66",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2c0d3b7e7f423128"
+   ]
+  },
+  {
+   "adds": [
+    "Adric, Mathematical Genius"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5cd506304879",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Samut, Hazoret's Champion"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:985a2df05e35",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6ef2f0fe5905065f"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:562811c41a98",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:026d136b6ac0b26f"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:96349875fe56",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c93f1ebcea706f75"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of the Unreal"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5fd02e18c36b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c010ab5365cd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6b394d19fe9d7eb9"
+   ]
+  },
+  {
+   "adds": [
+    "Cynical Loner"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:864ad634b02b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:aa66f478b1a806c6"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:050d3e7a1135",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a9bb393b4de3b74c"
+   ]
+  },
+  {
+   "adds": [
+    "Red Hulk"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8a5f5274ef24",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:01225f5efa6420ad"
+   ]
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:79fc7af60959",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cb48fe6a3498",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a9750d0fc79f48aa"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowborn Apostle"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9293cb1baade",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3c38fc9bb65aad78"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, Unrivaled"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:13e090e252ab",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:514eba5dbd5d9263"
+   ]
+  },
+  {
+   "adds": [
+    "Namor the Sub-Mariner"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e5e39b4b86aa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bcbb141aa2b5ac88"
+   ]
+  },
+  {
+   "adds": [
+    "Echo, Perceptive Prodigy"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c0ca05219900",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e3dd3b19d1aec242"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6949849053a9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3ce919f381643e0b"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow-Rite Priest"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9e299344548f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4958debea8989b66"
+   ]
+  },
+  {
+   "adds": [
+    "Attuma, Atlantean Warlord"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:860cd159ae8f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d540ec79c58ee1de"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2268e71caafa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:079b07c108d13093"
+   ]
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1d67e8757e4a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d34c3d1a42a0b478"
+   ]
+  },
+  {
+   "adds": [
+    "Villainous Syndication"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:53c565dae3f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bitterheart Witch"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d2dd2a7f6bff",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:cdf715f8ee0ba6d1"
+   ]
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1b865bd966c1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:47fe79a5e21c05b4"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d7daa6434a89",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:fc5f999092c141a9"
+   ]
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:74abacdcf8f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Asmoranomardicadaistinaculdacar"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3add93acc4cf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6755222eae7b355d"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ec2f6f8caada",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4588cc7cc9716438"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Man, Inferno Incarnate"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:63db09535d65",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:69fd59c3d96437cf"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0caff4f8b890",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:099fbd3a4e23788c"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8cc461e649d9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b3dd5dedc49042f7"
+   ]
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:035e2561c6d4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f181b592856a3cb8"
+   ]
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9c16ca215645",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:946cfb426dff9f00"
+   ]
+  },
+  {
+   "adds": [
+    "Super-Adaptoid"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e6f12e17e2ad",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:61b18cc7f4052650"
+   ]
+  },
+  {
+   "adds": [
+    "Photon, Mighty Marvel"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:504c270a3409",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e88f3ea1bf9a4fdc"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Machine Overlord"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:04f8001f5181",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dde8a1059af9f9f9"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d71ab6bb866c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:da67d19d505b50c1"
+   ]
+  },
+  {
+   "adds": [
+    "Voidmage Prodigy"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0c9704473ee0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Wasp, Winsome Avenger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:13912d3d92e0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b06644e81c291239"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5ce47062ad8c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2f03c71ecb9ed778"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6900b987cf25",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e6ed39b48c221ccd"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:455bfbca3611",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4d39629bfe8bfb36"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:964218497b16",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Firebird, Blazing Ranger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6b74966141b1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:38563e4475e3ef36"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Deadly Hunter"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:36322f1b8e7e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2abf4f0ed34464ac"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a3457ee565b3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:25c9266d84d03784"
+   ]
+  },
+  {
+   "adds": [
+    "Robot Domination"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3c17bb862b63",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:895dc40205279891"
+   ]
+  },
+  {
+   "adds": [
+    "Daredevil, Fearless Fighter"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:483701ed57dd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:deb7046b22e50b7b"
+   ]
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5bc643c2a402",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e0ed10ee7f780e01"
+   ]
+  },
+  {
+   "adds": [
+    "Machinesmith Automaton"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:959070dbf9be",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b66f70d7e37d091a"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron Drone"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9b92df012de3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b423df801826f752"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:11901bfdd458",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:850b047535403667"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:24bcda4a6aad",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8c92901b6ecfc704"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a719e679d6c9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:932fecfa233bc18a"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:59efbdece35f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6b0db2c8ec857f98"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:883a140e7f7d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e5471efd0d40d3b9"
+   ]
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:95239e67b6d3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Daring Apprentice"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:33163b723dd8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d2bbeb4fdd6f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7456460e73c269b3"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1765cf2c02e8",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dcad7f2ef3337568"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8d92003fb3cb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6e20ab441d60c7e7"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8465505a170d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6c97440e9300e2c9"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5145b9489c9a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:aceb306f84339d62"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Hand Ninja"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ca1f4ae7c6c1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d754351b57142e73"
+   ]
+  },
+  {
+   "adds": [
+    "Namor, Scourge of the Seas"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3033fe80a7e1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8216ede44169d7fb"
+   ]
+  },
+  {
+   "adds": [
+    "Cosmic Cube"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a734d2073eae",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d905aae7b1a51141"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d6d1db0a392c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9c709479244e8ea5"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:099c27e5ca6b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c4080c651aea9959"
+   ]
+  },
+  {
+   "adds": [
+    "Doombot Harbinger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:38884ccefc2d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a29e596912b8f0f8"
+   ]
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cf81ce3a7264",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3c688fdc1dbcc171"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:05f8571a6f5a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bd1818d14ca47c0c"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Avenging Archer"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:64e7c12f97c9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:127c5468926d52b2"
+   ]
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3668b1a1a86f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:edaf5b9a31f126cd"
+   ]
+  },
+  {
+   "adds": [
+    "Maximus, Knight Apparent"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d2a089975a49",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:28a830061b851f53"
+   ]
+  },
+  {
+   "adds": [
+    "Aerial Doombot"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:81d24e02aeb4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b9aa3f5518122ab5"
+   ]
+  },
+  {
+   "adds": [
+    "Alpine Guide"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:dbece06fb3bd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:36019e60befca55a"
+   ]
+  },
+  {
+   "adds": [
+    "Whiplash, Vengeful Engineer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d62787be539d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9182d71198812204"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:059e9391581f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b854021253722894"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Synthoids"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:04f7e91f65f2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f5d7f5ea6d5b15b8"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:80546d464441",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0b47394e3b2f66a2"
+   ]
+  },
+  {
+   "adds": [
+    "Vulture, Feathered Fiend"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:31a91e6cb18d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9f24929dd60026be"
+   ]
+  },
+  {
+   "adds": [
+    "Red Room Recruit"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5627f82712c8",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6ac2a8ed1335b29e"
+   ]
+  },
+  {
+   "adds": [
+    "Citizen V, Helmut Zemo"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:29bc5a14d609",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:73dc4c18e8cc31d6"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f41934292304",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c148395033d208c8"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Web-Spinner"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:02ee019aa1a9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:238ca2935e85620f"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron's Auxiliary"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0188b8bbe32b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bc1b70b99e45e3da"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Most Wanted"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5689e9617499",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:16c4dad45d914885"
+   ]
+  },
+  {
+   "adds": [
+    "Ultimo, Civilization's End"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b9c479fdbeba",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f5bc6245f37f33c0"
+   ]
+  },
+  {
+   "adds": [
+    "Arnim Zola, Bio-Fanatic"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e426325cd535",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e84ab5fe697c40da"
+   ]
+  },
+  {
+   "adds": [
+    "Fin Fang Foom"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fc3675e16fb2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f25e8c6702972f89"
+   ]
+  },
+  {
+   "adds": [
+    "Ophiomancer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c4e216388815",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4a49ba3a5cae109c"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin, Shadow Stalker"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3fb616a1d94b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e9c1e22dabfb15d5"
+   ]
+  },
+  {
+   "adds": [
+    "Batroc the Leaper"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:44fab94c1e84",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c3a5e2b2b2eeabf7"
+   ]
+  },
+  {
+   "adds": [
+    "Plaguecrafter"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3a247b3dbff6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:072f4fc1f7f4da3f"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0b8f9c01e8f5",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d9ac8278a632ee3f"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ffc2cbfbc810",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:74875b9f13d9701f"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:160d936481da",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:640ca44e7b014ddc"
+   ]
+  },
+  {
+   "adds": [
+    "Silumgar Sorcerer"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9122278f324a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yellowjacket, Heartless Marauder"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f55a68326d29",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:25810368486b26fe"
+   ]
+  },
+  {
+   "adds": [
+    "Ghost, Spectral Saboteur"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a45b5a5c4e73",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0cf77189616bf7f5"
+   ]
+  },
+  {
+   "adds": [
+    "Winter, Tormented Loner"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e409143fcef6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:768756abb36c25f5"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Scientists"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f89fb34cf909",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:554f8320c7e7b838"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c09e97de14fa",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e35e709bb6b2e446"
+   ]
+  },
+  {
+   "adds": [
+    "Radioactive Man"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5cefcc7cc527",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:19f1e7a7391da511"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:aefecbc105d3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e6197090b2751520"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f46c1d003e53",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ae84d78def60e5b9"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e2b15b7f72e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f2cc5322e83a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f92e539739c347a2"
+   ]
+  },
+  {
+   "adds": [
+    "Ninja of the Hand"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:be5fe7729177",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:32be3760a46ec91b"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:abad61df3bce",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7784b7962dd2da2c"
+   ]
+  },
+  {
+   "adds": [
+    "Martyr of Frost"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:121242dc0d68",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Doom's Servo-Guards"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:aaf82b1b6824",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:61f2b1294e9dde54"
+   ]
+  },
+  {
+   "adds": [
+    "Valentina Allegra de Fontaine"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:012465791b87",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:36491e46baea4e95"
+   ]
+  },
+  {
+   "adds": [
+    "Viper, Cruel Conspirator"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2121abf994cc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0d0402c4a0ba7c00"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:43b391525cc4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:48610e516e950063"
+   ]
+  },
+  {
+   "adds": [
+    "Minotaur, Roxxon CEO"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:eb35182d4654",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f46b0c1d58840f4f"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin Cliffrider"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d331cc24d23c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e70b14f740b6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f43b015adef96b66"
+   ]
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:140c8e6765fb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:051528b171d1eee4"
+   ]
+  },
+  {
+   "adds": [
+    "Graviton, Fundamental Force"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:95ec386c88b2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5b7b8c845a5211a9"
+   ]
+  },
+  {
+   "adds": [
+    "Kree Sentinel"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7fed9fd2d696",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8885934bac920a74"
+   ]
+  },
+  {
+   "adds": [
+    "Bob, Reluctant HYDRA Agent"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c5cfff47f38d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:141ca255cefc64a4"
+   ]
+  },
+  {
+   "adds": [
+    "Boomerang, Blade Flinger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:803739835a59",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3f53e6e2233290bc"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a0f47d16deb4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:fbf1d9f80ea4c8a2"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a879687564dc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bab61e400070d35f"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:13fc44e2bb22",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:74c6fa4644477014"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bd0769c951a5",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e210dfc0c0263e31"
+   ]
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ceb09bf57093",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5a72cea45bed656e"
+   ]
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5c8dedf0474f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:fab8d9d6127cc979"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5dd72f62dc9f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:efa2948b71790a2e"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:361d5486c560",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c9ff696dd72234dc"
+   ]
+  },
+  {
+   "adds": [
+    "Klaw, Sonic Subjugator"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:606f5500e970",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b9ebcbb6d2e631a7"
+   ]
+  },
+  {
+   "adds": [
+    "Unliving Legionnaire"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e09b6e93c8f6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2ebc9150c81b9625"
+   ]
+  },
+  {
+   "adds": [
+    "Matterbending Mage"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a835da515ad7",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ad02caba9febca03"
+   ]
+  },
+  {
+   "adds": [
+    "Volcanic Villain"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a17773b44f18",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e2e5c58f3c241461"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b663d9c99839",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dfac78971a34eb93"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:59490d0071e1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b93e99905a4b6f50"
+   ]
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2bce587667af",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9128ec059fbea41f"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4320ec5f9dfe",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ea2b2daff36cce2c"
+   ]
+  },
+  {
+   "adds": [
+    "Fixer, Techno Terror"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e8c05a35903e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6e9b2b977ef80940"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:449bc20599c9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5e9e9234dbf6763e"
+   ]
+  },
+  {
+   "adds": [
+    "MACH-1, Swooping Scoundrel"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:37ec9166d6a2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1e137437296c3042"
+   ]
+  },
+  {
+   "adds": [
+    "Brine Shaman"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:75f78e121aa6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:85d34f1f46b3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5d66c58412a0361a"
+   ]
+  },
+  {
+   "adds": [
+    "Baneblade Scoundrel // Baneclaw Marauder"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b984acf0febc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Lavamancer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:86ad80e61cde",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:edad401048939923"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Timely, Wily Tycoon"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:27409533e839",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:66cfdf9436b364da"
+   ]
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:45cce8171deb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:70b2524d155b05dd"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Hometown Hero"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d01095a77e45",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dae3517cd85ae775"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9551f21285ab",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:af03f0863b11284a"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f64aecac3614",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ca053e4ee6f30707"
+   ]
+  },
+  {
+   "adds": [
+    "Wasp, Shrinking Savior"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1cbe9e096032",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5a2fd280456465bc"
+   ]
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:loki-the-deceiver:m5:56739e62d401",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whirlwind, Killer Cyclone"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c08d0609c76a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:13780832e35c23fb"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Bot"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:993dc4f1ad32",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:52776025970d03f2"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f12a5f81072e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a859640941b307e6"
+   ]
+  },
+  {
+   "adds": [
+    "Demon's Herald"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:53d1a433adf6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9fd605fba008bdd7"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:387f9096cd1a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Martyr of Ashes"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6f903ffa5f4a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bog Glider"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6aea139c1b6a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ac386e7a49b44ed2"
+   ]
+  },
+  {
+   "adds": [
+    "Extremis Elite"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:36224c9c5f3e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Count Nefaria"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d5aad6e18d0a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0933c5c2d73f12bc"
+   ]
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a58ff66c04b6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:72ceee1e51fd7fd3"
+   ]
+  },
+  {
+   "adds": [
+    "The Whizzer, Classic Speedster"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5d7c5109f5c6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5b1fddf180a8e52b"
+   ]
+  },
+  {
+   "adds": [
+    "Eardrum Rattler"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:80788867c59a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c55de56d64f22c3c"
+   ]
+  },
+  {
+   "adds": [
+    "Armed Assailant"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:17793c1a0dc0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7592fb11a5f26d2e"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Grapplers"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:27a53ffa1d45",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:fe6fa0dca0e5d438"
+   ]
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4644879eff62",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:95254dd4c772",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6bb94daccb96e4d2"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Thunderbolts Conspiracy"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e2838c6a771a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2b9657cb3b7c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:33b390d2da8d07d2"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d39219b0b91a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bfcd5ff26f3002bf"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0b9a5cd76107",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ab3edfc90f71cb58"
+   ]
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d9f6273213d7",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9fd510519333c78e"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:114118b0a701",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8a1dc76815961c49"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1ea41bef6858",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:77ff09017c96f77b"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fa695ba7de34",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:80a591a7feedd91b"
+   ]
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:44968ed4b183",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0186681eaa6659a6"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1ce0d47bbce1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6907bd3615507325"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:973e4e16140f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8291f650b32c4b31"
+   ]
+  },
+  {
+   "adds": [
+    "Jadar, Ghoulcaller of Nephalia"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2bbe778bb5f9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2c35b5a5c81865f3"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9d241bb74d8d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:18b46591f6e3b075"
+   ]
+  },
+  {
+   "adds": [
+    "Priest of Forgotten Gods"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cb5967bec660",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:59564676bd992f3a"
+   ]
+  },
+  {
+   "adds": [
+    "Wooded Foothills"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3d486b2b80f9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9c9c3b4dff847be9"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a6e9b04a15ce",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:04cfda15de48ba61"
+   ]
+  },
+  {
+   "adds": [
+    "Verdant Catacombs"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:77fa2c7c2260",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2f5b89c092edba66"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ad3828443cfb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:77b6f1e5532d9fdf"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cf7a8d67a330",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:147418f8f252b2ab"
+   ]
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6f946f9f8953",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6a95e75eec10b874"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fd823b811746",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:69d56a6e729c7032"
+   ]
+  },
+  {
+   "adds": [
+    "Marsh Flats"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:56deab8ddfc9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:39ddd8870ea92745"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:76f4abc8cae6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bebe0558a66177ea"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Fugitive"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b1f2942b3a19",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:74e5298a5cd6deff"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:731674ab9673",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bb91bb572e476517"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7173923c19be",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:058da2f768542b06"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f757cf8370f2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b70cc16bb64e7337"
+   ]
+  },
+  {
+   "adds": [
+    "Arid Mesa"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4b8fbf8edbf0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:42f330707f3e1c51"
+   ]
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:59d0e4af4237",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d08bdd343f4fe013"
+   ]
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:749eb7305d5e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:66a3655eeab70481"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:686230448085",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:696a066b07bec173"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima the Impostor"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bbb90b5b2140",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9303f00744807468"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b1c58ac6e3fe",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1ae7804754918e6e"
+   ]
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7fd920e0723e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:76b7fd22314ed538"
+   ]
+  },
+  {
+   "adds": [
+    "Venom's Hunger"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:61d6c4705926",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e951ed63a74a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2331b434c1996b9c"
+   ]
+  },
+  {
+   "adds": [
+    "Demon's Disciple"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fe3905f28d24",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ab57a35545ddec09"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:29ec5340b1f8",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:39f7499e662d55e1"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:56522d5a8fd0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8cd35add00672e11"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:aa11b0d4afe2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d63fb1c56e46ff83"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bda1486badba",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d8c45d7fa1bf52a4"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7ba04793a84e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:eee3872828204ecb"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8b9d92808212",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:988f5d6a490f7ab0"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7d6e29545cea",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c1625e75cf931770"
+   ]
+  },
+  {
+   "adds": [
+    "The Lord of Pain"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:334775410174",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:40b6d6723da75146"
+   ]
+  },
+  {
+   "adds": [
+    "Yuriko, the Tiger's Shadow"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3b20b5e2b0b0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:cee01898efba1936"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:998d08f2fc0e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0bb2415c73dab339"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2ffa7c07f164",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e42b43515351fa70"
+   ]
+  },
+  {
+   "adds": [
+    "Witch of the Moors"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8123dd71f284",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:392132b3bf776260"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3d0ec73a3d3a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dac92fe6799b4576"
+   ]
+  },
+  {
+   "adds": [
+    "Invisible Stalker"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ffeae50fc042",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a37253e607a105bd"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4cbe9d776a5e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2c4cffcbcd359678"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c5b25249122c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:26be2cbd29e07e77"
+   ]
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:83bf14284b4e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:2c4764bc0fe9a635"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:880a403070be",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:20819de233c002bb"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, Glorious Resurrector"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7ea3ca39f152",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:fdcd9c0274c2c911"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d0fde1eb5da1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1c4626b5ebbe8955"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:loki-the-deceiver:m5:362acd8f05bc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f85090ab4a3c6766"
+   ]
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:95b2a55cd9bf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f4f484dd0b0080de"
+   ]
+  },
+  {
+   "adds": [
+    "Blighted Agent"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5962071cbc83",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1f27b943c02b1efa"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e44b76d8819d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:10477ead6280a7d6"
+   ]
+  },
+  {
+   "adds": [
+    "Otepec Huntmaster"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:96aba0814170",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:60c05c08940d2c7a"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ea52c9b04123",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:90dd848f8f69",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a64f384e41952d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Frontier Warmonger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6630acbd52c7",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ce949dfe8088171f"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:de37c214e790",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0692c697d08e836f"
+   ]
+  },
+  {
+   "adds": [
+    "Endrek Sahr, Master Breeder"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:72327105755e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1fd53eca23337e93"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:266ceb825421",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8c2175d1223e5352"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9d13edbe036e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:71bb7dab651402b7"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7438bf6d4d84",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:742e876eb68258d3"
+   ]
+  },
+  {
+   "adds": [
+    "Mistblade Shinobi"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:935035c87a59",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3261e8d6f421",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:8fd8e45ff09fe425"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1e3fe36be80e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:3f503798bbf9d8cc"
+   ]
+  },
+  {
+   "adds": [
+    "Chittering Witch"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:00527a61591f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:af4c97b55084a3f5"
+   ]
+  },
+  {
+   "adds": [
+    "Dockside Chef"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2a570145c4be",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5815a32688a92351"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:645187c64ed3",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:68d9776bd08c3d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0a4641632b2b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:32d2cd033d2c743c"
+   ]
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d3cefb8570cd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0958324c055ec615"
+   ]
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3764435d2b98",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:58615ed19b94bf51"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:00670ab60a20",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:cf97961ad5daa64a"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowheart, Dark Justiciar"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7529b410305d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a9fd372850d9d1ff"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d8f65863eccd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ddda15ef582eec56"
+   ]
+  },
+  {
+   "adds": [
+    "Species Specialist"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d84735a94822",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:77e49148370b97b9"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Punk"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8deac3d30987",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c3325e0e74796a4a"
+   ]
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0db41470b112",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d53a0ae1f3131867"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, Bloodfist of Keld"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a5aa1cfe6ea5",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:097ca83d57629bbd"
+   ]
+  },
+  {
+   "adds": [
+    "Ninja of the Deep Hours"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:602ae904a3b6",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:64b04b19b38c5ba0"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:12b410e1b08a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6329607883aa3efd"
+   ]
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8f274490911a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7018db703634ee63"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:loki-the-deceiver:m5:494ae06ed3bf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4ccf900b6885e326"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima's Student"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9138c36bfb71",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:87ef1b1e668a4651"
+   ]
+  },
+  {
+   "adds": [
+    "Rikku, Resourceful Guardian"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bc7b3ab4170c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a1dee8e41fb4e3ab"
+   ]
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f08b4022e6a0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a92574bef235cd55"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:2239af1ddf0e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:d4da9f3e117bfce2"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:214099fa80bc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:1d996ce7e2edff30"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e5098515d400",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0cc171392b4a8159"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Octopus, Inspired Inventor"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f25a534d3451",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0e5ed6cd089e3c79"
+   ]
+  },
+  {
+   "adds": [
+    "Callidus Assassin"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fa38777ae8b1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a38fa70a6b3bec4c"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:48fcc699bee0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:68de439dc01fe0b3"
+   ]
+  },
+  {
+   "adds": [
+    "Kaervek, the Punisher"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0a7ffe18c8c9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5f8274f08ce2e9de"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cc9aa74f3dd0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0af065739fe41b75"
+   ]
+  },
+  {
+   "adds": [
+    "Superior Spider-Man"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f502c81914a1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:63ee4c044d1424d9"
+   ]
+  },
+  {
+   "adds": [
+    "The Blue Spirit"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c964ae544812",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c816f72c583a85fb"
+   ]
+  },
+  {
+   "adds": [
+    "Jacob Frye"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:832799121059",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f2c8b1a97826f5e1"
+   ]
+  },
+  {
+   "adds": [
+    "Crackling Spellslinger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:cb3fc4494341",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f62f3c25169e6e2f"
+   ]
+  },
+  {
+   "adds": [
+    "Morlun, Devourer of Spiders"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f85406136491",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:114872f9211b255a"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterious Stranger"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:80452bef0af2",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:087bcb2aeaae8ad7"
+   ]
+  },
+  {
+   "adds": [
+    "Donal, Herald of Wings"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:686fe94a70d0",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dcd728d343d6708b"
+   ]
+  },
+  {
+   "adds": [
+    "Protean Thaumaturge"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:adc913d21922",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e4f6c747766b4b93"
+   ]
+  },
+  {
+   "adds": [
+    "Crafty Cutpurse"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:3e3dbf64b838",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:822b64a50df678a4"
+   ]
+  },
+  {
+   "adds": [
+    "Radiant Performer"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6a7fbcc1c0d4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:20ff561e7522dfb5"
+   ]
+  },
+  {
+   "adds": [
+    "Scorpion, Seething Striker"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:73f72860460c",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c16eb89e0746d489"
+   ]
+  },
+  {
+   "adds": [
+    "Venom, Evil Unleashed"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:bbdda2631c9e",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e131137c8328c7ef"
+   ]
+  },
+  {
+   "adds": [
+    "Hydro-Man, Fluid Felon"
+   ],
+   "cuts": [
+    "The Soul Stone"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5591e71f373b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ecda45b545768f68"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm, Being of Bees"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:938f5f688422",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:264130af02538778"
+   ]
+  },
+  {
+   "adds": [
+    "Doc Ock, Sinister Scientist"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f10659ce1c55",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:87f843cb03a20ae7"
+   ]
+  },
+  {
+   "adds": [
+    "Morbius the Living Vampire"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8e1e68c17256",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:b858b3b118b5ba2f"
+   ]
+  },
+  {
+   "adds": [
+    "Venomized Cat"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ec9eb6b99358",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7bf889cfa56f8080"
+   ]
+  },
+  {
+   "adds": [
+    "Mathise, Surge Channeler"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:957a2ad854f9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:91592d3d806b5463"
+   ]
+  },
+  {
+   "adds": [
+    "Pol Jamaar, Illusionist"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:f51d44b99c22",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:93e99a175ed86e95"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanical Mobster"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:5e9424b14a73",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9ebc53b14a517408"
+   ]
+  },
+  {
+   "adds": [
+    "Myra the Magnificent"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:dfa4d376a743",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e033e7e6c7034075"
+   ]
+  },
+  {
+   "adds": [
+    "Superior Foes of Spider-Man"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:be2f836b24be",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:58a073411c2d8e28"
+   ]
+  },
+  {
+   "adds": [
+    "Mob Lookout"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e72e371fed67",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5c8bed6cbac6aaba"
+   ]
+  },
+  {
+   "adds": [
+    "Living Brain, Mechanical Marvel"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9de0c8253ae9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:00e6e05fc4bdc6d5"
+   ]
+  },
+  {
+   "adds": [
+    "Merciless Enforcers"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d53c50ff1b63",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:c85d48fbfd62bad0"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:a903e9da46a9",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:815057dc388f95d6"
+   ]
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:28fda7a373df",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a1a2526aaee500c6"
+   ]
+  },
+  {
+   "adds": [
+    "Artisan of Forms"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1ea634915887",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9c99ca7a35ae250f"
+   ]
+  },
+  {
+   "adds": [
+    "Beetle, Legacy Criminal"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ea0e5cad9ac4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:cdf41c56772294ee"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:261303d4401b",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:f88af5d1b4c1e641"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:b5b13c42bfaf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:5dda867368f9da20"
+   ]
+  },
+  {
+   "adds": [
+    "Doc Ock, Evil Inventor"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:71c3991763bb",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:44e646dbba83ae4d"
+   ]
+  },
+  {
+   "adds": [
+    "Shocker, Unshakable"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:0c84519aa8af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Guildmage"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e1d20ae81669",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:9205992a58b409c3"
+   ]
+  },
+  {
+   "adds": [
+    "Sea Gate Stormcaller"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:fc74b45eaba4",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:803df8ea4a68381c"
+   ]
+  },
+  {
+   "adds": [
+    "League Guildmage"
+   ],
+   "cuts": [
+    "Venom, Eddie Brock"
+   ],
+   "id": "swap:loki-the-deceiver:m5:d922fb4c3b4a",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:e4ca4d721c595f96"
+   ]
+  },
+  {
+   "adds": [
+    "Meletis Charlatan"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ad9758c2a7bf",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:7533ab3bb55cc7b5"
+   ]
+  },
+  {
+   "adds": [
+    "Bill Potts"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:9a0da6a0054f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:351ec70a83fd9ec8"
+   ]
+  },
+  {
+   "adds": [
+    "Symmetry Sage"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:795ecbbf3526",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:983cbd28f039df61"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Savant"
+   ],
+   "cuts": [
+    "Loki, Lord of Misrule"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7f0c0f49dd6f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:6e9e3f4e4f1b0c96"
+   ]
+  },
+  {
+   "adds": [
+    "Rebel Informer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8b5c225f41d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Cover of Darkness"
+   ],
+   "id": "swap:loki-the-deceiver:m5:4e633cc529dd",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:18adcdff2a075de4"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8a8a6880b2f1",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:dbe37348090491e8"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8169990e4989",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:bfaebfe59c6c65e0"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:loki-the-deceiver:m5:e2bf440903b5",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:0625b56bcab12d58"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "The Squadron Sinister"
+   ],
+   "id": "swap:loki-the-deceiver:m5:233ecdbb0a75",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:a9b49189d744b413"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Titan of Littjara"
+   ],
+   "id": "swap:loki-the-deceiver:m5:6af65d88c9fc",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:461ded76c836590c"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "The Squadron Sinister"
+   ],
+   "id": "swap:loki-the-deceiver:m5:7c3788401c20",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:25cc0054299cf8b5"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Titan of Littjara"
+   ],
+   "id": "swap:loki-the-deceiver:m5:975f82048368",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:845b748f6237e2d1"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "The Squadron Sinister"
+   ],
+   "id": "swap:loki-the-deceiver:m5:8b0c8a432d87",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4dd53e3bee7d4aba"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Titan of Littjara"
+   ],
+   "id": "swap:loki-the-deceiver:m5:1945db13534f",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:55680e47da37d774"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "The Squadron Sinister"
+   ],
+   "id": "swap:loki-the-deceiver:m5:c78d10edce90",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:4e9dd3f5332185ea"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Titan of Littjara"
+   ],
+   "id": "swap:loki-the-deceiver:m5:ad7254a5051d",
+   "tests": [
+    "test:loki-the-deceiver:goldfish:ceb5ad765a09b15c"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:loki-the-deceiver:goldfish:3434acec9bc51608",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a674b3fe5ad85bfd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c0ad8a1246555a43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a93f5551cb6ac2c8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dcefdcccd6b1c93c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:aa0861c629db7eb4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:60ee9528ffd86944",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f345275ee1c43bec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f174cf2dcc5b6f72",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:608e5ea0f9459ea7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b84b6e51661e5d64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0baffe3023346a79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1fe55380cf70890e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ffc5bd8ac999a736",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ac0533235a3c020c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e008091986a0b010",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:90dae1ba0c41fd04",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5897620f6f7ca3ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f7b30310a3bce81f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a965bd4ae98ecb29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bacf4c74ff87c214",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d0a45320d3bfd501",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9deae5e2fb491a3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a63773c478053a31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:aa04d257d9c2929e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:879af2ced3728a6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ba58baac22d2392b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:60c09abe35c48c7c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:728f66260fb600c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e5d7ef6899f16b7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:df907a94d02e05d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6e20d50056c4fe8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:55d768587f1fbc4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:59eb75294095e34e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9a3991722de27800",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4cd9575cee53a2b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:12d2bcf7026a04a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1e40c54254a8c695",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bf642bc03d96ed19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a03d94d112220f2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:add30142f9ee5dae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1f67afbe6a5a145c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:76799d9c0d21442d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0fffa9aed0c087e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ff1c062e2f2fda80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7fb316669f932b14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:01ca6fadd504352f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:83c049723a19a822",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a47482d0cf076f0a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9131b750603e4579",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d8cc657687129edc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8a52c261611f94ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:24045eabca34a484",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:df638e48df222087",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9d75274e3cdfae4d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:15e6e9983d189efc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4927d2e7f8fc620e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:58934b70908fbd82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1a8237c53bccecaa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:79417a5434563745",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:752a23a37e0151c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:15dfdf54796851b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9aab4e718f613e36",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f60e8ae2f7281276",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:88b7138ad00131c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:39509d0881b23bc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9abe1d957ebae69e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:20757d5a91249ee6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f366d3df7c5a108e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b1b4fff5286a8976",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:eba6f804fb1767af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2176f3a3ee204086",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:884dc9d843dc199d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c49f9be22dee7409",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5435abeb1fe636df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d68fe353d3561559",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4f7f6789af94b0a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:82733eadad9ae6d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e9d9d012f9c51706",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9a2f6402fbb0d4ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:095b6f71b5ac9c62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9f8cd9c627a7fbaa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:db0c552af029d653",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6edd05337f8fa98f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6cefd178967994c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0c6d078c7c0f6362",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7ea2c141baedd33d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7489b33236263f10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1734afffb2ca78f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:72ab16ea04ba19c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3f70653b1edcaea4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f478d6b250c92129",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f817640b5da27b1b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:31857aaed7bcabe1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:17d94ce22c71c869",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0795a3658df5fce2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3d402bf8f7583da9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d5bbd4a692014928",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b97127f00296b600",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dbb8889cf4bc9dac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:345909ef2d2e53c3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:17c82d629f930821",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:35887ee8abed9614",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1168ee3464ef3a49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:50afa2b1b7ff0135",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:47444db84d4889a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2c0d3b7e7f423128",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6ef2f0fe5905065f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:026d136b6ac0b26f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c93f1ebcea706f75",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6b394d19fe9d7eb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:aa66f478b1a806c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a9bb393b4de3b74c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:01225f5efa6420ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a9750d0fc79f48aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3c38fc9bb65aad78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:514eba5dbd5d9263",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bcbb141aa2b5ac88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e3dd3b19d1aec242",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3ce919f381643e0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4958debea8989b66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d540ec79c58ee1de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:079b07c108d13093",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d34c3d1a42a0b478",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:cdf715f8ee0ba6d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:47fe79a5e21c05b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:fc5f999092c141a9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6755222eae7b355d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4588cc7cc9716438",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:69fd59c3d96437cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:099fbd3a4e23788c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b3dd5dedc49042f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f181b592856a3cb8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:946cfb426dff9f00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:61b18cc7f4052650",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e88f3ea1bf9a4fdc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dde8a1059af9f9f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:da67d19d505b50c1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b06644e81c291239",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2f03c71ecb9ed778",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e6ed39b48c221ccd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4d39629bfe8bfb36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:38563e4475e3ef36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2abf4f0ed34464ac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:25c9266d84d03784",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:895dc40205279891",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:deb7046b22e50b7b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e0ed10ee7f780e01",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b66f70d7e37d091a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b423df801826f752",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:850b047535403667",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8c92901b6ecfc704",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:932fecfa233bc18a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6b0db2c8ec857f98",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e5471efd0d40d3b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7456460e73c269b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dcad7f2ef3337568",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6e20ab441d60c7e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6c97440e9300e2c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:aceb306f84339d62",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d754351b57142e73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8216ede44169d7fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d905aae7b1a51141",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9c709479244e8ea5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c4080c651aea9959",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a29e596912b8f0f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3c688fdc1dbcc171",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bd1818d14ca47c0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:127c5468926d52b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:edaf5b9a31f126cd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:28a830061b851f53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b9aa3f5518122ab5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:36019e60befca55a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9182d71198812204",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b854021253722894",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f5d7f5ea6d5b15b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0b47394e3b2f66a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9f24929dd60026be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6ac2a8ed1335b29e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:73dc4c18e8cc31d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c148395033d208c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:238ca2935e85620f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bc1b70b99e45e3da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:16c4dad45d914885",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f5bc6245f37f33c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e84ab5fe697c40da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f25e8c6702972f89",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4a49ba3a5cae109c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e9c1e22dabfb15d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c3a5e2b2b2eeabf7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:072f4fc1f7f4da3f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d9ac8278a632ee3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:74875b9f13d9701f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:640ca44e7b014ddc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:25810368486b26fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0cf77189616bf7f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:768756abb36c25f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:554f8320c7e7b838",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e35e709bb6b2e446",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:19f1e7a7391da511",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e6197090b2751520",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ae84d78def60e5b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f92e539739c347a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:32be3760a46ec91b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7784b7962dd2da2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:61f2b1294e9dde54",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:36491e46baea4e95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0d0402c4a0ba7c00",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:48610e516e950063",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f46b0c1d58840f4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f43b015adef96b66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:051528b171d1eee4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5b7b8c845a5211a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8885934bac920a74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:141ca255cefc64a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3f53e6e2233290bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:fbf1d9f80ea4c8a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bab61e400070d35f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:74c6fa4644477014",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e210dfc0c0263e31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5a72cea45bed656e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:fab8d9d6127cc979",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:efa2948b71790a2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c9ff696dd72234dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b9ebcbb6d2e631a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2ebc9150c81b9625",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ad02caba9febca03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e2e5c58f3c241461",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dfac78971a34eb93",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b93e99905a4b6f50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9128ec059fbea41f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ea2b2daff36cce2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6e9b2b977ef80940",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5e9e9234dbf6763e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1e137437296c3042",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5d66c58412a0361a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:edad401048939923",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:66cfdf9436b364da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:70b2524d155b05dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dae3517cd85ae775",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:af03f0863b11284a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ca053e4ee6f30707",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5a2fd280456465bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:13780832e35c23fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:52776025970d03f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a859640941b307e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9fd605fba008bdd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ac386e7a49b44ed2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0933c5c2d73f12bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:72ceee1e51fd7fd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5b1fddf180a8e52b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c55de56d64f22c3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7592fb11a5f26d2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:fe6fa0dca0e5d438",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6bb94daccb96e4d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:33b390d2da8d07d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bfcd5ff26f3002bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ab3edfc90f71cb58",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9fd510519333c78e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8a1dc76815961c49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:77ff09017c96f77b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:80a591a7feedd91b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0186681eaa6659a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6907bd3615507325",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8291f650b32c4b31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2c35b5a5c81865f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:18b46591f6e3b075",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:59564676bd992f3a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9c9c3b4dff847be9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:04cfda15de48ba61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2f5b89c092edba66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:77b6f1e5532d9fdf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:147418f8f252b2ab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6a95e75eec10b874",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:69d56a6e729c7032",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:39ddd8870ea92745",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bebe0558a66177ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:74e5298a5cd6deff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bb91bb572e476517",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:058da2f768542b06",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b70cc16bb64e7337",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:42f330707f3e1c51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d08bdd343f4fe013",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:66a3655eeab70481",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:696a066b07bec173",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9303f00744807468",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1ae7804754918e6e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:76b7fd22314ed538",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2331b434c1996b9c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ab57a35545ddec09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:39f7499e662d55e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8cd35add00672e11",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d63fb1c56e46ff83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d8c45d7fa1bf52a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:eee3872828204ecb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:988f5d6a490f7ab0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c1625e75cf931770",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:40b6d6723da75146",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:cee01898efba1936",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0bb2415c73dab339",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e42b43515351fa70",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:392132b3bf776260",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dac92fe6799b4576",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a37253e607a105bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2c4cffcbcd359678",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:26be2cbd29e07e77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:2c4764bc0fe9a635",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:20819de233c002bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:fdcd9c0274c2c911",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1c4626b5ebbe8955",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f85090ab4a3c6766",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f4f484dd0b0080de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1f27b943c02b1efa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:10477ead6280a7d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:60c05c08940d2c7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a64f384e41952d4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ce949dfe8088171f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0692c697d08e836f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1fd53eca23337e93",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8c2175d1223e5352",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:71bb7dab651402b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:742e876eb68258d3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:8fd8e45ff09fe425",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:3f503798bbf9d8cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:af4c97b55084a3f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5815a32688a92351",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:68d9776bd08c3d4e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:32d2cd033d2c743c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0958324c055ec615",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:58615ed19b94bf51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:cf97961ad5daa64a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a9fd372850d9d1ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ddda15ef582eec56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:77e49148370b97b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c3325e0e74796a4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d53a0ae1f3131867",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:097ca83d57629bbd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:64b04b19b38c5ba0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6329607883aa3efd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7018db703634ee63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4ccf900b6885e326",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:87ef1b1e668a4651",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a1dee8e41fb4e3ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a92574bef235cd55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:d4da9f3e117bfce2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:1d996ce7e2edff30",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0cc171392b4a8159",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0e5ed6cd089e3c79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a38fa70a6b3bec4c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:68de439dc01fe0b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5f8274f08ce2e9de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0af065739fe41b75",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:63ee4c044d1424d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c816f72c583a85fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f2c8b1a97826f5e1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f62f3c25169e6e2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:114872f9211b255a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:087bcb2aeaae8ad7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dcd728d343d6708b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e4f6c747766b4b93",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:822b64a50df678a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:20ff561e7522dfb5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c16eb89e0746d489",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e131137c8328c7ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ecda45b545768f68",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:264130af02538778",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:87f843cb03a20ae7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:b858b3b118b5ba2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7bf889cfa56f8080",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:91592d3d806b5463",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:93e99a175ed86e95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9ebc53b14a517408",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e033e7e6c7034075",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:58a073411c2d8e28",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5c8bed6cbac6aaba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:00e6e05fc4bdc6d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:c85d48fbfd62bad0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:815057dc388f95d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a1a2526aaee500c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9c99ca7a35ae250f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:cdf41c56772294ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:f88af5d1b4c1e641",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:5dda867368f9da20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:44e646dbba83ae4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:9205992a58b409c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:803df8ea4a68381c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:e4ca4d721c595f96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:7533ab3bb55cc7b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:351ec70a83fd9ec8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:983cbd28f039df61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:6e9e3f4e4f1b0c96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:18adcdff2a075de4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:dbe37348090491e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:bfaebfe59c6c65e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:0625b56bcab12d58",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:a9b49189d744b413",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:461ded76c836590c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:25cc0054299cf8b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:845b748f6237e2d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4dd53e3bee7d4aba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:55680e47da37d774",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:4e9dd3f5332185ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:loki-the-deceiver:goldfish:ceb5ad765a09b15c",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

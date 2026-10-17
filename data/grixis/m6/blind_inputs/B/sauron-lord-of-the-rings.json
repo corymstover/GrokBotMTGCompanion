@@ -1,0 +1,2117 @@
+{
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "slug": "sauron-lord-of-the-rings",
+ "swaps": [
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:de9af94f5b11",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:291f791f02461aa8"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:926bd43a6924",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f2af890f85d5d8d9"
+   ]
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b810ddcdbb83",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:c3e8d21eef4aabd2"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:5aeeefc9dba0efdd"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a3525d84453c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:45e5872d3f6d2059"
+   ]
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c97e4989b944",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:99a14f3a89d8",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:12284184cfb77a61"
+   ]
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d34393a4ca8b",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:6c8894ceb5612e42"
+   ]
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9ec2debd7721",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:c381caa140cbd091"
+   ]
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e8dfb9786eb7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7618fde21549",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:13b0f0da4f64b643"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:01eeb35d08d1",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:bd20c40d8edf1586"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Siegemaster"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:778c3bf0449c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8e42fc99a1c2",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:2910fa267e228d20"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a71875bb4def",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:225e2e43d4214348"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d889c89e19d1",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:d54a9052c6e81abd"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f360c32f562e",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:4ea20df3c85e7eef"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9eecedfdad22",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:2a56655e4185bf7d"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a65a9957a2d6",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:8bfe0ec674f954b2"
+   ]
+  },
+  {
+   "adds": [
+    "Rampaging War Mammoth"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:3cf22daf3a81",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:24663367de6a",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:d39a27b4f7b781a2"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5efeec57d291",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:8d3c93dc936b2900"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "The Black Gate"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:89ca6eb68139",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:23c08a001d31ff85"
+   ]
+  },
+  {
+   "adds": [
+    "Merciless Executioner"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ece5edc4bcbf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5f5d253307fb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:227555d7b5384cd9"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "The Black Gate"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1ae643b95836",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:adf9ba9c79ec219a"
+   ]
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:85ab9cee26b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wake the Dragon"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:91083115b896",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1ade7a7e0682",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b91880cfb64ca4b6"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "The Black Gate"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0068c1f7dad4",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:8adf41b9adf6e495"
+   ]
+  },
+  {
+   "adds": [
+    "Knollspine Dragon"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f55b6dcea175",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:7a0ee0b8f4946265"
+   ]
+  },
+  {
+   "adds": [
+    "Knollspine Dragon"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4e1154eeedac",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:5dec39ec6abc24ee"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:406b9c0389f4",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:0560235dd9d06701"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a5a8b778d3ae",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:0b8f347d3e508d7b"
+   ]
+  },
+  {
+   "adds": [
+    "Treason of Isengard"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:40d496318a33",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:950f308e2b4dceec"
+   ]
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f9ddc008abeb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:59a208d8085112c2"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6f73666e7bbb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:e9ed3aa353ab84ef"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e54054beb8b5",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:74e193f5e8e42e07"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4030ab9dd5cb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f1a2a91d8ada073c"
+   ]
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7ecbeaa12226",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:2a9906b3a77c02a0"
+   ]
+  },
+  {
+   "adds": [
+    "Corsairs of Umbar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c78a4779d14d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Monstrosity of the Lake"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:adac444867f3",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:2aa7ab7b9c3de55b"
+   ]
+  },
+  {
+   "adds": [
+    "Field of Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0aedddaaaf5d",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:2863e2622604d795"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:22283ac85b53",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:9b080debdb7ffd42"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2a99b5c19578",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:56820e6974c0d627"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of the Nazgûl"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b84ffadb8641",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:45b5158a1776",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:52d4a4db7f5305df"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d5542015209a",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:d3257098ad4d007e"
+   ]
+  },
+  {
+   "adds": [
+    "Lidless Gaze"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7d3502212cda",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:e0548a01c00c8cdc"
+   ]
+  },
+  {
+   "adds": [
+    "Witch-king of Angmar"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:47948d2d7b98",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Witch-king of Angmar"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ed380239723c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:221107213b0b04e5"
+   ]
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:25448edd08bf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1d8cba5e3f86",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:ea9fb331cc284c8f"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a759d8dc6c8f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f53d4f6bc691",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Dark-Dwellers"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8544cc489a71",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:65c0c4d72f4cbfea"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:336253fbdaad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:55643ab60255",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Languish"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7feef30b882f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4bc9bc925836",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:3114b9b827aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fec98a2bcf2b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "In the Darkness Bind Them"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5145f9705ede",
+   "tests": []
+  },
+  {
+   "adds": [
+    "In the Darkness Bind Them"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e74ac2440ca7",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:95789b8b66730980"
+   ]
+  },
+  {
+   "adds": [
+    "Boon of the Wish-Giver"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f9151853e2f6",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:1654987de19767a1"
+   ]
+  },
+  {
+   "adds": [
+    "Boon of the Wish-Giver"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2445c531449c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:813cb5741790a325"
+   ]
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1618ddb8faf3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2bfbf45ef0df",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:a6b1236ff3735730"
+   ]
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:584830783815",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e2d88f7cdc67",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f06ced6bda75810c"
+   ]
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d538dd9ede0e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8c9b109b27af",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:5d716618c4b190eb"
+   ]
+  },
+  {
+   "adds": [
+    "Sauron's Ransom"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ef497959b595",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sauron's Ransom"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9211887adbcb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:cec4ee70de9dfdeb"
+   ]
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:469e097d3aa1",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:00041200fadae4e4"
+   ]
+  },
+  {
+   "adds": [
+    "Inferno Titan"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8bba09cade5d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inferno Titan"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1ea6127da2bd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "One Ring to Rule Them All"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7a5e267faf34",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Subjugate the Hobbits"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e1d5a6b96bee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sauron, the Necromancer"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ed2fd3883cb4",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:686c8f9e7b036385"
+   ]
+  },
+  {
+   "adds": [
+    "Saruman's Trickery"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f685cebf8866",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bitter Downfall"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5dea55ac7f43",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7ea017497d89",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:9388b5230a535213"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:03b5c1c426f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:337484bb47f4",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:7c266e7dd5edf070"
+   ]
+  },
+  {
+   "adds": [
+    "Mines of Moria"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:88556e5e7676",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:3534eb4dd29d290d"
+   ]
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7f7340bd9d64",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:739c4cf8ba7c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f1b7a285b2bd0724"
+   ]
+  },
+  {
+   "adds": [
+    "Oliphaunt"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4229e6ed1814",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oliphaunt"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c8b38b3244d0",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b616dec58fc75909"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:24c6c9a36566",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:99bfa51b1734b5cc"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug, Wicked Worm"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:82f0d433535c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:034b10253c75",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f4a069be6d8e82be"
+   ]
+  },
+  {
+   "adds": [
+    "Ringsight"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b67afae11342",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:48245eaa8358c11d"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Medicine"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fe9d0a896add",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin-town"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b27a2810c5fe",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f0badd9f251ea717"
+   ]
+  },
+  {
+   "adds": [
+    "Obsessive Stitcher"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e1083f77a3ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Great Goblin"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:66e5442263e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fa670c3c2992",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:ead8baba9487a387"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7b1fd69a7097",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b5c9a13242eff537"
+   ]
+  },
+  {
+   "adds": [
+    "Combustible Gearhulk"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:380a0dd0fee4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0dadff724d4c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:8fa15eac95ee9b60"
+   ]
+  },
+  {
+   "adds": [
+    "Along the Crooked Way"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4fd043a41088",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spiteful Banditry"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2dbae4fef5b6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:7bce8bf7de75fdaa"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:8b82b31b69c19b9a"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9a811f7edeb2",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:510cb858c5fc22d9"
+   ]
+  },
+  {
+   "adds": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8d7a2421041c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:38b00222299d4779"
+   ]
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:57a5dafef533",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:699ebf2897f7a223"
+   ]
+  },
+  {
+   "adds": [
+    "Swarming of Moria"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9cfa5dd5d68e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:899732ae8948ca93"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b3534d1a65710512"
+   ]
+  },
+  {
+   "adds": [
+    "Gathering of Darkness"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:701231fcedb7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1d33b682ea2e",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:426bdde4b9e0bd0d"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:94b0128cf770",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:d3720bc931cfd719"
+   ]
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c574df6d6f3f",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:5e2ff2856d8ce0c0"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:14bf2425f5eb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:ec30f02ae07d9f02"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8533756f1187",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:96bdd68ba6a931d4"
+   ]
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4cae498ad033",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b231896acf1dac00"
+   ]
+  },
+  {
+   "adds": [
+    "Mordor Muster"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1146bf729d2c",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:9662c95b8844d8c7"
+   ]
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a7cddfae68a0",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:efa23c7e72b4d63f"
+   ]
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1e58d510a69d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:4fb35db169fc5810"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4884830f9e4a",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:919bec6442c48a6a"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:6854e8d2c716f7e9"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:9c6ed67572e29ebc"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:a92745e610006afe"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:43bb41fc76fb",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:62616bfb4a98a6f5"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:baa4f77b92d4",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:8fbbd11067b89977"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fd125311ad93",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:98d658de08f3300b"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:07362ddbb42e30ec"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:e2cd234fa8c63180"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6c8c0211e421",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:825cf07d18144911"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:cada3f5f0bdc4c0b"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:434d07adce79",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:f559b1148e982479"
+   ]
+  },
+  {
+   "adds": [
+    "Gemcutter Buccaneer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0791b0a5c2de",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:40877dbd4d1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b99b1ab3e81233cb"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f69c2fc50100",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:1db60de1ecf57de3"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6c81c77c78fe",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:b71a9ff049e15368"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:95294781796da00d"
+   ]
+  },
+  {
+   "adds": [
+    "Gorbag of Minas Morgul"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:884f7b5bfb6e",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:de8c3cfdeb8b1a41"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Knave"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5803272ea0bc",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:e6ecee169a82359a"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:810884f01442",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:d1a05daebfde4209"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:a3aad940926e5078"
+   ]
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b7989aedf00f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:c25d76e947be3a95"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:7d90476f60da3e51"
+   ]
+  },
+  {
+   "adds": [
+    "Plundering Pirate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:197bf941db22",
+   "tests": [
+    "test:sauron-lord-of-the-rings:goldfish:e84bf587e26aad2a"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:291f791f02461aa8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f2af890f85d5d8d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:c3e8d21eef4aabd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:5aeeefc9dba0efdd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:45e5872d3f6d2059",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:12284184cfb77a61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:6c8894ceb5612e42",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:c381caa140cbd091",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:13b0f0da4f64b643",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:bd20c40d8edf1586",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:2910fa267e228d20",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:225e2e43d4214348",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:d54a9052c6e81abd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:4ea20df3c85e7eef",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:2a56655e4185bf7d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:8bfe0ec674f954b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:d39a27b4f7b781a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:8d3c93dc936b2900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:23c08a001d31ff85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:227555d7b5384cd9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:adf9ba9c79ec219a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b91880cfb64ca4b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:8adf41b9adf6e495",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:7a0ee0b8f4946265",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:5dec39ec6abc24ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:0560235dd9d06701",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:0b8f347d3e508d7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:950f308e2b4dceec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:59a208d8085112c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:e9ed3aa353ab84ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:74e193f5e8e42e07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f1a2a91d8ada073c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:2a9906b3a77c02a0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:2aa7ab7b9c3de55b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:2863e2622604d795",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:9b080debdb7ffd42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:56820e6974c0d627",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:52d4a4db7f5305df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:d3257098ad4d007e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:e0548a01c00c8cdc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:221107213b0b04e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:ea9fb331cc284c8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:65c0c4d72f4cbfea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:95789b8b66730980",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:1654987de19767a1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:813cb5741790a325",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:a6b1236ff3735730",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f06ced6bda75810c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:5d716618c4b190eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:cec4ee70de9dfdeb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:00041200fadae4e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:686c8f9e7b036385",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:9388b5230a535213",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:7c266e7dd5edf070",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:3534eb4dd29d290d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f1b7a285b2bd0724",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b616dec58fc75909",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:99bfa51b1734b5cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f4a069be6d8e82be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:48245eaa8358c11d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f0badd9f251ea717",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:ead8baba9487a387",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b5c9a13242eff537",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:8fa15eac95ee9b60",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:7bce8bf7de75fdaa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:8b82b31b69c19b9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:510cb858c5fc22d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:38b00222299d4779",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:699ebf2897f7a223",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:899732ae8948ca93",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b3534d1a65710512",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:426bdde4b9e0bd0d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:d3720bc931cfd719",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:5e2ff2856d8ce0c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:ec30f02ae07d9f02",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:96bdd68ba6a931d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b231896acf1dac00",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:9662c95b8844d8c7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:efa23c7e72b4d63f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:4fb35db169fc5810",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:919bec6442c48a6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:6854e8d2c716f7e9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:9c6ed67572e29ebc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:a92745e610006afe",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:62616bfb4a98a6f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:8fbbd11067b89977",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:98d658de08f3300b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:07362ddbb42e30ec",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:e2cd234fa8c63180",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:825cf07d18144911",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:cada3f5f0bdc4c0b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:f559b1148e982479",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b99b1ab3e81233cb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:1db60de1ecf57de3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:b71a9ff049e15368",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:95294781796da00d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:de8c3cfdeb8b1a41",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:e6ecee169a82359a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:d1a05daebfde4209",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:a3aad940926e5078",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:c25d76e947be3a95",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:7d90476f60da3e51",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-lord-of-the-rings:goldfish:e84bf587e26aad2a",
+   "verdict": "inconclusive"
+  }
+ ]
+}

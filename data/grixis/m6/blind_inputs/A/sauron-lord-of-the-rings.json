@@ -1,0 +1,4739 @@
+{
+ "candidates": [
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:926bd43a6924"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:de9af94f5b11"
+   }
+  },
+  {
+   "card": "Desolate Lighthouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desolate Lighthouse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:b810ddcdbb83"
+   }
+  },
+  {
+   "card": "Consider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consider",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consider",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:a3525d84453c"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3"
+   }
+  },
+  {
+   "card": "Fact or Fiction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:99a14f3a89d8"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:c97e4989b944"
+   }
+  },
+  {
+   "card": "Deep Analysis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deep Analysis",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deep Analysis",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:9ec2debd7721"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:d34393a4ca8b"
+   }
+  },
+  {
+   "card": "Extract from Darkness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Extract from Darkness",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Extract from Darkness",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:7618fde21549"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:e8dfb9786eb7"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:01eeb35d08d1"
+   }
+  },
+  {
+   "card": "Orcish Siegemaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orcish Siegemaster",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:778c3bf0449c"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:8e42fc99a1c2"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:a71875bb4def"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:f360c32f562e"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:d889c89e19d1"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:9eecedfdad22"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:a65a9957a2d6"
+   }
+  },
+  {
+   "card": "Rampaging War Mammoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rampaging War Mammoth",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:3cf22daf3a81"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:24663367de6a"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "The Black Gate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:89ca6eb68139"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:5efeec57d291"
+   }
+  },
+  {
+   "card": "Merciless Executioner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Merciless Executioner",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:ece5edc4bcbf"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "The Black Gate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:1ae643b95836"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:5f5d253307fb"
+   }
+  },
+  {
+   "card": "Grishnákh, Brash Instigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grishnákh, Brash Instigator",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:85ab9cee26b4"
+   }
+  },
+  {
+   "card": "Wake the Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake the Dragon",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:91083115b896"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "The Black Gate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:0068c1f7dad4"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:1ade7a7e0682"
+   }
+  },
+  {
+   "card": "Knollspine Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Knollspine Dragon",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Knollspine Dragon",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:4e1154eeedac"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:f55b6dcea175"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:406b9c0389f4"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:a5a8b778d3ae"
+   }
+  },
+  {
+   "card": "Treason of Isengard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treason of Isengard",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:40d496318a33"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Everflowing Chalice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Everflowing Chalice",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:f9ddc008abeb"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:6f73666e7bbb"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:e54054beb8b5"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:4030ab9dd5cb"
+   }
+  },
+  {
+   "card": "Worn Powerstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worn Powerstone",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:7ecbeaa12226"
+   }
+  },
+  {
+   "card": "Corsairs of Umbar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corsairs of Umbar",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:c78a4779d14d"
+   }
+  },
+  {
+   "card": "Monstrosity of the Lake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monstrosity of the Lake",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:adac444867f3"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Field of Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Field of Ruin",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:0aedddaaaf5d"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:22283ac85b53"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:2a99b5c19578"
+   }
+  },
+  {
+   "card": "Lord of the Nazgûl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lord of the Nazgûl",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:b84ffadb8641"
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:45b5158a1776"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:d5542015209a"
+   }
+  },
+  {
+   "card": "Lidless Gaze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lidless Gaze",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:7d3502212cda"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Witch-king of Angmar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Witch-king of Angmar",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Witch-king of Angmar",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:ed380239723c"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:47948d2d7b98"
+   }
+  },
+  {
+   "card": "Notion Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Notion Thief",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Notion Thief",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:1d8cba5e3f86"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:25448edd08bf"
+   }
+  },
+  {
+   "card": "Scourge of the Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Wonder"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:f53d4f6bc691"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:a759d8dc6c8f"
+   }
+  },
+  {
+   "card": "Goblin Dark-Dwellers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Dark-Dwellers",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:8544cc489a71"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Treasure Nabber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Nabber",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Nabber",
+       "cut": "Wonder"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:55643ab60255"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:336253fbdaad"
+   }
+  },
+  {
+   "card": "Languish",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Languish",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:7feef30b882f"
+   }
+  },
+  {
+   "card": "Hostage Taker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hostage Taker",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:4bc9bc925836"
+   }
+  },
+  {
+   "card": "Gríma, Saruman's Footman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gríma, Saruman's Footman",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gríma, Saruman's Footman",
+       "cut": "Wonder"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:fec98a2bcf2b"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:3114b9b827aa"
+   }
+  },
+  {
+   "card": "In the Darkness Bind Them",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "In the Darkness Bind Them",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "In the Darkness Bind Them",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:e74ac2440ca7"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:5145f9705ede"
+   }
+  },
+  {
+   "card": "Boon of the Wish-Giver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boon of the Wish-Giver",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boon of the Wish-Giver",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:2445c531449c"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:f9151853e2f6"
+   }
+  },
+  {
+   "card": "Shelob, Dread Weaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shelob, Dread Weaver",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shelob, Dread Weaver",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:2bfbf45ef0df"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:1618ddb8faf3"
+   }
+  },
+  {
+   "card": "Palantír of Orthanc",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palantír of Orthanc",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palantír of Orthanc",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:e2d88f7cdc67"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:584830783815"
+   }
+  },
+  {
+   "card": "Fiery Inscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Inscription",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Inscription",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:8c9b109b27af"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:d538dd9ede0e"
+   }
+  },
+  {
+   "card": "Sauron's Ransom",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sauron's Ransom",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sauron's Ransom",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:9211887adbcb"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:ef497959b595"
+   }
+  },
+  {
+   "card": "Shiny Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shiny Impetus",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:469e097d3aa1"
+   }
+  },
+  {
+   "card": "Inferno Titan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inferno Titan",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inferno Titan",
+       "cut": "Wonder"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:1ea6127da2bd"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:8bba09cade5d"
+   }
+  },
+  {
+   "card": "One Ring to Rule Them All",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "One Ring to Rule Them All",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:7a5e267faf34"
+   }
+  },
+  {
+   "card": "Subjugate the Hobbits",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Subjugate the Hobbits",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:e1d5a6b96bee"
+   }
+  },
+  {
+   "card": "Sauron, the Necromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sauron, the Necromancer",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:ed2fd3883cb4"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Saruman's Trickery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saruman's Trickery",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:f685cebf8866"
+   }
+  },
+  {
+   "card": "Bitter Downfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bitter Downfall",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:5dea55ac7f43"
+   }
+  },
+  {
+   "card": "Big Score",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Big Score",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:7ea017497d89"
+   }
+  },
+  {
+   "card": "Dread Return",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dread Return",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dread Return",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:337484bb47f4"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:03b5c1c426f5"
+   }
+  },
+  {
+   "card": "Mines of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mines of Moria",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:88556e5e7676"
+   }
+  },
+  {
+   "card": "Stitch Together",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitch Together",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitch Together",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:739c4cf8ba7c"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:7f7340bd9d64"
+   }
+  },
+  {
+   "card": "Oliphaunt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oliphaunt",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oliphaunt",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:c8b38b3244d0"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:4229e6ed1814"
+   }
+  },
+  {
+   "card": "Gothmog, Morgul Lieutenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Goblin Cratermaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:24c6c9a36566"
+   }
+  },
+  {
+   "card": "Smaug, Wicked Worm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smaug, Wicked Worm",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:82f0d433535c"
+   }
+  },
+  {
+   "card": "Mauhúr, Uruk-hai Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "March from the Black Gate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Unexpected Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:034b10253c75"
+   }
+  },
+  {
+   "card": "Ringsight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ringsight",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:b67afae11342"
+   }
+  },
+  {
+   "card": "Orcish Medicine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orcish Medicine",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:fe9d0a896add"
+   }
+  },
+  {
+   "card": "Goblin-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin-town",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:b27a2810c5fe"
+   }
+  },
+  {
+   "card": "Foray of Orcs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Obsessive Stitcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Obsessive Stitcher",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:e1083f77a3ea"
+   }
+  },
+  {
+   "card": "The Great Goblin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Great Goblin",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:66e5442263e9"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:7b1fd69a7097"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:fa670c3c2992"
+   }
+  },
+  {
+   "card": "Combustible Gearhulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combustible Gearhulk",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:380a0dd0fee4"
+   }
+  },
+  {
+   "card": "Dunland Crebain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rootha, Mercurial Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:0dadff724d4c"
+   }
+  },
+  {
+   "card": "Along the Crooked Way",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Along the Crooked Way",
+       "cut": "Forbidden Alchemy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:4fd043a41088"
+   }
+  },
+  {
+   "card": "Spiteful Banditry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spiteful Banditry",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:2dbae4fef5b6"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:9a811f7edeb2"
+   }
+  },
+  {
+   "card": "Minas Morgul, Dark Fortress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Minas Morgul, Dark Fortress",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:8d7a2421041c"
+   }
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Takenuma, Abandoned Mire",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:57a5dafef533"
+   }
+  },
+  {
+   "card": "Swarming of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swarming of Moria",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:9cfa5dd5d68e"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Forbidden Alchemy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:d33aa129b58e"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6"
+   }
+  },
+  {
+   "card": "Gathering of Darkness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gathering of Darkness",
+       "cut": "Forbidden Alchemy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:701231fcedb7"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Dynamo",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:1d33b682ea2e"
+   }
+  },
+  {
+   "card": "Saruman the White",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Soul Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Soul Stone",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:94b0128cf770"
+   }
+  },
+  {
+   "card": "Kederekt Leviathan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kederekt Leviathan",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:c574df6d6f3f"
+   }
+  },
+  {
+   "card": "Etali, Primal Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:14bf2425f5eb"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:8533756f1187"
+   }
+  },
+  {
+   "card": "Surrounded by Orcs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cathartic Reunion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathartic Reunion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:4cae498ad033"
+   }
+  },
+  {
+   "card": "Mordor Muster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mordor Muster",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:1146bf729d2c"
+   }
+  },
+  {
+   "card": "Careful Study",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Careful Study",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:a7cddfae68a0"
+   }
+  },
+  {
+   "card": "Incarnation Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Incarnation Technique",
+       "cut": "Forbidden Alchemy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:1e58d510a69d"
+   }
+  },
+  {
+   "card": "Book of Mazarbul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldgorger Dragon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:340a0b30191e"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:4884830f9e4a"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:544eaf94e738"
+   }
+  },
+  {
+   "card": "Aggravated Assault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:cdce8539b447"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:31ef2948da79"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:baa4f77b92d4"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:43bb41fc76fb"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Forbidden Alchemy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:fd125311ad93"
+   }
+  },
+  {
+   "card": "Time Sieve",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:6c8c0211e421"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:35703fbe1be9"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:434d07adce79"
+   }
+  },
+  {
+   "card": "Gemcutter Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gemcutter Buccaneer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:0791b0a5c2de"
+   }
+  },
+  {
+   "card": "Burakos, Party Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burakos, Party Leader",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:40877dbd4d1e"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Jin-Gitaxias, Core Augur"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:f69c2fc50100"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:63daa74b18f5"
+   }
+  },
+  {
+   "card": "Palinchron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Wonder"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:6c81c77c78fe"
+   }
+  },
+  {
+   "card": "Gorbag of Minas Morgul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gorbag of Minas Morgul",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:884f7b5bfb6e"
+   }
+  },
+  {
+   "card": "Ruthless Knave",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ruthless Knave",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:5803272ea0bc"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:a37d1c4161bd"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:810884f01442"
+   }
+  },
+  {
+   "card": "Cutthroat Negotiator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cutthroat Negotiator",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:b7989aedf00f"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Wonder"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-lord-of-the-rings:m5:9cd212d623ec"
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:23d4a82b538b"
+   }
+  },
+  {
+   "card": "Plundering Pirate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plundering Pirate",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-lord-of-the-rings:m5:197bf941db22"
+   }
+  }
+ ],
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "slug": "sauron-lord-of-the-rings",
+ "swaps": [
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:de9af94f5b11"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:926bd43a6924"
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b810ddcdbb83"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a3525d84453c"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c97e4989b944"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:99a14f3a89d8"
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d34393a4ca8b"
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9ec2debd7721"
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e8dfb9786eb7"
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7618fde21549"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:01eeb35d08d1"
+  },
+  {
+   "adds": [
+    "Orcish Siegemaster"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:778c3bf0449c"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8e42fc99a1c2"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a71875bb4def"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d889c89e19d1"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f360c32f562e"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9eecedfdad22"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a65a9957a2d6"
+  },
+  {
+   "adds": [
+    "Rampaging War Mammoth"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:3cf22daf3a81"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:24663367de6a"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5efeec57d291"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "The Black Gate"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:89ca6eb68139"
+  },
+  {
+   "adds": [
+    "Merciless Executioner"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ece5edc4bcbf"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5f5d253307fb"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "The Black Gate"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1ae643b95836"
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:85ab9cee26b4"
+  },
+  {
+   "adds": [
+    "Wake the Dragon"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:91083115b896"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1ade7a7e0682"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "The Black Gate"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0068c1f7dad4"
+  },
+  {
+   "adds": [
+    "Knollspine Dragon"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f55b6dcea175"
+  },
+  {
+   "adds": [
+    "Knollspine Dragon"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4e1154eeedac"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:406b9c0389f4"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a5a8b778d3ae"
+  },
+  {
+   "adds": [
+    "Treason of Isengard"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:40d496318a33"
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f9ddc008abeb"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6f73666e7bbb"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e54054beb8b5"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4030ab9dd5cb"
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7ecbeaa12226"
+  },
+  {
+   "adds": [
+    "Corsairs of Umbar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c78a4779d14d"
+  },
+  {
+   "adds": [
+    "Monstrosity of the Lake"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:adac444867f3"
+  },
+  {
+   "adds": [
+    "Field of Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0aedddaaaf5d"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:22283ac85b53"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2a99b5c19578"
+  },
+  {
+   "adds": [
+    "Lord of the Nazgûl"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b84ffadb8641"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:45b5158a1776"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d5542015209a"
+  },
+  {
+   "adds": [
+    "Lidless Gaze"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7d3502212cda"
+  },
+  {
+   "adds": [
+    "Witch-king of Angmar"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:47948d2d7b98"
+  },
+  {
+   "adds": [
+    "Witch-king of Angmar"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ed380239723c"
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:25448edd08bf"
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1d8cba5e3f86"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a759d8dc6c8f"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f53d4f6bc691"
+  },
+  {
+   "adds": [
+    "Goblin Dark-Dwellers"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8544cc489a71"
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:336253fbdaad"
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:55643ab60255"
+  },
+  {
+   "adds": [
+    "Languish"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7feef30b882f"
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4bc9bc925836"
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:3114b9b827aa"
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fec98a2bcf2b"
+  },
+  {
+   "adds": [
+    "In the Darkness Bind Them"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5145f9705ede"
+  },
+  {
+   "adds": [
+    "In the Darkness Bind Them"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e74ac2440ca7"
+  },
+  {
+   "adds": [
+    "Boon of the Wish-Giver"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f9151853e2f6"
+  },
+  {
+   "adds": [
+    "Boon of the Wish-Giver"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2445c531449c"
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1618ddb8faf3"
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2bfbf45ef0df"
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:584830783815"
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e2d88f7cdc67"
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d538dd9ede0e"
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8c9b109b27af"
+  },
+  {
+   "adds": [
+    "Sauron's Ransom"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ef497959b595"
+  },
+  {
+   "adds": [
+    "Sauron's Ransom"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9211887adbcb"
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:469e097d3aa1"
+  },
+  {
+   "adds": [
+    "Inferno Titan"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8bba09cade5d"
+  },
+  {
+   "adds": [
+    "Inferno Titan"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1ea6127da2bd"
+  },
+  {
+   "adds": [
+    "One Ring to Rule Them All"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7a5e267faf34"
+  },
+  {
+   "adds": [
+    "Subjugate the Hobbits"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e1d5a6b96bee"
+  },
+  {
+   "adds": [
+    "Sauron, the Necromancer"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:ed2fd3883cb4"
+  },
+  {
+   "adds": [
+    "Saruman's Trickery"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f685cebf8866"
+  },
+  {
+   "adds": [
+    "Bitter Downfall"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5dea55ac7f43"
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7ea017497d89"
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:03b5c1c426f5"
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:337484bb47f4"
+  },
+  {
+   "adds": [
+    "Mines of Moria"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:88556e5e7676"
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7f7340bd9d64"
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:739c4cf8ba7c"
+  },
+  {
+   "adds": [
+    "Oliphaunt"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4229e6ed1814"
+  },
+  {
+   "adds": [
+    "Oliphaunt"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c8b38b3244d0"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:24c6c9a36566"
+  },
+  {
+   "adds": [
+    "Smaug, Wicked Worm"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:82f0d433535c"
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:034b10253c75"
+  },
+  {
+   "adds": [
+    "Ringsight"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b67afae11342"
+  },
+  {
+   "adds": [
+    "Orcish Medicine"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fe9d0a896add"
+  },
+  {
+   "adds": [
+    "Goblin-town"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b27a2810c5fe"
+  },
+  {
+   "adds": [
+    "Obsessive Stitcher"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e1083f77a3ea"
+  },
+  {
+   "adds": [
+    "The Great Goblin"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:66e5442263e9"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fa670c3c2992"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:7b1fd69a7097"
+  },
+  {
+   "adds": [
+    "Combustible Gearhulk"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:380a0dd0fee4"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0dadff724d4c"
+  },
+  {
+   "adds": [
+    "Along the Crooked Way"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4fd043a41088"
+  },
+  {
+   "adds": [
+    "Spiteful Banditry"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:2dbae4fef5b6"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9a811f7edeb2"
+  },
+  {
+   "adds": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8d7a2421041c"
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:57a5dafef533"
+  },
+  {
+   "adds": [
+    "Swarming of Moria"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9cfa5dd5d68e"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:d33aa129b58e"
+  },
+  {
+   "adds": [
+    "Gathering of Darkness"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:701231fcedb7"
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1d33b682ea2e"
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:94b0128cf770"
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:c574df6d6f3f"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:14bf2425f5eb"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:8533756f1187"
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4cae498ad033"
+  },
+  {
+   "adds": [
+    "Mordor Muster"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1146bf729d2c"
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a7cddfae68a0"
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:1e58d510a69d"
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:340a0b30191e"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:4884830f9e4a"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:544eaf94e738"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:31ef2948da79"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:cdce8539b447"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:43bb41fc76fb"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:baa4f77b92d4"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Forbidden Alchemy"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:fd125311ad93"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6c8c0211e421"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:35703fbe1be9"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:434d07adce79"
+  },
+  {
+   "adds": [
+    "Gemcutter Buccaneer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:0791b0a5c2de"
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:40877dbd4d1e"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:63daa74b18f5"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:f69c2fc50100"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:6c81c77c78fe"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032"
+  },
+  {
+   "adds": [
+    "Gorbag of Minas Morgul"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:884f7b5bfb6e"
+  },
+  {
+   "adds": [
+    "Ruthless Knave"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:5803272ea0bc"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:810884f01442"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:a37d1c4161bd"
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:b7989aedf00f"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:23d4a82b538b"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Wonder"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:9cd212d623ec"
+  },
+  {
+   "adds": [
+    "Plundering Pirate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sauron-lord-of-the-rings:m5:197bf941db22"
+  }
+ ]
+}

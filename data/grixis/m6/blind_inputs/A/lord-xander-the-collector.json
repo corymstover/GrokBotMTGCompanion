@@ -1,0 +1,7027 @@
+{
+ "candidates": [
+  {
+   "card": "Singularity Rupture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Singularity Rupture",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:109a0aeae9e3"
+   }
+  },
+  {
+   "card": "Cut Your Losses",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cut Your Losses",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Cut Your Losses",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:e60b6b96cb2a"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:40dd9fe35c06"
+   }
+  },
+  {
+   "card": "Terisian Mindbreaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terisian Mindbreaker",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Terisian Mindbreaker",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:4c6dd0db3db5"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7ae41cec14f1"
+   }
+  },
+  {
+   "card": "Syr Konrad, the Grim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syr Konrad, the Grim",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Syr Konrad, the Grim",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:22aedf2f71aa"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:5a105049876d"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b5fcc96309b1"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:4f9932f27b1e"
+   }
+  },
+  {
+   "card": "Fleet Swallower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fleet Swallower",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Fleet Swallower",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:c16dee961459"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:8d44f5abbfd1"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:65962745669a"
+   }
+  },
+  {
+   "card": "Ruin Crab",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ruin Crab",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Ruin Crab",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:1c6d35cdeec9"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:6047e9c7aa65"
+   }
+  },
+  {
+   "card": "Fractured Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fractured Sanity",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Fractured Sanity",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b9fe5bf94c4f"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:bc6953842f82"
+   }
+  },
+  {
+   "card": "The Mindskinner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mindskinner",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:802ee48925f4"
+   }
+  },
+  {
+   "card": "Traumatize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Traumatize",
+       "cut": "Molten Duplication"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Traumatize",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:e93863ad1ad9"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:0cd53fcfebf6"
+   }
+  },
+  {
+   "card": "The Water Crystal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Water Crystal",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "The Water Crystal",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:6f2f0c8395e8"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:be6a4da48bd7"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Hall of Echoes"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d95f723bba41"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:962891df25a2"
+   }
+  },
+  {
+   "card": "Rise of the Dark Realms",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rise of the Dark Realms",
+       "cut": "Molten Duplication"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Rise of the Dark Realms",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:11ffc011b100"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ff1af4866a12"
+   }
+  },
+  {
+   "card": "Consuming Aberration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consuming Aberration",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consuming Aberration",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:a4d9ffe54836"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:789ed3d80b51"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:9b92db9975a2"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ca83d25aba91"
+   }
+  },
+  {
+   "card": "The Master of Lake-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:10b2333434ad"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:cb253d7fed5f"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Commander's Sphere",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:51048b12dc1e"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:aa7970a8e7f7"
+   }
+  },
+  {
+   "card": "Mirko Vosk, Mind Drinker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirko Vosk, Mind Drinker",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:37327d410197"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:9c56c66abb8e"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:913c2ab8cc6f"
+   }
+  },
+  {
+   "card": "Nemesis of Reason",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nemesis of Reason",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:3130e99ea67e"
+   }
+  },
+  {
+   "card": "Drown in the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Hall of Echoes"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:07d79a6995d2"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:79a6f53ed824"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:303c7f1b3c04"
+   }
+  },
+  {
+   "card": "Geode Golem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geode Golem",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f23fb6016acc"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:af82c0a3be19"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:cc8a39d4a667"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Hall of Echoes"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:e00789908022"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:0783021f45f3"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Molten Duplication"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:1ee7d1480420"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:0a5013371cbe"
+   }
+  },
+  {
+   "card": "Breach the Multiverse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breach the Multiverse",
+       "cut": "Molten Duplication"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Breach the Multiverse",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:c2a14f5a3ad3"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:0bc6836bdf6c"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Dimir Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:ca957efb0543"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:cd1b0aa92163"
+   }
+  },
+  {
+   "card": "Waste Not",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Waste Not",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Waste Not",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:cc8c3a0686f3"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:3f674fbcd087"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Izzet Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:58b3cc882edf"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:57c7635c855a"
+   }
+  },
+  {
+   "card": "Kess, Dissident Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:c2716378683e"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:2dc5a5eccac5"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Rakdos Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b1e2b18e7a88"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:b9e5b7bcac71"
+   }
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Dauthi Voidwalker",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:62a0c8fea073"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f3761f6642c5"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Hall of Echoes"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:80358e26aaed"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:aa2b98c6c5d9"
+   }
+  },
+  {
+   "card": "Bloodchief Ascension",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodchief Ascension",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Bloodchief Ascension",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:4edae737be48"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:9b9123fc68da"
+   }
+  },
+  {
+   "card": "Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Windfall",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:01a6711acb6c"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7660f0eddd5b"
+   }
+  },
+  {
+   "card": "Psychic Corrosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:159a52eb1560"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:6e9c3afe6ccd"
+   }
+  },
+  {
+   "card": "Zellix, Sanity Flayer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:3138e42c63fe"
+   }
+  },
+  {
+   "card": "Hedron Crab",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hedron Crab",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:adaf756c1770"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:390f9fe53fa8"
+   }
+  },
+  {
+   "card": "Court of Cunning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Court of Cunning",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7dd9451c5ab2"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:0a2041b83ffa"
+   }
+  },
+  {
+   "card": "Memory Erosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Erosion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:6bf21db72845"
+   }
+  },
+  {
+   "card": "Kitsune's Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsune's Technique",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Kitsune's Technique",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:952b7dbfa811"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:9d8677d12b08"
+   }
+  },
+  {
+   "card": "Command Beacon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Command Beacon",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:391ea3a8c1d7"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:700cdbf91dc7"
+   }
+  },
+  {
+   "card": "Sphinx's Tutelage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx's Tutelage",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:fdebfa0b76dd"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7592dfe2d75e"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:97475ff9d7fe"
+   }
+  },
+  {
+   "card": "Keening Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keening Stone",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Keening Stone",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:932562fa5f32"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:bbac8dda3dbb"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:88e8f6ecb17f"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:5d7cf6d28245"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:3c129ccd2b4a"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:865b21fb2cf8"
+   }
+  },
+  {
+   "card": "Maestros Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:53dfb5ac13be"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:8806dbf03dba"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:79451d5acea7"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b0608fbc350e"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:71a013bd861a"
+   }
+  },
+  {
+   "card": "Ancient Copper Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d77e897c0b13"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:c24a7633f9a1"
+   }
+  },
+  {
+   "card": "Burnished Hart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burnished Hart",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:b38b370a16ab"
+   }
+  },
+  {
+   "card": "Teferi's Tutelage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teferi's Tutelage",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:a6d665985270"
+   }
+  },
+  {
+   "card": "Anger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anger",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:e97080d0d300"
+   }
+  },
+  {
+   "card": "Combat Celebrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combat Celebrant",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Combat Celebrant",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b748ddd433a4"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:3d07858231dd"
+   }
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:27da59a45e7a"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:aa717e17c60c"
+   }
+  },
+  {
+   "card": "Scourge of the Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:cc02d78730ab"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:75fd4f2840a0"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:8eda9b1229c6"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:aaffceebff4e"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:1c0157e40a86"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:e1909ca00d24"
+   }
+  },
+  {
+   "card": "Ganax, Astral Hunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ganax, Astral Hunter",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Ganax, Astral Hunter",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:164b34632522"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:be01e36bb74e"
+   }
+  },
+  {
+   "card": "Port Razer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Port Razer",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Port Razer",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:697268061496"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7d3282201a75"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Hellkite Charger",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:fca962bdc313"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ccbcc59e06f5"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:757abd3252f1"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:42203d81e29b"
+   }
+  },
+  {
+   "card": "Fear of Missing Out",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fear of Missing Out",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Fear of Missing Out",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d4f735146669"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:2740c0ccdb46"
+   }
+  },
+  {
+   "card": "Puppeteer Clique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Puppeteer Clique",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Puppeteer Clique",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:1189bcc445af"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:d7df8558deb1"
+   }
+  },
+  {
+   "card": "Howlsquad Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b329145ed774"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:753fa8cd79ff"
+   }
+  },
+  {
+   "card": "Godo, Bandit Warlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Godo, Bandit Warlord",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:d88f5942c575"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:bc02b79e466b"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:612cd231c291"
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:099ca01cd812"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:325d8ed3351a"
+   }
+  },
+  {
+   "card": "Neheb, Dreadhorde Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:7796ad321bcf"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:aaedcfca7d03"
+   }
+  },
+  {
+   "card": "Akki Battle Squad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:73bdb861a5c5"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:b44cef5717e1"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Hoard Hauler",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:6306865e1841"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:a29235547f89"
+   }
+  },
+  {
+   "card": "Cavalier of Night",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavalier of Night",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:a95009acc1a9"
+   }
+  },
+  {
+   "card": "Éomer, Marshal of Rohan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Éomer, Marshal of Rohan",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Éomer, Marshal of Rohan",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:9f49a99b76d7"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ff63f547bb7b"
+   }
+  },
+  {
+   "card": "Breath of Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breath of Fury",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Breath of Fury",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:2e1e26391380"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:3e93d0dd886b"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d3204e101acc"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:a5f0c7a6a909"
+   }
+  },
+  {
+   "card": "Carnage, Crimson Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carnage, Crimson Chaos",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Carnage, Crimson Chaos",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:ae72b0acb49b"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:72c4a3021220"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7010ee65262c"
+   }
+  },
+  {
+   "card": "Geth's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geth's Grimoire",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:28209821b263"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:8d78616c31b0"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:18f7c2f5bcf1"
+   }
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:e0991dbc432f"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:bc4d6deecd93"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:ff644eaf8f36"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f9c665512834"
+   }
+  },
+  {
+   "card": "Extract from Darkness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Extract from Darkness",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:30a936b05977"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:3973d5bb0dbf"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:298d88dbc4d5"
+   }
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:6c7f02f189cf"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ce26979e2f23"
+   }
+  },
+  {
+   "card": "Cathodion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathodion",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Cathodion",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:63dca187e292"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:c2410ed93896"
+   }
+  },
+  {
+   "card": "Technomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Technomancer",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Technomancer",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:22c6e782aaa7"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:d1b0491efeb3"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:5d87698e48b3"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7adf080bf025"
+   }
+  },
+  {
+   "card": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:4e3d310a1393"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:aa1294cbca9a"
+   }
+  },
+  {
+   "card": "Young Necromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Young Necromancer",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Young Necromancer",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:45c47b7b1458"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:fbe5afab7ecc"
+   }
+  },
+  {
+   "card": "Cursed Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cursed Mirror",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:e0922996430e"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:317947f14702"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:354296e4fe9b"
+   }
+  },
+  {
+   "card": "Driver of the Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Driver of the Dead",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Driver of the Dead",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:751651129740"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:af54cee732ec"
+   }
+  },
+  {
+   "card": "Jace, the Perfected Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, the Perfected Mind",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:edf787837887"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Breaking // Entering",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:686a791e0c0e"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:31b194d34953"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:918f78dd59f2"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1022-6285",
+         "5080-6285"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Riverchurn Monument"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:7ef3e86aa9d0"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:39e468c3d228"
+   }
+  },
+  {
+   "card": "Crypt Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crypt Champion",
+       "cut": "Karlach, Fury of Avernus"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Crypt Champion",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:99bd49d0eae8"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f51562a6c481"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Gamble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:b09ebaad5ba8"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:9098cbabcaba"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:05c4eaedebfb"
+   }
+  },
+  {
+   "card": "Sheoldred, Whispering One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, Whispering One",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7a641fb4bb59"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Victimize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Pongify",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pongify",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:4cf703dea316"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:bbbb162843a6"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:0df6a076f5c6"
+   }
+  },
+  {
+   "card": "Phyrexian Metamorph",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Metamorph",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:72b317db73c1"
+   }
+  },
+  {
+   "card": "Kederekt Leviathan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kederekt Leviathan",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:1d32fcf9fca8"
+   }
+  },
+  {
+   "card": "Dreadhound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dreadhound",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ca599f3e95c6"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:efd18c3ad67a"
+   }
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:03fb2e027cd6"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:6300be3f7a57"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:1e4c9ea266cf"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f4bbba69eacd"
+   }
+  },
+  {
+   "card": "Hedron Archive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hedron Archive",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ac432886fad5"
+   }
+  },
+  {
+   "card": "Delina, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Delina, Wild Mage",
+       "cut": "Karlach, Fury of Avernus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f0496fdbb09b"
+   }
+  },
+  {
+   "card": "Restless Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Restless Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:2ef5fec9e2c3"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:8b405a0419a1"
+   }
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldgorger Dragon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:bbb5cb7c190d"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:dbb253f40c71"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:4239a7304a30"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:8826f5eb300d"
+   }
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:01b5923e3ee4"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:e91dffed6fe7"
+   }
+  },
+  {
+   "card": "Unstoppable Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Unstoppable Plan",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:c340cfe3299b"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:9a3e2249da01"
+   }
+  },
+  {
+   "card": "Jidoor, Aristocratic Capital // Overture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jidoor, Aristocratic Capital // Overture",
+       "cut": "Flooded Strand"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jidoor, Aristocratic Capital // Overture",
+       "cut": "Hall of Echoes"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:21d773ae83a0"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:398d19f32784"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:f120718d0b77"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:4e0285a51c86"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:a56d2c333e09"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:54f07e2a8fe3"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:0d17de20a0d5"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:fafc2fbf311f"
+   }
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d482acd162ce"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:440b0a9dd336"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-xander-the-collector:m5:f81b7392f684"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:6095b5d06d70"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:6a945e343e9a"
+   }
+  },
+  {
+   "card": "Doomsday Excruciator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doomsday Excruciator",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Doomsday Excruciator",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d19464461241"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:261b5c34dd42"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:9a7d05f68028"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:32cd675f6e9a"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:be4c09f8e6fd"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:310b752f61fb"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:edf9617f49ea"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:2b7f20186791"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:4bcde359fe20"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:1f7b11eb5037"
+   }
+  },
+  {
+   "card": "Alena, Kessig Trapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:611f27ddbff2"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:b75d835829dd"
+   }
+  },
+  {
+   "card": "Palinchron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:eac208ec5188"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:5ae0efd12448"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:c724f811eb8b"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:7b745370b412"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:d793cd15640b"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:ed73f8977108"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:6e9f0d116a7c"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:8d63ac289924"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:e924337d2126"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:73c7bb521f2b"
+   }
+  },
+  {
+   "card": "Sands of Time",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sands of Time",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Sands of Time",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-xander-the-collector:m5:3de412748410"
+    },
+    "swap": "swap:lord-xander-the-collector:m5:46fe88e71875"
+   }
+  }
+ ],
+ "deck_id": "Lord_Xander__the_Collector",
+ "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "slug": "lord-xander-the-collector",
+ "swaps": [
+  {
+   "adds": [
+    "Singularity Rupture"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:109a0aeae9e3"
+  },
+  {
+   "adds": [
+    "Cut Your Losses"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:40dd9fe35c06"
+  },
+  {
+   "adds": [
+    "Cut Your Losses"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e60b6b96cb2a"
+  },
+  {
+   "adds": [
+    "Terisian Mindbreaker"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7ae41cec14f1"
+  },
+  {
+   "adds": [
+    "Terisian Mindbreaker"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4c6dd0db3db5"
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5a105049876d"
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:22aedf2f71aa"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4f9932f27b1e"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b5fcc96309b1"
+  },
+  {
+   "adds": [
+    "Fleet Swallower"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8d44f5abbfd1"
+  },
+  {
+   "adds": [
+    "Fleet Swallower"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c16dee961459"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:65962745669a"
+  },
+  {
+   "adds": [
+    "Ruin Crab"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6047e9c7aa65"
+  },
+  {
+   "adds": [
+    "Ruin Crab"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1c6d35cdeec9"
+  },
+  {
+   "adds": [
+    "Fractured Sanity"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bc6953842f82"
+  },
+  {
+   "adds": [
+    "Fractured Sanity"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b9fe5bf94c4f"
+  },
+  {
+   "adds": [
+    "The Mindskinner"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:802ee48925f4"
+  },
+  {
+   "adds": [
+    "Traumatize"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0cd53fcfebf6"
+  },
+  {
+   "adds": [
+    "Traumatize"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e93863ad1ad9"
+  },
+  {
+   "adds": [
+    "The Water Crystal"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:be6a4da48bd7"
+  },
+  {
+   "adds": [
+    "The Water Crystal"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6f2f0c8395e8"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:962891df25a2"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d95f723bba41"
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ff1af4866a12"
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:11ffc011b100"
+  },
+  {
+   "adds": [
+    "Consuming Aberration"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:789ed3d80b51"
+  },
+  {
+   "adds": [
+    "Consuming Aberration"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a4d9ffe54836"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ca83d25aba91"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9b92db9975a2"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cb253d7fed5f"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:10b2333434ad"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa7970a8e7f7"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:51048b12dc1e"
+  },
+  {
+   "adds": [
+    "Mirko Vosk, Mind Drinker"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:37327d410197"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9c56c66abb8e"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:913c2ab8cc6f"
+  },
+  {
+   "adds": [
+    "Nemesis of Reason"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3130e99ea67e"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:79a6f53ed824"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:07d79a6995d2"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:303c7f1b3c04"
+  },
+  {
+   "adds": [
+    "Geode Golem"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f23fb6016acc"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cc8a39d4a667"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:af82c0a3be19"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0783021f45f3"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e00789908022"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0a5013371cbe"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1ee7d1480420"
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0bc6836bdf6c"
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c2a14f5a3ad3"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cd1b0aa92163"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ca957efb0543"
+  },
+  {
+   "adds": [
+    "Waste Not"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3f674fbcd087"
+  },
+  {
+   "adds": [
+    "Waste Not"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cc8c3a0686f3"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:57c7635c855a"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:58b3cc882edf"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2dc5a5eccac5"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c2716378683e"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b9e5b7bcac71"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b1e2b18e7a88"
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:62a0c8fea073"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f3761f6642c5"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa2b98c6c5d9"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:80358e26aaed"
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9b9123fc68da"
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4edae737be48"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7660f0eddd5b"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:01a6711acb6c"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6e9c3afe6ccd"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:159a52eb1560"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3138e42c63fe"
+  },
+  {
+   "adds": [
+    "Hedron Crab"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:adaf756c1770"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:390f9fe53fa8"
+  },
+  {
+   "adds": [
+    "Court of Cunning"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7dd9451c5ab2"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0a2041b83ffa"
+  },
+  {
+   "adds": [
+    "Memory Erosion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6bf21db72845"
+  },
+  {
+   "adds": [
+    "Kitsune's Technique"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9d8677d12b08"
+  },
+  {
+   "adds": [
+    "Kitsune's Technique"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:952b7dbfa811"
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:391ea3a8c1d7"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:700cdbf91dc7"
+  },
+  {
+   "adds": [
+    "Sphinx's Tutelage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fdebfa0b76dd"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7592dfe2d75e"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:97475ff9d7fe"
+  },
+  {
+   "adds": [
+    "Keening Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bbac8dda3dbb"
+  },
+  {
+   "adds": [
+    "Keening Stone"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:932562fa5f32"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:88e8f6ecb17f"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5d7cf6d28245"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3c129ccd2b4a"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:865b21fb2cf8"
+  },
+  {
+   "adds": [
+    "Maestros Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:53dfb5ac13be"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:79451d5acea7"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8806dbf03dba"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:71a013bd861a"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b0608fbc350e"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c24a7633f9a1"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d77e897c0b13"
+  },
+  {
+   "adds": [
+    "Burnished Hart"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b38b370a16ab"
+  },
+  {
+   "adds": [
+    "Teferi's Tutelage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a6d665985270"
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e97080d0d300"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3d07858231dd"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b748ddd433a4"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa717e17c60c"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:27da59a45e7a"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:75fd4f2840a0"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cc02d78730ab"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aaffceebff4e"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8eda9b1229c6"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e1909ca00d24"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1c0157e40a86"
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:be01e36bb74e"
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:164b34632522"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7d3282201a75"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:697268061496"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ccbcc59e06f5"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fca962bdc313"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:42203d81e29b"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:757abd3252f1"
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2740c0ccdb46"
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d4f735146669"
+  },
+  {
+   "adds": [
+    "Puppeteer Clique"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d7df8558deb1"
+  },
+  {
+   "adds": [
+    "Puppeteer Clique"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1189bcc445af"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:753fa8cd79ff"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b329145ed774"
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d88f5942c575"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bc02b79e466b"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:612cd231c291"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:325d8ed3351a"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:099ca01cd812"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aaedcfca7d03"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7796ad321bcf"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b44cef5717e1"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:73bdb861a5c5"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a29235547f89"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6306865e1841"
+  },
+  {
+   "adds": [
+    "Cavalier of Night"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a95009acc1a9"
+  },
+  {
+   "adds": [
+    "Éomer, Marshal of Rohan"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ff63f547bb7b"
+  },
+  {
+   "adds": [
+    "Éomer, Marshal of Rohan"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9f49a99b76d7"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3e93d0dd886b"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2e1e26391380"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a5f0c7a6a909"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d3204e101acc"
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:72c4a3021220"
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ae72b0acb49b"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7010ee65262c"
+  },
+  {
+   "adds": [
+    "Geth's Grimoire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:28209821b263"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:18f7c2f5bcf1"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8d78616c31b0"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bc4d6deecd93"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e0991dbc432f"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f9c665512834"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ff644eaf8f36"
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:30a936b05977"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:298d88dbc4d5"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3973d5bb0dbf"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ce26979e2f23"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6c7f02f189cf"
+  },
+  {
+   "adds": [
+    "Cathodion"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c2410ed93896"
+  },
+  {
+   "adds": [
+    "Cathodion"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:63dca187e292"
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d1b0491efeb3"
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:22c6e782aaa7"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7adf080bf025"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5d87698e48b3"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa1294cbca9a"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4e3d310a1393"
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fbe5afab7ecc"
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:45c47b7b1458"
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e0922996430e"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:354296e4fe9b"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:317947f14702"
+  },
+  {
+   "adds": [
+    "Driver of the Dead"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:af54cee732ec"
+  },
+  {
+   "adds": [
+    "Driver of the Dead"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:751651129740"
+  },
+  {
+   "adds": [
+    "Jace, the Perfected Mind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:edf787837887"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:31b194d34953"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:686a791e0c0e"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:918f78dd59f2"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:39e468c3d228"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Riverchurn Monument"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7ef3e86aa9d0"
+  },
+  {
+   "adds": [
+    "Crypt Champion"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f51562a6c481"
+  },
+  {
+   "adds": [
+    "Crypt Champion"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:99bd49d0eae8"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9098cbabcaba"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b09ebaad5ba8"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:05c4eaedebfb"
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7a641fb4bb59"
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4cf703dea316"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bbbb162843a6"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0df6a076f5c6"
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:72b317db73c1"
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1d32fcf9fca8"
+  },
+  {
+   "adds": [
+    "Dreadhound"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ca599f3e95c6"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:efd18c3ad67a"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:03fb2e027cd6"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6300be3f7a57"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1e4c9ea266cf"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f4bbba69eacd"
+  },
+  {
+   "adds": [
+    "Hedron Archive"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ac432886fad5"
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f0496fdbb09b"
+  },
+  {
+   "adds": [
+    "Restless Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2ef5fec9e2c3"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8b405a0419a1"
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bbb5cb7c190d"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:dbb253f40c71"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8826f5eb300d"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4239a7304a30"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e91dffed6fe7"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:01b5923e3ee4"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9a3e2249da01"
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c340cfe3299b"
+  },
+  {
+   "adds": [
+    "Jidoor, Aristocratic Capital // Overture"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:398d19f32784"
+  },
+  {
+   "adds": [
+    "Jidoor, Aristocratic Capital // Overture"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:21d773ae83a0"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4e0285a51c86"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f120718d0b77"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:54f07e2a8fe3"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a56d2c333e09"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fafc2fbf311f"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0d17de20a0d5"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:440b0a9dd336"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d482acd162ce"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f81b7392f684"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6a945e343e9a"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6095b5d06d70"
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:261b5c34dd42"
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d19464461241"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:32cd675f6e9a"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9a7d05f68028"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:310b752f61fb"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:be4c09f8e6fd"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2b7f20186791"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:edf9617f49ea"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1f7b11eb5037"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4bcde359fe20"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b75d835829dd"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:611f27ddbff2"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5ae0efd12448"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:eac208ec5188"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7b745370b412"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c724f811eb8b"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ed73f8977108"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d793cd15640b"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8d63ac289924"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6e9f0d116a7c"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:73c7bb521f2b"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e924337d2126"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:46fe88e71875"
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3de412748410"
+  }
+ ]
+}

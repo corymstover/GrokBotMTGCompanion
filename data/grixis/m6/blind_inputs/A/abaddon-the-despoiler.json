@@ -1,0 +1,6625 @@
+{
+ "candidates": [
+  {
+   "card": "Deny Reality",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deny Reality",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": [
+      "pkg:cascade-spells"
+     ]
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:05fa5a31bbd9"
+   }
+  },
+  {
+   "card": "Kill! Maim! Burn!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kill! Maim! Burn!",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c23f3796cc93"
+   }
+  },
+  {
+   "card": "Descent into Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Descent into Avernus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Descent into Avernus",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:891412e34c0b"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fd073262fa95"
+   }
+  },
+  {
+   "card": "Stormfist Crusader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormfist Crusader",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Stormfist Crusader",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:ad35c239c30a"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:e00e314ca90b"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:afefcdd9f821"
+   }
+  },
+  {
+   "card": "Creeping Bloodsucker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creeping Bloodsucker",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creeping Bloodsucker",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:3d04d9cbbf32"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:203758405835"
+   }
+  },
+  {
+   "card": "Heralds of Tzeentch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heralds of Tzeentch",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f953f9ef9c9e"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:938aae100bfd"
+   }
+  },
+  {
+   "card": "Pink Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pink Horror",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:b5a0de249859"
+   }
+  },
+  {
+   "card": "Let the Galaxy Burn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Let the Galaxy Burn",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:b9dcdc5c5364"
+   }
+  },
+  {
+   "card": "Poxwalkers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poxwalkers",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poxwalkers",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": [
+      "pkg:threshold-enablers"
+     ]
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:87417c24c794"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:19cc391585d8"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:e4166fdc2d89"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:31aa2924e1ce"
+   }
+  },
+  {
+   "card": "Mandate of Abaddon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mandate of Abaddon",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:71f1843310b2"
+   }
+  },
+  {
+   "card": "Court of Ambition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Court of Ambition",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Court of Ambition",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:60d92033bf8e"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:51c322035447"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:af32cb8d3968"
+   }
+  },
+  {
+   "card": "Dark Apostle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Apostle",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ea6730cddbef"
+   }
+  },
+  {
+   "card": "Twilight Prophet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twilight Prophet",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twilight Prophet",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:9c74e3b04d90"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:5e3297b3ced6"
+   }
+  },
+  {
+   "card": "Bloodthirster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthirster",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthirster",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:559489ebc2d9"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:91c3845f77b1"
+   }
+  },
+  {
+   "card": "Mutalith Vortex Beast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mutalith Vortex Beast",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Mutalith Vortex Beast",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:0413b89b013c"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:1f031606ff0e"
+   }
+  },
+  {
+   "card": "Great Unclean One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Unclean One",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Unclean One",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b6c93cf257c5"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:cd1786cf03db"
+   }
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:a3e2736fcd99"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:7b32cde01605"
+   }
+  },
+  {
+   "card": "Warstorm Surge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warstorm Surge",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:514abfd0fa53"
+   }
+  },
+  {
+   "card": "Aurora Phoenix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aurora Phoenix",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": [
+      "pkg:cascade-spells"
+     ]
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:adbc9b094818"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:567d6a6c1ccc"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:8537514605f5"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Commander's Sphere",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:24d3fc1b5a24"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:8be8462cd1c6"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:cc2de90c6b3b"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:2d9b86d2aa6f"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:25272330e442"
+   }
+  },
+  {
+   "card": "Plague Drone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plague Drone",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plague Drone",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:f26fff271455"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c41fb74dfe4e"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:4e68b6cee2f6"
+   }
+  },
+  {
+   "card": "Lord of Change",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lord of Change",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lord of Change",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:d7f615398a83"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:3baea874337a"
+   }
+  },
+  {
+   "card": "Temple of the False God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of the False God",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:23f4a51d478d"
+   }
+  },
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:98fe4dfc3536"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:53debd1d3577"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Decree of Pain",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:511921b450ed"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:d91588c634d6"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:91832c02f56d"
+   }
+  },
+  {
+   "card": "Chaos Mutation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Mutation",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f97d10ded5e7"
+   }
+  },
+  {
+   "card": "Chaos Defiler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Defiler",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Defiler",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:6a8ccb01103c"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:57ef7c568e13"
+   }
+  },
+  {
+   "card": "Chandra, Torch of Defiance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chandra, Torch of Defiance",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Chandra, Torch of Defiance",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:d34d88a1623c"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:dcecc5f26cce"
+   }
+  },
+  {
+   "card": "Blood for the Blood God!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood for the Blood God!",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Blood for the Blood God!",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b3ecb6127708"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:d0b46968197a"
+   }
+  },
+  {
+   "card": "Duskmantle Seer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Duskmantle Seer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Duskmantle Seer",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b5cd9b597690"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:e729095f6ecb"
+   }
+  },
+  {
+   "card": "Drach'Nyen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drach'Nyen",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f99decb19881"
+   }
+  },
+  {
+   "card": "Reverberate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reverberate",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reverberate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:993e52eb9d6c"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:bf73bf055e1b"
+   }
+  },
+  {
+   "card": "Chaos Terminator Lord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Terminator Lord",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Terminator Lord",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:41c3b37e23a3"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:9f13c3472a3c"
+   }
+  },
+  {
+   "card": "Blight Grenade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blight Grenade",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:bd011f2fad4e"
+   }
+  },
+  {
+   "card": "Tectonic Giant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tectonic Giant",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tectonic Giant",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b12e2295bd84"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fdedfd846c48"
+   }
+  },
+  {
+   "card": "Magnus the Red",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magnus the Red",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magnus the Red",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:5b7c4ee42e99"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ccfc4111a889"
+   }
+  },
+  {
+   "card": "Maestros Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Charm",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:da0de3db43d3"
+   }
+  },
+  {
+   "card": "Keen Duelist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keen Duelist",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keen Duelist",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:c45e6e7b1977"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:5ca83bc41328"
+   }
+  },
+  {
+   "card": "Spear Spewer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spear Spewer",
+       "cut": "Vivi Ornitier"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spear Spewer",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:142529120232"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:2e9718591351"
+   }
+  },
+  {
+   "card": "Bloodcrusher of Khorne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodcrusher of Khorne",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodcrusher of Khorne",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:da1e3b0993ae"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f6fb8d44cbaa"
+   }
+  },
+  {
+   "card": "Sol Talisman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sol Talisman",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Sol Talisman",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:cad284b30b47"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:af21ea96cd34"
+   }
+  },
+  {
+   "card": "Past in Flames",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Past in Flames",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Past in Flames",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:5e5204ba4044"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:d0f04b51a2d1"
+   }
+  },
+  {
+   "card": "Sloppity Bilepiper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sloppity Bilepiper",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:cc1259df8de9"
+   }
+  },
+  {
+   "card": "Be'lakor, the Dark Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Be'lakor, the Dark Master",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:bb885b39def8"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f4ee5ddb5a61"
+   }
+  },
+  {
+   "card": "Worn Powerstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worn Powerstone",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:e159ccb5d53a"
+   }
+  },
+  {
+   "card": "Florian, Voldaren Scion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Florian, Voldaren Scion",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:405ef2d57643"
+   }
+  },
+  {
+   "card": "Tzaangor Shaman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tzaangor Shaman",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c10a798b2070"
+   }
+  },
+  {
+   "card": "Volcanic Torrent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volcanic Torrent",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:cd0c31f8dfb5"
+   }
+  },
+  {
+   "card": "Black Waltz No. 3",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Waltz No. 3",
+       "cut": "Vivi Ornitier"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:9ed5a9447572"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:81aa05a6f41a"
+   }
+  },
+  {
+   "card": "Swiftwater Cliffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftwater Cliffs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:4355ffd3ae9c"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:60227c433882"
+   }
+  },
+  {
+   "card": "Frantic Search",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frantic Search",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:8e753052bb92"
+   }
+  },
+  {
+   "card": "Fiery Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Confluence",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:378aa7014db7"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f44170cfabc5"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:ae5626b8a462"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:2110ba388ede"
+   }
+  },
+  {
+   "card": "Palace Siege",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palace Siege",
+       "cut": "Vivi Ornitier"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:7d88dc804e53"
+   }
+  },
+  {
+   "card": "Dismal Backwater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dismal Backwater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:a937ed169d88"
+   }
+  },
+  {
+   "card": "Tallyman of Nurgle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tallyman of Nurgle",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:29893bf54ba9"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ad1e0c193d33"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:3a2a23c25490"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:17d8cf801fd4"
+   }
+  },
+  {
+   "card": "Molten Slagheap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Slagheap",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:d27124442c82"
+   }
+  },
+  {
+   "card": "Forgotten Cave",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forgotten Cave",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:7ecfd113ec82"
+   }
+  },
+  {
+   "card": "Leechridden Swamp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leechridden Swamp",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:0519487b9426"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:cd0a896658b9"
+   }
+  },
+  {
+   "card": "Grapeshot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grapeshot",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:e9bcd1c75b04"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:1b2946245eed"
+   }
+  },
+  {
+   "card": "Protection Racket",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Protection Racket",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:16b2af6a00dc"
+   }
+  },
+  {
+   "card": "Barren Moor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Barren Moor",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c33e8aeef365"
+   }
+  },
+  {
+   "card": "Aetherflux Reservoir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherflux Reservoir",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:392a40e50b82"
+   }
+  },
+  {
+   "card": "Fiery Inscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Chimil, the Inner Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chimil, the Inner Sun",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:3e2773dfdbec"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:a422bb219722"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:2eee9afc12a7"
+   }
+  },
+  {
+   "card": "Lucius the Eternal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lucius the Eternal",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:52a43d870735"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:6381c85544de"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:93cf3635eebe"
+   }
+  },
+  {
+   "card": "Mana Geyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Geyser",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:007570fbdeab"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:006f89dd8f41"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:5a4bd17dd19d"
+   }
+  },
+  {
+   "card": "Wound Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ccf2e03f1cfe"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:40f7e9b89e9e"
+   }
+  },
+  {
+   "card": "Into the Time Vortex",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Into the Time Vortex",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:e98f168928f2"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:103e85d05a0f"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fd08f27828aa"
+   }
+  },
+  {
+   "card": "Impact Tremors",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Impact Tremors",
+       "cut": "Vivi Ornitier"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ff99f4e0fecc"
+   }
+  },
+  {
+   "card": "Bolas's Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolas's Citadel",
+       "cut": "Vivi Ornitier"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:15fc568b5e41"
+   }
+  },
+  {
+   "card": "Lotus Bloom",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lotus Bloom",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:cbc20649378a"
+   }
+  },
+  {
+   "card": "Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:e514e56d43f1"
+   }
+  },
+  {
+   "card": "Mortarion, Daemon Primarch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mortarion, Daemon Primarch",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ca82b83b5501"
+   }
+  },
+  {
+   "card": "Throes of Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Throes of Chaos",
+       "cut": "Call Forth the Tempest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fffdd96a3699"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ef288a12ddb8"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fe788bef5437"
+   }
+  },
+  {
+   "card": "Pox Plague",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pox Plague",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Pox Plague",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:661f7b9b8a54"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:a82883be62cc"
+   }
+  },
+  {
+   "card": "Aggravated Assault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Aggravated Assault",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:4b6f1578aaaf"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fb5e4ee80c19"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:15b7ad0f2f10"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:8e16fddcce96"
+   }
+  },
+  {
+   "card": "Deadeye Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:8101687e402e"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:0ce51b9d077c"
+   }
+  },
+  {
+   "card": "Unstoppable Slasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Slasher",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstoppable Slasher",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:233e4c4842b1"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:6432e5a5e524"
+   }
+  },
+  {
+   "card": "Tree of Perdition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tree of Perdition",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tree of Perdition",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:ba42cedcaa2f"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d"
+   }
+  },
+  {
+   "card": "Time Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Warp",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Time Warp",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:4433178b13db"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:a94c44712fd6"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Chrome Mox"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b8c5af2bd237"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b15913223049"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:b26d1878618d"
+   }
+  },
+  {
+   "card": "Quietus Spike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quietus Spike",
+       "cut": "Chrome Mox"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Quietus Spike",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:171a976b0f1f"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:655b84003664"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Repercussion",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:3ff7c14b5782"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:7c2d9d2dff36"
+   }
+  },
+  {
+   "card": "Heartless Hidetsugu",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Hidetsugu",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Hidetsugu",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:5ac285a18b7a"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:d17609747acc"
+   }
+  },
+  {
+   "card": "Temporal Manipulation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temporal Manipulation",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Temporal Manipulation",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:d096604c09fa"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:4c730bb08aec"
+   }
+  },
+  {
+   "card": "Chain of Smog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Chain of Smog",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:2411ba2fff20"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ca979421a99d"
+   }
+  },
+  {
+   "card": "Grievous Wound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grievous Wound",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Grievous Wound",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:dbd469562eea"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:2ddc10abdf77"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Burning Inquiry",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:179bb2733b2b"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:febcccc050c5"
+   }
+  },
+  {
+   "card": "Haze of Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Haze of Rage",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:a179e5940355"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:443bf25a28c4"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:d8e50be9735c"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:a19fab6c3afb"
+   }
+  },
+  {
+   "card": "Capture of Jingzhou",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Capture of Jingzhou",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Capture of Jingzhou",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:d89f5548bd46"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:b15e4da7e6c9"
+   }
+  },
+  {
+   "card": "Rush of Dread",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rush of Dread",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Rush of Dread",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:f0fa67084d10"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:51fc1ffef16a"
+   }
+  },
+  {
+   "card": "Shredder, Shadow Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shredder, Shadow Master",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shredder, Shadow Master",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:e03993a91dd5"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:f042c87e6e25"
+   }
+  },
+  {
+   "card": "Shard of the Nightbringer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shard of the Nightbringer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shard of the Nightbringer",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:c2f078af7254"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:75060c1a0c28"
+   }
+  },
+  {
+   "card": "Blood Tribute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Tribute",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Blood Tribute",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:0f62962f21de"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ed0467229ea8"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:6d8de02bac23"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c9182dd51ba0"
+   }
+  },
+  {
+   "card": "Walk the Aeons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Walk the Aeons",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Walk the Aeons",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:e41dede3c37e"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c968f6d13e33"
+   }
+  },
+  {
+   "card": "Primordial Mist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Primordial Mist",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Primordial Mist",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:268a7ecc79b6"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:3a47843171a1"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:144f07bce53a"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:b196e37ba53d"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:473ff77bd648"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:bf73beb77b03"
+   }
+  },
+  {
+   "card": "Scytheclaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scytheclaw",
+       "cut": "Chrome Mox"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Scytheclaw",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:e7899508f4aa"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:6649f3828177"
+   }
+  },
+  {
+   "card": "Fury Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Fury Storm",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:f6b6c9409f55"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:314a40ad52ff"
+   }
+  },
+  {
+   "card": "Quicksilver Elemental",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quicksilver Elemental",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quicksilver Elemental",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:aba40f15116f"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:9d3d5ee0e25e"
+   }
+  },
+  {
+   "card": "Virtus the Veiled",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Virtus the Veiled",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Virtus the Veiled",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:c19d306c0a89"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:d33a57451017"
+   }
+  },
+  {
+   "card": "Grinning Ignus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Grinning Ignus",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:3960d66cebdb"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c877ad57943d"
+   }
+  },
+  {
+   "card": "Fraying Omnipotence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fraying Omnipotence",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Fraying Omnipotence",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:98ee0bbd44e5"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:ab3edf4b8367"
+   }
+  },
+  {
+   "card": "Forceful Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forceful Denial",
+       "cut": "Flusterstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:fec18aedbcd4"
+   }
+  },
+  {
+   "card": "Ebonblade Reaper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ebonblade Reaper",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ebonblade Reaper",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:4947451a8b38"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:3735a01329b1"
+   }
+  },
+  {
+   "card": "Alpharael, Stonechosen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alpharael, Stonechosen",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alpharael, Stonechosen",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:4bb72a3b1e56"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:45f7597f51d6"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:1c6ff27547f0"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:49ad2763f0f9"
+   }
+  },
+  {
+   "card": "Scourge of the Skyclaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Skyclaves",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Skyclaves",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:9db35ecfd4d1"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:1ebc923c1da7"
+   }
+  },
+  {
+   "card": "Torgaar, Famine Incarnate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torgaar, Famine Incarnate",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torgaar, Famine Incarnate",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:3105f00742f1"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:8c2692798997"
+   }
+  },
+  {
+   "card": "View from Above",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "View from Above",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "View from Above",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:31360aea8d61"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:26d15fbf38bd"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Kessig Flamebreather"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:b41aaea409a1"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:46c4cbff4b02"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Breaking // Entering",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:efff467752f4"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:c88a77424a79"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:abaddon-the-despoiler:m5:6c94c36e5a91"
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:27968b4c963a"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:1a21ddd60ea0"
+   }
+  },
+  {
+   "card": "Mana Drain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Drain",
+       "cut": "Flusterstorm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:abaddon-the-despoiler:m5:dc7a993fe8c5"
+   }
+  }
+ ],
+ "deck_id": "Abaddon_the_Despoiler",
+ "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "slug": "abaddon-the-despoiler",
+ "swaps": [
+  {
+   "adds": [
+    "Deny Reality"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:05fa5a31bbd9"
+  },
+  {
+   "adds": [
+    "Kill! Maim! Burn!"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c23f3796cc93"
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fd073262fa95"
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:891412e34c0b"
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e00e314ca90b"
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ad35c239c30a"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:afefcdd9f821"
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:203758405835"
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3d04d9cbbf32"
+  },
+  {
+   "adds": [
+    "Heralds of Tzeentch"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f953f9ef9c9e"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:938aae100bfd"
+  },
+  {
+   "adds": [
+    "Pink Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b5a0de249859"
+  },
+  {
+   "adds": [
+    "Let the Galaxy Burn"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b9dcdc5c5364"
+  },
+  {
+   "adds": [
+    "Poxwalkers"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:19cc391585d8"
+  },
+  {
+   "adds": [
+    "Poxwalkers"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:87417c24c794"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:31aa2924e1ce"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e4166fdc2d89"
+  },
+  {
+   "adds": [
+    "Mandate of Abaddon"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:71f1843310b2"
+  },
+  {
+   "adds": [
+    "Court of Ambition"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:51c322035447"
+  },
+  {
+   "adds": [
+    "Court of Ambition"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:60d92033bf8e"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:af32cb8d3968"
+  },
+  {
+   "adds": [
+    "Dark Apostle"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ea6730cddbef"
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5e3297b3ced6"
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9c74e3b04d90"
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:91c3845f77b1"
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:559489ebc2d9"
+  },
+  {
+   "adds": [
+    "Mutalith Vortex Beast"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1f031606ff0e"
+  },
+  {
+   "adds": [
+    "Mutalith Vortex Beast"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0413b89b013c"
+  },
+  {
+   "adds": [
+    "Great Unclean One"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cd1786cf03db"
+  },
+  {
+   "adds": [
+    "Great Unclean One"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b6c93cf257c5"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7b32cde01605"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a3e2736fcd99"
+  },
+  {
+   "adds": [
+    "Warstorm Surge"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:514abfd0fa53"
+  },
+  {
+   "adds": [
+    "Aurora Phoenix"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:adbc9b094818"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:567d6a6c1ccc"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8537514605f5"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8be8462cd1c6"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:24d3fc1b5a24"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cc2de90c6b3b"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2d9b86d2aa6f"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:25272330e442"
+  },
+  {
+   "adds": [
+    "Plague Drone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c41fb74dfe4e"
+  },
+  {
+   "adds": [
+    "Plague Drone"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f26fff271455"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4e68b6cee2f6"
+  },
+  {
+   "adds": [
+    "Lord of Change"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3baea874337a"
+  },
+  {
+   "adds": [
+    "Lord of Change"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d7f615398a83"
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:23f4a51d478d"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:53debd1d3577"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:98fe4dfc3536"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d91588c634d6"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:511921b450ed"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:91832c02f56d"
+  },
+  {
+   "adds": [
+    "Chaos Mutation"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f97d10ded5e7"
+  },
+  {
+   "adds": [
+    "Chaos Defiler"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:57ef7c568e13"
+  },
+  {
+   "adds": [
+    "Chaos Defiler"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6a8ccb01103c"
+  },
+  {
+   "adds": [
+    "Chandra, Torch of Defiance"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:dcecc5f26cce"
+  },
+  {
+   "adds": [
+    "Chandra, Torch of Defiance"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d34d88a1623c"
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d0b46968197a"
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b3ecb6127708"
+  },
+  {
+   "adds": [
+    "Duskmantle Seer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e729095f6ecb"
+  },
+  {
+   "adds": [
+    "Duskmantle Seer"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b5cd9b597690"
+  },
+  {
+   "adds": [
+    "Drach'Nyen"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f99decb19881"
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bf73bf055e1b"
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:993e52eb9d6c"
+  },
+  {
+   "adds": [
+    "Chaos Terminator Lord"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9f13c3472a3c"
+  },
+  {
+   "adds": [
+    "Chaos Terminator Lord"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:41c3b37e23a3"
+  },
+  {
+   "adds": [
+    "Blight Grenade"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bd011f2fad4e"
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fdedfd846c48"
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b12e2295bd84"
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ccfc4111a889"
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5b7c4ee42e99"
+  },
+  {
+   "adds": [
+    "Maestros Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:da0de3db43d3"
+  },
+  {
+   "adds": [
+    "Keen Duelist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5ca83bc41328"
+  },
+  {
+   "adds": [
+    "Keen Duelist"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c45e6e7b1977"
+  },
+  {
+   "adds": [
+    "Spear Spewer"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2e9718591351"
+  },
+  {
+   "adds": [
+    "Spear Spewer"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:142529120232"
+  },
+  {
+   "adds": [
+    "Bloodcrusher of Khorne"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f6fb8d44cbaa"
+  },
+  {
+   "adds": [
+    "Bloodcrusher of Khorne"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:da1e3b0993ae"
+  },
+  {
+   "adds": [
+    "Sol Talisman"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:af21ea96cd34"
+  },
+  {
+   "adds": [
+    "Sol Talisman"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cad284b30b47"
+  },
+  {
+   "adds": [
+    "Past in Flames"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d0f04b51a2d1"
+  },
+  {
+   "adds": [
+    "Past in Flames"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5e5204ba4044"
+  },
+  {
+   "adds": [
+    "Sloppity Bilepiper"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cc1259df8de9"
+  },
+  {
+   "adds": [
+    "Be'lakor, the Dark Master"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bb885b39def8"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f4ee5ddb5a61"
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e159ccb5d53a"
+  },
+  {
+   "adds": [
+    "Florian, Voldaren Scion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:405ef2d57643"
+  },
+  {
+   "adds": [
+    "Tzaangor Shaman"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c10a798b2070"
+  },
+  {
+   "adds": [
+    "Volcanic Torrent"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cd0c31f8dfb5"
+  },
+  {
+   "adds": [
+    "Black Waltz No. 3"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9ed5a9447572"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:81aa05a6f41a"
+  },
+  {
+   "adds": [
+    "Swiftwater Cliffs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4355ffd3ae9c"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:60227c433882"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8e753052bb92"
+  },
+  {
+   "adds": [
+    "Fiery Confluence"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:378aa7014db7"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f44170cfabc5"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2110ba388ede"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ae5626b8a462"
+  },
+  {
+   "adds": [
+    "Palace Siege"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7d88dc804e53"
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a937ed169d88"
+  },
+  {
+   "adds": [
+    "Tallyman of Nurgle"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:29893bf54ba9"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ad1e0c193d33"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3a2a23c25490"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:17d8cf801fd4"
+  },
+  {
+   "adds": [
+    "Molten Slagheap"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d27124442c82"
+  },
+  {
+   "adds": [
+    "Forgotten Cave"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7ecfd113ec82"
+  },
+  {
+   "adds": [
+    "Leechridden Swamp"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0519487b9426"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cd0a896658b9"
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e9bcd1c75b04"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1b2946245eed"
+  },
+  {
+   "adds": [
+    "Protection Racket"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:16b2af6a00dc"
+  },
+  {
+   "adds": [
+    "Barren Moor"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c33e8aeef365"
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:392a40e50b82"
+  },
+  {
+   "adds": [
+    "Chimil, the Inner Sun"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3e2773dfdbec"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a422bb219722"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2eee9afc12a7"
+  },
+  {
+   "adds": [
+    "Lucius the Eternal"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:52a43d870735"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6381c85544de"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:93cf3635eebe"
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:007570fbdeab"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:006f89dd8f41"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5a4bd17dd19d"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ccf2e03f1cfe"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:40f7e9b89e9e"
+  },
+  {
+   "adds": [
+    "Into the Time Vortex"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e98f168928f2"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:103e85d05a0f"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fd08f27828aa"
+  },
+  {
+   "adds": [
+    "Impact Tremors"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ff99f4e0fecc"
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:15fc568b5e41"
+  },
+  {
+   "adds": [
+    "Lotus Bloom"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cbc20649378a"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e514e56d43f1"
+  },
+  {
+   "adds": [
+    "Mortarion, Daemon Primarch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ca82b83b5501"
+  },
+  {
+   "adds": [
+    "Throes of Chaos"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fffdd96a3699"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ef288a12ddb8"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fe788bef5437"
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a82883be62cc"
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:661f7b9b8a54"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fb5e4ee80c19"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4b6f1578aaaf"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8e16fddcce96"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:15b7ad0f2f10"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0ce51b9d077c"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8101687e402e"
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6432e5a5e524"
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:233e4c4842b1"
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d"
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ba42cedcaa2f"
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a94c44712fd6"
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4433178b13db"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b8c5af2bd237"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b26d1878618d"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b15913223049"
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:655b84003664"
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:171a976b0f1f"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7c2d9d2dff36"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3ff7c14b5782"
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d17609747acc"
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5ac285a18b7a"
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4c730bb08aec"
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d096604c09fa"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ca979421a99d"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2411ba2fff20"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2ddc10abdf77"
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:dbd469562eea"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:febcccc050c5"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:179bb2733b2b"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:443bf25a28c4"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a179e5940355"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a19fab6c3afb"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d8e50be9735c"
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b15e4da7e6c9"
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d89f5548bd46"
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:51fc1ffef16a"
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f0fa67084d10"
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f042c87e6e25"
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e03993a91dd5"
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:75060c1a0c28"
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c2f078af7254"
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ed0467229ea8"
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0f62962f21de"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c9182dd51ba0"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6d8de02bac23"
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c968f6d13e33"
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e41dede3c37e"
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3a47843171a1"
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:268a7ecc79b6"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b196e37ba53d"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:144f07bce53a"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bf73beb77b03"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:473ff77bd648"
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6649f3828177"
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e7899508f4aa"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:314a40ad52ff"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f6b6c9409f55"
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9d3d5ee0e25e"
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:aba40f15116f"
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d33a57451017"
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c19d306c0a89"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c877ad57943d"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3960d66cebdb"
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ab3edf4b8367"
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:98ee0bbd44e5"
+  },
+  {
+   "adds": [
+    "Forceful Denial"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fec18aedbcd4"
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3735a01329b1"
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4947451a8b38"
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:45f7597f51d6"
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4bb72a3b1e56"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:49ad2763f0f9"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1c6ff27547f0"
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1ebc923c1da7"
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9db35ecfd4d1"
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8c2692798997"
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3105f00742f1"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:26d15fbf38bd"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:31360aea8d61"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:46c4cbff4b02"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b41aaea409a1"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c88a77424a79"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:efff467752f4"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:27968b4c963a"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6c94c36e5a91"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1a21ddd60ea0"
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:dc7a993fe8c5"
+  }
+ ]
+}

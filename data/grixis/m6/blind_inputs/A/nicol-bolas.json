@@ -1,0 +1,5064 @@
+{
+ "candidates": [
+  {
+   "card": "Nicol Bolas, Planeswalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, Planeswalker",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, Planeswalker",
+       "cut": "Viridian Longbow"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:d584d0f64d29"
+    },
+    "swap": "swap:nicol-bolas:m5:a2bbbf1b10f4"
+   }
+  },
+  {
+   "card": "Cruel Ultimatum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:3c738dc50956"
+    },
+    "swap": "swap:nicol-bolas:m5:6d67d4152d66"
+   }
+  },
+  {
+   "card": "Bolas's Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolas's Citadel",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolas's Citadel",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:954104528bdd"
+    },
+    "swap": "swap:nicol-bolas:m5:c50e296fff02"
+   }
+  },
+  {
+   "card": "Megrim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Raiders' Wake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:2c8cb938fb31"
+    },
+    "swap": "swap:nicol-bolas:m5:5b0d7e16077b"
+   }
+  },
+  {
+   "card": "Nicol Bolas, the Deceiver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, the Deceiver",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, the Deceiver",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:d9924e53c8c9"
+    },
+    "swap": "swap:nicol-bolas:m5:57df4904b6cf"
+   }
+  },
+  {
+   "card": "Syphon Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syphon Mind",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syphon Mind",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:e0300efbf967"
+    },
+    "swap": "swap:nicol-bolas:m5:5419f2b6afbf"
+   }
+  },
+  {
+   "card": "Nicol Bolas, Dragon-God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, Dragon-God",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, Dragon-God",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:fd9fe63a68aa"
+    },
+    "swap": "swap:nicol-bolas:m5:5ffe732ec688"
+   }
+  },
+  {
+   "card": "Nicol Bolas, God-Pharaoh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Slave of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slave of Bolas",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slave of Bolas",
+       "cut": "Viridian Longbow"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:a7f726e6154d"
+    },
+    "swap": "swap:nicol-bolas:m5:309ee0dedfc8"
+   }
+  },
+  {
+   "card": "Crux of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crux of Fate",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:105918f7edbd"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:506437fb1b68"
+   }
+  },
+  {
+   "card": "Dark Intimations",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Intimations",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Intimations",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:64d573238bf9"
+    },
+    "swap": "swap:nicol-bolas:m5:999b07356eeb"
+   }
+  },
+  {
+   "card": "Crosis, the Purger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis, the Purger",
+       "cut": "Brotherhood Regalia"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis, the Purger",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:c07a0d7239ae"
+    },
+    "swap": "swap:nicol-bolas:m5:e88956ee28c9"
+   }
+  },
+  {
+   "card": "Animate Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:ee94e9052523"
+    },
+    "swap": "swap:nicol-bolas:m5:825421832b14"
+   }
+  },
+  {
+   "card": "Fell Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fell Specter",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:fa62a7b6b498"
+   }
+  },
+  {
+   "card": "Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:d6324b58df5b"
+    },
+    "swap": "swap:nicol-bolas:m5:b320a78c5b0c"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:753d5485f376"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:b482bf0cf5f9"
+   }
+  },
+  {
+   "card": "Hour of Devastation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hour of Devastation",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:8f07c1cd0959"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:3a7eaa563681"
+   }
+  },
+  {
+   "card": "Gem of Becoming",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gem of Becoming",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:783658a7d80e"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:bbdfb8bef9bf"
+   }
+  },
+  {
+   "card": "Painful Quandary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Quandary",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:e5b2a9ce0280"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:3dd2352190fd"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:36c25d9cf1b7"
+   }
+  },
+  {
+   "card": "Disciple of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disciple of Bolas",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:018ef7677b1c"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:1e89cf4a5cc3"
+   }
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Waste Not"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:d91f260c0658"
+    },
+    "swap": "swap:nicol-bolas:m5:24d2672542eb"
+   }
+  },
+  {
+   "card": "Burnished Hart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burnished Hart",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:70929e778421"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:f102124a7632"
+   }
+  },
+  {
+   "card": "Gilded Lotus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gilded Lotus",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:7597350ea5dc"
+   }
+  },
+  {
+   "card": "Hellkite Courser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Courser",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:9e4c06b9f044"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Damnation",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:2aa99fba0559"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:1975fe5c1d01"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:57674a48d13c"
+   }
+  },
+  {
+   "card": "Sedraxis Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sedraxis Specter",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:aac09e7af200"
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:8b34b109245b"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:a5568753b225"
+   }
+  },
+  {
+   "card": "Visage of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Visage of Bolas",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:0bfccd051fd5"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:f3274d394eef"
+   }
+  },
+  {
+   "card": "Strip Mine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strip Mine",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:bd3763ffc3ef"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:829c981c9220"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:38bbf30c36b1"
+   }
+  },
+  {
+   "card": "Ancient Copper Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:314f89313d85"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:dbb976cd323c"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:4f0f6102f929"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:dc2a25005ef2"
+   }
+  },
+  {
+   "card": "Magus of the Wheel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Wheel",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:3c657a790971"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:e36aadac6d1e"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:f51edd819c1b"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:1c66257516fb"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:cd95f58f2866"
+   }
+  },
+  {
+   "card": "Howlsquad Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:c943e4b51aa7"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:6d0393994470"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:d504386d250f"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:49ff60baf031"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:64b43925cf66"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:8393f455b932"
+   }
+  },
+  {
+   "card": "Rivaz of the Claw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rivaz of the Claw",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:4eb33461095a"
+   }
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Waste Not"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:991a4f2999ff"
+    },
+    "swap": "swap:nicol-bolas:m5:21e477422fdd"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:3bd16df2f851"
+   }
+  },
+  {
+   "card": "Goldspan Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goldspan Dragon",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:8b79c5c99903"
+   }
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:d31b752ea2a8"
+   }
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:27806792a548"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:9cc7c91f4e64"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:4d25df1171eb"
+   }
+  },
+  {
+   "card": "In Bolas's Clutches",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:a2d126eeae69"
+    },
+    "swap": "swap:nicol-bolas:m5:db433b3210a5"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Brotherhood Regalia"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Hellkite Charger",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:dd45f09237e7"
+    },
+    "swap": "swap:nicol-bolas:m5:b7cf47887708"
+   }
+  },
+  {
+   "card": "Temple of the False God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of the False God",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:eb0a639d6280"
+   }
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:14e99f762bfb"
+    },
+    "swap": "swap:nicol-bolas:m5:561f4ff2b61b"
+   }
+  },
+  {
+   "card": "Dragon Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon Mage",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:578d0b18ed92"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:2218fb97483f"
+   }
+  },
+  {
+   "card": "Geier Reach Sanitarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geier Reach Sanitarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:1fe2cb7c0bb0"
+   }
+  },
+  {
+   "card": "Bandit's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bandit's Talent",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:ed291a2bb3f9"
+   }
+  },
+  {
+   "card": "Neheb, Dreadhorde Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:b95bbecb197e"
+    },
+    "swap": "swap:nicol-bolas:m5:1fe92c15eea6"
+   }
+  },
+  {
+   "card": "The Locust God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:55f006511d2f"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:1d1b55f387a9"
+   }
+  },
+  {
+   "card": "Blazing Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Specter",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:92d2b993b29f"
+   }
+  },
+  {
+   "card": "Carnelian Orb of Dragonkind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carnelian Orb of Dragonkind",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:def5bcc9c61e"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:324092ed1212"
+   }
+  },
+  {
+   "card": "Brallin, Skyshark Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brallin, Skyshark Rider",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Brallin, Skyshark Rider",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:902846e3147f"
+    },
+    "swap": "swap:nicol-bolas:m5:1e6f5ef61b5a"
+   }
+  },
+  {
+   "card": "Blizzard Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blizzard Specter",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:eb68d86d6bcc"
+   }
+  },
+  {
+   "card": "Plague of Vermin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plague of Vermin",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plague of Vermin",
+       "cut": "Torment of Hailfire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:535e7ab6a018"
+    },
+    "swap": "swap:nicol-bolas:m5:5383745dbc0e"
+   }
+  },
+  {
+   "card": "Dark Deal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Deal",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:e2bcb2097208"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:e35074534830"
+    },
+    "swap": "swap:nicol-bolas:m5:7ad2f9804534"
+   }
+  },
+  {
+   "card": "Diabolic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Brotherhood Regalia"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:ff9cc84d14de"
+    },
+    "swap": "swap:nicol-bolas:m5:bba99efbc350"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:dc2cbbed98f3"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:2c6ddeedce68"
+   }
+  },
+  {
+   "card": "Volcano Hellion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volcano Hellion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volcano Hellion",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:0bcd7dafe809"
+    },
+    "swap": "swap:nicol-bolas:m5:3adba7cabda7"
+   }
+  },
+  {
+   "card": "Nevinyrral's Disk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nevinyrral's Disk",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:8fa1cab3ec7e"
+   }
+  },
+  {
+   "card": "Charcoal Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Charcoal Diamond",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:617f7808b879"
+   }
+  },
+  {
+   "card": "Sky Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sky Diamond",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:867568837098"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:9064c5e1267d"
+   }
+  },
+  {
+   "card": "Sanar, Unfinished Genius // Wild Idea",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sanar, Unfinished Genius // Wild Idea",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:46a8b300dfcf"
+   }
+  },
+  {
+   "card": "Inventors' Fair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inventors' Fair",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:665ea574d313"
+   }
+  },
+  {
+   "card": "Scavenger Grounds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scavenger Grounds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:a8f3a1490888"
+   }
+  },
+  {
+   "card": "Obelisk of Grixis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Obelisk of Grixis",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:41e530ce9e95"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, the Firemind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:052362a9d464"
+    },
+    "swap": "swap:nicol-bolas:m5:ae85aa5908a2"
+   }
+  },
+  {
+   "card": "Perplex",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Perplex",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:f74ccd8bfdd0"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Dynamo",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:08b6e1d6dca2"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:03ff539d8c31"
+   }
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:66462959a1ce"
+   }
+  },
+  {
+   "card": "Control Magic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fire Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Diamond",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:97c9e5e165ec"
+   }
+  },
+  {
+   "card": "Countersquall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Countersquall",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:f32ccc33a957"
+   }
+  },
+  {
+   "card": "Krosan Verge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krosan Verge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:093de06c30a1"
+   }
+  },
+  {
+   "card": "Brokers Hideout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brokers Hideout",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:ce697ded070e"
+   }
+  },
+  {
+   "card": "Fabled Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabled Passage",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:e47104d70f65"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:c3dbd7dee431"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:9b320d81ea19"
+   }
+  },
+  {
+   "card": "Scythe Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scythe Specter",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:6cdf1d51c731"
+   }
+  },
+  {
+   "card": "Maelstrom of the Spirit Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maelstrom of the Spirit Dragon",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:d1812e6768b5"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Viridian Longbow"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:dd86e8456051"
+    },
+    "swap": "swap:nicol-bolas:m5:64f61085dadc"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:ddec7b04ce0f"
+   }
+  },
+  {
+   "card": "Alena, Kessig Trapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:e90901eec7f4"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Parun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Quicksilver Dagger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:f8b0f6602eb5"
+    },
+    "swap": "swap:nicol-bolas:m5:9cd36697a7dc"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:f02e42a66d6f"
+    },
+    "swap": "swap:nicol-bolas:m5:4e92744d4b81"
+   }
+  },
+  {
+   "card": "Dawnsire, Sunstar Dreadnought",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dawnsire, Sunstar Dreadnought",
+       "cut": "Chrome Mox"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Dawnsire, Sunstar Dreadnought",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:958dc1cea187"
+    },
+    "swap": "swap:nicol-bolas:m5:e447c6ef68bb"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Sheoldred's Edict"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nicol-bolas:m5:ebb0b7b2c461"
+   }
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Pain for All"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:69043412ae9b"
+    },
+    "swap": "swap:nicol-bolas:m5:473e928883cc"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Viridian Longbow"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:d91a5d3755a3"
+    },
+    "swap": "swap:nicol-bolas:m5:e6097387760b"
+   }
+  },
+  {
+   "card": "Mana Echoes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Echoes",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Mana Echoes",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:2c2360166011"
+    },
+    "swap": "swap:nicol-bolas:m5:55ba0d33fb50"
+   }
+  },
+  {
+   "card": "Ill-Tempered Loner // Howlpack Avenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ill-Tempered Loner // Howlpack Avenger",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ill-Tempered Loner // Howlpack Avenger",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:a6bde2309502"
+    },
+    "swap": "swap:nicol-bolas:m5:0dd3e8585d84"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "900-3750"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:0ee6e4ed6241"
+    },
+    "swap": "swap:nicol-bolas:m5:166a1009d30f"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:63d24b8ab329"
+    },
+    "swap": "swap:nicol-bolas:m5:790cf770b27d"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:8bc8672541b0"
+    },
+    "swap": "swap:nicol-bolas:m5:98b8ae0a9fa2"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Ingris Stingerquill"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nicol-bolas:m5:d026abd8b8d0"
+    },
+    "swap": "swap:nicol-bolas:m5:0a1a169a0434"
+   }
+  }
+ ],
+ "deck_id": "Nicol_Bolas",
+ "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "slug": "nicol-bolas",
+ "swaps": [
+  {
+   "adds": [
+    "Nicol Bolas, Planeswalker"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:a2bbbf1b10f4"
+  },
+  {
+   "adds": [
+    "Nicol Bolas, Planeswalker"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:d584d0f64d29"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:6d67d4152d66"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:3c738dc50956"
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:c50e296fff02"
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:954104528bdd"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:5b0d7e16077b"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Raiders' Wake"
+   ],
+   "id": "swap:nicol-bolas:m5:2c8cb938fb31"
+  },
+  {
+   "adds": [
+    "Nicol Bolas, the Deceiver"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:57df4904b6cf"
+  },
+  {
+   "adds": [
+    "Nicol Bolas, the Deceiver"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:d9924e53c8c9"
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:5419f2b6afbf"
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:e0300efbf967"
+  },
+  {
+   "adds": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:5ffe732ec688"
+  },
+  {
+   "adds": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:fd9fe63a68aa"
+  },
+  {
+   "adds": [
+    "Slave of Bolas"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:309ee0dedfc8"
+  },
+  {
+   "adds": [
+    "Slave of Bolas"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:a7f726e6154d"
+  },
+  {
+   "adds": [
+    "Crux of Fate"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:105918f7edbd"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:506437fb1b68"
+  },
+  {
+   "adds": [
+    "Dark Intimations"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:999b07356eeb"
+  },
+  {
+   "adds": [
+    "Dark Intimations"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:64d573238bf9"
+  },
+  {
+   "adds": [
+    "Crosis, the Purger"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:e88956ee28c9"
+  },
+  {
+   "adds": [
+    "Crosis, the Purger"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:c07a0d7239ae"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:825421832b14"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:ee94e9052523"
+  },
+  {
+   "adds": [
+    "Fell Specter"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:fa62a7b6b498"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:b320a78c5b0c"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:d6324b58df5b"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:753d5485f376"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:b482bf0cf5f9"
+  },
+  {
+   "adds": [
+    "Hour of Devastation"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:8f07c1cd0959"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:3a7eaa563681"
+  },
+  {
+   "adds": [
+    "Gem of Becoming"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nicol-bolas:m5:783658a7d80e"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:bbdfb8bef9bf"
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:e5b2a9ce0280"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:3dd2352190fd"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:36c25d9cf1b7"
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:018ef7677b1c"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1e89cf4a5cc3"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:24d2672542eb"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:nicol-bolas:m5:d91f260c0658"
+  },
+  {
+   "adds": [
+    "Burnished Hart"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:70929e778421"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:f102124a7632"
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:7597350ea5dc"
+  },
+  {
+   "adds": [
+    "Hellkite Courser"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:9e4c06b9f044"
+  },
+  {
+   "adds": [
+    "Damnation"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:2aa99fba0559"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:1975fe5c1d01"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:57674a48d13c"
+  },
+  {
+   "adds": [
+    "Sedraxis Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:aac09e7af200"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:8b34b109245b"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:a5568753b225"
+  },
+  {
+   "adds": [
+    "Visage of Bolas"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:0bfccd051fd5"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:f3274d394eef"
+  },
+  {
+   "adds": [
+    "Strip Mine"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:bd3763ffc3ef"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:829c981c9220"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:38bbf30c36b1"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:314f89313d85"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:dbb976cd323c"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:4f0f6102f929"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:dc2a25005ef2"
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:3c657a790971"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:e36aadac6d1e"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:f51edd819c1b"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1c66257516fb"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:cd95f58f2866"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:c943e4b51aa7"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:6d0393994470"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:d504386d250f"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:49ff60baf031"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:64b43925cf66"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:8393f455b932"
+  },
+  {
+   "adds": [
+    "Rivaz of the Claw"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:4eb33461095a"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:21e477422fdd"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:nicol-bolas:m5:991a4f2999ff"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:3bd16df2f851"
+  },
+  {
+   "adds": [
+    "Goldspan Dragon"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:8b79c5c99903"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:d31b752ea2a8"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:27806792a548"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:9cc7c91f4e64"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:4d25df1171eb"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:db433b3210a5"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:a2d126eeae69"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:b7cf47887708"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:nicol-bolas:m5:dd45f09237e7"
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:eb0a639d6280"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:561f4ff2b61b"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:14e99f762bfb"
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:578d0b18ed92"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:2218fb97483f"
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1fe2cb7c0bb0"
+  },
+  {
+   "adds": [
+    "Bandit's Talent"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:ed291a2bb3f9"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:1fe92c15eea6"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:b95bbecb197e"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:55f006511d2f"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1d1b55f387a9"
+  },
+  {
+   "adds": [
+    "Blazing Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:92d2b993b29f"
+  },
+  {
+   "adds": [
+    "Carnelian Orb of Dragonkind"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:def5bcc9c61e"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:324092ed1212"
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:1e6f5ef61b5a"
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:902846e3147f"
+  },
+  {
+   "adds": [
+    "Blizzard Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:eb68d86d6bcc"
+  },
+  {
+   "adds": [
+    "Plague of Vermin"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:5383745dbc0e"
+  },
+  {
+   "adds": [
+    "Plague of Vermin"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:nicol-bolas:m5:535e7ab6a018"
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:e2bcb2097208"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:7ad2f9804534"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:e35074534830"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:bba99efbc350"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:ff9cc84d14de"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nicol-bolas:m5:dc2cbbed98f3"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:2c6ddeedce68"
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:3adba7cabda7"
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:0bcd7dafe809"
+  },
+  {
+   "adds": [
+    "Nevinyrral's Disk"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:8fa1cab3ec7e"
+  },
+  {
+   "adds": [
+    "Charcoal Diamond"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:617f7808b879"
+  },
+  {
+   "adds": [
+    "Sky Diamond"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:867568837098"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:9064c5e1267d"
+  },
+  {
+   "adds": [
+    "Sanar, Unfinished Genius // Wild Idea"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:46a8b300dfcf"
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:665ea574d313"
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:a8f3a1490888"
+  },
+  {
+   "adds": [
+    "Obelisk of Grixis"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:41e530ce9e95"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:ae85aa5908a2"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:052362a9d464"
+  },
+  {
+   "adds": [
+    "Perplex"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:nicol-bolas:m5:f74ccd8bfdd0"
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:08b6e1d6dca2"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:nicol-bolas:m5:03ff539d8c31"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:66462959a1ce"
+  },
+  {
+   "adds": [
+    "Fire Diamond"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:97c9e5e165ec"
+  },
+  {
+   "adds": [
+    "Countersquall"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:nicol-bolas:m5:f32ccc33a957"
+  },
+  {
+   "adds": [
+    "Krosan Verge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:093de06c30a1"
+  },
+  {
+   "adds": [
+    "Brokers Hideout"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:ce697ded070e"
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:e47104d70f65"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:c3dbd7dee431"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nicol-bolas:m5:9b320d81ea19"
+  },
+  {
+   "adds": [
+    "Scythe Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:6cdf1d51c731"
+  },
+  {
+   "adds": [
+    "Maelstrom of the Spirit Dragon"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:d1812e6768b5"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:64f61085dadc"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:dd86e8456051"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:ddec7b04ce0f"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:e90901eec7f4"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:9cd36697a7dc"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:f8b0f6602eb5"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:4e92744d4b81"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:f02e42a66d6f"
+  },
+  {
+   "adds": [
+    "Dawnsire, Sunstar Dreadnought"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:nicol-bolas:m5:e447c6ef68bb"
+  },
+  {
+   "adds": [
+    "Dawnsire, Sunstar Dreadnought"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:958dc1cea187"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:nicol-bolas:m5:ebb0b7b2c461"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:473e928883cc"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Pain for All"
+   ],
+   "id": "swap:nicol-bolas:m5:69043412ae9b"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:e6097387760b"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:d91a5d3755a3"
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:55ba0d33fb50"
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:nicol-bolas:m5:2c2360166011"
+  },
+  {
+   "adds": [
+    "Ill-Tempered Loner // Howlpack Avenger"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:0dd3e8585d84"
+  },
+  {
+   "adds": [
+    "Ill-Tempered Loner // Howlpack Avenger"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:a6bde2309502"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:166a1009d30f"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:nicol-bolas:m5:0ee6e4ed6241"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:790cf770b27d"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:63d24b8ab329"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:98b8ae0a9fa2"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:8bc8672541b0"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:0a1a169a0434"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:d026abd8b8d0"
+  }
+ ]
+}

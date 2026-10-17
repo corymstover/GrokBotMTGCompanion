@@ -1,0 +1,6604 @@
+{
+ "candidates": [
+  {
+   "card": "Monument to Endurance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monument to Endurance",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Monument to Endurance",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:661c0c7d98d1"
+    },
+    "swap": "swap:kefka-court-mage:m5:036dc04df106"
+   }
+  },
+  {
+   "card": "Animate Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Animate Dead",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:6a2279227f21"
+    },
+    "swap": "swap:kefka-court-mage:m5:b83e99de2f9c"
+   }
+  },
+  {
+   "card": "Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Windfall",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:6ab8cbdba0dc"
+    },
+    "swap": "swap:kefka-court-mage:m5:623bbf2cd5d0"
+   }
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dauthi Voidwalker",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Dauthi Voidwalker",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:cc3525ef48ab"
+    },
+    "swap": "swap:kefka-court-mage:m5:59ed3d6aca1d"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Parun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:5ce1be370829"
+    },
+    "swap": "swap:kefka-court-mage:m5:88fdfe2fe452"
+   }
+  },
+  {
+   "card": "Liliana's Caress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana's Caress",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Liliana's Caress",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:2b483d803800"
+    },
+    "swap": "swap:kefka-court-mage:m5:ccc35f868213"
+   }
+  },
+  {
+   "card": "Megrim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Megrim",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:c967172a1ae8"
+    },
+    "swap": "swap:kefka-court-mage:m5:3d4f4669c46f"
+   }
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:fafd755c1ad7"
+    },
+    "swap": "swap:kefka-court-mage:m5:1bd7f9af62ac"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:71d163f0901c"
+    },
+    "swap": "swap:kefka-court-mage:m5:6ddec6979433"
+   }
+  },
+  {
+   "card": "Psychosis Crawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychosis Crawler",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Psychosis Crawler",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:82838c452b4c"
+    },
+    "swap": "swap:kefka-court-mage:m5:d72960b1fe24"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:278e4484a3c8"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:31f216cd6578"
+   }
+  },
+  {
+   "card": "Kefka, Dancing Mad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kefka, Dancing Mad",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:e9d72bdd1885"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Thought Vessel",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:f138f8ed4fbe"
+    },
+    "swap": "swap:kefka-court-mage:m5:a9815f95b849"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Faithless Looting",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:bb1f943e6d45"
+    },
+    "swap": "swap:kefka-court-mage:m5:1242d1ce9f7f"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:de9746e93a1f"
+   }
+  },
+  {
+   "card": "Laughing Mad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laughing Mad",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:1e4509676005"
+   }
+  },
+  {
+   "card": "Bone Miser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bone Miser",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:15487c946752"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:ad463635fc5b"
+   }
+  },
+  {
+   "card": "Kroxa, Titan of Death's Hunger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Vivi Ornitier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vivi Ornitier",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:0ac34be3c96a"
+   }
+  },
+  {
+   "card": "Laboratory Maniac",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laboratory Maniac",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:da78abc12f7c"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Mnemonic Betrayal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "Blasphemous Act",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:2a4fe10887c9"
+    },
+    "swap": "swap:kefka-court-mage:m5:e8a3efd3b05f"
+   }
+  },
+  {
+   "card": "Archfiend of Ifnir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archfiend of Ifnir",
+       "cut": "Mox Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:c208683e10e0"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:7e0d3bcc9c60"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:38c511597574"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:576cc2cc3744"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Arcane Denial",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:dcac689dbca9"
+    },
+    "swap": "swap:kefka-court-mage:m5:b81402df6382"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:b1140c1870b0"
+    },
+    "swap": "swap:kefka-court-mage:m5:e946c24b66cf"
+   }
+  },
+  {
+   "card": "Espers to Magicite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Espers to Magicite",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:cfa0799d8f59"
+   }
+  },
+  {
+   "card": "Cyclonic Rift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonic Rift",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:0d91e55fefc2"
+   }
+  },
+  {
+   "card": "Painful Quandary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:fab67fce0d8c"
+   }
+  },
+  {
+   "card": "Syphon Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syphon Mind",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:a1a7822ac5db"
+   }
+  },
+  {
+   "card": "Dark Deal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Deal",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8c593afb4166"
+   }
+  },
+  {
+   "card": "Geth's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geth's Grimoire",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:30da2d5372b7"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8a3d1398f5f3"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:ea7ba65d35aa"
+   }
+  },
+  {
+   "card": "Frantic Search",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frantic Search",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:2dd45f94c371"
+   }
+  },
+  {
+   "card": "Mana Drain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Drain",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:4ecf7d6cdb81"
+   }
+  },
+  {
+   "card": "Deadly Rollick",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Rollick",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:bdaf7f920913"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:d8d6339a73ef"
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:d684fcf97b21"
+   }
+  },
+  {
+   "card": "Fell Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Cool but Rude",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:af71ea58a6de"
+    },
+    "swap": "swap:kefka-court-mage:m5:d91736bc3f7a"
+   }
+  },
+  {
+   "card": "Wizard's Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard's Staff",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:4ee6568e0b60"
+   }
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Circle of Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Circle of Power",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:9122d2c963a8"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:32b2aa9b1010"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, the Firemind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:3830504e51e7"
+    },
+    "swap": "swap:kefka-court-mage:m5:e39b7ba59dc2"
+   }
+  },
+  {
+   "card": "Sangromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sangromancer",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:12ec89537a6d"
+   }
+  },
+  {
+   "card": "Victimize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Victimize",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:53e9a01a0154"
+   }
+  },
+  {
+   "card": "Rankle, Master of Pranks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rankle, Master of Pranks",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:210e75430699"
+   }
+  },
+  {
+   "card": "Mistrise Village",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mistrise Village",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:171ea8f663e2"
+   }
+  },
+  {
+   "card": "Archon of Cruelty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archon of Cruelty",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:5abec73f273b"
+   }
+  },
+  {
+   "card": "Necromancy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necromancy",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:0d5bae052e75"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:cb190e4683bd"
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:bc4f8b95e2dc"
+   }
+  },
+  {
+   "card": "Pongify",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pongify",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:ecd44f91bb34"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undercity Sewers",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:090c8442ec02"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:0fc9ead49480"
+   }
+  },
+  {
+   "card": "Generator Servant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Generator Servant",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:658a177928fa"
+   }
+  },
+  {
+   "card": "Goblin Glasswright // Craft with Pride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:8e158fdbd80e"
+    },
+    "swap": "swap:kefka-court-mage:m5:81d0879b7e59"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:0fe7d6d6cca8"
+   }
+  },
+  {
+   "card": "The One Ring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The One Ring",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8c985346214a"
+   }
+  },
+  {
+   "card": "Stitcher's Supplier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Beseech the Mirror"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:732c84050c4b"
+    },
+    "swap": "swap:kefka-court-mage:m5:34888aef5b30"
+   }
+  },
+  {
+   "card": "Bolas's Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolas's Citadel",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:29811565aec8"
+   }
+  },
+  {
+   "card": "Bandit's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:fb6a9d99ec96"
+   }
+  },
+  {
+   "card": "Raiders' Wake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Aether Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Channeler",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Aether Channeler",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:5c0ee1bba1fb"
+    },
+    "swap": "swap:kefka-court-mage:m5:f211b84823dc"
+   }
+  },
+  {
+   "card": "Geier Reach Sanitarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geier Reach Sanitarium",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:c9c41ce4b71c"
+   }
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:7d47e9658c18"
+    },
+    "swap": "swap:kefka-court-mage:m5:3e828dc3b3d9"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:8fe2570cbd2f"
+    },
+    "swap": "swap:kefka-court-mage:m5:70c4ce29de3c"
+   }
+  },
+  {
+   "card": "Oppression",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:973337290768"
+    },
+    "swap": "swap:kefka-court-mage:m5:355e472cf65e"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:c7c84a43d581"
+   }
+  },
+  {
+   "card": "Planar Incision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:968d912faae6"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:b20a68593850"
+    },
+    "swap": "swap:kefka-court-mage:m5:7ec7c71d0eda"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:e359a4ffa307"
+    },
+    "swap": "swap:kefka-court-mage:m5:b6c7456285d2"
+   }
+  },
+  {
+   "card": "Carnage, Crimson Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carnage, Crimson Chaos",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Carnage, Crimson Chaos",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:547f9e886d59"
+    },
+    "swap": "swap:kefka-court-mage:m5:c6466208e4bb"
+   }
+  },
+  {
+   "card": "Liliana of the Veil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana of the Veil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:f4bdad26fe40"
+   }
+  },
+  {
+   "card": "Thassa, Deep-Dwelling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Feast of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast of Sanity",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:18d4ddd91039"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:f102e081276f"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:1b245a2e0450"
+   }
+  },
+  {
+   "card": "Bloodchief Ascension",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodchief Ascension",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:53fb52544d92"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:57909940fdc0"
+   }
+  },
+  {
+   "card": "Revolutionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Revolutionist",
+       "cut": "Mox Diamond"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Revolutionist",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:4022ff33af98"
+    },
+    "swap": "swap:kefka-court-mage:m5:d286606dca4e"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:d8971864434a"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8536698b1f1a"
+   }
+  },
+  {
+   "card": "Faerie Mastermind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:672e1b635c2d"
+    },
+    "swap": "swap:kefka-court-mage:m5:ed4414a6a39d"
+   }
+  },
+  {
+   "card": "Tinybones, Trinket Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tinybones, Trinket Thief",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8ce926ca48d0"
+   }
+  },
+  {
+   "card": "Opposition Agent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:032486cb5b5a"
+   }
+  },
+  {
+   "card": "Crypt Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crypt Champion",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:38e232fb8fdb"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:43b1a049769a"
+   }
+  },
+  {
+   "card": "Cursed Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cursed Mirror",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:c391062a5e97"
+   }
+  },
+  {
+   "card": "Poison the Waters",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poison the Waters",
+       "cut": "Mnemonic Betrayal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:57727856334e"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:928a3b5f62b7"
+   }
+  },
+  {
+   "card": "Cephalid Coliseum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Coliseum",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8ff31bd0b89d"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:9b8ec9059d94"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:88fa14680f36"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8a547edc1efd"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:6db24825f3ce"
+   }
+  },
+  {
+   "card": "Command Beacon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Command Beacon",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:30b49d5e1d5b"
+   }
+  },
+  {
+   "card": "Strike It Rich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Divining Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Divining Witch",
+       "cut": "Mnemonic Betrayal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:3fe7eac2bdc7"
+   }
+  },
+  {
+   "card": "Mirror of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror of Fate",
+       "cut": "Mnemonic Betrayal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:ad1cf2bb8ce0"
+   }
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Takenuma, Abandoned Mire",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:dda75b12da27"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:8a3168edb5b9"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:fcd5b91c59c1"
+   }
+  },
+  {
+   "card": "Blazing Firesinger // Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:47bbd98dd89a"
+    },
+    "swap": "swap:kefka-court-mage:m5:9febe3efb06c"
+   }
+  },
+  {
+   "card": "Pinnacle Monk // Mystic Peak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pinnacle Monk // Mystic Peak",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Pinnacle Monk // Mystic Peak",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:04f0f685fe7f"
+    },
+    "swap": "swap:kefka-court-mage:m5:d6a6f7683bff"
+   }
+  },
+  {
+   "card": "Emry, Lurker of the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:8f18ee6414ef"
+    },
+    "swap": "swap:kefka-court-mage:m5:9659e942c156"
+   }
+  },
+  {
+   "card": "Zealous Lorecaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zealous Lorecaster",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Zealous Lorecaster",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:803ae4fc1ec3"
+    },
+    "swap": "swap:kefka-court-mage:m5:7be36770523e"
+   }
+  },
+  {
+   "card": "Redirect Lightning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Redirect Lightning",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:528f522792d0"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Archaeomancer",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:068ff2e18ff6"
+    },
+    "swap": "swap:kefka-court-mage:m5:3a1f3a9249f4"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:15b7239dc154"
+    },
+    "swap": "swap:kefka-court-mage:m5:be3ba7892b4d"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:62edfc953429"
+    },
+    "swap": "swap:kefka-court-mage:m5:a027a7c34089"
+   }
+  },
+  {
+   "card": "Venser, Shaper Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:4afc9cb0fd6a"
+   }
+  },
+  {
+   "card": "Ioreth of the Healing House",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ioreth of the Healing House",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:79dd88a1ea1b"
+    },
+    "swap": "swap:kefka-court-mage:m5:69f58879c645"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:30d3cf4a303a"
+    },
+    "swap": "swap:kefka-court-mage:m5:22ec036daf43"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:bd2654cdea87"
+    },
+    "swap": "swap:kefka-court-mage:m5:ce0b49cfc89c"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:0b00174b45d3"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:4cea26f9e112"
+    },
+    "swap": "swap:kefka-court-mage:m5:7253353145db"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Enter the Infinite",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:9be2a4a1a07c"
+    },
+    "swap": "swap:kefka-court-mage:m5:89a014632f0a"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:71ac46784ae3"
+    },
+    "swap": "swap:kefka-court-mage:m5:20cf5b46cdc1"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Beseech the Mirror"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:6392d3829216"
+    },
+    "swap": "swap:kefka-court-mage:m5:c4ec3deb5f71"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:84415670b2bf"
+    },
+    "swap": "swap:kefka-court-mage:m5:6d87e7c02ffc"
+   }
+  },
+  {
+   "card": "Brinelin, the Moon Kraken",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:kefka-court-mage:m5:f971d09bc570"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:f41c7655dc65"
+    },
+    "swap": "swap:kefka-court-mage:m5:dbe90544aea3"
+   }
+  },
+  {
+   "card": "Blazing Sunsteel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:350781a0c7c7"
+    },
+    "swap": "swap:kefka-court-mage:m5:5df97c908319"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:84ca486a1330"
+    },
+    "swap": "swap:kefka-court-mage:m5:56bce2c750b7"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:0e512103c88b"
+    },
+    "swap": "swap:kefka-court-mage:m5:86f97c92a404"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:66578a67b648"
+    },
+    "swap": "swap:kefka-court-mage:m5:c51f330d1fd0"
+   }
+  },
+  {
+   "card": "Mnemonic Wall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:8f3e36a49f64"
+    },
+    "swap": "swap:kefka-court-mage:m5:9fb89d2fafc2"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ancestral Statue",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:6bdfda73ff51"
+    },
+    "swap": "swap:kefka-court-mage:m5:eef726f6205c"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:2c907e1b3bf0"
+    },
+    "swap": "swap:kefka-court-mage:m5:92d95e63bdd5"
+   }
+  },
+  {
+   "card": "Starving Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starving Revenant",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Starving Revenant",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:e64e1dee72ef"
+    },
+    "swap": "swap:kefka-court-mage:m5:77b267a42f40"
+   }
+  },
+  {
+   "card": "Palinchron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Palinchron",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:73a47646e914"
+    },
+    "swap": "swap:kefka-court-mage:m5:8c356bcd1d1c"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:77b16e3133a7"
+    },
+    "swap": "swap:kefka-court-mage:m5:d5501af864b9"
+   }
+  },
+  {
+   "card": "Ardent Elementalist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ardent Elementalist",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ardent Elementalist",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:84ac3af6f8ad"
+    },
+    "swap": "swap:kefka-court-mage:m5:2a02b489f725"
+   }
+  },
+  {
+   "card": "Shipwreck Dowser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:002061f07bcc"
+    },
+    "swap": "swap:kefka-court-mage:m5:2dd8c07e9449"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:1b87b594ed00"
+    },
+    "swap": "swap:kefka-court-mage:m5:6d3d1f0061e1"
+   }
+  },
+  {
+   "card": "Scholar of the Ages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scholar of the Ages",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Scholar of the Ages",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:aa6166c6d2c4"
+    },
+    "swap": "swap:kefka-court-mage:m5:e3878d9f0e25"
+   }
+  },
+  {
+   "card": "Invasion of Arcavios // Invocation of the Founders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Chancellor of the Spires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:62b2ffd066aa"
+    },
+    "swap": "swap:kefka-court-mage:m5:7a0bad7f266e"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:93977c1fd102"
+    },
+    "swap": "swap:kefka-court-mage:m5:7eb79e2489ab"
+   }
+  },
+  {
+   "card": "Salvager of Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Salvager of Secrets",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Salvager of Secrets",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:2ffdb881fffd"
+    },
+    "swap": "swap:kefka-court-mage:m5:5e5a7a8dd4d9"
+   }
+  },
+  {
+   "card": "Izzet Chronarch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Chronarch",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Izzet Chronarch",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:62ad11c3f724"
+    },
+    "swap": "swap:kefka-court-mage:m5:d8279d04f9da"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:ac4503d2de1b"
+    },
+    "swap": "swap:kefka-court-mage:m5:93da4cee3b0e"
+   }
+  },
+  {
+   "card": "Possessed Skaab",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Possessed Skaab",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Possessed Skaab",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:e38a973a7a13"
+    },
+    "swap": "swap:kefka-court-mage:m5:034367f689ea"
+   }
+  },
+  {
+   "card": "Scrivener",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrivener",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Scrivener",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:8e95d1101ee0"
+    },
+    "swap": "swap:kefka-court-mage:m5:77feb1b4b054"
+   }
+  },
+  {
+   "card": "Vampire Charmseeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Charmseeker",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Vampire Charmseeker",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:95eeb2460c3c"
+    },
+    "swap": "swap:kefka-court-mage:m5:ea4a68079c49"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:kefka-court-mage:m5:b8876c826009"
+    },
+    "swap": "swap:kefka-court-mage:m5:8e5c03548524"
+   }
+  }
+ ],
+ "deck_id": "Kefka__Court_Mage",
+ "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "slug": "kefka-court-mage",
+ "swaps": [
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:036dc04df106"
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:661c0c7d98d1"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:b83e99de2f9c"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:6a2279227f21"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:623bbf2cd5d0"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:6ab8cbdba0dc"
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:59ed3d6aca1d"
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:cc3525ef48ab"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:88fdfe2fe452"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:5ce1be370829"
+  },
+  {
+   "adds": [
+    "Liliana's Caress"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:ccc35f868213"
+  },
+  {
+   "adds": [
+    "Liliana's Caress"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:2b483d803800"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:3d4f4669c46f"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:c967172a1ae8"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:1bd7f9af62ac"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:fafd755c1ad7"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:6ddec6979433"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:71d163f0901c"
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:d72960b1fe24"
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:82838c452b4c"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:278e4484a3c8"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:kefka-court-mage:m5:31f216cd6578"
+  },
+  {
+   "adds": [
+    "Kefka, Dancing Mad"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:e9d72bdd1885"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:a9815f95b849"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:f138f8ed4fbe"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:1242d1ce9f7f"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:bb1f943e6d45"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kefka-court-mage:m5:de9746e93a1f"
+  },
+  {
+   "adds": [
+    "Laughing Mad"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:1e4509676005"
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:15487c946752"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:ad463635fc5b"
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:0ac34be3c96a"
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:da78abc12f7c"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:e8a3efd3b05f"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:kefka-court-mage:m5:2a4fe10887c9"
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:c208683e10e0"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:7e0d3bcc9c60"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:38c511597574"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:576cc2cc3744"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:b81402df6382"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:dcac689dbca9"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:e946c24b66cf"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:b1140c1870b0"
+  },
+  {
+   "adds": [
+    "Espers to Magicite"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:cfa0799d8f59"
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:0d91e55fefc2"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:fab67fce0d8c"
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:a1a7822ac5db"
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8c593afb4166"
+  },
+  {
+   "adds": [
+    "Geth's Grimoire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:30da2d5372b7"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:8a3d1398f5f3"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:ea7ba65d35aa"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:2dd45f94c371"
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:kefka-court-mage:m5:4ecf7d6cdb81"
+  },
+  {
+   "adds": [
+    "Deadly Rollick"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:bdaf7f920913"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kefka-court-mage:m5:d8d6339a73ef"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:d684fcf97b21"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:d91736bc3f7a"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:af71ea58a6de"
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:kefka-court-mage:m5:4ee6568e0b60"
+  },
+  {
+   "adds": [
+    "Circle of Power"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:9122d2c963a8"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:32b2aa9b1010"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:e39b7ba59dc2"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:3830504e51e7"
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:12ec89537a6d"
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:53e9a01a0154"
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:210e75430699"
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:171ea8f663e2"
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:5abec73f273b"
+  },
+  {
+   "adds": [
+    "Necromancy"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:0d5bae052e75"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:cb190e4683bd"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:kefka-court-mage:m5:bc4f8b95e2dc"
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:ecd44f91bb34"
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:090c8442ec02"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:0fc9ead49480"
+  },
+  {
+   "adds": [
+    "Generator Servant"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:658a177928fa"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:81d0879b7e59"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:8e158fdbd80e"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:0fe7d6d6cca8"
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8c985346214a"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:kefka-court-mage:m5:34888aef5b30"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:732c84050c4b"
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:29811565aec8"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:fb6a9d99ec96"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:f211b84823dc"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:5c0ee1bba1fb"
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:c9c41ce4b71c"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:3e828dc3b3d9"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:7d47e9658c18"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:70c4ce29de3c"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:8fe2570cbd2f"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:355e472cf65e"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:973337290768"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:c7c84a43d581"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:968d912faae6"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:7ec7c71d0eda"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:kefka-court-mage:m5:b20a68593850"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:b6c7456285d2"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:e359a4ffa307"
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:c6466208e4bb"
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:547f9e886d59"
+  },
+  {
+   "adds": [
+    "Liliana of the Veil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:f4bdad26fe40"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:18d4ddd91039"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:f102e081276f"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:1b245a2e0450"
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kefka-court-mage:m5:53fb52544d92"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:57909940fdc0"
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:d286606dca4e"
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:4022ff33af98"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:d8971864434a"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:8536698b1f1a"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:ed4414a6a39d"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:672e1b635c2d"
+  },
+  {
+   "adds": [
+    "Tinybones, Trinket Thief"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8ce926ca48d0"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:032486cb5b5a"
+  },
+  {
+   "adds": [
+    "Crypt Champion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:38e232fb8fdb"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:43b1a049769a"
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:c391062a5e97"
+  },
+  {
+   "adds": [
+    "Poison the Waters"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:57727856334e"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:928a3b5f62b7"
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:8ff31bd0b89d"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:9b8ec9059d94"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:88fa14680f36"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:8a547edc1efd"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:6db24825f3ce"
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:30b49d5e1d5b"
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:3fe7eac2bdc7"
+  },
+  {
+   "adds": [
+    "Mirror of Fate"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:ad1cf2bb8ce0"
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:dda75b12da27"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8a3168edb5b9"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:fcd5b91c59c1"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:9febe3efb06c"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:47bbd98dd89a"
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:kefka-court-mage:m5:d6a6f7683bff"
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:04f0f685fe7f"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:9659e942c156"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:8f18ee6414ef"
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:7be36770523e"
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:803ae4fc1ec3"
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kefka-court-mage:m5:528f522792d0"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:3a1f3a9249f4"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:068ff2e18ff6"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kefka-court-mage:m5:be3ba7892b4d"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:15b7239dc154"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:a027a7c34089"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:62edfc953429"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:4afc9cb0fd6a"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:69f58879c645"
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:79dd88a1ea1b"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:22ec036daf43"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:30d3cf4a303a"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:ce0b49cfc89c"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:bd2654cdea87"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:0b00174b45d3"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:7253353145db"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:4cea26f9e112"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:89a014632f0a"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:9be2a4a1a07c"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:20cf5b46cdc1"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:71ac46784ae3"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:kefka-court-mage:m5:c4ec3deb5f71"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:6392d3829216"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:6d87e7c02ffc"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:84415670b2bf"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:f971d09bc570"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:dbe90544aea3"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:f41c7655dc65"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:kefka-court-mage:m5:5df97c908319"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:350781a0c7c7"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:56bce2c750b7"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:84ca486a1330"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:86f97c92a404"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:0e512103c88b"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:c51f330d1fd0"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:66578a67b648"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:9fb89d2fafc2"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:8f3e36a49f64"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:eef726f6205c"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:6bdfda73ff51"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kefka-court-mage:m5:92d95e63bdd5"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:2c907e1b3bf0"
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:77b267a42f40"
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:e64e1dee72ef"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:8c356bcd1d1c"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:73a47646e914"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:d5501af864b9"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:77b16e3133a7"
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:2a02b489f725"
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:84ac3af6f8ad"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:2dd8c07e9449"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:002061f07bcc"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kefka-court-mage:m5:6d3d1f0061e1"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:kefka-court-mage:m5:1b87b594ed00"
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:e3878d9f0e25"
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:aa6166c6d2c4"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:7a0bad7f266e"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:62b2ffd066aa"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:7eb79e2489ab"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:93977c1fd102"
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:5e5a7a8dd4d9"
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:2ffdb881fffd"
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:d8279d04f9da"
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:62ad11c3f724"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:93da4cee3b0e"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:ac4503d2de1b"
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:034367f689ea"
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:e38a973a7a13"
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:77feb1b4b054"
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:8e95d1101ee0"
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:ea4a68079c49"
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:95eeb2460c3c"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:8e5c03548524"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:b8876c826009"
+  }
+ ]
+}

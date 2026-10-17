@@ -1,0 +1,1339 @@
+{
+ "deck_id": "The_Valeyard",
+ "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "slug": "the-valeyard",
+ "swaps": [
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:ba95c9373e33",
+   "tests": [
+    "test:the-valeyard:goldfish:e68911952e03028d"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:12c4b4321f82",
+   "tests": [
+    "test:the-valeyard:goldfish:f53ae58748794537"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:7b0a61fed7d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:6fedda408834",
+   "tests": [
+    "test:the-valeyard:goldfish:649ff44e2b6a6405"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:c7e72298388d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:bae62ff0bd97",
+   "tests": [
+    "test:the-valeyard:goldfish:4fc4c87e68737a71"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:c526a4e6dddf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:70c878f5351d",
+   "tests": [
+    "test:the-valeyard:goldfish:6c2060985740a57d"
+   ]
+  },
+  {
+   "adds": [
+    "Seize the Spotlight"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:f5b00876a95f",
+   "tests": [
+    "test:the-valeyard:goldfish:10d7d52337b5b548"
+   ]
+  },
+  {
+   "adds": [
+    "Prisoner's Dilemma"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:f4a0be56615a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prisoner's Dilemma"
+   ],
+   "cuts": [
+    "Quantum Misalignment"
+   ],
+   "id": "swap:the-valeyard:m5:9dba909f5686",
+   "tests": [
+    "test:the-valeyard:goldfish:1c1657de39d09635"
+   ]
+  },
+  {
+   "adds": [
+    "Tempt with Mayhem"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:the-valeyard:m5:84f8d8a88343",
+   "tests": [
+    "test:the-valeyard:goldfish:c7d27da85b8a2c6c"
+   ]
+  },
+  {
+   "adds": [
+    "Sadistic Shell Game"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:1fdaa4d3b9e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sadistic Shell Game"
+   ],
+   "cuts": [
+    "Quantum Misalignment"
+   ],
+   "id": "swap:the-valeyard:m5:7a8bb27409f3",
+   "tests": [
+    "test:the-valeyard:goldfish:3f271afd743b9b46"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:8fdf0c5d9dcd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:c97a06af80be",
+   "tests": [
+    "test:the-valeyard:goldfish:29aaf313d8e1b050"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Drone"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:b29d0fa78d93",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exterminate!"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:d7d24d5525e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:6e731094ffda",
+   "tests": [
+    "test:the-valeyard:goldfish:28f2c757b31a37fc"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:0d0d761ef074",
+   "tests": [
+    "test:the-valeyard:goldfish:f8b1de9bcd52f742"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:dfe419a6ff0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:44bf5b54893c",
+   "tests": [
+    "test:the-valeyard:goldfish:29ff27ecdf5c64ad"
+   ]
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:0982c04cb846",
+   "tests": [
+    "test:the-valeyard:goldfish:19f1603cb5a5a5ae"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberman Patrol"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:39d3fb9def30",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:a386377ac3c9",
+   "tests": [
+    "test:the-valeyard:goldfish:433bb98a4194c9bc"
+   ]
+  },
+  {
+   "adds": [
+    "Cyber Conversion"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:the-valeyard:m5:cd60f7eca566",
+   "tests": [
+    "test:the-valeyard:goldfish:5e0003373955b085"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:a4f13086dc41",
+   "tests": [
+    "test:the-valeyard:goldfish:38d2f16e75838673"
+   ]
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:addb51577794",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fatespinner"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:eee1cc7bd07e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-valeyard:m5:d788f44f43ac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:the-valeyard:m5:f51aec8a56ca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Toymaker's Trap"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:72f2f52ef874",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:1b831b9f4e1f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:6379f5a9aef4",
+   "tests": [
+    "test:the-valeyard:goldfish:d3bafa30d1700e52"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:2834c4374092",
+   "tests": [
+    "test:the-valeyard:goldfish:8c12826dd4f75c86"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:daba1581f0a8",
+   "tests": [
+    "test:the-valeyard:goldfish:420b3aaabe44a713"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Confluence"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:2a1ef336042b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Cyber-Controller"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:e31819139119",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:57189c53ea5a",
+   "tests": [
+    "test:the-valeyard:goldfish:c3df2b0e6ca4aa70"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:d30c681a9cb2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:0b5a5a949c93",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:d19cc3b797fb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:2ee2305d6be5",
+   "tests": [
+    "test:the-valeyard:goldfish:cbab9e74214c1148"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:b81e4947f448",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:6d14f674bdf6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:8f70a3dd5ead",
+   "tests": [
+    "test:the-valeyard:goldfish:88ba693d35b5a8e8"
+   ]
+  },
+  {
+   "adds": [
+    "Flatline"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:the-valeyard:m5:47a882675f51",
+   "tests": [
+    "test:the-valeyard:goldfish:d46f5443bc0331e8"
+   ]
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:011329da09ac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:2527cb9a0cc0",
+   "tests": [
+    "test:the-valeyard:goldfish:c4ac37fa203f4260"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:1590a0f1ea8c",
+   "tests": [
+    "test:the-valeyard:goldfish:2bab4a797cfebe1b"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-valeyard:m5:665ee975b178",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nanogene Conversion"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:915b734f9e72",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:095bdbc52900",
+   "tests": [
+    "test:the-valeyard:goldfish:14be59dd32731ee1"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:7f7fb5b9c0e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:d60018ab0787",
+   "tests": [
+    "test:the-valeyard:goldfish:0ad4b899a7d27704"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:affba4b9a10c",
+   "tests": [
+    "test:the-valeyard:goldfish:a84b5cdef135cde1"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:8a667dab1f30",
+   "tests": [
+    "test:the-valeyard:goldfish:4b451d9ae9b4be9f"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:204864c1e74d",
+   "tests": [
+    "test:the-valeyard:goldfish:018481bf0b5cae1d"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:f3f416a4cc61",
+   "tests": [
+    "test:the-valeyard:goldfish:b1c4e8c508cb5748"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:fc1f8b2e50f3",
+   "tests": [
+    "test:the-valeyard:goldfish:e6d716c2d063567a"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:the-valeyard:m5:bfcfd4681feb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:7426e0f05e60",
+   "tests": [
+    "test:the-valeyard:goldfish:072df295bf09face"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:0ff62692d6f2",
+   "tests": [
+    "test:the-valeyard:goldfish:d4650319e601f895"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:7cbb8a97f0ba",
+   "tests": [
+    "test:the-valeyard:goldfish:e80677b39a2d7664"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:bf011ab33c85",
+   "tests": [
+    "test:the-valeyard:goldfish:24b5fe8b9b1b6352"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:fea3497a9290",
+   "tests": [
+    "test:the-valeyard:goldfish:359a2c593c4adc7b"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:the-valeyard:m5:7fd8006a491b",
+   "tests": [
+    "test:the-valeyard:goldfish:2fbb7179796f4183"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:69d762871cd3",
+   "tests": [
+    "test:the-valeyard:goldfish:f2d1d0b6b2caf5cd"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:3f9d3bb75051",
+   "tests": [
+    "test:the-valeyard:goldfish:32e83caf13773e68"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-valeyard:m5:9aad6be4a315",
+   "tests": [
+    "test:the-valeyard:goldfish:0fe47ac0426ea366"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:06e34a6823ba",
+   "tests": [
+    "test:the-valeyard:goldfish:edca42eb8da45396"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:da59bcc1b8c2",
+   "tests": [
+    "test:the-valeyard:goldfish:6969fcc4c379460b"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:63c2c3ec2eef",
+   "tests": [
+    "test:the-valeyard:goldfish:1759f48ea9909997"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:f8f227ecdc26",
+   "tests": [
+    "test:the-valeyard:goldfish:9a6d3426d01e5a31"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-valeyard:m5:4d40f559328a",
+   "tests": [
+    "test:the-valeyard:goldfish:cd8d7278014e19f1"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Genesis of the Daleks"
+   ],
+   "id": "swap:the-valeyard:m5:377a32aa802b",
+   "tests": [
+    "test:the-valeyard:goldfish:542553686f430f6b"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:ea84e14dcbdf",
+   "tests": [
+    "test:the-valeyard:goldfish:c36c036b0dfd724a"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:376edddb9d30",
+   "tests": [
+    "test:the-valeyard:goldfish:b8283c83b7518ed6"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:0057a443df46",
+   "tests": [
+    "test:the-valeyard:goldfish:a468a5d200b57f0f"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:da8bd14dce2b",
+   "tests": [
+    "test:the-valeyard:goldfish:8372e52d8cf1af28"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-valeyard:m5:3f7150d572cb",
+   "tests": [
+    "test:the-valeyard:goldfish:40061eca78cb57d4"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:f809c16a2cba",
+   "tests": [
+    "test:the-valeyard:goldfish:0653cf24e9eb4703"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:89901eca21b4",
+   "tests": [
+    "test:the-valeyard:goldfish:6656c585031b89d1"
+   ]
+  },
+  {
+   "adds": [
+    "Panoptic Mirror"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:the-valeyard:m5:65af7da21494",
+   "tests": [
+    "test:the-valeyard:goldfish:b21b07785a2d71af"
+   ]
+  },
+  {
+   "adds": [
+    "Panoptic Mirror"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:the-valeyard:m5:18b900656cad",
+   "tests": [
+    "test:the-valeyard:goldfish:c71aeff7d869aab1"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:edea7c6aee7d",
+   "tests": [
+    "test:the-valeyard:goldfish:e52c7f49b92fd273"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:a6d556679eb6",
+   "tests": [
+    "test:the-valeyard:goldfish:24e55735437132d1"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:be15d53a19aa",
+   "tests": [
+    "test:the-valeyard:goldfish:fb3413fcd0e65e47"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:e729ef466626",
+   "tests": [
+    "test:the-valeyard:goldfish:c1871a295ca5ecea"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:6341cfff8f67",
+   "tests": [
+    "test:the-valeyard:goldfish:acb1163bd24ad387"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:f9ca4cb91063",
+   "tests": [
+    "test:the-valeyard:goldfish:0f282b075cb70588"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Kess, Dissident Mage"
+   ],
+   "id": "swap:the-valeyard:m5:d035e16ebbeb",
+   "tests": [
+    "test:the-valeyard:goldfish:34140e7ef5d77a1c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dr. Eggman"
+   ],
+   "id": "swap:the-valeyard:m5:ceea06bbb4f2",
+   "tests": [
+    "test:the-valeyard:goldfish:1839a4e33373a0db"
+   ]
+  },
+  {
+   "adds": [
+    "Tempt with Reflections"
+   ],
+   "cuts": [
+    "Bite of the Black Rose"
+   ],
+   "id": "swap:the-valeyard:m5:50d1ae87635e",
+   "tests": []
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:the-valeyard:goldfish:e68911952e03028d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:f53ae58748794537",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:649ff44e2b6a6405",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:4fc4c87e68737a71",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:6c2060985740a57d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:10d7d52337b5b548",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:1c1657de39d09635",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:c7d27da85b8a2c6c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:3f271afd743b9b46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:29aaf313d8e1b050",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:28f2c757b31a37fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:f8b1de9bcd52f742",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:29ff27ecdf5c64ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:19f1603cb5a5a5ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:433bb98a4194c9bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:5e0003373955b085",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:38d2f16e75838673",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:d3bafa30d1700e52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:8c12826dd4f75c86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:420b3aaabe44a713",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:c3df2b0e6ca4aa70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:cbab9e74214c1148",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:88ba693d35b5a8e8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:d46f5443bc0331e8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:c4ac37fa203f4260",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:2bab4a797cfebe1b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:14be59dd32731ee1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:0ad4b899a7d27704",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:a84b5cdef135cde1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:4b451d9ae9b4be9f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:018481bf0b5cae1d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:b1c4e8c508cb5748",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:e6d716c2d063567a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:072df295bf09face",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:d4650319e601f895",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:e80677b39a2d7664",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:24b5fe8b9b1b6352",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:359a2c593c4adc7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:2fbb7179796f4183",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:f2d1d0b6b2caf5cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:32e83caf13773e68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:0fe47ac0426ea366",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:edca42eb8da45396",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:6969fcc4c379460b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:1759f48ea9909997",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:9a6d3426d01e5a31",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:cd8d7278014e19f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:542553686f430f6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:c36c036b0dfd724a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:b8283c83b7518ed6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:a468a5d200b57f0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:8372e52d8cf1af28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:40061eca78cb57d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:0653cf24e9eb4703",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:6656c585031b89d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:b21b07785a2d71af",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:c71aeff7d869aab1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:e52c7f49b92fd273",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:24e55735437132d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:fb3413fcd0e65e47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:c1871a295ca5ecea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:acb1163bd24ad387",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:0f282b075cb70588",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:34140e7ef5d77a1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-valeyard:goldfish:1839a4e33373a0db",
+   "verdict": "inconclusive"
+  }
+ ]
+}

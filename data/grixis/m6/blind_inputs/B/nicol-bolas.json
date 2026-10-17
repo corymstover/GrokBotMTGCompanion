@@ -1,0 +1,2453 @@
+{
+ "deck_id": "Nicol_Bolas",
+ "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "slug": "nicol-bolas",
+ "swaps": [
+  {
+   "adds": [
+    "Nicol Bolas, Planeswalker"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:a2bbbf1b10f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nicol Bolas, Planeswalker"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:d584d0f64d29",
+   "tests": [
+    "test:nicol-bolas:goldfish:2867b7e03b553264"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:6d67d4152d66",
+   "tests": [
+    "test:nicol-bolas:goldfish:1ba7b6e5cb139d67"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:3c738dc50956",
+   "tests": [
+    "test:nicol-bolas:goldfish:b467f5ac4a84632e"
+   ]
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:c50e296fff02",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:954104528bdd",
+   "tests": [
+    "test:nicol-bolas:goldfish:2338ef10220cef36"
+   ]
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:5b0d7e16077b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Raiders' Wake"
+   ],
+   "id": "swap:nicol-bolas:m5:2c8cb938fb31",
+   "tests": [
+    "test:nicol-bolas:goldfish:d872fafdc0ccefc3"
+   ]
+  },
+  {
+   "adds": [
+    "Nicol Bolas, the Deceiver"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:57df4904b6cf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nicol Bolas, the Deceiver"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:d9924e53c8c9",
+   "tests": [
+    "test:nicol-bolas:goldfish:369101b32aeec316"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:5419f2b6afbf",
+   "tests": [
+    "test:nicol-bolas:goldfish:5cb0adfe36e06cae"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:e0300efbf967",
+   "tests": [
+    "test:nicol-bolas:goldfish:64b9615a9183f16f"
+   ]
+  },
+  {
+   "adds": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:5ffe732ec688",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:fd9fe63a68aa",
+   "tests": [
+    "test:nicol-bolas:goldfish:f6a8bee6f620c86a"
+   ]
+  },
+  {
+   "adds": [
+    "Slave of Bolas"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:309ee0dedfc8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Slave of Bolas"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:a7f726e6154d",
+   "tests": [
+    "test:nicol-bolas:goldfish:6dcc0f63fd8e68b3"
+   ]
+  },
+  {
+   "adds": [
+    "Crux of Fate"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:105918f7edbd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:506437fb1b68",
+   "tests": [
+    "test:nicol-bolas:goldfish:069c4cac7d71f30e"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Intimations"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:999b07356eeb",
+   "tests": [
+    "test:nicol-bolas:goldfish:6b92d1c87513fc44"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Intimations"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:64d573238bf9",
+   "tests": [
+    "test:nicol-bolas:goldfish:e809c9d329cb782e"
+   ]
+  },
+  {
+   "adds": [
+    "Crosis, the Purger"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:e88956ee28c9",
+   "tests": [
+    "test:nicol-bolas:goldfish:6bf6c107abaceec3"
+   ]
+  },
+  {
+   "adds": [
+    "Crosis, the Purger"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:c07a0d7239ae",
+   "tests": [
+    "test:nicol-bolas:goldfish:9216cf73003f331e"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:825421832b14",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:ee94e9052523",
+   "tests": [
+    "test:nicol-bolas:goldfish:3acf705a53b5551f"
+   ]
+  },
+  {
+   "adds": [
+    "Fell Specter"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:fa62a7b6b498",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:b320a78c5b0c",
+   "tests": [
+    "test:nicol-bolas:goldfish:f423351014a66302"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:d6324b58df5b",
+   "tests": [
+    "test:nicol-bolas:goldfish:cd37754229b41545"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:753d5485f376",
+   "tests": [
+    "test:nicol-bolas:goldfish:2c1ea993afc7cb38"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:b482bf0cf5f9",
+   "tests": [
+    "test:nicol-bolas:goldfish:f06ec3d65fcb72d0"
+   ]
+  },
+  {
+   "adds": [
+    "Hour of Devastation"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:8f07c1cd0959",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:3a7eaa563681",
+   "tests": [
+    "test:nicol-bolas:goldfish:c0957765fb16f71b"
+   ]
+  },
+  {
+   "adds": [
+    "Gem of Becoming"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nicol-bolas:m5:783658a7d80e",
+   "tests": [
+    "test:nicol-bolas:goldfish:2090ebf41ef40596"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:bbdfb8bef9bf",
+   "tests": [
+    "test:nicol-bolas:goldfish:e42a7bb218d60031"
+   ]
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:e5b2a9ce0280",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:3dd2352190fd",
+   "tests": [
+    "test:nicol-bolas:goldfish:a78e69dfe6aed1c6"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:36c25d9cf1b7",
+   "tests": [
+    "test:nicol-bolas:goldfish:5329c3f9dfd19ddc"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:018ef7677b1c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1e89cf4a5cc3",
+   "tests": [
+    "test:nicol-bolas:goldfish:87630fe8bb512e5e"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:24d2672542eb",
+   "tests": [
+    "test:nicol-bolas:goldfish:718583064f11a5bd"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:nicol-bolas:m5:d91f260c0658",
+   "tests": [
+    "test:nicol-bolas:goldfish:3d6aca2334a02d86"
+   ]
+  },
+  {
+   "adds": [
+    "Burnished Hart"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:70929e778421",
+   "tests": [
+    "test:nicol-bolas:goldfish:9cf419baeca019b1"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:f102124a7632",
+   "tests": [
+    "test:nicol-bolas:goldfish:e4161e455503c8b9"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:7597350ea5dc",
+   "tests": [
+    "test:nicol-bolas:goldfish:de27ce8a2c195568"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Courser"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:9e4c06b9f044",
+   "tests": [
+    "test:nicol-bolas:goldfish:7c9ff344167cb519"
+   ]
+  },
+  {
+   "adds": [
+    "Damnation"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:2aa99fba0559",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:1975fe5c1d01",
+   "tests": [
+    "test:nicol-bolas:goldfish:84868e5501232500"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:57674a48d13c",
+   "tests": [
+    "test:nicol-bolas:goldfish:c572b1ff20fc2868"
+   ]
+  },
+  {
+   "adds": [
+    "Sedraxis Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:aac09e7af200",
+   "tests": [
+    "test:nicol-bolas:goldfish:df93a4d611eed833"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:8b34b109245b",
+   "tests": [
+    "test:nicol-bolas:goldfish:21facd5061d1c691"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:a5568753b225",
+   "tests": [
+    "test:nicol-bolas:goldfish:99b7087afc9a4477"
+   ]
+  },
+  {
+   "adds": [
+    "Visage of Bolas"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:0bfccd051fd5",
+   "tests": [
+    "test:nicol-bolas:goldfish:663e0e940dad4264"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:f3274d394eef",
+   "tests": [
+    "test:nicol-bolas:goldfish:fcf2e8bfa3b48311"
+   ]
+  },
+  {
+   "adds": [
+    "Strip Mine"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:bd3763ffc3ef",
+   "tests": [
+    "test:nicol-bolas:goldfish:93b6b66aef46e7a7"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:829c981c9220",
+   "tests": [
+    "test:nicol-bolas:goldfish:36a1bb13c02c7051"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:38bbf30c36b1",
+   "tests": [
+    "test:nicol-bolas:goldfish:534e7c86ab0d73e3"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:314f89313d85",
+   "tests": [
+    "test:nicol-bolas:goldfish:3ca22684419b7ffc"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:dbb976cd323c",
+   "tests": [
+    "test:nicol-bolas:goldfish:4a0a588862422ff6"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:4f0f6102f929",
+   "tests": [
+    "test:nicol-bolas:goldfish:668c7bbed2950152"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:dc2a25005ef2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:3c657a790971",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:e36aadac6d1e",
+   "tests": [
+    "test:nicol-bolas:goldfish:707906819e557df7"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:f51edd819c1b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1c66257516fb",
+   "tests": [
+    "test:nicol-bolas:goldfish:89498bfd63086c89"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:cd95f58f2866",
+   "tests": [
+    "test:nicol-bolas:goldfish:1de0a8dc00a6714e"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:c943e4b51aa7",
+   "tests": [
+    "test:nicol-bolas:goldfish:184ed28dd5aa3ab3"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:6d0393994470",
+   "tests": [
+    "test:nicol-bolas:goldfish:37c4b0d7440432eb"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:d504386d250f",
+   "tests": [
+    "test:nicol-bolas:goldfish:d40911d6473d3054"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:49ff60baf031",
+   "tests": [
+    "test:nicol-bolas:goldfish:54b28cd43a2199c5"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:64b43925cf66",
+   "tests": [
+    "test:nicol-bolas:goldfish:b15087e0cd1532ce"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:8393f455b932",
+   "tests": [
+    "test:nicol-bolas:goldfish:c6fbc8a086cfb0bd"
+   ]
+  },
+  {
+   "adds": [
+    "Rivaz of the Claw"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:4eb33461095a",
+   "tests": [
+    "test:nicol-bolas:goldfish:ad4f9d363ed0714f"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:21e477422fdd",
+   "tests": [
+    "test:nicol-bolas:goldfish:dc866b1aced902bb"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:nicol-bolas:m5:991a4f2999ff",
+   "tests": [
+    "test:nicol-bolas:goldfish:fe7c4f8d0f5901df"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:3bd16df2f851",
+   "tests": [
+    "test:nicol-bolas:goldfish:80aadcbf6b886cb7"
+   ]
+  },
+  {
+   "adds": [
+    "Goldspan Dragon"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:8b79c5c99903",
+   "tests": [
+    "test:nicol-bolas:goldfish:eb082f96c1534f41"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:d31b752ea2a8",
+   "tests": [
+    "test:nicol-bolas:goldfish:fbfcd62c9d268da3"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:27806792a548",
+   "tests": [
+    "test:nicol-bolas:goldfish:fa4235fd0d8594e8"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:9cc7c91f4e64",
+   "tests": [
+    "test:nicol-bolas:goldfish:57e6fb60d66be3a3"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:4d25df1171eb",
+   "tests": [
+    "test:nicol-bolas:goldfish:e4def6657e062012"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:db433b3210a5",
+   "tests": [
+    "test:nicol-bolas:goldfish:966bb0c5858959ae"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:a2d126eeae69",
+   "tests": [
+    "test:nicol-bolas:goldfish:6432cc0157e2b55e"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:b7cf47887708",
+   "tests": [
+    "test:nicol-bolas:goldfish:170855a73af99ace"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:nicol-bolas:m5:dd45f09237e7",
+   "tests": [
+    "test:nicol-bolas:goldfish:573381ae35bcfce7"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:eb0a639d6280",
+   "tests": [
+    "test:nicol-bolas:goldfish:5695a4796307d15a"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:561f4ff2b61b",
+   "tests": [
+    "test:nicol-bolas:goldfish:7139761d51c736c5"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:14e99f762bfb",
+   "tests": [
+    "test:nicol-bolas:goldfish:99f522ecdad7077a"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:578d0b18ed92",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:2218fb97483f",
+   "tests": [
+    "test:nicol-bolas:goldfish:025fa27d19ba5a2e"
+   ]
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1fe2cb7c0bb0",
+   "tests": [
+    "test:nicol-bolas:goldfish:f90737c6ba273b1c"
+   ]
+  },
+  {
+   "adds": [
+    "Bandit's Talent"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:ed291a2bb3f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:1fe92c15eea6",
+   "tests": [
+    "test:nicol-bolas:goldfish:5968e6a396ac5377"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:b95bbecb197e",
+   "tests": [
+    "test:nicol-bolas:goldfish:6bdbe299bd368cc9"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:55f006511d2f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:1d1b55f387a9",
+   "tests": [
+    "test:nicol-bolas:goldfish:d76a5823712afd94"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:92d2b993b29f",
+   "tests": [
+    "test:nicol-bolas:goldfish:73dbcc182355f4b8"
+   ]
+  },
+  {
+   "adds": [
+    "Carnelian Orb of Dragonkind"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:def5bcc9c61e",
+   "tests": [
+    "test:nicol-bolas:goldfish:57e71095c0779c0c"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:324092ed1212",
+   "tests": [
+    "test:nicol-bolas:goldfish:56dcd967a9aa248e"
+   ]
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:1e6f5ef61b5a",
+   "tests": [
+    "test:nicol-bolas:goldfish:34879b99dc3df9c6"
+   ]
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:902846e3147f",
+   "tests": [
+    "test:nicol-bolas:goldfish:c93823d5772057e7"
+   ]
+  },
+  {
+   "adds": [
+    "Blizzard Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:eb68d86d6bcc",
+   "tests": [
+    "test:nicol-bolas:goldfish:2e19f4a7eb61b091"
+   ]
+  },
+  {
+   "adds": [
+    "Plague of Vermin"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:5383745dbc0e",
+   "tests": [
+    "test:nicol-bolas:goldfish:0eef9d19632b12f2"
+   ]
+  },
+  {
+   "adds": [
+    "Plague of Vermin"
+   ],
+   "cuts": [
+    "Torment of Hailfire"
+   ],
+   "id": "swap:nicol-bolas:m5:535e7ab6a018",
+   "tests": [
+    "test:nicol-bolas:goldfish:5babe5d8fe6c33fa"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:e2bcb2097208",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:7ad2f9804534",
+   "tests": [
+    "test:nicol-bolas:goldfish:f57bf48a4d932fac"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:e35074534830",
+   "tests": [
+    "test:nicol-bolas:goldfish:fa0c9a82a44dcc65"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:bba99efbc350",
+   "tests": [
+    "test:nicol-bolas:goldfish:8bae2e4be981786b"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:ff9cc84d14de",
+   "tests": [
+    "test:nicol-bolas:goldfish:6323aa49f0edf90b"
+   ]
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nicol-bolas:m5:dc2cbbed98f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:2c6ddeedce68",
+   "tests": [
+    "test:nicol-bolas:goldfish:84f4f17236de06cf"
+   ]
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:3adba7cabda7",
+   "tests": [
+    "test:nicol-bolas:goldfish:74486e96136c7888"
+   ]
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:0bcd7dafe809",
+   "tests": [
+    "test:nicol-bolas:goldfish:fd4b55a8a6f4b3c3"
+   ]
+  },
+  {
+   "adds": [
+    "Nevinyrral's Disk"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:8fa1cab3ec7e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Charcoal Diamond"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:617f7808b879",
+   "tests": [
+    "test:nicol-bolas:goldfish:3568779a5c8241f2"
+   ]
+  },
+  {
+   "adds": [
+    "Sky Diamond"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:867568837098",
+   "tests": [
+    "test:nicol-bolas:goldfish:5469bdc837f4c16c"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:9064c5e1267d",
+   "tests": [
+    "test:nicol-bolas:goldfish:755448ab7d0df623"
+   ]
+  },
+  {
+   "adds": [
+    "Sanar, Unfinished Genius // Wild Idea"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:46a8b300dfcf",
+   "tests": [
+    "test:nicol-bolas:goldfish:cdf5ef8ffbd09469"
+   ]
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:665ea574d313",
+   "tests": [
+    "test:nicol-bolas:goldfish:917e67015cc3ff7d"
+   ]
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:a8f3a1490888",
+   "tests": [
+    "test:nicol-bolas:goldfish:b6258849a4354eac"
+   ]
+  },
+  {
+   "adds": [
+    "Obelisk of Grixis"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:41e530ce9e95",
+   "tests": [
+    "test:nicol-bolas:goldfish:ef9154b10eb69381"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:ae85aa5908a2",
+   "tests": [
+    "test:nicol-bolas:goldfish:96ae629afbaad635"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:052362a9d464",
+   "tests": [
+    "test:nicol-bolas:goldfish:1d4eaae9b27e8e84"
+   ]
+  },
+  {
+   "adds": [
+    "Perplex"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:nicol-bolas:m5:f74ccd8bfdd0",
+   "tests": [
+    "test:nicol-bolas:goldfish:aa895a5a63259820"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:08b6e1d6dca2",
+   "tests": [
+    "test:nicol-bolas:goldfish:bc4efd7094b96f11"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:nicol-bolas:m5:03ff539d8c31",
+   "tests": [
+    "test:nicol-bolas:goldfish:8475bd1d93a0709e"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:66462959a1ce",
+   "tests": [
+    "test:nicol-bolas:goldfish:656093016efce70a"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Diamond"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:97c9e5e165ec",
+   "tests": [
+    "test:nicol-bolas:goldfish:3569ef22b510aa3d"
+   ]
+  },
+  {
+   "adds": [
+    "Countersquall"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:nicol-bolas:m5:f32ccc33a957",
+   "tests": [
+    "test:nicol-bolas:goldfish:304a71e8cc967125"
+   ]
+  },
+  {
+   "adds": [
+    "Krosan Verge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:093de06c30a1",
+   "tests": [
+    "test:nicol-bolas:goldfish:a0a3e125fb15f368"
+   ]
+  },
+  {
+   "adds": [
+    "Brokers Hideout"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:ce697ded070e",
+   "tests": [
+    "test:nicol-bolas:goldfish:7bbcdf7d81632a37"
+   ]
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:e47104d70f65",
+   "tests": [
+    "test:nicol-bolas:goldfish:1de68133317aaf51"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:c3dbd7dee431",
+   "tests": [
+    "test:nicol-bolas:goldfish:03bf6943203a4f44"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nicol-bolas:m5:9b320d81ea19",
+   "tests": [
+    "test:nicol-bolas:goldfish:e08157536ee88598"
+   ]
+  },
+  {
+   "adds": [
+    "Scythe Specter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:nicol-bolas:m5:6cdf1d51c731",
+   "tests": [
+    "test:nicol-bolas:goldfish:c8e1a7d60fd6225d"
+   ]
+  },
+  {
+   "adds": [
+    "Maelstrom of the Spirit Dragon"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas:m5:d1812e6768b5",
+   "tests": [
+    "test:nicol-bolas:goldfish:6c5f80e45298e314"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:64f61085dadc",
+   "tests": [
+    "test:nicol-bolas:goldfish:a38ed4d5fcd7018d"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:dd86e8456051",
+   "tests": [
+    "test:nicol-bolas:goldfish:0d70ed09fb3d38ad"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:ddec7b04ce0f",
+   "tests": [
+    "test:nicol-bolas:goldfish:ea9a4c3a3bc884fd"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:nicol-bolas:m5:e90901eec7f4",
+   "tests": [
+    "test:nicol-bolas:goldfish:ec44eea153be92ad"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:9cd36697a7dc",
+   "tests": [
+    "test:nicol-bolas:goldfish:2eef8380834552e9"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Quicksilver Dagger"
+   ],
+   "id": "swap:nicol-bolas:m5:f8b0f6602eb5",
+   "tests": [
+    "test:nicol-bolas:goldfish:3304b22d67dc8a9c"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:4e92744d4b81",
+   "tests": [
+    "test:nicol-bolas:goldfish:6b68275c18d34d77"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:f02e42a66d6f",
+   "tests": [
+    "test:nicol-bolas:goldfish:9c0fbda2ba204946"
+   ]
+  },
+  {
+   "adds": [
+    "Dawnsire, Sunstar Dreadnought"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:nicol-bolas:m5:e447c6ef68bb",
+   "tests": [
+    "test:nicol-bolas:goldfish:0de8c6397d7dea4d"
+   ]
+  },
+  {
+   "adds": [
+    "Dawnsire, Sunstar Dreadnought"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:nicol-bolas:m5:958dc1cea187",
+   "tests": [
+    "test:nicol-bolas:goldfish:08ae1bebdaba4375"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:nicol-bolas:m5:ebb0b7b2c461",
+   "tests": [
+    "test:nicol-bolas:goldfish:2b677d77338f3a7f"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:473e928883cc",
+   "tests": [
+    "test:nicol-bolas:goldfish:dd3363bf4a6d9bfa"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Pain for All"
+   ],
+   "id": "swap:nicol-bolas:m5:69043412ae9b",
+   "tests": [
+    "test:nicol-bolas:goldfish:e7628d25add715dc"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:e6097387760b",
+   "tests": [
+    "test:nicol-bolas:goldfish:1c2e76b26d6a2c79"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Viridian Longbow"
+   ],
+   "id": "swap:nicol-bolas:m5:d91a5d3755a3",
+   "tests": [
+    "test:nicol-bolas:goldfish:f84046eda0cdb53e"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:55ba0d33fb50",
+   "tests": [
+    "test:nicol-bolas:goldfish:140718dab63b4a27"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:nicol-bolas:m5:2c2360166011",
+   "tests": [
+    "test:nicol-bolas:goldfish:fb2a28de8abed5a1"
+   ]
+  },
+  {
+   "adds": [
+    "Ill-Tempered Loner // Howlpack Avenger"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:0dd3e8585d84",
+   "tests": [
+    "test:nicol-bolas:goldfish:97ed9d0098cd0985"
+   ]
+  },
+  {
+   "adds": [
+    "Ill-Tempered Loner // Howlpack Avenger"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:a6bde2309502",
+   "tests": [
+    "test:nicol-bolas:goldfish:9876acbd6ed6e1b7"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas:m5:166a1009d30f",
+   "tests": [
+    "test:nicol-bolas:goldfish:4c06438800a76c17"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:nicol-bolas:m5:0ee6e4ed6241",
+   "tests": [
+    "test:nicol-bolas:goldfish:45edfb8048644506"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:790cf770b27d",
+   "tests": [
+    "test:nicol-bolas:goldfish:3f72463045158d8e"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:63d24b8ab329",
+   "tests": [
+    "test:nicol-bolas:goldfish:d5d7a422954bcf00"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:98b8ae0a9fa2",
+   "tests": [
+    "test:nicol-bolas:goldfish:3192128cd76b8d8a"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:8bc8672541b0",
+   "tests": [
+    "test:nicol-bolas:goldfish:bb38257b87705d48"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "id": "swap:nicol-bolas:m5:0a1a169a0434",
+   "tests": [
+    "test:nicol-bolas:goldfish:b439530df32cf33e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Ingris Stingerquill"
+   ],
+   "id": "swap:nicol-bolas:m5:d026abd8b8d0",
+   "tests": [
+    "test:nicol-bolas:goldfish:109c8dca37aae880"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:nicol-bolas:goldfish:2867b7e03b553264",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:1ba7b6e5cb139d67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:b467f5ac4a84632e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:2338ef10220cef36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:d872fafdc0ccefc3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:369101b32aeec316",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:5cb0adfe36e06cae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:64b9615a9183f16f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:f6a8bee6f620c86a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6dcc0f63fd8e68b3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:069c4cac7d71f30e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6b92d1c87513fc44",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:e809c9d329cb782e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6bf6c107abaceec3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:9216cf73003f331e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3acf705a53b5551f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:f423351014a66302",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:cd37754229b41545",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:2c1ea993afc7cb38",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:f06ec3d65fcb72d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:c0957765fb16f71b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:2090ebf41ef40596",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:e42a7bb218d60031",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:a78e69dfe6aed1c6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:5329c3f9dfd19ddc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:87630fe8bb512e5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:718583064f11a5bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3d6aca2334a02d86",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:9cf419baeca019b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:e4161e455503c8b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:de27ce8a2c195568",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:7c9ff344167cb519",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:84868e5501232500",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:c572b1ff20fc2868",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:df93a4d611eed833",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:21facd5061d1c691",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:99b7087afc9a4477",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:663e0e940dad4264",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fcf2e8bfa3b48311",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:93b6b66aef46e7a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:36a1bb13c02c7051",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:534e7c86ab0d73e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3ca22684419b7ffc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:4a0a588862422ff6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:668c7bbed2950152",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:707906819e557df7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:89498bfd63086c89",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:1de0a8dc00a6714e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:184ed28dd5aa3ab3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:37c4b0d7440432eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:d40911d6473d3054",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:54b28cd43a2199c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:b15087e0cd1532ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:c6fbc8a086cfb0bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:ad4f9d363ed0714f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:dc866b1aced902bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fe7c4f8d0f5901df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:80aadcbf6b886cb7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:eb082f96c1534f41",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fbfcd62c9d268da3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fa4235fd0d8594e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:57e6fb60d66be3a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:e4def6657e062012",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:966bb0c5858959ae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6432cc0157e2b55e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:170855a73af99ace",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:573381ae35bcfce7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:5695a4796307d15a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:7139761d51c736c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:99f522ecdad7077a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:025fa27d19ba5a2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:f90737c6ba273b1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:5968e6a396ac5377",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6bdbe299bd368cc9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:d76a5823712afd94",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:73dbcc182355f4b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:57e71095c0779c0c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:56dcd967a9aa248e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:34879b99dc3df9c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:c93823d5772057e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:2e19f4a7eb61b091",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:0eef9d19632b12f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:5babe5d8fe6c33fa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:f57bf48a4d932fac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fa0c9a82a44dcc65",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:8bae2e4be981786b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6323aa49f0edf90b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:84f4f17236de06cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:74486e96136c7888",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fd4b55a8a6f4b3c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3568779a5c8241f2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:5469bdc837f4c16c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:755448ab7d0df623",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:cdf5ef8ffbd09469",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:917e67015cc3ff7d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:b6258849a4354eac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:ef9154b10eb69381",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:96ae629afbaad635",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:1d4eaae9b27e8e84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:aa895a5a63259820",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:bc4efd7094b96f11",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:8475bd1d93a0709e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:656093016efce70a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3569ef22b510aa3d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:304a71e8cc967125",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:a0a3e125fb15f368",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:7bbcdf7d81632a37",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:1de68133317aaf51",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:03bf6943203a4f44",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:e08157536ee88598",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:c8e1a7d60fd6225d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6c5f80e45298e314",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:a38ed4d5fcd7018d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:0d70ed09fb3d38ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:ea9a4c3a3bc884fd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:ec44eea153be92ad",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:2eef8380834552e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3304b22d67dc8a9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:6b68275c18d34d77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:9c0fbda2ba204946",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:0de8c6397d7dea4d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:08ae1bebdaba4375",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:2b677d77338f3a7f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:dd3363bf4a6d9bfa",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:e7628d25add715dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:1c2e76b26d6a2c79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:f84046eda0cdb53e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:140718dab63b4a27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:fb2a28de8abed5a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:97ed9d0098cd0985",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:9876acbd6ed6e1b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:4c06438800a76c17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:45edfb8048644506",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3f72463045158d8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:d5d7a422954bcf00",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:3192128cd76b8d8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:bb38257b87705d48",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:b439530df32cf33e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas:goldfish:109c8dca37aae880",
+   "verdict": "inconclusive"
+  }
+ ]
+}

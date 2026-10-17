@@ -1,0 +1,4731 @@
+{
+ "deck_id": "Marchesa__the_Black_Rose",
+ "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "slug": "marchesa-the-black-rose",
+ "swaps": [
+  {
+   "adds": [
+    "Herald of Secret Streams"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b556cf59069d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:01d03bde413e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3670e1356d41",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6977bbe85a2dd0ee"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6057ec26dc52",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:cd9feafbab2d8ca3"
+   ]
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0f92fcc525c8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8357501d112b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d2cedfd597164118"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cac1bffac547",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a66e62c9c9e81687"
+   ]
+  },
+  {
+   "adds": [
+    "Opal Palace"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:239650e0cb80",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7a96f4d855b6eb77"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Raiju"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3d784036b935",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mark of Mutiny"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:32e5bec10df4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c3b3ac0abaa8",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2880605fe8c3c2e8"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e15ecc5e4ec3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9b0a194821f22bc6"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f3f768032bf4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2e67f20594b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:aa3825d6e39b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:26df5404054d36b3"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4c84ded148f6",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c9dfecbe66b1b481"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodtracker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:adbd9c686e36",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:78434ad3cce4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guildmages' Forum"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:532cbb564573",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2bf46481a238f519"
+   ]
+  },
+  {
+   "adds": [
+    "Feast on the Fallen"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f580e1b1e677",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chasm Skulker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:611d1cdcbb90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1ff1bd73544e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:53437c9655bc",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a11b7e54dee9c4f8"
+   ]
+  },
+  {
+   "adds": [
+    "Voldaren Thrillseeker"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:878d5eefb63a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:35459413be01",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1517a729fbbd839a"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:990cf9e9305e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5c12498b67f39d70"
+   ]
+  },
+  {
+   "adds": [
+    "First Day of Class"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d3883ee03e25",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a65906552fa17df6"
+   ]
+  },
+  {
+   "adds": [
+    "First Day of Class"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a7a67d97e244",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:56cc2b13ecc453ac"
+   ]
+  },
+  {
+   "adds": [
+    "Immersturm Predator"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4258f521d4e8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d6dac9da3e9a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:19dbb75612cfbee6"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:73e52740b0f9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:48ec3e0914ba0ffb"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:681a3ac19d7a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:54c47e6e4007059b"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7c807a62cd36",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a0129c3c658e6e68"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8794214dfb4d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:83937207fedecd01"
+   ]
+  },
+  {
+   "adds": [
+    "Cytoplast Manipulator"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f663dfbfa0a4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:33c243a30cb2ad52"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f54a199048de",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6173d05a21b7d981"
+   ]
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6977ae6a2470",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:30fd526a93ba4253"
+   ]
+  },
+  {
+   "adds": [
+    "Siren Stormtamer"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:65d1decc1e20",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Village Rites"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d0d17e108cdf",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1137410e0d09bc3d"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f6bc9c10e5f8",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:67c3cb2bb510a28a"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9921f7833a40",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a403008f2d9dac15"
+   ]
+  },
+  {
+   "adds": [
+    "Tombstone Stairwell"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bb62da601f01",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ae5c9b4a856656d2"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5c5799691863",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Walking Ballista"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:59c89ac5f41d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fae8dfdcaec00e58"
+   ]
+  },
+  {
+   "adds": [
+    "Walking Ballista"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:571923157e02",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f098d63f69021018"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7b5a610627cb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c7bfe6b9cd9045d5"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5f9c8c0771be",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:4a584d79ee1deec3"
+   ]
+  },
+  {
+   "adds": [
+    "Tyrite Sanctum"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:da04c79ad669",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f3d4eb8a613b6bd1"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5ae5612ee578",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e95722127ecb655b"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7894afdcda3c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2543c8cdf593bd0c"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ad2e59372b6d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:84af47a51e9c85d0"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:baa8b14cc041",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:423095eb26499d14"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:92c7d713c99c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:51a18234ae7c7bc2"
+   ]
+  },
+  {
+   "adds": [
+    "Nesting Grounds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f55a945bb90f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2056b70df007c79f"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b919f101de30",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7dbdc0d15c7a93cc"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9f8419cfd1d7",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e1dd331aef2bd486"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3a9da5a23010",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d6d125f0ab812d21"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9f34856c6ae9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:17483b881683c4b1"
+   ]
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e2bb01604e5b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9920ed62ada19729"
+   ]
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4d50c7e8b8d4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:14defe1e2c4165c0"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b7f26a570b5a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b62f582e959ab390"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a159fd9be8f2",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f536e3ad27c016b0"
+   ]
+  },
+  {
+   "adds": [
+    "The Mindskinner"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1b9d068d6581",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5b367abdc14334f2"
+   ]
+  },
+  {
+   "adds": [
+    "The Mindskinner"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:77f75821a5f7",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1d759e7abc868ee6"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2b0e1aca42d3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:67d76767a4318d45"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:28e53f32d443",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:404ab73b193b5ebc"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ea03a4f50e54",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:baec69c3f79aca89"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:11b7b40fbe9b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9254945aad553e88"
+   ]
+  },
+  {
+   "adds": [
+    "Blade of the Bloodchief"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:af4906489891",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:8bdb79c30d9c202a"
+   ]
+  },
+  {
+   "adds": [
+    "Blade of the Bloodchief"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:fb660683b8bf",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1bdc3b60c5986e30"
+   ]
+  },
+  {
+   "adds": [
+    "Crystalline Crawler"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:888c77b04f66",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:07dbf10e7cc5818c"
+   ]
+  },
+  {
+   "adds": [
+    "Crystalline Crawler"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2eee7484d231",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0782ac268c464c8e"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7a132d2f43d3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2064a2f9d0a58302"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:81961dcc9ec7",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:df8f429223b62f1a"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b3da5707595d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:65e3dfa81254177f"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c6fb5157dc21",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:faf4e0538a1f2e3b"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ed43d46fe2e5",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:68eb63bb202129c4"
+   ]
+  },
+  {
+   "adds": [
+    "Plague Belcher"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5f528dce5fda",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:247020e2c0103f40"
+   ]
+  },
+  {
+   "adds": [
+    "Plague Belcher"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8641aaaf8b81",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7d91d810b2683879"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8318b9cc0b82",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e746ebda8e837b4b"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f6f567dec198",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1d4900762051db90"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b34d697313b2",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c567e3861a6c45c7"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:851457f8a007",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0021ed635f1cd1b0"
+   ]
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bfff9f5cc129",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3497104b15c22764"
+   ]
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:647fe3866581",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:8c2c7c73fb70c998"
+   ]
+  },
+  {
+   "adds": [
+    "Triskelion"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:52bd442444dd",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5370742e277018f8"
+   ]
+  },
+  {
+   "adds": [
+    "Triskelion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9a97408509dd",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ceed6fe5a5d9f088"
+   ]
+  },
+  {
+   "adds": [
+    "Fumulus, the Infestation"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:545f6986ae68",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:823b57d3a67684c2"
+   ]
+  },
+  {
+   "adds": [
+    "Fumulus, the Infestation"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d3563df8a93c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5f099b9e18108a6c"
+   ]
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c2cfa7f48c4d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d1c773f5e74cac4d"
+   ]
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9745c5e74a32",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:91a585607e678f0f"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f16cb0c3c317",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:91e711ec75f2be8a"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7f3ec3437084",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:36976efb2c07ab1b"
+   ]
+  },
+  {
+   "adds": [
+    "Retribution of the Ancients"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7033aa61d456",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:be0c6a051e1f7e1b"
+   ]
+  },
+  {
+   "adds": [
+    "Retribution of the Ancients"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f5664506cf25",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0f3cede01a8d62ac"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptic Trilobite"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7d8aceb55b2c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ade4bc408446aa79"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptic Trilobite"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4f41334c1b09",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:427bea2889112175"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cb2de87acc5b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:395a1549d2b056f7"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:03dd5630ed1b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6f1de79ab1a0380b"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:30547ec7b931",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fd95b54ea6d909f1"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:de4997b8c6bb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5f02a1efad34a5fb"
+   ]
+  },
+  {
+   "adds": [
+    "Dictate of Erebos"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ac6f9af05947",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1b8f2819c99e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d04ed20950e116f0"
+   ]
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f153f228c9ac",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e2a2b348a50485f3"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9963647961a1",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5048bbddd3ed44b2"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ace0d53fb507",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:99688fd2865b0790"
+   ]
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:29ffecd51f47",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:eda307a85223328d"
+   ]
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:394867236b16",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:057b8862a53cdfb5"
+   ]
+  },
+  {
+   "adds": [
+    "Moonshadow"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e4ebd3102df7",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6d1be4ff55fbb508"
+   ]
+  },
+  {
+   "adds": [
+    "Moonshadow"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bc1eabd5dd49",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:4bf6fb8aaaa4fb08"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:58215b35c1d0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5f4078468be7a2ae"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dd4abb1f2042",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:eb5e3d946058f76a"
+   ]
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0fbc1ce3931e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:baf0a29418e0c7ed"
+   ]
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5625931a537e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0d6cd65bad199900"
+   ]
+  },
+  {
+   "adds": [
+    "Flitterwing Nuisance"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bf6dc406be58",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d914217d3bbaad60"
+   ]
+  },
+  {
+   "adds": [
+    "Flitterwing Nuisance"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:07cef6770c8c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:052a34deb1d174bb"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a98fc6b145f3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6d41f6bf358f9b0d"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9af80a4fa99a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3a894040e8086f9d"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, Uthros Exile"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4897d87a4a44",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6f24a4b8942b7824"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, Uthros Exile"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6a369fc0d8ab",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:32476a35fded7fca"
+   ]
+  },
+  {
+   "adds": [
+    "Rat King, Pale Piper"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:376bcfb0bc34",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:eed1281b1db8c1e6"
+   ]
+  },
+  {
+   "adds": [
+    "Rat King, Pale Piper"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c2193d0f0da9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1e8da75ce2758904"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:18825eea324b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:09a8f26764f97b12"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d32a0ef9dec0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c7e51084c60fcbfb"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, the Bloodflame"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c575657aea2a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:35969dfab2dcf14b"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, the Bloodflame"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9dc7043a3bdc",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:23a4d5e593056b63"
+   ]
+  },
+  {
+   "adds": [
+    "Skittering Precursor"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e65001f3a4bf",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e6acd23c7c257961"
+   ]
+  },
+  {
+   "adds": [
+    "Skittering Precursor"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:89d401f2e5c2",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:eebf97a45f95a98c"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8b9feb256812",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e2e44feaf2b80701"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9b9718071555",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d0b5d65d706f6577"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a1bfb03f4bb3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fe3e5cefa28fb2d8"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0d0e0da4470e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0c88061359b7f953"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia, Mobilized for War"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:47350e78bc6d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f79bf43d4a6443dc"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia, Mobilized for War"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:159efd55c022",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2322d10d42ee0a1f"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d3b0fb1ac8eb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9ef1ae5496af3149"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e10de6124cb0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:92caece70d1ea808"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:80b7d390a569",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:64ff3792aa1903c6"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:30c67043109d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f86921b99581a50f"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6e7ca55f154e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:86939ee050ef511c"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:00a1c1da8464",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:22fd454faa5bd8c6"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a8fff8861df2",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b357b98e80f7927a"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:92b602a6d062",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0e49d0c0ad5cc279"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f29040da976f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ec67b2b0c5de688e"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:14f8b8bbd51d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:05c6a9b9a9d70d56"
+   ]
+  },
+  {
+   "adds": [
+    "Deathbringer Thoctar"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:55f1cb7d7774",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2540a7241e50db70"
+   ]
+  },
+  {
+   "adds": [
+    "Deathbringer Thoctar"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:94f669eede55",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c08a27585f84019a"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c592993aa41a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:cd8afa440962d7e4"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b5e37fb734d9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f89b418d502b72af"
+   ]
+  },
+  {
+   "adds": [
+    "Workhorse"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9dfc77c24f91",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:924049bed889d343"
+   ]
+  },
+  {
+   "adds": [
+    "Workhorse"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cd89715aee38",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ac02004ea451c524"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:95c50a569e6c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b5fdd7a35a3e8f2c"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a80ef465dd7a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5354cf6ac6cb419e"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f58c92273308",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:dfcfcd647bee410c"
+   ]
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:71ed34aef0b1",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:55735f2db459a7a8"
+   ]
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:05f65b03b0ce",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:bf8aa65eb9fcc995"
+   ]
+  },
+  {
+   "adds": [
+    "Heirloom Auntie"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f3207d0ca78e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:17942a6c7c5fa6cf"
+   ]
+  },
+  {
+   "adds": [
+    "Heirloom Auntie"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:85106a2c0a74",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:dcc0cf82d0ff362e"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Bastion"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:af34827b14e0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d981ffc68403cb59"
+   ]
+  },
+  {
+   "adds": [
+    "Bridge from Below"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7c53cd1c184e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:df7eb594faf38d67"
+   ]
+  },
+  {
+   "adds": [
+    "Bridge from Below"
+   ],
+   "cuts": [
+    "River Kelpie"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4602d734a029",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e033abbaa672c44d"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:07f950170531",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:19e01c55b998a447"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e35b13e1b880",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e9fdac463a9c8635"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Capture"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9bce94a16013",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Immortal Phoenix"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8d4a33a61a66",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a362bf5082b293d9"
+   ]
+  },
+  {
+   "adds": [
+    "Immortal Phoenix"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:53566d86ddb6",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ccee553f426fb422"
+   ]
+  },
+  {
+   "adds": [
+    "Monoskelion"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:06f1f15e9e4b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:8521e4ddcd6fde83"
+   ]
+  },
+  {
+   "adds": [
+    "Monoskelion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:255a6f92603e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:258c66512ac936bb"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Bridge"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4030fe675434",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1b22a8ecfe3e3709"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Bridge"
+   ],
+   "cuts": [
+    "River Kelpie"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dfa96ccc526f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3d026527efe65883"
+   ]
+  },
+  {
+   "adds": [
+    "Zodiac Dragon"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4aa2c8109bad",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9900f70b69209efb"
+   ]
+  },
+  {
+   "adds": [
+    "Zodiac Dragon"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dd385c107303",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c0ef674a338e2e96"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0675a8404337",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1c85619a1583c854"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5e3ef8363813",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b7ea2a4714913d3a"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:06dbd8d69663",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1daa2eff1d47b511"
+   ]
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c0a09c402060",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9a04c5af64d1eba7"
+   ]
+  },
+  {
+   "adds": [
+    "Accursed Marauder"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6680ca6bd6b6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3efaa6865f19",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:01dcfa8018b7",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:cb2f6e040b6c3c4e"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:09f6cfebf79f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ebd2eef5d15d0263"
+   ]
+  },
+  {
+   "adds": [
+    "Vigean Graftmage"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2a568ade3aec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:681feea195e9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1ee3dcdb020b2c98"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5febf57aabe3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1c1259802a9b81e2"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c9b72553c1ef",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e237dcb23db8c408"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9bcdae9b2cf0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d3f5bd60cf9506a7"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:17ae31bee776",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:62110d23dfb14201"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:81b14ccef72d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:df42bf7b117777c6"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e6ea8a477085",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ed8f17ee1330961c"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bc8c761b4271",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fe6cfbe545c77a81"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5e3656b327a2",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:105bdebd60b26a7e"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ba5f0d8cb669",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fee40984ec9780fd"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0730d400c409",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2c64ac7277fe2a23"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a03962debdf8",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:94e1ec91dcc4c50f"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e96728f1af24",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7945d18f32269b9a"
+   ]
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:704146af8aea",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:16652be7c05240cb"
+   ]
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f79952567bea",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c7c28de76066a5b3"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bfb94dd5563e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:bdc539f938fcc2b2"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:004448b6cdcf",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d1e4090b371d584e"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:fbb2f6482378",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:938777327c2364b8"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6a70ba4e735c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3289363de5c2b188"
+   ]
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9c5ac8f8d794",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fb905978019054a1"
+   ]
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:440bda8cb67d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:085f06007c1db7e4"
+   ]
+  },
+  {
+   "adds": [
+    "Kokusho, the Evening Star"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f093859653aa",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c7545ddd4309794a"
+   ]
+  },
+  {
+   "adds": [
+    "Kokusho, the Evening Star"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d6bf9819229e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:185ab277bf4db120"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1e679f8098d4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7ef677b125de6b7a"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cc7381afc496",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ffd33b8cb0c8d795"
+   ]
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5220ac90d1d5",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7d3de97abc80cedd"
+   ]
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bdb6ce3977bc",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:8af13d335285203d"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ada964de4a87",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2cbf44c265cfd2bc"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:902b7a9861f4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b6466b15f022b53b"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8da3a8089ac8",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ed318973627c04fb"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:364f07effac9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:4e04a9a97d0cd2a2"
+   ]
+  },
+  {
+   "adds": [
+    "Nest of Scarabs"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8699e993d8a8",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d0cf95d58af5814b"
+   ]
+  },
+  {
+   "adds": [
+    "Nest of Scarabs"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:28623fa6d65c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:963bfe89fc5eb095"
+   ]
+  },
+  {
+   "adds": [
+    "Sifter of Skulls"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4325ae458c1d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:bddfaed8386eccbb"
+   ]
+  },
+  {
+   "adds": [
+    "Sifter of Skulls"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3898e2ba25ec",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:726470d6ad5b67c8"
+   ]
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:903584d99853",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:23c0a291c3c3a883"
+   ]
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c721d3a4285b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:a1746428e2a652e6"
+   ]
+  },
+  {
+   "adds": [
+    "Open the Graves"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:089419ea1f4f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:33875655983d73c7"
+   ]
+  },
+  {
+   "adds": [
+    "Open the Graves"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3d64c2ec848d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f2ec17203710675c"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:87654217779a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:082cfaf1355de9cb"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:33210d4a2f15",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:1761cd1ac67b5bd2"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f0603109c023",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:42e5072ed37657f6"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:aff3238892ef",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f42788d55d6512eb"
+   ]
+  },
+  {
+   "adds": [
+    "Carnifex Demon"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:88ea9f42b9c4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:dfb2bd21c922c707"
+   ]
+  },
+  {
+   "adds": [
+    "Carnifex Demon"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8f8e36ad7711",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0c559f4da080f1ac"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:30863cea7bef",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c32f192105d7549f"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:41dc92d5b03b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0e8120eff33b37e7"
+   ]
+  },
+  {
+   "adds": [
+    "Glen Elendra Guardian"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:00c1a4f85ad0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:8b05e18fc2a89c7b"
+   ]
+  },
+  {
+   "adds": [
+    "Glen Elendra Guardian"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:15d079d964f6",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0e14bccb7eed74aa"
+   ]
+  },
+  {
+   "adds": [
+    "Hex Parasite"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c048a498f1b4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f05be8fe8bb949a3"
+   ]
+  },
+  {
+   "adds": [
+    "Hex Parasite"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:45622415afcb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:289843df0b4bb94b"
+   ]
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:25913e520166",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:42a1d12fb5ef5d49"
+   ]
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e5f2f468a9aa",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:32a9d11e391f6a11"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4903485c1c5d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d7364e1cdd697b4a"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8b6e6b5b4d92",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:e5f72022c8a9ac30"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:16a06b24aeed",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:cdf1ea5357eff7d8"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1debd433bde1",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:14397358b98c69f8"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:db71c1dcab32",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:6ae2619b15109b7b"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f838595b2a23",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:4137a03a12d7bc67"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Poppet"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:34022a41ab7a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3ba6293d9c4e848e"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Poppet"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:305aff10118a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9610d00419511fc2"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e61dbd264470",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:bc5d991bb1139582"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:fb6cedd91956",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:084425f1d5a5728b"
+   ]
+  },
+  {
+   "adds": [
+    "Totentanz, Swarm Piper"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d1a1fbf4bb83",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5622748f5c218ce8"
+   ]
+  },
+  {
+   "adds": [
+    "Totentanz, Swarm Piper"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e9c598fb2575",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:cfefca54834d92fe"
+   ]
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5d6061b1dd99",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9db46396e3ce5630"
+   ]
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:088d94126cad",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2e483f50e8c2fb71"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5bfd9e474069",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b2b32a2928f20e40"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ac40dc4a0e3e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:adeecccd88d82685"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:734f5e79d96b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f04a22d8032023d9"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:daa2c0b9191c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:982a26c4fb6959ec"
+   ]
+  },
+  {
+   "adds": [
+    "Ashcloud Phoenix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1a82907a5f8d",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:24a6d8b6ed36406f"
+   ]
+  },
+  {
+   "adds": [
+    "Ashcloud Phoenix"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f58cf3ca6e95",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:aafa8a8892aa24cc"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ff4c61d3d53e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d55a95df0227e993"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0db1187cc21c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:fab99e132f174dc4"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d225067774bf",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:d2c50d331cff4bca"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:101dc0875127",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:eb5abe81b3efb3f5"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d70c813afeb0",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:87248e10b57260ba"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e29afa567fe8",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c4506c10b0ba8135"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:89c27dc77b6a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:feeb5dd5640241e3"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1267b1ca9c93",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:92cf44b7c6f26900"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:97e23f888568",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5d26bee6b8ff5012"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6fbbfcccb2b3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f0f472cc247a669f"
+   ]
+  },
+  {
+   "adds": [
+    "Loch Mare"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4cf067b04c9a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ea804f543eac5cdf"
+   ]
+  },
+  {
+   "adds": [
+    "Loch Mare"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d816f32bfcb3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:30a6013ce9f2bcba"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9288f0cf753a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3ae718889e324801"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dde9741cb25a",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b190438572d1fbbf"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9d6782feff28",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:bb44f83fea5b1450"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:af1a33af2aeb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b716a228c6f89934"
+   ]
+  },
+  {
+   "adds": [
+    "Creakwood Safewright"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a5f86e663854",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b4a0be9ca8712f71"
+   ]
+  },
+  {
+   "adds": [
+    "Creakwood Safewright"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:75ca84b1ebcf",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:c6fc4b9097c14063"
+   ]
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:561d3f70a577",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:74f69c561f0cdbe7"
+   ]
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e272c2f8ff39",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ecfc4b68987ee7e2"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:abaab0165bdd",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7116dcac64ab5708"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:63a475f67e45",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7d449e39ff4b426d"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitive Puppet"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8b07bcc0d194",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:43ff85d3ed00f5b9"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitive Puppet"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cd89da459c02",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:56fc3b81ffc601da"
+   ]
+  },
+  {
+   "adds": [
+    "Phenomenon Investigators"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e1ae8ae73f55",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:3f5da7e313d0a265"
+   ]
+  },
+  {
+   "adds": [
+    "Phenomenon Investigators"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:85b05db253e1",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:80ed33d5887b5a10"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Seizer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:786b806a0cfb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:62358deab83791e5"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Seizer"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4e7f3e2f24d6",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2d5b4682fc8fa7e0"
+   ]
+  },
+  {
+   "adds": [
+    "Sway of the Stars"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3ff4a9d7fa35",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0b7fdb0857556161"
+   ]
+  },
+  {
+   "adds": [
+    "Sway of the Stars"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8a0e7729497c",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:ea1f767d17b0d004"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Spewer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6e79bc8df7b1",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:606298983605984a"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Spewer"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a980ed537ad5",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:b2d4c1fb7c23d73e"
+   ]
+  },
+  {
+   "adds": [
+    "Chainbreaker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7e5391a7a5f2",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:31b08ce8558771c6"
+   ]
+  },
+  {
+   "adds": [
+    "Chainbreaker"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6b7f7ad27c0f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:43173c9472cad8d8"
+   ]
+  },
+  {
+   "adds": [
+    "Antler Skulkin"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:26500c4cbec9",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:64e7e27454c02c4a"
+   ]
+  },
+  {
+   "adds": [
+    "Antler Skulkin"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d8dd4b8d942f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:eed9d1cfb51c0ead"
+   ]
+  },
+  {
+   "adds": [
+    "Tatterkite"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b4a3346386da",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:dc38381f844d8fcb"
+   ]
+  },
+  {
+   "adds": [
+    "Tatterkite"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ddf4db3ec538",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:709b0b1cc2d82c9d"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:27ae5d7d069f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9dbfa2e5805ec97f"
+   ]
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a208889fda43",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:9994b2017e60e179"
+   ]
+  },
+  {
+   "adds": [
+    "Soulstinger"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:07c0dc85f90e",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7728f935300ab2f0"
+   ]
+  },
+  {
+   "adds": [
+    "Soulstinger"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:51c98268c9b4",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:5eb645cac4052276"
+   ]
+  },
+  {
+   "adds": [
+    "Gnarlbark Elm"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d06ce934446f",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f07b33bb1808f3a6"
+   ]
+  },
+  {
+   "adds": [
+    "Gnarlbark Elm"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4b739905e1d3",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2ad48836f45fe155"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Phoenix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:68d20eafb68b",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:f612cd2937a7dd31"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Phoenix"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4372852ea272",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0d840dcf53bf1782"
+   ]
+  },
+  {
+   "adds": [
+    "Pith Driller"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5b20cca42804",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:0d2b4c370fec797b"
+   ]
+  },
+  {
+   "adds": [
+    "Pith Driller"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:66b3e6403019",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:2b9a21bb5f40858b"
+   ]
+  },
+  {
+   "adds": [
+    "Firestorm Phoenix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:96a0d56981e5",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:901e6ddb12d8ae07"
+   ]
+  },
+  {
+   "adds": [
+    "Firestorm Phoenix"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c8aa5bad85bb",
+   "tests": [
+    "test:marchesa-the-black-rose:goldfish:7167a7bc02a216a7"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6977bbe85a2dd0ee",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:cd9feafbab2d8ca3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d2cedfd597164118",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a66e62c9c9e81687",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7a96f4d855b6eb77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2880605fe8c3c2e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9b0a194821f22bc6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:26df5404054d36b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c9dfecbe66b1b481",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2bf46481a238f519",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a11b7e54dee9c4f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1517a729fbbd839a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5c12498b67f39d70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a65906552fa17df6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:56cc2b13ecc453ac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:19dbb75612cfbee6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:48ec3e0914ba0ffb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:54c47e6e4007059b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a0129c3c658e6e68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:83937207fedecd01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:33c243a30cb2ad52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6173d05a21b7d981",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:30fd526a93ba4253",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1137410e0d09bc3d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:67c3cb2bb510a28a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a403008f2d9dac15",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ae5c9b4a856656d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fae8dfdcaec00e58",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f098d63f69021018",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c7bfe6b9cd9045d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:4a584d79ee1deec3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f3d4eb8a613b6bd1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e95722127ecb655b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2543c8cdf593bd0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:84af47a51e9c85d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:423095eb26499d14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:51a18234ae7c7bc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2056b70df007c79f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7dbdc0d15c7a93cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e1dd331aef2bd486",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d6d125f0ab812d21",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:17483b881683c4b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9920ed62ada19729",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:14defe1e2c4165c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b62f582e959ab390",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f536e3ad27c016b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5b367abdc14334f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1d759e7abc868ee6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:67d76767a4318d45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:404ab73b193b5ebc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:baec69c3f79aca89",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9254945aad553e88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:8bdb79c30d9c202a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1bdc3b60c5986e30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:07dbf10e7cc5818c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0782ac268c464c8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2064a2f9d0a58302",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:df8f429223b62f1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:65e3dfa81254177f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:faf4e0538a1f2e3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:68eb63bb202129c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:247020e2c0103f40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7d91d810b2683879",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e746ebda8e837b4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1d4900762051db90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c567e3861a6c45c7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0021ed635f1cd1b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3497104b15c22764",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:8c2c7c73fb70c998",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5370742e277018f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ceed6fe5a5d9f088",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:823b57d3a67684c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5f099b9e18108a6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d1c773f5e74cac4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:91a585607e678f0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:91e711ec75f2be8a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:36976efb2c07ab1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:be0c6a051e1f7e1b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0f3cede01a8d62ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ade4bc408446aa79",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:427bea2889112175",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:395a1549d2b056f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6f1de79ab1a0380b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fd95b54ea6d909f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5f02a1efad34a5fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d04ed20950e116f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e2a2b348a50485f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5048bbddd3ed44b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:99688fd2865b0790",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:eda307a85223328d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:057b8862a53cdfb5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6d1be4ff55fbb508",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:4bf6fb8aaaa4fb08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5f4078468be7a2ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:eb5e3d946058f76a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:baf0a29418e0c7ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0d6cd65bad199900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d914217d3bbaad60",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:052a34deb1d174bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6d41f6bf358f9b0d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3a894040e8086f9d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6f24a4b8942b7824",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:32476a35fded7fca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:eed1281b1db8c1e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1e8da75ce2758904",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:09a8f26764f97b12",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c7e51084c60fcbfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:35969dfab2dcf14b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:23a4d5e593056b63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e6acd23c7c257961",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:eebf97a45f95a98c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e2e44feaf2b80701",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d0b5d65d706f6577",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fe3e5cefa28fb2d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0c88061359b7f953",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f79bf43d4a6443dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2322d10d42ee0a1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9ef1ae5496af3149",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:92caece70d1ea808",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:64ff3792aa1903c6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f86921b99581a50f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:86939ee050ef511c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:22fd454faa5bd8c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b357b98e80f7927a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0e49d0c0ad5cc279",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ec67b2b0c5de688e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:05c6a9b9a9d70d56",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2540a7241e50db70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c08a27585f84019a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:cd8afa440962d7e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f89b418d502b72af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:924049bed889d343",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ac02004ea451c524",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b5fdd7a35a3e8f2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5354cf6ac6cb419e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:dfcfcd647bee410c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:55735f2db459a7a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:bf8aa65eb9fcc995",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:17942a6c7c5fa6cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:dcc0cf82d0ff362e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d981ffc68403cb59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:df7eb594faf38d67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e033abbaa672c44d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:19e01c55b998a447",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e9fdac463a9c8635",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a362bf5082b293d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ccee553f426fb422",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:8521e4ddcd6fde83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:258c66512ac936bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1b22a8ecfe3e3709",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3d026527efe65883",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9900f70b69209efb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c0ef674a338e2e96",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1c85619a1583c854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b7ea2a4714913d3a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1daa2eff1d47b511",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9a04c5af64d1eba7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:cb2f6e040b6c3c4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ebd2eef5d15d0263",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1ee3dcdb020b2c98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1c1259802a9b81e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e237dcb23db8c408",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d3f5bd60cf9506a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:62110d23dfb14201",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:df42bf7b117777c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ed8f17ee1330961c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fe6cfbe545c77a81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:105bdebd60b26a7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fee40984ec9780fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2c64ac7277fe2a23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:94e1ec91dcc4c50f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7945d18f32269b9a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:16652be7c05240cb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c7c28de76066a5b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:bdc539f938fcc2b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d1e4090b371d584e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:938777327c2364b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3289363de5c2b188",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fb905978019054a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:085f06007c1db7e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c7545ddd4309794a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:185ab277bf4db120",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7ef677b125de6b7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ffd33b8cb0c8d795",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7d3de97abc80cedd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:8af13d335285203d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2cbf44c265cfd2bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b6466b15f022b53b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ed318973627c04fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:4e04a9a97d0cd2a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d0cf95d58af5814b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:963bfe89fc5eb095",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:bddfaed8386eccbb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:726470d6ad5b67c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:23c0a291c3c3a883",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:a1746428e2a652e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:33875655983d73c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f2ec17203710675c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:082cfaf1355de9cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:1761cd1ac67b5bd2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:42e5072ed37657f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f42788d55d6512eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:dfb2bd21c922c707",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0c559f4da080f1ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c32f192105d7549f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0e8120eff33b37e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:8b05e18fc2a89c7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0e14bccb7eed74aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f05be8fe8bb949a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:289843df0b4bb94b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:42a1d12fb5ef5d49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:32a9d11e391f6a11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d7364e1cdd697b4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:e5f72022c8a9ac30",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:cdf1ea5357eff7d8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:14397358b98c69f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:6ae2619b15109b7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:4137a03a12d7bc67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3ba6293d9c4e848e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9610d00419511fc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:bc5d991bb1139582",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:084425f1d5a5728b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5622748f5c218ce8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:cfefca54834d92fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9db46396e3ce5630",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2e483f50e8c2fb71",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b2b32a2928f20e40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:adeecccd88d82685",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f04a22d8032023d9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:982a26c4fb6959ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:24a6d8b6ed36406f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:aafa8a8892aa24cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d55a95df0227e993",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:fab99e132f174dc4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:d2c50d331cff4bca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:eb5abe81b3efb3f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:87248e10b57260ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c4506c10b0ba8135",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:feeb5dd5640241e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:92cf44b7c6f26900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5d26bee6b8ff5012",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f0f472cc247a669f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ea804f543eac5cdf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:30a6013ce9f2bcba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3ae718889e324801",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b190438572d1fbbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:bb44f83fea5b1450",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b716a228c6f89934",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b4a0be9ca8712f71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:c6fc4b9097c14063",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:74f69c561f0cdbe7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ecfc4b68987ee7e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7116dcac64ab5708",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7d449e39ff4b426d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:43ff85d3ed00f5b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:56fc3b81ffc601da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:3f5da7e313d0a265",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:80ed33d5887b5a10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:62358deab83791e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2d5b4682fc8fa7e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0b7fdb0857556161",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:ea1f767d17b0d004",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:606298983605984a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:b2d4c1fb7c23d73e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:31b08ce8558771c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:43173c9472cad8d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:64e7e27454c02c4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:eed9d1cfb51c0ead",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:dc38381f844d8fcb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:709b0b1cc2d82c9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9dbfa2e5805ec97f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:9994b2017e60e179",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7728f935300ab2f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:5eb645cac4052276",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f07b33bb1808f3a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2ad48836f45fe155",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:f612cd2937a7dd31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0d840dcf53bf1782",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:0d2b4c370fec797b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:2b9a21bb5f40858b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:901e6ddb12d8ae07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-the-black-rose:goldfish:7167a7bc02a216a7",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

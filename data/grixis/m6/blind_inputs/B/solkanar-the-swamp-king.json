@@ -1,0 +1,3505 @@
+{
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "slug": "solkanar-the-swamp-king",
+ "swaps": [
+  {
+   "adds": [
+    "Sanguine Bond"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:62595520eafc",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:d76b4671dd20a4ad"
+   ]
+  },
+  {
+   "adds": [
+    "Sanguine Bond"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6be0ec716781",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:8499931a6cc1b7f4"
+   ]
+  },
+  {
+   "adds": [
+    "Epicure of Blood"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:39d10fb47d1a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:88dbd4c811805ba9"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Aerialist"
+   ],
+   "cuts": [
+    "Bloodthirsty Conqueror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7d12c282e411",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:855b65dd7f7b51b2"
+   ]
+  },
+  {
+   "adds": [
+    "Veinwitch Coven"
+   ],
+   "cuts": [
+    "Bloodthirsty Conqueror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3d293f1a8c6a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:1d5f4d07e2e92dca"
+   ]
+  },
+  {
+   "adds": [
+    "Defiant Bloodlord"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f3bc4a7fa8ba",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a4c79fe4973c33ed"
+   ]
+  },
+  {
+   "adds": [
+    "Staff of the Death Magus"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:07bcafe5cdf2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:5aee98b2469597d9"
+   ]
+  },
+  {
+   "adds": [
+    "Filth"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7522337f716d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6fc54f349a2b7a17"
+   ]
+  },
+  {
+   "adds": [
+    "Well of Lost Dreams"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ea09f4ced449",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Well of Lost Dreams"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eb72b5c47c44",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:327512d718d4543f"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:328b69d31715",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:4af3e14a80d8d0fd"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8e264ef4eac9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:76f338a32b17afef"
+   ]
+  },
+  {
+   "adds": [
+    "Greed"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3a4bbacd42ac",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:c84103ea985bb390"
+   ]
+  },
+  {
+   "adds": [
+    "Greed"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f34943efefea",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:1a601834beab9a7a"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Bloodthirsty Conqueror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0f61c43c480e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f3a452e9b615c144"
+   ]
+  },
+  {
+   "adds": [
+    "Diamond Mare"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6d0834038ea5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Diamond Mare"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:46e526de4608",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:5faab5869f51640f"
+   ]
+  },
+  {
+   "adds": [
+    "Evil Presence"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1a9c90e29aab",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:52e234bf1a14cbf0"
+   ]
+  },
+  {
+   "adds": [
+    "Prism Ring"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7a44c0385351",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prism Ring"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7c3666a6131a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a351c02a3c15d1f2"
+   ]
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c40a63d964fe",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:8308c018bd1efaf3"
+   ]
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5b8c6d25188b",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e27e1d095e0097c3"
+   ]
+  },
+  {
+   "adds": [
+    "Contaminated Ground"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:00810b3f6a2d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:08cf0f9a067a6d7e"
+   ]
+  },
+  {
+   "adds": [
+    "Defile"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9bdaa3421e00",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:db9e59d8325f62d4"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:64e1c30b11d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:863e781a075d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:8189699fac160c06"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f8c5122f36f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:35fc5b6e4b75",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:cea7324e481e6e0c"
+   ]
+  },
+  {
+   "adds": [
+    "Tainted Isle"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5ab46b5207be",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:733efed9baaf677c"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:67025400063f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:4358f821edb31de5"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e72f1bada23e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:3bc983a72c39bb2e"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:78ebc8be0be3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c5f1e420ace2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f5fc89e1af471957"
+   ]
+  },
+  {
+   "adds": [
+    "Countersquall"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c790a4a8c289",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Artist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3341bf9c1055",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7558ddb42c443890"
+   ]
+  },
+  {
+   "adds": [
+    "Tainted Peak"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3766e8e40ec9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:324562f98a148a1e"
+   ]
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c80f246df65b",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:90e6501eae6e74d0"
+   ]
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7732ceec7f87",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6313e1b8fa47b9f8"
+   ]
+  },
+  {
+   "adds": [
+    "Read the Bones"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3616c17dfde9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:d2f200663efc6ce9"
+   ]
+  },
+  {
+   "adds": [
+    "Read the Bones"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:73e54c24138e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:3fe3710cc6c845fa"
+   ]
+  },
+  {
+   "adds": [
+    "Kardur, Doomscourge"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d8c6eeda6033",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Moseo, Vein's New Dean"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7918551d9daa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:23a4f3b77ab3",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a1b84e18e4b07413"
+   ]
+  },
+  {
+   "adds": [
+    "Wall of Limbs"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:26863b288a52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Essence Pulse"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:848445cf81b0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodfell Caves"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7f2d641fafcf",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:02acfcfcd8e032da"
+   ]
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6644775ac720",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:88b545d543265b1d"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:25c9b5180166",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scion of the Swarm"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f87c8353ea73",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fb5c001886ca9ea8"
+   ]
+  },
+  {
+   "adds": [
+    "Witch's Cottage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:61dc06720470",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:9659eeaeb3fe16bb"
+   ]
+  },
+  {
+   "adds": [
+    "Paradise Plume"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8776825f8e7b",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:eab8f4a8794dc7ff"
+   ]
+  },
+  {
+   "adds": [
+    "Infernal Grasp"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:314e5f17c429",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Defiling Daemogoth"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9c2827713740",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tainted Well"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1f60d3d3017a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fc5831cfb54cde27"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eda78708a87f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:099d1d948584f5ae"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana of the Dark Realms"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:01504fb432bb",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6bdd460e3cf46ea3"
+   ]
+  },
+  {
+   "adds": [
+    "Leechridden Swamp"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0b2cd5b12077",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fa4f932c845d0ace"
+   ]
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f87745f6b261",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:9322ff5596f376de"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a3f7dbed23a6",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2e6ad4ea7dfb9f35"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:42a3e7c6c385",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:26da990d110dab71"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0ba472bdfc00",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:723b38f6192526fb"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodbond Vampire"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:94688a201d2e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:194b635fab769cfb"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eae090da2aeb",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0dec6e685ec1be06"
+   ]
+  },
+  {
+   "adds": [
+    "Mutilate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:81f6fa43eed3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:441fc608b0d8",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:02160793366f997b"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:abd6fcc39597",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:cfe31753c89ac639"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b96ee1c60e63",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b3f8406d5fff55df"
+   ]
+  },
+  {
+   "adds": [
+    "Witch's Clinic"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3686050df802",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a220da80aff2e7ac"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6920eb3bbb76",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0905f8594aea4035"
+   ]
+  },
+  {
+   "adds": [
+    "Cabal Stronghold"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:49f48e34e403",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:52f568ef094a46d5"
+   ]
+  },
+  {
+   "adds": [
+    "Revenge of Ravens"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c0d3cbdc5326",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:095d4a4aa651",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7680591da8ba3b6a"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a2bbb55ecfb9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:af2de38acf23429c"
+   ]
+  },
+  {
+   "adds": [
+    "Bubbling Muck"
+   ],
+   "cuts": [
+    "Consuming Corruption"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e233884b319f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:1f4ea4ec95637055"
+   ]
+  },
+  {
+   "adds": [
+    "Castle Locthwain"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ef31c45d1649",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:81621edacfa2a8fa"
+   ]
+  },
+  {
+   "adds": [
+    "Fetid Pools"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:68a2b3c7e7c0",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:def89144e9be7d85"
+   ]
+  },
+  {
+   "adds": [
+    "Pristine Talisman"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ccc7e549950a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:9ae49875e8375654"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7da92ba508f7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Snuff Out"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:fc1d6c81eee8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ae8c44345b11",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0eecf5a2361e2fe3"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1306a9ec2384",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0c908031fa3162fd"
+   ]
+  },
+  {
+   "adds": [
+    "Canyon Slough"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:fe6f11fd2b48",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:ddc41ee4fcee7678"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ca2c4476546f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:4784ec537310eed2"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Exsanguinate"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:572b5db3aede",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7d38fafef5585cf4"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftwater Cliffs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:855d6147ce9c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:ba23552af5893986"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2386bd467f36",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:84bbe140d079b207"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e6763d71533b",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:3018bea8abf08a9a"
+   ]
+  },
+  {
+   "adds": [
+    "Diabolic Tutor"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:49c11e2f618e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7b18f41965ef10be"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f06ea7f50013",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:aa9759bc483ca671"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:da64ccfcad29",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:89083f455fb1dc42"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cb3255a2e572",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6664343a395597c0"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6043f695f1a0",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:574ecc1d0c2d8ddb"
+   ]
+  },
+  {
+   "adds": [
+    "Scheming Silvertongue // Sign in Blood"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:67f99d942ba3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:788fcaa9d09b",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:4f59a7f914cd8d2a"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:85856307b34c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6dc39a1d32963012"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4dbf5cfa4ab5",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:cadf4f34dd0ee612"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7cb675f1ba6d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:76acd247558acf1a"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a913aa176861",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7635b7c2a0710913"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b7f2a987a8a0",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2dc815eb69a3511b"
+   ]
+  },
+  {
+   "adds": [
+    "Stensian Sanguinist // Exsanguinate"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d44f2c99d46a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:48345c394fea2a8b"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:98dd09457724",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0544e7c300472c85"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:46fa6c68608c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f25fa717356f4765"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8026a986cd83",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:04213620d4ae21ee"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b3089d35fb6a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:69bd4679dc9a5920"
+   ]
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e41056546ee6",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f193ec55c457880f"
+   ]
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3fb444945c54",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e543dbc7c5f99ea9"
+   ]
+  },
+  {
+   "adds": [
+    "Undermine"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f4e172026efe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0db301135bda",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:4563cc0a5d15daa3"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:dcce36fc09d6",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:ac04848465452b34"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:eea73b6318bd",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f3e43c8bd198cbde"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3a4a9c408fc9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:265052d047806ac5"
+   ]
+  },
+  {
+   "adds": [
+    "Arnyn, Deathbloom Botanist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5b90b193b1e0",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:5bdfd67db0ee933f"
+   ]
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:03b3064f1152",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:08b8986f7d77ca4f"
+   ]
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:1152cb0d7c18",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:c64eb62ba0ce3084"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4c6c7e372ce7",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fc19ebc9dd992123"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:92b50936cbb6",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7171de0d4f8ed18d"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:376633fc7694",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9e4b106e23b9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2171049f63c99b07"
+   ]
+  },
+  {
+   "adds": [
+    "Silversmote Ghoul"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cc2d4bf67b31",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Trespasser's Curse"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9dee938026ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mask of Griselbrand"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e8e925743b10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:865a90586d85",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b5d803e6d09e2097"
+   ]
+  },
+  {
+   "adds": [
+    "Sneering Shadewriter"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0f3a35c5d2e9",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:26faf2800f1bf688"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Enduring Tenacity"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9167453f2e5d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fdff6e1652e080d5"
+   ]
+  },
+  {
+   "adds": [
+    "Charcoal Diamond"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4f0dfb3ff461",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:c55fd7d844da2e72"
+   ]
+  },
+  {
+   "adds": [
+    "Tendrils of Corruption"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:013ebcde9a65",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:3f9960eef864",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vengeful Bloodwitch"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:e5bb6f5959ad",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b037986ed6165b87"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Nighthawk"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cc719010dd9c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e2b60c55501ec824"
+   ]
+  },
+  {
+   "adds": [
+    "Nighthawk Scavenger"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0531915cd15e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0bc7b507374bf58f"
+   ]
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:03a82764b3e3",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:36cbf2619a99885d"
+   ]
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:635f43b9a5ed",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:08007334d294e18a"
+   ]
+  },
+  {
+   "adds": [
+    "Qarsi Revenant"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:fbc53b9576f0",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7781bae280be54d0"
+   ]
+  },
+  {
+   "adds": [
+    "Sanctum Seeker"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4e84a7f9a29c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:3915b81e291e0677"
+   ]
+  },
+  {
+   "adds": [
+    "Indulgent Aristocrat"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:536e3aed68cb",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:265a918423bd2930"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:35b0ee07e976",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:5f345b5431ebc7d1"
+   ]
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2906e84959aa",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6c6785ae3f05687c"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ec1863539b54",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:30e91ec0bfb48ed6"
+   ]
+  },
+  {
+   "adds": [
+    "Metamorphosis Fanatic"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b9c476c89e3a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:346319faba2e121a"
+   ]
+  },
+  {
+   "adds": [
+    "Nirkana Revenant"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6cdcc884e132",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7967359333a02260"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Hagra"
+   ],
+   "cuts": [
+    "Alhammarret's Archive"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:863720a0aba1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vampire of the Dire Moon"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:186ba93c9444",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:72992170675c8055"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:03cf19b2166d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:4aa9970f9ccb997c"
+   ]
+  },
+  {
+   "adds": [
+    "Malakir Bloodwitch"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:18e2aa54ce4d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7bb69d3ca549d449"
+   ]
+  },
+  {
+   "adds": [
+    "Crossway Troublemakers"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:38b176d9ff76",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Markov Baron"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d5c5ecad8ad8",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:55d8d9283fcd2299"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:df84d3c2680f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:ec9abf8e257c6634"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:f5d75b11479d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:17fe5cd2482e122c"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ff6a922276cd",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2ce0c49d4a721703"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9b9613dda6f5",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:aadd038be025e7fb"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:445230c75dde",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a0e840e2c98a1b05"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:49994eff2408",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:494b6d53ef0af773"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:635f6262f83f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:c7d1add700234c06"
+   ]
+  },
+  {
+   "adds": [
+    "Quag Vampires"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:946844d19bfe",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:824bd813eb3d4d5e"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:68c5bf775641",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0385b53edfb85b6d"
+   ]
+  },
+  {
+   "adds": [
+    "Guul Draz Overseer"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:81756e33acbf",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:d4bd923cddbbe745"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ad652cfd170f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7f531262325740ae"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:24f61cc898ee",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:09b5d390ac2402f2"
+   ]
+  },
+  {
+   "adds": [
+    "Blighted Shaman"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:39d11342de22",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:bed0858077890e46"
+   ]
+  },
+  {
+   "adds": [
+    "Blazemire Verge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:acad1df553a4",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:55d73b67b342be8d"
+   ]
+  },
+  {
+   "adds": [
+    "Gloomlake Verge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ae2b969e4fa8",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:746996120518cf0f"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7403d10a88bb",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:677bc065f2c7afa2"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:c479cbc1f714",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e331bf53b4a44cf5"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:32f024f2fc3d",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:c22417ae14b236a9"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a8eea656fc51",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6d542f79b521a221"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cecabecdd1a2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2534ff86fefcd51d"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b316c5d4bf80",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f7ee31de960f326e"
+   ]
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Mana Vault"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d4c1e2acbc74",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2d33e5136f1d021e"
+   ]
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Grindstone"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2d572c3b914f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:ec0ce07c2273ce67"
+   ]
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8778c3677154",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b4d014be07c9cffb"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:63dc6596469f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6a5c3bef0a386d72"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:08b0f3400e07",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:d78df274d09db996"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4adcb12f69c2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6fafdb719628508b"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:23cb04ba43bd",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:dcf3351c38560514"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cae81af85fda",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:51c47dab05477400"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:36e79be42994",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:200cf04a835663e8"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7d3c9eefdff2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f1279df4f275d2fd"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Mana Vault"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ecdfa60fab1f",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a9e93115749efc4b"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Grindstone"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:885f31cabadc",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:1bd19c6d6eab2b79"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:449d1a134c14",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:aab33e9da54d593b"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:cb868e1e987e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:690ef13f951a85f1"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:437cf442b9f4",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:8b857ba7ca4e177b"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:593d4e457806",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:8a6ce1b5fb0070d2"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a3e58aeb1584",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fbc029b182f878cb"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Sensei's Divining Top"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2a3cacc7dc93",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fd4b2d216148a6b0"
+   ]
+  },
+  {
+   "adds": [
+    "Jund Panorama"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:adc7ea6e5180",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:564dd4beca71d6f9"
+   ]
+  },
+  {
+   "adds": [
+    "Lake of the Dead"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:77a33c032925",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:cdb18059c0120af9"
+   ]
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5faafc413aef",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:f1cb6973425920ff"
+   ]
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:72e21f519d14",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:44fcefd7576f59d7"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:849992f77895",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:365970e0c49d6b96"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:bc5bf857d98e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:66d00325f21d6219"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Coffers"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:169ffc532a29",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:c26003ce6adf4b81"
+   ]
+  },
+  {
+   "adds": [
+    "Grixis Panorama"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0746d943bf47",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:3a0ef7413ffd12b2"
+   ]
+  },
+  {
+   "adds": [
+    "Esper Panorama"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:715a7ad4e0e7",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:d5ab62d7e34a37b3"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Mana Vault"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:2bd5a03a53c2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0e189ac1070028b7"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Grindstone"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:09bc17fb4fe2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e71c44e3dc98466f"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:29c1153a7328",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:10340bb319f015dd"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d888ebc37600",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:130cd7181ec5d1c4"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:246132efa300",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a5f58f58b6b604e8"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b4dc364d80d5",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:24dabd9dd5252198"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:62b29c8c8f23",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:2979a2cbe7139d28"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:ff35b5066721",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:cc038a97614e93db"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:62b01811a3e4",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:3383acf7f92af553"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:590cc15dd835",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b9d580ce2262a3fe"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a7ec68983624",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:bd6b5d1334926100"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:a2b69ca0a49a",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b7a1146ca9ad898d"
+   ]
+  },
+  {
+   "adds": [
+    "Urborg"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:21d4c189f40c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:12f76e605dea05c6"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:5bd260b01871",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:80e6c2f7e0eca4a8"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8e3fec880d8b",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0d6236404c881b4f"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:600ee03fc2ce",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:40e3266eb0e421cb"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:756f507fde9c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:fa60f3b660f1bb39"
+   ]
+  },
+  {
+   "adds": [
+    "Everglades"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:248343099094",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e021dacdd049005a"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:120c4f6f70f3",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:ffd2e05a4bbfbcc3"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d47ed2c20edb",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:05c8c22587caf072"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d025e5872ff7",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:a02f4fa869831382"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:9dbbd56b5077",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:73fbd19fe06e8d30"
+   ]
+  },
+  {
+   "adds": [
+    "Leshrac's Sigil"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:14781eab6d40",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:346fa1080b7de01f"
+   ]
+  },
+  {
+   "adds": [
+    "Leshrac's Sigil"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:d929ef537b9c",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b414198a3e96172b"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:874bbd2ea305",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:b7ba6a7806670b4d"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:4fc7d81d70bf",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:017bc2261dbcf031"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:0c8fb2b6ce29",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:6943860345171983"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7961900c7339",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:7d7344d595e671f7"
+   ]
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6ac4573a13d7",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:0a6a37e3e4bf3241"
+   ]
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Baleful Strix"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6083792ca6a2",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:16c66fdf0d0479dd"
+   ]
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:32919e335d7e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:41168c6a2d0c6cb0"
+   ]
+  },
+  {
+   "adds": [
+    "Witch Engine"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:8a96007cc0c7",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:71ff91856f402026"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:7f865868c930",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:68793b79213d4e4d"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Underworld Dreams"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:b27269bde08e",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:130f99ef8900f9e3"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:solkanar-the-swamp-king:m5:6c37262d9538",
+   "tests": [
+    "test:solkanar-the-swamp-king:goldfish:e8deb6ac655b845f"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:d76b4671dd20a4ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:8499931a6cc1b7f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:88dbd4c811805ba9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:855b65dd7f7b51b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:1d5f4d07e2e92dca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a4c79fe4973c33ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:5aee98b2469597d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6fc54f349a2b7a17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:327512d718d4543f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:4af3e14a80d8d0fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:76f338a32b17afef",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:c84103ea985bb390",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:1a601834beab9a7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f3a452e9b615c144",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:5faab5869f51640f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:52e234bf1a14cbf0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a351c02a3c15d1f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:8308c018bd1efaf3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e27e1d095e0097c3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:08cf0f9a067a6d7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:db9e59d8325f62d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:8189699fac160c06",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:cea7324e481e6e0c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:733efed9baaf677c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:4358f821edb31de5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:3bc983a72c39bb2e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f5fc89e1af471957",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7558ddb42c443890",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:324562f98a148a1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:90e6501eae6e74d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6313e1b8fa47b9f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:d2f200663efc6ce9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:3fe3710cc6c845fa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a1b84e18e4b07413",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:02acfcfcd8e032da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:88b545d543265b1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fb5c001886ca9ea8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:9659eeaeb3fe16bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:eab8f4a8794dc7ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fc5831cfb54cde27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:099d1d948584f5ae",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6bdd460e3cf46ea3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fa4f932c845d0ace",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:9322ff5596f376de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2e6ad4ea7dfb9f35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:26da990d110dab71",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:723b38f6192526fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:194b635fab769cfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0dec6e685ec1be06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:02160793366f997b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:cfe31753c89ac639",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b3f8406d5fff55df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a220da80aff2e7ac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0905f8594aea4035",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:52f568ef094a46d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7680591da8ba3b6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:af2de38acf23429c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:1f4ea4ec95637055",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:81621edacfa2a8fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:def89144e9be7d85",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:9ae49875e8375654",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0eecf5a2361e2fe3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0c908031fa3162fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:ddc41ee4fcee7678",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:4784ec537310eed2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7d38fafef5585cf4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:ba23552af5893986",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:84bbe140d079b207",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:3018bea8abf08a9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7b18f41965ef10be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:aa9759bc483ca671",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:89083f455fb1dc42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6664343a395597c0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:574ecc1d0c2d8ddb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:4f59a7f914cd8d2a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6dc39a1d32963012",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:cadf4f34dd0ee612",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:76acd247558acf1a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7635b7c2a0710913",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2dc815eb69a3511b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:48345c394fea2a8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0544e7c300472c85",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f25fa717356f4765",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:04213620d4ae21ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:69bd4679dc9a5920",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f193ec55c457880f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e543dbc7c5f99ea9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:4563cc0a5d15daa3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:ac04848465452b34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f3e43c8bd198cbde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:265052d047806ac5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:5bdfd67db0ee933f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:08b8986f7d77ca4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:c64eb62ba0ce3084",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fc19ebc9dd992123",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7171de0d4f8ed18d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2171049f63c99b07",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b5d803e6d09e2097",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:26faf2800f1bf688",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fdff6e1652e080d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:c55fd7d844da2e72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b037986ed6165b87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e2b60c55501ec824",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0bc7b507374bf58f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:36cbf2619a99885d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:08007334d294e18a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7781bae280be54d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:3915b81e291e0677",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:265a918423bd2930",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:5f345b5431ebc7d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6c6785ae3f05687c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:30e91ec0bfb48ed6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:346319faba2e121a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7967359333a02260",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:72992170675c8055",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:4aa9970f9ccb997c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7bb69d3ca549d449",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:55d8d9283fcd2299",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:ec9abf8e257c6634",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:17fe5cd2482e122c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2ce0c49d4a721703",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:aadd038be025e7fb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a0e840e2c98a1b05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:494b6d53ef0af773",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:c7d1add700234c06",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:824bd813eb3d4d5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0385b53edfb85b6d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:d4bd923cddbbe745",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7f531262325740ae",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:09b5d390ac2402f2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:bed0858077890e46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:55d73b67b342be8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:746996120518cf0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:677bc065f2c7afa2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e331bf53b4a44cf5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:c22417ae14b236a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6d542f79b521a221",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2534ff86fefcd51d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f7ee31de960f326e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2d33e5136f1d021e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:ec0ce07c2273ce67",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b4d014be07c9cffb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6a5c3bef0a386d72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:d78df274d09db996",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6fafdb719628508b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:dcf3351c38560514",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:51c47dab05477400",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:200cf04a835663e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f1279df4f275d2fd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a9e93115749efc4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:1bd19c6d6eab2b79",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:aab33e9da54d593b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:690ef13f951a85f1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:8b857ba7ca4e177b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:8a6ce1b5fb0070d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fbc029b182f878cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fd4b2d216148a6b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:564dd4beca71d6f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:cdb18059c0120af9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:f1cb6973425920ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:44fcefd7576f59d7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:365970e0c49d6b96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:66d00325f21d6219",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:c26003ce6adf4b81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:3a0ef7413ffd12b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:d5ab62d7e34a37b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0e189ac1070028b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e71c44e3dc98466f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:10340bb319f015dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:130cd7181ec5d1c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a5f58f58b6b604e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:24dabd9dd5252198",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:2979a2cbe7139d28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:cc038a97614e93db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:3383acf7f92af553",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b9d580ce2262a3fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:bd6b5d1334926100",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b7a1146ca9ad898d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:12f76e605dea05c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:80e6c2f7e0eca4a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0d6236404c881b4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:40e3266eb0e421cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:fa60f3b660f1bb39",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e021dacdd049005a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:ffd2e05a4bbfbcc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:05c8c22587caf072",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:a02f4fa869831382",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:73fbd19fe06e8d30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:346fa1080b7de01f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b414198a3e96172b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:b7ba6a7806670b4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:017bc2261dbcf031",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:6943860345171983",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:7d7344d595e671f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:0a6a37e3e4bf3241",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:16c66fdf0d0479dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:41168c6a2d0c6cb0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:71ff91856f402026",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:68793b79213d4e4d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:130f99ef8900f9e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-swamp-king:goldfish:e8deb6ac655b845f",
+   "verdict": "inconclusive"
+  }
+ ]
+}

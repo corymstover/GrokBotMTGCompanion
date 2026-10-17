@@ -1,0 +1,2235 @@
+{
+ "deck_id": "The_Madcap_Jester",
+ "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "slug": "the-madcap-jester",
+ "swaps": [
+  {
+   "adds": [
+    "You Find Some Prisoners"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:b0ca0bb3925e",
+   "tests": [
+    "test:the-madcap-jester:goldfish:d06f2fe1eae98f3c"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Feeder"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:11940d1253c9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:3cb8571edbff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:78c624749625",
+   "tests": [
+    "test:the-madcap-jester:goldfish:8089391dd5eede8c"
+   ]
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:fe3c60212ccd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:8d8e86f09ddb",
+   "tests": [
+    "test:the-madcap-jester:goldfish:845438b356f2a30a"
+   ]
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:d9e226b97fe0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:0b217e099011",
+   "tests": [
+    "test:the-madcap-jester:goldfish:0fbf2978c33e4fcf"
+   ]
+  },
+  {
+   "adds": [
+    "Ashiok, Nightmare Muse"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:9d8659363406",
+   "tests": [
+    "test:the-madcap-jester:goldfish:4aed2059f222b793"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:11b9009f63e9",
+   "tests": [
+    "test:the-madcap-jester:goldfish:5469e3fafe627766"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-madcap-jester:m5:7808d3b621d0",
+   "tests": [
+    "test:the-madcap-jester:goldfish:2ebe9d70e47c3b9c"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:f7197e14bde2",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1315fa0d7f52d4d4"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:dc2b808731cb",
+   "tests": [
+    "test:the-madcap-jester:goldfish:044773ef4c5c123d"
+   ]
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:8379918233e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:a9966a854f11",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e3893354f185e21d"
+   ]
+  },
+  {
+   "adds": [
+    "Raven Guild Master"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:60058fc6a11a",
+   "tests": [
+    "test:the-madcap-jester:goldfish:6ba5123a86cc965e"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstealer Dragon"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:e6e9f20a426f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3e64a441dd1c9380"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstealer Dragon"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:bc45c1ddf53d",
+   "tests": [
+    "test:the-madcap-jester:goldfish:4f05c38f46d82d39"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:8d95b3d5d29d",
+   "tests": [
+    "test:the-madcap-jester:goldfish:60dd05e1d176dd7c"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:52f3195aeb38",
+   "tests": [
+    "test:the-madcap-jester:goldfish:858ee2fc4c0d54ca"
+   ]
+  },
+  {
+   "adds": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:52234e1feb51",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e396f6d0dedf09b0"
+   ]
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:3a9c27e0ca2c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:5962e2e6c936",
+   "tests": [
+    "test:the-madcap-jester:goldfish:05055d5264433b30"
+   ]
+  },
+  {
+   "adds": [
+    "Mist Intruder"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:8c47c4d7371a",
+   "tests": [
+    "test:the-madcap-jester:goldfish:be6081784b7a846d"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:04fbbbe4a67f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:31732f7a4a7220ba"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:26bb6ea9a9a4",
+   "tests": [
+    "test:the-madcap-jester:goldfish:bc3f542d6cdf1a88"
+   ]
+  },
+  {
+   "adds": [
+    "Rootwater Thief"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:5ffa769dcea4",
+   "tests": [
+    "test:the-madcap-jester:goldfish:32571e9f137ef742"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-madcap-jester:m5:9e594605343d",
+   "tests": [
+    "test:the-madcap-jester:goldfish:f579ef3d7b5cf71b"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:1a777e3c1b2c",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1bedbb4e29811b63"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:cd00350f0307",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3bec87504f26b56c"
+   ]
+  },
+  {
+   "adds": [
+    "Benthic Infiltrator"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:3b721bccaa82",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3e2dd6dd7c394d42"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:c3c1586f07e8",
+   "tests": [
+    "test:the-madcap-jester:goldfish:679847a17939b70c"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:2698a9462dfe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oblivion Sower"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:b9db65c70d52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stolen Strategy"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:0190296838fb",
+   "tests": [
+    "test:the-madcap-jester:goldfish:8cf59b7072428568"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Strategy"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:27ceb6f16c92",
+   "tests": [
+    "test:the-madcap-jester:goldfish:8299e1866ab28c53"
+   ]
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:a968daab4ac4",
+   "tests": [
+    "test:the-madcap-jester:goldfish:fd6c06aa81e8198b"
+   ]
+  },
+  {
+   "adds": [
+    "Opposition Agent"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:d9d020a3461c",
+   "tests": [
+    "test:the-madcap-jester:goldfish:72614d7cc2e73df6"
+   ]
+  },
+  {
+   "adds": [
+    "Opposition Agent"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:51e68d585256",
+   "tests": [
+    "test:the-madcap-jester:goldfish:f96b2c677d04750a"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask, Heretic Praetor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:bd89d35d1ea0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grenzo, Havoc Raiser"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ce83a770328a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grenzo, Havoc Raiser"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:8b8fad9f8501",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e9fd685797b93fbf"
+   ]
+  },
+  {
+   "adds": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:ebd46bbc22c8",
+   "tests": [
+    "test:the-madcap-jester:goldfish:62f7a7c153adf341"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:8d50ca95416e",
+   "tests": [
+    "test:the-madcap-jester:goldfish:b5609096f3769069"
+   ]
+  },
+  {
+   "adds": [
+    "Scrib Nibblers"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:598307d9c1e9",
+   "tests": [
+    "test:the-madcap-jester:goldfish:ed27daf404a82eae"
+   ]
+  },
+  {
+   "adds": [
+    "Scrib Nibblers"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:9e6a82d4ec6c",
+   "tests": [
+    "test:the-madcap-jester:goldfish:94841c0418ad4ddf"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:28c6fec76888",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:d62560d212fa",
+   "tests": [
+    "test:the-madcap-jester:goldfish:d432f1974b39a476"
+   ]
+  },
+  {
+   "adds": [
+    "Wand of Wonder"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:3447f2526b83",
+   "tests": [
+    "test:the-madcap-jester:goldfish:2d524436b295019c"
+   ]
+  },
+  {
+   "adds": [
+    "Wand of Wonder"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:50fbb4b03338",
+   "tests": [
+    "test:the-madcap-jester:goldfish:9c8271e426c50c62"
+   ]
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:c05ddad4e051",
+   "tests": [
+    "test:the-madcap-jester:goldfish:871a773a3f5ccad6"
+   ]
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:f26f0dd48943",
+   "tests": [
+    "test:the-madcap-jester:goldfish:9d3bce06b76e45e9"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Sanctuary"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:f0d17b3f90f4",
+   "tests": [
+    "test:the-madcap-jester:goldfish:7c9e184aa37cab5c"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Sanctuary"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:c1d19f498f0d",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1964f0296359c1d5"
+   ]
+  },
+  {
+   "adds": [
+    "Charred Foyer // Warped Space"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:2e8cd9853142",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:d3aba7923033",
+   "tests": [
+    "test:the-madcap-jester:goldfish:f688f486c2775c4e"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:b079846f1b8f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1dac08a363f550d1"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:e694a09059a9",
+   "tests": [
+    "test:the-madcap-jester:goldfish:d7c7a5cee572f4bc"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:445791161db5",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1ff6501c44a49a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:c150c4c287ed",
+   "tests": [
+    "test:the-madcap-jester:goldfish:ea525a284308ee54"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:the-madcap-jester:m5:aa750227f5eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Lost and the Damned"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:cf00dfd1bd21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:52ccfd419cb5",
+   "tests": [
+    "test:the-madcap-jester:goldfish:076ab288ec9124f8"
+   ]
+  },
+  {
+   "adds": [
+    "Uba Mask"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:41e14e9b6ee2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:fabe661dd16f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:6ea928d620cd9eed"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:218b30e44830",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:6b2e02a03932",
+   "tests": [
+    "test:the-madcap-jester:goldfish:38244ec38e1bc736"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:7018581e8b26",
+   "tests": [
+    "test:the-madcap-jester:goldfish:47da943ae39466a6"
+   ]
+  },
+  {
+   "adds": [
+    "Bismuth Mindrender"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:29d11bbbf70a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hexing Squelcher"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:59d8db921b96",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:131feda19873",
+   "tests": [
+    "test:the-madcap-jester:goldfish:ef4e05b5601a1095"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:55b444626efb",
+   "tests": [
+    "test:the-madcap-jester:goldfish:500244c203ec3ff1"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:972471f8b843",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3581ef2b1f5175e0"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue Class"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:890e43a2d75b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grimoire Thief"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:f4fc998f8afd",
+   "tests": [
+    "test:the-madcap-jester:goldfish:b2d5934ccb974b87"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:eb905a1ecf00",
+   "tests": [
+    "test:the-madcap-jester:goldfish:8f4ae2d5605db13e"
+   ]
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:89bda655bc54",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1d4cbbb569cd5794"
+   ]
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:0ca89156be14",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Machinations"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:b23affb3bcb9",
+   "tests": [
+    "test:the-madcap-jester:goldfish:5f5b25d78228a6be"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:6df1714cf6e3",
+   "tests": [
+    "test:the-madcap-jester:goldfish:5ce26d1b27c2fec6"
+   ]
+  },
+  {
+   "adds": [
+    "Salvage Drone"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:8604d0fccce1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:f4339c9cbc9a",
+   "tests": [
+    "test:the-madcap-jester:goldfish:4c74e435fc5a9370"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:5bf5ed9acacb",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3812db83ae96123f"
+   ]
+  },
+  {
+   "adds": [
+    "Nico Minoru, Runaway"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ac6796ad0ee9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gonti, Lord of Luxury"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:6521499a6c18",
+   "tests": [
+    "test:the-madcap-jester:goldfish:c9a8d030525ef8cf"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:156a3a532690",
+   "tests": [
+    "test:the-madcap-jester:goldfish:94eaed40c9850126"
+   ]
+  },
+  {
+   "adds": [
+    "Triple Triad"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:f2a6ea030294",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1591789b4e3e3c4b"
+   ]
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:a2cd52493ab0",
+   "tests": [
+    "test:the-madcap-jester:goldfish:2f5fc2ae7feec27a"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:3b77edcdf1b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Leyline of the Void"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:ba024ea20017",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:78880cb51d0c",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e5a66a2f6b33ae63"
+   ]
+  },
+  {
+   "adds": [
+    "Interdimensional Web Watch"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:36921adf502d",
+   "tests": [
+    "test:the-madcap-jester:goldfish:c2c3f0066c09cf33"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Verse"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:639e4579d986",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:4f1dc319b510",
+   "tests": [
+    "test:the-madcap-jester:goldfish:7ad6055a247f7919"
+   ]
+  },
+  {
+   "adds": [
+    "Silver Shroud Costume"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-madcap-jester:m5:4500f99872d5",
+   "tests": [
+    "test:the-madcap-jester:goldfish:8d718f81ba0d499d"
+   ]
+  },
+  {
+   "adds": [
+    "Siphon Insight"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:562d2d8ff4ce",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3fbc5e4db6e5711e"
+   ]
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:e7654b219310",
+   "tests": [
+    "test:the-madcap-jester:goldfish:5e16334cdb65ad5e"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:806338fd8648",
+   "tests": [
+    "test:the-madcap-jester:goldfish:fe65f77a6af974a4"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:e1b362599e08",
+   "tests": [
+    "test:the-madcap-jester:goldfish:ed1090bb2c730425"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:ea72f14b11ff",
+   "tests": [
+    "test:the-madcap-jester:goldfish:073a0e596b88970c"
+   ]
+  },
+  {
+   "adds": [
+    "Memory Vessel"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:4cf99342b788",
+   "tests": [
+    "test:the-madcap-jester:goldfish:63339cd1536d16d5"
+   ]
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ee16e55ef1b6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:18e64ff59c58",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e9123b34d0dcb9a2"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:778bfb31eab0",
+   "tests": [
+    "test:the-madcap-jester:goldfish:fe614761d62d8a92"
+   ]
+  },
+  {
+   "adds": [
+    "Harmonic Prodigy"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:d480e0fb64d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:84fd169144b3",
+   "tests": [
+    "test:the-madcap-jester:goldfish:92b401db884377df"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:42271bba5744",
+   "tests": [
+    "test:the-madcap-jester:goldfish:0d6338a9f589050e"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:45d2fcf2ff4c",
+   "tests": [
+    "test:the-madcap-jester:goldfish:5eab6b0c773e833c"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:a3d5f1faeaca",
+   "tests": [
+    "test:the-madcap-jester:goldfish:6648c4333b779184"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Powers"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:3308266e13ae",
+   "tests": [
+    "test:the-madcap-jester:goldfish:428f7fb70d614d79"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:be0560dd6358",
+   "tests": [
+    "test:the-madcap-jester:goldfish:0549c3f2e14d339b"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:789855aabd21",
+   "tests": [
+    "test:the-madcap-jester:goldfish:c9908ffc83bf45a7"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Locthwain"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:37aba60df064",
+   "tests": [
+    "test:the-madcap-jester:goldfish:795c85c4c4f41ddb"
+   ]
+  },
+  {
+   "adds": [
+    "Mind's Dilation"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:8fa1195cc900",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:f649049673ee",
+   "tests": [
+    "test:the-madcap-jester:goldfish:f4b28af5e2c5e495"
+   ]
+  },
+  {
+   "adds": [
+    "Red Elemental Blast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:805f16fc3079",
+   "tests": [
+    "test:the-madcap-jester:goldfish:b0187b51d2d432a8"
+   ]
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:de3b3c9483ef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flusterstorm"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:55e2a2c6bc8a",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e1762e4732b9a9f1"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:5eb6f3972a63",
+   "tests": [
+    "test:the-madcap-jester:goldfish:c4af19fd593129b4"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:4062e44375f7",
+   "tests": [
+    "test:the-madcap-jester:goldfish:8dda925aee426bf9"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:df9fb9d26dbe",
+   "tests": [
+    "test:the-madcap-jester:goldfish:378ff123b5647f85"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:3b4dcc2f114c",
+   "tests": [
+    "test:the-madcap-jester:goldfish:91192326eb9b4475"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:0faf3563949b",
+   "tests": [
+    "test:the-madcap-jester:goldfish:eddc65e47a519207"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:f76b5a77f69f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:14daeb4bf1c4b2b1"
+   ]
+  },
+  {
+   "adds": [
+    "Thranduil's Decree"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:f80e33a2c07f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:bf5cb5c5a1c5e4f0"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:549aebbdd64e",
+   "tests": [
+    "test:the-madcap-jester:goldfish:7d663e1449c58112"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:fcb36a69ff07",
+   "tests": [
+    "test:the-madcap-jester:goldfish:578b2b94b7bc0e6c"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:ebedd1665907",
+   "tests": [
+    "test:the-madcap-jester:goldfish:2bb2e40be6888f20"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:the-madcap-jester:m5:3fa6b33071e8",
+   "tests": [
+    "test:the-madcap-jester:goldfish:4c83c470316190fb"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:962321e4fe1d",
+   "tests": [
+    "test:the-madcap-jester:goldfish:69b0b167cf35668c"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:the-madcap-jester:m5:a7f69ca96fe1",
+   "tests": [
+    "test:the-madcap-jester:goldfish:1f2d7c150c9f9ae3"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:6fdfa57b32b5",
+   "tests": [
+    "test:the-madcap-jester:goldfish:b9847903926844a0"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:2cd581fe4e78",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e67b319e1733ed5e"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:7989918ee372",
+   "tests": [
+    "test:the-madcap-jester:goldfish:d9ec1f50aad2d8b4"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:e126a4fcd20b",
+   "tests": [
+    "test:the-madcap-jester:goldfish:7cdcda818e03217c"
+   ]
+  },
+  {
+   "adds": [
+    "Kheru Spellsnatcher"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:fd908e55f4b9",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3a92e65eb00f3f61"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:c9ae9c2180c2",
+   "tests": [
+    "test:the-madcap-jester:goldfish:6fe350787b6c5142"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:086c307b375f",
+   "tests": [
+    "test:the-madcap-jester:goldfish:095585a79d51147c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:a486a3e7a173",
+   "tests": [
+    "test:the-madcap-jester:goldfish:a8fd6ac70326842c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:e30690351828",
+   "tests": [
+    "test:the-madcap-jester:goldfish:3abe1649de1dfad9"
+   ]
+  },
+  {
+   "adds": [
+    "Spelljack"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:c388a5dd94ec",
+   "tests": [
+    "test:the-madcap-jester:goldfish:5b60056fe2cf8859"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:8ce3f5685a4a",
+   "tests": [
+    "test:the-madcap-jester:goldfish:fd0c233f9a63c9f3"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:the-madcap-jester:m5:d4c89cfee705",
+   "tests": [
+    "test:the-madcap-jester:goldfish:0da5865ac5259751"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:b8e6689337fd",
+   "tests": [
+    "test:the-madcap-jester:goldfish:9f4a5bfcc47273fe"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:7b143ecd2863",
+   "tests": [
+    "test:the-madcap-jester:goldfish:cdeb05ba180536e2"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:f53c8f90ecfe",
+   "tests": [
+    "test:the-madcap-jester:goldfish:b346b2dcf5d92e35"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:the-madcap-jester:m5:232c2dd0f4c0",
+   "tests": [
+    "test:the-madcap-jester:goldfish:292bde04980d4b30"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ada09289ebeb",
+   "tests": [
+    "test:the-madcap-jester:goldfish:d2c893edf55ec63e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:98abc01acc8b",
+   "tests": [
+    "test:the-madcap-jester:goldfish:e2ad0c8fa7bc5011"
+   ]
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:584eddd57464",
+   "tests": [
+    "test:the-madcap-jester:goldfish:52d121a8bf706cdb"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:the-madcap-jester:goldfish:d06f2fe1eae98f3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:8089391dd5eede8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:845438b356f2a30a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:0fbf2978c33e4fcf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:4aed2059f222b793",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:5469e3fafe627766",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:2ebe9d70e47c3b9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1315fa0d7f52d4d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:044773ef4c5c123d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e3893354f185e21d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:6ba5123a86cc965e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3e64a441dd1c9380",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:4f05c38f46d82d39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:60dd05e1d176dd7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:858ee2fc4c0d54ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e396f6d0dedf09b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:05055d5264433b30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:be6081784b7a846d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:31732f7a4a7220ba",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:bc3f542d6cdf1a88",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:32571e9f137ef742",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:f579ef3d7b5cf71b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1bedbb4e29811b63",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3bec87504f26b56c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3e2dd6dd7c394d42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:679847a17939b70c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:8cf59b7072428568",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:8299e1866ab28c53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:fd6c06aa81e8198b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:72614d7cc2e73df6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:f96b2c677d04750a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e9fd685797b93fbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:62f7a7c153adf341",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:b5609096f3769069",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:ed27daf404a82eae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:94841c0418ad4ddf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:d432f1974b39a476",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:2d524436b295019c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:9c8271e426c50c62",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:871a773a3f5ccad6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:9d3bce06b76e45e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:7c9e184aa37cab5c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1964f0296359c1d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:f688f486c2775c4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1dac08a363f550d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:d7c7a5cee572f4bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1ff6501c44a49a2d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:ea525a284308ee54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:076ab288ec9124f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:6ea928d620cd9eed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:38244ec38e1bc736",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:47da943ae39466a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:ef4e05b5601a1095",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:500244c203ec3ff1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3581ef2b1f5175e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:b2d5934ccb974b87",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:8f4ae2d5605db13e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1d4cbbb569cd5794",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:5f5b25d78228a6be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:5ce26d1b27c2fec6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:4c74e435fc5a9370",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3812db83ae96123f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:c9a8d030525ef8cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:94eaed40c9850126",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1591789b4e3e3c4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:2f5fc2ae7feec27a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e5a66a2f6b33ae63",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:c2c3f0066c09cf33",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:7ad6055a247f7919",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:8d718f81ba0d499d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3fbc5e4db6e5711e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:5e16334cdb65ad5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:fe65f77a6af974a4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:ed1090bb2c730425",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:073a0e596b88970c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:63339cd1536d16d5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e9123b34d0dcb9a2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:fe614761d62d8a92",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:92b401db884377df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:0d6338a9f589050e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:5eab6b0c773e833c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:6648c4333b779184",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:428f7fb70d614d79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:0549c3f2e14d339b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:c9908ffc83bf45a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:795c85c4c4f41ddb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:f4b28af5e2c5e495",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:b0187b51d2d432a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e1762e4732b9a9f1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:c4af19fd593129b4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:8dda925aee426bf9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:378ff123b5647f85",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:91192326eb9b4475",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:eddc65e47a519207",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:14daeb4bf1c4b2b1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:bf5cb5c5a1c5e4f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:7d663e1449c58112",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:578b2b94b7bc0e6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:2bb2e40be6888f20",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:4c83c470316190fb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:69b0b167cf35668c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:1f2d7c150c9f9ae3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:b9847903926844a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e67b319e1733ed5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:d9ec1f50aad2d8b4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:7cdcda818e03217c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3a92e65eb00f3f61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:6fe350787b6c5142",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:095585a79d51147c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:a8fd6ac70326842c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:3abe1649de1dfad9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:5b60056fe2cf8859",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:fd0c233f9a63c9f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:0da5865ac5259751",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:9f4a5bfcc47273fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:cdeb05ba180536e2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:b346b2dcf5d92e35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:292bde04980d4b30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:d2c893edf55ec63e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:e2ad0c8fa7bc5011",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-madcap-jester:goldfish:52d121a8bf706cdb",
+   "verdict": "inconclusive"
+  }
+ ]
+}

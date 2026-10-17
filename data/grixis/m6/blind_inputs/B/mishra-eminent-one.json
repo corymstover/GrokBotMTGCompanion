@@ -1,0 +1,7891 @@
+{
+ "deck_id": "Mishra__Eminent_One",
+ "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "slug": "mishra-eminent-one",
+ "swaps": [
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:61cf3d4137af",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:197d96de002d0719"
+   ]
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ff7125dadaf9",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9d4a6f0be509b826"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ab7fc5859c95",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2f2e5eb89716bb20"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3d11b545a786",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:77970e57e76838d0"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fdb621f132db",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bb7e982bf936b9ed"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2e0e56fc5f2b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b097cd4a85cc09b3"
+   ]
+  },
+  {
+   "adds": [
+    "Idol of Oblivion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e08fa92716e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Idol of Oblivion"
+   ],
+   "cuts": [
+    "Esoteric Duplicator"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e9547d98eab3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d7f46e97c2fac2aa"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:94736b47b552",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:093e08d4f0423bbc"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:646982afe28e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2dd58e079f71e745"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0a402a35f55a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c99d9477a41a919c"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5db7812889e1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5b1d572e73685105"
+   ]
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cdc6c98bfd23",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:37911b2c672aaf3a"
+   ]
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Esoteric Duplicator"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b0fe0969c811",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6c3029a4484750f8"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2e8ffba636e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "cuts": [
+    "Esoteric Duplicator"
+   ],
+   "id": "swap:mishra-eminent-one:m5:dd620ae8068b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:552f96ecf23dcc2c"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:85c36f826229",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1f48eeaa5963b9b6"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:220a7814eead",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:10de720e460fe864"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a2fd0418138e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:530d62b187e6cc84"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a4569eaf485a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bf9c12fb915d8b2a"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:bfffcd1d6b74",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:acce038d0ce6c392"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f07a90d79ee1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c88d411e22bc504c"
+   ]
+  },
+  {
+   "adds": [
+    "Sculpting Steel"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:85135190c190",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:041eb04ede7b198b"
+   ]
+  },
+  {
+   "adds": [
+    "Sculpting Steel"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3d3b7aa6accb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:48ff0790c7cc7aec"
+   ]
+  },
+  {
+   "adds": [
+    "Terisiare's Devastation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cd023a49895e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ed509187da04",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:353096249538f0e1"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4d0be29e9cbe",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6f1db762f35b5827"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1713a01add5a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:768faf3be66c25ff"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f39c86b50130",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:93748ca1c60a6af1"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c023642bd6b3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:65e0a5b771ce2c0a"
+   ]
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:235f92a3e206",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7b65705fc145d4b5"
+   ]
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8c42a6e50903",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d887f3195d1d7650"
+   ]
+  },
+  {
+   "adds": [
+    "Thirst for Knowledge"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a2852299cfc3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9d28c9204c039484"
+   ]
+  },
+  {
+   "adds": [
+    "Thirst for Knowledge"
+   ],
+   "cuts": [
+    "Esoteric Duplicator"
+   ],
+   "id": "swap:mishra-eminent-one:m5:53dedc8e552f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6bf0194ace694636"
+   ]
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f104e7fc076f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b79e48175e4c8cad"
+   ]
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:13c670b139eb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:77c40467568d4ffc"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Archive"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a929afcf32cf",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d8540dece5e92db6"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Archive"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ea847258ceaf",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:829dc264bace7831"
+   ]
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9638236ec3ff",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9d5e6972dff21733"
+   ]
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f1053a66102f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:dfdc92272204334b"
+   ]
+  },
+  {
+   "adds": [
+    "Mycosynth Wellspring"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:aa5fa6a8d465",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c7e00645163518f7"
+   ]
+  },
+  {
+   "adds": [
+    "Mycosynth Wellspring"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d3e924db9f8c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ec3b09aacb9459f2"
+   ]
+  },
+  {
+   "adds": [
+    "Oni-Cult Anvil"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cfd522d82271",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0c07cbf3a1511d5e"
+   ]
+  },
+  {
+   "adds": [
+    "Oni-Cult Anvil"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:778b011409d6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2edcbdfd0e4e2a64"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-eminent-one:m5:369ce1c0cd45",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Audacious Reshapers"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6290d49ca3f0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:02c414d01500a947"
+   ]
+  },
+  {
+   "adds": [
+    "Audacious Reshapers"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a8882c13dfbb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ae411975154a3a61"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8069df9e7aa8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:839786ea89b72456"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e02e9203f80d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:73293081bc43f95f"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1a35f5aa4d00",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7065668a42d5325e"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cfdf62422fa0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:45163c6fb97778d2"
+   ]
+  },
+  {
+   "adds": [
+    "Trading Post"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a088cb17e629",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wondrous Crucible"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1dacbb3bb974",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c6905b53d569bb1b"
+   ]
+  },
+  {
+   "adds": [
+    "Wondrous Crucible"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:158b7caf9c80",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b83235eafc5908b1"
+   ]
+  },
+  {
+   "adds": [
+    "Servo Schematic"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3ab7fb948285",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:37bd1b5664663be5"
+   ]
+  },
+  {
+   "adds": [
+    "Servo Schematic"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:45a0b976806a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:19f72987f51dd5aa"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Junker"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f0b3ba3b27ec",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b5a208e548d8cf20"
+   ]
+  },
+  {
+   "adds": [
+    "Executioner's Capsule"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0707a5975c9b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:834644574a08ae59"
+   ]
+  },
+  {
+   "adds": [
+    "Kappa Cannoneer"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f2059f773cc4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f6f87802a49ce128"
+   ]
+  },
+  {
+   "adds": [
+    "Kappa Cannoneer"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:172a74993582",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0f00cd914bde2bbd"
+   ]
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d9aa496e1175",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1763444d3b51c3c9"
+   ]
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e2e708efbd27",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b552053fd4090212"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:20431582fa8f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:65fc60388cd3b1ab"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2023f9f25ece",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:818e14c6e98b8085"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1736b7dcf420",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:99b99cbd5e6a0e84"
+   ]
+  },
+  {
+   "adds": [
+    "Slobad, Goblin Tinkerer"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mishra-eminent-one:m5:72c2b35e9f8b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d0e061f02189",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c2ddf93ad743df65"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7a051341367f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:05fa228fe3935c70"
+   ]
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:300091542b20",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4e617639713071dd"
+   ]
+  },
+  {
+   "adds": [
+    "Braids, Arisen Nightmare"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:144176aa778a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2645046ac866",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c079672af6282288"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:021d47f70cbe",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c072a08ea621701a"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f3bd57542d72",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9e24c789a424ae69"
+   ]
+  },
+  {
+   "adds": [
+    "Reaver Titan"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:dfbbeda6ab17",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0e390a6b070f49e8"
+   ]
+  },
+  {
+   "adds": [
+    "Reaver Titan"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4c45b0751c96",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8d72027cc4ea160e"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a6a3eab30729",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:acf0f20e231d4624"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3b3e02e03039",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:15d07ffb6941e5f3"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:676bee2372fc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1a645963fd6f7d86"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a7a324a98efd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a592e7ad70c0306b"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:266ba7c75040",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:de198477d3751f7b"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2b0201490034",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4dab8f1b752caad5"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Spellbomb"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:bed15ba00e31",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Muzzio, Visionary Architect"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f232bc3645db",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:acd7764212f7af1b"
+   ]
+  },
+  {
+   "adds": [
+    "Muzzio, Visionary Architect"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:379b37290f6b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e13e52514203bd82"
+   ]
+  },
+  {
+   "adds": [
+    "Silas Renn, Seeker Adept"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:61de10785a46",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6041c3f745e5e8b7"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7de0a9b920e8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:17c3ae9e6cf7ddab"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderhawk Gunship"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7196fd43bb57",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:df9a84fd4e416175"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderhawk Gunship"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:832570d7758d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ee1a5cd1d377ef5f"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:85509b142099",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fce81b76b8e9cf1b"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f18784fe2043",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5f6d1d6045866600"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3d9a3c1c8cba",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c11ba3117012ec78"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fbfce9794779",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d368d34f4149e01a"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c204a368cc5f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2ddfd64747f405de"
+   ]
+  },
+  {
+   "adds": [
+    "Knight Paladin"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e1537bd7302c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a1a215034b90232f"
+   ]
+  },
+  {
+   "adds": [
+    "Knight Paladin"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4a439def8b67",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d2d6c2ffd7a807ec"
+   ]
+  },
+  {
+   "adds": [
+    "Metalwork Colossus"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0e866e41b9ba",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b2ba024900c407c5"
+   ]
+  },
+  {
+   "adds": [
+    "Metalwork Colossus"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3bdc9433c207",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7987d71d30c24a65"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c0d82b48edbe",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8c3a9507fab98193"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:269af1488b56",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a0746a61524d7917"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5915dfbb315c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f863bcb22b065f0c"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:10e5b063b1cf",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c2c48bb7f70afa94"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ebbfae47ba65",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8915649ee52fe740"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7ddfbd84bf9c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fec12371c78d0aa9"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f290d6d2eb70",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f1606f949bdea65a"
+   ]
+  },
+  {
+   "adds": [
+    "The Stasis Coffin"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9d98235ad9d3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d577b0c67e11ec83"
+   ]
+  },
+  {
+   "adds": [
+    "The Stasis Coffin"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:32908c8a0dce",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:495bef2e6441d94c"
+   ]
+  },
+  {
+   "adds": [
+    "Blast-Furnace Hellkite"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6a8b1ec3d02a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e6bc5b366e76997f"
+   ]
+  },
+  {
+   "adds": [
+    "Blast-Furnace Hellkite"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:836fdb283c1e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:05c3bec4bd552038"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:82055d1a1277",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3d7c5e9dbf28bd0c"
+   ]
+  },
+  {
+   "adds": [
+    "Sundial of the Infinite"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:60a626b5b2cd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:db6e95949f641ffd"
+   ]
+  },
+  {
+   "adds": [
+    "Sundial of the Infinite"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:53add8c9f907",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:49f9d19db2e323e9"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:03a02dba5d88",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b9691be252bc3e85"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5896257a6bc5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:11fd537239940c5e"
+   ]
+  },
+  {
+   "adds": [
+    "Dreamstone Hedron"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d36cf17e9dd8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:309af83714ecc54b"
+   ]
+  },
+  {
+   "adds": [
+    "Dreamstone Hedron"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:50d6e4b6f04c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4b6651d57064ef13"
+   ]
+  },
+  {
+   "adds": [
+    "Daretti, Scrap Savant"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:94919494382c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f0327e8f516c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3f47115465485301"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4df927d12ea1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:172f5465d83dbb56"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3eede9db903f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1430f89eb83342c8"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6a696176e48a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:701119923fba290b"
+   ]
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8a6e12ad8089",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:cd8d817f0a177ba1"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9b284385a6eb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:68f0a35c501becb1"
+   ]
+  },
+  {
+   "adds": [
+    "Artificer Class"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4b3d4f6b7007",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:25899d7a62f2ac62"
+   ]
+  },
+  {
+   "adds": [
+    "Artificer Class"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:913d0e5af8d4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3dd94526e3a6be72"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Sphere"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:04d1a98bee3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Expressive Iteration"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f1aab690af35",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b9bd8d008e668307"
+   ]
+  },
+  {
+   "adds": [
+    "Skysovereign, Consul Flagship"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:db5d21f0d183",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b312a635acb5d7e7"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Monitor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4acdbb01b016",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:caa07f2800d146dc"
+   ]
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4908931c8c60",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:de6ac1a90a037ec7"
+   ]
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fd8b4eca0724",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4991504c6d8db7d1"
+   ]
+  },
+  {
+   "adds": [
+    "Liquimetal Torque"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b77f62b37c6e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5b30c82c9d98f3b5"
+   ]
+  },
+  {
+   "adds": [
+    "Liquimetal Torque"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:dc0b95933e52",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1ad88fcae48aca87"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:23ee83edbb62",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:09a6a0aac1455562"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Academy Ruins"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d70f529d1e2c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:27b63c66a1110962"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2297ea3b1191",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:eef8ad239ae59c66"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret the Seeker"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0a4ee5b9ddc4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0007b37a86c6636d"
+   ]
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7c05823df70f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:20f18895aaccccab"
+   ]
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:48f41880dcf7",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2a9ebad55917dd01"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0a0bc99a657b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:00b05e5a021d598e"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:14310a8827e7",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b0441a9f7a068946"
+   ]
+  },
+  {
+   "adds": [
+    "Imskir Iron-Eater"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:673c206651b6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nautiloid Ship"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3b713e82040a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:34296c6e5a132fd4"
+   ]
+  },
+  {
+   "adds": [
+    "Nautiloid Ship"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cd0c88e6642e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e339555c8cf10b5a"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b5286dc4ed57",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:245671f26a34eb50"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a1109e4d5b4a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:06bb2078653577e6"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:831d0c4ee1e0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1809e6c97e1bc97f"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:04e9261d2301",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:72150c3f512b931f"
+   ]
+  },
+  {
+   "adds": [
+    "Mephitic Draught"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ce937db968f4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0a3fbdc40d9fc811"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:23e076a7b316",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ec54b20bdc4bcc37"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b67d76134381",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b299c671baa7151b"
+   ]
+  },
+  {
+   "adds": [
+    "Ash Barrens"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:27b54de96029",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4e1661e613205bf2"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9c7eca010ffe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mirrodin Besieged"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0269a4d46dc5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:45305cc2dd4c4a7a"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrodin Besieged"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c6d16bb8cc4b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:96570b55ac4807ed"
+   ]
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d7b344ac378d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:eb4dd0c21c25dd03"
+   ]
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:711d8501ee22",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d4e897221dee7476"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e94ca2621356",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e7f4c63e85d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prophetic Prism"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d06c93f14cc6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:16095087e5a097a4"
+   ]
+  },
+  {
+   "adds": [
+    "The Mycosynth Gardens"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:aef9848ad30e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:55d6ab5777fe1195"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra's Bauble"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0d94975dde47",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3b5441946d89",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4f635ce3aeae1364"
+   ]
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:03d98440cd30",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:50e2eab153076a4d"
+   ]
+  },
+  {
+   "adds": [
+    "Imposter Mech"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5097257d8362",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4b0e7237e9faed3b"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:af6146692b2d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:04ff172c90166432"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Igniter"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b2df85e433e2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:00c553af775a2f80"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:42e476aff43c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "RMS Titanic"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:798ae318fe61",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a6e83f648e90aa9b"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c1be2765c3cd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c406f3d3a607f1e4"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Forge"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2f4cc06c810f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:159143f0ad7c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b9633b81b35e36eb"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:770612577864",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1d07d8bd465098fe"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3ec0cbc0cc01",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:36fb36685e576ad4"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3837b44000b3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d69e592bce35af8f"
+   ]
+  },
+  {
+   "adds": [
+    "Farid, Enterprising Salvager"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:729b70349af3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:624c3df9c5b8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6817c9769334d333"
+   ]
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b76bd1373001",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3783f1a93ce9850a"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6121b5d13ca1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oblivion Stone"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:da0a81a1df9f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9fa243adce4161c7"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:05ad291551c0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:75e262a80074cf3c"
+   ]
+  },
+  {
+   "adds": [
+    "Wishclaw Talisman"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:86ae2463bbb6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:682a6905c949b450"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e130e040d0ed",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8b2dd11be9b49470"
+   ]
+  },
+  {
+   "adds": [
+    "N'Yami-Class Mother Ship"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:baf8a42d75c3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:39f4898b61b2bf92"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Fireweaver"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fcbb2ad8f560",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5e65f3d7843c07ef"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c390b890839f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ae43f3a1a029896e"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fa5be2e75f73",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:077d5b4707f33325"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:688e999c604b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:19b2a2b40ec442bd"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Urza, Lord High Artificer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fc0635581fd4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:13f4da34de6c7dd6"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:faf9674b3fb7",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:28a9284af040b983"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:44170f205578",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3c02907357fb06bf"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7abaf5761c0e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bd24bf253eb568d6"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3a35473acfd8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d45fed3ce681ff93"
+   ]
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:02fc77f12e8e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e67425cf56d21934"
+   ]
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:daa86c5350ff",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:06e582fcff178120"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Machine"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9dc323b2c6af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4840b97958a2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:df08f50dd8a67764"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c4a7295e2e6b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a603fd290949ac6e"
+   ]
+  },
+  {
+   "adds": [
+    "Eriette's Tempting Apple"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:39f1bf0c3cb2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4eb8d30ea5b42d34"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:43cdc5b1c4fd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ecc395fce5e453c4"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:83ca4109214c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f11e3d04b356724f"
+   ]
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:899f319ee26d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6c9dd2977dd79165"
+   ]
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f19e4e980629",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4bc60e75b0bb80ea"
+   ]
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:488199078d23",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c8441d2ec863ab1c"
+   ]
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:efaa1c7a646b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:20c6620ca76bc95a"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cbaa07035e97",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fccca0c707040dd3"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8f38e6fd054d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8392991a16932f29"
+   ]
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:750062eff51c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:66c6379ae1b76e39"
+   ]
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1ab8cd83b4a0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:57de70f2790d5b8e"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c99dd2d6bd02",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:eb0205a368bd2207"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2ac7a9800a45",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:dc80da9c3baa46ac"
+   ]
+  },
+  {
+   "adds": [
+    "The Fire Crystal"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a6033b367f46",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3c83cb570a738040"
+   ]
+  },
+  {
+   "adds": [
+    "The Fire Crystal"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f88933fed9af",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d6a747bc6a97f6a9"
+   ]
+  },
+  {
+   "adds": [
+    "Fomori Vault"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8aac07db892c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:30ca7cb32e9174c3"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:41a63523d539",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4354377d613d7d34"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1b5db94b6f96",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:03b0e9e32941370d"
+   ]
+  },
+  {
+   "adds": [
+    "The Reality Chip"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a25802ea2405",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:68ac87accebf987c"
+   ]
+  },
+  {
+   "adds": [
+    "The Reality Chip"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:198cbab51798",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c33a15268f25d659"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:00a19936d945",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a9823ebf06928cd5"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8ec3215e503f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1686f2390f7978c6"
+   ]
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ceaf163a7a85",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:470518e31b0c1de7"
+   ]
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:47cebf36350f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:522b211646aa937d"
+   ]
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2621e76f84c6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7f7fb0b084bcaa71"
+   ]
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Urza, Lord High Artificer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6f1136d31e9e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d5708eabd57af193"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d49d6373238a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:694a852608eb2b5a"
+   ]
+  },
+  {
+   "adds": [
+    "Crime Novelist"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fc9f5d4dc323",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d427c4a4222ec8db"
+   ]
+  },
+  {
+   "adds": [
+    "Crime Novelist"
+   ],
+   "cuts": [
+    "Urza, Lord High Artificer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9aeba6634849",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7fd3d30422880a6a"
+   ]
+  },
+  {
+   "adds": [
+    "Vibranium Mining Mech"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ee4886e9a794",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:dc5727c6649dabf5"
+   ]
+  },
+  {
+   "adds": [
+    "Echoes of Eternity"
+   ],
+   "cuts": [
+    "Machine God's Effigy"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c230e9498a71",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3b1d953aebea3d84"
+   ]
+  },
+  {
+   "adds": [
+    "Echoes of Eternity"
+   ],
+   "cuts": [
+    "Worldwalker Helm"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1dbc8be80660",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c6e1543316e410f7"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7eb9c887b292",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9071740b6a071a29"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e9b7f4c2c428",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:540d5688ffc785d8"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8d9f54191dba",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f015ef91c78da034"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:77aeeafc80da",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:50e698963920f9c6"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mishra-eminent-one:m5:325c25b1b051",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6c698a5d392c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0cab975494689eda"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:84d7bbb217cb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:31270fd3c87126ba"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mishra-eminent-one:m5:47bce2c9ea50",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1d5be069f788f91a"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7839874affc2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c0472b55304a9556"
+   ]
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0afb3b78b8d1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b9020599d6367e73"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8b471dbb793a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c037c69b36258e53"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b4ba43165dad",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:284af3d9e655f0e5"
+   ]
+  },
+  {
+   "adds": [
+    "Junk Diver"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2a23d432bace",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0f1d64de2b47014f"
+   ]
+  },
+  {
+   "adds": [
+    "Junk Diver"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:85f6fd5a73e9",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e85d35be36fc54b8"
+   ]
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:04717b11c4df",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:76543beb4a0be444"
+   ]
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1b84023bae74",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:894a88b7a58d36f2"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, the Great Creator"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f30d9bbfe065",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0a2b2c679a279a2a"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, the Great Creator"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:58e66ad11b45",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0c110f3e2b832dfe"
+   ]
+  },
+  {
+   "adds": [
+    "Virtue of Knowledge // Vantress Visions"
+   ],
+   "cuts": [
+    "Machine God's Effigy"
+   ],
+   "id": "swap:mishra-eminent-one:m5:18d2f67fba79",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d3dbafcaf6be596e"
+   ]
+  },
+  {
+   "adds": [
+    "Virtue of Knowledge // Vantress Visions"
+   ],
+   "cuts": [
+    "Worldwalker Helm"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b815ff50daa1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:777f85d2d548714e"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:97eb23873743",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8fc2bfcff13c36c3"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b0154304aa42",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a84726746fab1487"
+   ]
+  },
+  {
+   "adds": [
+    "Astral Dragon"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ffe6a693e998",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:62af040af01ebcf3"
+   ]
+  },
+  {
+   "adds": [
+    "Astral Dragon"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3fff12a958fa",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e86e9d6238885dc4"
+   ]
+  },
+  {
+   "adds": [
+    "Efficient Construction"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:536792a81e5b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:feb85c26fc42555e"
+   ]
+  },
+  {
+   "adds": [
+    "Efficient Construction"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1c2dc645e0fa",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3dedeab2521698aa"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2c94324d3026",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c163c86569c47a5b"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d7feca8067f1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:93cc23834156d6a1"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b11b8d3e57fc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c100d27618ddddb1"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d96e6a817038",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f9aa84ae1c16c415"
+   ]
+  },
+  {
+   "adds": [
+    "Reshape"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:275c94a821ee",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8039c608df600571"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror Room // Fractured Realm"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a6891a37e850",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:76308edc74294242"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror Room // Fractured Realm"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:13db1d43ec95",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4e10459ea9478173"
+   ]
+  },
+  {
+   "adds": [
+    "Hammer of Purphoros"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d795e2811258",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:194558f217280bd7"
+   ]
+  },
+  {
+   "adds": [
+    "Hammer of Purphoros"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f5b82397e741",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:13f62b25a2f5bfc4"
+   ]
+  },
+  {
+   "adds": [
+    "Krang, Utrom Warlord"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:654fc5e48e76",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d84eec4bcbd71ae6"
+   ]
+  },
+  {
+   "adds": [
+    "Krang, Utrom Warlord"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1c06d2f48af4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5f1a2e7db19b03ea"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Vantress"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:da7e4862181d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:543e24c4dea20553"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Vantress"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4ab8be79e968",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c86e5d915d7d0890"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3cbe90fa1944",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ec52744f685c15a7"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:07162d7975eb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:14ba31998c373e01"
+   ]
+  },
+  {
+   "adds": [
+    "The Underworld Cookbook"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0f5a5b6027de",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4726801dc1b8e776"
+   ]
+  },
+  {
+   "adds": [
+    "The Underworld Cookbook"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5656a87c50aa",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b1b94c8c7397c75d"
+   ]
+  },
+  {
+   "adds": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:77799b72d3ca",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e9348fc982ccf68a"
+   ]
+  },
+  {
+   "adds": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:27319cc02ad5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:28dfbd3ed031f526"
+   ]
+  },
+  {
+   "adds": [
+    "Tannuk, Steadfast Second"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:df247b6196dd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b82b5a926776e716"
+   ]
+  },
+  {
+   "adds": [
+    "Tannuk, Steadfast Second"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:337334d127cc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3b68a2ec80c635c2"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f987583a9424",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5e0a4aa1f6cdb37a"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0d3f8fb1fc59",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2e42421138a3fafb"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:865334efeeb3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:19696dd9320bb0d6"
+   ]
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2e59628c929a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2f9a565db0756ae5"
+   ]
+  },
+  {
+   "adds": [
+    "Imotekh the Stormlord"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:11faf0f10d8a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b7ac524e11c32694"
+   ]
+  },
+  {
+   "adds": [
+    "Imotekh the Stormlord"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cc48bb92b6fd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6a78662d5ab98160"
+   ]
+  },
+  {
+   "adds": [
+    "Weatherlight"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7adaccb1b8b5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:748a01949e73d69b"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Dragon Engine"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:faf2c2332cfe",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:73929aa6d88d9af9"
+   ]
+  },
+  {
+   "adds": [
+    "Roar of Resistance"
+   ],
+   "cuts": [
+    "Simulacrum Synthesizer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a66b4d7bde33",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0a57755b61ddcad5"
+   ]
+  },
+  {
+   "adds": [
+    "Roar of Resistance"
+   ],
+   "cuts": [
+    "Esoteric Duplicator"
+   ],
+   "id": "swap:mishra-eminent-one:m5:68c900279fd5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c1fca781515fc0c8"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Virtuoso"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:feee3e075ee1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9a08fd11f76c57bf"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Virtuoso"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2f7f80b56634",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:06b4d2c908aab976"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mishra-eminent-one:m5:181b168c230b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1386c3a1dd7f2aff"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:190208f8b919",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:97a7e622c85f18d5"
+   ]
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f61609f68630",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:10eae762b4fc1cfc"
+   ]
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ccc3f0d8661c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1aada609fbb3cd5a"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b9501dd0c8a3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fffe6d9dfcc28a33"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ea0de696e753",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:47fe492a319512b6"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin's Nexus"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a1786aedadad",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c4620b5c7973034c"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin's Nexus"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c13c50fb30fb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1f00214e5c85a6f3"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ab060161e933",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3c0e114937a630ed"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8282a5e4ffd9",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bf16b05840838fdd"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Engineer"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:68a9790994d3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:679ffc77ab3396f6"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Engineer"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:451af5d8c8a5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fd3ed16879d1fc00"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7a6f515fc5ac",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2ea7abc6a6027fde"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1a4d9fda7527",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b82e312189b436ac"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:65154fa6c0d0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ad908f7a166c2016"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b52d0ed332b3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:45693a0f28cdc62d"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:af99bc596ece",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b362d76456d135c9"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1ccaf0932539",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5912c80b75ba392b"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b3ed1295cc27",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bfe8bfc2137ea585"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:17f161d58ef1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:98caa7a7db5d38bb"
+   ]
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4082b8ce9d68",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ca30e2c68df746d4"
+   ]
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c73cbc37802b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4a81295152344527"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9f5d95920588",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:cb95cf0cfb9b5447"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:554829fc40d7",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3bd3551eff37910d"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Vault"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1bd9c27e2955",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5e89a8f96d70c88b"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:13eb35508b4d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:753c689dfe4d1c49"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:198bcd7f321d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0f2a905d0f897509"
+   ]
+  },
+  {
+   "adds": [
+    "Diabolic Intent"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:eb3e626a06b4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5dcc0b2a21b7665f"
+   ]
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cca130efe9e6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0a65b395e6d51949"
+   ]
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c6272ed89bbc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a2e2cfd0094b82fb"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Storm"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9e02ceb9002e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0af471c5396070ed"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Storm"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:af7a6b0ee322",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:cbf0da504203ed01"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6f1e0f913590",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:dd5fa60d74d1b825"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:bc6fb403b5f6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2cde1e53635d733a"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Specialist"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:45a2e6ebb399",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:44cbc632bafdfbde"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Specialist"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d5d769fe84c3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5c200689e6856d1e"
+   ]
+  },
+  {
+   "adds": [
+    "Dutiful Replicator"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:65154f5a222c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ff7eb8aa871a09bb"
+   ]
+  },
+  {
+   "adds": [
+    "Dutiful Replicator"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:766bbf58f92b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2b119f2745b2def5"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1a967996a874",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7a9b39b7f8562bc4"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f23de858cbf2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:367c1cc1535e1773"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:24aba6df67d4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7828454220ec4e26"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:33e8de446c06",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c25b26d93af56695"
+   ]
+  },
+  {
+   "adds": [
+    "Mole Module"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f1a567b7b60e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9041b11c72cabe62"
+   ]
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c56317cf6e72",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:af2be787fd5a3393"
+   ]
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d19a522b6f5a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:194ed247b0666db1"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Squadron"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:fd1b32603401",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:64556e7237253677"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Squadron"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f9fb4f436b7a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:993421979463ec3e"
+   ]
+  },
+  {
+   "adds": [
+    "Kurkesh, Onakke Ancient"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2972e75460dc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6773aa55e4d3da04"
+   ]
+  },
+  {
+   "adds": [
+    "Kurkesh, Onakke Ancient"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8651a363be73",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:79aa06944d700b5f"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c106f7257b4c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f2857070dd8d5cde"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:29cf3c1c5fab",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2a9b666973f030d9"
+   ]
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9eda2aa8cd6c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:546a92f41bf8c641"
+   ]
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3d42cbcc675f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5db9b5c5ff657999"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:49ee032591ae",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3b15dc24e6a46c1d"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:87099480378a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:278b35c24ba6531b"
+   ]
+  },
+  {
+   "adds": [
+    "My Precious // Allure of Power"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:94aeefa08b0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Planar Gate"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c7cb566214ed",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9f4deb0af962f095"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Gate"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:de70f50a626a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:14747deffa5da665"
+   ]
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:62282dbb5645",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:497779d3b37ce53a"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f8dcb8131f28",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3047c171cad659ee"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:aaa33ededf0d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d2b805b9eba7cd71"
+   ]
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:58358701e50e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f36d99bc06e98849"
+   ]
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2a38cc965650",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4dcc2729df46ccda"
+   ]
+  },
+  {
+   "adds": [
+    "Tidal Control"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mishra-eminent-one:m5:bcd34516f035",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4be16b21d9a99ccb"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:179caea010fc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f21175fdff6bcea5"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9446054a2d8f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b20c116ad2cd4c2a"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7c4e6b65ee5d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:14dc33c04acedccf"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d56b042106c4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4d67112d8075e755"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:76d64ed7b386",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1c8a46207ab8026c"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:25a551e1d28e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3d84d2889ffb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:23d7a3005d4edd35"
+   ]
+  },
+  {
+   "adds": [
+    "Old Fat Spider Can't See Me"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2cdc54e155b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ca941ea5d6c3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:58fcb306077430ee"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:91e794d4969f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ab822f4b09d09c2c"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:83244e6ed01a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8ee774016ad923bd"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c7d32d4fbeaa",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4e7b9a9dbeb6ba0f"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:86257911b83d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9af402521f4323e1"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b4a8a6faf8e8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Windswept Heath"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:99271b7831e4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c870bebc06a6c90f"
+   ]
+  },
+  {
+   "adds": [
+    "Wooded Foothills"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b99f5de311f4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3a3189c47ce1e65e"
+   ]
+  },
+  {
+   "adds": [
+    "Marsh Flats"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f7e08d99edc8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fd18cabc15fdd7df"
+   ]
+  },
+  {
+   "adds": [
+    "Arid Mesa"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3b1c1d7c4ccc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:344077175ba04676"
+   ]
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f3b2c248c44b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ad9c4ec918ac2f6e"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a9c9597903a4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3e340cabb7ef4087"
+   ]
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c8888fd7bdb2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fe7158d4ffdcb204"
+   ]
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1861f694120e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:73bbcc4411c43ebc"
+   ]
+  },
+  {
+   "adds": [
+    "Frostcliff Siege"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a90ef636b002",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:74add9246cfb647f"
+   ]
+  },
+  {
+   "adds": [
+    "Frostcliff Siege"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ff402ba61d04",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5b031d5d3597011d"
+   ]
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1694dd551dd5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:482994fdee952942"
+   ]
+  },
+  {
+   "adds": [
+    "Scheming Silvertongue // Sign in Blood"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:676beef9d050",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Harmonized Trio // Brainstorm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9dec282ff072",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0e2542f00f1a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2b37ecf83292",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:110fa204c5550a22"
+   ]
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0dd6d0b0c9a1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e8716930f8c4a612"
+   ]
+  },
+  {
+   "adds": [
+    "Naktamun Lorespinner // Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:430193914d8c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d49140ce72f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4d2e0c3a124e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d549e4e6f936a1be"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:11e0ee9e6a78",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e9891aef76b44b92"
+   ]
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e7c20ec10dcc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:066e8b476d762cda"
+   ]
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c46c2e123eb1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:601b87d394079df8"
+   ]
+  },
+  {
+   "adds": [
+    "Ominous Harvest"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:75af81a54c7e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9c82a3c2999064fc"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2cdd13ab182d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bee70bcf5c59ae85"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:916667cf1c02",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8f5164104b6ed9be"
+   ]
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:02f865757ca0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d3cd5ef8d83e8d2e"
+   ]
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:560393b80298",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8f3f6ce8ef97fe0d"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Recollector // Ancestral Craving"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9058b2d3992f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smellerbee, Rebel Fighter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:908abbfa973a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:081c672a44714715"
+   ]
+  },
+  {
+   "adds": [
+    "Smellerbee, Rebel Fighter"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ec842a3b9574",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:786ce83ad2ac63ac"
+   ]
+  },
+  {
+   "adds": [
+    "Exquisite Blood"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2504a14283b8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ec70deb67b18e2f5"
+   ]
+  },
+  {
+   "adds": [
+    "Exquisite Blood"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:53442b792e0c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c50c95cae101d8c9"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbook Seeker // Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:34c24d4acc15",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3f4b778239ac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5987fa5164e4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:71b423f4c6fa75b4"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:77e6c0e81d32",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fc017e1354447dde"
+   ]
+  },
+  {
+   "adds": [
+    "Landscape Painter // Vibrant Idea"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:263975d1dd99",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pompous Battlemage // Improvised Act"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:418bfea72af0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9a687bab6e99",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:03cc7fe9f082b03f"
+   ]
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d5e876b1ed63",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rising of the Day"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9ee2d34feb96",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:38c5028d5bdbec83"
+   ]
+  },
+  {
+   "adds": [
+    "Rising of the Day"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3c2ccfc1923d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:28947f65df91ff62"
+   ]
+  },
+  {
+   "adds": [
+    "Hallway Heckler // Vicious Verse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b6fff368c46a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a59e6006d7c8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3174d711652b9f29"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6621bd85634b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d86e6c28d04d96ac"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:77edfb2237a0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:129ae2db1146696c"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:264d6997f413",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c4541d1d58b15008"
+   ]
+  },
+  {
+   "adds": [
+    "Silent Hallcreeper"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f84f0eb90a52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:06f5925530ed",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:24aa477ff8f97f43"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f268a7c01ce4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:68affd9217863d85"
+   ]
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ce06a91510b5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:1272fc9803de94ea"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:acd0de1ebc54",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:89003e88457e82b1"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:854ae6b255ae",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b755603d5c034770"
+   ]
+  },
+  {
+   "adds": [
+    "Curiosity Crafter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1f17ef683a3c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e0c072111d48",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4007c42a8f07f416"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e5f1f0b24b67",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8289300d496321b4"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f0307964aa1f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:af875bbca9cb59e3"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cf9970a21d56",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2c0a87279617e144"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a031411a3a77",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7cbdd899f938ebd9"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:282e5a003fc0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:25ef137239f089f1"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask the Hidden"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:efd8880b233a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2448ee190ca4540d"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask the Hidden"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3a86596adc76",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:023d27a3a7558174"
+   ]
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0622b95bccd3",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:72a370d796f42648"
+   ]
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "Urza, Lord High Artificer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:525d5611ab1d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:461df990f94d6bbb"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Multiverse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1436ee241027",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fcbc85f12af2aec6"
+   ]
+  },
+  {
+   "adds": [
+    "One with the Multiverse"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ac8bacf652cd",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:91f39e683f5dac10"
+   ]
+  },
+  {
+   "adds": [
+    "Likeness Looter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:87c505f5d3fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2cbfd66769e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:cc856ff2510f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:442391c310c0694c"
+   ]
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a845466f4e7c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:043a93268bffc8a7"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos, Lord of Riots"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:810d9383bbaa",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:c72e41cfdb8a539e"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos, Lord of Riots"
+   ],
+   "cuts": [
+    "Urza, Lord High Artificer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:706373d2fb5f",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:af0816c32d95f4b6"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c2c72bfb8651",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a9e199e4dda4b809"
+   ]
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:20d467e63fe1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:fafc9af5819299f1"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8007a0b09b93",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:93075d16b53cb3ac"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d4a1e7fbb941",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:4a462606773aa74c"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:mishra-eminent-one:m5:447c4454206b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9d3bd68c57e49f7c"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0bd4c0588924",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8d0caf518169f69a"
+   ]
+  },
+  {
+   "adds": [
+    "Mass Hysteria"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0629fc73263c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:21e13bd24579d9c8"
+   ]
+  },
+  {
+   "adds": [
+    "Mass Hysteria"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:272916bc35f5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b8b48d5c8732cc9b"
+   ]
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:13486779c33a",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ed55c214e912157a"
+   ]
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:12cbd7e0f62c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fervor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f220a72591a9",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2501d09e41715b6d"
+   ]
+  },
+  {
+   "adds": [
+    "Fervor"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:35808dedc34e",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:31395fea6de020ea"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:39cab15eea1d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:a1d0c18ca509cadb"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:00d71b964677",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:8026bd31728e1ff0"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:df773a335f39",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Lich's Relic"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d075f794bc2c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2bc0c04b6a3bafdd"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Aetherflux Reservoir"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f0839c48c67d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7ba9706ad59a7adf"
+   ]
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f2b3ce86f434",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Barbarian Class"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c3939b9f285b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:d09437a21898dd66"
+   ]
+  },
+  {
+   "adds": [
+    "Barbarian Class"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:359b9cd1b54c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e1fae5924ed9fd70"
+   ]
+  },
+  {
+   "adds": [
+    "Necrodominance"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ae47ef269ab3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gimli's Reckless Might"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d24ec880c851",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:173d0552bd3fc874"
+   ]
+  },
+  {
+   "adds": [
+    "Gimli's Reckless Might"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9c63b0a89274",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:22e9f6ce902dfcae"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3a4a467774f0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ba12ffa8f3bf0586"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:231cee56991c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2305860da6abb380"
+   ]
+  },
+  {
+   "adds": [
+    "Kratos, God of War"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:647b971fa454",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:aa5139a95538e53d"
+   ]
+  },
+  {
+   "adds": [
+    "Kratos, God of War"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9929d072fb9b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5bd163ed335ef7f1"
+   ]
+  },
+  {
+   "adds": [
+    "Chakram Retriever"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b2d1e1311652",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:eb914d0ee0ef0956"
+   ]
+  },
+  {
+   "adds": [
+    "Chakram Retriever"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:469c43967c34",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9774bff3a6079725"
+   ]
+  },
+  {
+   "adds": [
+    "Emet-Selch, Unsundered // Hades, Sorcerer of Eld"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0bdc989b5916",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b2e6ca3ad189",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:61ab6c333f7028f9"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Urza, Lord High Artificer"
+   ],
+   "id": "swap:mishra-eminent-one:m5:c0ba2ea57ea7",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f75403f5d48b710f"
+   ]
+  },
+  {
+   "adds": [
+    "Paradoxical Outcome"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:355b82d5cd86",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2b139c44b98f8a9e"
+   ]
+  },
+  {
+   "adds": [
+    "Lavaleaper"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e1480896d439",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:95f54662ed88a4b6"
+   ]
+  },
+  {
+   "adds": [
+    "Lavaleaper"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:2f87f5f209a8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:04cf7670d87497d9"
+   ]
+  },
+  {
+   "adds": [
+    "Jace Reawakened"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7c40800f3ce3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Blue Spirit"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:a8614b45a279",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Future Sight"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ad6cae60d965",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6e77228cc46ac3b1"
+   ]
+  },
+  {
+   "adds": [
+    "Future Sight"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ebbaad317561",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:f1e0f82847db60c4"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonlord Kolaghan"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9171ab1c04eb",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:2d9bc83e38d88b27"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonlord Kolaghan"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e71ed3381d85",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6eaa912dd99ddfa0"
+   ]
+  },
+  {
+   "adds": [
+    "Tuktuk Rubblefort"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:d9a77926bd51",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e2cf6dfc9f858fd6"
+   ]
+  },
+  {
+   "adds": [
+    "Tuktuk Rubblefort"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4b4a20dc7eb5",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:129783c23ca94a57"
+   ]
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e9a0a11f953b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Invasion of Amonkhet // Lazotep Convert"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:1bfdc3e63f5d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dr. Eggman"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ce89375abe7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Garna, the Bloodflame"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0883f7351833",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7bc4bb94bc9643b4"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, the Bloodflame"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:89c57e3aa367",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ba516f91894eb74b"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonstorm"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mishra-eminent-one:m5:16e23093a36d",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3372c2b7e7e2f808"
+   ]
+  },
+  {
+   "adds": [
+    "Extraordinary Journey"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:323b2fad0f88",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:638fc0341da8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:844fb7adbcfe2e3a"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:6d4f3bdbe3f1",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:540729c030f54b82"
+   ]
+  },
+  {
+   "adds": [
+    "Will Kenrith"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:4c19217d75ae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mathise, Surge Channeler"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:50dd74025826",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:0dcec21e63c2",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bc762ef3f68cf46c"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:7a29e8b73a54",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:bfdf91d3e5b12f7e"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Frenzy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:f4e1fe0ac8be",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:42cc06a2e2914cfb"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Frenzy"
+   ],
+   "cuts": [
+    "Determined Iteration"
+   ],
+   "id": "swap:mishra-eminent-one:m5:dce55e81523c",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:3a14f4e0ec1db89c"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:07b42b55ffe6",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:00bf4ca5db2638aa"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:05f89f3227cc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:30dd59df5c3486c8"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:38641e122190",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:9b472a965812e87d"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:40494bb538bc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:978439b6f8c24006"
+   ]
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:343a6c6f016b",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:b39c8eb01d6669f0"
+   ]
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:13ff6a066286",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:6b22e27b1449dd22"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclops of Eternal Fury"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b75bc4a0ad52",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:e0bff5bf851e293d"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclops of Eternal Fury"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:9cf86865f223",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:92298830f2bbd74f"
+   ]
+  },
+  {
+   "adds": [
+    "Mentor's Guidance"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:05a574ff5920",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:0be1311d43f48ea0"
+   ]
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:ddf95764c1fb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Encore"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:e41bf08c63d4",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:60d7aeac9da6d928"
+   ]
+  },
+  {
+   "adds": [
+    "Last Thoughts"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:5f910092fad8",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:ccc7e58d77071488"
+   ]
+  },
+  {
+   "adds": [
+    "League Guildmage"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:961ade65abc5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Arcum Dagsson"
+   ],
+   "id": "swap:mishra-eminent-one:m5:3ae5cadc60dc",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:5d901a398b322afc"
+   ]
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Myr Retriever"
+   ],
+   "id": "swap:mishra-eminent-one:m5:b7d315caeb00",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:45bdbbdc33308c37"
+   ]
+  },
+  {
+   "adds": [
+    "Train of Thought"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:aed9ecf97042",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:7834224e57366199"
+   ]
+  },
+  {
+   "adds": [
+    "Ghastly Discovery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:bd38bbb10fd0",
+   "tests": [
+    "test:mishra-eminent-one:goldfish:dfeca0b45707bf65"
+   ]
+  },
+  {
+   "adds": [
+    "Snazzy Aether Homunculus"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-eminent-one:m5:8d6f8e1f9fde",
+   "tests": []
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:mishra-eminent-one:goldfish:197d96de002d0719",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9d4a6f0be509b826",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2f2e5eb89716bb20",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:77970e57e76838d0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bb7e982bf936b9ed",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b097cd4a85cc09b3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d7f46e97c2fac2aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:093e08d4f0423bbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2dd58e079f71e745",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c99d9477a41a919c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5b1d572e73685105",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:37911b2c672aaf3a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6c3029a4484750f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:552f96ecf23dcc2c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1f48eeaa5963b9b6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:10de720e460fe864",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:530d62b187e6cc84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bf9c12fb915d8b2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:acce038d0ce6c392",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c88d411e22bc504c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:041eb04ede7b198b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:48ff0790c7cc7aec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:353096249538f0e1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6f1db762f35b5827",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:768faf3be66c25ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:93748ca1c60a6af1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:65e0a5b771ce2c0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7b65705fc145d4b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d887f3195d1d7650",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9d28c9204c039484",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6bf0194ace694636",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b79e48175e4c8cad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:77c40467568d4ffc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d8540dece5e92db6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:829dc264bace7831",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9d5e6972dff21733",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:dfdc92272204334b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c7e00645163518f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ec3b09aacb9459f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0c07cbf3a1511d5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2edcbdfd0e4e2a64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:02c414d01500a947",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ae411975154a3a61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:839786ea89b72456",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:73293081bc43f95f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7065668a42d5325e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:45163c6fb97778d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c6905b53d569bb1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b83235eafc5908b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:37bd1b5664663be5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:19f72987f51dd5aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b5a208e548d8cf20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:834644574a08ae59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f6f87802a49ce128",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0f00cd914bde2bbd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1763444d3b51c3c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b552053fd4090212",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:65fc60388cd3b1ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:818e14c6e98b8085",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:99b99cbd5e6a0e84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c2ddf93ad743df65",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:05fa228fe3935c70",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4e617639713071dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c079672af6282288",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c072a08ea621701a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9e24c789a424ae69",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0e390a6b070f49e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8d72027cc4ea160e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:acf0f20e231d4624",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:15d07ffb6941e5f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1a645963fd6f7d86",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a592e7ad70c0306b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:de198477d3751f7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4dab8f1b752caad5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:acd7764212f7af1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e13e52514203bd82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6041c3f745e5e8b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:17c3ae9e6cf7ddab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:df9a84fd4e416175",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ee1a5cd1d377ef5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fce81b76b8e9cf1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5f6d1d6045866600",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c11ba3117012ec78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d368d34f4149e01a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2ddfd64747f405de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a1a215034b90232f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d2d6c2ffd7a807ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b2ba024900c407c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7987d71d30c24a65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8c3a9507fab98193",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a0746a61524d7917",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f863bcb22b065f0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c2c48bb7f70afa94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8915649ee52fe740",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fec12371c78d0aa9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f1606f949bdea65a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d577b0c67e11ec83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:495bef2e6441d94c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e6bc5b366e76997f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:05c3bec4bd552038",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3d7c5e9dbf28bd0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:db6e95949f641ffd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:49f9d19db2e323e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b9691be252bc3e85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:11fd537239940c5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:309af83714ecc54b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4b6651d57064ef13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3f47115465485301",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:172f5465d83dbb56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1430f89eb83342c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:701119923fba290b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:cd8d817f0a177ba1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:68f0a35c501becb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:25899d7a62f2ac62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3dd94526e3a6be72",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b9bd8d008e668307",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b312a635acb5d7e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:caa07f2800d146dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:de6ac1a90a037ec7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4991504c6d8db7d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5b30c82c9d98f3b5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1ad88fcae48aca87",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:09a6a0aac1455562",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:27b63c66a1110962",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:eef8ad239ae59c66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0007b37a86c6636d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:20f18895aaccccab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2a9ebad55917dd01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:00b05e5a021d598e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b0441a9f7a068946",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:34296c6e5a132fd4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e339555c8cf10b5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:245671f26a34eb50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:06bb2078653577e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1809e6c97e1bc97f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:72150c3f512b931f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0a3fbdc40d9fc811",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ec54b20bdc4bcc37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b299c671baa7151b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4e1661e613205bf2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:45305cc2dd4c4a7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:96570b55ac4807ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:eb4dd0c21c25dd03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d4e897221dee7476",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:16095087e5a097a4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:55d6ab5777fe1195",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4f635ce3aeae1364",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:50e2eab153076a4d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4b0e7237e9faed3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:04ff172c90166432",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:00c553af775a2f80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a6e83f648e90aa9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c406f3d3a607f1e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b9633b81b35e36eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1d07d8bd465098fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:36fb36685e576ad4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d69e592bce35af8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6817c9769334d333",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3783f1a93ce9850a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9fa243adce4161c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:75e262a80074cf3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:682a6905c949b450",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8b2dd11be9b49470",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:39f4898b61b2bf92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5e65f3d7843c07ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ae43f3a1a029896e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:077d5b4707f33325",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:19b2a2b40ec442bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:13f4da34de6c7dd6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:28a9284af040b983",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3c02907357fb06bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bd24bf253eb568d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d45fed3ce681ff93",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e67425cf56d21934",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:06e582fcff178120",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:df08f50dd8a67764",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a603fd290949ac6e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4eb8d30ea5b42d34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ecc395fce5e453c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f11e3d04b356724f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6c9dd2977dd79165",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4bc60e75b0bb80ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c8441d2ec863ab1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:20c6620ca76bc95a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fccca0c707040dd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8392991a16932f29",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:66c6379ae1b76e39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:57de70f2790d5b8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:eb0205a368bd2207",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:dc80da9c3baa46ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3c83cb570a738040",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d6a747bc6a97f6a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:30ca7cb32e9174c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4354377d613d7d34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:03b0e9e32941370d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:68ac87accebf987c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c33a15268f25d659",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a9823ebf06928cd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1686f2390f7978c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:470518e31b0c1de7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:522b211646aa937d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7f7fb0b084bcaa71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d5708eabd57af193",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:694a852608eb2b5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d427c4a4222ec8db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7fd3d30422880a6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:dc5727c6649dabf5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3b1d953aebea3d84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c6e1543316e410f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9071740b6a071a29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:540d5688ffc785d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f015ef91c78da034",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:50e698963920f9c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0cab975494689eda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:31270fd3c87126ba",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1d5be069f788f91a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c0472b55304a9556",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b9020599d6367e73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c037c69b36258e53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:284af3d9e655f0e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0f1d64de2b47014f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e85d35be36fc54b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:76543beb4a0be444",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:894a88b7a58d36f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0a2b2c679a279a2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0c110f3e2b832dfe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d3dbafcaf6be596e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:777f85d2d548714e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8fc2bfcff13c36c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a84726746fab1487",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:62af040af01ebcf3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e86e9d6238885dc4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:feb85c26fc42555e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3dedeab2521698aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c163c86569c47a5b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:93cc23834156d6a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c100d27618ddddb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f9aa84ae1c16c415",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8039c608df600571",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:76308edc74294242",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4e10459ea9478173",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:194558f217280bd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:13f62b25a2f5bfc4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d84eec4bcbd71ae6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5f1a2e7db19b03ea",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:543e24c4dea20553",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c86e5d915d7d0890",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ec52744f685c15a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:14ba31998c373e01",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4726801dc1b8e776",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b1b94c8c7397c75d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e9348fc982ccf68a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:28dfbd3ed031f526",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b82b5a926776e716",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3b68a2ec80c635c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5e0a4aa1f6cdb37a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2e42421138a3fafb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:19696dd9320bb0d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2f9a565db0756ae5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b7ac524e11c32694",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6a78662d5ab98160",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:748a01949e73d69b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:73929aa6d88d9af9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0a57755b61ddcad5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c1fca781515fc0c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9a08fd11f76c57bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:06b4d2c908aab976",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1386c3a1dd7f2aff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:97a7e622c85f18d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:10eae762b4fc1cfc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1aada609fbb3cd5a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fffe6d9dfcc28a33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:47fe492a319512b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c4620b5c7973034c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1f00214e5c85a6f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3c0e114937a630ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bf16b05840838fdd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:679ffc77ab3396f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fd3ed16879d1fc00",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2ea7abc6a6027fde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b82e312189b436ac",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ad908f7a166c2016",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:45693a0f28cdc62d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b362d76456d135c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5912c80b75ba392b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bfe8bfc2137ea585",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:98caa7a7db5d38bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ca30e2c68df746d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4a81295152344527",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:cb95cf0cfb9b5447",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3bd3551eff37910d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5e89a8f96d70c88b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:753c689dfe4d1c49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0f2a905d0f897509",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5dcc0b2a21b7665f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0a65b395e6d51949",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a2e2cfd0094b82fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0af471c5396070ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:cbf0da504203ed01",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:dd5fa60d74d1b825",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2cde1e53635d733a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:44cbc632bafdfbde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5c200689e6856d1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ff7eb8aa871a09bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2b119f2745b2def5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7a9b39b7f8562bc4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:367c1cc1535e1773",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7828454220ec4e26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c25b26d93af56695",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9041b11c72cabe62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:af2be787fd5a3393",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:194ed247b0666db1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:64556e7237253677",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:993421979463ec3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6773aa55e4d3da04",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:79aa06944d700b5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f2857070dd8d5cde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2a9b666973f030d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:546a92f41bf8c641",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5db9b5c5ff657999",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3b15dc24e6a46c1d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:278b35c24ba6531b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9f4deb0af962f095",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:14747deffa5da665",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:497779d3b37ce53a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3047c171cad659ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d2b805b9eba7cd71",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f36d99bc06e98849",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4dcc2729df46ccda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4be16b21d9a99ccb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f21175fdff6bcea5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b20c116ad2cd4c2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:14dc33c04acedccf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4d67112d8075e755",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1c8a46207ab8026c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:23d7a3005d4edd35",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:58fcb306077430ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ab822f4b09d09c2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8ee774016ad923bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4e7b9a9dbeb6ba0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9af402521f4323e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c870bebc06a6c90f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3a3189c47ce1e65e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fd18cabc15fdd7df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:344077175ba04676",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ad9c4ec918ac2f6e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3e340cabb7ef4087",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fe7158d4ffdcb204",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:73bbcc4411c43ebc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:74add9246cfb647f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5b031d5d3597011d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:482994fdee952942",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:110fa204c5550a22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e8716930f8c4a612",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d549e4e6f936a1be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e9891aef76b44b92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:066e8b476d762cda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:601b87d394079df8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9c82a3c2999064fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bee70bcf5c59ae85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8f5164104b6ed9be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d3cd5ef8d83e8d2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8f3f6ce8ef97fe0d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:081c672a44714715",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:786ce83ad2ac63ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ec70deb67b18e2f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c50c95cae101d8c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:71b423f4c6fa75b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fc017e1354447dde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:03cc7fe9f082b03f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:38c5028d5bdbec83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:28947f65df91ff62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3174d711652b9f29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d86e6c28d04d96ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:129ae2db1146696c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c4541d1d58b15008",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:24aa477ff8f97f43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:68affd9217863d85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:1272fc9803de94ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:89003e88457e82b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b755603d5c034770",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4007c42a8f07f416",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8289300d496321b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:af875bbca9cb59e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2c0a87279617e144",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7cbdd899f938ebd9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:25ef137239f089f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2448ee190ca4540d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:023d27a3a7558174",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:72a370d796f42648",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:461df990f94d6bbb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fcbc85f12af2aec6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:91f39e683f5dac10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:442391c310c0694c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:043a93268bffc8a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:c72e41cfdb8a539e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:af0816c32d95f4b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a9e199e4dda4b809",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:fafc9af5819299f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:93075d16b53cb3ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:4a462606773aa74c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9d3bd68c57e49f7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8d0caf518169f69a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:21e13bd24579d9c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b8b48d5c8732cc9b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ed55c214e912157a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2501d09e41715b6d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:31395fea6de020ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:a1d0c18ca509cadb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:8026bd31728e1ff0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2bc0c04b6a3bafdd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7ba9706ad59a7adf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:d09437a21898dd66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e1fae5924ed9fd70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:173d0552bd3fc874",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:22e9f6ce902dfcae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ba12ffa8f3bf0586",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2305860da6abb380",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:aa5139a95538e53d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5bd163ed335ef7f1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:eb914d0ee0ef0956",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9774bff3a6079725",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:61ab6c333f7028f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f75403f5d48b710f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2b139c44b98f8a9e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:95f54662ed88a4b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:04cf7670d87497d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6e77228cc46ac3b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:f1e0f82847db60c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:2d9bc83e38d88b27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6eaa912dd99ddfa0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e2cf6dfc9f858fd6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:129783c23ca94a57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7bc4bb94bc9643b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ba516f91894eb74b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3372c2b7e7e2f808",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:844fb7adbcfe2e3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:540729c030f54b82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bc762ef3f68cf46c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:bfdf91d3e5b12f7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:42cc06a2e2914cfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:3a14f4e0ec1db89c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:00bf4ca5db2638aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:30dd59df5c3486c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:9b472a965812e87d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:978439b6f8c24006",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:b39c8eb01d6669f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:6b22e27b1449dd22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:e0bff5bf851e293d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:92298830f2bbd74f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:0be1311d43f48ea0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:60d7aeac9da6d928",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:ccc7e58d77071488",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:5d901a398b322afc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:45bdbbdc33308c37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:7834224e57366199",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mishra-eminent-one:goldfish:dfeca0b45707bf65",
+   "verdict": "inconclusive"
+  }
+ ]
+}

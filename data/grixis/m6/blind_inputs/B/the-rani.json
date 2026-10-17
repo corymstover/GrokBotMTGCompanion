@@ -1,0 +1,2453 @@
+{
+ "deck_id": "The_Rani",
+ "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "slug": "the-rani",
+ "swaps": [
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:2d7da92938f8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:44ebe80a1930",
+   "tests": [
+    "test:the-rani:goldfish:90834c94676245f7"
+   ]
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:2bf9e6d74cd4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:eea4eb80cdba",
+   "tests": [
+    "test:the-rani:goldfish:0e02d785342f2c0a"
+   ]
+  },
+  {
+   "adds": [
+    "Parasitic Impetus"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:23ef9f789a9a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Parasitic Impetus"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:dff2696bb37e",
+   "tests": [
+    "test:the-rani:goldfish:b57173c41373e1c5"
+   ]
+  },
+  {
+   "adds": [
+    "Renegade Silent"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a4110e18a218",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Renegade Silent"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:8ab931c0324d",
+   "tests": [
+    "test:the-rani:goldfish:4eabc13f8b704dfd"
+   ]
+  },
+  {
+   "adds": [
+    "Tamiyo's Journal"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:the-rani:m5:b6ece43e1995",
+   "tests": [
+    "test:the-rani:goldfish:247e9ea915b8d418"
+   ]
+  },
+  {
+   "adds": [
+    "Laser Screwdriver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:4235a989bedd",
+   "tests": [
+    "test:the-rani:goldfish:15ff7625849e0b90"
+   ]
+  },
+  {
+   "adds": [
+    "Life of the Party"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a55f0057a3ac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Life of the Party"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:343fa8a72f51",
+   "tests": [
+    "test:the-rani:goldfish:e359d6996af8f407"
+   ]
+  },
+  {
+   "adds": [
+    "Geode Rager"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:5263cc9d9e3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frenzied Gorespawn"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:5dc1457feb44",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sly Instigator"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:792a722b256b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:8d85d23e4b63",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Coronation of Chaos"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:4b1b5ca7bfe8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Day of the Moon"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:05a463de0c2b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Martha Jones"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:c08c254347a0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:95ead446867f",
+   "tests": [
+    "test:the-rani:goldfish:e9e62ef120f392a7"
+   ]
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a9ddd29c93a7",
+   "tests": [
+    "test:the-rani:goldfish:a2b0276a5df158e5"
+   ]
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:91c72128f4f2",
+   "tests": [
+    "test:the-rani:goldfish:53e57a72cb88392d"
+   ]
+  },
+  {
+   "adds": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:0703b01ab411",
+   "tests": []
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:57e0313b2ded",
+   "tests": [
+    "test:the-rani:goldfish:724dc835975b3b07"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:4840431b79d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mob Rule"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:d6c06aeeae0e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Insurrection"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:489fdb5576a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fast Forward"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:9a140a759118",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:98e20eca7bcb",
+   "tests": [
+    "test:the-rani:goldfish:237f9e0f46402a02"
+   ]
+  },
+  {
+   "adds": [
+    "Vislor Turlough"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:d09dcd0d8363",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:91ef98cebfae",
+   "tests": [
+    "test:the-rani:goldfish:ee49c82850041669"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:9688d8bd9f86",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:0f040481b1fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Time Sieve"
+   ],
+   "id": "swap:the-rani:m5:7e501b776ede",
+   "tests": [
+    "test:the-rani:goldfish:276a5fe2094668ea"
+   ]
+  },
+  {
+   "adds": [
+    "Idol of Oblivion"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:df97ac142cd3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Popular Entertainer"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:6b4bcc76441a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-rani:m5:3ec6a360c776",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Maeve, Insidious Singer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:d13d08fb7533",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:c656e1a2062d",
+   "tests": [
+    "test:the-rani:goldfish:7092283e0b9b2827"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Dynasty"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:fae6832ec8e0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:9d5454de2e85",
+   "tests": [
+    "test:the-rani:goldfish:25ea585f83353619"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:e7c0a8e9a13f",
+   "tests": [
+    "test:the-rani:goldfish:b093948baab15899"
+   ]
+  },
+  {
+   "adds": [
+    "Mirkwood Bats"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:8d64b3ca68f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Acquired Mutation"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:dd374e019f0e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curse of Verbosity"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:1dab1c33a117",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:1b6bc14009e5",
+   "tests": [
+    "test:the-rani:goldfish:4f725913b6ea643d"
+   ]
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:0f24ecac2df5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:the-rani:m5:fe0378863090",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:55a9b7d61c9a",
+   "tests": [
+    "test:the-rani:goldfish:20c6cc1499a1cc43"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:df03370cf48e",
+   "tests": [
+    "test:the-rani:goldfish:1099c8d6208b4f4d"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:3cf971ec4617",
+   "tests": [
+    "test:the-rani:goldfish:81fdf247ab96bbbc"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-rani:m5:26f3738a3216",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laurine, the Diversion"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:bde6dff6ec39",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sontaran General"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:51a6288e9efa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fell Beast's Shriek"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:fb855dbb5503",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:6a693a433136",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:73c4cad51103",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:the-rani:m5:7b3d3fa55694",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:86f5a838ade6",
+   "tests": [
+    "test:the-rani:goldfish:4a850fe8dfbe38f6"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:26c855fd7a32",
+   "tests": [
+    "test:the-rani:goldfish:0f99cbd3e2cdbc13"
+   ]
+  },
+  {
+   "adds": [
+    "Braids, Arisen Nightmare"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:dcb172079847",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:cbab2e96c9b2",
+   "tests": [
+    "test:the-rani:goldfish:f6c7759bedb2e1a2"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a30a72c0ebcd",
+   "tests": [
+    "test:the-rani:goldfish:4ff9cd140585b16c"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:ac840defed0c",
+   "tests": [
+    "test:the-rani:goldfish:a0a04c235f234c0d"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:c933ec364290",
+   "tests": [
+    "test:the-rani:goldfish:7e8e822b6e61941c"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Hearth and Home"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:38681bc4ae48",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-rani:m5:87380ead7e01",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:204350805aa1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Havoc Eater"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:77e33a8b8ba6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:11889e32e547",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Taunting Kobold"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:5b45b93ae9e1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nettling Nuisance"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:f41e2a9a71c6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:af33e288f324",
+   "tests": [
+    "test:the-rani:goldfish:f5fecc1f1298cbbb"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:7299ba93c7d8",
+   "tests": [
+    "test:the-rani:goldfish:16341b216e0239d1"
+   ]
+  },
+  {
+   "adds": [
+    "Glóin, Dwarf Emissary"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:22835b5fea58",
+   "tests": [
+    "test:the-rani:goldfish:113e9d4dbe60a55f"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:b5c7cc4b5378",
+   "tests": [
+    "test:the-rani:goldfish:5287f3629ab760aa"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:03ee09d31d76",
+   "tests": [
+    "test:the-rani:goldfish:b8e0d27f64419463"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:837f81617c78",
+   "tests": [
+    "test:the-rani:goldfish:8c6b028beaede420"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:1ff520db4128",
+   "tests": [
+    "test:the-rani:goldfish:eced858420ac08eb"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:ddc2160c3c84",
+   "tests": [
+    "test:the-rani:goldfish:ba9aa9fb77ae4e90"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:a53723b9254c",
+   "tests": [
+    "test:the-rani:goldfish:9af4e238239efacc"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:503451cd14b5",
+   "tests": [
+    "test:the-rani:goldfish:fa18df315ce34f0a"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:39dbcfd5bb1d",
+   "tests": [
+    "test:the-rani:goldfish:17e53caa1cc638f8"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:e7eaac3c1df7",
+   "tests": [
+    "test:the-rani:goldfish:fc8500295330d3e7"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:1da77f41fe30",
+   "tests": [
+    "test:the-rani:goldfish:ea3347215cc06a1f"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:97f59e8c4df2",
+   "tests": [
+    "test:the-rani:goldfish:6f04cbdbae71f5ba"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:8988df450540",
+   "tests": [
+    "test:the-rani:goldfish:6c8e1bfa86e9a832"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a9441fdd5976",
+   "tests": [
+    "test:the-rani:goldfish:d968c3b8aff1b867"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:1973525178fd",
+   "tests": [
+    "test:the-rani:goldfish:23bdcee32570b57d"
+   ]
+  },
+  {
+   "adds": [
+    "Seifer, Balamb Rival"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:409d6731ad9c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:d097664ac693",
+   "tests": [
+    "test:the-rani:goldfish:798acf732410a3ba"
+   ]
+  },
+  {
+   "adds": [
+    "Maximum Carnage"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:2f39e63f07fa",
+   "tests": [
+    "test:the-rani:goldfish:aae53506ca355b3e"
+   ]
+  },
+  {
+   "adds": [
+    "Malcolm, Keen-Eyed Navigator"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:43e7697b3f83",
+   "tests": [
+    "test:the-rani:goldfish:1585ffb3c18c0eb2"
+   ]
+  },
+  {
+   "adds": [
+    "Malcolm, Keen-Eyed Navigator"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:90bd69511240",
+   "tests": [
+    "test:the-rani:goldfish:4972fd265c91ec39"
+   ]
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:c43d7e7b7a13",
+   "tests": [
+    "test:the-rani:goldfish:3941d6d5ec7c2910"
+   ]
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:4fca63c1ceb4",
+   "tests": [
+    "test:the-rani:goldfish:df8753f488b160b7"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:442de0964a85",
+   "tests": [
+    "test:the-rani:goldfish:66912635e9bf94c9"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:79dc022ac0cd",
+   "tests": [
+    "test:the-rani:goldfish:557a04374315443e"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:66b3814d4bc5",
+   "tests": [
+    "test:the-rani:goldfish:5951b8ee4b89da1a"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:b1d0a8f8aef3",
+   "tests": [
+    "test:the-rani:goldfish:7d09a5bf5237ac4c"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:73e7c7e6e6c6",
+   "tests": [
+    "test:the-rani:goldfish:786225dd3c2f30fd"
+   ]
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:02d8c25351e7",
+   "tests": [
+    "test:the-rani:goldfish:2f08ab5df64b56c5"
+   ]
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:67feb6cd09c4",
+   "tests": [
+    "test:the-rani:goldfish:365ed9876c90c1ea"
+   ]
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:30f0249d077d",
+   "tests": [
+    "test:the-rani:goldfish:a99eb19f3ba03620"
+   ]
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:1ae66a7955ef",
+   "tests": [
+    "test:the-rani:goldfish:75cad6fcf1aae034"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:225ed1a7c9c4",
+   "tests": [
+    "test:the-rani:goldfish:2a82fc833e4e52d6"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:8a831cd906c6",
+   "tests": [
+    "test:the-rani:goldfish:99a71d3ea6b17120"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:447337e08eb7",
+   "tests": [
+    "test:the-rani:goldfish:602c196f6eebde27"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:adcb5dc8b2d0",
+   "tests": [
+    "test:the-rani:goldfish:c787fd1abc72638c"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:f2e3ffe4de15",
+   "tests": [
+    "test:the-rani:goldfish:9edc21b53ac2098a"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:42ea7385895b",
+   "tests": [
+    "test:the-rani:goldfish:247d7b15751dc711"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:c8f5da4cdb87",
+   "tests": [
+    "test:the-rani:goldfish:009fef273dc348f9"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:eea2f32e0a0a",
+   "tests": [
+    "test:the-rani:goldfish:c5749ef0f9853e16"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:3a07d05a03b4",
+   "tests": [
+    "test:the-rani:goldfish:afdcc106704071ed"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:e8d70cf395ab",
+   "tests": [
+    "test:the-rani:goldfish:a96f2f528ae8d4db"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:799d5ae6fde5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Safana, Calimport Cutthroat"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:68b90358139e",
+   "tests": [
+    "test:the-rani:goldfish:443d7daebe9799f5"
+   ]
+  },
+  {
+   "adds": [
+    "Safana, Calimport Cutthroat"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:95e74d9d62d8",
+   "tests": [
+    "test:the-rani:goldfish:bfd478d80af11e0d"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:2722fe897c45",
+   "tests": [
+    "test:the-rani:goldfish:f492bb7aa81f5005"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:6ab30dcce361",
+   "tests": [
+    "test:the-rani:goldfish:0949dd73fd4bbb8e"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Recruitment"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:1a2393700e5c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:579d79b837fa",
+   "tests": [
+    "test:the-rani:goldfish:74f101fef1daa765"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:a8ff0e325479",
+   "tests": [
+    "test:the-rani:goldfish:150ab194ce07590b"
+   ]
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a63ec6efafc3",
+   "tests": [
+    "test:the-rani:goldfish:9b6754340382aed0"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:019a0129ebd4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Changing Loyalty"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:1bdce690602a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a63e8565b859",
+   "tests": [
+    "test:the-rani:goldfish:5490d0b690255e77"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:3d95a8324375",
+   "tests": [
+    "test:the-rani:goldfish:4e2620c1a95d335d"
+   ]
+  },
+  {
+   "adds": [
+    "Public Enemy"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:06ff93126e63",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:8ea5476dd3a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:21dc294e27c8",
+   "tests": [
+    "test:the-rani:goldfish:383cd9bce969ff44"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:0bbe4feb8b47",
+   "tests": [
+    "test:the-rani:goldfish:cee6eea1fc680cf1"
+   ]
+  },
+  {
+   "adds": [
+    "Besmirch"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:43a947027c3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:9463493b316f",
+   "tests": [
+    "test:the-rani:goldfish:2715e9b4a3966c74"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:2aaba9303616",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:2cab34bcc55d",
+   "tests": [
+    "test:the-rani:goldfish:96e38b4d430029e3"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:fe1a7886e6d4",
+   "tests": [
+    "test:the-rani:goldfish:16b25eea1671793d"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:0724008078f2",
+   "tests": [
+    "test:the-rani:goldfish:c5f4090b5143b021"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a0b19afd1ca0",
+   "tests": [
+    "test:the-rani:goldfish:222abf702facedda"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:3f2c93ea48c0",
+   "tests": [
+    "test:the-rani:goldfish:8015b6e005180857"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:db35dd95bbf5",
+   "tests": [
+    "test:the-rani:goldfish:b6c4f90e9761e84b"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:6315bd34771e",
+   "tests": [
+    "test:the-rani:goldfish:5dac9db75e370304"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Coercive Impetus"
+   ],
+   "id": "swap:the-rani:m5:029f2fc1f85d",
+   "tests": [
+    "test:the-rani:goldfish:569a20fc45651689"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:21db33a4f490",
+   "tests": [
+    "test:the-rani:goldfish:56bf0cc2811d177e"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:52c102072d5e",
+   "tests": [
+    "test:the-rani:goldfish:5b17b003afc3cc7e"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:fd1cdb42c594",
+   "tests": [
+    "test:the-rani:goldfish:c370c2e13b4e2d03"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:d043721eed33",
+   "tests": [
+    "test:the-rani:goldfish:4008796f621273f6"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-rani:m5:87a4f7220175",
+   "tests": [
+    "test:the-rani:goldfish:66d6e25f9aee0b44"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:71c43560149f",
+   "tests": [
+    "test:the-rani:goldfish:d3c885326e28ea8f"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:6ef4d433eb28",
+   "tests": [
+    "test:the-rani:goldfish:fc2a7ede22ff77b7"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:4494642d83ca",
+   "tests": [
+    "test:the-rani:goldfish:2679f0d650ad9925"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:2a99dbcb9aa4",
+   "tests": [
+    "test:the-rani:goldfish:7c632a94977f5fbc"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:1b4e56315a92",
+   "tests": [
+    "test:the-rani:goldfish:0c2ec874acad4778"
+   ]
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:13a04382bbfb",
+   "tests": [
+    "test:the-rani:goldfish:c6ce906f8b6cfc62"
+   ]
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:3acecb1cbdaf",
+   "tests": [
+    "test:the-rani:goldfish:cef54ee323e6f46e"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-rani:m5:d025802f3c59",
+   "tests": [
+    "test:the-rani:goldfish:a0c1717aa3a94e25"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:319557950b20",
+   "tests": [
+    "test:the-rani:goldfish:dbbb510fc4863621"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:7eaaf67d598c",
+   "tests": [
+    "test:the-rani:goldfish:13a9fd6bddf21b8e"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:e52d4e45a094",
+   "tests": [
+    "test:the-rani:goldfish:e44bcc8d0498f812"
+   ]
+  },
+  {
+   "adds": [
+    "Farmstead Gleaner"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:83e913e8a613",
+   "tests": [
+    "test:the-rani:goldfish:c3ccd3f450aecc51"
+   ]
+  },
+  {
+   "adds": [
+    "Farmstead Gleaner"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:6616987f59c9",
+   "tests": [
+    "test:the-rani:goldfish:f525d04946b5fac6"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:481f71d1f039",
+   "tests": [
+    "test:the-rani:goldfish:4d714e38c91216ef"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:22b66edd87d9",
+   "tests": [
+    "test:the-rani:goldfish:c5b772cfe1912303"
+   ]
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:788409de6b76",
+   "tests": [
+    "test:the-rani:goldfish:52243986eafa8730"
+   ]
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:6d186e630e0e",
+   "tests": [
+    "test:the-rani:goldfish:60a3066cdb7c1f21"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:8531de9c8d1d",
+   "tests": [
+    "test:the-rani:goldfish:e9733ea206232d1a"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:299b732b3bb1",
+   "tests": [
+    "test:the-rani:goldfish:c0ef71306c0eac7d"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:6012298af5fe",
+   "tests": [
+    "test:the-rani:goldfish:37fd05866940f18b"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Coercive Impetus"
+   ],
+   "id": "swap:the-rani:m5:cd28ef6ec138",
+   "tests": [
+    "test:the-rani:goldfish:8b3eb536ae8b0ccf"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:3b5965cb68bc",
+   "tests": [
+    "test:the-rani:goldfish:7a98774fbf53b5f3"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:a4ffe5c245fa",
+   "tests": [
+    "test:the-rani:goldfish:6e7cbbfbf44db122"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:8c688543ef45",
+   "tests": [
+    "test:the-rani:goldfish:60bd76d1ee86cdff"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:adf772788dd0",
+   "tests": [
+    "test:the-rani:goldfish:b24861a5306ada2e"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:the-rani:goldfish:90834c94676245f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:0e02d785342f2c0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:b57173c41373e1c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:4eabc13f8b704dfd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:247e9ea915b8d418",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:15ff7625849e0b90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:e359d6996af8f407",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:e9e62ef120f392a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:a2b0276a5df158e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:53e57a72cb88392d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:724dc835975b3b07",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:237f9e0f46402a02",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:ee49c82850041669",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:276a5fe2094668ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:7092283e0b9b2827",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:25ea585f83353619",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:b093948baab15899",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:4f725913b6ea643d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:20c6cc1499a1cc43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:1099c8d6208b4f4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:81fdf247ab96bbbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:4a850fe8dfbe38f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:0f99cbd3e2cdbc13",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:f6c7759bedb2e1a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:4ff9cd140585b16c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:a0a04c235f234c0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:7e8e822b6e61941c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:f5fecc1f1298cbbb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:16341b216e0239d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:113e9d4dbe60a55f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:5287f3629ab760aa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:b8e0d27f64419463",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:8c6b028beaede420",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:eced858420ac08eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:ba9aa9fb77ae4e90",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:9af4e238239efacc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:fa18df315ce34f0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:17e53caa1cc638f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:fc8500295330d3e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:ea3347215cc06a1f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:6f04cbdbae71f5ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:6c8e1bfa86e9a832",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:d968c3b8aff1b867",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:23bdcee32570b57d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:798acf732410a3ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:aae53506ca355b3e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:1585ffb3c18c0eb2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:4972fd265c91ec39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:3941d6d5ec7c2910",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:df8753f488b160b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:66912635e9bf94c9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:557a04374315443e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:5951b8ee4b89da1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:7d09a5bf5237ac4c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:786225dd3c2f30fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:2f08ab5df64b56c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:365ed9876c90c1ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:a99eb19f3ba03620",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:75cad6fcf1aae034",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:2a82fc833e4e52d6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:99a71d3ea6b17120",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:602c196f6eebde27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:c787fd1abc72638c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:9edc21b53ac2098a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:247d7b15751dc711",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:009fef273dc348f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:c5749ef0f9853e16",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:afdcc106704071ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:a96f2f528ae8d4db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:443d7daebe9799f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:bfd478d80af11e0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:f492bb7aa81f5005",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:0949dd73fd4bbb8e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:74f101fef1daa765",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:150ab194ce07590b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:9b6754340382aed0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:5490d0b690255e77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:4e2620c1a95d335d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:383cd9bce969ff44",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:cee6eea1fc680cf1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:2715e9b4a3966c74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:96e38b4d430029e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:16b25eea1671793d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:c5f4090b5143b021",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:222abf702facedda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:8015b6e005180857",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:the-rani:goldfish:b6c4f90e9761e84b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:5dac9db75e370304",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:569a20fc45651689",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:56bf0cc2811d177e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:5b17b003afc3cc7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:c370c2e13b4e2d03",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:4008796f621273f6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:66d6e25f9aee0b44",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:d3c885326e28ea8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:fc2a7ede22ff77b7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:2679f0d650ad9925",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:the-rani:goldfish:7c632a94977f5fbc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:0c2ec874acad4778",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:c6ce906f8b6cfc62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:cef54ee323e6f46e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:a0c1717aa3a94e25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:dbbb510fc4863621",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:13a9fd6bddf21b8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:e44bcc8d0498f812",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:c3ccd3f450aecc51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:f525d04946b5fac6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:4d714e38c91216ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:c5b772cfe1912303",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:52243986eafa8730",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:60a3066cdb7c1f21",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:e9733ea206232d1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:c0ef71306c0eac7d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:37fd05866940f18b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:8b3eb536ae8b0ccf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:7a98774fbf53b5f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:the-rani:goldfish:6e7cbbfbf44db122",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:60bd76d1ee86cdff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:the-rani:goldfish:b24861a5306ada2e",
+   "verdict": "inconclusive"
+  }
+ ]
+}

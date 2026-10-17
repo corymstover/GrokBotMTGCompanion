@@ -1,0 +1,1931 @@
+{
+ "deck_id": "Sauron__the_Dark_Lord",
+ "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+ "slug": "sauron-the-dark-lord",
+ "swaps": [
+  {
+   "adds": [
+    "Lord of the Nazgûl"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f5a41c101a06",
+   "tests": []
+  },
+  {
+   "adds": [
+    "One Ring to Rule Them All"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c421f4dfadec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Orcish Medicine"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:dd5a70cb15db",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gothmog, Morgul Lieutenant"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c8a16d1ebe47",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gothmog, Morgul Lieutenant"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c59222ea3082",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corsairs of Umbar"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1eecb8e30a7e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Balrog of Moria"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a8a467bab125",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:92b84c17d664",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:5e46d54fb3515006"
+   ]
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:155f3b0540c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:237390ced7f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f6d8f74c8676",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Warg Rider"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:875576fe68b4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d363657dd7a1",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:0d69138873036b5e"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2959068b8c52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a2e49dda0977",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:5d0b4abbf45be822"
+   ]
+  },
+  {
+   "adds": [
+    "Treason of Isengard"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2ebdee56a30d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Treason of Isengard"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:3bae1991aee3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inherited Envelope"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:59339efe992d",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:8590b7327656e433"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f94e5c004412",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:6b7ff32cc33db974"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f15e3d0237d9",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:14a171960e974f68"
+   ]
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9682ce42fd37",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:4097cf99bcfebedb"
+   ]
+  },
+  {
+   "adds": [
+    "Foray of Orcs"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e741078746af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sauron, the Necromancer"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:09af60e36c2e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5a202c5ca7cb",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:0e0f291901c683db"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8cac50c4008f",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:831852979941dd70"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4ca4772df63c",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:62b06f5830a053d3"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4762964b6fc2",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:06b9f0216b0bd11b"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:73f7ff65b7fc",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:df9191a17757e66e"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5969c85d56c5",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:7d5fb6518b598682"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6803baedb7ac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:24f34fcef4ba",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:f9d6cac66f34e0c4"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8752d649b0c2",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:2c4748c1cb89a07e"
+   ]
+  },
+  {
+   "adds": [
+    "Lazotep Plating"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4b99f7a189d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shadowspear"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:202e182dd82d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mines of Moria"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c6ea7aed53fc",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:e50c55f13f498091"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9467ee6e4a5a",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:322ce74620a95018"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fb9900c04c79",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:251c363a3bca3888"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fc83287fa265",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:51065db43d952bca"
+   ]
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d7e891cce6ff",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:40711fca44659267"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:7bb75b2213a1",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:e37ca7e01a62e70e"
+   ]
+  },
+  {
+   "adds": [
+    "Bothersome Noisemaker"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:abfd5b7426e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5d231a4e0d83",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:780bde5bdb4093c0"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:b695a2b883f6",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:0d3c5abd79a27fe1"
+   ]
+  },
+  {
+   "adds": [
+    "Gollum, Patient Plotter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:318d0f771024",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smaug, Wicked Worm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d6333cf162a2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Witch-king, Bringer of Ruin"
+   ],
+   "cuts": [
+    "Witch-king of Angmar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e7350b9e48ce",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:00a37f243bee0042"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6f7e55407fc1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saruman the White"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e8de7d96ae3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Soothing of Sméagol"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:152401aafe2b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:cdec6540c3cb",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:961d4b466dcc27ba"
+   ]
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:cae82b33034b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:285f410225171ece"
+   ]
+  },
+  {
+   "adds": [
+    "Mithril Coat"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:968db232ddfa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8323452e6b52",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:5216cf6fa5ecdf84"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4a01e9cf111f",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:1c5eb4790b80da84"
+   ]
+  },
+  {
+   "adds": [
+    "Birthday Escape"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2ab1d5d8e772",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:9942d2508c333e45"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:7818c61406d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Field of Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:099e9e7166e0",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:dc168f4f33d33767"
+   ]
+  },
+  {
+   "adds": [
+    "Spiteful Banditry"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fc4b15bb491e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Too Greedily, Too Deep"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1e8a849fe174",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:fdbd286a6a4d1955"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a8d52533f5bb",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:288aee2484e405a7"
+   ]
+  },
+  {
+   "adds": [
+    "Azog, Moria's Ruin"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:334ddbc667b0",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:dbf830f8f3cf7846"
+   ]
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c3a6c103bdb0",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:039017349e33d20c"
+   ]
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:af07d22c4373",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9f278e6e4455",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dunland Crebain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ebc50ee719c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:598c7ee2d52b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:df3e78a778dbaedf"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d1b0ca0a29c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4d50809ef768",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mordor Muster"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:448c3441cd37",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:bfe106ded4ed34dc"
+   ]
+  },
+  {
+   "adds": [
+    "Swarming of Moria"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:12325c531581",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d77d35eaf0c4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:af182f98fd5b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:4679ccf14172ba4f"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1aaeac933e96",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:b6660a9fd020f578"
+   ]
+  },
+  {
+   "adds": [
+    "Rivendell"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:58a37459118b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:0897d09a52b22a23"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9a54f8155c2b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:92289e35404f4663"
+   ]
+  },
+  {
+   "adds": [
+    "Bolg of the North"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:239b7f5d9873",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gleaming Overseer"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:89c923ed074b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Surrounded by Orcs"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:447aa296fc38",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glorious Gale"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5553c56e1459",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin-town"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6bed8a1ecb3b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:0d070326d14fc448"
+   ]
+  },
+  {
+   "adds": [
+    "Gathering of Darkness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:57f9edea7f36",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Misty Mountains Raider"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1d2e461120a6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:08983fbc2198",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phial of Galadriel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:b9557d5b3926",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:b5d36b530339f0bd"
+   ]
+  },
+  {
+   "adds": [
+    "Rage into the Valley"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ee32526cd6f0",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:158f03b8d64e2eca"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:575e61e3e9b1",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:be8b6a760fcc7d23"
+   ]
+  },
+  {
+   "adds": [
+    "Warren Soultrader"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:20dc5d8d7592",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:4f0eafd731da3e33"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ba1330f30952",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:77f5eebe8676aa7f"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:3a61361704cc",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:7b1c8e5974e51f99"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:556b4ef78f35",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:b2d757bc1b91a491"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:51f6de2eb099",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:f8201f254ff8f222"
+   ]
+  },
+  {
+   "adds": [
+    "Fearsome Goblin Pair"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:eaad8dc04c2d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wake the Dragon"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:40a4aef693b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Changeling Outcast"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d8bd3160bcf9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Balrog, Durin's Bane"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:18be61ba5d28",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Along the Crooked Way"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6d14bcd9a390",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gorbag of Minas Morgul"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:95025f8f4804",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:ba0e006b3c11b509"
+   ]
+  },
+  {
+   "adds": [
+    "Go for the Throat"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:74593f3b1f56",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:0c26046771b1",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:d75d9ec65018d147"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c0c4193935c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Diabolic Intent"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ab7b7370b649",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:2c9e709ce1ec0527"
+   ]
+  },
+  {
+   "adds": [
+    "Tidings of War"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:97e0f54c64ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:118032e63d9d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4e8e2e306b63",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:ed0cb3cf4ffb61e2"
+   ]
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d4bbe85fad2e",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:33ccea03acae0f1d"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d86c48a231fa",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:55c7a37e4edd4fc0"
+   ]
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c180f078c090",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:0839499f854fed2d"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Plate Mail"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e4ab083b4712",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:77fe014170be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cabal Coffers"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ec863031154e",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:d233dd1ff0546fc1"
+   ]
+  },
+  {
+   "adds": [
+    "Reflecting Pool"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2214281d4694",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:9c4d6c9f4efb9b18"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:852bde639df0",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:fba6e617418aa9fa"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c2e8ba7b7ed6",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:e155e641d8eeabf6"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:93cd3e9e01b4",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:d7171a90cdc6fdc3"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8608a444c167",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:7efe83592e1e3b4c"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ae6d4a79a1d1",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:11d932c2d0755569"
+   ]
+  },
+  {
+   "adds": [
+    "Oliphaunt"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:91d863662225",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8760992f266e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ffe2ad7290e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:64f519511c6a",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:42d689b9dacb79f0"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1a9a2a396919",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:980f544b63d9650b"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2faf26486697",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:9133163a7c38c62b"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:71af2ba46aaa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:3fc66721a076",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:54c4e42cfaa2",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:21d245decd1c7451"
+   ]
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4a9bb42fae5d",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:5ee048b223e6937e"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ff3efea8cf3e",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:db2d7ab0e5a9b88d"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Bombardment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:77dd75619d0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5c772877e09d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6ad91f64398e",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:efa72d018ea2d33c"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9f88bc8c334b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:93f02c8ddd44",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:6c7a06bb0cc0255c"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:97054655d00c",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:b791c8fba8bd00f4"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4c594ca9f07d",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:88970acdff202d0e"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:466b828d7447",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:1ef8746a4d1c027c"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Sauron's Ransom"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9eae74933221",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:ba392f1eac84d948"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:0fdce831238b",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:560d88722886694d"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9f3c48f6a7cc",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:9809a5dcdf61ef8f"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:99c9c90172f1",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:3b218440a466833d"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:51fc1442725d",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:cbfa5619873f3488"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a739f84bee77",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:c2f0440c339ade5a"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:b76873b40778",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:3558bda4770d9bae"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fdea3f69f506",
+   "tests": [
+    "test:sauron-the-dark-lord:goldfish:402d8da2adc38277"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:5e46d54fb3515006",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:0d69138873036b5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:5d0b4abbf45be822",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:8590b7327656e433",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:6b7ff32cc33db974",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:14a171960e974f68",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:4097cf99bcfebedb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:0e0f291901c683db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:831852979941dd70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:62b06f5830a053d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:06b9f0216b0bd11b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:df9191a17757e66e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:7d5fb6518b598682",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:f9d6cac66f34e0c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:2c4748c1cb89a07e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:e50c55f13f498091",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:322ce74620a95018",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:251c363a3bca3888",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:51065db43d952bca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:40711fca44659267",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:e37ca7e01a62e70e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:780bde5bdb4093c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:0d3c5abd79a27fe1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:00a37f243bee0042",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:961d4b466dcc27ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:285f410225171ece",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:5216cf6fa5ecdf84",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:1c5eb4790b80da84",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:9942d2508c333e45",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:dc168f4f33d33767",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:fdbd286a6a4d1955",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:288aee2484e405a7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:dbf830f8f3cf7846",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:039017349e33d20c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:df3e78a778dbaedf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:bfe106ded4ed34dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:4679ccf14172ba4f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:b6660a9fd020f578",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:0897d09a52b22a23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:92289e35404f4663",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:0d070326d14fc448",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:b5d36b530339f0bd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:158f03b8d64e2eca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:be8b6a760fcc7d23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:4f0eafd731da3e33",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:77f5eebe8676aa7f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:7b1c8e5974e51f99",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:b2d757bc1b91a491",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:f8201f254ff8f222",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:ba0e006b3c11b509",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:d75d9ec65018d147",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:2c9e709ce1ec0527",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:ed0cb3cf4ffb61e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:33ccea03acae0f1d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:55c7a37e4edd4fc0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:0839499f854fed2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:d233dd1ff0546fc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:9c4d6c9f4efb9b18",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:fba6e617418aa9fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:e155e641d8eeabf6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:d7171a90cdc6fdc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:7efe83592e1e3b4c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:11d932c2d0755569",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:42d689b9dacb79f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:980f544b63d9650b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:9133163a7c38c62b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:21d245decd1c7451",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:5ee048b223e6937e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:db2d7ab0e5a9b88d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:efa72d018ea2d33c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:6c7a06bb0cc0255c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:b791c8fba8bd00f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:88970acdff202d0e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:1ef8746a4d1c027c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:ba392f1eac84d948",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:560d88722886694d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:9809a5dcdf61ef8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:3b218440a466833d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:cbfa5619873f3488",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:c2f0440c339ade5a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:3558bda4770d9bae",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:sauron-the-dark-lord:goldfish:402d8da2adc38277",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

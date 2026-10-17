@@ -1,0 +1,1789 @@
+{
+ "deck_id": "Crosis__the_Purger",
+ "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "slug": "crosis-the-purger",
+ "swaps": [
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:crosis-the-purger:m5:cf84655f0ea9",
+   "tests": [
+    "test:crosis-the-purger:goldfish:2559a960a6bade44"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:e8018a879df4",
+   "tests": [
+    "test:crosis-the-purger:goldfish:5cc120277180e394"
+   ]
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:ae9546367ff9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:5bc50b7ffde7",
+   "tests": [
+    "test:crosis-the-purger:goldfish:e3db0004792bfbce"
+   ]
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:d80ef6253e78",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:5d0140f7f5ae",
+   "tests": [
+    "test:crosis-the-purger:goldfish:0c18c4e01db4c278"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:612c43f1c5ab",
+   "tests": [
+    "test:crosis-the-purger:goldfish:820da4dc27cc2e3b"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:crosis-the-purger:m5:86b87bc0dc4f",
+   "tests": [
+    "test:crosis-the-purger:goldfish:fd8648b2ac6a928c"
+   ]
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:ec342d122fb5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:87671c4e2092",
+   "tests": [
+    "test:crosis-the-purger:goldfish:918fca07adfbc7a0"
+   ]
+  },
+  {
+   "adds": [
+    "Perplex"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:e8d40a467411",
+   "tests": [
+    "test:crosis-the-purger:goldfish:dfb67f2f35d1f902"
+   ]
+  },
+  {
+   "adds": [
+    "Raiders' Wake"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:118476449844",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raiders' Wake"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:9c8f06281f91",
+   "tests": [
+    "test:crosis-the-purger:goldfish:43b932218265fc3c"
+   ]
+  },
+  {
+   "adds": [
+    "Hypnotic Specter"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:b123536f7385",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hypnotic Specter"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:9bbcf0bb3787",
+   "tests": [
+    "test:crosis-the-purger:goldfish:d4eeb614df483129"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:7a6b1860885a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:1e0d5ea312d9df66"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:9203b033eb05",
+   "tests": [
+    "test:crosis-the-purger:goldfish:995e985a86ab0676"
+   ]
+  },
+  {
+   "adds": [
+    "Scythe Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:9e7888256854",
+   "tests": [
+    "test:crosis-the-purger:goldfish:06ec7282ca663f44"
+   ]
+  },
+  {
+   "adds": [
+    "Scythe Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:0a498a78176e",
+   "tests": [
+    "test:crosis-the-purger:goldfish:a96e8473ff5858eb"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:7d4c4b454eb1",
+   "tests": [
+    "test:crosis-the-purger:goldfish:f8b8bff11b38bf0d"
+   ]
+  },
+  {
+   "adds": [
+    "Abyssal Specter"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:a287ce363195",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abyssal Specter"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:32c592e7852b",
+   "tests": [
+    "test:crosis-the-purger:goldfish:db063ac04887b596"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Cutpurse"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b53f6328467d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Cutpurse"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:crosis-the-purger:m5:3527a83b0caf",
+   "tests": [
+    "test:crosis-the-purger:goldfish:79bbb34ca5dd4dce"
+   ]
+  },
+  {
+   "adds": [
+    "Guul Draz Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:ee18348ee844",
+   "tests": [
+    "test:crosis-the-purger:goldfish:1e0f916a1be65aa8"
+   ]
+  },
+  {
+   "adds": [
+    "Guul Draz Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:e231cd4ea2ad",
+   "tests": [
+    "test:crosis-the-purger:goldfish:c1b9f9f1857699fe"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:79c138decbe2",
+   "tests": [
+    "test:crosis-the-purger:goldfish:feaad0fcafbafed8"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:150f03e2fdc9",
+   "tests": [
+    "test:crosis-the-purger:goldfish:db547315485b9d65"
+   ]
+  },
+  {
+   "adds": [
+    "Urgoros, the Empty One"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:8b09903d1ef8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urgoros, the Empty One"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:crosis-the-purger:m5:de0970f63987",
+   "tests": [
+    "test:crosis-the-purger:goldfish:bea828d96a51dbde"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana's Specter"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:b3026842526c",
+   "tests": [
+    "test:crosis-the-purger:goldfish:27c25097bc24372b"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:435ae9309bb1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Haunt of Hightower"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:ad5f35458cdb",
+   "tests": [
+    "test:crosis-the-purger:goldfish:036222fc73865197"
+   ]
+  },
+  {
+   "adds": [
+    "The Haunt of Hightower"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:0b8ae28bb481",
+   "tests": [
+    "test:crosis-the-purger:goldfish:a4117bcecbd52442"
+   ]
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:f42a0566971a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:77e950fdcb9a2f18"
+   ]
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:bd0b0c949a5d",
+   "tests": [
+    "test:crosis-the-purger:goldfish:bac9e886258a5c3c"
+   ]
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:a32c47d8f83d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Quest for the Nihil Stone"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:0b9c93a1c9d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Quest for the Nihil Stone"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:d675f7e009a1",
+   "tests": [
+    "test:crosis-the-purger:goldfish:3094c0c9aa71ba22"
+   ]
+  },
+  {
+   "adds": [
+    "Telepathy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:1d2d1022f94b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Telepathy"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:b4498fe0f19a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:67331fb5240ee61d"
+   ]
+  },
+  {
+   "adds": [
+    "Entropic Battlecruiser"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:e3a5714df806",
+   "tests": [
+    "test:crosis-the-purger:goldfish:2521ec133ba96775"
+   ]
+  },
+  {
+   "adds": [
+    "Entropic Battlecruiser"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:813ca3b56b00",
+   "tests": [
+    "test:crosis-the-purger:goldfish:d384f488880ff097"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:1f0bc34441f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:16d7ca161b70",
+   "tests": [
+    "test:crosis-the-purger:goldfish:b81c9929a9ed84a7"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:de8d20e34e59",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crosis's Catacombs"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:d43886ef322c",
+   "tests": [
+    "test:crosis-the-purger:goldfish:aa5d1cb1840716ad"
+   ]
+  },
+  {
+   "adds": [
+    "Skull Rend"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:b7b11562c08c",
+   "tests": [
+    "test:crosis-the-purger:goldfish:76b28db4f7dc6d74"
+   ]
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:c4a0908c7d6a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:dd76b1a69647750f"
+   ]
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:a2d421b460e9",
+   "tests": [
+    "test:crosis-the-purger:goldfish:d1c0f889831d65b0"
+   ]
+  },
+  {
+   "adds": [
+    "Blightning"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:0989d6fede89",
+   "tests": [
+    "test:crosis-the-purger:goldfish:809a9e92ea3b0257"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:0138a3bad36d",
+   "tests": [
+    "test:crosis-the-purger:goldfish:176e3b419a25c2da"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:70236b2fecfa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:1d02222c4183",
+   "tests": [
+    "test:crosis-the-purger:goldfish:3d467a04864398f6"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:97b1720ba4ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rix Maadi, Dungeon Palace"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:b2a4dda04370",
+   "tests": [
+    "test:crosis-the-purger:goldfish:c81113a8b62d6204"
+   ]
+  },
+  {
+   "adds": [
+    "Pain Magnification"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:17441c4d8dc1",
+   "tests": [
+    "test:crosis-the-purger:goldfish:46d146ed85543f4f"
+   ]
+  },
+  {
+   "adds": [
+    "Shrieking Affliction"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:638ca51304ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shrieking Affliction"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:9c876a013d81",
+   "tests": [
+    "test:crosis-the-purger:goldfish:bcf234bcb8f75f59"
+   ]
+  },
+  {
+   "adds": [
+    "Duress"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:20a0ce5eaa81",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Duress"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:917560cf7d68",
+   "tests": [
+    "test:crosis-the-purger:goldfish:d5ca9f99b3d454ef"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:d06298d2a2b7",
+   "tests": [
+    "test:crosis-the-purger:goldfish:383e637d46b34130"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:eb868ffc8fec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:084f8d32f693",
+   "tests": [
+    "test:crosis-the-purger:goldfish:0b5095f2540b984a"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:013ede3de0ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:69e9cc1f033e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:f2a3cc5c7751",
+   "tests": [
+    "test:crosis-the-purger:goldfish:f3c63583bb8d6c1b"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath, the Flame-Chained"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:3081afe1aaba",
+   "tests": [
+    "test:crosis-the-purger:goldfish:44995b53a8817969"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath, the Flame-Chained"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:498af3a33b58",
+   "tests": [
+    "test:crosis-the-purger:goldfish:b1411dc7495fed6b"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:b2efcc3ad104",
+   "tests": [
+    "test:crosis-the-purger:goldfish:88b6158943a2d22d"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:345c9e4fd4e5",
+   "tests": [
+    "test:crosis-the-purger:goldfish:aa43f26e969e3eb5"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:b73b158acbf8",
+   "tests": [
+    "test:crosis-the-purger:goldfish:1eea199131cb6e51"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:8751331cf66b",
+   "tests": [
+    "test:crosis-the-purger:goldfish:12d7a29b99a173fc"
+   ]
+  },
+  {
+   "adds": [
+    "Specter's Shroud"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:74bc009cd6fe",
+   "tests": [
+    "test:crosis-the-purger:goldfish:face0c609960bf27"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b636b0dde1cd",
+   "tests": [
+    "test:crosis-the-purger:goldfish:e055c597e7e847c9"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:41cb8fecd369",
+   "tests": [
+    "test:crosis-the-purger:goldfish:25d885dc71a3ffc6"
+   ]
+  },
+  {
+   "adds": [
+    "Soul Manipulation"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:fab3ba915412",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Obelisk of Grixis"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:a54ea6788fd5",
+   "tests": [
+    "test:crosis-the-purger:goldfish:4a6501a8e33cd119"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:62454885dd78",
+   "tests": [
+    "test:crosis-the-purger:goldfish:452e6cd5a5b173ba"
+   ]
+  },
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:acbf0c68fc37",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jace's Archivist"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:f6182ff6146d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b40a76b4ae30",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lavaborn Muse"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:a8d2ec29d0b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:2e5c64b173e4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:c9940c5a1dcd",
+   "tests": [
+    "test:crosis-the-purger:goldfish:f84e502257b4f530"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:d6efdb7f829a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:23a3805c3f494d0e"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:ec1bc394c167",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:8951bb972736",
+   "tests": [
+    "test:crosis-the-purger:goldfish:aeddbb3674dbe0a6"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:c8130f0f2d44",
+   "tests": [
+    "test:crosis-the-purger:goldfish:c4f4aa5dc22ad9e7"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:1310c240dd98",
+   "tests": [
+    "test:crosis-the-purger:goldfish:0bcafe848810a592"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Damnation"
+   ],
+   "id": "swap:crosis-the-purger:m5:483bdbd7192e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Damnation"
+   ],
+   "id": "swap:crosis-the-purger:m5:e1c3e54f4a91",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:0ba8ff970b2d",
+   "tests": [
+    "test:crosis-the-purger:goldfish:bbc693bff65c5fd2"
+   ]
+  },
+  {
+   "adds": [
+    "Hollow Marauder"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:56946a7800f4",
+   "tests": [
+    "test:crosis-the-purger:goldfish:602eb0b4ff6ae381"
+   ]
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:ab8691154cac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reconnaissance Mission"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:4a32c8e8a773",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:41ff2e0533e9",
+   "tests": [
+    "test:crosis-the-purger:goldfish:2700f183d9b162c1"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:358e00eef664",
+   "tests": [
+    "test:crosis-the-purger:goldfish:76be8e4942e8ccf6"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b75057874278",
+   "tests": [
+    "test:crosis-the-purger:goldfish:e66a3eb4663d3d1f"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:6e71d2ed71b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:99623d24c67b",
+   "tests": [
+    "test:crosis-the-purger:goldfish:0e0dfd570ac88d1a"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:394a6fd628fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Liliana Vess"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:crosis-the-purger:m5:53eb3e2a1de6",
+   "tests": [
+    "test:crosis-the-purger:goldfish:1acf41f0fadef9e9"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:1484290a774c",
+   "tests": [
+    "test:crosis-the-purger:goldfish:e4a0aa09d4fa469a"
+   ]
+  },
+  {
+   "adds": [
+    "Reforge the Soul"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:2cbb7827033a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:6b9148d99c37e67d"
+   ]
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:072d74e51feb",
+   "tests": [
+    "test:crosis-the-purger:goldfish:d74957b36af2421e"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:9ae257f7c550",
+   "tests": [
+    "test:crosis-the-purger:goldfish:13a8bff6e0ec4d33"
+   ]
+  },
+  {
+   "adds": [
+    "Silumgar, the Drifting Death"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:a0fd05f3f42f",
+   "tests": [
+    "test:crosis-the-purger:goldfish:3c31fb3f264e91a1"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:3d5f5a2d5239",
+   "tests": [
+    "test:crosis-the-purger:goldfish:6fdc8bb4f7a3883c"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:1cbcb5e5de1d",
+   "tests": [
+    "test:crosis-the-purger:goldfish:4ee9364ff5e63e09"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:d140dfda9ed6",
+   "tests": [
+    "test:crosis-the-purger:goldfish:df0f871ff3b31405"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "id": "swap:crosis-the-purger:m5:dca87422555e",
+   "tests": [
+    "test:crosis-the-purger:goldfish:4fdb6cbf035d21ff"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:e6f8cf053a32",
+   "tests": [
+    "test:crosis-the-purger:goldfish:ed2a8c49caf7e070"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:928db9b246f3",
+   "tests": [
+    "test:crosis-the-purger:goldfish:251f9d0f8c65e440"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "id": "swap:crosis-the-purger:m5:31da3ad2954b",
+   "tests": [
+    "test:crosis-the-purger:goldfish:f024998147a30985"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:240746f79b30",
+   "tests": [
+    "test:crosis-the-purger:goldfish:e81ce8c00bb7787c"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:b91299eb7c7e",
+   "tests": [
+    "test:crosis-the-purger:goldfish:b99de71e65b75720"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:eb014e7ec6d8",
+   "tests": [
+    "test:crosis-the-purger:goldfish:aac381f89fb2e6dc"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:b22745ae84e9",
+   "tests": [
+    "test:crosis-the-purger:goldfish:c9d2be682489d856"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:793c5cdcdaa8",
+   "tests": [
+    "test:crosis-the-purger:goldfish:e9f85aeba86b019e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:7c310fcbd750",
+   "tests": [
+    "test:crosis-the-purger:goldfish:39b1b3cb55ded448"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:c03bcbb82307",
+   "tests": [
+    "test:crosis-the-purger:goldfish:77fd47612d46fce3"
+   ]
+  },
+  {
+   "adds": [
+    "Grindstone"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:crosis-the-purger:m5:b9c649873062",
+   "tests": [
+    "test:crosis-the-purger:goldfish:3fac87db0f41bb35"
+   ]
+  },
+  {
+   "adds": [
+    "Grindstone"
+   ],
+   "cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "id": "swap:crosis-the-purger:m5:2b94d744c02a",
+   "tests": [
+    "test:crosis-the-purger:goldfish:2b1720aa060fd743"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:crosis-the-purger:goldfish:2559a960a6bade44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:5cc120277180e394",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:e3db0004792bfbce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:0c18c4e01db4c278",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:820da4dc27cc2e3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:fd8648b2ac6a928c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:918fca07adfbc7a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:dfb67f2f35d1f902",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:43b932218265fc3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:d4eeb614df483129",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:1e0d5ea312d9df66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:995e985a86ab0676",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:06ec7282ca663f44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:a96e8473ff5858eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:f8b8bff11b38bf0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:db063ac04887b596",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:79bbb34ca5dd4dce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:1e0f916a1be65aa8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:c1b9f9f1857699fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:feaad0fcafbafed8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:db547315485b9d65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:bea828d96a51dbde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:27c25097bc24372b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:036222fc73865197",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:a4117bcecbd52442",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:77e950fdcb9a2f18",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:bac9e886258a5c3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:3094c0c9aa71ba22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:67331fb5240ee61d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:2521ec133ba96775",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:d384f488880ff097",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:b81c9929a9ed84a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:aa5d1cb1840716ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:76b28db4f7dc6d74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:dd76b1a69647750f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:d1c0f889831d65b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:809a9e92ea3b0257",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:176e3b419a25c2da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:3d467a04864398f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:c81113a8b62d6204",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:46d146ed85543f4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:bcf234bcb8f75f59",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:d5ca9f99b3d454ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:383e637d46b34130",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:0b5095f2540b984a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:f3c63583bb8d6c1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:44995b53a8817969",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:b1411dc7495fed6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:88b6158943a2d22d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:aa43f26e969e3eb5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:1eea199131cb6e51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:12d7a29b99a173fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:face0c609960bf27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:e055c597e7e847c9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:25d885dc71a3ffc6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:4a6501a8e33cd119",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:452e6cd5a5b173ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:f84e502257b4f530",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:23a3805c3f494d0e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:aeddbb3674dbe0a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:c4f4aa5dc22ad9e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:0bcafe848810a592",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:bbc693bff65c5fd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:602eb0b4ff6ae381",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:2700f183d9b162c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:76be8e4942e8ccf6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:e66a3eb4663d3d1f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:0e0dfd570ac88d1a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:1acf41f0fadef9e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:e4a0aa09d4fa469a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:6b9148d99c37e67d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:d74957b36af2421e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:13a8bff6e0ec4d33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:3c31fb3f264e91a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:6fdc8bb4f7a3883c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:4ee9364ff5e63e09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:df0f871ff3b31405",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:4fdb6cbf035d21ff",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:ed2a8c49caf7e070",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:251f9d0f8c65e440",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:f024998147a30985",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:e81ce8c00bb7787c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:b99de71e65b75720",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:aac381f89fb2e6dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:c9d2be682489d856",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:e9f85aeba86b019e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:39b1b3cb55ded448",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:77fd47612d46fce3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:3fac87db0f41bb35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:crosis-the-purger:goldfish:2b1720aa060fd743",
+   "verdict": "fail"
+  }
+ ]
+}

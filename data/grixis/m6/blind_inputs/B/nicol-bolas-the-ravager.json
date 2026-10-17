@@ -1,0 +1,2059 @@
+{
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "slug": "nicol-bolas-the-ravager",
+ "swaps": [
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b93d90a444d4",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7da5392397676bb1"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:4f60dd2ee00d",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:b4a3deb679d86403"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Tezzeret's Gambit"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:272307edc979",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c4078736ccc52827"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:ff9344439075",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c0f718be4c270f44"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Tezzeret's Gambit"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:326057162726",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:a4c6e95522e83625"
+   ]
+  },
+  {
+   "adds": [
+    "Nicol Bolas"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c08ff0d6cd4a",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:efd023d827296301"
+   ]
+  },
+  {
+   "adds": [
+    "Crux of Fate"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bfd6d0924c8e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7724521b33be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0fe9c0bb51a1",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:aa37e38f4ba1c0fe"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0594137b13ca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Waste Not"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3f225228ffce",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:693c71bf4d78886c"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c459ef063914",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b98fa446ff65",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b6f1344f193e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:194119403149df52"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3c87c463a0f9",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:601cbcebc29f3f4f"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:2add0cb73882",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7bf544823cb3e1ad"
+   ]
+  },
+  {
+   "adds": [
+    "Thrummingbird"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:708d2844db78",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c832bc82c5e7",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:82f28f9753d4c001"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bf79763035fc",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:801428457a1040d8"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cdc2989fdabe",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:2f8a97e3e165ba1b"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:01858413102b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rowan's Talent"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e615400de4a6",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:25fd20826244f3cd"
+   ]
+  },
+  {
+   "adds": [
+    "Interplanar Beacon"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6f45af493bfe",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7dc189ebeb9fda42"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0856fc5c0866",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:16f7f1e7a775c50c"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bcbd1aca4395",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:0f8cd0bc2a3e0854"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:96e1d19a96c3",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c73eaa44f955122e"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a05179c5f348",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ashiok, Dream Render"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a31b3dd2ad28",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:0ee959d30a12eb9c"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e7a2b1f7b2cc",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:669c652b6077195a"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Karn's Bastion"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7c37b747ca1a",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:f4c617d1cd1788e6"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a26a148dfec1",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:b5c5c303830113d7"
+   ]
+  },
+  {
+   "adds": [
+    "Visage of Bolas"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:58e09a3f0687",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:94a6bbfcc566ef19"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:717adf363318",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:f38526092e4805a2"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5b7646fd0845",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:aca899437f29d9da"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bc6bfda8f1cd",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:edeb419edae3009b"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e46c26aa3ec8",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:0e6562a63010291a"
+   ]
+  },
+  {
+   "adds": [
+    "Vronos, Masked Inquisitor"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:092833dde434",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:45f2f6db2e245254"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:242c88eacbf7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:922b68905f9e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:fdb20c96fa84ac54"
+   ]
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:457ec7b6b2e8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aetheric Amplifier"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:650378a2b9d6f13c"
+   ]
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:f9d9104ecd5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Slave of Bolas"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8c9cba35db98",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geth's Grimoire"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1dbf3b431e50",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e30b3ea25664",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:1a506ebc73298a9b"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7b753920e821",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:4ee86c25612de79f"
+   ]
+  },
+  {
+   "adds": [
+    "Countersquall"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8ef18f4c4739",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7dfba554961d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b905f3cc3eef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7e007249c448",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:46c994907d7854b8"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cdf3b11ee17f",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:a17604bd5667987f"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:100dece2fa84",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:e3dfe91a966b3ff7"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Teferi, Temporal Archmage"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:d03e0d7fc847",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:d62795b1ff1de191"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1db3e4dd9021",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:d2dcff5ec3b62791"
+   ]
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "The Theorist, Jace Beleren"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1851eb178798",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7a9ce6ca56d1f4c9"
+   ]
+  },
+  {
+   "adds": [
+    "Kasmina, Enigmatic Mentor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6b170ab3af1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c984d39fdb7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Angrath, the Flame-Chained"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:ec859e502989",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:a22d268bfc775533"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, Cunning Castaway"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:989e7e4f36e7",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:dd47dec06fadd310"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, Cunning Castaway"
+   ],
+   "cuts": [
+    "Teferi, Master of Time"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:daa3e750759b",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:d2aa82c4c9832ae6"
+   ]
+  },
+  {
+   "adds": [
+    "In Bolas's Clutches"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:4cfeb9c79d9b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:eefb40551221",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:e4e2025d4660107a"
+   ]
+  },
+  {
+   "adds": [
+    "God-Pharaoh's Statue"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:680781d12696",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:040716d048eed2d2"
+   ]
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b47327a9e2cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cf29e4146925",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7e30a5d77316",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:5e621d0d8998b9f3"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana Vess"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b655c32435a2",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:580566fa74a492c8"
+   ]
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:9e43cfb678dc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deflecting Swat"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:f1132fba9cf9",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c7db301f709067f9"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a078846f4444",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:819dc10e7528d9cb"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:60b7d3f99fd8",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:82e7897db237dc1a"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, the Mind Sculptor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:120ab498a9b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Liliana's Caress"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:49644a5fbfb8",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:85e9874da21ceb22"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3b6e40f8c32e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:1f58a2f176de8bde"
+   ]
+  },
+  {
+   "adds": [
+    "Tinybones, Trinket Thief"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:9949b4f25ce7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:5a53b2a186a5085f"
+   ]
+  },
+  {
+   "adds": [
+    "Ral Zarek, Guest Lecturer"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:33126985aa28",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7c26e5e92084dbc1"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:1923a9ba2a19",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:13696dfe32c1",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:a42bb3f99258c216"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:acfe5afb92b9",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c815147199fb5b57"
+   ]
+  },
+  {
+   "adds": [
+    "Gem of Becoming"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5362d69f5214",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:17d15eedb7cd7d37"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8cabb1e5e254",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:852cc33f8fd6bdf2"
+   ]
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "The Elderspell"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7312545b9bf7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:f8b80c42faa8",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:e8143ead0aed21f6"
+   ]
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:621beb640bbc",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:3990b89b30b801d5"
+   ]
+  },
+  {
+   "adds": [
+    "Honor the God-Pharaoh"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7c1519b24cad",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:1297278d93c8dc83"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:dff497c4a78a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tezzeret, Artifice Master"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b9d1258f7c65",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:e21d729a3796",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:33639d6931f27906"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:2ee8cd73490c",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:170c0d7e70c330de"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7b418fad2b47",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:ea5dda0c247c220a"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6a992e3dc5f7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:394e029ee348",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c369258fbdd848d7"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:d2cd3560ce32",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:d2f54753a42830dc"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Teferi, Master of Time"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:209735389853",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:66b170e1c5fe3f69"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:7df0404e1203",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:14f63b193728e4ae"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:d9279e11a2c7",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:d821f8ebb8d95e63"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:38701bdcaa0e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:cbd690c4e24b4942"
+   ]
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5c89a9fce117",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7df758f907422796"
+   ]
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Teferi, Master of Time"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3a0d2862128c",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:93b200e725ea1cc3"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:6bf0d9c8acf5",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:2c6cadb9436a7238"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:174e95ec534c",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:8688130bda30b5cd"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3b9516de80bb",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:1b7c6e52835d5a16"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:03b888de7065",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:7775956983356543"
+   ]
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:50f1c6711eee",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:f05bd3a6bd7e1945"
+   ]
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:72c5150fa061",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:0900b1c5931f0c11"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:ee3cff9cc09f",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:8b0f2489b48e67f3"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0f8877213833",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:53246a54a442928a"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:294350972508",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c5787e4217e67fff"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Ripples of Potential"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:dfd6d240ddce",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:b70184fd3ffab8c9"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:04dfbdbf9ee8",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:b7b7062f0b282a1e"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c414196f5e48",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:daf8f06e3874f809"
+   ]
+  },
+  {
+   "adds": [
+    "Clockspinning"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b585b98f59ab",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:a40e15830a3e443d"
+   ]
+  },
+  {
+   "adds": [
+    "Clockspinning"
+   ],
+   "cuts": [
+    "Ripples of Potential"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c050f3f75e76",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:4f63f6edf7f1a8ee"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:72dd49456ea5",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:cb998c6f1adaa58a"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Nicol Bolas, Dragon-God"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:a12d7ac04109",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c6cac78f531002c4"
+   ]
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:faf997192ac3",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:e47d09d7f05bf862"
+   ]
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:2e4f3d3fca8b",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:943a34ba77178f58"
+   ]
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3ae8f6aa66c3",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c9689ff8cba6bd58"
+   ]
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0f07b48753d4",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:05518cc9d95738c4"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:8964c8ad08eb",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:73f17cdd1dbf7d6a"
+   ]
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:66a6a17062a3",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:bf19944a9fa54c34"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:bc958de90b0e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:a15f03f142b7a8b1"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:0bf638b6c18e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:59704428e6ddc3aa"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Speculation"
+   ],
+   "cuts": [
+    "The Elderspell"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c1e986d05897",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:9cd95272342c40f9"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Speculation"
+   ],
+   "cuts": [
+    "Tezzeret's Gambit"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b43644837eaf",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:4962eadf6e677126"
+   ]
+  },
+  {
+   "adds": [
+    "Myojin of Cryptic Dreams"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5ef5a268a214",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:96844ac0e559bb22"
+   ]
+  },
+  {
+   "adds": [
+    "Myojin of Cryptic Dreams"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:5fa60fa7ab3a",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:4f1a0369e26f8bbb"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:c9f3e59c832f",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:6eea3fb5dec5df97"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b2be2dd79142",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:090769d23bd082c4"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:72762e3d5ac0",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:979ea924b1ea910b"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:fe348b8fc176",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:b8dd6cfc63509dc2"
+   ]
+  },
+  {
+   "adds": [
+    "Whim of Volrath"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:cf60fca280d0",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:2d0cb10a1d72fa1b"
+   ]
+  },
+  {
+   "adds": [
+    "Whim of Volrath"
+   ],
+   "cuts": [
+    "Ripples of Potential"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:39b25ff0b2aa",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:378f930a297a1de0"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:b76a36531ae9",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:5d1a42f4fe8d27d0"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:04ee3f0ae433",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:43900ab6aa1c153b"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:3acaf23e6a1e",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:16e416c7e2247560"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Sanctum Lurker"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:91eb9765763c",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:c6022b53447624a4"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dreamtide Whale"
+   ],
+   "id": "swap:nicol-bolas-the-ravager:m5:eea6479ac40a",
+   "tests": [
+    "test:nicol-bolas-the-ravager:goldfish:ef42f060e08bcc31"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7da5392397676bb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:b4a3deb679d86403",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c4078736ccc52827",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c0f718be4c270f44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:a4c6e95522e83625",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:efd023d827296301",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:aa37e38f4ba1c0fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:693c71bf4d78886c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:194119403149df52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:601cbcebc29f3f4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7bf544823cb3e1ad",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:82f28f9753d4c001",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:801428457a1040d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:2f8a97e3e165ba1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:25fd20826244f3cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7dc189ebeb9fda42",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:16f7f1e7a775c50c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:0f8cd0bc2a3e0854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c73eaa44f955122e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:0ee959d30a12eb9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:669c652b6077195a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:f4c617d1cd1788e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:b5c5c303830113d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:94a6bbfcc566ef19",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:f38526092e4805a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:aca899437f29d9da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:edeb419edae3009b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:0e6562a63010291a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:45f2f6db2e245254",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:fdb20c96fa84ac54",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:650378a2b9d6f13c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:1a506ebc73298a9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:4ee86c25612de79f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:46c994907d7854b8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:a17604bd5667987f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:e3dfe91a966b3ff7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:d62795b1ff1de191",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:d2dcff5ec3b62791",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7a9ce6ca56d1f4c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:a22d268bfc775533",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:dd47dec06fadd310",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:d2aa82c4c9832ae6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:e4e2025d4660107a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:040716d048eed2d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:5e621d0d8998b9f3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:580566fa74a492c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c7db301f709067f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:819dc10e7528d9cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:82e7897db237dc1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:85e9874da21ceb22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:1f58a2f176de8bde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:5a53b2a186a5085f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7c26e5e92084dbc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:a42bb3f99258c216",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c815147199fb5b57",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:17d15eedb7cd7d37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:852cc33f8fd6bdf2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:e8143ead0aed21f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:3990b89b30b801d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:1297278d93c8dc83",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:33639d6931f27906",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:170c0d7e70c330de",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:ea5dda0c247c220a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c369258fbdd848d7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:d2f54753a42830dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:66b170e1c5fe3f69",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:14f63b193728e4ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:d821f8ebb8d95e63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:cbd690c4e24b4942",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7df758f907422796",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:93b200e725ea1cc3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:2c6cadb9436a7238",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:8688130bda30b5cd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:1b7c6e52835d5a16",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:7775956983356543",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:f05bd3a6bd7e1945",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:0900b1c5931f0c11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:8b0f2489b48e67f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:53246a54a442928a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c5787e4217e67fff",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:b70184fd3ffab8c9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:b7b7062f0b282a1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:daf8f06e3874f809",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:a40e15830a3e443d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:4f63f6edf7f1a8ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:cb998c6f1adaa58a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c6cac78f531002c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:e47d09d7f05bf862",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:943a34ba77178f58",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c9689ff8cba6bd58",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:05518cc9d95738c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:73f17cdd1dbf7d6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:bf19944a9fa54c34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:a15f03f142b7a8b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:59704428e6ddc3aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:9cd95272342c40f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:4962eadf6e677126",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:96844ac0e559bb22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:4f1a0369e26f8bbb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:6eea3fb5dec5df97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:090769d23bd082c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:979ea924b1ea910b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:b8dd6cfc63509dc2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:2d0cb10a1d72fa1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:378f930a297a1de0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:5d1a42f4fe8d27d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:43900ab6aa1c153b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:16e416c7e2247560",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:c6022b53447624a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nicol-bolas-the-ravager:goldfish:ef42f060e08bcc31",
+   "verdict": "inconclusive"
+  }
+ ]
+}

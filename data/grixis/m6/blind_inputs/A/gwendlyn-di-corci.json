@@ -1,0 +1,3935 @@
+{
+ "candidates": [
+  {
+   "card": "Syphon Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syphon Mind",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Syphon Mind",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:89bed692d6c8"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:0d7855224a2b"
+   }
+  },
+  {
+   "card": "Megrim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:a4924dd0366d"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:e810eb183ca2"
+   }
+  },
+  {
+   "card": "Sangromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sangromancer",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sangromancer",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:6a949ac16832"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:12eb432df386"
+   }
+  },
+  {
+   "card": "Painful Quandary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Quandary",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Quandary",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:fd29d3b31b36"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:c31cc8dfdc4d"
+   }
+  },
+  {
+   "card": "Hypnotic Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hypnotic Specter",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hypnotic Specter",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:34f8f487d089"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:105a5f3fc287"
+   }
+  },
+  {
+   "card": "Fell Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fell Specter",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fell Specter",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:ddb2ded11a93"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:a5f6718093e2"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:827596ab6484"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:840e55906639"
+   }
+  },
+  {
+   "card": "Raiders' Wake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raiders' Wake",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raiders' Wake",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:7a1d1f7f0a2a"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:e57c0c861760"
+   }
+  },
+  {
+   "card": "Liliana of the Veil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana of the Veil",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:dd89e72cdf45"
+   }
+  },
+  {
+   "card": "Bone Miser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bone Miser",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:5ac292675879"
+   }
+  },
+  {
+   "card": "Geier Reach Sanitarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geier Reach Sanitarium",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:25a2a94a1ea1"
+   }
+  },
+  {
+   "card": "Kroxa, Titan of Death's Hunger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kroxa, Titan of Death's Hunger",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kroxa, Titan of Death's Hunger",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:baa1a9983757"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:2853b0b9e3b3"
+   }
+  },
+  {
+   "card": "Rankle, Master of Pranks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rankle, Master of Pranks",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rankle, Master of Pranks",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:2cee70304879"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:2f20dd99291f"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:6290c309066e"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Yawgmoth's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b8bfb95c1abf"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:ed659573336c"
+   }
+  },
+  {
+   "card": "Whispering Madness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispering Madness",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispering Madness",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:f976fb9e8884"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:3f1fbbd06240"
+   }
+  },
+  {
+   "card": "Aphetto Alchemist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aphetto Alchemist",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aphetto Alchemist",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b9bbc3c3e7ae"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:912805af858d"
+   }
+  },
+  {
+   "card": "The Haunt of Hightower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Haunt of Hightower",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:4cb4008d2506"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Quest for the Nihil Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quest for the Nihil Stone",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quest for the Nihil Stone",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:3ba47f04db3d"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:3f4f67302c1f"
+   }
+  },
+  {
+   "card": "Animate Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Chains of Mephistopheles"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:e5b2a859c581"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:b17cbba180ff"
+   }
+  },
+  {
+   "card": "Wheel and Deal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel and Deal",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel and Deal",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:a6bafbce90b2"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:d4105ab6c6a2"
+   }
+  },
+  {
+   "card": "Necrogen Mists",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Memory Jar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Jar",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:f2314d62e1ab"
+   }
+  },
+  {
+   "card": "Torment of Hailfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torment of Hailfire",
+       "cut": "Anvil of Bogardan"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:f74e9a2da1d2"
+   }
+  },
+  {
+   "card": "Library of Leng",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Library of Leng",
+       "cut": "Anvil of Bogardan"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:4ac658201915"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:a1e320f7cf52"
+   }
+  },
+  {
+   "card": "Monument to Endurance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monument to Endurance",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:18f6b92b1326"
+   }
+  },
+  {
+   "card": "Bandit's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bandit's Talent",
+       "cut": "Anvil of Bogardan"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:691a20e390f0"
+   }
+  },
+  {
+   "card": "Narset, Parter of Veils",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Words of Waste",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Words of Waste",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:5e82825aa2d2"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:5362589bb05f"
+   }
+  },
+  {
+   "card": "Unctus, Grand Metatect",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:10ef46762ffa"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:219ee6a0cd42"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:e71ea97d4fba"
+   }
+  },
+  {
+   "card": "Necropotence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necropotence",
+       "cut": "Anvil of Bogardan"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:26575c55f8d0"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Waste Not"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:027198403e62"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:376f2b673b46"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:950587f5a60d"
+   }
+  },
+  {
+   "card": "Marina Vendrell's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:35f120e055e2"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:94667769c56e"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:47dbe58d631a"
+   }
+  },
+  {
+   "card": "Asylum Visitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Asylum Visitor",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:f669479f7f37"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:214f9970d4b7"
+   }
+  },
+  {
+   "card": "Mindcrank",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindcrank",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Mindcrank",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:ca5085ee1a9d"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:9629af387b80"
+   }
+  },
+  {
+   "card": "Cephalid Coliseum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Coliseum",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:846ab3859d64"
+   }
+  },
+  {
+   "card": "Drown in the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talisman of Creativity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Creativity",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:56f7dc7b2a83"
+   }
+  },
+  {
+   "card": "Archon of Cruelty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archon of Cruelty",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:441a15865754"
+   }
+  },
+  {
+   "card": "Liliana Vess",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana Vess",
+       "cut": "Imperial Seal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:d62a22cc148a"
+   }
+  },
+  {
+   "card": "Wheel of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fate",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:b9c9af7a7cbc"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:2d82a6c94143"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:98f38aea8746"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:f3d1af35b032"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:27dc8ff09165"
+   }
+  },
+  {
+   "card": "Psychic Frog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychic Frog",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:c9ccdfc7d939"
+   }
+  },
+  {
+   "card": "Oscorp Industries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oscorp Industries",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:4f60602f495d"
+   }
+  },
+  {
+   "card": "Brain Freeze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brain Freeze",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:07fd0141e3a4"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:35f13270ee4a"
+   }
+  },
+  {
+   "card": "Reflecting Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reflecting Pool",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:924ab1cbeb76"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:39cb8a877382"
+   }
+  },
+  {
+   "card": "Freed from the Real",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Recoil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Recoil",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:5f8d62dbf5f2"
+   }
+  },
+  {
+   "card": "Entropic Battlecruiser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dack Fayden",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dack Fayden",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:9aae12f7a45d"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Breathstealer's Crypt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breathstealer's Crypt",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:9bb871c6d7c1"
+   }
+  },
+  {
+   "card": "Teferi's Puzzle Box",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teferi's Puzzle Box",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:feb085dd50c5"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:be56e554ec12"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:1144068e64a9"
+   }
+  },
+  {
+   "card": "The Master of Lake-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:c8e4771d292c"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:57038fba3231"
+   }
+  },
+  {
+   "card": "The Echoverse Fulcrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Echoverse Fulcrum",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:d685038d4603"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undercity Sewers",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:b5b8c902cefc"
+   }
+  },
+  {
+   "card": "Vicious Rumors",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vicious Rumors",
+       "cut": "Anvil of Bogardan"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:1d0634ff4530"
+   }
+  },
+  {
+   "card": "Mox Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mox Diamond",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:213fbb1cb0d3"
+   }
+  },
+  {
+   "card": "Frantic Search",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frantic Search",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:88a782d378b0"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:b30d99ca1791"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:b458d3c9c7bf"
+   }
+  },
+  {
+   "card": "Jeska's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeska's Will",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:503a70f91531"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:7a7f29958f11"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:2b11482da86f"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:b9e74eed3a81"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:691e7c4e8e36"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:5223a4c2a2f9"
+   }
+  },
+  {
+   "card": "Lich's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:6d6cd17ffa7b"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:9193fe1c1579"
+   }
+  },
+  {
+   "card": "Emry, Lurker of the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:14d5ebfe578a"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:d51737ae9392"
+   }
+  },
+  {
+   "card": "Nefarious Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b8b32e76fea1"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:e70e01d532b1"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b20730809fbd"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:40789741fba2"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Anvil of Bogardan"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:cf19d6662638"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:ecbc9c29a52b"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:ac9d43c9b742"
+   }
+  },
+  {
+   "card": "Kelpie Guide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kelpie Guide",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kelpie Guide",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:de513f838547"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:13dec9d38b31"
+   }
+  },
+  {
+   "card": "Omen Hawker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omen Hawker",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:add90af50788"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Yawgmoth's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b01afabb252e"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:ed7f30bc8706"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:a1150430cfc6"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:8abfa1cc5ee4"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:fb5475a7f078"
+   }
+  },
+  {
+   "card": "Oubliette",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:51b883fed445"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:52134459cf05"
+   }
+  },
+  {
+   "card": "Infinite Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infinite Reflection",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Infinite Reflection",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:757d6cd861dc"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:4d28ed676649"
+   }
+  },
+  {
+   "card": "Rimewind Taskmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rimewind Taskmage",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rimewind Taskmage",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:6d248ea6bc6c"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:2a49e6115481"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b49904cd7f97"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:c1ca5d6fb50e"
+   }
+  },
+  {
+   "card": "Tidewater Minion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidewater Minion",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidewater Minion",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:b62596758324"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:73ad98bd7031"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Yawgmoth's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Timetwister"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:fe04f0919ba0"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:8af7e2ff6a47"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:cb8474c2dfea"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Opposition Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Notion Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:gwendlyn-di-corci:m5:6d72cbd283a6"
+    },
+    "swap": "swap:gwendlyn-di-corci:m5:c3ce7aa60785"
+   }
+  }
+ ],
+ "deck_id": "Gwendlyn_Di_Corci",
+ "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "slug": "gwendlyn-di-corci",
+ "swaps": [
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:0d7855224a2b"
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:89bed692d6c8"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:e810eb183ca2"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:a4924dd0366d"
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:12eb432df386"
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:6a949ac16832"
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:c31cc8dfdc4d"
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:fd29d3b31b36"
+  },
+  {
+   "adds": [
+    "Hypnotic Specter"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:105a5f3fc287"
+  },
+  {
+   "adds": [
+    "Hypnotic Specter"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:34f8f487d089"
+  },
+  {
+   "adds": [
+    "Fell Specter"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:a5f6718093e2"
+  },
+  {
+   "adds": [
+    "Fell Specter"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:ddb2ded11a93"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:840e55906639"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:827596ab6484"
+  },
+  {
+   "adds": [
+    "Raiders' Wake"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:e57c0c861760"
+  },
+  {
+   "adds": [
+    "Raiders' Wake"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:7a1d1f7f0a2a"
+  },
+  {
+   "adds": [
+    "Liliana of the Veil"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:dd89e72cdf45"
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:5ac292675879"
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:25a2a94a1ea1"
+  },
+  {
+   "adds": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:2853b0b9e3b3"
+  },
+  {
+   "adds": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:baa1a9983757"
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:2f20dd99291f"
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:2cee70304879"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:6290c309066e"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:ed659573336c"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b8bfb95c1abf"
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:3f1fbbd06240"
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:f976fb9e8884"
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:912805af858d"
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b9bbc3c3e7ae"
+  },
+  {
+   "adds": [
+    "The Haunt of Hightower"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:4cb4008d2506"
+  },
+  {
+   "adds": [
+    "Quest for the Nihil Stone"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:3f4f67302c1f"
+  },
+  {
+   "adds": [
+    "Quest for the Nihil Stone"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:3ba47f04db3d"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b17cbba180ff"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Chains of Mephistopheles"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:e5b2a859c581"
+  },
+  {
+   "adds": [
+    "Wheel and Deal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:d4105ab6c6a2"
+  },
+  {
+   "adds": [
+    "Wheel and Deal"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:a6bafbce90b2"
+  },
+  {
+   "adds": [
+    "Memory Jar"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:f2314d62e1ab"
+  },
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:f74e9a2da1d2"
+  },
+  {
+   "adds": [
+    "Library of Leng"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:4ac658201915"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:a1e320f7cf52"
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:18f6b92b1326"
+  },
+  {
+   "adds": [
+    "Bandit's Talent"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:691a20e390f0"
+  },
+  {
+   "adds": [
+    "Words of Waste"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:5e82825aa2d2"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:5362589bb05f"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:219ee6a0cd42"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:10ef46762ffa"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:e71ea97d4fba"
+  },
+  {
+   "adds": [
+    "Necropotence"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:26575c55f8d0"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:376f2b673b46"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:027198403e62"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:950587f5a60d"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:94667769c56e"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:35f120e055e2"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:47dbe58d631a"
+  },
+  {
+   "adds": [
+    "Asylum Visitor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:f669479f7f37"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:214f9970d4b7"
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:9629af387b80"
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:ca5085ee1a9d"
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:846ab3859d64"
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:56f7dc7b2a83"
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:441a15865754"
+  },
+  {
+   "adds": [
+    "Liliana Vess"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:d62a22cc148a"
+  },
+  {
+   "adds": [
+    "Wheel of Fate"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b9c9af7a7cbc"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:2d82a6c94143"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:98f38aea8746"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:27dc8ff09165"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:f3d1af35b032"
+  },
+  {
+   "adds": [
+    "Psychic Frog"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:c9ccdfc7d939"
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:4f60602f495d"
+  },
+  {
+   "adds": [
+    "Brain Freeze"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:07fd0141e3a4"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:35f13270ee4a"
+  },
+  {
+   "adds": [
+    "Reflecting Pool"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:924ab1cbeb76"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:39cb8a877382"
+  },
+  {
+   "adds": [
+    "Recoil"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:5f8d62dbf5f2"
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:9aae12f7a45d"
+  },
+  {
+   "adds": [
+    "Breathstealer's Crypt"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:9bb871c6d7c1"
+  },
+  {
+   "adds": [
+    "Teferi's Puzzle Box"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:feb085dd50c5"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:be56e554ec12"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:1144068e64a9"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:57038fba3231"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:c8e4771d292c"
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:d685038d4603"
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b5b8c902cefc"
+  },
+  {
+   "adds": [
+    "Vicious Rumors"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:1d0634ff4530"
+  },
+  {
+   "adds": [
+    "Mox Diamond"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:213fbb1cb0d3"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:88a782d378b0"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b30d99ca1791"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b458d3c9c7bf"
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:503a70f91531"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:2b11482da86f"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:7a7f29958f11"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b9e74eed3a81"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:5223a4c2a2f9"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:691e7c4e8e36"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:9193fe1c1579"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:6d6cd17ffa7b"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:d51737ae9392"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:14d5ebfe578a"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:e70e01d532b1"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b8b32e76fea1"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:40789741fba2"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b20730809fbd"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Anvil of Bogardan"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:ecbc9c29a52b"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:cf19d6662638"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:ac9d43c9b742"
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:13dec9d38b31"
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:de513f838547"
+  },
+  {
+   "adds": [
+    "Omen Hawker"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:add90af50788"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:ed7f30bc8706"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b01afabb252e"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:a1150430cfc6"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:fb5475a7f078"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:8abfa1cc5ee4"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:52134459cf05"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:51b883fed445"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:4d28ed676649"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:757d6cd861dc"
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:2a49e6115481"
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:6d248ea6bc6c"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:c1ca5d6fb50e"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b49904cd7f97"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:73ad98bd7031"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:b62596758324"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:8af7e2ff6a47"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Timetwister"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:fe04f0919ba0"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:cb8474c2dfea"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Opposition Agent"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:c3ce7aa60785"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:gwendlyn-di-corci:m5:6d72cbd283a6"
+  }
+ ]
+}

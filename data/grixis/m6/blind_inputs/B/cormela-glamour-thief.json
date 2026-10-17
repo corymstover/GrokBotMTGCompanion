@@ -1,0 +1,6507 @@
+{
+ "deck_id": "Cormela__Glamour_Thief",
+ "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "slug": "cormela-glamour-thief",
+ "swaps": [
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:41cbe4ef5c78",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b97065f3bf0bb364"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fdbdbd6c96a6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8462ddd79c97fb6c"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3afa5dd57dbf",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2259e234b3c0a35f"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7145359aa852",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2dc1301f84345a0a"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b9aa9de296a7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2b8f079dd55d990e"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9b1b2b748b46",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a5edb824fd445735"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:86b06b2dcade",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8306d04906c3e377"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1b1185c6a8c1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:39fe8f9f5ee216ba"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:acbd338f8967",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e48b75d062bab5bf"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:474ad33eaadf",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:47c962c69860c61e"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e19c1fd0adc2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f707ab5e2701469e"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5c78448a7eba",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:98e7f5f0de19204a"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8c03adde7ed9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b44468cced25475d"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:cd764d267a41",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3b29d5dba6bd4136"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8a8b744991cc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5b2e5474640d7dfd"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:eb6612a48bc2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5f53a2963f8fed70"
+   ]
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:72fe36543dcb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4ca051fc24697ed8"
+   ]
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a563d9ba682c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e830279a7b979e00"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:29cccb2df882",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d034d9d4c79d3373"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:192bcb79faba",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ff3470f914985969"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8074a1dff76f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8e006f0eae38e311"
+   ]
+  },
+  {
+   "adds": [
+    "Mutinous Massacre"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5e1edefac585",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f9ff01ad1e13a2cf"
+   ]
+  },
+  {
+   "adds": [
+    "Mutinous Massacre"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:04288368bd88",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6bb07613da294ffd"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4c6b4196b6e5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:48290df3bc17bb58"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:990a34265a9d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:360f4a53692cb50d"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c64354af3a49",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:169c5e4704ccc9f7"
+   ]
+  },
+  {
+   "adds": [
+    "Fake Your Own Death"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0566ecd10535",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:165bb92831c5efc4"
+   ]
+  },
+  {
+   "adds": [
+    "Fake Your Own Death"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2540aa4ea741",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d914e52a5c71ba4a"
+   ]
+  },
+  {
+   "adds": [
+    "Perplex"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:04746e3d37cb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:236345ca4a1d3f1e"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:daabce752235",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:cbd25ef0241c5a81"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f47acef49bf7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2212036b6c30a3e9"
+   ]
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:781ad8f1a44f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c3903a5cca2c773c"
+   ]
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2d5fcbb34056",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fe20f04ea6454fbd"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a5697154adf9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0930faf37591cfe9"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fe72443260df",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7ff7c7269ef06840"
+   ]
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d6068ae55d90",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:382a6215739a21b2"
+   ]
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:534719166a4f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5f799bc0c7b82d1e"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4713c34b6289",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a658ee04957fb3b0"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:45d038f27ac5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9c3dbb2df20dd16b"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a059bf49432e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d1ed7fedffe11224"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5e1809ef8be2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:10eb15fd3a1b3e25"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4ec6c6136af9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:60284017eee7a446"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2262b41d9e1d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c37fc88d3578d8fd"
+   ]
+  },
+  {
+   "adds": [
+    "Not Dead After All"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:67187a633953",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:da516b8366cebdda"
+   ]
+  },
+  {
+   "adds": [
+    "Not Dead After All"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9f8c225e9dd2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f5038ba3ae0a5ff6"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:aa1acedd162d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4398a3a2c186e1e1"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5c9c3a8ab335",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:663f42ade4e92b12"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b170df1f8164",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7f1a8e8e949c6a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:743f94517d57",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5586b8f1cfbc9db3"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Recording"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:388ec1fe8bcf",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c0772000f526a2ee"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Recording"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2645e8720095",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5365746b9b7ab647"
+   ]
+  },
+  {
+   "adds": [
+    "Dig Through Time"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:594c76180a4b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0f03d8a8408f3d99"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7641e7a53492",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brainsurge"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b60d9feac54d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:76b13e379ddd9f4d"
+   ]
+  },
+  {
+   "adds": [
+    "Brainsurge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:83bbd13872d3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4a8d3971e004b816"
+   ]
+  },
+  {
+   "adds": [
+    "Ill-Timed Explosion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4f0b829c0f0c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a6946b07c1045658"
+   ]
+  },
+  {
+   "adds": [
+    "Ill-Timed Explosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c04b1c022a55",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:66e4622c0c637fff"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:43915d65ccb3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:33409fd63c324a43"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1119d4c85df3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1f02818280dfc2d2"
+   ]
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9657dedc4443",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a18cd4ca847b9ef6"
+   ]
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4735f4c5f3cc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:57c5e8f5ebc168c0"
+   ]
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:334472c319cb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d83d8ed69819bed6"
+   ]
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Entomb"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:849c45d55166",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8f381804f5db124f"
+   ]
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:704ea9627383",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e47785b04aae19e7"
+   ]
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:34f31f7ff3cf",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0481f893c5c42596"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ee2117caa794",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bfee60e67112bb62"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Palace"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fe78e324bf32",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fb1f4ad1bc14907f"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9a6592a62c57",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9f35ce08472c6adb"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Deluge"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:246ec0767ddc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f60e1b7bd9aee144"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:71b593c316ac",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4b53616416bd4a39"
+   ]
+  },
+  {
+   "adds": [
+    "Stock Up"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f763b1a38ff8",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0b6fc31148a57b06"
+   ]
+  },
+  {
+   "adds": [
+    "Stock Up"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:31f3c1a57642",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e7b4ca43496a80f5"
+   ]
+  },
+  {
+   "adds": [
+    "Galvanic Iteration"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5fdb34625dda",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bb3412a249a64790"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e3e875c54118",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b04219ac978314fe"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7210145b39e2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7c9909a655c23a25"
+   ]
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f344ef66d958",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:af9736c1b6a15bb8"
+   ]
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5d90991e19db",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6b652038eef61895"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b3c1786e1f72",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:67fc481256e3489d"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ebf8e652e7bc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:929ebf2405a633e1"
+   ]
+  },
+  {
+   "adds": [
+    "Whirlwind Denial"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d3b94ca0c432",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9d1fbe2b08ab",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:54c7613eb09b63ff"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6c878e7892dc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fccd61c4026ce164"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e9ec1d3c2b12",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d341a1896bf2b66a"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f53f6aa12106",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8be554e2abc05478"
+   ]
+  },
+  {
+   "adds": [
+    "Presumed Dead"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:15c499194224",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:26b9f9c16dda1751"
+   ]
+  },
+  {
+   "adds": [
+    "Presumed Dead"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f7bf6825d551",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1fed48761dd8a21e"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:94c1aec558ce",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:06cc71500ca359fe"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fec379b03f5f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:cf1134c7845c17c6"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9eb6ed283ca7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:11a54f32589ef619"
+   ]
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c82fe3d40085",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d3b05eecd15f96b2"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:27180937f44a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a2fa59aa9c0e3852"
+   ]
+  },
+  {
+   "adds": [
+    "Abstract Performance"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:eac840003f7f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2e05c034a38d2e64"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:991b4b3d7f8f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f21fffb56a86070c"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dd335d009ec7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:25e55469c812b44f"
+   ]
+  },
+  {
+   "adds": [
+    "Confounding Riddle"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5b7fe27137f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:63795361415b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:593dbfbb8c782fda"
+   ]
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0016e1d79883",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8d388c9972be719d"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f411ba6001d5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3e7259a5d79b55bb"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f1fe9695dd69",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f69c4cdb766d3aa1"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c7facd1fb0de",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ff14b7b5cbac9b5e"
+   ]
+  },
+  {
+   "adds": [
+    "Hostile Takeover"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d0de1faa8ffb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d7a437b88c7939cc"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6753fe0fb16a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:debe3ff74a4278a7"
+   ]
+  },
+  {
+   "adds": [
+    "Muddle the Mixture"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:681dc4ab5c81",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8a9255c56973",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:cd901d2e9258f7fa"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0af121881000",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c4d0744380eef187"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:150a1d2a4c70",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e374f31b5aa424a8"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7becc409691f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:68f07b7cabab3284"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e02477846f31",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d4e1151199464145"
+   ]
+  },
+  {
+   "adds": [
+    "Overwhelming Surge"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f1d92511d488",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:35c86aa76c0b7d81"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b7a25a2a867b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f2c8e29dab98d1dd"
+   ]
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b3492e7fcb84",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:15a8f15188a460b6"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:46db552f7059",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7e3879eaca88",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d4360d7720db0568"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:af6ab8b5a96e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:158d3838b262c9f4"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4f6eed353b92",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e3ce856fb9846d44"
+   ]
+  },
+  {
+   "adds": [
+    "Echocasting Symposium"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2af28590066a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:26e3c12f5b1128e6"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a6b19de8f029",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:dcdfa278a5ed526b"
+   ]
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:08d1b35285e4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:08a569ba38eb59c2"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:11a9bfda9161",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f7360cdd07f9fe20"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ea65385e187f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:59b8a89e57f2980a"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0f6fecc0fc45",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0d8f83ad5803ebf9"
+   ]
+  },
+  {
+   "adds": [
+    "Keen Duelist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4b2bd302a5f5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f7af1e026106af60"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9f956e18654a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:547f4c2be0736ecb"
+   ]
+  },
+  {
+   "adds": [
+    "Necromantic Selection"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5b94b1da85d3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2bf43146743c2d73"
+   ]
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e47ca1d44c8d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9ecf3cf66eaede93"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask // The Great Work"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b5594104a6fc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8703da3601f3f844"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask // The Great Work"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ebc6d9bcab06",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b082f6d63a9c7a79"
+   ]
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2c22ae6e6d7e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:91d080e4ef1d0ce3"
+   ]
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:917d6f794878",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8319279a4c70e0b1"
+   ]
+  },
+  {
+   "adds": [
+    "Kolaghan's Command"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:55364658877c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c3dc451c0a9e40dd"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e3e206812b70",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:450f9ea78e28eda2"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bbe21de553d3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b9a340ca62a9beeb"
+   ]
+  },
+  {
+   "adds": [
+    "Steal the Show"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:97c30b1d5806",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3c96bcc5ef2aaa11"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1e5e10a4af16",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2416f02a7aa9f6e6"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7f788818cc93",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:803d31a53015bdf7"
+   ]
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:25fb3a0a9128",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e763d62c3ec7c9ba"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6c8f490d1781",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:72d4fee65c62f372"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a71e96a7b7c6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:693fdfacb7427714"
+   ]
+  },
+  {
+   "adds": [
+    "Living Death"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c23de191f881",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c09f41f49092c32a"
+   ]
+  },
+  {
+   "adds": [
+    "Living Death"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:62e9f923146e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2d408b7289b29142"
+   ]
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c37d0154a21d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1db0a9f1f1599c45"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7c414098424b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1f148266aacc4680"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:22ee54084459",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:831f0168ce65ef58"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dc8a53e86ffa",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9dc4444a50a0d6f4"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:12d9be08e644",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ed2d2fb99ea8549e"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d78c5b206aaa",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9e4098a240f5cb16"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8231b546b52e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c7574da1124169fe"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9ea3271c289d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:34b7e998b28a488f"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b4cc755f9b07",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:05d30a28c6b745ae"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d79f162f6dfc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:878608c5eabb47ae"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fd1cefcbbe05",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b04a1ad9b2103bd5"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:85bcadcc2999",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e858183011789eab"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1d7b29d65f9f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d835df757302996c"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:818fd0e24c2a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3a8bd2df7d444705"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:80f7458019bd",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:251a376ecdb10fd9"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a4b548a0bafb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f6fe0fd55b7fb885"
+   ]
+  },
+  {
+   "adds": [
+    "Unearth"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:82a093e37db3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a53f5fe18ccd71bb"
+   ]
+  },
+  {
+   "adds": [
+    "Unearth"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7cca1100461e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2823ebcad50233d6"
+   ]
+  },
+  {
+   "adds": [
+    "Abstract Paintmage"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fd0867b3795c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5039b8f026235485"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:61bda60807af",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5f47a17a9d82d1a5"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:db798d2690e3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:88631646ae629abb"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9e90209f9438",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bf48b6c5ff4e64bb"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0ff00184d666",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ce2c6168d2967586"
+   ]
+  },
+  {
+   "adds": [
+    "Undying Malice"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:07e65dbfa5d9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:92a2857884bf99ff"
+   ]
+  },
+  {
+   "adds": [
+    "Undying Malice"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:146d4dff679a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:cd79f482a6bb2c0f"
+   ]
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:686d71c4efc4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:38cfefa239d8c17a"
+   ]
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:be80037fd3e4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d2ba70ed156b56f7"
+   ]
+  },
+  {
+   "adds": [
+    "Feign Death"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ca7614ca047f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6b4c6673047df96f"
+   ]
+  },
+  {
+   "adds": [
+    "Feign Death"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:aeda50464e92",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f65f6968bef8b24d"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c1e396132c52",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9e75c9225599ca5b"
+   ]
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:574f5d077ce6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:552b6712ed1c8834"
+   ]
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3e93f7145ea6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:372b52004602c0bb"
+   ]
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1a92eedb6949",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8ec06e68aff13a3f"
+   ]
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d69301a55f77",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4604d819f56cf4fc"
+   ]
+  },
+  {
+   "adds": [
+    "Lively Dirge"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b5b17b5267d1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:81a99a017b1579be"
+   ]
+  },
+  {
+   "adds": [
+    "Lively Dirge"
+   ],
+   "cuts": [
+    "Entomb"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bb11892d7b87",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6734a5d3c1dc29a1"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dd5be393bda6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5e586d2db63c26da"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a0c2fe2122e1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:03343c7e5f83c197"
+   ]
+  },
+  {
+   "adds": [
+    "Supernatural Stamina"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4eb508f2253c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:00205c44627ac338"
+   ]
+  },
+  {
+   "adds": [
+    "Supernatural Stamina"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9f41ca97ca5a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0f6f649312d68688"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6f23b3f19410",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:776d40f9ddf2d94a"
+   ]
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:67a43d8cfa4a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3e8c5c31275a042f"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0ab1c68410e2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c0644091c3105d04"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ac6cfe27923e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:610f53cd95a322af"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:485ab90a6d2d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:236f2cff1e26976d"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:15602c8f6c51",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ac66ea695d8c28ea"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:10e3ac91a4ac",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:925f3e258dec0950"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:84cfb4142c17",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4f5b3ac991ae9e8d"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:cc531d43757d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:66e68e565d33cd3c"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:73e686bad0f2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:54ee78cf1dc9d6f6"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bae6525d209b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b0010c5a6b5d7292"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:91aa6b02f648",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4b8767412c040dcb"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d76bef9f91a0",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:027310ad8d004ad8"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f2a1c5d6a071",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6661358359e3d9cc"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d9b3d2106f74",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f5fea1ba177a7fdd"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a20e0cf4b49e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ac28697ab05eacef"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e448c3e8e3c2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a0951aaacbcced2b"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4941ac83ead2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7d55de8c693fadde"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:55c2873b104a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:150e0e2346da2354"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e68e074103ca",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b44653c16984162c"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7b98aab66d90",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:34e4a9be1c1a1de7"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:93f05bdd4784",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:eaaf121e7d25f9aa"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d63fec1f0fa0",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a2a46dc395b0875c"
+   ]
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bfa5f996bca6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:dd9bf1c3265cc6dc"
+   ]
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ce0987c4cbd5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1147b622a6c2231a"
+   ]
+  },
+  {
+   "adds": [
+    "Zombify"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f3c24bf5d003",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fefa2de71d085d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Zombify"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2b98b0b79c49",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d889bed18a831757"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c255733a13ac",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6e11a202c0c0cdb3"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9f843e5cc7af",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fa1ad306817f95d9"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4c177c16a58c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:59d39eda48592596"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:35e75a8964d6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:29afd204ec8b5bf7"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5dd2f7528dc1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fd652b4038ad4d84"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:52ec9347067b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7d6d3eb15eb61961"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:36b1725a56e4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2b3ad1554a20a8ac"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c8befb0fc0ba",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:52a060106d274e17"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9d13ff91f591",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:276b77e281f26098"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:99b5ca50ab3d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d042d43da48805c0"
+   ]
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:29630e16dcf6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0cc7762aa2a0acd7"
+   ]
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d3ab3b0eca1e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9133128abd93dd7f"
+   ]
+  },
+  {
+   "adds": [
+    "Coruscation Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ae78fc8b0784",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f2af92e6c09bd33c"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d903684c26f9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3770fbd1e71532f9"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bd85a750040a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5fc6bb0da99e485a"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:17d9f8e0cff2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a568be8cd47db94e"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0fdc28a49d6b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:cf004a990f96ad5c"
+   ]
+  },
+  {
+   "adds": [
+    "Exhume"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ea33b0e91878",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1f74e9e3770e8a63"
+   ]
+  },
+  {
+   "adds": [
+    "Exhume"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:64fd5b561558",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ac9cce4231b3dfde"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a03546e00e52",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c0b06223e267fd1a"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9ec450f10819",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:581358d3101b2051"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9d6629173989",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:003d2a0749431541"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3624b95e011b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:04ffb2443b38c9f7"
+   ]
+  },
+  {
+   "adds": [
+    "Afterlife from the Loam"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:166c5c582f81",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b73b48ebeae3b3cd"
+   ]
+  },
+  {
+   "adds": [
+    "Afterlife from the Loam"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:28464db0f3de",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9147b4dccebeb414"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c42dfa02c9d1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7df8759ada2d32ef"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2fae6a5e3c31",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e5ba002ef564f764"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e26a6b9b303c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3172cebec7c9b70b"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bef231cdb477",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e17f850d09b5f8d4"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:4ff9538e3e34",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ae8540362e79424c"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:312127f1bf95",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ea25dacc148d85ce"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:05dfb86488e9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:04055c7c0589edbf"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1956fa15129e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4c938705590b5808"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1f3cf80ff97f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1c5224f756023dbe"
+   ]
+  },
+  {
+   "adds": [
+    "Black Sun's Twilight"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f500d2137606",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c68741e3d0bf151b"
+   ]
+  },
+  {
+   "adds": [
+    "Black Sun's Twilight"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9e8118a939cc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5bd83380428e59bf"
+   ]
+  },
+  {
+   "adds": [
+    "The Dawning Archaic"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d92d42ece7f9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:efca545116834785"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b53a220cc184",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4b4835726f32695f"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:333fc76209d8",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7b8b902a02819685"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:844bf47276d1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d5765598e406bc3d"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7df71134d162",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c6e7b0d1a85a7e0c"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c6e2ad75d453",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e5bf569544dac6bf"
+   ]
+  },
+  {
+   "adds": [
+    "Behold the Sinister Six!"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:03f04a50b74c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:700982b2094b59f8"
+   ]
+  },
+  {
+   "adds": [
+    "Behold the Sinister Six!"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7a2fcff2dbc9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c137fea075f1ea6b"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:de7405440492",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:49464a4de8b9ae19"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ee5f50b265ff",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0744e90714061156"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:22f569cacf5a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e74cfc5a0052648e"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0821ebf0071b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c55cbefdd0cdbeeb"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a0dbd65aa25a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6b32291f7b4aace4"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7ed9d9f0b526",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:65be59b64a74235c"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8c867a35b3a3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:aefa89e4674c3d45"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:29377f2ab7d4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c851ec0f650d0137"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:67dc8d418e21",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0802c9d2d8b11efc"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2371853a40fb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:99bee5fdd5719eac"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7c3bb2af5a9b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:64132e83f357d5bc"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1b3f9f6c9adc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:221a498d9f1e4e81"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ec0f5538ca04",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c14370d328ba4282"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f4d81b29c6fe",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ea8d8611f134f85c"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8ae5ee7c9737",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:02de2466d005b008"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5b91ee4347c4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:dd57fed6fce6a047"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8855963d15ac",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f00f5423e61788df"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2d72ffec034e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7a95f21a513d0760"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c010c0097709",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:674787cc9dc5b3d4"
+   ]
+  },
+  {
+   "adds": [
+    "Vincent's Limit Break"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:483ccd45334c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:896d2d308412c72f"
+   ]
+  },
+  {
+   "adds": [
+    "Vincent's Limit Break"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a85924540e09",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b900ca362f41330a"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:83c86c58aacc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fb7e172cec6abd90"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ecf882032da4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bfac858f0925d078"
+   ]
+  },
+  {
+   "adds": [
+    "Return to Action"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b254b4097bb2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:11ecead360a95fd5"
+   ]
+  },
+  {
+   "adds": [
+    "Return to Action"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0b582c157ad9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ef8d9a1f79b51965"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3393cb8ef80c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5c6cd019c6ac19dd"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a0924298f4f7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1e81120d149a4068"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5c56239a01b5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:36d993ef4b219163"
+   ]
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8bdd6c16e4d0",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8d73fd16246b9fa0"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a9f219b634d3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a3f12eda8bfe0ecf"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:cda023570153",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:97f49cd5384e2c85"
+   ]
+  },
+  {
+   "adds": [
+    "Abnormal Endurance"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b63eff09ef3a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5352909d7736e82a"
+   ]
+  },
+  {
+   "adds": [
+    "Abnormal Endurance"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6861681a1f4a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:619b0c4d437581b8"
+   ]
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e89d91b7b43c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5226a3fa599378cc"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1274ca4addb3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:98b0aaacacf66ee9"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:17da0594e496",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:128c0abb6c956fa3"
+   ]
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6371ef310c12",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:934336b21d05010f"
+   ]
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:724e2cf9f94f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:35abe86f3db07268"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:571b1ed50899",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:74ddd26ad29f2f08"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b08459ed1be3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:321fe70905a06b9a"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d7f316ff41ee",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d0a56d9039882bc1"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:10c1ecc002d1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0f1e5bdf4c249dd5"
+   ]
+  },
+  {
+   "adds": [
+    "Prison Break"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:79333c34355e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e9ff58b804aa42f3"
+   ]
+  },
+  {
+   "adds": [
+    "Prison Break"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c48fae27007a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0fd64cf0546c57e9"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:211e14f80036",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f31235c7ea7f5956"
+   ]
+  },
+  {
+   "adds": [
+    "Pain 101"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3b51523d045a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b03f9766f00e1ab0"
+   ]
+  },
+  {
+   "adds": [
+    "Pain 101"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8a942d3287e9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c0fe8d208f1bfdcd"
+   ]
+  },
+  {
+   "adds": [
+    "Return Upon the Tide"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0fe925a512eb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6288017e88c36e96"
+   ]
+  },
+  {
+   "adds": [
+    "Return Upon the Tide"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3e6cd05ce618",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:078000edea23074f"
+   ]
+  },
+  {
+   "adds": [
+    "Corpse Dance"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:54b4680f3a1d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:efc45ee43693e1d9"
+   ]
+  },
+  {
+   "adds": [
+    "Corpse Dance"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6809c78841fe",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2b51550fd6702aff"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:456b749c341c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ca5c546b0e145470"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dba4e68f0e6a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fed568369c5388d1"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Bombardment"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:178d9106508e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:35e594830f713afd"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c7948d75f22b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e8f371a2b156ecde"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5ceaf46e1c08",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:30bf96fe14adc8bc"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:cd2a902a3b32",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6e65f9be7d087fcc"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d92a3b21e717",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:505ac83e1dbfef7b"
+   ]
+  },
+  {
+   "adds": [
+    "Footsteps of the Goryo"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a945160cd052",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f82316bbebe96265"
+   ]
+  },
+  {
+   "adds": [
+    "Footsteps of the Goryo"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:da941ff2df5b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4323bc346d6f18d3"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:905949561e11",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:88cfa61bd601f24a"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:96ef00f6b328",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:0f824cb76f4b62e8"
+   ]
+  },
+  {
+   "adds": [
+    "Fearsome Awakening"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7eaeeb5374cc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4742c23e09545183"
+   ]
+  },
+  {
+   "adds": [
+    "Fearsome Awakening"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6c5adc86689e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:dea57c7002d101cc"
+   ]
+  },
+  {
+   "adds": [
+    "Unbreakable Bond"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6b50a7f9496e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b34bcc3e34b1d435"
+   ]
+  },
+  {
+   "adds": [
+    "Unbreakable Bond"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:376a0236d103",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:877103132c925190"
+   ]
+  },
+  {
+   "adds": [
+    "Bond of Revival"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9d8f93e59656",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7e2efad4dc6162c7"
+   ]
+  },
+  {
+   "adds": [
+    "Bond of Revival"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:77e52b61de8c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fc7476ea19472a0f"
+   ]
+  },
+  {
+   "adds": [
+    "Dose of Dawnglow"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a6d570f701f8",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bc022e8fa614de91"
+   ]
+  },
+  {
+   "adds": [
+    "Dose of Dawnglow"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:e1d12730f767",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1fa86ed01bdcdd2c"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3bad691d0db2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:171dfc86c12ad484"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5e803628c26d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f2f0ac479881c3b6"
+   ]
+  },
+  {
+   "adds": [
+    "Rise Again"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b39155acf0ba",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ee2b9e589c07b861"
+   ]
+  },
+  {
+   "adds": [
+    "Rise Again"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:05e071633453",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e8fe2f4780513923"
+   ]
+  },
+  {
+   "adds": [
+    "Makeshift Mannequin"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c57c1dcf4cc8",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:1c2996c2a468e300"
+   ]
+  },
+  {
+   "adds": [
+    "Makeshift Mannequin"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d2c47a08b1af",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f051c59d944b54e4"
+   ]
+  },
+  {
+   "adds": [
+    "Stir the Grave"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1cf4913cf82b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9656c5d865d629c5"
+   ]
+  },
+  {
+   "adds": [
+    "Stir the Grave"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:df31726f474f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8b8c785b2ca6cdbf"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:f8ea6a9434f2",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7bdba5931a98fcd5"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:be8a8f83b2f9",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:89f35bc1beada096"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3e019ad298b6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7b6ae4652b5ad6b8"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2d40c33f9764",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bd8ed18ef668be2f"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6ada449d4675",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:312c1bf4c5a21ee2"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:60ab696d143f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e7ddd1e2e7031717"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:59ea46f07b31",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:760e7b885b05e3ba"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:9d070266bc3f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8534fe03a1877585"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3adbb45452d5",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3f1ad8c6564a1704"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0ed9aea867b7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:02be319cc6b312c0"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:121f6d7a57b0",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b970b5dbb6e21ecf"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:01d51be19d68",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e0c0eba7b06594a2"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:15b7d851e58a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:daf4ccbbe02a5803"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:69700b0e69c6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:919c07adb48e0063"
+   ]
+  },
+  {
+   "adds": [
+    "Creative Outburst"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:60cb3ca611cc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:37823ad0df4e1b3c"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6f0da74b9c67",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:dc98d6f2d39dd95b"
+   ]
+  },
+  {
+   "adds": [
+    "Uncover the Moon-Letters"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6915e87c6c77",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b96f53d28b84fac0"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3ec19dc5354c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:808810c1a2566832"
+   ]
+  },
+  {
+   "adds": [
+    "Gloomlake Verge"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d6590ed42790",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c0eaece7f1e100da"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:49e7c774ca3b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:18718ca578975ea5"
+   ]
+  },
+  {
+   "adds": [
+    "Electrostatic Field"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:169428a3b1fc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:677ad1d15eea61f0"
+   ]
+  },
+  {
+   "adds": [
+    "Paradigm Shift"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d4f5187487d3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:dcc307eb154d7daa"
+   ]
+  },
+  {
+   "adds": [
+    "Erebor Flamesmith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:cb5bb9a47be7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:801aa820d1502518"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d2f8833bf368",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d33931fe01c0d130"
+   ]
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:590aeb1451cb",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b1ee8d7abd90bbb1"
+   ]
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8ec93c3af3c1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2f6249bec8b3de77"
+   ]
+  },
+  {
+   "adds": [
+    "Case of the Ransacked Lab"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8590f4d0da15",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2b2a72270fbde5e7"
+   ]
+  },
+  {
+   "adds": [
+    "Thermo-Alchemist"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1131204369dd",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6625d0e5cb243bcd"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:42bad3d769c4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:eca39c39bf2c3341"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:12295dac8167",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:3a8d1661c5c506a9"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:69a06faeeb00",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:da7eedb13eede0c4"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fa381a91fc2f",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9dc945993aabc600"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0c8224a9ec52",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5347b55171113d52"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1da7f513cefe",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:430b741e8ff950de"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7a15b1e936fc",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:22027441d4f97600"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:8c1c9a8c177c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:256786a1736afcb3"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:df8532b8f951",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:55fe7922a6c15de6"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:55c47b18a1d1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fcda7c8c711846d3"
+   ]
+  },
+  {
+   "adds": [
+    "Carrion Feeder"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5f6e3a057682",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:db6a1b8c0db4dd7f"
+   ]
+  },
+  {
+   "adds": [
+    "Carrion Feeder"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:bf72197a797d",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6dee0d784e349086"
+   ]
+  },
+  {
+   "adds": [
+    "Altar of Dementia"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a7c68399ac47",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ab717535bcb0f250"
+   ]
+  },
+  {
+   "adds": [
+    "Altar of Dementia"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d11893807409",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:4a54fdbe147513f1"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:678d0084ffd7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:38dcdad1df103c5c"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:66bc13876f01",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9509c379cd6e62ea"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0952402a96bd",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:ba1b2fc995d296ef"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:7d23f5e41db6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:b6bd2a21a8d90cd1"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b774684739c7",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e681e9974cca1e98"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a90e5521893e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:5bf5ef5c592dfe7d"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:a64d9406067b",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:fb1727cd27ab7f85"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dc498b499b38",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e987cd6d06d91b5b"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dd736d8a6aa3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:6b1596c8fbd605ac"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:ec5845b0b62a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:9f5f45537aadad1d"
+   ]
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:dd47c3b64c39",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:be83199b73fc2f2e"
+   ]
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5c1a64f662ae",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:a1de95ed8d16e1bd"
+   ]
+  },
+  {
+   "adds": [
+    "Notorious Throng"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b54415fafe3e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7f4ce2f04ba0c207"
+   ]
+  },
+  {
+   "adds": [
+    "Notorious Throng"
+   ],
+   "cuts": [
+    "Tendrils of Agony"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:1687220e02af",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c717cb2af7e3e6c9"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b34f689e971c",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7f614cc04265431c"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0136e46d543e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8c3de727bcaccf92"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2ec2cdc65bcf",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:162b6ac38ea6f85e"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:472e56619be1",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:35cc04529cb6d6ed"
+   ]
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5e22f70caed3",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:52f92a75818d5d51"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:016b0f501982",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:58c704929235126c"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:da4563f4a936",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:35789d2ca537ee1d"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:d4f4d17e4aa4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:761dd93f8225e775"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:188afc17e3fd",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:cef411c1f77e9230"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5447e87b4d57",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:19a38f89a75b5f9e"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:311032eb3583",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:e19799c803627b19"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:3a979db80ea4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:19c50a933106e4fe"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:b2db366074f4",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8abb1160a3067103"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:497c799b89fd",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:7f866b3d32259a91"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:6e6466521932",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:d9a820080d4ac4c3"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:5380eaffc90a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:f835d9409f578a2a"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:0258405ebc4a",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:bf20f86d41970b9d"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:853142208b0e",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2519c40d64310fe9"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:2d7195c81196",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:2505a5a3d23125e9"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:c80e5088c870",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:78eb72892f38191e"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:fc262ac17de0",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:63b38251f1f81a6c"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:805d58a09f46",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:8dde4de7fe0fe2b8"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:cormela-glamour-thief:m5:02da834578a6",
+   "tests": [
+    "test:cormela-glamour-thief:goldfish:c41d0366eedd762d"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b97065f3bf0bb364",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8462ddd79c97fb6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2259e234b3c0a35f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2dc1301f84345a0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2b8f079dd55d990e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a5edb824fd445735",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8306d04906c3e377",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:39fe8f9f5ee216ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e48b75d062bab5bf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:47c962c69860c61e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f707ab5e2701469e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:98e7f5f0de19204a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b44468cced25475d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3b29d5dba6bd4136",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5b2e5474640d7dfd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5f53a2963f8fed70",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4ca051fc24697ed8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e830279a7b979e00",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d034d9d4c79d3373",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ff3470f914985969",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8e006f0eae38e311",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f9ff01ad1e13a2cf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6bb07613da294ffd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:48290df3bc17bb58",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:360f4a53692cb50d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:169c5e4704ccc9f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:165bb92831c5efc4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d914e52a5c71ba4a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:236345ca4a1d3f1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:cbd25ef0241c5a81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2212036b6c30a3e9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c3903a5cca2c773c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fe20f04ea6454fbd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0930faf37591cfe9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7ff7c7269ef06840",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:382a6215739a21b2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5f799bc0c7b82d1e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a658ee04957fb3b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9c3dbb2df20dd16b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d1ed7fedffe11224",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:10eb15fd3a1b3e25",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:60284017eee7a446",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c37fc88d3578d8fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:da516b8366cebdda",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f5038ba3ae0a5ff6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4398a3a2c186e1e1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:663f42ade4e92b12",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7f1a8e8e949c6a2d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5586b8f1cfbc9db3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c0772000f526a2ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5365746b9b7ab647",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0f03d8a8408f3d99",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:76b13e379ddd9f4d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4a8d3971e004b816",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a6946b07c1045658",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:66e4622c0c637fff",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:33409fd63c324a43",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1f02818280dfc2d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a18cd4ca847b9ef6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:57c5e8f5ebc168c0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d83d8ed69819bed6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8f381804f5db124f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e47785b04aae19e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0481f893c5c42596",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bfee60e67112bb62",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fb1f4ad1bc14907f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9f35ce08472c6adb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f60e1b7bd9aee144",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4b53616416bd4a39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0b6fc31148a57b06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e7b4ca43496a80f5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bb3412a249a64790",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b04219ac978314fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7c9909a655c23a25",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:af9736c1b6a15bb8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6b652038eef61895",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:67fc481256e3489d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:929ebf2405a633e1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:54c7613eb09b63ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fccd61c4026ce164",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d341a1896bf2b66a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8be554e2abc05478",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:26b9f9c16dda1751",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1fed48761dd8a21e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:06cc71500ca359fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:cf1134c7845c17c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:11a54f32589ef619",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d3b05eecd15f96b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a2fa59aa9c0e3852",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2e05c034a38d2e64",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f21fffb56a86070c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:25e55469c812b44f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:593dbfbb8c782fda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8d388c9972be719d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3e7259a5d79b55bb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f69c4cdb766d3aa1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ff14b7b5cbac9b5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d7a437b88c7939cc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:debe3ff74a4278a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:cd901d2e9258f7fa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c4d0744380eef187",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e374f31b5aa424a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:68f07b7cabab3284",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d4e1151199464145",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:35c86aa76c0b7d81",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f2c8e29dab98d1dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:15a8f15188a460b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d4360d7720db0568",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:158d3838b262c9f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e3ce856fb9846d44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:26e3c12f5b1128e6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:dcdfa278a5ed526b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:08a569ba38eb59c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f7360cdd07f9fe20",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:59b8a89e57f2980a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0d8f83ad5803ebf9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f7af1e026106af60",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:547f4c2be0736ecb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2bf43146743c2d73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9ecf3cf66eaede93",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8703da3601f3f844",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b082f6d63a9c7a79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:91d080e4ef1d0ce3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8319279a4c70e0b1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c3dc451c0a9e40dd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:450f9ea78e28eda2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b9a340ca62a9beeb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3c96bcc5ef2aaa11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2416f02a7aa9f6e6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:803d31a53015bdf7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e763d62c3ec7c9ba",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:72d4fee65c62f372",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:693fdfacb7427714",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c09f41f49092c32a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2d408b7289b29142",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1db0a9f1f1599c45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1f148266aacc4680",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:831f0168ce65ef58",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9dc4444a50a0d6f4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ed2d2fb99ea8549e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9e4098a240f5cb16",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c7574da1124169fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:34b7e998b28a488f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:05d30a28c6b745ae",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:878608c5eabb47ae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b04a1ad9b2103bd5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e858183011789eab",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d835df757302996c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3a8bd2df7d444705",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:251a376ecdb10fd9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f6fe0fd55b7fb885",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a53f5fe18ccd71bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2823ebcad50233d6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5039b8f026235485",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5f47a17a9d82d1a5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:88631646ae629abb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bf48b6c5ff4e64bb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ce2c6168d2967586",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:92a2857884bf99ff",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:cd79f482a6bb2c0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:38cfefa239d8c17a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d2ba70ed156b56f7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6b4c6673047df96f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f65f6968bef8b24d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9e75c9225599ca5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:552b6712ed1c8834",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:372b52004602c0bb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8ec06e68aff13a3f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4604d819f56cf4fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:81a99a017b1579be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6734a5d3c1dc29a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5e586d2db63c26da",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:03343c7e5f83c197",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:00205c44627ac338",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0f6f649312d68688",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:776d40f9ddf2d94a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3e8c5c31275a042f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c0644091c3105d04",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:610f53cd95a322af",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:236f2cff1e26976d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ac66ea695d8c28ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:925f3e258dec0950",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4f5b3ac991ae9e8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:66e68e565d33cd3c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:54ee78cf1dc9d6f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b0010c5a6b5d7292",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4b8767412c040dcb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:027310ad8d004ad8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6661358359e3d9cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f5fea1ba177a7fdd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ac28697ab05eacef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a0951aaacbcced2b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7d55de8c693fadde",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:150e0e2346da2354",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b44653c16984162c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:34e4a9be1c1a1de7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:eaaf121e7d25f9aa",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a2a46dc395b0875c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:dd9bf1c3265cc6dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1147b622a6c2231a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fefa2de71d085d4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d889bed18a831757",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6e11a202c0c0cdb3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fa1ad306817f95d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:59d39eda48592596",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:29afd204ec8b5bf7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fd652b4038ad4d84",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7d6d3eb15eb61961",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2b3ad1554a20a8ac",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:52a060106d274e17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:276b77e281f26098",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d042d43da48805c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0cc7762aa2a0acd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9133128abd93dd7f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f2af92e6c09bd33c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3770fbd1e71532f9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5fc6bb0da99e485a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a568be8cd47db94e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:cf004a990f96ad5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1f74e9e3770e8a63",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ac9cce4231b3dfde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c0b06223e267fd1a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:581358d3101b2051",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:003d2a0749431541",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:04ffb2443b38c9f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b73b48ebeae3b3cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9147b4dccebeb414",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7df8759ada2d32ef",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e5ba002ef564f764",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3172cebec7c9b70b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e17f850d09b5f8d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ae8540362e79424c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ea25dacc148d85ce",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:04055c7c0589edbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4c938705590b5808",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1c5224f756023dbe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c68741e3d0bf151b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5bd83380428e59bf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:efca545116834785",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4b4835726f32695f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7b8b902a02819685",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d5765598e406bc3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c6e7b0d1a85a7e0c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e5bf569544dac6bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:700982b2094b59f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c137fea075f1ea6b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:49464a4de8b9ae19",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0744e90714061156",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e74cfc5a0052648e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c55cbefdd0cdbeeb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6b32291f7b4aace4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:65be59b64a74235c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:aefa89e4674c3d45",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c851ec0f650d0137",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0802c9d2d8b11efc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:99bee5fdd5719eac",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:64132e83f357d5bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:221a498d9f1e4e81",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c14370d328ba4282",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ea8d8611f134f85c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:02de2466d005b008",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:dd57fed6fce6a047",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f00f5423e61788df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7a95f21a513d0760",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:674787cc9dc5b3d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:896d2d308412c72f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b900ca362f41330a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fb7e172cec6abd90",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bfac858f0925d078",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:11ecead360a95fd5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ef8d9a1f79b51965",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5c6cd019c6ac19dd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1e81120d149a4068",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:36d993ef4b219163",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8d73fd16246b9fa0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a3f12eda8bfe0ecf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:97f49cd5384e2c85",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5352909d7736e82a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:619b0c4d437581b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5226a3fa599378cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:98b0aaacacf66ee9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:128c0abb6c956fa3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:934336b21d05010f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:35abe86f3db07268",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:74ddd26ad29f2f08",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:321fe70905a06b9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d0a56d9039882bc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0f1e5bdf4c249dd5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e9ff58b804aa42f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0fd64cf0546c57e9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f31235c7ea7f5956",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b03f9766f00e1ab0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c0fe8d208f1bfdcd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6288017e88c36e96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:078000edea23074f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:efc45ee43693e1d9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2b51550fd6702aff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ca5c546b0e145470",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fed568369c5388d1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:35e594830f713afd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e8f371a2b156ecde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:30bf96fe14adc8bc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6e65f9be7d087fcc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:505ac83e1dbfef7b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f82316bbebe96265",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4323bc346d6f18d3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:88cfa61bd601f24a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:0f824cb76f4b62e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4742c23e09545183",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:dea57c7002d101cc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b34bcc3e34b1d435",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:877103132c925190",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7e2efad4dc6162c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fc7476ea19472a0f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bc022e8fa614de91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1fa86ed01bdcdd2c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:171dfc86c12ad484",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f2f0ac479881c3b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ee2b9e589c07b861",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e8fe2f4780513923",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:1c2996c2a468e300",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f051c59d944b54e4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9656c5d865d629c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8b8c785b2ca6cdbf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7bdba5931a98fcd5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:89f35bc1beada096",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7b6ae4652b5ad6b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bd8ed18ef668be2f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:312c1bf4c5a21ee2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e7ddd1e2e7031717",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:760e7b885b05e3ba",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8534fe03a1877585",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3f1ad8c6564a1704",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:02be319cc6b312c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b970b5dbb6e21ecf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e0c0eba7b06594a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:daf4ccbbe02a5803",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:919c07adb48e0063",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:37823ad0df4e1b3c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:dc98d6f2d39dd95b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b96f53d28b84fac0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:808810c1a2566832",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c0eaece7f1e100da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:18718ca578975ea5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:677ad1d15eea61f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:dcc307eb154d7daa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:801aa820d1502518",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d33931fe01c0d130",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b1ee8d7abd90bbb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2f6249bec8b3de77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2b2a72270fbde5e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6625d0e5cb243bcd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:eca39c39bf2c3341",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:3a8d1661c5c506a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:da7eedb13eede0c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9dc945993aabc600",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5347b55171113d52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:430b741e8ff950de",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:22027441d4f97600",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:256786a1736afcb3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:55fe7922a6c15de6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fcda7c8c711846d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:db6a1b8c0db4dd7f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6dee0d784e349086",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ab717535bcb0f250",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:4a54fdbe147513f1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:38dcdad1df103c5c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9509c379cd6e62ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:ba1b2fc995d296ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:b6bd2a21a8d90cd1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e681e9974cca1e98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:5bf5ef5c592dfe7d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:fb1727cd27ab7f85",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e987cd6d06d91b5b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:6b1596c8fbd605ac",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:9f5f45537aadad1d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:be83199b73fc2f2e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:a1de95ed8d16e1bd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7f4ce2f04ba0c207",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c717cb2af7e3e6c9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7f614cc04265431c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8c3de727bcaccf92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:162b6ac38ea6f85e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:35cc04529cb6d6ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:52f92a75818d5d51",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:58c704929235126c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:35789d2ca537ee1d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:761dd93f8225e775",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:cef411c1f77e9230",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:19a38f89a75b5f9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:e19799c803627b19",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:19c50a933106e4fe",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8abb1160a3067103",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:7f866b3d32259a91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:d9a820080d4ac4c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:f835d9409f578a2a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:bf20f86d41970b9d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2519c40d64310fe9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:2505a5a3d23125e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:78eb72892f38191e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:63b38251f1f81a6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:8dde4de7fe0fe2b8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:cormela-glamour-thief:goldfish:c41d0366eedd762d",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

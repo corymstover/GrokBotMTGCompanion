@@ -1,0 +1,6769 @@
+{
+ "deck_id": "Edward_Kenway",
+ "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "slug": "edward-kenway",
+ "swaps": [
+  {
+   "adds": [
+    "Forerunner of the Coalition"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:e6e1ce3dcff1",
+   "tests": [
+    "test:edward-kenway:goldfish:b20e63026bc28ca4"
+   ]
+  },
+  {
+   "adds": [
+    "Malcolm, Alluring Scoundrel"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:31ef44460763",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:201d3e6e2ecc",
+   "tests": [
+    "test:edward-kenway:goldfish:b962880e471ad794"
+   ]
+  },
+  {
+   "adds": [
+    "Corsair Captain"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:c56487160eb3",
+   "tests": [
+    "test:edward-kenway:goldfish:e029ffeea4bc14ee"
+   ]
+  },
+  {
+   "adds": [
+    "Corsair Captain"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:9da510fdce04",
+   "tests": [
+    "test:edward-kenway:goldfish:afd8557ca640710e"
+   ]
+  },
+  {
+   "adds": [
+    "Admiral Beckett Brass"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:d1919e574d32",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:23aea6e076f4",
+   "tests": [
+    "test:edward-kenway:goldfish:497b10faad5d5385"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:4807754e7ab8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:d8ce11ec7ee5",
+   "tests": [
+    "test:edward-kenway:goldfish:39820480e098fb33"
+   ]
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:723e6245823d",
+   "tests": [
+    "test:edward-kenway:goldfish:233a53e947846599"
+   ]
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:8e08f2f85715",
+   "tests": [
+    "test:edward-kenway:goldfish:b7507fa8420f131c"
+   ]
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:05e3b6227f14",
+   "tests": [
+    "test:edward-kenway:goldfish:908374a48cb8fe43"
+   ]
+  },
+  {
+   "adds": [
+    "Francisco, Fowl Marauder"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f35a815f01a8",
+   "tests": [
+    "test:edward-kenway:goldfish:0761063e9c736062"
+   ]
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:00c4b81b2e74",
+   "tests": [
+    "test:edward-kenway:goldfish:b87bd240963fdba3"
+   ]
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:99633d939b9e",
+   "tests": [
+    "test:edward-kenway:goldfish:55f992f6eee08beb"
+   ]
+  },
+  {
+   "adds": [
+    "Weatherlight"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:77cb720e393a",
+   "tests": [
+    "test:edward-kenway:goldfish:675aa3162346de20"
+   ]
+  },
+  {
+   "adds": [
+    "Weatherlight"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:25b36bf6576e",
+   "tests": [
+    "test:edward-kenway:goldfish:9cf2cf7947f36c0a"
+   ]
+  },
+  {
+   "adds": [
+    "Merchant Raiders"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8de9f4857298",
+   "tests": [
+    "test:edward-kenway:goldfish:9437e932cfcca87d"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Daredevil"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:19336602ed63",
+   "tests": [
+    "test:edward-kenway:goldfish:04d3e26aa592dae9"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:7c21f852ede2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:c336847fb596",
+   "tests": [
+    "test:edward-kenway:goldfish:f152efc9a453d0bd"
+   ]
+  },
+  {
+   "adds": [
+    "Double Down"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:2c34755a366d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Double Down"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:d21992117bb6",
+   "tests": [
+    "test:edward-kenway:goldfish:2689959ac6bb0d3c"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:d2a5fc92c425",
+   "tests": [
+    "test:edward-kenway:goldfish:ecba499a6b4370f0"
+   ]
+  },
+  {
+   "adds": [
+    "Staunch Crewmate"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:64acd40f7c4c",
+   "tests": [
+    "test:edward-kenway:goldfish:b56e1ed94990b0a3"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Inventor"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:aa8c51b4ffae",
+   "tests": [
+    "test:edward-kenway:goldfish:fc59c57838d1ed13"
+   ]
+  },
+  {
+   "adds": [
+    "Fell Flagship"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:d9ec1522f206",
+   "tests": [
+    "test:edward-kenway:goldfish:42ddc89ddfad7741"
+   ]
+  },
+  {
+   "adds": [
+    "Fell Flagship"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:470256e33407",
+   "tests": [
+    "test:edward-kenway:goldfish:2d5f83222e2fb43e"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath's Marauders"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f956634a6e02",
+   "tests": [
+    "test:edward-kenway:goldfish:1704a56e87b24b0c"
+   ]
+  },
+  {
+   "adds": [
+    "Spectral Sailor"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:97d5379bc9d1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cover of Darkness"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:1482bc945290",
+   "tests": [
+    "test:edward-kenway:goldfish:a3e9ad2476c2917f"
+   ]
+  },
+  {
+   "adds": [
+    "Cover of Darkness"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:71ada9573b24",
+   "tests": [
+    "test:edward-kenway:goldfish:d979198deb0d07ac"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Drowned"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:fada1175313d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shao Jun"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cbbf596f2d7d",
+   "tests": [
+    "test:edward-kenway:goldfish:3bfb36d541775aa5"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:c5947604eb87",
+   "tests": [
+    "test:edward-kenway:goldfish:428ee7d95a409214"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:2a0226db2a60",
+   "tests": [
+    "test:edward-kenway:goldfish:0d00593c2537bee6"
+   ]
+  },
+  {
+   "adds": [
+    "Breeches, the Blastmaker"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:25d1fbd7ff69",
+   "tests": [
+    "test:edward-kenway:goldfish:b539aadf83d8e94a"
+   ]
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:b430c6394874",
+   "tests": [
+    "test:edward-kenway:goldfish:bfa6c3464153fda8"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Captain"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a844aa53e814",
+   "tests": [
+    "test:edward-kenway:goldfish:405027d5847df9b2"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:58d868c082f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:7c0abfc85983",
+   "tests": [
+    "test:edward-kenway:goldfish:1e7328036ac290e8"
+   ]
+  },
+  {
+   "adds": [
+    "Warkite Marauder"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:0326aa03cafc",
+   "tests": [
+    "test:edward-kenway:goldfish:204fc8795061db39"
+   ]
+  },
+  {
+   "adds": [
+    "Phoenix Fleet Airship"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:5bffe01689c1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phoenix Fleet Airship"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:05ae8cdd61fe",
+   "tests": [
+    "test:edward-kenway:goldfish:9b2f275f129cd2c0"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cfc65a534795",
+   "tests": [
+    "test:edward-kenway:goldfish:e988d61c03e1f9fa"
+   ]
+  },
+  {
+   "adds": [
+    "Lifecraft Engine"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:edward-kenway:m5:5df3be609b88",
+   "tests": [
+    "test:edward-kenway:goldfish:8dec55202442eec3"
+   ]
+  },
+  {
+   "adds": [
+    "Lifecraft Engine"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:bce8c7d9176f",
+   "tests": [
+    "test:edward-kenway:goldfish:5cbfbd53317d08c2"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:39dc4d14c2f5",
+   "tests": [
+    "test:edward-kenway:goldfish:6c48782a267dd104"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:27167ed536b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:1b7691cacada",
+   "tests": [
+    "test:edward-kenway:goldfish:4495777e04ccee65"
+   ]
+  },
+  {
+   "adds": [
+    "Broadside Bombardiers"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bf6ced5f712f",
+   "tests": [
+    "test:edward-kenway:goldfish:2f4eba1d13f6b42e"
+   ]
+  },
+  {
+   "adds": [
+    "Mu Yanling, Wind Rider"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:b2b75e67cfd5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:d792aa63f065",
+   "tests": [
+    "test:edward-kenway:goldfish:c4c0bb310b073c64"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:1e3161407022",
+   "tests": [
+    "test:edward-kenway:goldfish:a47c55e5502162c7"
+   ]
+  },
+  {
+   "adds": [
+    "Amphin Mutineer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:68184c384c21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Royal Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:5043fb2033a8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edward-kenway:m5:0662af4fb3ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:a0a28a8af8c4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brotherhood Vertibird"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:edward-kenway:m5:4f5e4bff13ed",
+   "tests": [
+    "test:edward-kenway:goldfish:828b75bebde8df65"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Vertibird"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:dd883ae9f2d5",
+   "tests": [
+    "test:edward-kenway:goldfish:6813cdc15cf324c4"
+   ]
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:dd5e2cc8f827",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3dc2b931158a",
+   "tests": [
+    "test:edward-kenway:goldfish:b0dcb2e076415f7c"
+   ]
+  },
+  {
+   "adds": [
+    "Cultivator's Caravan"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:c758d28a38bb",
+   "tests": [
+    "test:edward-kenway:goldfish:baf7423fe555e136"
+   ]
+  },
+  {
+   "adds": [
+    "Cultivator's Caravan"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:4d2288a0b37a",
+   "tests": [
+    "test:edward-kenway:goldfish:0bfd37db59d29f73"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:10ada004a1c5",
+   "tests": [
+    "test:edward-kenway:goldfish:26c219efea7bc098"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:edward-kenway:m5:10846b1b574a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skeleton Crew"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:449ad4277b5f",
+   "tests": [
+    "test:edward-kenway:goldfish:794fec85dab21907"
+   ]
+  },
+  {
+   "adds": [
+    "Setzer, Wandering Gambler"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:4987a379c47a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:9fc339a91063",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:f48a79d8cf21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mech Hangar"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:87318c7bc936",
+   "tests": [
+    "test:edward-kenway:goldfish:4f16e444c3de2d1a"
+   ]
+  },
+  {
+   "adds": [
+    "Spell Swindle"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:243a0456926d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Regalia"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:85b2265d495d",
+   "tests": [
+    "test:edward-kenway:goldfish:b06613d8f17f215a"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:5d23e887f0dd",
+   "tests": [
+    "test:edward-kenway:goldfish:c953f43b6fd5e04f"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Luxurious Locomotive"
+   ],
+   "id": "swap:edward-kenway:m5:8281ee6d4829",
+   "tests": [
+    "test:edward-kenway:goldfish:1c71871823902c4a"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Plunderers"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:0f5af36226a2",
+   "tests": [
+    "test:edward-kenway:goldfish:3b04de92b45cd78a"
+   ]
+  },
+  {
+   "adds": [
+    "Raiders' Karve"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:d5ff1445d0d4",
+   "tests": [
+    "test:edward-kenway:goldfish:d269970efdcf3b22"
+   ]
+  },
+  {
+   "adds": [
+    "Boosted Sloop"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:df5018d7209b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rain of Riches"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:d54f07993ccd",
+   "tests": [
+    "test:edward-kenway:goldfish:a3e5ce057d2f0424"
+   ]
+  },
+  {
+   "adds": [
+    "Roshan, Hidden Magister"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:2b9c11e9a626",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lydia Frye"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:44fc770f87af",
+   "tests": [
+    "test:edward-kenway:goldfish:1136473a83c9d466"
+   ]
+  },
+  {
+   "adds": [
+    "Arno Dorian"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3745dbca1611",
+   "tests": [
+    "test:edward-kenway:goldfish:6c62682ac9050b28"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:0a556afe3e74",
+   "tests": [
+    "test:edward-kenway:goldfish:916ac057a45e2752"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:fafef306487f",
+   "tests": [
+    "test:edward-kenway:goldfish:8c0638b51f06a010"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:f8530b41eff8",
+   "tests": [
+    "test:edward-kenway:goldfish:2ce75d6db0baf242"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:ae20b5d15e6a",
+   "tests": [
+    "test:edward-kenway:goldfish:c413db17e5e84c7c"
+   ]
+  },
+  {
+   "adds": [
+    "Eagle Vision"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:7337c7b74dfc",
+   "tests": [
+    "test:edward-kenway:goldfish:ae570dbab9273f89"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:68261551735e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mobilizer Mech"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:edward-kenway:m5:22a54ac6c819",
+   "tests": [
+    "test:edward-kenway:goldfish:8e4962d5a6a31d6e"
+   ]
+  },
+  {
+   "adds": [
+    "The Thanos-Copter"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:110505c3afc7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xorn"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:ed562c7d7438",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ezio, Blade of Vengeance"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:51efaa3834d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bca777085d7e",
+   "tests": [
+    "test:edward-kenway:goldfish:8e4bcab06b9d68ed"
+   ]
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:ff3557363a45",
+   "tests": [
+    "test:edward-kenway:goldfish:816ebf0107c86a59"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:25dc07998ac4",
+   "tests": [
+    "test:edward-kenway:goldfish:a9499811954996ac"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:405bb645f57c",
+   "tests": [
+    "test:edward-kenway:goldfish:76ba0b5b3fad606d"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:5241002a94ff",
+   "tests": [
+    "test:edward-kenway:goldfish:000b54a792d70d2f"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:942d5de31dc4",
+   "tests": [
+    "test:edward-kenway:goldfish:cb1a3f7f14aa2584"
+   ]
+  },
+  {
+   "adds": [
+    "Safana, Calimport Cutthroat"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:ecc8ef4067db",
+   "tests": [
+    "test:edward-kenway:goldfish:15bf026e774089cc"
+   ]
+  },
+  {
+   "adds": [
+    "Safana, Calimport Cutthroat"
+   ],
+   "cuts": [
+    "Luxurious Locomotive"
+   ],
+   "id": "swap:edward-kenway:m5:562c8bf19131",
+   "tests": [
+    "test:edward-kenway:goldfish:64ba2c9d163068c9"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:3e894c113a98",
+   "tests": [
+    "test:edward-kenway:goldfish:9c81896c78227e28"
+   ]
+  },
+  {
+   "adds": [
+    "Alchemist's Talent"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:06bdd9c22b8a",
+   "tests": [
+    "test:edward-kenway:goldfish:990b6e24ce76fa0e"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:06fc02fc586c",
+   "tests": [
+    "test:edward-kenway:goldfish:95fa4d8eaaf28033"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:165655efca81",
+   "tests": [
+    "test:edward-kenway:goldfish:988e295df9ca1a9b"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edward-kenway:m5:39bc3cd7f47d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thunderhawk Gunship"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:81a8190652ab",
+   "tests": [
+    "test:edward-kenway:goldfish:5ba0de1984aade2c"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:d57b522e3f1f",
+   "tests": [
+    "test:edward-kenway:goldfish:e454d2aed0a66fe9"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:5e39d9be2274",
+   "tests": [
+    "test:edward-kenway:goldfish:580c2432322ec47d"
+   ]
+  },
+  {
+   "adds": [
+    "Mighty Servant of Leuk-o"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:4d601775c802",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:e60634c587cd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:eea2d5be80b3",
+   "tests": [
+    "test:edward-kenway:goldfish:3e15d5b1c2b25e73"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:f2f363c2007c",
+   "tests": [
+    "test:edward-kenway:goldfish:9df27aa4f63c98b0"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:98ce6ffe7537",
+   "tests": [
+    "test:edward-kenway:goldfish:2ad596ae61db9468"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:1b2118c9dc76",
+   "tests": [
+    "test:edward-kenway:goldfish:a767ca96b857b258"
+   ]
+  },
+  {
+   "adds": [
+    "Reaver Titan"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:d243a6ce64ce",
+   "tests": [
+    "test:edward-kenway:goldfish:c8b2a1ec1fbea0e9"
+   ]
+  },
+  {
+   "adds": [
+    "Lookout's Dispersal"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:edward-kenway:m5:8524c2defe3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reckoner Bankbuster"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:e014d30d107d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jacob Frye"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:15fefeced723",
+   "tests": [
+    "test:edward-kenway:goldfish:ef0544de1e5b6e6c"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:7f04526958c0",
+   "tests": [
+    "test:edward-kenway:goldfish:d4ea4abd00ca3b27"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:0b873c196c65",
+   "tests": [
+    "test:edward-kenway:goldfish:08b8b6d8e328abc3"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:5c00f216703b",
+   "tests": [
+    "test:edward-kenway:goldfish:a7bb7eb29bc0e75c"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:8450efebb9a2",
+   "tests": [
+    "test:edward-kenway:goldfish:78b22dc17faebe6e"
+   ]
+  },
+  {
+   "adds": [
+    "Desmond Miles"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:62ae6047f4ab",
+   "tests": [
+    "test:edward-kenway:goldfish:b767d0326ca0f9e2"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:9a2890839e3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:68e4cb7a47aa",
+   "tests": [
+    "test:edward-kenway:goldfish:2fb2819868a34d77"
+   ]
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:bec5026ff53d",
+   "tests": [
+    "test:edward-kenway:goldfish:f04f42df5afd163f"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:6238f7d0018c",
+   "tests": [
+    "test:edward-kenway:goldfish:3a02a93b40774f53"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:f33c9bb23885",
+   "tests": [
+    "test:edward-kenway:goldfish:d0b49386b132266c"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:eabc92f348b5",
+   "tests": [
+    "test:edward-kenway:goldfish:f874c3be9f1d4ee3"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:3e683587bdaf",
+   "tests": [
+    "test:edward-kenway:goldfish:d33f76d2660dc40d"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:c89f5afa5c14",
+   "tests": [
+    "test:edward-kenway:goldfish:476570c20b595788"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:729f5b01e899",
+   "tests": [
+    "test:edward-kenway:goldfish:4593bba10005585e"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:1547dfe89b90",
+   "tests": [
+    "test:edward-kenway:goldfish:f350d98b691ef184"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:31e4b0c3e0e2",
+   "tests": [
+    "test:edward-kenway:goldfish:076c164b2213be49"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:afa8644d137b",
+   "tests": [
+    "test:edward-kenway:goldfish:0cd941177e3ad15f"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:4e4b82c13342",
+   "tests": [
+    "test:edward-kenway:goldfish:3d8e943b66dc43b4"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:e1cf6660712e",
+   "tests": [
+    "test:edward-kenway:goldfish:9665d65a2e8c384c"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:428ac157103b",
+   "tests": [
+    "test:edward-kenway:goldfish:0c34bab56f1e5d21"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Headquarters"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:b1e5e475346e",
+   "tests": [
+    "test:edward-kenway:goldfish:dc55eba10b8c723c"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:ae741c519d46",
+   "tests": [
+    "test:edward-kenway:goldfish:651c7b59c1a561bc"
+   ]
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:5ed2a63635fe",
+   "tests": [
+    "test:edward-kenway:goldfish:a1eba50b1de4a2a2"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:f38070ac973b",
+   "tests": [
+    "test:edward-kenway:goldfish:e04748b9ff02a712"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:6a42c8c6df62",
+   "tests": [
+    "test:edward-kenway:goldfish:33d9c94561521036"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:9ec20692b10b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Great Gilded Boat"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:e9e09a9afd52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoke Bomb"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edward-kenway:m5:a79a3c31d870",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Golden Argosy"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:76c13ff408cf",
+   "tests": [
+    "test:edward-kenway:goldfish:5cdf750c36623889"
+   ]
+  },
+  {
+   "adds": [
+    "Petty Larceny"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:4cf91f9039e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "N'Yami-Class Mother Ship"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:edbf674f57dd",
+   "tests": [
+    "test:edward-kenway:goldfish:88be86c746f812b3"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edward-kenway:m5:f9bea88cd694",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:22230dfac183",
+   "tests": [
+    "test:edward-kenway:goldfish:dd6ea609ddee426d"
+   ]
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:01e460ec6e36",
+   "tests": [
+    "test:edward-kenway:goldfish:376a046deb7aa4d0"
+   ]
+  },
+  {
+   "adds": [
+    "Careening Mine Cart"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:34a735509455",
+   "tests": [
+    "test:edward-kenway:goldfish:e6dd5622ee108d9c"
+   ]
+  },
+  {
+   "adds": [
+    "Assault Suit"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:fba552a2fd29",
+   "tests": [
+    "test:edward-kenway:goldfish:6c9cc44fc24b4d9d"
+   ]
+  },
+  {
+   "adds": [
+    "Assault Suit"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:7cc83cb51f7b",
+   "tests": [
+    "test:edward-kenway:goldfish:2345346b75214014"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:ba3edb0a8e6c",
+   "tests": [
+    "test:edward-kenway:goldfish:d9ff98e23363eb0a"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:81ed4c3b91e0",
+   "tests": [
+    "test:edward-kenway:goldfish:ef748b8d4f078833"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:a5eacbabff37",
+   "tests": [
+    "test:edward-kenway:goldfish:6b43058261706b7c"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:271cb389f036",
+   "tests": [
+    "test:edward-kenway:goldfish:a512853be7ccf620"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:3d847b19e1c9",
+   "tests": [
+    "test:edward-kenway:goldfish:04e94a2d04dbe360"
+   ]
+  },
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:670ae77ec721",
+   "tests": [
+    "test:edward-kenway:goldfish:5d81c843388e3695"
+   ]
+  },
+  {
+   "adds": [
+    "Calamity, Galloping Inferno"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:8aa8b07930f5",
+   "tests": [
+    "test:edward-kenway:goldfish:bdce073f93c3ac27"
+   ]
+  },
+  {
+   "adds": [
+    "Calamity, Galloping Inferno"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:d4aac24ac154",
+   "tests": [
+    "test:edward-kenway:goldfish:ab103659f09347eb"
+   ]
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:b95a0f0a5f47",
+   "tests": [
+    "test:edward-kenway:goldfish:72624c1f6e7676e4"
+   ]
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:51d667654ca1",
+   "tests": [
+    "test:edward-kenway:goldfish:e54eef4c9f366027"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:c2a09954f6ff",
+   "tests": [
+    "test:edward-kenway:goldfish:d4246629f214b5df"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:0898f5742191",
+   "tests": [
+    "test:edward-kenway:goldfish:09989ba458835a10"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:9fbd4d02ecd9",
+   "tests": [
+    "test:edward-kenway:goldfish:229adaf4f490f2bd"
+   ]
+  },
+  {
+   "adds": [
+    "Abstergo Entertainment"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:e5d9ac7a15d3",
+   "tests": [
+    "test:edward-kenway:goldfish:e5d79d2ff4ffc21b"
+   ]
+  },
+  {
+   "adds": [
+    "The Falcon, Airship Restored"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:1abe11cd587a",
+   "tests": [
+    "test:edward-kenway:goldfish:38d6f8cb4eb68ac0"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:3a72527a8381",
+   "tests": [
+    "test:edward-kenway:goldfish:72bc2248beebaf4e"
+   ]
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:d96aface31a3",
+   "tests": [
+    "test:edward-kenway:goldfish:389818dd7631c3d1"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:4ee47827b5aa",
+   "tests": [
+    "test:edward-kenway:goldfish:6f2211305ebd8ca6"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:0f711068170e",
+   "tests": [
+    "test:edward-kenway:goldfish:3c2a6f2c2889e1d9"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:02178ed9edee",
+   "tests": [
+    "test:edward-kenway:goldfish:fcb2006d20c9a10c"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:7f9416e74d3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:9a52b417aa6a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Higure, the Still Wind"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:043302c3430a",
+   "tests": [
+    "test:edward-kenway:goldfish:1c9354316bc1347d"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:2cbca9a593e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phantom Steed"
+   ],
+   "cuts": [
+    "Deluxe Dragster"
+   ],
+   "id": "swap:edward-kenway:m5:c372ef6f25b7",
+   "tests": [
+    "test:edward-kenway:goldfish:1c6d4bbefc0c884c"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Steed"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:16de047dfbdc",
+   "tests": [
+    "test:edward-kenway:goldfish:c578d3f785b9ff79"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:6f873441ec6d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edward-kenway:m5:21f46ea8c162",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:72763639de7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edward-kenway:m5:bb44ed7092d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chain Assassination"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:128dc10e7464",
+   "tests": [
+    "test:edward-kenway:goldfish:97d4d83375e3dcc7"
+   ]
+  },
+  {
+   "adds": [
+    "Sandstorm Crasher"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:ba5e63b3b58b",
+   "tests": [
+    "test:edward-kenway:goldfish:3c786cc827593bb3"
+   ]
+  },
+  {
+   "adds": [
+    "Sandstorm Crasher"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:edward-kenway:m5:2cdd2e61964b",
+   "tests": [
+    "test:edward-kenway:goldfish:9e506c8c09a9d9f3"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:842d1eaa23dd",
+   "tests": [
+    "test:edward-kenway:goldfish:1a2767362e76c181"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:21e8ba897c40",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Samut, Hazoret's Champion"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a62486c0655a",
+   "tests": [
+    "test:edward-kenway:goldfish:0b0e49cda368890b"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:0c97d5476175",
+   "tests": [
+    "test:edward-kenway:goldfish:28afac1d5d570cbd"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:64ce689f5219",
+   "tests": [
+    "test:edward-kenway:goldfish:ea7c2ccb4ef673c6"
+   ]
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9a362efcb6fb",
+   "tests": [
+    "test:edward-kenway:goldfish:f72852b99b14bc71"
+   ]
+  },
+  {
+   "adds": [
+    "Cynical Loner"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:055ca1163442",
+   "tests": [
+    "test:edward-kenway:goldfish:54c7f1a822c0e086"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:68fe976ac3f2",
+   "tests": [
+    "test:edward-kenway:goldfish:b011837133af84b1"
+   ]
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:67ea9ef56077",
+   "tests": [
+    "test:edward-kenway:goldfish:f86f190e9c78b9b0"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:1b84aa805092",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:fbcb6b1a42d8",
+   "tests": [
+    "test:edward-kenway:goldfish:3e28337fff41d758"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:8e716ceeeaee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edward-kenway:m5:88ba1c5613ad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:bc0351e59a88",
+   "tests": [
+    "test:edward-kenway:goldfish:b6d8e456fb789fb7"
+   ]
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:87cd9f10b99a",
+   "tests": [
+    "test:edward-kenway:goldfish:915d7af6105d7ff1"
+   ]
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:38ad134ee0bf",
+   "tests": [
+    "test:edward-kenway:goldfish:d75fb8c9b05e370d"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:e9e7138071c1",
+   "tests": [
+    "test:edward-kenway:goldfish:37e014972ad236c3"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:70f0103700be",
+   "tests": [
+    "test:edward-kenway:goldfish:9171f5d841668820"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:2c81ec718891",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:e8b9d9de0937",
+   "tests": [
+    "test:edward-kenway:goldfish:b4530fb4b5d3f7f6"
+   ]
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:94ca9cd5608a",
+   "tests": [
+    "test:edward-kenway:goldfish:e93d9fd046b90512"
+   ]
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f596ff3ad52a",
+   "tests": [
+    "test:edward-kenway:goldfish:00d8988e85b0112f"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:77cdbd102d6c",
+   "tests": [
+    "test:edward-kenway:goldfish:b3da16a36ff5263f"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:11831b781e19",
+   "tests": [
+    "test:edward-kenway:goldfish:f60840afba8d6759"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:7f9d567ce862",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Photon, Mighty Marvel"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:464b137fd695",
+   "tests": [
+    "test:edward-kenway:goldfish:15b336edda761760"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:f2d646377c5e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:0e2d62fb3d01",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Wasp, Winsome Avenger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:ecea498d42d9",
+   "tests": [
+    "test:edward-kenway:goldfish:0314b10eee2579a9"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:e7060deca6e2",
+   "tests": [
+    "test:edward-kenway:goldfish:8a827c6de1409360"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:158097e6ea66",
+   "tests": [
+    "test:edward-kenway:goldfish:d1c98919b3b1c3ac"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:b0cacad39b17",
+   "tests": [
+    "test:edward-kenway:goldfish:d024862beb160f80"
+   ]
+  },
+  {
+   "adds": [
+    "Sanar, Unfinished Genius // Wild Idea"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:6dcbc1f240ba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:fe03a784ede5",
+   "tests": [
+    "test:edward-kenway:goldfish:ba7f5a36e33d4c3a"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edward-kenway:m5:e04b1ef19a26",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:dba19523b3c0",
+   "tests": [
+    "test:edward-kenway:goldfish:9748b75493e9be78"
+   ]
+  },
+  {
+   "adds": [
+    "Titania, Proud Pummeler"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:351e96ce3fec",
+   "tests": [
+    "test:edward-kenway:goldfish:1d2a4c26fd98529f"
+   ]
+  },
+  {
+   "adds": [
+    "Firebird, Blazing Ranger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:849ee591515f",
+   "tests": [
+    "test:edward-kenway:goldfish:e5f80a12a852833f"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Deadly Hunter"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:2ed634e4277b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:89fe0b596224",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:6e0fd16e51f8",
+   "tests": [
+    "test:edward-kenway:goldfish:a3ff059815b0ce3b"
+   ]
+  },
+  {
+   "adds": [
+    "Daredevil, Fearless Fighter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:5ca371614e35",
+   "tests": [
+    "test:edward-kenway:goldfish:182c2acb506ec456"
+   ]
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:1b64e5dd0bf7",
+   "tests": [
+    "test:edward-kenway:goldfish:38ffa4605bc13818"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:32b57156b151",
+   "tests": [
+    "test:edward-kenway:goldfish:fadee668df38a244"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:44f78a6e4d8d",
+   "tests": [
+    "test:edward-kenway:goldfish:b1385502fde1a98b"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:4bc1bb48fbb2",
+   "tests": [
+    "test:edward-kenway:goldfish:79bc30b705faea73"
+   ]
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edward-kenway:m5:31595fa8d287",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:5e213b3959d4",
+   "tests": [
+    "test:edward-kenway:goldfish:e9414d97d746c856"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:87b31639c896",
+   "tests": [
+    "test:edward-kenway:goldfish:5554177de9a55e66"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8212370c07af",
+   "tests": [
+    "test:edward-kenway:goldfish:57b25cc15e908a87"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:66f1b49b25a4",
+   "tests": [
+    "test:edward-kenway:goldfish:23634f7a6d3150b1"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9451ef440d22",
+   "tests": [
+    "test:edward-kenway:goldfish:8c98393140d8cacc"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:1cbebae57e2e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:54d7e6ee0ef6",
+   "tests": [
+    "test:edward-kenway:goldfish:95d5c7b30b1f20fc"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:94e1960d2053",
+   "tests": [
+    "test:edward-kenway:goldfish:f7673e8fc7848459"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:dda1917ad566",
+   "tests": [
+    "test:edward-kenway:goldfish:9f9b5d8e4bf4e1a6"
+   ]
+  },
+  {
+   "adds": [
+    "Whiplash, Vengeful Engineer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:40a39c3fb5fb",
+   "tests": [
+    "test:edward-kenway:goldfish:9a23ee0bba9c386b"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:245be9070fd2",
+   "tests": [
+    "test:edward-kenway:goldfish:bbbea2d0b4970d06"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:4c902d7b782e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:ae27c013599e",
+   "tests": [
+    "test:edward-kenway:goldfish:612e83d79c65c4d7"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Web-Spinner"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cb39ca5dd6d1",
+   "tests": [
+    "test:edward-kenway:goldfish:fc4ae5a08433fd4c"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Most Wanted"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bdb3c9613641",
+   "tests": [
+    "test:edward-kenway:goldfish:56ae9fb4a6a29a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Ophiomancer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c34ff9567814",
+   "tests": [
+    "test:edward-kenway:goldfish:c98bed2709eac273"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:42f1a63ffeb1",
+   "tests": [
+    "test:edward-kenway:goldfish:b65ce2925add7538"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:d7886f2f6c68",
+   "tests": [
+    "test:edward-kenway:goldfish:93e958404a2d57c0"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:02ccf974c7ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghost, Spectral Saboteur"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:68e46effc4d4",
+   "tests": [
+    "test:edward-kenway:goldfish:addf103ea74f42d6"
+   ]
+  },
+  {
+   "adds": [
+    "Elektra, Femme Fatale"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:bf2dbd6e46a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Radioactive Man"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8abc86adec06",
+   "tests": [
+    "test:edward-kenway:goldfish:2de48e6ec960462e"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f2af06f49299",
+   "tests": [
+    "test:edward-kenway:goldfish:dff7478a33192ac0"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:1056b1f0554a",
+   "tests": [
+    "test:edward-kenway:goldfish:4728326ecd1dddfb"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:de2b66d557da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:09cc168e824a",
+   "tests": [
+    "test:edward-kenway:goldfish:f635a064eeb61422"
+   ]
+  },
+  {
+   "adds": [
+    "Viper, Cruel Conspirator"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f86d0d0166d2",
+   "tests": [
+    "test:edward-kenway:goldfish:733ca0ae90d82f65"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:0703f06be669",
+   "tests": [
+    "test:edward-kenway:goldfish:2d4a8317dd5088c4"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin Cliffrider"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edward-kenway:m5:d96dc0e71830",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cd8e05ab6f5c",
+   "tests": [
+    "test:edward-kenway:goldfish:6e5acde04a63dabb"
+   ]
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:eafa736a80c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Graviton, Fundamental Force"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3cb8586d0030",
+   "tests": [
+    "test:edward-kenway:goldfish:439b7c87e863954c"
+   ]
+  },
+  {
+   "adds": [
+    "Bob, Reluctant HYDRA Agent"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:b3ec01a8442a",
+   "tests": [
+    "test:edward-kenway:goldfish:13095209bbab317f"
+   ]
+  },
+  {
+   "adds": [
+    "Boomerang, Blade Flinger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:be9817935d87",
+   "tests": [
+    "test:edward-kenway:goldfish:1ac4677b48793d02"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:b3f1f6adfbcf",
+   "tests": [
+    "test:edward-kenway:goldfish:29d170a97cecd556"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:7a61d193a5e3",
+   "tests": [
+    "test:edward-kenway:goldfish:5bb6a58ad1008dda"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:8af2dc580656",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cabc027f3550",
+   "tests": [
+    "test:edward-kenway:goldfish:82e11da01f2c266f"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:7129cb78ca64",
+   "tests": [
+    "test:edward-kenway:goldfish:879df41e03056b32"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:ef370e511a00",
+   "tests": [
+    "test:edward-kenway:goldfish:9561028e0e20c171"
+   ]
+  },
+  {
+   "adds": [
+    "Matterbending Mage"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:e4c46362411b",
+   "tests": [
+    "test:edward-kenway:goldfish:d0dfd3f0af84cb5c"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:9facbb69952c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:c964c3b51648",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:96e582a9630c",
+   "tests": [
+    "test:edward-kenway:goldfish:ad349853b8f00a3a"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:849c11c65ed2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9648466eb807",
+   "tests": [
+    "test:edward-kenway:goldfish:6fc0d298ddb734a9"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Hometown Hero"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:80d38dc5231f",
+   "tests": [
+    "test:edward-kenway:goldfish:aa2a897a4587aaae"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f3648ad34710",
+   "tests": [
+    "test:edward-kenway:goldfish:8ce523bf5478f248"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:1bc1b51e048b",
+   "tests": [
+    "test:edward-kenway:goldfish:a08006b0441d0ef4"
+   ]
+  },
+  {
+   "adds": [
+    "Wasp, Shrinking Savior"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:c34eb24522d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edward-kenway:m5:c8212b5a7cb8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:d5db53644591",
+   "tests": [
+    "test:edward-kenway:goldfish:f3a3eecac79650a9"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:8213907c6952",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Natasha Romanoff"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3d3ada20b323",
+   "tests": [
+    "test:edward-kenway:goldfish:cf336abf7ca7bf6d"
+   ]
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bdddf6a93e7d",
+   "tests": [
+    "test:edward-kenway:goldfish:d9fff29ba2bdde14"
+   ]
+  },
+  {
+   "adds": [
+    "The Whizzer, Classic Speedster"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:5d73d11f4c34",
+   "tests": [
+    "test:edward-kenway:goldfish:6dc000d98610b9a2"
+   ]
+  },
+  {
+   "adds": [
+    "Eardrum Rattler"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cd7c1cdaf716",
+   "tests": [
+    "test:edward-kenway:goldfish:e6234b1ce73b7bcc"
+   ]
+  },
+  {
+   "adds": [
+    "Armed Assailant"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:5ba470952c3d",
+   "tests": [
+    "test:edward-kenway:goldfish:aaa6d766f3fabadb"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Grapplers"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:d72188a36c39",
+   "tests": [
+    "test:edward-kenway:goldfish:306369e547e1c458"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:f79903353ec8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smuggler Captain"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:055a71a618d4",
+   "tests": [
+    "test:edward-kenway:goldfish:29eab026c5463a3d"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9fa75dea3b23",
+   "tests": [
+    "test:edward-kenway:goldfish:dc8d968c15066668"
+   ]
+  },
+  {
+   "adds": [
+    "Silver Surfer, Galactus's Herald"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:bbee0269180c",
+   "tests": [
+    "test:edward-kenway:goldfish:90d7751acfa2e92a"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:7dc78d266c59",
+   "tests": [
+    "test:edward-kenway:goldfish:cfbbe68a30fab8db"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:eeca4c8494b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:b96da14d3f78",
+   "tests": [
+    "test:edward-kenway:goldfish:5a7e0cbf376c8b8f"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:074f15cfa149",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c8a255584d97",
+   "tests": [
+    "test:edward-kenway:goldfish:3728df9af271d996"
+   ]
+  },
+  {
+   "adds": [
+    "Jadar, Ghoulcaller of Nephalia"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:94d023508378",
+   "tests": [
+    "test:edward-kenway:goldfish:7ce13c90e712f6bd"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f4aaba68cc75",
+   "tests": [
+    "test:edward-kenway:goldfish:af2bb12b44ce1698"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:e33a04356dba",
+   "tests": [
+    "test:edward-kenway:goldfish:c5cb837c6b45abcd"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:d26c8af2d277",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9445ef3dcf49",
+   "tests": [
+    "test:edward-kenway:goldfish:ae780805480c2b65"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:2960ada58381",
+   "tests": [
+    "test:edward-kenway:goldfish:e379cc0e2705196b"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a641995979b8",
+   "tests": [
+    "test:edward-kenway:goldfish:5460b4d012d313d1"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Fugitive"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:e079900a5865",
+   "tests": [
+    "test:edward-kenway:goldfish:70f203b03610b9f1"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3670044567df",
+   "tests": [
+    "test:edward-kenway:goldfish:7c51f858cd6c3050"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:f5ec05153c1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Impulsive Pilferer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:8e8e1abe8232",
+   "tests": [
+    "test:edward-kenway:goldfish:bfcae54c32f94447"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:b607ffae7c7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Beseech the Mirror"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:edward-kenway:m5:fe6258aa3b84",
+   "tests": [
+    "test:edward-kenway:goldfish:deb190153b662281"
+   ]
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:11a20209f4cc",
+   "tests": [
+    "test:edward-kenway:goldfish:2bbc413acdb35e09"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:a8ea74ba5fb0",
+   "tests": [
+    "test:edward-kenway:goldfish:cc86bfaa0be99617"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:260604563df6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:b8a90b86e493",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:dbcabc876b67",
+   "tests": [
+    "test:edward-kenway:goldfish:a7167923316eba75"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:7d12f0e4d291",
+   "tests": [
+    "test:edward-kenway:goldfish:0e3647927583f2da"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:2570c4aec887",
+   "tests": [
+    "test:edward-kenway:goldfish:567725006199887e"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:b725378b6104",
+   "tests": [
+    "test:edward-kenway:goldfish:f63118af3a1bd30a"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:5aa21c75aea4",
+   "tests": [
+    "test:edward-kenway:goldfish:e07db3240002e6d6"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bb3824a82fb5",
+   "tests": [
+    "test:edward-kenway:goldfish:5967d0d91b441473"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:a342a23f76cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:af6ded761310",
+   "tests": [
+    "test:edward-kenway:goldfish:40fb4281f719d0e8"
+   ]
+  },
+  {
+   "adds": [
+    "The Lord of Pain"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:6a3dd7c99509",
+   "tests": [
+    "test:edward-kenway:goldfish:6303076c1990fb0d"
+   ]
+  },
+  {
+   "adds": [
+    "Yuriko, the Tiger's Shadow"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:1cb731e7fb3b",
+   "tests": [
+    "test:edward-kenway:goldfish:afdb3739ed2a31d1"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:c7b3d10d9037",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:a644d86dcead",
+   "tests": [
+    "test:edward-kenway:goldfish:dc18631c5ac0ab1b"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:7f53259dcaec",
+   "tests": [
+    "test:edward-kenway:goldfish:f8b0b65b987c37cf"
+   ]
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:0f448adef83d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Invisible Stalker"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a8cfaf0cac62",
+   "tests": [
+    "test:edward-kenway:goldfish:1c3e2f6f490446c4"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:70179df2616c",
+   "tests": [
+    "test:edward-kenway:goldfish:d975c29bcf978a02"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:6e336de2e99b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:2141dad460c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:dcbae3d28757",
+   "tests": [
+    "test:edward-kenway:goldfish:954260ae1d2c94c3"
+   ]
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:4ccf4bffdbf3",
+   "tests": [
+    "test:edward-kenway:goldfish:0f386568c7125b05"
+   ]
+  },
+  {
+   "adds": [
+    "Blighted Agent"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f82db5afe21f",
+   "tests": [
+    "test:edward-kenway:goldfish:ae29a49527868c9a"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:07103df5a7e2",
+   "tests": [
+    "test:edward-kenway:goldfish:5bef38dd40ff2f49"
+   ]
+  },
+  {
+   "adds": [
+    "Otepec Huntmaster"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3d6d7e8e55d7",
+   "tests": [
+    "test:edward-kenway:goldfish:e39b33a74165361d"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:9337d478628a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frontier Warmonger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:508c3a2d555a",
+   "tests": [
+    "test:edward-kenway:goldfish:6ee9ca46bc9625e7"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8a95b47246c0",
+   "tests": [
+    "test:edward-kenway:goldfish:c9f3f23729be8c1b"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:edward-kenway:m5:759814c632ad",
+   "tests": [
+    "test:edward-kenway:goldfish:b7521e80b1ac293f"
+   ]
+  },
+  {
+   "adds": [
+    "Endrek Sahr, Master Breeder"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:109775bd1914",
+   "tests": [
+    "test:edward-kenway:goldfish:ccb2ee887c2865a1"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurer's Airship"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:f1b9d144e0ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:2a2d5ba75d0a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:d76ed987a976",
+   "tests": [
+    "test:edward-kenway:goldfish:5bc865f587a379c3"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3f9302b8e92c",
+   "tests": [
+    "test:edward-kenway:goldfish:67e53943d067a5e0"
+   ]
+  },
+  {
+   "adds": [
+    "Mistblade Shinobi"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:cd8539c53e57",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:634287152cde",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:965c0a0150ab",
+   "tests": [
+    "test:edward-kenway:goldfish:affcca9c8a70e457"
+   ]
+  },
+  {
+   "adds": [
+    "Chittering Witch"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8958d564e6fb",
+   "tests": [
+    "test:edward-kenway:goldfish:6a8452c4c01c8b1c"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:26fb9c4137f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:70701aae28f1",
+   "tests": [
+    "test:edward-kenway:goldfish:32d2c18eec784d71"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:55fdec1425c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spider-Punk"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8263b8292898",
+   "tests": [
+    "test:edward-kenway:goldfish:cd9905f0172e4aba"
+   ]
+  },
+  {
+   "adds": [
+    "Ninja of the Deep Hours"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:521449bda97c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:7f7270dd6637",
+   "tests": [
+    "test:edward-kenway:goldfish:60a8f94b7021efa0"
+   ]
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:b3487efbb44b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rikku, Resourceful Guardian"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:347005006ed6",
+   "tests": [
+    "test:edward-kenway:goldfish:fc8329cf24190906"
+   ]
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8abd5a787472",
+   "tests": [
+    "test:edward-kenway:goldfish:1228f5ea19d4634e"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:cf01203f3fef",
+   "tests": [
+    "test:edward-kenway:goldfish:de9b7cde53656f01"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:61031d9c9c1b",
+   "tests": [
+    "test:edward-kenway:goldfish:022d1bdb1a0348d0"
+   ]
+  },
+  {
+   "adds": [
+    "Big Game Hunter"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:94c58cdadf3f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marauding Mako"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:7f24835f587d",
+   "tests": [
+    "test:edward-kenway:goldfish:30c82d7a237ba7c8"
+   ]
+  },
+  {
+   "adds": [
+    "Ramses, Assassin Lord"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:e101f03da70e",
+   "tests": [
+    "test:edward-kenway:goldfish:05787abde51be561"
+   ]
+  },
+  {
+   "adds": [
+    "Callidus Assassin"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:6611e2f073b9",
+   "tests": [
+    "test:edward-kenway:goldfish:61a06d0304e6f6bd"
+   ]
+  },
+  {
+   "adds": [
+    "Assassin Initiate"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a1e037c39d71",
+   "tests": [
+    "test:edward-kenway:goldfish:592339ad5bb01807"
+   ]
+  },
+  {
+   "adds": [
+    "Scrounging Skyray"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9935e55b5403",
+   "tests": [
+    "test:edward-kenway:goldfish:f1b7424d54948e7f"
+   ]
+  },
+  {
+   "adds": [
+    "Dargo, the Shipwrecker"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:6b567ebf2b8d",
+   "tests": [
+    "test:edward-kenway:goldfish:749a9d1e2de41afa"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning-Rig Crew"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:b9fb4cefc165",
+   "tests": [
+    "test:edward-kenway:goldfish:e1ab760b1c0f30e6"
+   ]
+  },
+  {
+   "adds": [
+    "Termination Facilitator"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:aa84ff9cc1d5",
+   "tests": [
+    "test:edward-kenway:goldfish:62a74a06da8a2679"
+   ]
+  },
+  {
+   "adds": [
+    "Thorn of the Black Rose"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:2ebf81371eac",
+   "tests": [
+    "test:edward-kenway:goldfish:9d559f825e017749"
+   ]
+  },
+  {
+   "adds": [
+    "Brineborn Cutthroat"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a955b6b68f4b",
+   "tests": [
+    "test:edward-kenway:goldfish:b38962f044489b61"
+   ]
+  },
+  {
+   "adds": [
+    "Oaken Siren"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:edward-kenway:m5:1199a241088c",
+   "tests": [
+    "test:edward-kenway:goldfish:a161a58202e47e1f"
+   ]
+  },
+  {
+   "adds": [
+    "Silumgar Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:f11770b7d747",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nekrataal"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:27eeb7812ef0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hired Poisoner"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:fed95a7e5fba",
+   "tests": [
+    "test:edward-kenway:goldfish:829fd4fc234510a0"
+   ]
+  },
+  {
+   "adds": [
+    "Gutless Plunderer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:b7ccfa505053",
+   "tests": [
+    "test:edward-kenway:goldfish:ffdec9479988cf32"
+   ]
+  },
+  {
+   "adds": [
+    "Merciless Harlequin"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:04542102ab47",
+   "tests": [
+    "test:edward-kenway:goldfish:18f02faf8d3ba8de"
+   ]
+  },
+  {
+   "adds": [
+    "Unscrupulous Contractor"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:c296edbc3d4c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kitesail Freebooter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9427ce054db5",
+   "tests": [
+    "test:edward-kenway:goldfish:cf4ef3df8c23d144"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Ripper"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:19cf70ccae31",
+   "tests": [
+    "test:edward-kenway:goldfish:6dfdeef2281ec3a0"
+   ]
+  },
+  {
+   "adds": [
+    "Nightshade Assassin"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:55713db4f546",
+   "tests": [
+    "test:edward-kenway:goldfish:8289f8b32a4a0976"
+   ]
+  },
+  {
+   "adds": [
+    "Protean Raider"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:ddec63ca4c22",
+   "tests": [
+    "test:edward-kenway:goldfish:201cb37edbbc3b63"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Tracker"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:2f32b7037c4b",
+   "tests": [
+    "test:edward-kenway:goldfish:2c1fb1e8a30125f7"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Poisoner"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:4d189c6e5a60",
+   "tests": [
+    "test:edward-kenway:goldfish:a00399f9d6905b64"
+   ]
+  },
+  {
+   "adds": [
+    "Bigfin Bouncer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:55381fd5e0eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pirate Peddlers"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9787191677c2",
+   "tests": [
+    "test:edward-kenway:goldfish:eebf330eb6a1980c"
+   ]
+  },
+  {
+   "adds": [
+    "Agent of the Fates"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:d87cf82a3f38",
+   "tests": [
+    "test:edward-kenway:goldfish:4a03405a94ed11ce"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderhead Gunner"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:9528b279c13c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brotherhood Patriarch"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:9aa351fddea6",
+   "tests": [
+    "test:edward-kenway:goldfish:08625bdb33a3e294"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Ambushers"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:2a11aff08d69",
+   "tests": [
+    "test:edward-kenway:goldfish:514d3404d6a6ac67"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Boarders"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a702295a9454",
+   "tests": [
+    "test:edward-kenway:goldfish:ecc11fcfa1922a8b"
+   ]
+  },
+  {
+   "adds": [
+    "Iguana Parrot"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:46eacbbcdab9",
+   "tests": [
+    "test:edward-kenway:goldfish:efd985c9fd9aec64"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Duelist"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bba97386afde",
+   "tests": [
+    "test:edward-kenway:goldfish:d5830eb0e60f8e92"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Ripley Vance"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:64d61bdb355e",
+   "tests": [
+    "test:edward-kenway:goldfish:628ecd5e7e77ade0"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Pirates"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:64155f668b75",
+   "tests": [
+    "test:edward-kenway:goldfish:dee45b727629c9b7"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill-Kill Assassin"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:67a8d756f956",
+   "tests": [
+    "test:edward-kenway:goldfish:d7c3e4fad651a3e2"
+   ]
+  },
+  {
+   "adds": [
+    "Kiku, Night's Flower"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:6aa99efd9f36",
+   "tests": [
+    "test:edward-kenway:goldfish:80a024f59bb71a2c"
+   ]
+  },
+  {
+   "adds": [
+    "Raffine's Silencer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:30d83a0eccd1",
+   "tests": [
+    "test:edward-kenway:goldfish:b116b62ada686b9c"
+   ]
+  },
+  {
+   "adds": [
+    "Captain of Umbar"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:293a269f9eed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:8a8ed1019ea1",
+   "tests": [
+    "test:edward-kenway:goldfish:7fceb3def3bf27aa"
+   ]
+  },
+  {
+   "adds": [
+    "Ruin Raider"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:3acc9515b1d7",
+   "tests": [
+    "test:edward-kenway:goldfish:237a0ea413253e78"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Corsair"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:229f0d7c3f36",
+   "tests": [
+    "test:edward-kenway:goldfish:f3cf0a9eed94a7df"
+   ]
+  },
+  {
+   "adds": [
+    "Rigging Runner"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:e395e2aa3d01",
+   "tests": [
+    "test:edward-kenway:goldfish:b07edf958e831ca0"
+   ]
+  },
+  {
+   "adds": [
+    "Garza's Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:47dbde376cdd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rishadan Cutpurse"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:7c7943262f12",
+   "tests": [
+    "test:edward-kenway:goldfish:4fefc649025f7106"
+   ]
+  },
+  {
+   "adds": [
+    "Gixian Skullflayer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:226e237c7e17",
+   "tests": [
+    "test:edward-kenway:goldfish:8c8fd78bc2e1ee81"
+   ]
+  },
+  {
+   "adds": [
+    "Keen Buccaneer"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:a29a67909d8b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hired Blade"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:4506901776ff",
+   "tests": [
+    "test:edward-kenway:goldfish:b09f81dea80c307d"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Slasher"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:29d1f9afac81",
+   "tests": [
+    "test:edward-kenway:goldfish:e0baeeae660030a9"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Sadist"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:0c320c04a0d6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grasping Scoundrel"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:076da5d407ea",
+   "tests": [
+    "test:edward-kenway:goldfish:c1a5a16bfceb024a"
+   ]
+  },
+  {
+   "adds": [
+    "Siren Lookout"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a0298fbf1ad0",
+   "tests": [
+    "test:edward-kenway:goldfish:9312901a10d464f7"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Aerialist"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:926e1cd8d107",
+   "tests": [
+    "test:edward-kenway:goldfish:05c809fa2f044ac2"
+   ]
+  },
+  {
+   "adds": [
+    "King's Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:f5904e841d84",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marauding Looter"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:1d20f3bceab1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pirate Ship"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:4c88aff62f64",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Boilerbilges Ripper"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:d71ee46a4a49",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hooded Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:3e1acb4da718",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skyship Buccaneer"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:cac36d4294ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gorehorn Raider"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:445ca2aca11a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Daring Buccaneer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c704676b349d",
+   "tests": [
+    "test:edward-kenway:goldfish:4fcf49df82ba2d7c"
+   ]
+  },
+  {
+   "adds": [
+    "Rowdy Crew"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:e3aa81b88dbe",
+   "tests": [
+    "test:edward-kenway:goldfish:be6a55e471c4fbf3"
+   ]
+  },
+  {
+   "adds": [
+    "Lurking Deadeye"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:07fc7cb0fd15",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Looter"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:6b3841b2b8c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Storm Fleet Spy"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:aa0c806fe8fe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Sentry"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:6358687c11e6",
+   "tests": [
+    "test:edward-kenway:goldfish:e3a4be0d7b0fe47c"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Tormentor"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:8c89cd061e48",
+   "tests": [
+    "test:edward-kenway:goldfish:3eb5b21435890471"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Explorer"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:611d034b7044",
+   "tests": [
+    "test:edward-kenway:goldfish:f0046e9657ec2696"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Rig-Hauler"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:fdc02529cf8b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swab Goblin"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:fa3666c550fb",
+   "tests": [
+    "test:edward-kenway:goldfish:02f194a298962d12"
+   ]
+  },
+  {
+   "adds": [
+    "Abyssal Hunter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:aaa3b66de3b3",
+   "tests": [
+    "test:edward-kenway:goldfish:d697c565936f75cb"
+   ]
+  },
+  {
+   "adds": [
+    "Notorious Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:a7e053a9951b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Storm Fleet Pyromancer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:d658c5c68f24",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fathom Fleet Cutthroat"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:beb54dfcb897",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dire Fleet Warmonger"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:d9f8f676e076",
+   "tests": [
+    "test:edward-kenway:goldfish:6846013769bde7a3"
+   ]
+  },
+  {
+   "adds": [
+    "Silent Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:459467cd2372",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xathrid Slyblade"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:ffcacc9ce58e",
+   "tests": [
+    "test:edward-kenway:goldfish:fb883e48144d55be"
+   ]
+  },
+  {
+   "adds": [
+    "Orzhov Euthanist"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:a3a530d36a94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fathom Fleet Firebrand"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:425552bff435",
+   "tests": [
+    "test:edward-kenway:goldfish:2fe447f9c778d0c3"
+   ]
+  },
+  {
+   "adds": [
+    "Swaggering Corsair"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:a215dc7b14c1",
+   "tests": [
+    "test:edward-kenway:goldfish:30cf8aeaa0e3f69d"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Scout"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:bf4ed6ade1e9",
+   "tests": [
+    "test:edward-kenway:goldfish:c77b66dba1a21bea"
+   ]
+  },
+  {
+   "adds": [
+    "Wei Assassins"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:ea21d7dfb506",
+   "tests": [
+    "test:edward-kenway:goldfish:8c86849f917d6a12"
+   ]
+  },
+  {
+   "adds": [
+    "Ramses Overdark"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:0fb3c93fe0f6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reef Pirates"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:b7e2d9f0969d",
+   "tests": [
+    "test:edward-kenway:goldfish:b5ecf9aca84a02cb"
+   ]
+  },
+  {
+   "adds": [
+    "Rishadan Airship"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c2542473d6da",
+   "tests": [
+    "test:edward-kenway:goldfish:df65a8105a7fddb0"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Castaways"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:f30bf8fa8957",
+   "tests": [
+    "test:edward-kenway:goldfish:734ab32fd56212d7"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Boarder"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c1501af570df",
+   "tests": [
+    "test:edward-kenway:goldfish:67c0974fe3c2048c"
+   ]
+  },
+  {
+   "adds": [
+    "Stalking Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:c96bdaf6fbc1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Talas Researcher"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:b21a5ccf9eaf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hagra Sharpshooter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:1f29ec26106a",
+   "tests": [
+    "test:edward-kenway:goldfish:059f40e5fff5544c"
+   ]
+  },
+  {
+   "adds": [
+    "Dinosaur Hunter"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:0a3aec3e42fe",
+   "tests": [
+    "test:edward-kenway:goldfish:276fff08e3d2d8c5"
+   ]
+  },
+  {
+   "adds": [
+    "Steam Frigate"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c0641d94327a",
+   "tests": [
+    "test:edward-kenway:goldfish:e3f4166215db529e"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath's Ambusher"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:4489e8432a20",
+   "tests": [
+    "test:edward-kenway:goldfish:aa674a84af6f6f2f"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Merchant"
+   ],
+   "cuts": [
+    "Deadeye Quartermaster"
+   ],
+   "id": "swap:edward-kenway:m5:c0b0995fd69a",
+   "tests": [
+    "test:edward-kenway:goldfish:b8d401b41ccef874"
+   ]
+  },
+  {
+   "adds": [
+    "Curiosity"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:cd44d2269fc9",
+   "tests": [
+    "test:edward-kenway:goldfish:14233e29f8d5d83a"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Vaan, Street Thief"
+   ],
+   "id": "swap:edward-kenway:m5:772c9dce81b7",
+   "tests": [
+    "test:edward-kenway:goldfish:71a43ecd428871db"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Glint-Horn Buccaneer"
+   ],
+   "id": "swap:edward-kenway:m5:90c209d01a03",
+   "tests": [
+    "test:edward-kenway:goldfish:eb4ee712e666809c"
+   ]
+  },
+  {
+   "adds": [
+    "Rathi Assassin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:de1655374763",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Fateful Discovery"
+   ],
+   "id": "swap:edward-kenway:m5:6edba57f7b2a",
+   "tests": [
+    "test:edward-kenway:goldfish:3f5f889ea4720511"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:edward-kenway:m5:8c2bea1905e2",
+   "tests": [
+    "test:edward-kenway:goldfish:7da8a075aa20f1a1"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:6efe3f625c15",
+   "tests": [
+    "test:edward-kenway:goldfish:51adb080e4b8b6c9"
+   ]
+  },
+  {
+   "adds": [
+    "Street Urchin"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edward-kenway:m5:db5abecc0d04",
+   "tests": [
+    "test:edward-kenway:goldfish:cd19684b76edd5df"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:edward-kenway:goldfish:b20e63026bc28ca4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b962880e471ad794",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e029ffeea4bc14ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:afd8557ca640710e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:497b10faad5d5385",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:39820480e098fb33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:233a53e947846599",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b7507fa8420f131c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:908374a48cb8fe43",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0761063e9c736062",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b87bd240963fdba3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:55f992f6eee08beb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:675aa3162346de20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9cf2cf7947f36c0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9437e932cfcca87d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:04d3e26aa592dae9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f152efc9a453d0bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2689959ac6bb0d3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ecba499a6b4370f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b56e1ed94990b0a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:fc59c57838d1ed13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:42ddc89ddfad7741",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2d5f83222e2fb43e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1704a56e87b24b0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a3e9ad2476c2917f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d979198deb0d07ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3bfb36d541775aa5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:428ee7d95a409214",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0d00593c2537bee6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b539aadf83d8e94a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:bfa6c3464153fda8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:405027d5847df9b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1e7328036ac290e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:204fc8795061db39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9b2f275f129cd2c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e988d61c03e1f9fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8dec55202442eec3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5cbfbd53317d08c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6c48782a267dd104",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4495777e04ccee65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2f4eba1d13f6b42e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c4c0bb310b073c64",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a47c55e5502162c7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:828b75bebde8df65",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6813cdc15cf324c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b0dcb2e076415f7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:baf7423fe555e136",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0bfd37db59d29f73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:26c219efea7bc098",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:794fec85dab21907",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4f16e444c3de2d1a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b06613d8f17f215a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c953f43b6fd5e04f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1c71871823902c4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3b04de92b45cd78a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d269970efdcf3b22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a3e5ce057d2f0424",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1136473a83c9d466",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6c62682ac9050b28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:916ac057a45e2752",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8c0638b51f06a010",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2ce75d6db0baf242",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c413db17e5e84c7c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ae570dbab9273f89",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8e4962d5a6a31d6e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8e4bcab06b9d68ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:816ebf0107c86a59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a9499811954996ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:76ba0b5b3fad606d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:000b54a792d70d2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cb1a3f7f14aa2584",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:15bf026e774089cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:64ba2c9d163068c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9c81896c78227e28",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:990b6e24ce76fa0e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:95fa4d8eaaf28033",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:988e295df9ca1a9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5ba0de1984aade2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e454d2aed0a66fe9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:580c2432322ec47d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3e15d5b1c2b25e73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9df27aa4f63c98b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2ad596ae61db9468",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a767ca96b857b258",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c8b2a1ec1fbea0e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ef0544de1e5b6e6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d4ea4abd00ca3b27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:08b8b6d8e328abc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a7bb7eb29bc0e75c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:78b22dc17faebe6e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b767d0326ca0f9e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2fb2819868a34d77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f04f42df5afd163f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3a02a93b40774f53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d0b49386b132266c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f874c3be9f1d4ee3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d33f76d2660dc40d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:476570c20b595788",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4593bba10005585e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f350d98b691ef184",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:076c164b2213be49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0cd941177e3ad15f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3d8e943b66dc43b4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9665d65a2e8c384c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0c34bab56f1e5d21",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:dc55eba10b8c723c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:651c7b59c1a561bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a1eba50b1de4a2a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e04748b9ff02a712",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:33d9c94561521036",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5cdf750c36623889",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:88be86c746f812b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:dd6ea609ddee426d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:376a046deb7aa4d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e6dd5622ee108d9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6c9cc44fc24b4d9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2345346b75214014",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d9ff98e23363eb0a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ef748b8d4f078833",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6b43058261706b7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a512853be7ccf620",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:04e94a2d04dbe360",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5d81c843388e3695",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:bdce073f93c3ac27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ab103659f09347eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:72624c1f6e7676e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e54eef4c9f366027",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d4246629f214b5df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:09989ba458835a10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:229adaf4f490f2bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e5d79d2ff4ffc21b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:38d6f8cb4eb68ac0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:72bc2248beebaf4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:389818dd7631c3d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6f2211305ebd8ca6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3c2a6f2c2889e1d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:fcb2006d20c9a10c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1c9354316bc1347d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1c6d4bbefc0c884c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c578d3f785b9ff79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:97d4d83375e3dcc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3c786cc827593bb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9e506c8c09a9d9f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1a2767362e76c181",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0b0e49cda368890b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:28afac1d5d570cbd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ea7c2ccb4ef673c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f72852b99b14bc71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:54c7f1a822c0e086",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b011837133af84b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f86f190e9c78b9b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3e28337fff41d758",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b6d8e456fb789fb7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:915d7af6105d7ff1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d75fb8c9b05e370d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:37e014972ad236c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9171f5d841668820",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b4530fb4b5d3f7f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e93d9fd046b90512",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:00d8988e85b0112f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b3da16a36ff5263f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f60840afba8d6759",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:15b336edda761760",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0314b10eee2579a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8a827c6de1409360",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d1c98919b3b1c3ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d024862beb160f80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ba7f5a36e33d4c3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9748b75493e9be78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1d2a4c26fd98529f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e5f80a12a852833f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a3ff059815b0ce3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:182c2acb506ec456",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:38ffa4605bc13818",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:fadee668df38a244",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b1385502fde1a98b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:79bc30b705faea73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e9414d97d746c856",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5554177de9a55e66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:57b25cc15e908a87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:23634f7a6d3150b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8c98393140d8cacc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:95d5c7b30b1f20fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f7673e8fc7848459",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9f9b5d8e4bf4e1a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9a23ee0bba9c386b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:bbbea2d0b4970d06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:612e83d79c65c4d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:fc4ae5a08433fd4c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:56ae9fb4a6a29a2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c98bed2709eac273",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b65ce2925add7538",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:93e958404a2d57c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:addf103ea74f42d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2de48e6ec960462e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:dff7478a33192ac0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4728326ecd1dddfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f635a064eeb61422",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:733ca0ae90d82f65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2d4a8317dd5088c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6e5acde04a63dabb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:439b7c87e863954c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:13095209bbab317f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1ac4677b48793d02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:29d170a97cecd556",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5bb6a58ad1008dda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:82e11da01f2c266f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:879df41e03056b32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9561028e0e20c171",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d0dfd3f0af84cb5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ad349853b8f00a3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6fc0d298ddb734a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:aa2a897a4587aaae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8ce523bf5478f248",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a08006b0441d0ef4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f3a3eecac79650a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cf336abf7ca7bf6d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d9fff29ba2bdde14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6dc000d98610b9a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e6234b1ce73b7bcc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:aaa6d766f3fabadb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:306369e547e1c458",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:29eab026c5463a3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:dc8d968c15066668",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:90d7751acfa2e92a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cfbbe68a30fab8db",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5a7e0cbf376c8b8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3728df9af271d996",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:7ce13c90e712f6bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:af2bb12b44ce1698",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c5cb837c6b45abcd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ae780805480c2b65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e379cc0e2705196b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5460b4d012d313d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:70f203b03610b9f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:7c51f858cd6c3050",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:bfcae54c32f94447",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:deb190153b662281",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2bbc413acdb35e09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cc86bfaa0be99617",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a7167923316eba75",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0e3647927583f2da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:567725006199887e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f63118af3a1bd30a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e07db3240002e6d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5967d0d91b441473",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:40fb4281f719d0e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6303076c1990fb0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:afdb3739ed2a31d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:dc18631c5ac0ab1b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f8b0b65b987c37cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1c3e2f6f490446c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d975c29bcf978a02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:954260ae1d2c94c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:0f386568c7125b05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ae29a49527868c9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5bef38dd40ff2f49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e39b33a74165361d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6ee9ca46bc9625e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c9f3f23729be8c1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b7521e80b1ac293f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ccb2ee887c2865a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:5bc865f587a379c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:67e53943d067a5e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:affcca9c8a70e457",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6a8452c4c01c8b1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:32d2c18eec784d71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cd9905f0172e4aba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:60a8f94b7021efa0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:fc8329cf24190906",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:1228f5ea19d4634e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:de9b7cde53656f01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:022d1bdb1a0348d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:30c82d7a237ba7c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:05787abde51be561",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:61a06d0304e6f6bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:592339ad5bb01807",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f1b7424d54948e7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:749a9d1e2de41afa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e1ab760b1c0f30e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:62a74a06da8a2679",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9d559f825e017749",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b38962f044489b61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a161a58202e47e1f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:829fd4fc234510a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ffdec9479988cf32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:18f02faf8d3ba8de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cf4ef3df8c23d144",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6dfdeef2281ec3a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8289f8b32a4a0976",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:201cb37edbbc3b63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2c1fb1e8a30125f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:a00399f9d6905b64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:eebf330eb6a1980c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4a03405a94ed11ce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:08625bdb33a3e294",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:514d3404d6a6ac67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:ecc11fcfa1922a8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:efd985c9fd9aec64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d5830eb0e60f8e92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:628ecd5e7e77ade0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:dee45b727629c9b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d7c3e4fad651a3e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:80a024f59bb71a2c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b116b62ada686b9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:7fceb3def3bf27aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:237a0ea413253e78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f3cf0a9eed94a7df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b07edf958e831ca0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4fefc649025f7106",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8c8fd78bc2e1ee81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b09f81dea80c307d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e0baeeae660030a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c1a5a16bfceb024a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:9312901a10d464f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:05c809fa2f044ac2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:4fcf49df82ba2d7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:be6a55e471c4fbf3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e3a4be0d7b0fe47c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3eb5b21435890471",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:f0046e9657ec2696",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:02f194a298962d12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:d697c565936f75cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:6846013769bde7a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:fb883e48144d55be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:2fe447f9c778d0c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:30cf8aeaa0e3f69d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:c77b66dba1a21bea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:8c86849f917d6a12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b5ecf9aca84a02cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:df65a8105a7fddb0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:734ab32fd56212d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:67c0974fe3c2048c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:059f40e5fff5544c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:276fff08e3d2d8c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:e3f4166215db529e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:aa674a84af6f6f2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:b8d401b41ccef874",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:14233e29f8d5d83a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:71a43ecd428871db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:eb4ee712e666809c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:3f5f889ea4720511",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:7da8a075aa20f1a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:51adb080e4b8b6c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edward-kenway:goldfish:cd19684b76edd5df",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

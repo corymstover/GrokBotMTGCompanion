@@ -1,0 +1,3701 @@
+{
+ "deck_id": "Lord_Xander__the_Collector",
+ "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "slug": "lord-xander-the-collector",
+ "swaps": [
+  {
+   "adds": [
+    "Singularity Rupture"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:109a0aeae9e3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:71f37839bffd97ef"
+   ]
+  },
+  {
+   "adds": [
+    "Cut Your Losses"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:40dd9fe35c06",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b4d120aacae329fa"
+   ]
+  },
+  {
+   "adds": [
+    "Cut Your Losses"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e60b6b96cb2a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:38c88277edcf26c9"
+   ]
+  },
+  {
+   "adds": [
+    "Terisian Mindbreaker"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7ae41cec14f1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:27114a91afc98128"
+   ]
+  },
+  {
+   "adds": [
+    "Terisian Mindbreaker"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4c6dd0db3db5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5a28e37e7bec8f77"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5a105049876d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:22aedf2f71aa",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:12f3ad6c4cc3bd42"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4f9932f27b1e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:937c893c3901cdd0"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b5fcc96309b1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:3bbae9e6d2294b4f"
+   ]
+  },
+  {
+   "adds": [
+    "Fleet Swallower"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8d44f5abbfd1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:69e1ab843ade0329"
+   ]
+  },
+  {
+   "adds": [
+    "Fleet Swallower"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c16dee961459",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:320bd5d5c836e7bf"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:65962745669a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ruin Crab"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6047e9c7aa65",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1a1dbc88eb2b01cf"
+   ]
+  },
+  {
+   "adds": [
+    "Ruin Crab"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1c6d35cdeec9",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:6aff769fa8b14d91"
+   ]
+  },
+  {
+   "adds": [
+    "Fractured Sanity"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bc6953842f82",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5eff210c1892b749"
+   ]
+  },
+  {
+   "adds": [
+    "Fractured Sanity"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b9fe5bf94c4f",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cd7a598c34e85b83"
+   ]
+  },
+  {
+   "adds": [
+    "The Mindskinner"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:802ee48925f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Traumatize"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0cd53fcfebf6",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cc7e9d6aafb257a1"
+   ]
+  },
+  {
+   "adds": [
+    "Traumatize"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e93863ad1ad9",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5fca28161534dbfa"
+   ]
+  },
+  {
+   "adds": [
+    "The Water Crystal"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:be6a4da48bd7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e9763f3a37648fef"
+   ]
+  },
+  {
+   "adds": [
+    "The Water Crystal"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6f2f0c8395e8",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:61bf1dbf0b8450ca"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:962891df25a2",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4f839248fa6e70f7"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d95f723bba41",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2e4f8ab509831c4a"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ff1af4866a12",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:c21edb30902c2054"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:11ffc011b100",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1e4066dfde0c1314"
+   ]
+  },
+  {
+   "adds": [
+    "Consuming Aberration"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:789ed3d80b51",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Consuming Aberration"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a4d9ffe54836",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8a7ed540a220d58b"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ca83d25aba91",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:65df9c628335f32e"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9b92db9975a2",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:0df05d9e1572454c"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cb253d7fed5f",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4ff55d0207066aa0"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:10b2333434ad",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:a270e85cd7fef6ff"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa7970a8e7f7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ab17c79944a37b67"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:51048b12dc1e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:671e0ed9030c115f"
+   ]
+  },
+  {
+   "adds": [
+    "Mirko Vosk, Mind Drinker"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:37327d410197",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9c56c66abb8e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:913c2ab8cc6f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nemesis of Reason"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3130e99ea67e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:79a6f53ed824",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5d6268949ffbc175"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:07d79a6995d2",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:87ce8ab6e0664b3b"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:303c7f1b3c04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geode Golem"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f23fb6016acc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cc8a39d4a667",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:af82c0a3be19",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2d33085260404968"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0783021f45f3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:bbeb13531e4bec36"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e00789908022",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:905a17515edf63f7"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0a5013371cbe",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:78b55d5da3070017"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1ee7d1480420",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:d3addf9bda1f0970"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Molten Duplication"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0bc6836bdf6c",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:0f15bd3936ce8983"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c2a14f5a3ad3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:9ff046e7f00d92a3"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cd1b0aa92163",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e5d1979d6b8b5561"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ca957efb0543",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:7cbd1bfe6514a6fd"
+   ]
+  },
+  {
+   "adds": [
+    "Waste Not"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3f674fbcd087",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e341b7c998a14fd6"
+   ]
+  },
+  {
+   "adds": [
+    "Waste Not"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cc8c3a0686f3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ffde3e2489d31acf"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:57c7635c855a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:265a295818c0dda7"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:58b3cc882edf",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1d1847a00531fe75"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2dc5a5eccac5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1f2d9286bffbb996"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c2716378683e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5074e40da787ada7"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b9e5b7bcac71",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e990a787499189c8"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b1e2b18e7a88",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:476327a970dab7b5"
+   ]
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:62a0c8fea073",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:69833662633e9d88"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f3761f6642c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa2b98c6c5d9",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:277da344c77945b7"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:80358e26aaed",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ba23f8868585f282"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9b9123fc68da",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e6418ccb66fdbd64"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4edae737be48",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:a06da6800cd1fa01"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7660f0eddd5b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:c46f3c79dfb16a10"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:01a6711acb6c",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:0da8ff17f9d5cac8"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6e9c3afe6ccd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:159a52eb1560",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1074c220ef832659"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3138e42c63fe",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:c4b8562c5cff33b5"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Crab"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:adaf756c1770",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:390f9fe53fa8",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:09dddd4e737b1df7"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Cunning"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7dd9451c5ab2",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:188188dc7c15faf5"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0a2041b83ffa",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:de81fb4d21a7cbf1"
+   ]
+  },
+  {
+   "adds": [
+    "Memory Erosion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6bf21db72845",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kitsune's Technique"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9d8677d12b08",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:a04084d3689dcb65"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsune's Technique"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:952b7dbfa811",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:a20a7c59290f104a"
+   ]
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:391ea3a8c1d7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:27cee777de9927be"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:700cdbf91dc7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:80b6355129327999"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx's Tutelage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fdebfa0b76dd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7592dfe2d75e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8b3895eb540e3830"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:97475ff9d7fe",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:d31c1ebbd5c92fd2"
+   ]
+  },
+  {
+   "adds": [
+    "Keening Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bbac8dda3dbb",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:06ca076727259813"
+   ]
+  },
+  {
+   "adds": [
+    "Keening Stone"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:932562fa5f32",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1127b409dece2c5c"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:88e8f6ecb17f",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:57aa1b74a9e54e43"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5d7cf6d28245",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:489b5adc0230b7c1"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3c129ccd2b4a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:865b21fb2cf8",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:da6168fcfd333fcd"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:53dfb5ac13be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:79451d5acea7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:58973ed64697575e"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8806dbf03dba",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cc73e3d8f0f0d1f1"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:71a013bd861a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:6afebd8e1da8eb25"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b0608fbc350e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5452e4ed25b2a74f"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c24a7633f9a1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:64988b54d121c81a"
+   ]
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d77e897c0b13",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b43f7913b0ebf7d0"
+   ]
+  },
+  {
+   "adds": [
+    "Burnished Hart"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b38b370a16ab",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:909a4cda5bf644ef"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Tutelage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a6d665985270",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2b8dc8d09cb1653c"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e97080d0d300",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3d07858231dd",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f29d51b4aebae343"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b748ddd433a4",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5695abc90795245c"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa717e17c60c",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:493d6b907ff58e62"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:27da59a45e7a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5cb9da292bf03c31"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:75fd4f2840a0",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:9e9363d58897b289"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:cc02d78730ab",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:0f35df8b94d73a83"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aaffceebff4e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:9e8b100ab6790123"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8eda9b1229c6",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b55baebfe55b88e2"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e1909ca00d24",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4d75683140c2fe0a"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1c0157e40a86",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:3623aa920b996a9c"
+   ]
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:be01e36bb74e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:986287d023ff9462"
+   ]
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:164b34632522",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e01c06c4dea74da9"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7d3282201a75",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:959cd92b30b264ea"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:697268061496",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:a33d629e911a501d"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ccbcc59e06f5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ad6c2bcb1a9dfbca"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fca962bdc313",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:c84bca483eb7ff67"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:42203d81e29b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1ce4cf700554c7e5"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:757abd3252f1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ac2b244d39382143"
+   ]
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2740c0ccdb46",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:96ded1509a65a77f"
+   ]
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d4f735146669",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:a5f6e06c62892dc0"
+   ]
+  },
+  {
+   "adds": [
+    "Puppeteer Clique"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d7df8558deb1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:41efdc2112fc8737"
+   ]
+  },
+  {
+   "adds": [
+    "Puppeteer Clique"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1189bcc445af",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f5d7cf04bdc0f5d6"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:753fa8cd79ff",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f58adcad1fbe1b5a"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b329145ed774",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:df7680e8106074d4"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d88f5942c575",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:de4e108377b3613e"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bc02b79e466b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:c66a8e1a90168ff2"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:612cd231c291",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:325d8ed3351a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:39325cdc36238c0c"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:099ca01cd812",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:d53a9b8342268ac8"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aaedcfca7d03",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cb96fd121c63be1e"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7796ad321bcf",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:acfcb8a54a350ae7"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b44cef5717e1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:0d7de5f208d01b21"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:73bdb861a5c5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:d5ae9a25eac39906"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a29235547f89",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:3a5c4b53281d86fa"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6306865e1841",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:919cd1df94ac4535"
+   ]
+  },
+  {
+   "adds": [
+    "Cavalier of Night"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a95009acc1a9",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:86d93039e0ca8646"
+   ]
+  },
+  {
+   "adds": [
+    "Éomer, Marshal of Rohan"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ff63f547bb7b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:14817a5289d63b86"
+   ]
+  },
+  {
+   "adds": [
+    "Éomer, Marshal of Rohan"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9f49a99b76d7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:0a16f2cf5e468c82"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3e93d0dd886b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:eeea07b76fc571dd"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2e1e26391380",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cb58e4737a8aeba9"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a5f0c7a6a909",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:27a3a8f95a48c2a5"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d3204e101acc",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:07c5f1b815d2a7df"
+   ]
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:72c4a3021220",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:64ae9b73361a47a5"
+   ]
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ae72b0acb49b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b173949b3bd8a0c4"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7010ee65262c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geth's Grimoire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:28209821b263",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:18f7c2f5bcf1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:038d63016cf8250d"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8d78616c31b0",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4f3953573423ca9b"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bc4d6deecd93",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5a362e2bebef4830"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e0991dbc432f",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ae20a232f9a581d4"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f9c665512834",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:23931bebc4165151"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ff644eaf8f36",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ddabde8634997a6b"
+   ]
+  },
+  {
+   "adds": [
+    "Extract from Darkness"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:30a936b05977",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:57a4865f973e4973"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:298d88dbc4d5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:19627a60aef6b4ba"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3973d5bb0dbf",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:9949811ce1044925"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ce26979e2f23",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:30a78bb5a582ecb2"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6c7f02f189cf",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ba24dbfa1a89996b"
+   ]
+  },
+  {
+   "adds": [
+    "Cathodion"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c2410ed93896",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:3ca74af942303cd9"
+   ]
+  },
+  {
+   "adds": [
+    "Cathodion"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:63dca187e292",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f6ddcb268c61d44a"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d1b0491efeb3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:406db1fa9c57c35e"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:22c6e782aaa7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:fe8ae1b30cf1a277"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7adf080bf025",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:35453deef28a7e90"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5d87698e48b3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ab03e04e6d4587e2"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:aa1294cbca9a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4b396f933b95b378"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4e3d310a1393",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1e5d24ddb61880a1"
+   ]
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fbe5afab7ecc",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e6e07f435fb6b3fe"
+   ]
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:45c47b7b1458",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4b318cdf209df0f2"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e0922996430e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8563328c8648712e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:354296e4fe9b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:88bf540b3824736a"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:317947f14702",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:e8e185993b600a26"
+   ]
+  },
+  {
+   "adds": [
+    "Driver of the Dead"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:af54cee732ec",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5df99029b8ec66e9"
+   ]
+  },
+  {
+   "adds": [
+    "Driver of the Dead"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:751651129740",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5f658bdecc4f15e0"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, the Perfected Mind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:edf787837887",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:31b194d34953",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:3c72d208c97aae93"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:686a791e0c0e",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:042db2f664b80b90"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:918f78dd59f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:39e468c3d228",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:c67d62028b1bef63"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Riverchurn Monument"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7ef3e86aa9d0",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f8f6e66341043284"
+   ]
+  },
+  {
+   "adds": [
+    "Crypt Champion"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f51562a6c481",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ece8145b7824d741"
+   ]
+  },
+  {
+   "adds": [
+    "Crypt Champion"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:99bd49d0eae8",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:84f21b5fa46a974e"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9098cbabcaba",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:bde0e8ef7eb7fe70"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b09ebaad5ba8",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:da5e13ecfc54f6cb"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:05c4eaedebfb",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b5881ef56bb76e33"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7a641fb4bb59",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4cf703dea316",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bbbb162843a6",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:84f2482d5400e1aa"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0df6a076f5c6",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:bef85f90aa47d992"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:72b317db73c1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1d32fcf9fca8",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:96fc57253dac8aec"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadhound"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ca599f3e95c6",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8cafa7f0065d4a77"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:efd18c3ad67a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:788ece84fc25394b"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:03fb2e027cd6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6300be3f7a57",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1d688eed3cf5af24"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1e4c9ea266cf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f4bbba69eacd",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ac461f837b1f9939"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Archive"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ac432886fad5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f1b1538002b603f0"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f0496fdbb09b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Restless Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2ef5fec9e2c3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:afc8ede497684168"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8b405a0419a1",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:21a766a40102e7aa"
+   ]
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:bbb5cb7c190d",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:87a1e515ed198458"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:dbb253f40c71",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:bb41f321fc33606d"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8826f5eb300d",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:af2dd246f790dacb"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4239a7304a30",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:20d6537c521d6eae"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e91dffed6fe7",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:bcb6369f58301f12"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:01b5923e3ee4",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:f37ff23045ac710a"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9a3e2249da01",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:315c658d672e01a9"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c340cfe3299b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:71ec8a64abbb4fbb"
+   ]
+  },
+  {
+   "adds": [
+    "Jidoor, Aristocratic Capital // Overture"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:398d19f32784",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2ed73a14a58957f6"
+   ]
+  },
+  {
+   "adds": [
+    "Jidoor, Aristocratic Capital // Overture"
+   ],
+   "cuts": [
+    "Hall of Echoes"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:21d773ae83a0",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cfd2f53486fc606c"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4e0285a51c86",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5f50b869d6dc521a"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f120718d0b77",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ca99e863fc5ce25f"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:54f07e2a8fe3",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5745190e48ee917e"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:a56d2c333e09",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:ea72d6a97b5dd5bf"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:fafc2fbf311f",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2fdee15023c9bcb7"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:0d17de20a0d5",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4e9646ae62265358"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:440b0a9dd336",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:9f40483f952bc391"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d482acd162ce",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b5d8d997bd428ba6"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:f81b7392f684",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:6ff26afcb840c4cb"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6a945e343e9a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:efc11efcec900fe3"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6095b5d06d70",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b214775431f4e58f"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:261b5c34dd42",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8fb2e4e41a380703"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d19464461241",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2611719ffd5c4fcc"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:32cd675f6e9a",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:52e0aeb24609f37e"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:9a7d05f68028",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b02a0a390cfdcfdc"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:310b752f61fb",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:57edf62efaa76bca"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:be4c09f8e6fd",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:b68d3ff2b621651b"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:2b7f20186791",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:06eca3e7ca0bf60e"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:edf9617f49ea",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:cb62afc9a7b0bb09"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:1f7b11eb5037",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:2b3d64e019c2520f"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:4bcde359fe20",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:1043c76dca169f53"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:b75d835829dd",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:9a75486a81659e61"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:611f27ddbff2",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:10f99fb204cf12f4"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:5ae0efd12448",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:5a4066225cc02977"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:eac208ec5188",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:870667e688a8f886"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:7b745370b412",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:4514b62b5005098f"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:c724f811eb8b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:bfab6cb95b0d24fa"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:ed73f8977108",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8f30f94b54b6d3fb"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:d793cd15640b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:42b872fa54f54f85"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:8d63ac289924",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:28313cf79ee7de1e"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:6e9f0d116a7c",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:79448c84098479f1"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:73c7bb521f2b",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:8425f6d71b70d5f3"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:e924337d2126",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:59da6a888204c482"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:46fe88e71875",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:97517ebd5aef36b4"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:lord-xander-the-collector:m5:3de412748410",
+   "tests": [
+    "test:lord-xander-the-collector:goldfish:50f42197ce2aeaf7"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:lord-xander-the-collector:goldfish:71f37839bffd97ef",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b4d120aacae329fa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:38c88277edcf26c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:27114a91afc98128",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5a28e37e7bec8f77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:12f3ad6c4cc3bd42",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:937c893c3901cdd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:3bbae9e6d2294b4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:69e1ab843ade0329",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:320bd5d5c836e7bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1a1dbc88eb2b01cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:6aff769fa8b14d91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5eff210c1892b749",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cd7a598c34e85b83",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cc7e9d6aafb257a1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5fca28161534dbfa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e9763f3a37648fef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:61bf1dbf0b8450ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4f839248fa6e70f7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2e4f8ab509831c4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:c21edb30902c2054",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1e4066dfde0c1314",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8a7ed540a220d58b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:65df9c628335f32e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:0df05d9e1572454c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4ff55d0207066aa0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:a270e85cd7fef6ff",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ab17c79944a37b67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:671e0ed9030c115f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5d6268949ffbc175",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:87ce8ab6e0664b3b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2d33085260404968",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:bbeb13531e4bec36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:905a17515edf63f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:78b55d5da3070017",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:d3addf9bda1f0970",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:0f15bd3936ce8983",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:9ff046e7f00d92a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e5d1979d6b8b5561",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:7cbd1bfe6514a6fd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e341b7c998a14fd6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ffde3e2489d31acf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:265a295818c0dda7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1d1847a00531fe75",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1f2d9286bffbb996",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5074e40da787ada7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e990a787499189c8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:476327a970dab7b5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:69833662633e9d88",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:277da344c77945b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ba23f8868585f282",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e6418ccb66fdbd64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:a06da6800cd1fa01",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:c46f3c79dfb16a10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:0da8ff17f9d5cac8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1074c220ef832659",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:c4b8562c5cff33b5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:09dddd4e737b1df7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:188188dc7c15faf5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:de81fb4d21a7cbf1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:a04084d3689dcb65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:a20a7c59290f104a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:27cee777de9927be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:80b6355129327999",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8b3895eb540e3830",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:d31c1ebbd5c92fd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:06ca076727259813",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1127b409dece2c5c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:57aa1b74a9e54e43",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:489b5adc0230b7c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:da6168fcfd333fcd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:58973ed64697575e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cc73e3d8f0f0d1f1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:6afebd8e1da8eb25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5452e4ed25b2a74f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:64988b54d121c81a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b43f7913b0ebf7d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:909a4cda5bf644ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2b8dc8d09cb1653c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f29d51b4aebae343",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5695abc90795245c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:493d6b907ff58e62",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5cb9da292bf03c31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:9e9363d58897b289",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:0f35df8b94d73a83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:9e8b100ab6790123",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b55baebfe55b88e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4d75683140c2fe0a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:3623aa920b996a9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:986287d023ff9462",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e01c06c4dea74da9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:959cd92b30b264ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:a33d629e911a501d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ad6c2bcb1a9dfbca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:c84bca483eb7ff67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1ce4cf700554c7e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ac2b244d39382143",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:96ded1509a65a77f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:a5f6e06c62892dc0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:41efdc2112fc8737",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f5d7cf04bdc0f5d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f58adcad1fbe1b5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:df7680e8106074d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:de4e108377b3613e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:c66a8e1a90168ff2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:39325cdc36238c0c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:d53a9b8342268ac8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cb96fd121c63be1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:acfcb8a54a350ae7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:0d7de5f208d01b21",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:d5ae9a25eac39906",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:3a5c4b53281d86fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:919cd1df94ac4535",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:86d93039e0ca8646",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:14817a5289d63b86",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:0a16f2cf5e468c82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:eeea07b76fc571dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cb58e4737a8aeba9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:27a3a8f95a48c2a5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:07c5f1b815d2a7df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:64ae9b73361a47a5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b173949b3bd8a0c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:038d63016cf8250d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4f3953573423ca9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5a362e2bebef4830",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ae20a232f9a581d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:23931bebc4165151",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ddabde8634997a6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:57a4865f973e4973",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:19627a60aef6b4ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:9949811ce1044925",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:30a78bb5a582ecb2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ba24dbfa1a89996b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:3ca74af942303cd9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f6ddcb268c61d44a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:406db1fa9c57c35e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:fe8ae1b30cf1a277",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:35453deef28a7e90",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ab03e04e6d4587e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4b396f933b95b378",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1e5d24ddb61880a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e6e07f435fb6b3fe",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4b318cdf209df0f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8563328c8648712e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:88bf540b3824736a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:e8e185993b600a26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5df99029b8ec66e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5f658bdecc4f15e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:3c72d208c97aae93",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:042db2f664b80b90",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:c67d62028b1bef63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f8f6e66341043284",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ece8145b7824d741",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:84f21b5fa46a974e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:bde0e8ef7eb7fe70",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:da5e13ecfc54f6cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b5881ef56bb76e33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:84f2482d5400e1aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:bef85f90aa47d992",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:96fc57253dac8aec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8cafa7f0065d4a77",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:788ece84fc25394b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1d688eed3cf5af24",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ac461f837b1f9939",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f1b1538002b603f0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:afc8ede497684168",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:21a766a40102e7aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:87a1e515ed198458",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:bb41f321fc33606d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:af2dd246f790dacb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:20d6537c521d6eae",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:bcb6369f58301f12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:f37ff23045ac710a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:315c658d672e01a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:71ec8a64abbb4fbb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2ed73a14a58957f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cfd2f53486fc606c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5f50b869d6dc521a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ca99e863fc5ce25f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5745190e48ee917e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:ea72d6a97b5dd5bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2fdee15023c9bcb7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4e9646ae62265358",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:9f40483f952bc391",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b5d8d997bd428ba6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:6ff26afcb840c4cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:efc11efcec900fe3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b214775431f4e58f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8fb2e4e41a380703",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2611719ffd5c4fcc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:52e0aeb24609f37e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b02a0a390cfdcfdc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:57edf62efaa76bca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:b68d3ff2b621651b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:06eca3e7ca0bf60e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:cb62afc9a7b0bb09",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:2b3d64e019c2520f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:1043c76dca169f53",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:9a75486a81659e61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:10f99fb204cf12f4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:5a4066225cc02977",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:870667e688a8f886",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:4514b62b5005098f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:bfab6cb95b0d24fa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8f30f94b54b6d3fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:42b872fa54f54f85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:28313cf79ee7de1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:79448c84098479f1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:8425f6d71b70d5f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:59da6a888204c482",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:97517ebd5aef36b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lord-xander-the-collector:goldfish:50f42197ce2aeaf7",
+   "verdict": "inconclusive"
+  }
+ ]
+}

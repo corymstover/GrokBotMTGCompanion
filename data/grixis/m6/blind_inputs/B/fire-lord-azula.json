@@ -1,0 +1,3657 @@
+{
+ "deck_id": "Fire_Lord_Azula",
+ "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "slug": "fire-lord-azula",
+ "swaps": [
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:2ca86f18a142",
+   "tests": [
+    "test:fire-lord-azula:goldfish:9394b4d44a8f30ef"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0bb5940827a8",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d37139c0b51f382d"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:b50b23c716f4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:bd6287568425212d"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:ff1016c526c0",
+   "tests": [
+    "test:fire-lord-azula:goldfish:992815f1f2e545cf"
+   ]
+  },
+  {
+   "adds": [
+    "Twinning Staff"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:f8a725c87f9f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a03a764354802771"
+   ]
+  },
+  {
+   "adds": [
+    "Twinning Staff"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1274326c35d3",
+   "tests": [
+    "test:fire-lord-azula:goldfish:1141ca3b5345a4b2"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:4d4b2519eac7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3f8618a67842ef23"
+   ]
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d4a89e64de51",
+   "tests": [
+    "test:fire-lord-azula:goldfish:72b1c17b519d7f17"
+   ]
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:3d675da6f468",
+   "tests": [
+    "test:fire-lord-azula:goldfish:9fe03ad405a33124"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:40c7d6873c82",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4aa58f3c61a34c48"
+   ]
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8c7f27f4b57d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c4fd82b2f4149a84"
+   ]
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:0b3fe1e5bc56",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0c6003bf026a1b6a"
+   ]
+  },
+  {
+   "adds": [
+    "Sozin's Comet"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:fce9b8b7e845",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f4978cc517689101"
+   ]
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:0342d2b5b2b5",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a67c2bc82e3782ca"
+   ]
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:2b4a4b296c33",
+   "tests": [
+    "test:fire-lord-azula:goldfish:1e4eedbdeea378d6"
+   ]
+  },
+  {
+   "adds": [
+    "Firebender Ascension"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:99078614297a",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f2d4c6cca7b1dd08"
+   ]
+  },
+  {
+   "adds": [
+    "Firebender Ascension"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:21c91352af22",
+   "tests": [
+    "test:fire-lord-azula:goldfish:925f40c195cd169f"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3316710810b5",
+   "tests": [
+    "test:fire-lord-azula:goldfish:192d1d5cc164ac2f"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:b853ff704a02",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c4714ac1163d7c58"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:88f10624b8ee",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c05457e429e7f654"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:ea5085c0393d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:138b89f25888b225"
+   ]
+  },
+  {
+   "adds": [
+    "Azula, Cunning Usurper"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:bdf3e8271006",
+   "tests": [
+    "test:fire-lord-azula:goldfish:70d9febac108b9f4"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:ea1dd9193824",
+   "tests": [
+    "test:fire-lord-azula:goldfish:74b9bbc7a5d6b9aa"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:6421e9a47de6",
+   "tests": [
+    "test:fire-lord-azula:goldfish:111029729a89d256"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:926d14d224f9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0cf6aca5dd0831b0"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:9a199866f9b7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0fa1209e49d60f9a"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:318036dc8bbd",
+   "tests": [
+    "test:fire-lord-azula:goldfish:71a9f9777541b8cc"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:36497a459f39",
+   "tests": [
+    "test:fire-lord-azula:goldfish:db093de3351f60db"
+   ]
+  },
+  {
+   "adds": [
+    "Leyline of Anticipation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:84f9522d99e0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:62841019f063",
+   "tests": [
+    "test:fire-lord-azula:goldfish:00d22a316e65be07"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:bc5504622763",
+   "tests": [
+    "test:fire-lord-azula:goldfish:02e7e77498afab3b"
+   ]
+  },
+  {
+   "adds": [
+    "Electrodominance"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:00728870e7bd",
+   "tests": [
+    "test:fire-lord-azula:goldfish:401d34f4e83bc50e"
+   ]
+  },
+  {
+   "adds": [
+    "The Last Agni Kai"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:13d6f60ce037",
+   "tests": [
+    "test:fire-lord-azula:goldfish:33d7b2ec8f622d31"
+   ]
+  },
+  {
+   "adds": [
+    "The Last Agni Kai"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:8c51eb5d3427",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7166326cbec08daa"
+   ]
+  },
+  {
+   "adds": [
+    "Bulk Up"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:6dbd9b852fe9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:8b40bf385408d87a"
+   ]
+  },
+  {
+   "adds": [
+    "Bulk Up"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1f78ae54b366",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a653714c49d0ee0f"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:9d0956a2046f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:443573c9394cf46e"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:97451f0c70ba",
+   "tests": [
+    "test:fire-lord-azula:goldfish:64e709dd4a600224"
+   ]
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:e1f15ffa8a18",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a3b05ab09029e419"
+   ]
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:a9860bd94551",
+   "tests": [
+    "test:fire-lord-azula:goldfish:445b6b08b534a081"
+   ]
+  },
+  {
+   "adds": [
+    "Zuko, Firebending Master"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:2b50b0707ad5",
+   "tests": [
+    "test:fire-lord-azula:goldfish:922a70a2f69e49da"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:dbc55743b545",
+   "tests": [
+    "test:fire-lord-azula:goldfish:31a8bac0a9652ee6"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:b6e5ff57b67b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ef37f8d8d8af80bc"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Firepower"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:77f9e2d2335c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:e30c0bbfeab0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:d87879af98ed",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4d6910637f70f273"
+   ]
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:13d1ec13fd35",
+   "tests": [
+    "test:fire-lord-azula:goldfish:133cced67bdddab1"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Rollick"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:e59de0c657e1",
+   "tests": [
+    "test:fire-lord-azula:goldfish:66884dcb08fa7135"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:11b6c6c4974d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:644834e5b97b3c9f"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:39a2f7f3ffd7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c392e493d5277df9"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:f3cf5fe1d38f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b465b47184f4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:58dc467973401efa"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:cf206fa33a50",
+   "tests": [
+    "test:fire-lord-azula:goldfish:db39efbdd21d17b6"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:015e813d6e98",
+   "tests": [
+    "test:fire-lord-azula:goldfish:df08a50a520994b9"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e680ada0cc2",
+   "tests": [
+    "test:fire-lord-azula:goldfish:fe56fb744a27b818"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:afd19060271c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:8ad47e44e99551ed"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:4fd259407d16",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a460953ac19054d6"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:817092ce715c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:efbb54c699846cfa"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:40dbd5321d89",
+   "tests": [
+    "test:fire-lord-azula:goldfish:6a3bfd352cc0cb0f"
+   ]
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:8fffa97f232b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:2808f502d4bbc02a"
+   ]
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:eed3c75acf6f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:5bda9da23b72614b"
+   ]
+  },
+  {
+   "adds": [
+    "Torrential Gearhulk"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:caa7a6b0b39a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:d060b25feb55",
+   "tests": [
+    "test:fire-lord-azula:goldfish:33bdcce50f077c82"
+   ]
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:b43d211cd691",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4489db4fb5469cc0"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Strike"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b3e8a19e4390",
+   "tests": [
+    "test:fire-lord-azula:goldfish:158979f36075408d"
+   ]
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:bf72f70df460",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b55cbb21c623",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f291e7ac912828ae"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Strix Serenade"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e6968fc8ef0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fire Nation Attacks"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:c1b9f36f07f1",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7dfaa2e279d51a44"
+   ]
+  },
+  {
+   "adds": [
+    "Unleash Fury"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f85435add76b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:5be3ba154d0c7a38"
+   ]
+  },
+  {
+   "adds": [
+    "Unleash Fury"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:479665ecc03e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:6b87900ed2af4656"
+   ]
+  },
+  {
+   "adds": [
+    "Zuko, Exiled Prince"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:73b5181dbf08",
+   "tests": [
+    "test:fire-lord-azula:goldfish:1341617fee81d1bc"
+   ]
+  },
+  {
+   "adds": [
+    "Enduring Curiosity"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0fe6167e8db4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:866191d07dea5fb8"
+   ]
+  },
+  {
+   "adds": [
+    "Enduring Curiosity"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:ed884c73d86a",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c4ac2f27e5cb650b"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:c485249c6f43",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a1052132dd73ec3d"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:67edab728b70",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d21c7fb4fc53e197"
+   ]
+  },
+  {
+   "adds": [
+    "Comet Storm"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:a9c5393bbf93",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7dc2e9dce043521b"
+   ]
+  },
+  {
+   "adds": [
+    "Comet Storm"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1fbd00195f8c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:bb4ff8b70b7b596e"
+   ]
+  },
+  {
+   "adds": [
+    "Avatar Roku, Firebender"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:6d76e1e68821",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0f7540b58c541aa1"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:1dbc23eb00bc",
+   "tests": [
+    "test:fire-lord-azula:goldfish:64b1cc85ffb55e69"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arena of Glory"
+   ],
+   "id": "swap:fire-lord-azula:m5:f7b98fe27a8e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:22aa13025a574649"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:6d41dc5bf74c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7011cc11b62d8cf4"
+   ]
+  },
+  {
+   "adds": [
+    "Invoke Calamity"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:91829d152368",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a6a19e41467e1cca"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:a9465987836c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:eeb69f093ef3c767"
+   ]
+  },
+  {
+   "adds": [
+    "Vedalken Orrery"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:0d2d12f3bb32",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b36728915f53b7f0"
+   ]
+  },
+  {
+   "adds": [
+    "Silver Shroud Costume"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:e2a53d809807",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0c0ea98f470c1a84"
+   ]
+  },
+  {
+   "adds": [
+    "Snapcaster Mage"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:91a43b00ef52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:9842f53e441f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a463c8b95351b1c2"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:ac740eaf9f11",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f5b80947cd26f683"
+   ]
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:988d8537c1e0",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b4cd64588d48c496"
+   ]
+  },
+  {
+   "adds": [
+    "Bender's Waterskin"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:b1d566ae688d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:dbce5c9762abccde"
+   ]
+  },
+  {
+   "adds": [
+    "Insidious Will"
+   ],
+   "cuts": [
+    "Strix Serenade"
+   ],
+   "id": "swap:fire-lord-azula:m5:e1f611181c76",
+   "tests": [
+    "test:fire-lord-azula:goldfish:db6dd8ad501700d4"
+   ]
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:41db68072435",
+   "tests": [
+    "test:fire-lord-azula:goldfish:761ea160290c13c8"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:4d747e6f6e10",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d1891b099edf1b02"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:c74b2d324acd",
+   "tests": [
+    "test:fire-lord-azula:goldfish:32fe227551a08079"
+   ]
+  },
+  {
+   "adds": [
+    "Abandon Attachments"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:be6f6fa535a0",
+   "tests": [
+    "test:fire-lord-azula:goldfish:188809f5f2356ee8"
+   ]
+  },
+  {
+   "adds": [
+    "Azula, On the Hunt"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8133f94a0bd5",
+   "tests": [
+    "test:fire-lord-azula:goldfish:841d35f46602baae"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:aac0dcaaf5f4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:1138865df3cf4da3"
+   ]
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:e7845a08f06d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:40e3fac5ec913298"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:eb3599a55090",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b56c35f156c4bab7"
+   ]
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:abfce90510d7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:88acdc5b9d581844"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:0c7f4645f618",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d0062138197a2170"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:909f348f0271",
+   "tests": [
+    "test:fire-lord-azula:goldfish:213b483f9b25edb5"
+   ]
+  },
+  {
+   "adds": [
+    "Octopus Form"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f3307c015e7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:539b32270e6023f7"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d1b2cf1d5281",
+   "tests": [
+    "test:fire-lord-azula:goldfish:54446221bd3ed6fc"
+   ]
+  },
+  {
+   "adds": [
+    "Amphibian Downpour"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:7e5b61227ff1",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ac2177a2298ba876"
+   ]
+  },
+  {
+   "adds": [
+    "Fists of Flame"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:ace7c1552e45",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7a99f3b920b56045"
+   ]
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:231c32318ad7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:60aac28c97fa62b2"
+   ]
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:87095141f8b1",
+   "tests": [
+    "test:fire-lord-azula:goldfish:56cbc50d00cae56a"
+   ]
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d9687f02523e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ed5d9dcc213fb409"
+   ]
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:783908fc0661",
+   "tests": [
+    "test:fire-lord-azula:goldfish:e6a965e142d1b702"
+   ]
+  },
+  {
+   "adds": [
+    "Primal Amulet // Primal Wellspring"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:9425730c4430",
+   "tests": [
+    "test:fire-lord-azula:goldfish:630aaad10b18734f"
+   ]
+  },
+  {
+   "adds": [
+    "Primal Amulet // Primal Wellspring"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f08ab863ab38",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ec0c5b0059b75c2e"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:9100b503360f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0843945d92d07346"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:cbcdb0e0f5c3",
+   "tests": [
+    "test:fire-lord-azula:goldfish:db2813794fbfb0d8"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:870772536a2d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d60b84535e85b85e"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:944b1f8b81d9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7a6995ebdd92a9b4"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:1867fbda1a1c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3d2003987aecf46a"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3b4152b69360",
+   "tests": [
+    "test:fire-lord-azula:goldfish:e1146e49de6e02ee"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:cf707de52534",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0ea111f83d75e641"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:94ec656d7ad9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:8225aa5caf273d8b"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:fire-lord-azula:m5:c62b88687c91",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c47eaa6b143e084a"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:46de1131043e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7070468b9d0eefe3"
+   ]
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:7d7a9a11a7d8",
+   "tests": [
+    "test:fire-lord-azula:goldfish:83c37cdd3fb7b079"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:907f3038a191",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0e7b2464c49efa0b"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:7d975f609aae",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ad83a84c3f7f15ba"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:89bf96491047",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4a9302b60983779f"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:1bbfcf1758c9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:8b11fc46a67c498e"
+   ]
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:ac8ab043e78d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:e6a9dbd43c68b663"
+   ]
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:d90abde3352f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b7a9f1b76a5f8355"
+   ]
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:e225c6f205d3",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3ef8eafa83f1f197"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:fire-lord-azula:m5:2305dd83d609",
+   "tests": [
+    "test:fire-lord-azula:goldfish:09120c17a0e102c5"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:45f0e11fe1e8",
+   "tests": [
+    "test:fire-lord-azula:goldfish:bf290754f4a7cd11"
+   ]
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:e8535d09879f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f6cfe43b4914aee0"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:2e988c3f326d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ebcb3135aa9a4450"
+   ]
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:27c35213d1a9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0e84177b6d0c918b"
+   ]
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:9fb840407d19",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3c670489e8a79ca5"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterious Stranger"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:05180f274dd1",
+   "tests": [
+    "test:fire-lord-azula:goldfish:9ad31e884c193132"
+   ]
+  },
+  {
+   "adds": [
+    "Part the Waterveil"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:cf2b35ad72fd",
+   "tests": [
+    "test:fire-lord-azula:goldfish:fc49003c8261d29a"
+   ]
+  },
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:160bea776591",
+   "tests": [
+    "test:fire-lord-azula:goldfish:85bee4e9cc84a943"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8c685796f962",
+   "tests": [
+    "test:fire-lord-azula:goldfish:1ddfd2436d32e68c"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f608a62cc5d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7e20f4e3bbf729cc"
+   ]
+  },
+  {
+   "adds": [
+    "Secret Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:caab180dd6b9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:55627133e07fe3cf"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e2a61f9e526",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d54dc88da1fed5f0"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Sages"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:788c084cee46",
+   "tests": [
+    "test:fire-lord-azula:goldfish:46927081609944c6"
+   ]
+  },
+  {
+   "adds": [
+    "Lost in Memories"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:6e7336ed66c7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:520eb17c39025219"
+   ]
+  },
+  {
+   "adds": [
+    "Azula Always Lies"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:b3ee8fc2009b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:8b0cafaf0035e621"
+   ]
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:7cd229ee51cf",
+   "tests": [
+    "test:fire-lord-azula:goldfish:596a3615b4e7c29b"
+   ]
+  },
+  {
+   "adds": [
+    "Callidus Assassin"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:fire-lord-azula:m5:722370a42b00",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3833b23f8e89eb3e"
+   ]
+  },
+  {
+   "adds": [
+    "Twin Blades"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:7c2721a82b66",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ccb1083490a60e5b"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Administrator"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:7febbd6aeb18",
+   "tests": [
+    "test:fire-lord-azula:goldfish:60f5836f5adfc17b"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:1d0fd21b0732",
+   "tests": [
+    "test:fire-lord-azula:goldfish:740b6139fe2a9194"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:326166603d12",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f14a555a2a272727"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Crimson Wisps"
+   ],
+   "id": "swap:fire-lord-azula:m5:8bd9396ff21e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0143912e095e7050"
+   ]
+  },
+  {
+   "adds": [
+    "Frostcliff Siege"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:534bc348d01e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:503889e0d70e306f"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:fire-lord-azula:m5:9c6e4f7f22b8",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d51b456d12f55d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:4f696e221b3e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:6a27a64f11a4baa2"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:187600b3b8a4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:72acadc675bcca32"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:06d4f8e91fd2",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b3db79b1c0702645"
+   ]
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0c5bb3872ed2",
+   "tests": [
+    "test:fire-lord-azula:goldfish:f1d6d6be99689c2f"
+   ]
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:fire-lord-azula:m5:0e1502bd1a2c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:60706fd46cb7a7db"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:6055878f6a8b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:75e1fd29644c6ebb"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:fire-lord-azula:m5:b186c79ba830",
+   "tests": [
+    "test:fire-lord-azula:goldfish:5dfe05cb3eae1868"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:83e5b2fefba9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:2ccc02c53f080ba3"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:071f8e9ebee9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:06f3f307b816cee6"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:356ecd8f9223",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c64a5e9b1dfc4bcf"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:d2da786492e6",
+   "tests": [
+    "test:fire-lord-azula:goldfish:cd5e360559b2f43c"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:1b953e6cc965",
+   "tests": [
+    "test:fire-lord-azula:goldfish:e7b5908187958d50"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:5496b0d2d955",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c04bb3e62e96f414"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:ee669e63e666",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b86d9a862f6a92cc"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:1753fc3f24a1",
+   "tests": [
+    "test:fire-lord-azula:goldfish:037dd9970effed78"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:715ff73807be",
+   "tests": [
+    "test:fire-lord-azula:goldfish:59e7362b806180bc"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:101ddc6f35bb",
+   "tests": [
+    "test:fire-lord-azula:goldfish:27a982534d58b27d"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:db55eccf1208",
+   "tests": [
+    "test:fire-lord-azula:goldfish:45f6859792b96224"
+   ]
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:744c88ed4d36",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b0a228092a9a4653"
+   ]
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:20f308b53667",
+   "tests": [
+    "test:fire-lord-azula:goldfish:620bcba73864253c"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Mastery"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:784c5d40b785",
+   "tests": [
+    "test:fire-lord-azula:goldfish:62390e66841e598e"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Mastery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:f66069fab609",
+   "tests": [
+    "test:fire-lord-azula:goldfish:982f9b9441db30b0"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:8ebdb842e7c4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4313d2a98bd2a7e5"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:51f8373fab4c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:bd62e6505acb575d"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3c9bca573905",
+   "tests": [
+    "test:fire-lord-azula:goldfish:04be378741c7e551"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:06f361b3f0c4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:bbfc76b7537152f9"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f6f93a051601",
+   "tests": [
+    "test:fire-lord-azula:goldfish:501fd7871ebfe796"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Temporal Sundering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:56ba4ef3152f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a969ac1124cd57d3"
+   ]
+  },
+  {
+   "adds": [
+    "Karn's Temporal Sundering"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:2f1d7fbfcd27",
+   "tests": [
+    "test:fire-lord-azula:goldfish:252c0911803f61b2"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:e72bd7f4d234",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b741484a4adf4261"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:7b9fd759fb46",
+   "tests": [
+    "test:fire-lord-azula:goldfish:46952f2c0e2a2667"
+   ]
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f08948c78cd",
+   "tests": [
+    "test:fire-lord-azula:goldfish:60eaec5d4f5eed0d"
+   ]
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:7346f4033c2b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4d4eb35b613cc087"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:5b72d412d241",
+   "tests": [
+    "test:fire-lord-azula:goldfish:6e3a0486675e66ed"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:1256af36c870",
+   "tests": [
+    "test:fire-lord-azula:goldfish:dc24500ab3b28659"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3ba330b6ccaf",
+   "tests": [
+    "test:fire-lord-azula:goldfish:cb856ccbad849f25"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:3f89231d4a9d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:4ee3a2b8bc1a7488"
+   ]
+  },
+  {
+   "adds": [
+    "Alrund's Epiphany"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:3dceb95a6ca7",
+   "tests": [
+    "test:fire-lord-azula:goldfish:cbd02221cef3fdcf"
+   ]
+  },
+  {
+   "adds": [
+    "Alrund's Epiphany"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:95847b08ae9a",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a0e62ecb3702d8f3"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:21a458febd7a",
+   "tests": [
+    "test:fire-lord-azula:goldfish:90392df0921d6763"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:8cde9ffc6087",
+   "tests": [
+    "test:fire-lord-azula:goldfish:468b608e099d0a05"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:5c35d0f55263",
+   "tests": [
+    "test:fire-lord-azula:goldfish:de60e72540868c1c"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:497e5e619bf3",
+   "tests": [
+    "test:fire-lord-azula:goldfish:6aa98e5fc7db9a7b"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:53ebd5426067",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3bc00742d5413011"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:33eb57d99b44",
+   "tests": [
+    "test:fire-lord-azula:goldfish:ea6f96683f5d6a2f"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:57c007aed973",
+   "tests": [
+    "test:fire-lord-azula:goldfish:fd30f00b3ca5b9db"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:db10f04ce7e4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:022175cc4561f8ae"
+   ]
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:fb5a0715833e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c9ce7928c946f02d"
+   ]
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:52c6ddbbdd06",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c2b162b45b09f8f5"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:ada0d91ff835",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a14a19c152dd1515"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:4e3860f6b1a4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:866215173a1444ff"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:6ecab58c3be4",
+   "tests": [
+    "test:fire-lord-azula:goldfish:1a581af76fcc03b3"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:c6987485077e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:fee054840ac4b775"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:3bdb0eb76f7b",
+   "tests": [
+    "test:fire-lord-azula:goldfish:79a877ac9e975aac"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:378ed6b48047",
+   "tests": [
+    "test:fire-lord-azula:goldfish:9b6006a338f7157f"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:2387d0ba1139",
+   "tests": [
+    "test:fire-lord-azula:goldfish:c5b2a2a264f782c8"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:95fb19de6897",
+   "tests": [
+    "test:fire-lord-azula:goldfish:cf5e718e0d01d2d8"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:d6e1af42ed70",
+   "tests": [
+    "test:fire-lord-azula:goldfish:7d7d0c673d6a259b"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:0f293d71695c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:0292b0a4ddf13032"
+   ]
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:b601c15cbd5c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:975359f34b6be668"
+   ]
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:3ca211984041",
+   "tests": [
+    "test:fire-lord-azula:goldfish:cfc9d482bfbfb25e"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:fire-lord-azula:m5:c10d7ec1215d",
+   "tests": [
+    "test:fire-lord-azula:goldfish:8acc2b2d344cd4b5"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:fire-lord-azula:m5:2a611c4b8ff6",
+   "tests": [
+    "test:fire-lord-azula:goldfish:cf110640a3a8287c"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:f624ff46886c",
+   "tests": [
+    "test:fire-lord-azula:goldfish:36dbb8e17711475a"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:fire-lord-azula:m5:ca460ae85526",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d228c42b84773ca6"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:fire-lord-azula:m5:c551a887f994",
+   "tests": [
+    "test:fire-lord-azula:goldfish:85332b1814dd89d3"
+   ]
+  },
+  {
+   "adds": [
+    "Alchemist's Gambit"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:fire-lord-azula:m5:47763a1186f8",
+   "tests": [
+    "test:fire-lord-azula:goldfish:6d2fa327f7a6d4ac"
+   ]
+  },
+  {
+   "adds": [
+    "Alchemist's Gambit"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:762e0b45ae51",
+   "tests": [
+    "test:fire-lord-azula:goldfish:9ed074e039c9cac0"
+   ]
+  },
+  {
+   "adds": [
+    "Twice Upon a Time // Unlikely Meeting"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:fire-lord-azula:m5:333ca4dc82e9",
+   "tests": [
+    "test:fire-lord-azula:goldfish:a43dd12f3bafbbfb"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:fire-lord-azula:m5:24fa5155777e",
+   "tests": [
+    "test:fire-lord-azula:goldfish:d4369eb352476df2"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:fire-lord-azula:m5:86b1c0f75631",
+   "tests": [
+    "test:fire-lord-azula:goldfish:9265f0e939193c14"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:f200255f0152",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b6f45ea2167ac549"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:fire-lord-azula:m5:79faee1b8893",
+   "tests": [
+    "test:fire-lord-azula:goldfish:3ee07c65e3be3c0f"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Repeal"
+   ],
+   "id": "swap:fire-lord-azula:m5:e630d0ee074f",
+   "tests": [
+    "test:fire-lord-azula:goldfish:b309b4d7fc0a1890"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:fire-lord-azula:m5:8dad8b30d78a",
+   "tests": [
+    "test:fire-lord-azula:goldfish:2bf77f6a88d30283"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:fire-lord-azula:goldfish:9394b4d44a8f30ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d37139c0b51f382d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:bd6287568425212d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:992815f1f2e545cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a03a764354802771",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:1141ca3b5345a4b2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3f8618a67842ef23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:72b1c17b519d7f17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:9fe03ad405a33124",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4aa58f3c61a34c48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c4fd82b2f4149a84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0c6003bf026a1b6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f4978cc517689101",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a67c2bc82e3782ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:1e4eedbdeea378d6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f2d4c6cca7b1dd08",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:925f40c195cd169f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:192d1d5cc164ac2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c4714ac1163d7c58",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c05457e429e7f654",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:138b89f25888b225",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:70d9febac108b9f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:74b9bbc7a5d6b9aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:111029729a89d256",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0cf6aca5dd0831b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0fa1209e49d60f9a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:71a9f9777541b8cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:db093de3351f60db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:00d22a316e65be07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:02e7e77498afab3b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:401d34f4e83bc50e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:33d7b2ec8f622d31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7166326cbec08daa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:8b40bf385408d87a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a653714c49d0ee0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:443573c9394cf46e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:64e709dd4a600224",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a3b05ab09029e419",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:445b6b08b534a081",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:922a70a2f69e49da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:31a8bac0a9652ee6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ef37f8d8d8af80bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4d6910637f70f273",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:133cced67bdddab1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:66884dcb08fa7135",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:644834e5b97b3c9f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c392e493d5277df9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:58dc467973401efa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:db39efbdd21d17b6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:df08a50a520994b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:fe56fb744a27b818",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:8ad47e44e99551ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a460953ac19054d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:efbb54c699846cfa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:6a3bfd352cc0cb0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:2808f502d4bbc02a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:5bda9da23b72614b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:33bdcce50f077c82",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4489db4fb5469cc0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:158979f36075408d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f291e7ac912828ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7dfaa2e279d51a44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:5be3ba154d0c7a38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:6b87900ed2af4656",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:1341617fee81d1bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:866191d07dea5fb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c4ac2f27e5cb650b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a1052132dd73ec3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d21c7fb4fc53e197",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7dc2e9dce043521b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:bb4ff8b70b7b596e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0f7540b58c541aa1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:64b1cc85ffb55e69",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:22aa13025a574649",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7011cc11b62d8cf4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a6a19e41467e1cca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:eeb69f093ef3c767",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b36728915f53b7f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0c0ea98f470c1a84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a463c8b95351b1c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f5b80947cd26f683",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b4cd64588d48c496",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:dbce5c9762abccde",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:db6dd8ad501700d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:761ea160290c13c8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d1891b099edf1b02",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:32fe227551a08079",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:188809f5f2356ee8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:841d35f46602baae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:1138865df3cf4da3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:40e3fac5ec913298",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b56c35f156c4bab7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:88acdc5b9d581844",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d0062138197a2170",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:213b483f9b25edb5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:539b32270e6023f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:54446221bd3ed6fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ac2177a2298ba876",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7a99f3b920b56045",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:60aac28c97fa62b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:56cbc50d00cae56a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ed5d9dcc213fb409",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:e6a965e142d1b702",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:630aaad10b18734f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ec0c5b0059b75c2e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0843945d92d07346",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:db2813794fbfb0d8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d60b84535e85b85e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7a6995ebdd92a9b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3d2003987aecf46a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:e1146e49de6e02ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0ea111f83d75e641",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:8225aa5caf273d8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c47eaa6b143e084a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7070468b9d0eefe3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:83c37cdd3fb7b079",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0e7b2464c49efa0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ad83a84c3f7f15ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4a9302b60983779f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:8b11fc46a67c498e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:e6a9dbd43c68b663",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b7a9f1b76a5f8355",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3ef8eafa83f1f197",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:09120c17a0e102c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:bf290754f4a7cd11",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f6cfe43b4914aee0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ebcb3135aa9a4450",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0e84177b6d0c918b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3c670489e8a79ca5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:9ad31e884c193132",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:fc49003c8261d29a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:85bee4e9cc84a943",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:1ddfd2436d32e68c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7e20f4e3bbf729cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:55627133e07fe3cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d54dc88da1fed5f0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:46927081609944c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:520eb17c39025219",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:8b0cafaf0035e621",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:596a3615b4e7c29b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3833b23f8e89eb3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ccb1083490a60e5b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:60f5836f5adfc17b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:740b6139fe2a9194",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f14a555a2a272727",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0143912e095e7050",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:503889e0d70e306f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d51b456d12f55d4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:6a27a64f11a4baa2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:72acadc675bcca32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b3db79b1c0702645",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:f1d6d6be99689c2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:60706fd46cb7a7db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:75e1fd29644c6ebb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:5dfe05cb3eae1868",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:2ccc02c53f080ba3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:06f3f307b816cee6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c64a5e9b1dfc4bcf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:cd5e360559b2f43c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:e7b5908187958d50",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c04bb3e62e96f414",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b86d9a862f6a92cc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:037dd9970effed78",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:59e7362b806180bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:27a982534d58b27d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:45f6859792b96224",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b0a228092a9a4653",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:620bcba73864253c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:62390e66841e598e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:982f9b9441db30b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4313d2a98bd2a7e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:bd62e6505acb575d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:04be378741c7e551",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:bbfc76b7537152f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:501fd7871ebfe796",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a969ac1124cd57d3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:252c0911803f61b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b741484a4adf4261",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:46952f2c0e2a2667",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:60eaec5d4f5eed0d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4d4eb35b613cc087",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:6e3a0486675e66ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:dc24500ab3b28659",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:cb856ccbad849f25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:4ee3a2b8bc1a7488",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:cbd02221cef3fdcf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a0e62ecb3702d8f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:90392df0921d6763",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:468b608e099d0a05",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:de60e72540868c1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:6aa98e5fc7db9a7b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3bc00742d5413011",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:ea6f96683f5d6a2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:fd30f00b3ca5b9db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:022175cc4561f8ae",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c9ce7928c946f02d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c2b162b45b09f8f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a14a19c152dd1515",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:866215173a1444ff",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:1a581af76fcc03b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:fee054840ac4b775",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:79a877ac9e975aac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:9b6006a338f7157f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:c5b2a2a264f782c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:cf5e718e0d01d2d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:7d7d0c673d6a259b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:0292b0a4ddf13032",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:975359f34b6be668",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:cfc9d482bfbfb25e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:8acc2b2d344cd4b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:cf110640a3a8287c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:36dbb8e17711475a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d228c42b84773ca6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:85332b1814dd89d3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:6d2fa327f7a6d4ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:9ed074e039c9cac0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:a43dd12f3bafbbfb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:d4369eb352476df2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:9265f0e939193c14",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b6f45ea2167ac549",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:3ee07c65e3be3c0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:b309b4d7fc0a1890",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:fire-lord-azula:goldfish:2bf77f6a88d30283",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

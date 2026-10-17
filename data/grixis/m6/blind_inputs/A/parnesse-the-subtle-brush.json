@@ -1,0 +1,7718 @@
+{
+ "candidates": [
+  {
+   "card": "Swarm Intelligence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swarm Intelligence",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Swarm Intelligence",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:a88eeb761648"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:82997f24312e"
+   }
+  },
+  {
+   "card": "Wild Ricochet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wild Ricochet",
+       "cut": "Deflecting Swat"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-5940",
+         "5940-5959",
+         "5940-6790",
+         "5940-7683"
+        ]
+       },
+       "add": "Wild Ricochet",
+       "cut": "Return the Favor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9c544f678e6d"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d0e77962d773"
+   }
+  },
+  {
+   "card": "Twincast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twincast",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-2492-5195"
+        ]
+       },
+       "add": "Twincast",
+       "cut": "Bonus Round"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:afda8718a484"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b9a95ae603fe"
+   }
+  },
+  {
+   "card": "Arcane Bombardment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Bombardment",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Arcane Bombardment",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:dd230a2e7473"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d45c363150c9"
+   }
+  },
+  {
+   "card": "Creative Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creative Technique",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Creative Technique",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:a11119b73020"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6fdc5a1a0e90"
+   }
+  },
+  {
+   "card": "Expansion // Explosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expansion // Explosion",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-1484-2196",
+         "1484-2196-3368"
+        ]
+       },
+       "add": "Expansion // Explosion",
+       "cut": "Frantic Search"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:1a803a8f8a11"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:c102cf67cb66"
+   }
+  },
+  {
+   "card": "Teach by Example",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teach by Example",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Teach by Example",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:d3c07efd6c1e"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a04cbd217fbe"
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Resonating Lute",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:4ca6fa285bfb"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d4d5f4eac831"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:dda8f22b2131"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Feed the Swarm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:3decb502d3f0"
+   }
+  },
+  {
+   "card": "Dual Casting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dual Casting",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Dual Casting",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:72eea7a518ff"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:7d3e6911113f"
+   }
+  },
+  {
+   "card": "Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Seething Song",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:c5b095e8769d"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:495afa65b52e"
+   }
+  },
+  {
+   "card": "Hive Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hive Mind",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Hive Mind",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:a33cea9d7576"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:7203caff088f"
+   }
+  },
+  {
+   "card": "Insidious Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insidious Will",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f76a9e462028"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:33745a45f8e4"
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:71a199381f4c"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:1adfe5ea6637"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:bd63519459a5"
+   }
+  },
+  {
+   "card": "Tendrils of Agony",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tendrils of Agony",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:fcaf5ab6e714"
+   }
+  },
+  {
+   "card": "Twinferno",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twinferno",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ff9c4d918921"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:9e6a72547404"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f25dc941ea23"
+   }
+  },
+  {
+   "card": "See Double",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "See Double",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a98eea0164d2"
+   }
+  },
+  {
+   "card": "Talrand, Sky Summoner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talrand, Sky Summoner",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:aa12316b4e5f"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Dimir Signet",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:c84c4aa33fe2"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:eadaab4561c4"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:05fe9e77fb1a"
+   }
+  },
+  {
+   "card": "Decorum Dissertation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decorum Dissertation",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6566641795d4"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ab63f651994b"
+   }
+  },
+  {
+   "card": "Flare of Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flare of Duplication",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-2492-5195"
+        ]
+       },
+       "add": "Flare of Duplication",
+       "cut": "Bonus Round"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:5c89aadcef14"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:9bfb179765e7"
+   }
+  },
+  {
+   "card": "Wizards of Thay",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizards of Thay",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:fac864edca76"
+   }
+  },
+  {
+   "card": "Flame of Anor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:acfb838a7d3b"
+   }
+  },
+  {
+   "card": "Melek, Izzet Paragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Melek, Izzet Paragon",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:e25a2f162638"
+   }
+  },
+  {
+   "card": "Storm of Saruman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm of Saruman",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:dda184e25ed2"
+   }
+  },
+  {
+   "card": "Adaptive Training Post",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Adaptive Training Post",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Adaptive Training Post",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:6a419faef999"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:86b007d4e8aa"
+   }
+  },
+  {
+   "card": "Chandra, Hope's Beacon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chandra, Hope's Beacon",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:0b253ec7a8dd"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Feed the Swarm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:87d88397f09e"
+   }
+  },
+  {
+   "card": "Deekah, Fractal Theorist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deekah, Fractal Theorist",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d542e18daaa0"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:14552d5772d0"
+   }
+  },
+  {
+   "card": "Exsanguinate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exsanguinate",
+       "cut": "Mizzix's Mastery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6528620033f4"
+   }
+  },
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f3d16b025e22"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:5588fbfb53a4"
+   }
+  },
+  {
+   "card": "Rootha, Mercurial Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:85f1e80cccc3"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:1afeb03f0efc"
+   }
+  },
+  {
+   "card": "Archmage of Runes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage of Runes",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:c2b5e04f66a4"
+   }
+  },
+  {
+   "card": "Fury Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Fury Storm",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:4f89d8fd50d7"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d14354cd6428"
+   }
+  },
+  {
+   "card": "Cascade Bluffs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cascade Bluffs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:fd59cc94bc63"
+   }
+  },
+  {
+   "card": "Three Steps Ahead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:f3e8f7c5018a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:beb0cdaa1a65"
+   }
+  },
+  {
+   "card": "Transforming Flourish",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Transforming Flourish",
+       "cut": "Feed the Swarm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:eb09418de1af"
+   }
+  },
+  {
+   "card": "Split Decision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Split Decision",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:84a2819e3845"
+   }
+  },
+  {
+   "card": "Sublime Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sublime Epiphany",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Sublime Epiphany",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:a08bc65a017a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:09ea0c853888"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f43c02c721ea"
+   }
+  },
+  {
+   "card": "Improvisation Capstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Improvisation Capstone",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:20b978c46c63"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a1d88cfbfe43"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Wizard's Staff"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Veyran, Voice of Duality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:1f02a5bc4ebd"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:7a6187e650de"
+   }
+  },
+  {
+   "card": "Radiant Performer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Radiant Performer",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b7fea2a66e24"
+   }
+  },
+  {
+   "card": "Ashling, Flame Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashling, Flame Dancer",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:4be7fb4c3354"
+   }
+  },
+  {
+   "card": "Rite of Replication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Replication",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Rite of Replication",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:1daa376ea24d"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f2dc26174ea6"
+   }
+  },
+  {
+   "card": "Coruscation Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coruscation Mage",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ad47daed586b"
+   }
+  },
+  {
+   "card": "Kitsa, Otterball Elite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsa, Otterball Elite",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:84bcdccd3e0a"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:e7679e5c2d01"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:fa09ce95e086"
+   }
+  },
+  {
+   "card": "Echo Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echo Mage",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f8cd783d6d84"
+   }
+  },
+  {
+   "card": "Krark, the Thumbless",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krark, the Thumbless",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d912db383939"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Will of the Temur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Will of the Temur",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Will of the Temur",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:f7b29aa87d9c"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:798e896c3f10"
+   }
+  },
+  {
+   "card": "Skycoach Conductor // All Aboard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skycoach Conductor // All Aboard",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Skycoach Conductor // All Aboard",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:e7cf42c9cd60"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:278c3238cca4"
+   }
+  },
+  {
+   "card": "Multiversal Incursion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Multiversal Incursion",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Multiversal Incursion",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:668e753afdaa"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:138d86527826"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:084cb6925741"
+   }
+  },
+  {
+   "card": "Saw in Half",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saw in Half",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saw in Half",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:d4c95a05adc9"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:5e27c41d19a2"
+   }
+  },
+  {
+   "card": "Echocasting Symposium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echocasting Symposium",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:2459e159f724"
+   }
+  },
+  {
+   "card": "Irenicus's Vile Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Irenicus's Vile Duplication",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Irenicus's Vile Duplication",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:3bfc53f66a5f"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:371a9d8104ff"
+   }
+  },
+  {
+   "card": "Twinflame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twinflame",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Twinflame",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:0cd00566de4a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:eebd98b68b80"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:269b50235d69"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f62b411bc4db"
+   }
+  },
+  {
+   "card": "Ral, Crackling Wit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ral, Crackling Wit",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:731532ef048d"
+   }
+  },
+  {
+   "card": "Brass's Bounty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brass's Bounty",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Brass's Bounty",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:507e9454cc2f"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:e1b434103290"
+   }
+  },
+  {
+   "card": "Molten Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Duplication",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Molten Duplication",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:f2d0464131e5"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:1d33595021de"
+   }
+  },
+  {
+   "card": "Quantum Misalignment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quantum Misalignment",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Quantum Misalignment",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:65c2a02703a9"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:61b58e9b1b6c"
+   }
+  },
+  {
+   "card": "Electroduplicate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electroduplicate",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Electroduplicate",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:172673fac432"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:9d81689974c1"
+   }
+  },
+  {
+   "card": "Virtue of Knowledge // Vantress Visions",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Virtue of Knowledge // Vantress Visions",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Virtue of Knowledge // Vantress Visions",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:3e52d3cf903f"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a13cc3b70f25"
+   }
+  },
+  {
+   "card": "Cackling Counterpart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cackling Counterpart",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Cackling Counterpart",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:a04daa3c69e4"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:134b391c877d"
+   }
+  },
+  {
+   "card": "Storm King's Thunder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm King's Thunder",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:64464d848f3b"
+   }
+  },
+  {
+   "card": "Chain of Smog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Chain of Smog",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:fe0d01c9ea59"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:60265f75adaa"
+   }
+  },
+  {
+   "card": "Heat Shimmer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heat Shimmer",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Heat Shimmer",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:1dc904882783"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:8707fd1d2f12"
+   }
+  },
+  {
+   "card": "Quasiduplicate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quasiduplicate",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Quasiduplicate",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:439452fd1984"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b0a2d9720f3f"
+   }
+  },
+  {
+   "card": "Devastating Onslaught",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Devastating Onslaught",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Devastating Onslaught",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:730e5c0ea88b"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:3d0b6af49bd0"
+   }
+  },
+  {
+   "card": "Relm's Sketching",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relm's Sketching",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Relm's Sketching",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9ada388ad6d6"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:51ae11f5c30a"
+   }
+  },
+  {
+   "card": "Hidden Strings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hidden Strings",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Hidden Strings",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:7939e1520dc5"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b53be0953be0"
+   }
+  },
+  {
+   "card": "Blue Sun's Twilight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blue Sun's Twilight",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blue Sun's Twilight",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:6de7c0651e6a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:cb8c0469e553"
+   }
+  },
+  {
+   "card": "Haze of Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Haze of Rage",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:d96ac7f592d8"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:de08f6cda8bc"
+   }
+  },
+  {
+   "card": "Stolen Identity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Identity",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Stolen Identity",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:cd7604be017a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:1f710dee8903"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:38bd5b02c388"
+   }
+  },
+  {
+   "card": "Ember Island Production",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ember Island Production",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Ember Island Production",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9831c58297d5"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:81c90faecf23"
+   }
+  },
+  {
+   "card": "Saheeli's Artistry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli's Artistry",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Saheeli's Artistry",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:1d036f523cb5"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:4f252b24aed1"
+   }
+  },
+  {
+   "card": "The Twelfth Doctor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Twelfth Doctor",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "The Twelfth Doctor",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:3148d2029fba"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ee530497bf68"
+   }
+  },
+  {
+   "card": "Fork",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fork",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-2492-5195"
+        ]
+       },
+       "add": "Fork",
+       "cut": "Bonus Round"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:e508cbbd8d9a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6c854aa77442"
+   }
+  },
+  {
+   "card": "Fated Infatuation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fated Infatuation",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Fated Infatuation",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9975b5afc69d"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:1120fb96f7ef"
+   }
+  },
+  {
+   "card": "Harmonized Trio // Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Harmonized Trio // Brainstorm",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:25691a532e26"
+   }
+  },
+  {
+   "card": "Mirage Mockery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirage Mockery",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Mirage Mockery",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:f057517b578a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:663ccc7940b2"
+   }
+  },
+  {
+   "card": "Dual Strike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dual Strike",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Dual Strike",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:752efe31353c"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:9b396447cc91"
+   }
+  },
+  {
+   "card": "Self-Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Self-Reflection",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Self-Reflection",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:207c3b5db793"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:265676f681e6"
+   }
+  },
+  {
+   "card": "Kindle the Inner Flame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kindle the Inner Flame",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Kindle the Inner Flame",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:40d963185dd6"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:084d52bcf1ed"
+   }
+  },
+  {
+   "card": "Emeritus of Conflict // Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emeritus of Conflict // Lightning Bolt",
+       "cut": "Feed the Swarm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:729995e0b235"
+   }
+  },
+  {
+   "card": "Owlin Spiralmancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Owlin Spiralmancer",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:726c24bc8ed6"
+   }
+  },
+  {
+   "card": "Naktamun Lorespinner // Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naktamun Lorespinner // Wheel of Fortune",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d4ece3115927"
+   }
+  },
+  {
+   "card": "Refuse // Cooperate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Refuse // Cooperate",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-2492-5195"
+        ]
+       },
+       "add": "Refuse // Cooperate",
+       "cut": "Bonus Round"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:482ddfa96fbb"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:dc07a946630b"
+   }
+  },
+  {
+   "card": "Inspired Skypainter // Maestro's Gift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inspired Skypainter // Maestro's Gift",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:fecee18cc112"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:8dc1816149b5"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:1eed3264739f"
+   }
+  },
+  {
+   "card": "Jadzi, Steward of Fate // Oracle's Gift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jadzi, Steward of Fate // Oracle's Gift",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:25f78701bc9f"
+   }
+  },
+  {
+   "card": "Amphibian Downpour",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Amphibian Downpour",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6c2552d54e71"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:77c2e0b4385b"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:558b4c14b0d6"
+   }
+  },
+  {
+   "card": "Baral, Chief of Compliance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baral, Chief of Compliance",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:fbc2d492b2ab"
+   }
+  },
+  {
+   "card": "Encouraging Aviator // Jump",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Encouraging Aviator // Jump",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:87d63bff7c10"
+   }
+  },
+  {
+   "card": "Spellbook Seeker // Careful Study",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spellbook Seeker // Careful Study",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:866155b9486c"
+   }
+  },
+  {
+   "card": "Variable Chaser // Arc of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Variable Chaser // Arc of Fortune",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:c52081d557c4"
+   }
+  },
+  {
+   "card": "Diviner of Victory // Unwind History",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diviner of Victory // Unwind History",
+       "cut": "Feed the Swarm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:229152702ea7"
+   }
+  },
+  {
+   "card": "Landscape Painter // Vibrant Idea",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Landscape Painter // Vibrant Idea",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:30d8dbf7337d"
+   }
+  },
+  {
+   "card": "Remand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Remand",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Remand",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:294cc5a1bb81"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ab7301f90aa3"
+   }
+  },
+  {
+   "card": "Arcane Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Artisan",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:71f5a40e3958"
+   }
+  },
+  {
+   "card": "Incarnation Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Incarnation Technique",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:c3d83705a1a4"
+   }
+  },
+  {
+   "card": "Theorix Metamage // Omit Variables",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Theorix Metamage // Omit Variables",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:79c0bae87ef5"
+   }
+  },
+  {
+   "card": "Mind's Desire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind's Desire",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:94c3c9d74632"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:dbeda8e00317"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d2150213b121"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6c3f2e1fcc1d"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:c003c00d2d9d"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Feed the Swarm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a448d08613a0"
+   }
+  },
+  {
+   "card": "Radiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Radiate",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:aa1ea3fca423"
+   }
+  },
+  {
+   "card": "Gogo, Mysterious Mime",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gogo, Mysterious Mime",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6ecb67ac6022"
+   }
+  },
+  {
+   "card": "Rionya, Fire Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rionya, Fire Dancer",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:847fbcaee0fe"
+   }
+  },
+  {
+   "card": "Emeritus of Woe // Demonic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emeritus of Woe // Demonic Tutor",
+       "cut": "Demonic Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:4d32e264116d"
+   }
+  },
+  {
+   "card": "Tablet of Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tablet of Discovery",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:86935a0623ba"
+   }
+  },
+  {
+   "card": "Redoubled Stormsinger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Redoubled Stormsinger",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:4d708a6ca81f"
+   }
+  },
+  {
+   "card": "Gogo, Master of Mimicry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gogo, Master of Mimicry",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:73384b71797b"
+   }
+  },
+  {
+   "card": "Lier, Disciple of the Drowned",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lier, Disciple of the Drowned",
+       "cut": "Wizard's Staff"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b16167d24cdf"
+   }
+  },
+  {
+   "card": "Necromantic Selection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necromantic Selection",
+       "cut": "Blasphemous Act"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d23de9c32958"
+   }
+  },
+  {
+   "card": "Blur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blur",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Blur",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:c3376750166c"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:0bb880769eca"
+   }
+  },
+  {
+   "card": "Splash Portal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splash Portal",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Splash Portal",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:cdbfdb521f33"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b54ecfb1f45e"
+   }
+  },
+  {
+   "card": "Molten-Core Maestro",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten-Core Maestro",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Molten-Core Maestro",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:abddb1aa3736"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:7362ea3a0cbe"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:2dc66a9fad86"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:900af5f25fa1"
+   }
+  },
+  {
+   "card": "Siren's Ruse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siren's Ruse",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Siren's Ruse",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:cf2b4c65736d"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:88e56cf52d84"
+   }
+  },
+  {
+   "card": "Underworld Breach",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:534ea99c7543"
+   }
+  },
+  {
+   "card": "Dragon's Desire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Desire",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Dragon's Desire",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:d18da29c6299"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:9f23232493bd"
+   }
+  },
+  {
+   "card": "Illusionist's Stratagem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Illusionist's Stratagem",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-5959",
+         "4285-5959",
+         "5026-5959",
+         "5940-5959"
+        ]
+       },
+       "add": "Illusionist's Stratagem",
+       "cut": "Alania, Divergent Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:a862838feec6"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:5d7498802bfe"
+   }
+  },
+  {
+   "card": "Spelljack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spelljack",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:e820279a258e"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:fd652f655729"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:62f64c63c1ac"
+   }
+  },
+  {
+   "card": "Dramatic Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dramatic Reversal",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Dramatic Reversal",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:f26135b7ae47"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:cbe0a7303082"
+   }
+  },
+  {
+   "card": "Pyretic Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pyretic Ritual",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Pyretic Ritual",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:20f7bb284dd2"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:0dfef0354688"
+   }
+  },
+  {
+   "card": "Essence Flux",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Flux",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Essence Flux",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:b2b9e73439f1"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:48416e9dafc2"
+   }
+  },
+  {
+   "card": "Desperate Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desperate Ritual",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Desperate Ritual",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9fc30cb590dc"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f6d73c48e4c6"
+   }
+  },
+  {
+   "card": "Battle Hymn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Battle Hymn",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Battle Hymn",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9cf5d519a4b7"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:bcafd46851a3"
+   }
+  },
+  {
+   "card": "Planar Incision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Incision",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Incision",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:216045032d46"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ae0ab73cbb27"
+   }
+  },
+  {
+   "card": "Displace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Displace",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Displace",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:c66f32011c72"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:87b31261b056"
+   }
+  },
+  {
+   "card": "Brightstone Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brightstone Ritual",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Brightstone Ritual",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:88374c46a012"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:6693538730a6"
+   }
+  },
+  {
+   "card": "Rousing Refrain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rousing Refrain",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Rousing Refrain",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:513d9d0dc274"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:ece3a1b94ea4"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-3584-5195",
+         "3368-3584"
+        ]
+       },
+       "add": "Repercussion",
+       "cut": "Thousand-Year Storm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9dc1ae8858f5"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:5cb03d27d65c"
+   }
+  },
+  {
+   "card": "Burnt Offering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burnt Offering",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Burnt Offering",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:350e7bf11d41"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:82460c9d3488"
+   }
+  },
+  {
+   "card": "Baral's Expertise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baral's Expertise",
+       "cut": "Mizzix's Mastery"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-2492-5195"
+        ]
+       },
+       "add": "Baral's Expertise",
+       "cut": "Bonus Round"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:16107658cc0f"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:3569dd99f23e"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:76e1974269b5"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:0c2b96aa6d81"
+   }
+  },
+  {
+   "card": "Invoke Calamity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invoke Calamity",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Invoke Calamity",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:668ab4587082"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a36ff58dd553"
+   }
+  },
+  {
+   "card": "Turnabout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Turnabout",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Turnabout",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:79bb445f22b3"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d4b4126d0a8e"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:9b96e3b0599e"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:4e50347dfbc9"
+   }
+  },
+  {
+   "card": "Unsubstantiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unsubstantiate",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unsubstantiate",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:7c5f7fa878f4"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:63543c8fc6f9"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:b722e1ef12a8"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:040a605bf19f"
+   }
+  },
+  {
+   "card": "Release to the Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Release to the Wind",
+       "cut": "Feed the Swarm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Release to the Wind",
+       "cut": "Grapeshot"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:77ea2bd7ac72"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:f4ef75db3d1e"
+   }
+  },
+  {
+   "card": "Bond of Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bond of Insight",
+       "cut": "Mizzix's Mastery"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-2492-5195"
+        ]
+       },
+       "add": "Bond of Insight",
+       "cut": "Bonus Round"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:81a06a29de76"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:d15e9f37f0cc"
+   }
+  },
+  {
+   "card": "Reality Spasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reality Spasm",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-1484-2196",
+         "1484-2196-3368"
+        ]
+       },
+       "add": "Reality Spasm",
+       "cut": "Frantic Search"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:596a5f69e962"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:36150b73fc89"
+   }
+  },
+  {
+   "card": "Reset",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reset",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Reset",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:44f8eb79797a"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:a1beaf1ecb8b"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Wandering Archaic // Explore the Vastlands"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3368-7683",
+         "4285-7683",
+         "5026-7683",
+         "5940-7683"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Prismari, the Inspiration"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:422a80e17101"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:b9d79b4055f5"
+   }
+  },
+  {
+   "card": "Blinkmoth Infusion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blinkmoth Infusion",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "Blinkmoth Infusion",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:e707dc98d968"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:91f9c7be58ea"
+   }
+  },
+  {
+   "card": "View from Above",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "View from Above",
+       "cut": "Display of Power"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "11-4285",
+         "4285-5959",
+         "4285-6790",
+         "4285-7683"
+        ]
+       },
+       "add": "View from Above",
+       "cut": "Increasing Vengeance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:fc9970eac43e"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:3aeb284622f7"
+   }
+  },
+  {
+   "card": "Explosive Welcome",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Explosive Welcome",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1878-3368"
+        ]
+       },
+       "add": "Explosive Welcome",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:parnesse-the-subtle-brush:m5:3ee9cd9f0375"
+    },
+    "swap": "swap:parnesse-the-subtle-brush:m5:5c36d7029d22"
+   }
+  }
+ ],
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "slug": "parnesse-the-subtle-brush",
+ "swaps": [
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:82997f24312e"
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a88eeb761648"
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d0e77962d773"
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Return the Favor"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9c544f678e6d"
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b9a95ae603fe"
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:afda8718a484"
+  },
+  {
+   "adds": [
+    "Arcane Bombardment"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d45c363150c9"
+  },
+  {
+   "adds": [
+    "Arcane Bombardment"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dd230a2e7473"
+  },
+  {
+   "adds": [
+    "Creative Technique"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6fdc5a1a0e90"
+  },
+  {
+   "adds": [
+    "Creative Technique"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a11119b73020"
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c102cf67cb66"
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1a803a8f8a11"
+  },
+  {
+   "adds": [
+    "Teach by Example"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a04cbd217fbe"
+  },
+  {
+   "adds": [
+    "Teach by Example"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d3c07efd6c1e"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4d5f4eac831"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4ca6fa285bfb"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dda8f22b2131"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3decb502d3f0"
+  },
+  {
+   "adds": [
+    "Dual Casting"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7d3e6911113f"
+  },
+  {
+   "adds": [
+    "Dual Casting"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:72eea7a518ff"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:495afa65b52e"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c5b095e8769d"
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7203caff088f"
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a33cea9d7576"
+  },
+  {
+   "adds": [
+    "Insidious Will"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f76a9e462028"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:33745a45f8e4"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1adfe5ea6637"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:71a199381f4c"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:bd63519459a5"
+  },
+  {
+   "adds": [
+    "Tendrils of Agony"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fcaf5ab6e714"
+  },
+  {
+   "adds": [
+    "Twinferno"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ff9c4d918921"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9e6a72547404"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f25dc941ea23"
+  },
+  {
+   "adds": [
+    "See Double"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a98eea0164d2"
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:aa12316b4e5f"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:eadaab4561c4"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c84c4aa33fe2"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:05fe9e77fb1a"
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6566641795d4"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ab63f651994b"
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9bfb179765e7"
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5c89aadcef14"
+  },
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fac864edca76"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:acfb838a7d3b"
+  },
+  {
+   "adds": [
+    "Melek, Izzet Paragon"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e25a2f162638"
+  },
+  {
+   "adds": [
+    "Storm of Saruman"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dda184e25ed2"
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:86b007d4e8aa"
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6a419faef999"
+  },
+  {
+   "adds": [
+    "Chandra, Hope's Beacon"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0b253ec7a8dd"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:87d88397f09e"
+  },
+  {
+   "adds": [
+    "Deekah, Fractal Theorist"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d542e18daaa0"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:14552d5772d0"
+  },
+  {
+   "adds": [
+    "Exsanguinate"
+   ],
+   "cuts": [
+    "Mizzix's Mastery"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6528620033f4"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f3d16b025e22"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5588fbfb53a4"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1afeb03f0efc"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:85f1e80cccc3"
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c2b5e04f66a4"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d14354cd6428"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4f89d8fd50d7"
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fd59cc94bc63"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:beb0cdaa1a65"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f3e8f7c5018a"
+  },
+  {
+   "adds": [
+    "Transforming Flourish"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:eb09418de1af"
+  },
+  {
+   "adds": [
+    "Split Decision"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:84a2819e3845"
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:09ea0c853888"
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a08bc65a017a"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f43c02c721ea"
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:20b978c46c63"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a1d88cfbfe43"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7a6187e650de"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1f02a5bc4ebd"
+  },
+  {
+   "adds": [
+    "Radiant Performer"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b7fea2a66e24"
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4be7fb4c3354"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f2dc26174ea6"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1daa376ea24d"
+  },
+  {
+   "adds": [
+    "Coruscation Mage"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ad47daed586b"
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:84bcdccd3e0a"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e7679e5c2d01"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fa09ce95e086"
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f8cd783d6d84"
+  },
+  {
+   "adds": [
+    "Krark, the Thumbless"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d912db383939"
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:798e896c3f10"
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f7b29aa87d9c"
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:278c3238cca4"
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e7cf42c9cd60"
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:138d86527826"
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:668e753afdaa"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:084cb6925741"
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5e27c41d19a2"
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4c95a05adc9"
+  },
+  {
+   "adds": [
+    "Echocasting Symposium"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:2459e159f724"
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:371a9d8104ff"
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3bfc53f66a5f"
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:eebd98b68b80"
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0cd00566de4a"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f62b411bc4db"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:269b50235d69"
+  },
+  {
+   "adds": [
+    "Ral, Crackling Wit"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:731532ef048d"
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e1b434103290"
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:507e9454cc2f"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1d33595021de"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f2d0464131e5"
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:61b58e9b1b6c"
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:65c2a02703a9"
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9d81689974c1"
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:172673fac432"
+  },
+  {
+   "adds": [
+    "Virtue of Knowledge // Vantress Visions"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a13cc3b70f25"
+  },
+  {
+   "adds": [
+    "Virtue of Knowledge // Vantress Visions"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3e52d3cf903f"
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:134b391c877d"
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a04daa3c69e4"
+  },
+  {
+   "adds": [
+    "Storm King's Thunder"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:64464d848f3b"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:60265f75adaa"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fe0d01c9ea59"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:8707fd1d2f12"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1dc904882783"
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b0a2d9720f3f"
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:439452fd1984"
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3d0b6af49bd0"
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:730e5c0ea88b"
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:51ae11f5c30a"
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9ada388ad6d6"
+  },
+  {
+   "adds": [
+    "Hidden Strings"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b53be0953be0"
+  },
+  {
+   "adds": [
+    "Hidden Strings"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7939e1520dc5"
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cb8c0469e553"
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6de7c0651e6a"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:de08f6cda8bc"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d96ac7f592d8"
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1f710dee8903"
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cd7604be017a"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:38bd5b02c388"
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:81c90faecf23"
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9831c58297d5"
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4f252b24aed1"
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1d036f523cb5"
+  },
+  {
+   "adds": [
+    "The Twelfth Doctor"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ee530497bf68"
+  },
+  {
+   "adds": [
+    "The Twelfth Doctor"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3148d2029fba"
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6c854aa77442"
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e508cbbd8d9a"
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1120fb96f7ef"
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9975b5afc69d"
+  },
+  {
+   "adds": [
+    "Harmonized Trio // Brainstorm"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:25691a532e26"
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:663ccc7940b2"
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f057517b578a"
+  },
+  {
+   "adds": [
+    "Dual Strike"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9b396447cc91"
+  },
+  {
+   "adds": [
+    "Dual Strike"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:752efe31353c"
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:265676f681e6"
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:207c3b5db793"
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:084d52bcf1ed"
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:40d963185dd6"
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:729995e0b235"
+  },
+  {
+   "adds": [
+    "Owlin Spiralmancer"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:726c24bc8ed6"
+  },
+  {
+   "adds": [
+    "Naktamun Lorespinner // Wheel of Fortune"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4ece3115927"
+  },
+  {
+   "adds": [
+    "Refuse // Cooperate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dc07a946630b"
+  },
+  {
+   "adds": [
+    "Refuse // Cooperate"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:482ddfa96fbb"
+  },
+  {
+   "adds": [
+    "Inspired Skypainter // Maestro's Gift"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fecee18cc112"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:8dc1816149b5"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1eed3264739f"
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:25f78701bc9f"
+  },
+  {
+   "adds": [
+    "Amphibian Downpour"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6c2552d54e71"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:77c2e0b4385b"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:558b4c14b0d6"
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fbc2d492b2ab"
+  },
+  {
+   "adds": [
+    "Encouraging Aviator // Jump"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:87d63bff7c10"
+  },
+  {
+   "adds": [
+    "Spellbook Seeker // Careful Study"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:866155b9486c"
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c52081d557c4"
+  },
+  {
+   "adds": [
+    "Diviner of Victory // Unwind History"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:229152702ea7"
+  },
+  {
+   "adds": [
+    "Landscape Painter // Vibrant Idea"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:30d8dbf7337d"
+  },
+  {
+   "adds": [
+    "Remand"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ab7301f90aa3"
+  },
+  {
+   "adds": [
+    "Remand"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:294cc5a1bb81"
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:71f5a40e3958"
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c3d83705a1a4"
+  },
+  {
+   "adds": [
+    "Theorix Metamage // Omit Variables"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:79c0bae87ef5"
+  },
+  {
+   "adds": [
+    "Mind's Desire"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:94c3c9d74632"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dbeda8e00317"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d2150213b121"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6c3f2e1fcc1d"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c003c00d2d9d"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a448d08613a0"
+  },
+  {
+   "adds": [
+    "Radiate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:aa1ea3fca423"
+  },
+  {
+   "adds": [
+    "Gogo, Mysterious Mime"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6ecb67ac6022"
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:847fbcaee0fe"
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4d32e264116d"
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:86935a0623ba"
+  },
+  {
+   "adds": [
+    "Redoubled Stormsinger"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4d708a6ca81f"
+  },
+  {
+   "adds": [
+    "Gogo, Master of Mimicry"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:73384b71797b"
+  },
+  {
+   "adds": [
+    "Lier, Disciple of the Drowned"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b16167d24cdf"
+  },
+  {
+   "adds": [
+    "Necromantic Selection"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d23de9c32958"
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0bb880769eca"
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c3376750166c"
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b54ecfb1f45e"
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cdbfdb521f33"
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7362ea3a0cbe"
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:abddb1aa3736"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:900af5f25fa1"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:2dc66a9fad86"
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:88e56cf52d84"
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cf2b4c65736d"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:534ea99c7543"
+  },
+  {
+   "adds": [
+    "Dragon's Desire"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9f23232493bd"
+  },
+  {
+   "adds": [
+    "Dragon's Desire"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d18da29c6299"
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5d7498802bfe"
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a862838feec6"
+  },
+  {
+   "adds": [
+    "Spelljack"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e820279a258e"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:62f64c63c1ac"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fd652f655729"
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cbe0a7303082"
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f26135b7ae47"
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0dfef0354688"
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:20f7bb284dd2"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:48416e9dafc2"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b2b9e73439f1"
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f6d73c48e4c6"
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9fc30cb590dc"
+  },
+  {
+   "adds": [
+    "Battle Hymn"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:bcafd46851a3"
+  },
+  {
+   "adds": [
+    "Battle Hymn"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9cf5d519a4b7"
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ae0ab73cbb27"
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:216045032d46"
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:87b31261b056"
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c66f32011c72"
+  },
+  {
+   "adds": [
+    "Brightstone Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6693538730a6"
+  },
+  {
+   "adds": [
+    "Brightstone Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:88374c46a012"
+  },
+  {
+   "adds": [
+    "Rousing Refrain"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ece3a1b94ea4"
+  },
+  {
+   "adds": [
+    "Rousing Refrain"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:513d9d0dc274"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5cb03d27d65c"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Thousand-Year Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9dc1ae8858f5"
+  },
+  {
+   "adds": [
+    "Burnt Offering"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:82460c9d3488"
+  },
+  {
+   "adds": [
+    "Burnt Offering"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:350e7bf11d41"
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Mizzix's Mastery"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3569dd99f23e"
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:16107658cc0f"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0c2b96aa6d81"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:76e1974269b5"
+  },
+  {
+   "adds": [
+    "Invoke Calamity"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a36ff58dd553"
+  },
+  {
+   "adds": [
+    "Invoke Calamity"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:668ab4587082"
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4b4126d0a8e"
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:79bb445f22b3"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4e50347dfbc9"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9b96e3b0599e"
+  },
+  {
+   "adds": [
+    "Unsubstantiate"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:63543c8fc6f9"
+  },
+  {
+   "adds": [
+    "Unsubstantiate"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7c5f7fa878f4"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:040a605bf19f"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b722e1ef12a8"
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f4ef75db3d1e"
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:77ea2bd7ac72"
+  },
+  {
+   "adds": [
+    "Bond of Insight"
+   ],
+   "cuts": [
+    "Mizzix's Mastery"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d15e9f37f0cc"
+  },
+  {
+   "adds": [
+    "Bond of Insight"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:81a06a29de76"
+  },
+  {
+   "adds": [
+    "Reality Spasm"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:36150b73fc89"
+  },
+  {
+   "adds": [
+    "Reality Spasm"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:596a5f69e962"
+  },
+  {
+   "adds": [
+    "Reset"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a1beaf1ecb8b"
+  },
+  {
+   "adds": [
+    "Reset"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:44f8eb79797a"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b9d79b4055f5"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:422a80e17101"
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:91f9c7be58ea"
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e707dc98d968"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3aeb284622f7"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fc9970eac43e"
+  },
+  {
+   "adds": [
+    "Explosive Welcome"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5c36d7029d22"
+  },
+  {
+   "adds": [
+    "Explosive Welcome"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3ee9cd9f0375"
+  }
+ ]
+}

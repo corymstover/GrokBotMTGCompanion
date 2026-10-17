@@ -1,0 +1,4494 @@
+{
+ "candidates": [
+  {
+   "card": "Blood Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Tyrant",
+       "cut": "Slip Out the Back"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Tyrant",
+       "cut": "Tarrian's Soulcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:0907e3c45ece"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:54381c9910bb"
+   }
+  },
+  {
+   "card": "Olivia Voldaren",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia Voldaren",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:2da172844da3"
+   }
+  },
+  {
+   "card": "Cordial Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cordial Vampire",
+       "cut": "Slip Out the Back"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cordial Vampire",
+       "cut": "Tarrian's Soulcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:6edb3bd0b20c"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:f86bea42109c"
+   }
+  },
+  {
+   "card": "Necropolis Regent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necropolis Regent",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necropolis Regent",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:566e84dc4dc8"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:768ebfd3548f"
+   }
+  },
+  {
+   "card": "Rakish Heir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakish Heir",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakish Heir",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:0bcbb228da6a"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:866a06dc7804"
+   }
+  },
+  {
+   "card": "Voldaren Estate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voldaren Estate",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:7dc1810e291a"
+   }
+  },
+  {
+   "card": "Nibelheim Aflame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nibelheim Aflame",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nibelheim Aflame",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:b96e9bdf4536"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:46afc5b73cfb"
+   }
+  },
+  {
+   "card": "Drana, Liberator of Malakir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drana, Liberator of Malakir",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drana, Liberator of Malakir",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:896b8ef46d4c"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:8f3fb39b085b"
+   }
+  },
+  {
+   "card": "Stensia Masquerade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stensia Masquerade",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stensia Masquerade",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:a0366375e96c"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:aee937a96891"
+   }
+  },
+  {
+   "card": "Stromkirk Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Patron of the Vein",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Patron of the Vein",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:6981280fe0ef"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Rogue's Passage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:8c296d56584a"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e9c54935c62f"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:62499f8d8688"
+   }
+  },
+  {
+   "card": "Vampire Socialite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Socialite",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Socialite",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:6ba1c20cc3ce"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:908fead39896"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Arid Mesa"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Rogue's Passage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:a964a05c66b1"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:bbd4ff536a6d"
+   }
+  },
+  {
+   "card": "Unscythe, Killer of Kings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unscythe, Killer of Kings",
+       "cut": "The Ozolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unscythe, Killer of Kings",
+       "cut": "Blackblade Reforged"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:c584403d17d4"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:fb8e80ede1ff"
+   }
+  },
+  {
+   "card": "Olivia, Crimson Bride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia, Crimson Bride",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia, Crimson Bride",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:a22e781a460d"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:f0d5413df1ee"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:beffe906422a"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:dbfcfd386e41"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:932c4db44d7f"
+   }
+  },
+  {
+   "card": "Bloodlord of Vaasgoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodlord of Vaasgoth",
+       "cut": "Slip Out the Back"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:55a4e1d9705a"
+   }
+  },
+  {
+   "card": "Mask of Riddles",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mask of Riddles",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mask of Riddles",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:34da10b42f9a"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:566ceb9a3794"
+   }
+  },
+  {
+   "card": "Vorpal Sword",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vorpal Sword",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:cb287bd18acf"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:7b43e38aa7cd"
+   }
+  },
+  {
+   "card": "Blood Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Soul Collector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Markov Blademaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Markov Blademaster",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:a4c05ff618be"
+   }
+  },
+  {
+   "card": "Malakir Bloodwitch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Viridian Longbow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Viridian Longbow",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:aeed1cd94009"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:049c972883cd"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:f2e86943ec52"
+   }
+  },
+  {
+   "card": "Zagras, Thief of Heartbeats",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zagras, Thief of Heartbeats",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:dc42e85bb8c5"
+   }
+  },
+  {
+   "card": "Ancient Copper Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:b66dfb46ef1e"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:54594a1fa6b1"
+   }
+  },
+  {
+   "card": "Vampire Nighthawk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:e6dd31d2b19e"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:cf6f8df13e9a"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:ab11f6099cc6"
+   }
+  },
+  {
+   "card": "Kazarov, Sengir Pureblood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kazarov, Sengir Pureblood",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:2c6bdd5f05e7"
+   }
+  },
+  {
+   "card": "Howlsquad Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:6f45863ed421"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:b11d1db465a1"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:2aaf91ad67b6"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:3f92a516d6d6"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:8a37b0174283"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:cc7bc416f278"
+   }
+  },
+  {
+   "card": "Glass-Cast Heart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glass-Cast Heart",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:333a99a7628a"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Hoard Hauler",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:1230687d47d1"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:34e51cd8d49f"
+   }
+  },
+  {
+   "card": "Sengir Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sengir Vampire",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:be44a16037d6"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:c2ac692c8f49"
+   }
+  },
+  {
+   "card": "Vein Drinker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vein Drinker",
+       "cut": "Slip Out the Back"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:99420a752774"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:5026cfb596d5"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:3d2c5c502faa"
+   }
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:d5210a01a67c"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:6815882a2559"
+   }
+  },
+  {
+   "card": "Mephidross Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mephidross Vampire",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e3d8d635c300"
+   }
+  },
+  {
+   "card": "Sengir, the Dark Baron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sengir, the Dark Baron",
+       "cut": "Slip Out the Back"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:b6ed27a91d6b"
+   }
+  },
+  {
+   "card": "Captivating Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captivating Vampire",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:6cd75edc6723"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:2659ee5036c6"
+   }
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:99164264daea"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:59126787da13"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039",
+         "900-3750"
+        ]
+       },
+       "add": "Hellkite Charger",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:97edd07b6475"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:3b3039f7b1c9"
+   }
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:16ad40e04d0e"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:5bacf09bfc81"
+   }
+  },
+  {
+   "card": "Barren Moor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Barren Moor",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:c65d1d515c42"
+   }
+  },
+  {
+   "card": "Neheb, Dreadhorde Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:bcdbd1bbf6df"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:49386a23c921"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e7f766b1ce37"
+   }
+  },
+  {
+   "card": "Brallin, Skyshark Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brallin, Skyshark Rider",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:f57bb2288492"
+   }
+  },
+  {
+   "card": "Triskelion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Triskelion",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:d821948834fe"
+   }
+  },
+  {
+   "card": "Splinter Twin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splinter Twin",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039",
+         "900-3750"
+        ]
+       },
+       "add": "Splinter Twin",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:90698158eb25"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:2fd821d0cd6e"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:ac1c16dafb84"
+   }
+  },
+  {
+   "card": "Warlock Class",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warlock Class",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:711c8a7234c3"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:4afd286a7261"
+   }
+  },
+  {
+   "card": "Drana, the Last Bloodchief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drana, the Last Bloodchief",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:8160f2073846"
+   }
+  },
+  {
+   "card": "Lonely Sandbar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lonely Sandbar",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:39bb574e2351"
+   }
+  },
+  {
+   "card": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039",
+         "900-3750"
+        ]
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:b085859ed116"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:7836baaf325c"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e3fc869d06a9"
+   }
+  },
+  {
+   "card": "Qarsi Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Qarsi Revenant",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:bf106284c9a2"
+   }
+  },
+  {
+   "card": "Hell's Caretaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hell's Caretaker",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:f2194066a4f8"
+   }
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:4996fa677358"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:353548868e4d"
+   }
+  },
+  {
+   "card": "Bloodline Necromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodline Necromancer",
+       "cut": "Mask of Memory"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:6190b767593e"
+   }
+  },
+  {
+   "card": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Brotherhood Regalia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:ac963ba4cfe6"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:7acaab5a71da"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e2b2ccf98925"
+   }
+  },
+  {
+   "card": "Grixis Panorama",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grixis Panorama",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:7839d20744a7"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:a2ea39c07d7d"
+   }
+  },
+  {
+   "card": "Kamahl, Pit Fighter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kamahl, Pit Fighter",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:c03c643ca61a"
+   }
+  },
+  {
+   "card": "Bloodline Bidding",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodline Bidding",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:6ff82b9d8fcd"
+   }
+  },
+  {
+   "card": "Crosis's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis's Charm",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:bd4c2f00a861"
+   }
+  },
+  {
+   "card": "Strefan, Maurer Progenitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strefan, Maurer Progenitor",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:bd0d6100aa24"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:5a439fe97d5c"
+   }
+  },
+  {
+   "card": "Burning Anger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Anger",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:0f93fad150a2"
+   }
+  },
+  {
+   "card": "Mirko Vosk, Mind Drinker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirko Vosk, Mind Drinker",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e40ca0f823e1"
+   }
+  },
+  {
+   "card": "Vampiric Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampiric Dragon",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:c42ed1f3d9b8"
+   }
+  },
+  {
+   "card": "Indulgent Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Indulgent Aristocrat",
+       "cut": "Slip Out the Back"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:0c7849efa879"
+   }
+  },
+  {
+   "card": "Ashling the Pilgrim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashling the Pilgrim",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:3fc62f86db58"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:b9fb6f292ef0"
+   }
+  },
+  {
+   "card": "Helm of the Host",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of the Host",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:ad456c352c3f"
+   }
+  },
+  {
+   "card": "Hidetsugu Consumes All // Vessel of the All-Consuming",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hidetsugu Consumes All // Vessel of the All-Consuming",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:bfabd52cdc90"
+   }
+  },
+  {
+   "card": "Graven Cairns",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Graven Cairns",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:93e7daa4de18"
+   }
+  },
+  {
+   "card": "Cover of Darkness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cover of Darkness",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:f96f9c40c744"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:dd7a8e669df9"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:b44f6f4066c6"
+   }
+  },
+  {
+   "card": "Charcoal Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Charcoal Diamond",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:a777c4080834"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:2339d9925a43"
+   }
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:02c7259aed29"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:47927134f31d"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:5f643d53f50a"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:160fd63234e8"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:d33934a83863"
+   }
+  },
+  {
+   "card": "Alena, Kessig Trapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:a93d5bdb09c2"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:b5920514148a"
+   }
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Jeska's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:8e11506b0b83"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:e80887532f35"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Parun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Parun",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:ba58072e6a4b"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:79e3f4c299f9"
+   }
+  },
+  {
+   "card": "Bloodletter of Aclazotz",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Goblin Welder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Wound Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wound Reflection",
+       "cut": "Curiosity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039",
+         "900-3750"
+        ]
+       },
+       "add": "Wound Reflection",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:aae417b84820"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:0560b6b63e21"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Archfiend of Despair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Rapid Hybridization"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Hatred"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:5d6413242cb5"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:4368c9b6a8ea"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, the Firemind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Psychotic Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:87dd65a41f65"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:37381e6830ee"
+   }
+  },
+  {
+   "card": "Time Sieve",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "The Ozolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Blackblade Reforged"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:c2d7fcffa751"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:ae808491abb2"
+   }
+  },
+  {
+   "card": "Marrow-Gnawer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:9d6bc76c5953"
+   }
+  },
+  {
+   "card": "Magic Damper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magic Damper",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:668aad6f9cb0"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Rapid Hybridization"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:af5ece6a0f3b"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Curiosity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039",
+         "900-3750"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Aggravated Assault"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:garza-zol-plague-queen:m5:2e4798c85b52"
+    },
+    "swap": "swap:garza-zol-plague-queen:m5:701d0ebdc3f3"
+   }
+  },
+  {
+   "card": "Countersquall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  }
+ ],
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "slug": "garza-zol-plague-queen",
+ "swaps": [
+  {
+   "adds": [
+    "Blood Tyrant"
+   ],
+   "cuts": [
+    "Slip Out the Back"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:54381c9910bb"
+  },
+  {
+   "adds": [
+    "Blood Tyrant"
+   ],
+   "cuts": [
+    "Tarrian's Soulcleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:0907e3c45ece"
+  },
+  {
+   "adds": [
+    "Olivia Voldaren"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2da172844da3"
+  },
+  {
+   "adds": [
+    "Cordial Vampire"
+   ],
+   "cuts": [
+    "Slip Out the Back"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:f86bea42109c"
+  },
+  {
+   "adds": [
+    "Cordial Vampire"
+   ],
+   "cuts": [
+    "Tarrian's Soulcleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6edb3bd0b20c"
+  },
+  {
+   "adds": [
+    "Necropolis Regent"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:768ebfd3548f"
+  },
+  {
+   "adds": [
+    "Necropolis Regent"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:566e84dc4dc8"
+  },
+  {
+   "adds": [
+    "Rakish Heir"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:866a06dc7804"
+  },
+  {
+   "adds": [
+    "Rakish Heir"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:0bcbb228da6a"
+  },
+  {
+   "adds": [
+    "Voldaren Estate"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:7dc1810e291a"
+  },
+  {
+   "adds": [
+    "Nibelheim Aflame"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:46afc5b73cfb"
+  },
+  {
+   "adds": [
+    "Nibelheim Aflame"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b96e9bdf4536"
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:8f3fb39b085b"
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:896b8ef46d4c"
+  },
+  {
+   "adds": [
+    "Stensia Masquerade"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:aee937a96891"
+  },
+  {
+   "adds": [
+    "Stensia Masquerade"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a0366375e96c"
+  },
+  {
+   "adds": [
+    "Patron of the Vein"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6981280fe0ef"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e9c54935c62f"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Rogue's Passage"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:8c296d56584a"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:62499f8d8688"
+  },
+  {
+   "adds": [
+    "Vampire Socialite"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:908fead39896"
+  },
+  {
+   "adds": [
+    "Vampire Socialite"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6ba1c20cc3ce"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:bbd4ff536a6d"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Rogue's Passage"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a964a05c66b1"
+  },
+  {
+   "adds": [
+    "Unscythe, Killer of Kings"
+   ],
+   "cuts": [
+    "The Ozolith"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:fb8e80ede1ff"
+  },
+  {
+   "adds": [
+    "Unscythe, Killer of Kings"
+   ],
+   "cuts": [
+    "Blackblade Reforged"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:c584403d17d4"
+  },
+  {
+   "adds": [
+    "Olivia, Crimson Bride"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:f0d5413df1ee"
+  },
+  {
+   "adds": [
+    "Olivia, Crimson Bride"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a22e781a460d"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:beffe906422a"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:932c4db44d7f"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:dbfcfd386e41"
+  },
+  {
+   "adds": [
+    "Bloodlord of Vaasgoth"
+   ],
+   "cuts": [
+    "Slip Out the Back"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:55a4e1d9705a"
+  },
+  {
+   "adds": [
+    "Mask of Riddles"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:566ceb9a3794"
+  },
+  {
+   "adds": [
+    "Mask of Riddles"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:34da10b42f9a"
+  },
+  {
+   "adds": [
+    "Vorpal Sword"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:cb287bd18acf"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:7b43e38aa7cd"
+  },
+  {
+   "adds": [
+    "Markov Blademaster"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a4c05ff618be"
+  },
+  {
+   "adds": [
+    "Viridian Longbow"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:aeed1cd94009"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:f2e86943ec52"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:049c972883cd"
+  },
+  {
+   "adds": [
+    "Zagras, Thief of Heartbeats"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:dc42e85bb8c5"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:54594a1fa6b1"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b66dfb46ef1e"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:cf6f8df13e9a"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e6dd31d2b19e"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:ab11f6099cc6"
+  },
+  {
+   "adds": [
+    "Kazarov, Sengir Pureblood"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2c6bdd5f05e7"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b11d1db465a1"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6f45863ed421"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2aaf91ad67b6"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:3f92a516d6d6"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:8a37b0174283"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:cc7bc416f278"
+  },
+  {
+   "adds": [
+    "Glass-Cast Heart"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:333a99a7628a"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:34e51cd8d49f"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:1230687d47d1"
+  },
+  {
+   "adds": [
+    "Sengir Vampire"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:be44a16037d6"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:c2ac692c8f49"
+  },
+  {
+   "adds": [
+    "Vein Drinker"
+   ],
+   "cuts": [
+    "Slip Out the Back"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:99420a752774"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:3d2c5c502faa"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:5026cfb596d5"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6815882a2559"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:d5210a01a67c"
+  },
+  {
+   "adds": [
+    "Mephidross Vampire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e3d8d635c300"
+  },
+  {
+   "adds": [
+    "Sengir, the Dark Baron"
+   ],
+   "cuts": [
+    "Slip Out the Back"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b6ed27a91d6b"
+  },
+  {
+   "adds": [
+    "Captivating Vampire"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6cd75edc6723"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2659ee5036c6"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:59126787da13"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:99164264daea"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:3b3039f7b1c9"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:97edd07b6475"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:16ad40e04d0e"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:5bacf09bfc81"
+  },
+  {
+   "adds": [
+    "Barren Moor"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:c65d1d515c42"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:49386a23c921"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:bcdbd1bbf6df"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e7f766b1ce37"
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:f57bb2288492"
+  },
+  {
+   "adds": [
+    "Triskelion"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:d821948834fe"
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2fd821d0cd6e"
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:90698158eb25"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:ac1c16dafb84"
+  },
+  {
+   "adds": [
+    "Warlock Class"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:711c8a7234c3"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:4afd286a7261"
+  },
+  {
+   "adds": [
+    "Drana, the Last Bloodchief"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:8160f2073846"
+  },
+  {
+   "adds": [
+    "Lonely Sandbar"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:39bb574e2351"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:7836baaf325c"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b085859ed116"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e3fc869d06a9"
+  },
+  {
+   "adds": [
+    "Qarsi Revenant"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:bf106284c9a2"
+  },
+  {
+   "adds": [
+    "Hell's Caretaker"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:f2194066a4f8"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:353548868e4d"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:4996fa677358"
+  },
+  {
+   "adds": [
+    "Bloodline Necromancer"
+   ],
+   "cuts": [
+    "Mask of Memory"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6190b767593e"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:7acaab5a71da"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Brotherhood Regalia"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:ac963ba4cfe6"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e2b2ccf98925"
+  },
+  {
+   "adds": [
+    "Grixis Panorama"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:7839d20744a7"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a2ea39c07d7d"
+  },
+  {
+   "adds": [
+    "Kamahl, Pit Fighter"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:c03c643ca61a"
+  },
+  {
+   "adds": [
+    "Bloodline Bidding"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:6ff82b9d8fcd"
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:bd4c2f00a861"
+  },
+  {
+   "adds": [
+    "Strefan, Maurer Progenitor"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:bd0d6100aa24"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:5a439fe97d5c"
+  },
+  {
+   "adds": [
+    "Burning Anger"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:0f93fad150a2"
+  },
+  {
+   "adds": [
+    "Mirko Vosk, Mind Drinker"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e40ca0f823e1"
+  },
+  {
+   "adds": [
+    "Vampiric Dragon"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:c42ed1f3d9b8"
+  },
+  {
+   "adds": [
+    "Indulgent Aristocrat"
+   ],
+   "cuts": [
+    "Slip Out the Back"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:0c7849efa879"
+  },
+  {
+   "adds": [
+    "Ashling the Pilgrim"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:3fc62f86db58"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b9fb6f292ef0"
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:ad456c352c3f"
+  },
+  {
+   "adds": [
+    "Hidetsugu Consumes All // Vessel of the All-Consuming"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:bfabd52cdc90"
+  },
+  {
+   "adds": [
+    "Graven Cairns"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:93e7daa4de18"
+  },
+  {
+   "adds": [
+    "Cover of Darkness"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:f96f9c40c744"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:dd7a8e669df9"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b44f6f4066c6"
+  },
+  {
+   "adds": [
+    "Charcoal Diamond"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a777c4080834"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2339d9925a43"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:47927134f31d"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:02c7259aed29"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:5f643d53f50a"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:d33934a83863"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:160fd63234e8"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:b5920514148a"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:a93d5bdb09c2"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:e80887532f35"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:8e11506b0b83"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:79e3f4c299f9"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:ba58072e6a4b"
+  },
+  {
+   "adds": [
+    "Wound Reflection"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:0560b6b63e21"
+  },
+  {
+   "adds": [
+    "Wound Reflection"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:aae417b84820"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:4368c9b6a8ea"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Hatred"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:5d6413242cb5"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:37381e6830ee"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Psychotic Fury"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:87dd65a41f65"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "The Ozolith"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:ae808491abb2"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Blackblade Reforged"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:c2d7fcffa751"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:9d6bc76c5953"
+  },
+  {
+   "adds": [
+    "Magic Damper"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:668aad6f9cb0"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Rapid Hybridization"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:af5ece6a0f3b"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:701d0ebdc3f3"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Aggravated Assault"
+   ],
+   "id": "swap:garza-zol-plague-queen:m5:2e4798c85b52"
+  }
+ ]
+}

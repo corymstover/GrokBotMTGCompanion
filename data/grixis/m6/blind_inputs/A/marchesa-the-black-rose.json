@@ -1,0 +1,9099 @@
+{
+ "candidates": [
+  {
+   "card": "Herald of Secret Streams",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Herald of Secret Streams",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:b556cf59069d"
+   }
+  },
+  {
+   "card": "Drana, Liberator of Malakir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drana, Liberator of Malakir",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:01d03bde413e"
+   }
+  },
+  {
+   "card": "Fain, the Broker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fain, the Broker",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Fain, the Broker",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:6057ec26dc52"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:3670e1356d41"
+   }
+  },
+  {
+   "card": "Juri, Master of the Revue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Juri, Master of the Revue",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Juri, Master of the Revue",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:8357501d112b"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:0f92fcc525c8"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Deadly Dispute"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:cac1bffac547"
+   }
+  },
+  {
+   "card": "Opal Palace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opal Palace",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:239650e0cb80"
+   }
+  },
+  {
+   "card": "Thundering Raiju",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Raiju",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:3d784036b935"
+   }
+  },
+  {
+   "card": "Mark of Mutiny",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mark of Mutiny",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:32e5bec10df4"
+   }
+  },
+  {
+   "card": "Bloodflow Connoisseur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodflow Connoisseur",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Bloodflow Connoisseur",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e15ecc5e4ec3"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c3b3ac0abaa8"
+   }
+  },
+  {
+   "card": "Alesha, Who Laughs at Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alesha, Who Laughs at Fate",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f3f768032bf4"
+   }
+  },
+  {
+   "card": "Zealous Conscripts",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zealous Conscripts",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:2e67f20594b9"
+   }
+  },
+  {
+   "card": "Umbral Collar Zealot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Umbral Collar Zealot",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Umbral Collar Zealot",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4c84ded148f6"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:aa3825d6e39b"
+   }
+  },
+  {
+   "card": "Bloodtracker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodtracker",
+       "cut": "Braids, Arisen Nightmare"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:adbd9c686e36"
+   }
+  },
+  {
+   "card": "Mahadi, Emporium Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:78434ad3cce4"
+   }
+  },
+  {
+   "card": "Mob Rule",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Guildmages' Forum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guildmages' Forum",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:532cbb564573"
+   }
+  },
+  {
+   "card": "Feast on the Fallen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast on the Fallen",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f580e1b1e677"
+   }
+  },
+  {
+   "card": "Chasm Skulker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chasm Skulker",
+       "cut": "Braids, Arisen Nightmare"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:611d1cdcbb90"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Flare of Denial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:1ff1bd73544e"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Deadly Dispute"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:53437c9655bc"
+   }
+  },
+  {
+   "card": "Voldaren Thrillseeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voldaren Thrillseeker",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:878d5eefb63a"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:35459413be01"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:990cf9e9305e"
+   }
+  },
+  {
+   "card": "Grave Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "First Day of Class",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "First Day of Class",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "First Day of Class",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:a7a67d97e244"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d3883ee03e25"
+   }
+  },
+  {
+   "card": "Immersturm Predator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Immersturm Predator",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4258f521d4e8"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d6dac9da3e9a"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Deadly Dispute"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:73e52740b0f9"
+   }
+  },
+  {
+   "card": "Dack's Duplicate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:681a3ac19d7a"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7c807a62cd36"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8794214dfb4d"
+   }
+  },
+  {
+   "card": "Cytoplast Manipulator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cytoplast Manipulator",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f663dfbfa0a4"
+   }
+  },
+  {
+   "card": "Gisa, Glorious Resurrector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f54a199048de"
+   }
+  },
+  {
+   "card": "Spymaster's Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spymaster's Vault",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:6977ae6a2470"
+   }
+  },
+  {
+   "card": "Midnight Reaper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Siren Stormtamer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siren Stormtamer",
+       "cut": "Flare of Denial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:65d1decc1e20"
+   }
+  },
+  {
+   "card": "Big Mother Mouser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Village Rites",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Village Rites",
+       "cut": "Braids, Arisen Nightmare"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d0d17e108cdf"
+   }
+  },
+  {
+   "card": "Smaug the Impenetrable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smaug the Impenetrable",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Smaug the Impenetrable",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9921f7833a40"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f6bc9c10e5f8"
+   }
+  },
+  {
+   "card": "Tombstone Stairwell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tombstone Stairwell",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:bb62da601f01"
+   }
+  },
+  {
+   "card": "Captivating Crew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Flare of Denial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5c5799691863"
+   }
+  },
+  {
+   "card": "Walking Ballista",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Walking Ballista",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Walking Ballista",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:571923157e02"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:59c89ac5f41d"
+   }
+  },
+  {
+   "card": "Hammerhead, Maggia Boss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hammerhead, Maggia Boss",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Hammerhead, Maggia Boss",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:5f9c8c0771be"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7b5a610627cb"
+   }
+  },
+  {
+   "card": "Tyrite Sanctum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tyrite Sanctum",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:da04c79ad669"
+   }
+  },
+  {
+   "card": "Gravecrawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gravecrawler",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Gravecrawler",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:7894afdcda3c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5ae5612ee578"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:ad2e59372b6d"
+   }
+  },
+  {
+   "card": "Reassembling Skeleton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reassembling Skeleton",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Reassembling Skeleton",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:92c7d713c99c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:baa8b14cc041"
+   }
+  },
+  {
+   "card": "Nesting Grounds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nesting Grounds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f55a945bb90f"
+   }
+  },
+  {
+   "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9f8419cfd1d7"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:b919f101de30"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9f34856c6ae9"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:3a9da5a23010"
+   }
+  },
+  {
+   "card": "Woe Strider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Woe Strider",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Woe Strider",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4d50c7e8b8d4"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e2bb01604e5b"
+   }
+  },
+  {
+   "card": "The Locust God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1123-2034-4866",
+         "628-2034-4866"
+        ]
+       },
+       "add": "The Locust God",
+       "cut": "Sage of Fables"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:a159fd9be8f2"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:b7f26a570b5a"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Mindskinner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mindskinner",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "The Mindskinner",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:77f75821a5f7"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:1b9d068d6581"
+   }
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:28e53f32d443"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:2b0e1aca42d3"
+   }
+  },
+  {
+   "card": "Forsaken Miner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forsaken Miner",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Forsaken Miner",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:11b7b40fbe9b"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:ea03a4f50e54"
+   }
+  },
+  {
+   "card": "Blade of the Bloodchief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blade of the Bloodchief",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Blade of the Bloodchief",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:fb660683b8bf"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:af4906489891"
+   }
+  },
+  {
+   "card": "Crystalline Crawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crystalline Crawler",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Crystalline Crawler",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:2eee7484d231"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:888c77b04f66"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7a132d2f43d3"
+   }
+  },
+  {
+   "card": "Golgari Thug",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Golgari Thug",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Golgari Thug",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:b3da5707595d"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:81961dcc9ec7"
+   }
+  },
+  {
+   "card": "Nim Deathmantle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nim Deathmantle",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Nim Deathmantle",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:ed43d46fe2e5"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c6fb5157dc21"
+   }
+  },
+  {
+   "card": "Plague Belcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plague Belcher",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Plague Belcher",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:8641aaaf8b81"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5f528dce5fda"
+   }
+  },
+  {
+   "card": "Animation Module",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animation Module",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Animation Module",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:f6f567dec198"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8318b9cc0b82"
+   }
+  },
+  {
+   "card": "Bloodsoaked Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:851457f8a007"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:b34d697313b2"
+   }
+  },
+  {
+   "card": "Spawning Pit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawning Pit",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5256--5",
+         "3020-3908-5256",
+         "345-5256--5",
+         "5256-5805--5",
+         "5256-5961--5",
+         "628-5256--5"
+        ]
+       },
+       "add": "Spawning Pit",
+       "cut": "Altar of Dementia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:647fe3866581"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:bfff9f5cc129"
+   }
+  },
+  {
+   "card": "Triskelion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Triskelion",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Triskelion",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9a97408509dd"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:52bd442444dd"
+   }
+  },
+  {
+   "card": "Fumulus, the Infestation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fumulus, the Infestation",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Fumulus, the Infestation",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:d3563df8a93c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:545f6986ae68"
+   }
+  },
+  {
+   "card": "Grimgrin, Corpse-Born",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grimgrin, Corpse-Born",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Grimgrin, Corpse-Born",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9745c5e74a32"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c2cfa7f48c4d"
+   }
+  },
+  {
+   "card": "Oathsworn Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathsworn Vampire",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Oathsworn Vampire",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:7f3ec3437084"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f16cb0c3c317"
+   }
+  },
+  {
+   "card": "Retribution of the Ancients",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retribution of the Ancients",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Retribution of the Ancients",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:f5664506cf25"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7033aa61d456"
+   }
+  },
+  {
+   "card": "Cryptic Trilobite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptic Trilobite",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Cryptic Trilobite",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4f41334c1b09"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7d8aceb55b2c"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:03dd5630ed1b"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:cb2de87acc5b"
+   }
+  },
+  {
+   "card": "Liliana, Untouched by Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana, Untouched by Death",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Liliana, Untouched by Death",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:de4997b8c6bb"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:30547ec7b931"
+   }
+  },
+  {
+   "card": "Dictate of Erebos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dictate of Erebos",
+       "cut": "Sneak Attack"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:ac6f9af05947"
+   }
+  },
+  {
+   "card": "Evereth, Viceroy of Plunder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evereth, Viceroy of Plunder",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Evereth, Viceroy of Plunder",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:f153f228c9ac"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:1b8f2819c99e"
+   }
+  },
+  {
+   "card": "Cult Conscript",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cult Conscript",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Cult Conscript",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:ace0d53fb507"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:9963647961a1"
+   }
+  },
+  {
+   "card": "Lesser Masticore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lesser Masticore",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Lesser Masticore",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:394867236b16"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:29ffecd51f47"
+   }
+  },
+  {
+   "card": "Moonshadow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Moonshadow",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Moonshadow",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:bc1eabd5dd49"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e4ebd3102df7"
+   }
+  },
+  {
+   "card": "Krenko, Baron of Tin Street",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krenko, Baron of Tin Street",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Krenko, Baron of Tin Street",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:dd4abb1f2042"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:58215b35c1d0"
+   }
+  },
+  {
+   "card": "Hexavus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hexavus",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Hexavus",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:5625931a537e"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:0fbc1ce3931e"
+   }
+  },
+  {
+   "card": "Flitterwing Nuisance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flitterwing Nuisance",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Flitterwing Nuisance",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:07cef6770c8c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:bf6dc406be58"
+   }
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Omarthis, Ghostfire Initiate",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9af80a4fa99a"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:a98fc6b145f3"
+   }
+  },
+  {
+   "card": "Mm'menon, Uthros Exile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mm'menon, Uthros Exile",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Mm'menon, Uthros Exile",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:6a369fc0d8ab"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4897d87a4a44"
+   }
+  },
+  {
+   "card": "Rat King, Pale Piper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rat King, Pale Piper",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1123-2034-4866",
+         "628-2034-4866"
+        ]
+       },
+       "add": "Rat King, Pale Piper",
+       "cut": "Sage of Fables"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:c2193d0f0da9"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:376bcfb0bc34"
+   }
+  },
+  {
+   "card": "Haunt of the Dead Marshes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunt of the Dead Marshes",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Haunt of the Dead Marshes",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:d32a0ef9dec0"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:18825eea324b"
+   }
+  },
+  {
+   "card": "Garna, the Bloodflame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Garna, the Bloodflame",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Garna, the Bloodflame",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9dc7043a3bdc"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c575657aea2a"
+   }
+  },
+  {
+   "card": "Skittering Precursor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skittering Precursor",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Skittering Precursor",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:89d401f2e5c2"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e65001f3a4bf"
+   }
+  },
+  {
+   "card": "Thermopod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thermopod",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Thermopod",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9b9718071555"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8b9feb256812"
+   }
+  },
+  {
+   "card": "Ozox, the Clattering King",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ozox, the Clattering King",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Ozox, the Clattering King",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:0d0e0da4470e"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:a1bfb03f4bb3"
+   }
+  },
+  {
+   "card": "Olivia, Mobilized for War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia, Mobilized for War",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Olivia, Mobilized for War",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:159efd55c022"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:47350e78bc6d"
+   }
+  },
+  {
+   "card": "Joo Dee, One of Many",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Joo Dee, One of Many",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Joo Dee, One of Many",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e10de6124cb0"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d3b0fb1ac8eb"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:30c67043109d"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:80b7d390a569"
+   }
+  },
+  {
+   "card": "Phantom Train",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phantom Train",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Phantom Train",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:00a1c1da8464"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:6e7ca55f154e"
+   }
+  },
+  {
+   "card": "Razorlash Transmogrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Razorlash Transmogrant",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Razorlash Transmogrant",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:92b602a6d062"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:a8fff8861df2"
+   }
+  },
+  {
+   "card": "Scuttletide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scuttletide",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Scuttletide",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:14f8b8bbd51d"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f29040da976f"
+   }
+  },
+  {
+   "card": "Deathbringer Thoctar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deathbringer Thoctar",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Deathbringer Thoctar",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:94f669eede55"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:55f1cb7d7774"
+   }
+  },
+  {
+   "card": "Undead Sprinter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undead Sprinter",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Undead Sprinter",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:b5e37fb734d9"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c592993aa41a"
+   }
+  },
+  {
+   "card": "Workhorse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Workhorse",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Workhorse",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:cd89715aee38"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:9dfc77c24f91"
+   }
+  },
+  {
+   "card": "Marang River Prowler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marang River Prowler",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Marang River Prowler",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:a80ef465dd7a"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:95c50a569e6c"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f58c92273308"
+   }
+  },
+  {
+   "card": "Young Necromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Young Necromancer",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Young Necromancer",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:05f65b03b0ce"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:71ed34aef0b1"
+   }
+  },
+  {
+   "card": "Heirloom Auntie",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heirloom Auntie",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Heirloom Auntie",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:85106a2c0a74"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f3207d0ca78e"
+   }
+  },
+  {
+   "card": "Karn's Bastion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karn's Bastion",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:af34827b14e0"
+   }
+  },
+  {
+   "card": "Bridge from Below",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bridge from Below",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2034-3607-3908"
+        ]
+       },
+       "add": "Bridge from Below",
+       "cut": "River Kelpie"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4602d734a029"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7c53cd1c184e"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e35b13e1b880"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:07f950170531"
+   }
+  },
+  {
+   "card": "Essence Capture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Capture",
+       "cut": "Flare of Denial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:9bce94a16013"
+   }
+  },
+  {
+   "card": "Immortal Phoenix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Immortal Phoenix",
+       "cut": "Danny Pink"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3020-3908-5256"
+        ]
+       },
+       "add": "Immortal Phoenix",
+       "cut": "Puppeteer Clique"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:53566d86ddb6"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8d4a33a61a66"
+   }
+  },
+  {
+   "card": "Monoskelion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monoskelion",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Monoskelion",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:255a6f92603e"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:06f1f15e9e4b"
+   }
+  },
+  {
+   "card": "Magus of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Bridge",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2034-3607-3908"
+        ]
+       },
+       "add": "Magus of the Bridge",
+       "cut": "River Kelpie"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:dfa96ccc526f"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4030fe675434"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Zodiac Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zodiac Dragon",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Zodiac Dragon",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:dd385c107303"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4aa2c8109bad"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Agatha's Soul Cauldron"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:5e3ef8363813"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:0675a8404337"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:06dbd8d69663"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c0a09c402060"
+   }
+  },
+  {
+   "card": "Accursed Marauder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Accursed Marauder",
+       "cut": "Braids, Arisen Nightmare"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:6680ca6bd6b6"
+   }
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dauthi Voidwalker",
+       "cut": "Braids, Arisen Nightmare"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:3efaa6865f19"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:01dcfa8018b7"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:09f6cfebf79f"
+   }
+  },
+  {
+   "card": "Vigean Graftmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vigean Graftmage",
+       "cut": "Danny Pink"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:2a568ade3aec"
+   }
+  },
+  {
+   "card": "Plaguecrafter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Mayhem Devil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:681feea195e9"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5febf57aabe3"
+   }
+  },
+  {
+   "card": "Darksteel Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Angel",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Darksteel Angel",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:9bcdae9b2cf0"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c9b72553c1ef"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:81b14ccef72d"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:17ae31bee776"
+   }
+  },
+  {
+   "card": "Draconic Visitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Draconic Visitor",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Draconic Visitor",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:bc8c761b4271"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e6ea8a477085"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:ba5f0d8cb669"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5e3656b327a2"
+   }
+  },
+  {
+   "card": "Ayara, First of Locthwain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ayara, First of Locthwain",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1123-2034-4866",
+         "628-2034-4866"
+        ]
+       },
+       "add": "Ayara, First of Locthwain",
+       "cut": "Sage of Fables"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:a03962debdf8"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:0730d400c409"
+   }
+  },
+  {
+   "card": "Rite of Replication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Replication",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e96728f1af24"
+   }
+  },
+  {
+   "card": "Pawn of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pawn of Ulamog",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Pawn of Ulamog",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:f79952567bea"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:704146af8aea"
+   }
+  },
+  {
+   "card": "Stridehangar Automaton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stridehangar Automaton",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Stridehangar Automaton",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:004448b6cdcf"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:bfb94dd5563e"
+   }
+  },
+  {
+   "card": "Ogre Slumlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ogre Slumlord",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Ogre Slumlord",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:6a70ba4e735c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:fbb2f6482378"
+   }
+  },
+  {
+   "card": "Falkenrath Noble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Falkenrath Noble",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Falkenrath Noble",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:440bda8cb67d"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:9c5ac8f8d794"
+   }
+  },
+  {
+   "card": "Kokusho, the Evening Star",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kokusho, the Evening Star",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Kokusho, the Evening Star",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:d6bf9819229e"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f093859653aa"
+   }
+  },
+  {
+   "card": "Pashalik Mons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pashalik Mons",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Pashalik Mons",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:cc7381afc496"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:1e679f8098d4"
+   }
+  },
+  {
+   "card": "Vein Ripper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vein Ripper",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Vein Ripper",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:bdb6ce3977bc"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5220ac90d1d5"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Sneak Attack"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Repercussion",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:902b7a9861f4"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:ada964de4a87"
+   }
+  },
+  {
+   "card": "Blasting Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasting Station",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Blasting Station",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:364f07effac9"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8da3a8089ac8"
+   }
+  },
+  {
+   "card": "Nest of Scarabs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nest of Scarabs",
+       "cut": "Sneak Attack"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Nest of Scarabs",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:28623fa6d65c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8699e993d8a8"
+   }
+  },
+  {
+   "card": "Sifter of Skulls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sifter of Skulls",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Sifter of Skulls",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:3898e2ba25ec"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4325ae458c1d"
+   }
+  },
+  {
+   "card": "Putrid Goblin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Putrid Goblin",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Putrid Goblin",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:c721d3a4285b"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:903584d99853"
+   }
+  },
+  {
+   "card": "Open the Graves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Open the Graves",
+       "cut": "Sneak Attack"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Open the Graves",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:3d64c2ec848d"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:089419ea1f4f"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:33210d4a2f15"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:87654217779a"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Mayhem Devil"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:aff3238892ef"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:f0603109c023"
+   }
+  },
+  {
+   "card": "Carnifex Demon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carnifex Demon",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Carnifex Demon",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:8f8e36ad7711"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:88ea9f42b9c4"
+   }
+  },
+  {
+   "card": "Silverclad Ferocidons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silverclad Ferocidons",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Silverclad Ferocidons",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:41dc92d5b03b"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:30863cea7bef"
+   }
+  },
+  {
+   "card": "Glen Elendra Guardian",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glen Elendra Guardian",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Glen Elendra Guardian",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:15d079d964f6"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:00c1a4f85ad0"
+   }
+  },
+  {
+   "card": "Hex Parasite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hex Parasite",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Hex Parasite",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:45622415afcb"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:c048a498f1b4"
+   }
+  },
+  {
+   "card": "Havengul Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Havengul Lich",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Havengul Lich",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e5f2f468a9aa"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:25913e520166"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:8b6e6b5b4d92"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4903485c1c5d"
+   }
+  },
+  {
+   "card": "Magmatic Galleon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmatic Galleon",
+       "cut": "Deadly Dispute"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Magmatic Galleon",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:1debd433bde1"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:16a06b24aeed"
+   }
+  },
+  {
+   "card": "Palinchron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Palinchron",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:f838595b2a23"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:db71c1dcab32"
+   }
+  },
+  {
+   "card": "Grim Poppet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grim Poppet",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Grim Poppet",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:305aff10118a"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:34022a41ab7a"
+   }
+  },
+  {
+   "card": "Bloodthrone Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthrone Vampire",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Bloodthrone Vampire",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:fb6cedd91956"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e61dbd264470"
+   }
+  },
+  {
+   "card": "Totentanz, Swarm Piper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Totentanz, Swarm Piper",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Totentanz, Swarm Piper",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e9c598fb2575"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d1a1fbf4bb83"
+   }
+  },
+  {
+   "card": "Missy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Missy",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Missy",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:088d94126cad"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5d6061b1dd99"
+   }
+  },
+  {
+   "card": "Glitch Interpreter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glitch Interpreter",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Glitch Interpreter",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:ac40dc4a0e3e"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5bfd9e474069"
+   }
+  },
+  {
+   "card": "Oathkeeper, Takeno's Daisho",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5256--5",
+         "3020-3908-5256",
+         "345-5256--5",
+         "5256-5805--5",
+         "5256-5961--5",
+         "628-5256--5"
+        ]
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Altar of Dementia"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:daa2c0b9191c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:734f5e79d96b"
+   }
+  },
+  {
+   "card": "Ashcloud Phoenix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashcloud Phoenix",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Ashcloud Phoenix",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:f58cf3ca6e95"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:1a82907a5f8d"
+   }
+  },
+  {
+   "card": "Summoning Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Summoning Station",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Summoning Station",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:0db1187cc21c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:ff4c61d3d53e"
+   }
+  },
+  {
+   "card": "Tenacious Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tenacious Dead",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Tenacious Dead",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:101dc0875127"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d225067774bf"
+   }
+  },
+  {
+   "card": "Raptor Hatchling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e29afa567fe8"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d70c813afeb0"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:1267b1ca9c93"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:89c27dc77b6a"
+   }
+  },
+  {
+   "card": "March of the Machines",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Sneak Attack"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2131-5147--5",
+         "345-5147--5",
+         "5147-5805--5",
+         "5147-5961--5",
+         "628-5147--5"
+        ]
+       },
+       "add": "March of the Machines",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:6fbbfcccb2b3"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:97e23f888568"
+   }
+  },
+  {
+   "card": "Loch Mare",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loch Mare",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Loch Mare",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:d816f32bfcb3"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:4cf067b04c9a"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:dde9741cb25a"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:9288f0cf753a"
+   }
+  },
+  {
+   "card": "Dross Harvester",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dross Harvester",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Dross Harvester",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:af1a33af2aeb"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:9d6782feff28"
+   }
+  },
+  {
+   "card": "Creakwood Safewright",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creakwood Safewright",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Creakwood Safewright",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:75ca84b1ebcf"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:a5f86e663854"
+   }
+  },
+  {
+   "card": "Cinderhaze Wretch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cinderhaze Wretch",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Cinderhaze Wretch",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:e272c2f8ff39"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:561d3f70a577"
+   }
+  },
+  {
+   "card": "Slick Imitator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slick Imitator",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Slick Imitator",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:63a475f67e45"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:abaab0165bdd"
+   }
+  },
+  {
+   "card": "Inquisitive Puppet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inquisitive Puppet",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "628-2842-5670--5"
+        ]
+       },
+       "add": "Inquisitive Puppet",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:cd89da459c02"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:8b07bcc0d194"
+   }
+  },
+  {
+   "card": "Phenomenon Investigators",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phenomenon Investigators",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1123-2034-4866",
+         "628-2034-4866"
+        ]
+       },
+       "add": "Phenomenon Investigators",
+       "cut": "Sage of Fables"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:85b05db253e1"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:e1ae8ae73f55"
+   }
+  },
+  {
+   "card": "Dream Seizer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Seizer",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Dream Seizer",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4e7f3e2f24d6"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:786b806a0cfb"
+   }
+  },
+  {
+   "card": "Sway of the Stars",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sway of the Stars",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "328-628-4279"
+        ]
+       },
+       "add": "Sway of the Stars",
+       "cut": "Yawgmoth, Thran Physician"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:8a0e7729497c"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:3ff4a9d7fa35"
+   }
+  },
+  {
+   "card": "Chaos Spewer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Spewer",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Chaos Spewer",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:a980ed537ad5"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:6e79bc8df7b1"
+   }
+  },
+  {
+   "card": "Chainbreaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chainbreaker",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Chainbreaker",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:6b7f7ad27c0f"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:7e5391a7a5f2"
+   }
+  },
+  {
+   "card": "Antler Skulkin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Antler Skulkin",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Antler Skulkin",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:d8dd4b8d942f"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:26500c4cbec9"
+   }
+  },
+  {
+   "card": "Tatterkite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tatterkite",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Tatterkite",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:ddf4db3ec538"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:b4a3346386da"
+   }
+  },
+  {
+   "card": "The Master, Formed Anew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Formed Anew",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "The Master, Formed Anew",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:a208889fda43"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:27ae5d7d069f"
+   }
+  },
+  {
+   "card": "Soulstinger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soulstinger",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Soulstinger",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:51c98268c9b4"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:07c0dc85f90e"
+   }
+  },
+  {
+   "card": "Gnarlbark Elm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gnarlbark Elm",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Gnarlbark Elm",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4b739905e1d3"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:d06ce934446f"
+   }
+  },
+  {
+   "card": "Shivan Phoenix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Phoenix",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Shivan Phoenix",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:4372852ea272"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:68d20eafb68b"
+   }
+  },
+  {
+   "card": "Pith Driller",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pith Driller",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Pith Driller",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:66b3e6403019"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:5b20cca42804"
+   }
+  },
+  {
+   "card": "Firestorm Phoenix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firestorm Phoenix",
+       "cut": "Braids, Arisen Nightmare"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "345-1657",
+         "345-1657-2292",
+         "345-2034--5",
+         "345-2292--5",
+         "345-2438--5",
+         "345-3967--5",
+         "345-4050--5",
+         "345-5147--5",
+         "345-5256--5"
+        ]
+       },
+       "add": "Firestorm Phoenix",
+       "cut": "Metallic Mimic"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-the-black-rose:m5:c8aa5bad85bb"
+    },
+    "swap": "swap:marchesa-the-black-rose:m5:96a0d56981e5"
+   }
+  }
+ ],
+ "deck_id": "Marchesa__the_Black_Rose",
+ "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "slug": "marchesa-the-black-rose",
+ "swaps": [
+  {
+   "adds": [
+    "Herald of Secret Streams"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b556cf59069d"
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:01d03bde413e"
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3670e1356d41"
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6057ec26dc52"
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0f92fcc525c8"
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8357501d112b"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cac1bffac547"
+  },
+  {
+   "adds": [
+    "Opal Palace"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:239650e0cb80"
+  },
+  {
+   "adds": [
+    "Thundering Raiju"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3d784036b935"
+  },
+  {
+   "adds": [
+    "Mark of Mutiny"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:32e5bec10df4"
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c3b3ac0abaa8"
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e15ecc5e4ec3"
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f3f768032bf4"
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2e67f20594b9"
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:aa3825d6e39b"
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4c84ded148f6"
+  },
+  {
+   "adds": [
+    "Bloodtracker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:adbd9c686e36"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:78434ad3cce4"
+  },
+  {
+   "adds": [
+    "Guildmages' Forum"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:532cbb564573"
+  },
+  {
+   "adds": [
+    "Feast on the Fallen"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f580e1b1e677"
+  },
+  {
+   "adds": [
+    "Chasm Skulker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:611d1cdcbb90"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1ff1bd73544e"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:53437c9655bc"
+  },
+  {
+   "adds": [
+    "Voldaren Thrillseeker"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:878d5eefb63a"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:35459413be01"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:990cf9e9305e"
+  },
+  {
+   "adds": [
+    "First Day of Class"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d3883ee03e25"
+  },
+  {
+   "adds": [
+    "First Day of Class"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a7a67d97e244"
+  },
+  {
+   "adds": [
+    "Immersturm Predator"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4258f521d4e8"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d6dac9da3e9a"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:73e52740b0f9"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:681a3ac19d7a"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7c807a62cd36"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8794214dfb4d"
+  },
+  {
+   "adds": [
+    "Cytoplast Manipulator"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f663dfbfa0a4"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f54a199048de"
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6977ae6a2470"
+  },
+  {
+   "adds": [
+    "Siren Stormtamer"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:65d1decc1e20"
+  },
+  {
+   "adds": [
+    "Village Rites"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d0d17e108cdf"
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f6bc9c10e5f8"
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9921f7833a40"
+  },
+  {
+   "adds": [
+    "Tombstone Stairwell"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bb62da601f01"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5c5799691863"
+  },
+  {
+   "adds": [
+    "Walking Ballista"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:59c89ac5f41d"
+  },
+  {
+   "adds": [
+    "Walking Ballista"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:571923157e02"
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7b5a610627cb"
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5f9c8c0771be"
+  },
+  {
+   "adds": [
+    "Tyrite Sanctum"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:da04c79ad669"
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5ae5612ee578"
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7894afdcda3c"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ad2e59372b6d"
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:baa8b14cc041"
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:92c7d713c99c"
+  },
+  {
+   "adds": [
+    "Nesting Grounds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f55a945bb90f"
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b919f101de30"
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9f8419cfd1d7"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3a9da5a23010"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9f34856c6ae9"
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e2bb01604e5b"
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4d50c7e8b8d4"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b7f26a570b5a"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a159fd9be8f2"
+  },
+  {
+   "adds": [
+    "The Mindskinner"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1b9d068d6581"
+  },
+  {
+   "adds": [
+    "The Mindskinner"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:77f75821a5f7"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2b0e1aca42d3"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:28e53f32d443"
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ea03a4f50e54"
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:11b7b40fbe9b"
+  },
+  {
+   "adds": [
+    "Blade of the Bloodchief"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:af4906489891"
+  },
+  {
+   "adds": [
+    "Blade of the Bloodchief"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:fb660683b8bf"
+  },
+  {
+   "adds": [
+    "Crystalline Crawler"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:888c77b04f66"
+  },
+  {
+   "adds": [
+    "Crystalline Crawler"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2eee7484d231"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7a132d2f43d3"
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:81961dcc9ec7"
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b3da5707595d"
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c6fb5157dc21"
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ed43d46fe2e5"
+  },
+  {
+   "adds": [
+    "Plague Belcher"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5f528dce5fda"
+  },
+  {
+   "adds": [
+    "Plague Belcher"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8641aaaf8b81"
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8318b9cc0b82"
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f6f567dec198"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b34d697313b2"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:851457f8a007"
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bfff9f5cc129"
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:647fe3866581"
+  },
+  {
+   "adds": [
+    "Triskelion"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:52bd442444dd"
+  },
+  {
+   "adds": [
+    "Triskelion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9a97408509dd"
+  },
+  {
+   "adds": [
+    "Fumulus, the Infestation"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:545f6986ae68"
+  },
+  {
+   "adds": [
+    "Fumulus, the Infestation"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d3563df8a93c"
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c2cfa7f48c4d"
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9745c5e74a32"
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f16cb0c3c317"
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7f3ec3437084"
+  },
+  {
+   "adds": [
+    "Retribution of the Ancients"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7033aa61d456"
+  },
+  {
+   "adds": [
+    "Retribution of the Ancients"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f5664506cf25"
+  },
+  {
+   "adds": [
+    "Cryptic Trilobite"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7d8aceb55b2c"
+  },
+  {
+   "adds": [
+    "Cryptic Trilobite"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4f41334c1b09"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cb2de87acc5b"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:03dd5630ed1b"
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:30547ec7b931"
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:de4997b8c6bb"
+  },
+  {
+   "adds": [
+    "Dictate of Erebos"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ac6f9af05947"
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1b8f2819c99e"
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f153f228c9ac"
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9963647961a1"
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ace0d53fb507"
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:29ffecd51f47"
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:394867236b16"
+  },
+  {
+   "adds": [
+    "Moonshadow"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e4ebd3102df7"
+  },
+  {
+   "adds": [
+    "Moonshadow"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bc1eabd5dd49"
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:58215b35c1d0"
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dd4abb1f2042"
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0fbc1ce3931e"
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5625931a537e"
+  },
+  {
+   "adds": [
+    "Flitterwing Nuisance"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bf6dc406be58"
+  },
+  {
+   "adds": [
+    "Flitterwing Nuisance"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:07cef6770c8c"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a98fc6b145f3"
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9af80a4fa99a"
+  },
+  {
+   "adds": [
+    "Mm'menon, Uthros Exile"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4897d87a4a44"
+  },
+  {
+   "adds": [
+    "Mm'menon, Uthros Exile"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6a369fc0d8ab"
+  },
+  {
+   "adds": [
+    "Rat King, Pale Piper"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:376bcfb0bc34"
+  },
+  {
+   "adds": [
+    "Rat King, Pale Piper"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c2193d0f0da9"
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:18825eea324b"
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d32a0ef9dec0"
+  },
+  {
+   "adds": [
+    "Garna, the Bloodflame"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c575657aea2a"
+  },
+  {
+   "adds": [
+    "Garna, the Bloodflame"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9dc7043a3bdc"
+  },
+  {
+   "adds": [
+    "Skittering Precursor"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e65001f3a4bf"
+  },
+  {
+   "adds": [
+    "Skittering Precursor"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:89d401f2e5c2"
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8b9feb256812"
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9b9718071555"
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a1bfb03f4bb3"
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0d0e0da4470e"
+  },
+  {
+   "adds": [
+    "Olivia, Mobilized for War"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:47350e78bc6d"
+  },
+  {
+   "adds": [
+    "Olivia, Mobilized for War"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:159efd55c022"
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d3b0fb1ac8eb"
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e10de6124cb0"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:80b7d390a569"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:30c67043109d"
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6e7ca55f154e"
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:00a1c1da8464"
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a8fff8861df2"
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:92b602a6d062"
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f29040da976f"
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:14f8b8bbd51d"
+  },
+  {
+   "adds": [
+    "Deathbringer Thoctar"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:55f1cb7d7774"
+  },
+  {
+   "adds": [
+    "Deathbringer Thoctar"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:94f669eede55"
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c592993aa41a"
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b5e37fb734d9"
+  },
+  {
+   "adds": [
+    "Workhorse"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9dfc77c24f91"
+  },
+  {
+   "adds": [
+    "Workhorse"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cd89715aee38"
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:95c50a569e6c"
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a80ef465dd7a"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f58c92273308"
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:71ed34aef0b1"
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:05f65b03b0ce"
+  },
+  {
+   "adds": [
+    "Heirloom Auntie"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f3207d0ca78e"
+  },
+  {
+   "adds": [
+    "Heirloom Auntie"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:85106a2c0a74"
+  },
+  {
+   "adds": [
+    "Karn's Bastion"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:af34827b14e0"
+  },
+  {
+   "adds": [
+    "Bridge from Below"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7c53cd1c184e"
+  },
+  {
+   "adds": [
+    "Bridge from Below"
+   ],
+   "cuts": [
+    "River Kelpie"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4602d734a029"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:07f950170531"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e35b13e1b880"
+  },
+  {
+   "adds": [
+    "Essence Capture"
+   ],
+   "cuts": [
+    "Flare of Denial"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9bce94a16013"
+  },
+  {
+   "adds": [
+    "Immortal Phoenix"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8d4a33a61a66"
+  },
+  {
+   "adds": [
+    "Immortal Phoenix"
+   ],
+   "cuts": [
+    "Puppeteer Clique"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:53566d86ddb6"
+  },
+  {
+   "adds": [
+    "Monoskelion"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:06f1f15e9e4b"
+  },
+  {
+   "adds": [
+    "Monoskelion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:255a6f92603e"
+  },
+  {
+   "adds": [
+    "Magus of the Bridge"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4030fe675434"
+  },
+  {
+   "adds": [
+    "Magus of the Bridge"
+   ],
+   "cuts": [
+    "River Kelpie"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dfa96ccc526f"
+  },
+  {
+   "adds": [
+    "Zodiac Dragon"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4aa2c8109bad"
+  },
+  {
+   "adds": [
+    "Zodiac Dragon"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dd385c107303"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Agatha's Soul Cauldron"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0675a8404337"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5e3ef8363813"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:06dbd8d69663"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c0a09c402060"
+  },
+  {
+   "adds": [
+    "Accursed Marauder"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6680ca6bd6b6"
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3efaa6865f19"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:01dcfa8018b7"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:09f6cfebf79f"
+  },
+  {
+   "adds": [
+    "Vigean Graftmage"
+   ],
+   "cuts": [
+    "Danny Pink"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:2a568ade3aec"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:681feea195e9"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5febf57aabe3"
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c9b72553c1ef"
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9bcdae9b2cf0"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:17ae31bee776"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:81b14ccef72d"
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e6ea8a477085"
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bc8c761b4271"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5e3656b327a2"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ba5f0d8cb669"
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0730d400c409"
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a03962debdf8"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e96728f1af24"
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:704146af8aea"
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f79952567bea"
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bfb94dd5563e"
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:004448b6cdcf"
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:fbb2f6482378"
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6a70ba4e735c"
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9c5ac8f8d794"
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:440bda8cb67d"
+  },
+  {
+   "adds": [
+    "Kokusho, the Evening Star"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f093859653aa"
+  },
+  {
+   "adds": [
+    "Kokusho, the Evening Star"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d6bf9819229e"
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1e679f8098d4"
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cc7381afc496"
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5220ac90d1d5"
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:bdb6ce3977bc"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ada964de4a87"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:902b7a9861f4"
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8da3a8089ac8"
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:364f07effac9"
+  },
+  {
+   "adds": [
+    "Nest of Scarabs"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8699e993d8a8"
+  },
+  {
+   "adds": [
+    "Nest of Scarabs"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:28623fa6d65c"
+  },
+  {
+   "adds": [
+    "Sifter of Skulls"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4325ae458c1d"
+  },
+  {
+   "adds": [
+    "Sifter of Skulls"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3898e2ba25ec"
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:903584d99853"
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c721d3a4285b"
+  },
+  {
+   "adds": [
+    "Open the Graves"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:089419ea1f4f"
+  },
+  {
+   "adds": [
+    "Open the Graves"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3d64c2ec848d"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:87654217779a"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:33210d4a2f15"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f0603109c023"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:aff3238892ef"
+  },
+  {
+   "adds": [
+    "Carnifex Demon"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:88ea9f42b9c4"
+  },
+  {
+   "adds": [
+    "Carnifex Demon"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8f8e36ad7711"
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:30863cea7bef"
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:41dc92d5b03b"
+  },
+  {
+   "adds": [
+    "Glen Elendra Guardian"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:00c1a4f85ad0"
+  },
+  {
+   "adds": [
+    "Glen Elendra Guardian"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:15d079d964f6"
+  },
+  {
+   "adds": [
+    "Hex Parasite"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c048a498f1b4"
+  },
+  {
+   "adds": [
+    "Hex Parasite"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:45622415afcb"
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:25913e520166"
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e5f2f468a9aa"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4903485c1c5d"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8b6e6b5b4d92"
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Deadly Dispute"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:16a06b24aeed"
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1debd433bde1"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:db71c1dcab32"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f838595b2a23"
+  },
+  {
+   "adds": [
+    "Grim Poppet"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:34022a41ab7a"
+  },
+  {
+   "adds": [
+    "Grim Poppet"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:305aff10118a"
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e61dbd264470"
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:fb6cedd91956"
+  },
+  {
+   "adds": [
+    "Totentanz, Swarm Piper"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d1a1fbf4bb83"
+  },
+  {
+   "adds": [
+    "Totentanz, Swarm Piper"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e9c598fb2575"
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5d6061b1dd99"
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:088d94126cad"
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5bfd9e474069"
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ac40dc4a0e3e"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:734f5e79d96b"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:daa2c0b9191c"
+  },
+  {
+   "adds": [
+    "Ashcloud Phoenix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1a82907a5f8d"
+  },
+  {
+   "adds": [
+    "Ashcloud Phoenix"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:f58cf3ca6e95"
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ff4c61d3d53e"
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:0db1187cc21c"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d225067774bf"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:101dc0875127"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d70c813afeb0"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e29afa567fe8"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:89c27dc77b6a"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:1267b1ca9c93"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Sneak Attack"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:97e23f888568"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6fbbfcccb2b3"
+  },
+  {
+   "adds": [
+    "Loch Mare"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4cf067b04c9a"
+  },
+  {
+   "adds": [
+    "Loch Mare"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d816f32bfcb3"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9288f0cf753a"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:dde9741cb25a"
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:9d6782feff28"
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:af1a33af2aeb"
+  },
+  {
+   "adds": [
+    "Creakwood Safewright"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a5f86e663854"
+  },
+  {
+   "adds": [
+    "Creakwood Safewright"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:75ca84b1ebcf"
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:561d3f70a577"
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e272c2f8ff39"
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:abaab0165bdd"
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:63a475f67e45"
+  },
+  {
+   "adds": [
+    "Inquisitive Puppet"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8b07bcc0d194"
+  },
+  {
+   "adds": [
+    "Inquisitive Puppet"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:cd89da459c02"
+  },
+  {
+   "adds": [
+    "Phenomenon Investigators"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:e1ae8ae73f55"
+  },
+  {
+   "adds": [
+    "Phenomenon Investigators"
+   ],
+   "cuts": [
+    "Sage of Fables"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:85b05db253e1"
+  },
+  {
+   "adds": [
+    "Dream Seizer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:786b806a0cfb"
+  },
+  {
+   "adds": [
+    "Dream Seizer"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4e7f3e2f24d6"
+  },
+  {
+   "adds": [
+    "Sway of the Stars"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:3ff4a9d7fa35"
+  },
+  {
+   "adds": [
+    "Sway of the Stars"
+   ],
+   "cuts": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:8a0e7729497c"
+  },
+  {
+   "adds": [
+    "Chaos Spewer"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6e79bc8df7b1"
+  },
+  {
+   "adds": [
+    "Chaos Spewer"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a980ed537ad5"
+  },
+  {
+   "adds": [
+    "Chainbreaker"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:7e5391a7a5f2"
+  },
+  {
+   "adds": [
+    "Chainbreaker"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:6b7f7ad27c0f"
+  },
+  {
+   "adds": [
+    "Antler Skulkin"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:26500c4cbec9"
+  },
+  {
+   "adds": [
+    "Antler Skulkin"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d8dd4b8d942f"
+  },
+  {
+   "adds": [
+    "Tatterkite"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:b4a3346386da"
+  },
+  {
+   "adds": [
+    "Tatterkite"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:ddf4db3ec538"
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:27ae5d7d069f"
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:a208889fda43"
+  },
+  {
+   "adds": [
+    "Soulstinger"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:07c0dc85f90e"
+  },
+  {
+   "adds": [
+    "Soulstinger"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:51c98268c9b4"
+  },
+  {
+   "adds": [
+    "Gnarlbark Elm"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:d06ce934446f"
+  },
+  {
+   "adds": [
+    "Gnarlbark Elm"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4b739905e1d3"
+  },
+  {
+   "adds": [
+    "Shivan Phoenix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:68d20eafb68b"
+  },
+  {
+   "adds": [
+    "Shivan Phoenix"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:4372852ea272"
+  },
+  {
+   "adds": [
+    "Pith Driller"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:5b20cca42804"
+  },
+  {
+   "adds": [
+    "Pith Driller"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:66b3e6403019"
+  },
+  {
+   "adds": [
+    "Firestorm Phoenix"
+   ],
+   "cuts": [
+    "Braids, Arisen Nightmare"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:96a0d56981e5"
+  },
+  {
+   "adds": [
+    "Firestorm Phoenix"
+   ],
+   "cuts": [
+    "Metallic Mimic"
+   ],
+   "id": "swap:marchesa-the-black-rose:m5:c8aa5bad85bb"
+  }
+ ]
+}
