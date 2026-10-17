@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/grixis/schemas/combo_family.schema.json",
+  "title": "Grixis Step B combo variant-family evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "deck_id", "slug", "canonical_hash", "status", "generated_by", "authority", "inputs", "families", "summary"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "deck_id": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "minLength": 1},
+    "canonical_hash": {"type": "string", "pattern": "^lh1:"},
+    "status": {"const": "provisional_evidence"},
+    "generated_by": {"type": "string", "minLength": 1},
+    "authority": {
+      "type": "object", "additionalProperties": false,
+      "required": ["can_decide", "note"],
+      "properties": {"can_decide": {"const": false}, "note": {"type": "string", "minLength": 1}}
+    },
+    "inputs": {
+      "type": "object", "additionalProperties": false,
+      "required": ["combo_quality", "combo_line_semantics", "power_core"],
+      "properties": {
+        "combo_quality": {"type": "string"},
+        "combo_line_semantics": {"type": "string"},
+        "power_core": {"type": "string"}
+      }
+    },
+    "families": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/family"}
+    },
+    "summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["family_count", "multi_line_family_count", "singleton_family_count", "line_count", "largest_family_line_count", "power_core_family_count", "commander_independent_family_count"],
+      "properties": {
+        "family_count": {"type": "integer", "minimum": 0},
+        "multi_line_family_count": {"type": "integer", "minimum": 0},
+        "singleton_family_count": {"type": "integer", "minimum": 0},
+        "line_count": {"type": "integer", "minimum": 0},
+        "largest_family_line_count": {"type": "integer", "minimum": 0},
+        "power_core_family_count": {"type": "integer", "minimum": 0},
+        "commander_independent_family_count": {"type": "integer", "minimum": 0}
+      }
+    }
+  },
+  "$defs": {
+    "str_array": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "count_map": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "family": {
+      "type": "object", "additionalProperties": false,
+      "required": ["family_id", "combo_ids", "line_count", "relation", "pieces", "line_characteristics", "burden_signals", "review_flags", "authority", "evidence"],
+      "properties": {
+        "family_id": {"type": "string", "minLength": 1},
+        "combo_ids": {"$ref": "#/$defs/str_array"},
+        "line_count": {"type": "integer", "minimum": 1},
+        "relation": {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "rule", "transitive_component_warning", "evidence_class", "confidence"],
+          "properties": {
+            "kind": {"const": "connected_component_of_near_variant_lines"},
+            "rule": {"type": "string"},
+            "transitive_component_warning": {"const": true},
+            "evidence_class": {"const": "derived_metric"},
+            "confidence": {"enum": ["high", "moderate", "low"]}
+          }
+        },
+        "pieces": {
+          "type": "object", "additionalProperties": false,
+          "required": ["common_to_every_line", "union", "alternative_or_bridge_pieces", "min_piece_count", "max_piece_count"],
+          "properties": {
+            "common_to_every_line": {"$ref": "#/$defs/str_array"},
+            "union": {"$ref": "#/$defs/str_array"},
+            "alternative_or_bridge_pieces": {"$ref": "#/$defs/str_array"},
+            "min_piece_count": {"type": "integer", "minimum": 1},
+            "max_piece_count": {"type": "integer", "minimum": 1}
+          }
+        },
+        "line_characteristics": {
+          "type": "object", "additionalProperties": false,
+          "required": ["infinite_line_count", "blueprint_win_linked_count", "direct_commander_piece_line_count", "power_core_review_line_count", "external_payoff_or_enabler_line_count", "direct_endpoint_hint_line_count", "declared_mana_line_count", "missing_step_semantics_line_count", "max_stack_action_proxy", "structural_hints", "outcome_hints", "endpoint_hints"],
+          "properties": {
+            "infinite_line_count": {"type": "integer", "minimum": 0},
+            "blueprint_win_linked_count": {"type": "integer", "minimum": 0},
+            "direct_commander_piece_line_count": {"type": "integer", "minimum": 0},
+            "power_core_review_line_count": {"type": "integer", "minimum": 0},
+            "external_payoff_or_enabler_line_count": {"type": "integer", "minimum": 0},
+            "direct_endpoint_hint_line_count": {"type": "integer", "minimum": 0},
+            "declared_mana_line_count": {"type": "integer", "minimum": 0},
+            "missing_step_semantics_line_count": {"type": "integer", "minimum": 0},
+            "max_stack_action_proxy": {"type": "integer", "minimum": 0},
+            "structural_hints": {"$ref": "#/$defs/count_map"},
+            "outcome_hints": {"$ref": "#/$defs/count_map"},
+            "endpoint_hints": {"$ref": "#/$defs/count_map"}
+          }
+        },
+        "burden_signals": {
+          "type": "object", "additionalProperties": false,
+          "required": ["low_independent_signal_pieces", "count", "note"],
+          "properties": {
+            "low_independent_signal_pieces": {"$ref": "#/$defs/str_array"},
+            "count": {"type": "integer", "minimum": 0},
+            "note": {"type": "string", "minLength": 1}
+          }
+        },
+        "review_flags": {"$ref": "#/$defs/str_array"},
+        "authority": {
+          "type": "object", "additionalProperties": false,
+          "required": ["can_decide", "classification_status", "note"],
+          "properties": {
+            "can_decide": {"const": false},
+            "classification_status": {"const": "unresolved_requires_judgment"},
+            "note": {"type": "string", "minLength": 1}
+          }
+        },
+        "evidence": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+      }
+    }
+  }
+}
