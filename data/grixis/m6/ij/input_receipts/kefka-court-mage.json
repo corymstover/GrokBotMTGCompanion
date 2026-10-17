@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Kefka__Court_Mage",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1186287,
+   "path": "data/grixis/birthday_m5/candidates/kefka-court-mage.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:97358cf72707c40cefb773b7fed4ba5d0a07209c4da22d9b8df4bca17fe9d5a6"
+  },
+  {
+   "bytes": 1235550,
+   "path": "data/grixis/birthday_m5/regen/kefka-court-mage.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:eced578346534c7af7d7f5ec6f1ceafc360e6d6b85d0cd04528a09f251b97367"
+  },
+  {
+   "bytes": 51436,
+   "path": "data/grixis/birthday_m5/evidence/kefka-court-mage.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:bc22bd2e98c3e19cccf16e4226e6dc0f4abe316129a53aae3011abdc79c7e626"
+  },
+  {
+   "bytes": 53953,
+   "path": "data/grixis/m6/optimizer/kefka-court-mage.json",
+   "role": "optimizer",
+   "sha256": "sha256:931427a390ad86061e59cfc099856faaf43d889341c4da6c91309cd1b68dcf74"
+  },
+  {
+   "bytes": 450004,
+   "path": "data/grixis/m6/review_packets/kefka-court-mage.json",
+   "role": "review_packet",
+   "sha256": "sha256:6a9393109199b89df612292ad6379a54e95c39af081e5a22da72c588c62cfb23"
+  }
+ ],
+ "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "kefka-court-mage",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

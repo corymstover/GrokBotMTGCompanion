@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Don_Andres__the_Renegade",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1175108,
+   "path": "data/grixis/birthday_m5/candidates/don-andres-the-renegade.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:ef2ae28c2c75d47a363eaf4d48bf15d53c25ee37b082924872a22a68ebd00bcb"
+  },
+  {
+   "bytes": 1222451,
+   "path": "data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:05971870483ee677441cbe650b628e8ebd67a0b982370c9ba65eeab26f0f03bd"
+  },
+  {
+   "bytes": 48789,
+   "path": "data/grixis/birthday_m5/evidence/don-andres-the-renegade.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:72221e5baa6cfe0e410cc665ee181dd3bbaedcbebbb5af9b91fa487ba0259447"
+  },
+  {
+   "bytes": 58648,
+   "path": "data/grixis/m6/optimizer/don-andres-the-renegade.json",
+   "role": "optimizer",
+   "sha256": "sha256:ec3f649b9ba3f082a4dea84c0aa9efec6f73f1874a31e1d91bee2d3ee58798c0"
+  },
+  {
+   "bytes": 425693,
+   "path": "data/grixis/m6/review_packets/don-andres-the-renegade.json",
+   "role": "review_packet",
+   "sha256": "sha256:d81f3ecab1c06b4f6d7e26b01e89e9b7139fd164134ee3f2dbe2c1136f7723ed"
+  }
+ ],
+ "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "don-andres-the-renegade",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

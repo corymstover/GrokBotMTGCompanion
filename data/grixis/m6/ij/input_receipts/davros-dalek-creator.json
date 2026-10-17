@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Davros__Dalek_Creator",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1163947,
+   "path": "data/grixis/birthday_m5/candidates/davros-dalek-creator.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:e6da8fed47d3d002fdd5e5edb405126b0e038f0ea41ad2ab6bfde37e72721c60"
+  },
+  {
+   "bytes": 1203193,
+   "path": "data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:f6421f3db8815251f29711b535d3a59d297cbbca230282c21e7031a8ff78cb8b"
+  },
+  {
+   "bytes": 45441,
+   "path": "data/grixis/birthday_m5/evidence/davros-dalek-creator.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:ceb0461b646ec0e1164503bfc80d76d5fd36ba05096bf2ebf1b103f6126c4baa"
+  },
+  {
+   "bytes": 33660,
+   "path": "data/grixis/m6/optimizer/davros-dalek-creator.json",
+   "role": "optimizer",
+   "sha256": "sha256:a90f8b7613b7e66552c7e1a299376b61fa373f2a67f0dc1057f202f48b4ed602"
+  },
+  {
+   "bytes": 268627,
+   "path": "data/grixis/m6/review_packets/davros-dalek-creator.json",
+   "role": "review_packet",
+   "sha256": "sha256:7fee00a64a8834d266483a975c25b386b9a8fff41aff7dbaebef94e6af369180"
+  }
+ ],
+ "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "davros-dalek-creator",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

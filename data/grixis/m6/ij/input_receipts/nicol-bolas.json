@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Nicol_Bolas",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1149876,
+   "path": "data/grixis/birthday_m5/candidates/nicol-bolas.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:27a5b96d9b03dd8f4e9c60eeb386347ae9cc88dd32e025cb329d6c1be97873d0"
+  },
+  {
+   "bytes": 1183572,
+   "path": "data/grixis/birthday_m5/regen/nicol-bolas.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:9006e91be53a498fa457f15b70274a43fb33224b54011032560f14176e0fd685"
+  },
+  {
+   "bytes": 47133,
+   "path": "data/grixis/birthday_m5/evidence/nicol-bolas.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:30aa0602b78ea004b0e2109ed200d2d16c28bac1f06ae52c0b402f62ae6d5ddc"
+  },
+  {
+   "bytes": 36273,
+   "path": "data/grixis/m6/optimizer/nicol-bolas.json",
+   "role": "optimizer",
+   "sha256": "sha256:2279cf3c2cbd9cca2f0adc982a9d74c0995dfff4d3c69a6a320b867c21cd4ea2"
+  },
+  {
+   "bytes": 288665,
+   "path": "data/grixis/m6/review_packets/nicol-bolas.json",
+   "role": "review_packet",
+   "sha256": "sha256:5d78cabd2e88361b91fed6d7bb243c1b4155788d10065af5f43180f13ccf801b"
+  }
+ ],
+ "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

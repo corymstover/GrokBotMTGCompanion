@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1120827,
+   "path": "data/grixis/birthday_m5/candidates/gwendlyn-di-corci.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:49c586177c345d2fb407a13ceec94fad05e48b2c76c5658c32a81ebfce80db85"
+  },
+  {
+   "bytes": 1145107,
+   "path": "data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:b350a405a7f00a235a6d686a2f5c8631e3558f7ac4295f21e177a7a34db121cd"
+  },
+  {
+   "bytes": 50185,
+   "path": "data/grixis/birthday_m5/evidence/gwendlyn-di-corci.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:194a44dd34aa8502f81699603a53e9c61336661e93ceb170ce0a8232ebd9d474"
+  },
+  {
+   "bytes": 39590,
+   "path": "data/grixis/m6/optimizer/gwendlyn-di-corci.json",
+   "role": "optimizer",
+   "sha256": "sha256:c0d5c1f5cdd51fb2a59c3276280e0f7b99bc752f77ae2678b50360bff40f7916"
+  },
+  {
+   "bytes": 261625,
+   "path": "data/grixis/m6/review_packets/gwendlyn-di-corci.json",
+   "role": "review_packet",
+   "sha256": "sha256:314b6c961d0fd788aca5f2b1eb75ad52bca1ba24c94e74c430324c4291f59352"
+  }
+ ],
+ "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "gwendlyn-di-corci",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

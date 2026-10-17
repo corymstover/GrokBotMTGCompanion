@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Dr__Eggman",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1173965,
+   "path": "data/grixis/birthday_m5/candidates/dr-eggman.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:1ead999153dbd69d27cc5163ce639d6ed7d11203e85389a60b09bd465b157f05"
+  },
+  {
+   "bytes": 1216823,
+   "path": "data/grixis/birthday_m5/regen/dr-eggman.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:0494b5eac1103d3c081bf0c95905ab4c5ec86844e6633640b7cccf17648178a7"
+  },
+  {
+   "bytes": 51486,
+   "path": "data/grixis/birthday_m5/evidence/dr-eggman.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:6f7e2d97f9dda52267d9a1b4c8dc95732b0b9af9def5f3acae777bd1d086a93b"
+  },
+  {
+   "bytes": 111455,
+   "path": "data/grixis/m6/optimizer/dr-eggman.json",
+   "role": "optimizer",
+   "sha256": "sha256:20fa614c28ee1b59230fc16a075e1f0cef96bddc7c428e66745a518f589e1145"
+  },
+  {
+   "bytes": 958694,
+   "path": "data/grixis/m6/review_packets/dr-eggman.json",
+   "role": "review_packet",
+   "sha256": "sha256:b53bec1af4a329a13781f9ca041d2f9be7edbd464661d5a5dee78f3239eaa44b"
+  }
+ ],
+ "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "dr-eggman",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

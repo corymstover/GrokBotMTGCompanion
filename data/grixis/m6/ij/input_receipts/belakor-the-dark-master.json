@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1164667,
+   "path": "data/grixis/birthday_m5/candidates/belakor-the-dark-master.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:43c32d401fe64eac729ce602098772b95101940458c0e8ed1246b35eb03de77b"
+  },
+  {
+   "bytes": 1202645,
+   "path": "data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:fff1b43a0633873aca32c41f75ba45a7434fd58fbd367cde7a4dbfcb3f45900e"
+  },
+  {
+   "bytes": 48158,
+   "path": "data/grixis/birthday_m5/evidence/belakor-the-dark-master.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:8c938efd77177594891cd0d3edf865def2ad82b583002cd7d3b7be95e39f38d7"
+  },
+  {
+   "bytes": 137643,
+   "path": "data/grixis/m6/optimizer/belakor-the-dark-master.json",
+   "role": "optimizer",
+   "sha256": "sha256:449adf62c5d13a7baeada35312db0c66e83c10ffdb23ab81086e2d4b19d8d880"
+  },
+  {
+   "bytes": 1030857,
+   "path": "data/grixis/m6/review_packets/belakor-the-dark-master.json",
+   "role": "review_packet",
+   "sha256": "sha256:24009ac8ebd2ceba51261203a05362a304531a4c500290ce124bbdda3e69218d"
+  }
+ ],
+ "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "belakor-the-dark-master",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

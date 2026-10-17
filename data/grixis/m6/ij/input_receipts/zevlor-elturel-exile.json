@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Zevlor__Elturel_Exile",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1147844,
+   "path": "data/grixis/birthday_m5/candidates/zevlor-elturel-exile.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:ac638870b86579f759bf4bd5cade616410cb1322c3b675165e69d9a54f25f91e"
+  },
+  {
+   "bytes": 1183801,
+   "path": "data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:ada967f0822eb999dd242dc86376ba1a254ebfc9036feb8d580ea2ec4342077e"
+  },
+  {
+   "bytes": 48627,
+   "path": "data/grixis/birthday_m5/evidence/zevlor-elturel-exile.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:f6731fed6afaa534b7f3e3b05bbbf0a1500e80cdef359742d1d8710ede53c39c"
+  },
+  {
+   "bytes": 55068,
+   "path": "data/grixis/m6/optimizer/zevlor-elturel-exile.json",
+   "role": "optimizer",
+   "sha256": "sha256:93bcd2c411c64774d4b068da81e7d86854864caa5012e3a772b3b99e20ef588a"
+  },
+  {
+   "bytes": 418650,
+   "path": "data/grixis/m6/review_packets/zevlor-elturel-exile.json",
+   "role": "review_packet",
+   "sha256": "sha256:d040c05c8fa14c12f3708c32a404b0ec73ab7609156be2c0b6f094988d7b093b"
+  }
+ ],
+ "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "zevlor-elturel-exile",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

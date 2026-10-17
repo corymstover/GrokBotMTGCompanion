@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1164053,
+   "path": "data/grixis/birthday_m5/candidates/parnesse-the-subtle-brush.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:aab467b2540113c4622731d38ed56ed9efe40d729d76a65a07e54e81dcb0929c"
+  },
+  {
+   "bytes": 1205376,
+   "path": "data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:dbcec91d270b3fe3afe45846675e091adf19cf5f7a94dd70f47a65b5de5fdb31"
+  },
+  {
+   "bytes": 48584,
+   "path": "data/grixis/birthday_m5/evidence/parnesse-the-subtle-brush.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:33aea7860d7b99eec67636ca12c404a8a484c651a2336140d84bf129f5cc4951"
+  },
+  {
+   "bytes": 67497,
+   "path": "data/grixis/m6/optimizer/parnesse-the-subtle-brush.json",
+   "role": "optimizer",
+   "sha256": "sha256:61902f4029078329d15334541f29295b62709ca23de47ee49b5494b27a27d1ed"
+  },
+  {
+   "bytes": 494330,
+   "path": "data/grixis/m6/review_packets/parnesse-the-subtle-brush.json",
+   "role": "review_packet",
+   "sha256": "sha256:e611ff8b0986e16d9a06307508d86e62387d238573813c2a4ce21c7cb1a80fda"
+  }
+ ],
+ "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

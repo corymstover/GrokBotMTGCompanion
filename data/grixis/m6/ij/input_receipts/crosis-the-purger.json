@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Crosis__the_Purger",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1125545,
+   "path": "data/grixis/birthday_m5/candidates/crosis-the-purger.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:f4450c9cf03ddc028c4134d7408969dea79e7b3c79e5ccf5c50eff662ede8aa2"
+  },
+  {
+   "bytes": 1150605,
+   "path": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:5db503d40d4066e6fff39b686fe88aea931a0f1575e02959b1749c56843cdbdc"
+  },
+  {
+   "bytes": 45248,
+   "path": "data/grixis/birthday_m5/evidence/crosis-the-purger.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:84331fc82537afcdf278b1806e837fd19a23b623dcc92843a3aeb12b7489b65f"
+  },
+  {
+   "bytes": 9705,
+   "path": "data/grixis/m6/optimizer/crosis-the-purger.json",
+   "role": "optimizer",
+   "sha256": "sha256:197df4d3c9be064f02dff9f3e985bbe52acecd7a321620e8fdad1f5d2f4e7a76"
+  },
+  {
+   "bytes": 69435,
+   "path": "data/grixis/m6/review_packets/crosis-the-purger.json",
+   "role": "review_packet",
+   "sha256": "sha256:a6e88775850d7c520480cefdf0f99d3fc03d90434adaeb6489e2e2de0648d129"
+  }
+ ],
+ "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "crosis-the-purger",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

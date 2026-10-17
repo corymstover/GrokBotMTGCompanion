@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "The_Madcap_Jester",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1148188,
+   "path": "data/grixis/birthday_m5/candidates/the-madcap-jester.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:a8a39d0aa08bead9afd77af3e75ffa85f1823090d5db3f84e92f2e6995d02bf7"
+  },
+  {
+   "bytes": 1179575,
+   "path": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:a74d2a9bd23b07d0755e12a1c094e8b91d859c51d2f21cf87cddc1b7e2f1fddf"
+  },
+  {
+   "bytes": 51804,
+   "path": "data/grixis/birthday_m5/evidence/the-madcap-jester.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:e5c65924028fc247735e68c3815c91e914b970bd941dfac337536ada4e44ade8"
+  },
+  {
+   "bytes": 19398,
+   "path": "data/grixis/m6/optimizer/the-madcap-jester.json",
+   "role": "optimizer",
+   "sha256": "sha256:1bc7017f3614dbf77725773ea3942eaacaf43c8f78e8abb205df4ce00f7e296b"
+  },
+  {
+   "bytes": 148373,
+   "path": "data/grixis/m6/review_packets/the-madcap-jester.json",
+   "role": "review_packet",
+   "sha256": "sha256:92e574be93333a72f4302fe487e1a62750bd9931b08b8db9b8dc13fa437e50ac"
+  }
+ ],
+ "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "the-madcap-jester",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

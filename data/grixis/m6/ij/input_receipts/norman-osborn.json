@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1194491,
+   "path": "data/grixis/birthday_m5/candidates/norman-osborn.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:f007ed6e317d48a075cc82f50311ac503a1aafa2e2afe17c2c6432856efff1d1"
+  },
+  {
+   "bytes": 1241770,
+   "path": "data/grixis/birthday_m5/regen/norman-osborn.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:a0306c31c65de021f1b1ecc83326a9de822f9f4dc0b115375979168ffcfaac2d"
+  },
+  {
+   "bytes": 54107,
+   "path": "data/grixis/birthday_m5/evidence/norman-osborn.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:f62b32a0ef274b45ac0b02d81896fe1f09f0d7e2e0d4914e40c40aa782f8659d"
+  },
+  {
+   "bytes": 33935,
+   "path": "data/grixis/m6/optimizer/norman-osborn.json",
+   "role": "optimizer",
+   "sha256": "sha256:08ff4e494b5c1f521740572bdc5cc7843e13b350f8384558c3551d040e9efaa2"
+  },
+  {
+   "bytes": 298885,
+   "path": "data/grixis/m6/review_packets/norman-osborn.json",
+   "role": "review_packet",
+   "sha256": "sha256:0430b016636c18025b50d026e109f65a0eb618809f58510db9234773c938123c"
+  }
+ ],
+ "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "norman-osborn",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

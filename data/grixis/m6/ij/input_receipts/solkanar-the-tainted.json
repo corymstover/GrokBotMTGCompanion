@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1097913,
+   "path": "data/grixis/birthday_m5/candidates/solkanar-the-tainted.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:b6815e71046c073f411d4f2ef9abec34e08abd0753ffe57efb8a586d8d797b3a"
+  },
+  {
+   "bytes": 1116676,
+   "path": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:a2ae258972866c22f0779116601ac616edbbb9db3a21a63ac2566f0f7b3f24e1"
+  },
+  {
+   "bytes": 45860,
+   "path": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:387ac212a8e8c8edb99e6ef4d6972bea210d934db6925ed8020b7685b1816f34"
+  },
+  {
+   "bytes": 15204,
+   "path": "data/grixis/m6/optimizer/solkanar-the-tainted.json",
+   "role": "optimizer",
+   "sha256": "sha256:35b4a7115c7e9f70c5e9ddc34da497c77b17aa3517c54544b6e216393607e9d3"
+  },
+  {
+   "bytes": 113284,
+   "path": "data/grixis/m6/review_packets/solkanar-the-tainted.json",
+   "role": "review_packet",
+   "sha256": "sha256:e87a5c4b21495bf1c42dab8f71a9b6f6b97f53c71e57623d742a0d583cd08543"
+  }
+ ],
+ "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

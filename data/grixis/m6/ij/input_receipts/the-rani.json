@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "The_Rani",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1129809,
+   "path": "data/grixis/birthday_m5/candidates/the-rani.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:cc69ef3d97772a150a5c75d4f2381b780c0ac01c1a02d51fc1416534f06ac2ca"
+  },
+  {
+   "bytes": 1158589,
+   "path": "data/grixis/birthday_m5/regen/the-rani.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:efe043917ea4b9a10c830d5026bdc018c945ecf0c8458ce0c39b4286463865be"
+  },
+  {
+   "bytes": 48570,
+   "path": "data/grixis/birthday_m5/evidence/the-rani.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:d222e21f05e5778109b88c817799019070d4c1d3e929b18017d424000cac6079"
+  },
+  {
+   "bytes": 37423,
+   "path": "data/grixis/m6/optimizer/the-rani.json",
+   "role": "optimizer",
+   "sha256": "sha256:7edd6533cddb789fa5886910480612a78de51150d4d410048fd6064f43698c63"
+  },
+  {
+   "bytes": 321882,
+   "path": "data/grixis/m6/review_packets/the-rani.json",
+   "role": "review_packet",
+   "sha256": "sha256:0d19202a196a6768ae56c84663f18b0e8a95d4918bb21af7df7bed42d499759f"
+  }
+ ],
+ "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "the-rani",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

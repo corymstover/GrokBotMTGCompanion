@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Missy",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1226401,
+   "path": "data/grixis/birthday_m5/candidates/missy.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:373c461494cae60e3220d731141c8cf2edb84234ecd71b2293f7cc8b28322211"
+  },
+  {
+   "bytes": 1294736,
+   "path": "data/grixis/birthday_m5/regen/missy.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:c5b85b679bec01cb8ea093a4a7316142832f63f36594df3b31feb642cf0b6e1f"
+  },
+  {
+   "bytes": 48627,
+   "path": "data/grixis/birthday_m5/evidence/missy.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:3c95bab63f6d5785d2acae1e55a3e738a5776cc91f94666002b7d711b6625ab3"
+  },
+  {
+   "bytes": 111610,
+   "path": "data/grixis/m6/optimizer/missy.json",
+   "role": "optimizer",
+   "sha256": "sha256:6ee4e302f09b43961c8f3a51d88e8bc1ac9ec8f8998b98aceef4f47e9e9f52bd"
+  },
+  {
+   "bytes": 940755,
+   "path": "data/grixis/m6/review_packets/missy.json",
+   "role": "review_packet",
+   "sha256": "sha256:6df0f5a42c7dc780ab1f9a6a440bc693472c2e21454ea0dda2aef7cbad3e1a95"
+  }
+ ],
+ "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "missy",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

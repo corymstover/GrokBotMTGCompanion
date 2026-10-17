@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1158840,
+   "path": "data/grixis/birthday_m5/candidates/nekusar-the-mindrazer.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:f551265123bb01efd67c93d7d5518e811c3d47a4ce4d65919cc1e28147588c50"
+  },
+  {
+   "bytes": 1196532,
+   "path": "data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:a510888f592c390d7e099936a743255653275c794d7800f4fc44661492938e08"
+  },
+  {
+   "bytes": 50119,
+   "path": "data/grixis/birthday_m5/evidence/nekusar-the-mindrazer.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:58fa9e2f200f938348d07da8cf3092d0e29d29098493a5f87c02040dac973b3d"
+  },
+  {
+   "bytes": 35427,
+   "path": "data/grixis/m6/optimizer/nekusar-the-mindrazer.json",
+   "role": "optimizer",
+   "sha256": "sha256:ab4d8b10d1d1b944d97fc5d3668f21d08b1bc97aae540f5d927d1404e09a14dd"
+  },
+  {
+   "bytes": 274726,
+   "path": "data/grixis/m6/review_packets/nekusar-the-mindrazer.json",
+   "role": "review_packet",
+   "sha256": "sha256:2b49065d2494cdf265afbaa244b55a135f44a8f3c49719cf735bcc6c6978f265"
+  }
+ ],
+ "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1126257,
+   "path": "data/grixis/birthday_m5/candidates/sauron-lord-of-the-rings.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:15eb000854ece14ccd0fd8bd90f26327c8f05973e042e51d99e3f187b35ed020"
+  },
+  {
+   "bytes": 1155083,
+   "path": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:62602d903b907d5fe319b86a5fc4f41e89843af37fccbd1aa81b0af35ecfb8bf"
+  },
+  {
+   "bytes": 45213,
+   "path": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:482f0a72e193bf6450417af0ee5949add35945c633ac20c19454c453086a432c"
+  },
+  {
+   "bytes": 28165,
+   "path": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json",
+   "role": "optimizer",
+   "sha256": "sha256:a9e0c8f5c66f7517b72ff610b958a8623b95919428c9829888f20a692e77c7a4"
+  },
+  {
+   "bytes": 175135,
+   "path": "data/grixis/m6/review_packets/sauron-lord-of-the-rings.json",
+   "role": "review_packet",
+   "sha256": "sha256:b718d96c415ce5f1c4e57e82b7a3a8d3a433ef8348e935b8c5f1adfdc4285468"
+  }
+ ],
+ "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "sauron-lord-of-the-rings",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

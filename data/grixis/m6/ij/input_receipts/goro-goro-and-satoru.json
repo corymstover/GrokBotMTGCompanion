@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1217462,
+   "path": "data/grixis/birthday_m5/candidates/goro-goro-and-satoru.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:62edf614a6caddf761411166062710d85c4468325d477f89841062f26b9057e4"
+  },
+  {
+   "bytes": 1279293,
+   "path": "data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:11d09a17901370ffc9ce0ac1c3185f9aad0a769467100437bbf1f3fd20b45808"
+  },
+  {
+   "bytes": 46351,
+   "path": "data/grixis/birthday_m5/evidence/goro-goro-and-satoru.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:74690fe005e4c21da1ed2bf1b38ff315cd197544e215028b16ac798e593764ee"
+  },
+  {
+   "bytes": 149859,
+   "path": "data/grixis/m6/optimizer/goro-goro-and-satoru.json",
+   "role": "optimizer",
+   "sha256": "sha256:36b8b918f867954c0eda171bfa140222611eede4b4cf572c8e5ea0cf1cb9abce"
+  },
+  {
+   "bytes": 1144676,
+   "path": "data/grixis/m6/review_packets/goro-goro-and-satoru.json",
+   "role": "review_packet",
+   "sha256": "sha256:f3d50c11658a672b7d1b2c8a4c79b232432eec967772e91a6bb3f239b9a4c636"
+  }
+ ],
+ "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "goro-goro-and-satoru",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

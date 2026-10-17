@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Marchesa__the_Black_Rose",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1205799,
+   "path": "data/grixis/birthday_m5/candidates/marchesa-the-black-rose.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:771cedf123db239b53f2ea13bc9224d5479814733f78a96f809ce6c575894c6b"
+  },
+  {
+   "bytes": 1261878,
+   "path": "data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:ee84e2f6cb3dbadfd68db4f00d7d71ed2a2f348886673de8b2b1857f1d1ecf4f"
+  },
+  {
+   "bytes": 46618,
+   "path": "data/grixis/birthday_m5/evidence/marchesa-the-black-rose.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:7bbaf8446ba63406e027da3f5965813c0fbff935f1e103b7ffa281784bde4211"
+  },
+  {
+   "bytes": 66793,
+   "path": "data/grixis/m6/optimizer/marchesa-the-black-rose.json",
+   "role": "optimizer",
+   "sha256": "sha256:8edb56166da4c80cdbdce926e7df4c9089f44612bb94200996988ca78a178761"
+  },
+  {
+   "bytes": 511635,
+   "path": "data/grixis/m6/review_packets/marchesa-the-black-rose.json",
+   "role": "review_packet",
+   "sha256": "sha256:92d1e7003bad073cbe31382362d5bb6ec00fafa861072de2f776c581ac011be1"
+  }
+ ],
+ "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

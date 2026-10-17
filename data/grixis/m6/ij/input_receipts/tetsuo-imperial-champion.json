@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1136959,
+   "path": "data/grixis/birthday_m5/candidates/tetsuo-imperial-champion.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:edd43754b8fba3bfb9c55284d1504cbac41c7a6e1695f4cc9fa54cb762d1c4ab"
+  },
+  {
+   "bytes": 1167616,
+   "path": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:0f38972935526c7fd0b9935f15da8ea5a5b8204427392e458bec8a67055f2c3e"
+  },
+  {
+   "bytes": 52630,
+   "path": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:727c377d652e7db30fbb6e3abfeb4ec8ac7b7bd8a49758e93d32c10565efae85"
+  },
+  {
+   "bytes": 24392,
+   "path": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json",
+   "role": "optimizer",
+   "sha256": "sha256:c4dc801ded8e3358595892d5b7b721386c85bcd9520c364e643febaf9cb8d5f2"
+  },
+  {
+   "bytes": 179160,
+   "path": "data/grixis/m6/review_packets/tetsuo-imperial-champion.json",
+   "role": "review_packet",
+   "sha256": "sha256:8afb8b0a6eebf3c708534f7a45847cbb59e09b306e10f9fee4971370fcc1acd5"
+  }
+ ],
+ "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "tetsuo-imperial-champion",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

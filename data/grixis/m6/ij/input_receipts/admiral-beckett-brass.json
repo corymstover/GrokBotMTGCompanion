@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Admiral_Beckett_Brass",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1223183,
+   "path": "data/grixis/birthday_m5/candidates/admiral-beckett-brass.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:86386cd876ac492e2f7041c897175eb1e00ee945f625e31a02a80e40802ad84f"
+  },
+  {
+   "bytes": 1273933,
+   "path": "data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:0324416d747cd3c379352e517a8a41c67fc06b4e914add4af435d33ffe8ef951"
+  },
+  {
+   "bytes": 46370,
+   "path": "data/grixis/birthday_m5/evidence/admiral-beckett-brass.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:5b56524a0f13f532e9d76d39e460f59fc209d4da4e50d108c65337ad184f6870"
+  },
+  {
+   "bytes": 158759,
+   "path": "data/grixis/m6/optimizer/admiral-beckett-brass.json",
+   "role": "optimizer",
+   "sha256": "sha256:d3623c6d9ca3301ec044aff5ee99c7b6652c28b1070b617369b88175a21be59e"
+  },
+  {
+   "bytes": 1208867,
+   "path": "data/grixis/m6/review_packets/admiral-beckett-brass.json",
+   "role": "review_packet",
+   "sha256": "sha256:280a5255a3fa8d1d7f0c37df2a645b58404a1e24e976783ecdfbae3ebe040edb"
+  }
+ ],
+ "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "admiral-beckett-brass",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

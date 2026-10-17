@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Obeka__Brute_Chronologist",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1172441,
+   "path": "data/grixis/birthday_m5/candidates/obeka-brute-chronologist.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:e28fce6f78a5dd355f86341c82399ce01f7b16568fc4f2d93bd33e4b2eb61d43"
+  },
+  {
+   "bytes": 1214700,
+   "path": "data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:1dfd806f71994ea94871b374c8a2d32cb8d2a468a266d3f36fd3e4e602fbb6db"
+  },
+  {
+   "bytes": 45770,
+   "path": "data/grixis/birthday_m5/evidence/obeka-brute-chronologist.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:1f8918cdf9509f535e7bb623374d7b77ff5db7c9964321097001ad65ae1d1c2a"
+  },
+  {
+   "bytes": 92854,
+   "path": "data/grixis/m6/optimizer/obeka-brute-chronologist.json",
+   "role": "optimizer",
+   "sha256": "sha256:eef5e8250fc66771a0684f8daa0932ec80f2f4047e2f3b741035b408c7b20b88"
+  },
+  {
+   "bytes": 725053,
+   "path": "data/grixis/m6/review_packets/obeka-brute-chronologist.json",
+   "role": "review_packet",
+   "sha256": "sha256:a4c58e4ccf7ff8e167cc0d6366584f75c65934dd35700050d1e71c149d306577"
+  }
+ ],
+ "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "obeka-brute-chronologist",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

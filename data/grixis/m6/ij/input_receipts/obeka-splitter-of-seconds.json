@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1112092,
+   "path": "data/grixis/birthday_m5/candidates/obeka-splitter-of-seconds.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:b87420f9f1fde21666dc48d2be71d5b75e63fce256265e0a0a5ade2ab1283b7c"
+  },
+  {
+   "bytes": 1136577,
+   "path": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:7c2491b1fe551684f2cdcab5057190db42d876caa1941ae67c9a6c0cc0c4794a"
+  },
+  {
+   "bytes": 53273,
+   "path": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:50b82d4fea4d342251d0f470110070e6cd777604b907534c68e1c7f94caf1645"
+  },
+  {
+   "bytes": 21188,
+   "path": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json",
+   "role": "optimizer",
+   "sha256": "sha256:28f20f4565b46adb8c93ba585433bb104eedd7438288e0df4813a571ec086d6b"
+  },
+  {
+   "bytes": 153525,
+   "path": "data/grixis/m6/review_packets/obeka-splitter-of-seconds.json",
+   "role": "review_packet",
+   "sha256": "sha256:6bf959e13e7caca1fb20538d0e0611130e1dfba5bffdb797eb2cc8998bbb952d"
+  }
+ ],
+ "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

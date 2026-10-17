@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Lord_of_Tresserhorn",
+ "generator_sha256": "sha256:2877a4ac214727e1be4c84e241d3b91a39aaac4925bfe97a40e13fbd739dc422",
+ "inputs": [
+  {
+   "bytes": 1189841,
+   "path": "data/grixis/birthday_m5/candidates/lord-of-tresserhorn.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:b62b09c5cd9fddcc761fa2e7c06021b656997a39be7c4dc2750cc476d3ba7467"
+  },
+  {
+   "bytes": 1240185,
+   "path": "data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:483c8acc3b7bf5ea6340d71c2c6654fa2e07e5ca2335d45250f88887dbc43a09"
+  },
+  {
+   "bytes": 51165,
+   "path": "data/grixis/birthday_m5/evidence/lord-of-tresserhorn.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:737da0b3c74529d33cd1ba0dd22e3fd7a174f04ea60b47f528390b97ba325f07"
+  },
+  {
+   "bytes": 59976,
+   "path": "data/grixis/m6/optimizer/lord-of-tresserhorn.json",
+   "role": "optimizer",
+   "sha256": "sha256:bc3b10689351485b4400edccd6cea7f0b69f1445923b1a8c4be8c1efd3ed9861"
+  },
+  {
+   "bytes": 474309,
+   "path": "data/grixis/m6/review_packets/lord-of-tresserhorn.json",
+   "role": "review_packet",
+   "sha256": "sha256:123f5239ffd67777d89fa9c2c506d176dddd18aa12c18efe5f99331a3801fe69"
+  }
+ ],
+ "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}
