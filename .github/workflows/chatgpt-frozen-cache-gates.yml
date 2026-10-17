@@ -1,0 +1,209 @@
+name: ChatGPT frozen development-cache gates
+
+on:
+  push:
+    branches: [chatgpt-cycle72-2-frozen-cache-gates]
+    paths: [.github/workflows/chatgpt-frozen-cache-gates.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  SCRYFALL_OFFLINE: "1"
+
+jobs:
+  gate-e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle72-2-frozen-cache-gates
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Restore exact frozen development inputs
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request
+          files = [
+            ("https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz", "oracle-cards-20261016090200.jsonl.gz", "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483"),
+            ("https://data.scryfall.io/rulings/rulings-20261015090033.jsonl.gz", "rulings-20261015090033.jsonl.gz", "3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"),
+            ("https://data.scryfall.io/default-cards/default-cards-20261015090541.jsonl.gz", "default-cards-20261015090541.jsonl.gz", "f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8"),
+            ("https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt", "MagicCompRules-20260925.txt", "8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca"),
+          ]
+          d=pathlib.Path('.cache'); d.mkdir(exist_ok=True)
+          for url,name,want in files:
+              p=d/name
+              urllib.request.urlretrieve(url,p)
+              got=hashlib.sha256(p.read_bytes()).hexdigest()
+              if got != want: raise SystemExit(f"HASH MISMATCH {name}: {got}")
+              print("restored+verified", name, p.stat().st_size)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Apply two pre-existing non-cache correctness fixes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tests/test_mech.py'); s=p.read_text()
+          old='''def test_combat_proxy_bounds():\n    games = [(None, [{"turn": t, "battlefield": ["Z"] if t >= 3 else [], "graveyard": [], "hand": []} for t in range(1, 11)])]\n    assert combat.triggers(games, "Z", False, 6, 0.0, 1.0) == 3  # lands T3, attacks T4-T6\n    assert combat.triggers(games, "Z", True, 6, 0.0, 1.0) == 4\n    assert combat.triggers(games, "Z", False, 6, 0.5, 0.7) < combat.triggers(games, "Z", False, 6, 0.0, 1.0)\n'''
+          new='''def test_combat_proxy_bounds():\n    # Cycle 72.2: updated to the cycle-66.5a API (string semantics + card table); the old boolean form no longer exists.\n    games = [(None, [{"turn": t, "battlefield": ["Z"] if t >= 3 else [], "graveyard": [], "hand": []} for t in range(1, 11)])]\n    cards = {"Z": {"text": "Whenever Z attacks, draw a card.", "type_line": "Creature — Rat"}}\n    assert combat.triggers(games, "Z", "self", 6, 1.0, 1.0, cards) == 3  # lands T3, summoning-sick, attacks T4-T6\n    assert combat.triggers(games, "Z", "another_attacks", 6, 1.0, 1.0, cards) == 0\n    assert combat.triggers(games, "Z", "self", 6, 0.5, 0.7, cards) < combat.triggers(games, "Z", "self", 6, 1.0, 1.0, cards)\n'''
+          if old not in s: raise SystemExit('expected legacy combat test block not found')
+          p.write_text(s.replace(old,new))
+          q=Path('data/grixis/schemas/combo_line_semantics.schema.json'); t=q.read_text()
+          bad='https://json-schema.org/draft/2020/schema'; good='https://json-schema.org/draft/2020-12/schema'
+          if bad not in t: raise SystemExit('expected invalid JSON Schema dialect URI not found')
+          q.write_text(t.replace(bad,good,1))
+          PY
+      - name: Close Step E frozen-cache gate
+        run: |
+          python -m pytest -q tests/test_mech*.py
+          python scripts/grixis_mechanics.py --build
+          python scripts/grixis_mechanics.py --check
+      - name: Mark E complete and checkpoint
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          for s in d['steps']:
+              if s['id']=='E':
+                  s['status']='complete'; s['completed']='ChatGPT cycle 72.2 frozen-cache validation'
+          lt=d['launch_tracker']
+          for s in lt['stages']:
+              if s['id']=='E': s['batches_done']=s['estimated_batches']; s['status']='complete'; s['note']='All Step-E semantic/module code plus frozen-cache coverage/examples rebuild validated in ChatGPT cycle 72.2.'
+          lt['batches_done']=sum(float(s['batches_done']) for s in lt['stages']); lt['percent_complete']=round(100*lt['batches_done']/lt['total_estimated_batches'],1); lt['updated']='ChatGPT cycle 72.2 (2026-10-17)'
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+"\n")
+          print('launch',lt['percent_complete'])
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tests/test_mech.py data/grixis/schemas/combo_line_semantics.schema.json data/grixis/mechanics data/grixis/upgrade_plan.json data/grixis/cache_restore_2026-10-17.json
+          git commit -m "ChatGPT cycle 72.2: close Step E frozen-cache gate [skip ci]" || true
+          git push origin HEAD:chatgpt-cycle72-2-frozen-cache-gates
+
+  gate-c:
+    needs: gate-e
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle72-2-frozen-cache-gates
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Restore exact frozen development inputs
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request
+          files=[
+           ("https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz","oracle-cards-20261016090200.jsonl.gz","ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483"),
+           ("https://data.scryfall.io/rulings/rulings-20261015090033.jsonl.gz","rulings-20261015090033.jsonl.gz","3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"),
+           ("https://data.scryfall.io/default-cards/default-cards-20261015090541.jsonl.gz","default-cards-20261015090541.jsonl.gz","f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8")]
+          d=pathlib.Path('.cache'); d.mkdir(exist_ok=True)
+          for url,name,want in files:
+           p=d/name; urllib.request.urlretrieve(url,p); got=hashlib.sha256(p.read_bytes()).hexdigest(); assert got==want,(name,got)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Close Step C frozen-cache gate
+        run: |
+          python -m pytest -q tests/test_commander_mana.py
+          python scripts/grixis_commander_mana.py --build
+          python scripts/grixis_commander_mana.py --check
+          python scripts/grixis_commander_mana.py --summary
+          python scripts/grixis_mana_step.py --check
+      - name: Mark C complete and checkpoint
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          for s in d['steps']:
+           if s['id']=='C': s['status']='complete'; s['completed']='ChatGPT cycle 72.3 frozen-cache validation'
+          lt=d['launch_tracker']
+          for s in lt['stages']:
+           if s['id']=='C': s['batches_done']=s['estimated_batches']; s['status']='complete'; s['note']='Mana optimizer including 62-deck commander cast/tax output generation validated on the frozen development snapshot.'
+          lt['batches_done']=sum(float(s['batches_done']) for s in lt['stages']); lt['percent_complete']=round(100*lt['batches_done']/lt['total_estimated_batches'],1); lt['updated']='ChatGPT cycle 72.3 (2026-10-17)'
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+"\n"); print('launch',lt['percent_complete'])
+          PY
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/commander_mana data/grixis/upgrade_plan.json
+          git commit -m "ChatGPT cycle 72.3: close Step C frozen-cache gate [skip ci]" || true
+          git push origin HEAD:chatgpt-cycle72-2-frozen-cache-gates
+
+  gate-d:
+    needs: gate-c
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle72-2-frozen-cache-gates
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Restore exact frozen development inputs
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request
+          files=[
+           ("https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz","oracle-cards-20261016090200.jsonl.gz","ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483"),
+           ("https://data.scryfall.io/rulings/rulings-20261015090033.jsonl.gz","rulings-20261015090033.jsonl.gz","3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"),
+           ("https://data.scryfall.io/default-cards/default-cards-20261015090541.jsonl.gz","default-cards-20261015090541.jsonl.gz","f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8")]
+          d=pathlib.Path('.cache'); d.mkdir(exist_ok=True)
+          for url,name,want in files:
+           p=d/name; urllib.request.urlretrieve(url,p); got=hashlib.sha256(p.read_bytes()).hexdigest(); assert got==want,(name,got)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Close Step D frozen-cache gate
+        run: |
+          python scripts/grixis_commander_counterfactual.py --build
+          python scripts/grixis_commander_counterfactual.py --check
+          python scripts/grixis_commander_marginal.py --build
+          python scripts/grixis_commander_marginal.py --check
+          python scripts/grixis_commander_marginal_gain.py --build
+          python scripts/grixis_commander_marginal_gain.py --check
+          python scripts/grixis_commander_step.py --check
+      - name: Mark D complete and checkpoint
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          for s in d['steps']:
+           if s['id']=='D': s['status']='complete'; s['completed']='ChatGPT cycle 72.4 frozen-cache validation'
+          lt=d['launch_tracker']
+          for s in lt['stages']:
+           if s['id']=='D': s['batches_done']=s['estimated_batches']; s['status']='complete'; s['note']='62-deck paired commander counterfactuals and marginal vectors generated and validated on frozen development snapshot; no scalar commander-value score introduced.'
+          lt['batches_done']=sum(float(s['batches_done']) for s in lt['stages']); lt['percent_complete']=round(100*lt['batches_done']/lt['total_estimated_batches'],1); lt['updated']='ChatGPT cycle 72.4 (2026-10-17)'
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+"\n"); print('launch',lt['percent_complete'])
+          PY
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/commander_counterfactual data/grixis/commander_marginal data/grixis/commander_marginal_gain.json data/grixis/upgrade_plan.json
+          git commit -m "ChatGPT cycle 72.4: close Step D frozen-cache gate [skip ci]" || true
+          git push origin HEAD:chatgpt-cycle72-2-frozen-cache-gates
+
+  inspect-f:
+    needs: gate-d
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle72-2-frozen-cache-gates
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Report exact remaining Step F closure population
+        run: |
+          python scripts/grixis_bracket_stress_runner.py --check
+          python scripts/grixis_stress_step.py --check
