@@ -1,0 +1,27 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "deck_id": "Davros__Dalek_Creator",
+ "families": [],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/davros-dalek-creator.json",
+  "combo_quality": "data/grixis/combo_quality/davros-dalek-creator.json",
+  "power_core": "data/grixis/power_core/davros-dalek-creator.json"
+ },
+ "schema_version": 1,
+ "slug": "davros-dalek-creator",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 0,
+  "largest_family_line_count": 0,
+  "line_count": 0,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 0
+ }
+}

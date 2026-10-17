@@ -1,0 +1,129 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "deck_id": "Edward_Kenway",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1558-4231-4508",
+    "1558-5039",
+    "1558-5736",
+    "1558-6307",
+    "4508-4869",
+    "451-1558"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/edward-kenway.json#1558-4231-4508",
+    "combo_quality:data/grixis/combo_quality/edward-kenway.json#1558-5039",
+    "combo_quality:data/grixis/combo_quality/edward-kenway.json#1558-5736",
+    "combo_quality:data/grixis/combo_quality/edward-kenway.json#1558-6307",
+    "combo_quality:data/grixis/combo_quality/edward-kenway.json#4508-4869",
+    "combo_quality:data/grixis/combo_quality/edward-kenway.json#451-1558",
+    "combo_line_semantics:data/grixis/combo_line_semantics/edward-kenway.json#1558-4231-4508",
+    "combo_line_semantics:data/grixis/combo_line_semantics/edward-kenway.json#1558-5039",
+    "combo_line_semantics:data/grixis/combo_line_semantics/edward-kenway.json#1558-5736",
+    "combo_line_semantics:data/grixis/combo_line_semantics/edward-kenway.json#1558-6307",
+    "combo_line_semantics:data/grixis/combo_line_semantics/edward-kenway.json#4508-4869",
+    "combo_line_semantics:data/grixis/combo_line_semantics/edward-kenway.json#451-1558"
+   ],
+   "family_id": "edward-kenway:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 5,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 1,
+    "direct_endpoint_hint_line_count": 1,
+    "endpoint_hints": {
+     "damage": 1,
+     "draw": 1,
+     "other_infinite": 5
+    },
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 6,
+    "max_stack_action_proxy": 5,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 4,
+     "blueprint_win_requires_external_payoff": 1,
+     "incidental_infinite_or_value_loop_requires_judgment": 1
+    },
+    "power_core_review_line_count": 4,
+    "structural_hints": {
+     "commander_independent_power_package": 4,
+     "commander_native_combo": 1,
+     "unlinked_spellbook_combo": 1
+    }
+   },
+   "line_count": 6,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Academy Manufactor",
+     "Edward Kenway",
+     "Glint-Horn Buccaneer",
+     "Hoard Hauler",
+     "Luxurious Locomotive",
+     "Malcolm, Keen-Eyed Navigator",
+     "The Reaver Cleaver",
+     "Time Sieve"
+    ],
+    "common_to_every_line": [],
+    "max_piece_count": 3,
+    "min_piece_count": 2,
+    "union": [
+     "Academy Manufactor",
+     "Edward Kenway",
+     "Glint-Horn Buccaneer",
+     "Hoard Hauler",
+     "Luxurious Locomotive",
+     "Malcolm, Keen-Eyed Navigator",
+     "The Reaver Cleaver",
+     "Time Sieve"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "commander_participation_varies_within_family",
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "external_payoff_or_enabler_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/edward-kenway.json",
+  "combo_quality": "data/grixis/combo_quality/edward-kenway.json",
+  "power_core": "data/grixis/power_core/edward-kenway.json"
+ },
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 1,
+  "family_count": 1,
+  "largest_family_line_count": 6,
+  "line_count": 6,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 1,
+  "singleton_family_count": 0
+ }
+}

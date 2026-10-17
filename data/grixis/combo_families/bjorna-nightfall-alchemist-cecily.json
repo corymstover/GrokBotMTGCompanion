@@ -1,0 +1,170 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1368-1878-2706"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/bjorna-nightfall-alchemist-cecily.json#1368-1878-2706",
+    "combo_line_semantics:data/grixis/combo_line_semantics/bjorna-nightfall-alchemist-cecily.json#1368-1878-2706"
+   ],
+   "family_id": "bjorna-nightfall-alchemist-cecily:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "draw": 1,
+     "storm": 1
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 2,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 1,
+    "structural_hints": {
+     "commander_independent_power_package": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Jeska's Will",
+     "Underworld Breach",
+     "Wheel of Fortune"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Jeska's Will",
+     "Underworld Breach",
+     "Wheel of Fortune"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "power_core_review_candidate_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1561-2384",
+    "1561-5042"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/bjorna-nightfall-alchemist-cecily.json#1561-2384",
+    "combo_quality:data/grixis/combo_quality/bjorna-nightfall-alchemist-cecily.json#1561-5042",
+    "combo_line_semantics:data/grixis/combo_line_semantics/bjorna-nightfall-alchemist-cecily.json#1561-2384",
+    "combo_line_semantics:data/grixis/combo_line_semantics/bjorna-nightfall-alchemist-cecily.json#1561-5042"
+   ],
+   "family_id": "bjorna-nightfall-alchemist-cecily:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 2,
+    "declared_mana_line_count": 2,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "draw": 2
+    },
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 2,
+    "max_stack_action_proxy": 2,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1,
+     "blueprint_win_requires_external_payoff": 1
+    },
+    "power_core_review_line_count": 1,
+    "structural_hints": {
+     "commander_independent_power_package": 1,
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 2,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Psychosis Crawler",
+     "Teferi's Ageless Insight"
+    ],
+    "common_to_every_line": [
+     "Peer into the Abyss"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Peer into the Abyss",
+     "Psychosis Crawler",
+     "Teferi's Ageless Insight"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "external_payoff_or_enabler_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/bjorna-nightfall-alchemist-cecily.json",
+  "combo_quality": "data/grixis/combo_quality/bjorna-nightfall-alchemist-cecily.json",
+  "power_core": "data/grixis/power_core/bjorna-nightfall-alchemist-cecily.json"
+ },
+ "schema_version": 1,
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 2,
+  "family_count": 2,
+  "largest_family_line_count": 2,
+  "line_count": 3,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 2,
+  "singleton_family_count": 1
+ }
+}

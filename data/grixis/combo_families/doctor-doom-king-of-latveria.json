@@ -1,0 +1,95 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "779-2546-4467"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/doctor-doom-king-of-latveria.json#779-2546-4467",
+    "combo_line_semantics:data/grixis/combo_line_semantics/doctor-doom-king-of-latveria.json#779-2546-4467"
+   ],
+   "family_id": "doctor-doom-king-of-latveria:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 1,
+    "endpoint_hints": {
+     "mill": 1
+    },
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 4,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Dakmor Salvage",
+     "Surly Badgersaur",
+     "Tectonic Reformation"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Dakmor Salvage",
+     "Surly Badgersaur",
+     "Tectonic Reformation"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/doctor-doom-king-of-latveria.json",
+  "combo_quality": "data/grixis/combo_quality/doctor-doom-king-of-latveria.json",
+  "power_core": "data/grixis/power_core/doctor-doom-king-of-latveria.json"
+ },
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 1,
+  "largest_family_line_count": 1,
+  "line_count": 1,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 1
+ }
+}

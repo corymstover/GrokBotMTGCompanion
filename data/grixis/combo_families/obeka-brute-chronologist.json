@@ -1,0 +1,244 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "deck_id": "Obeka__Brute_Chronologist",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Sundial of the Infinite"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1173-2160-5261",
+    "126-1173-5261"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/obeka-brute-chronologist.json#1173-2160-5261",
+    "combo_quality:data/grixis/combo_quality/obeka-brute-chronologist.json#126-1173-5261",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-brute-chronologist.json#1173-2160-5261",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-brute-chronologist.json#126-1173-5261"
+   ],
+   "family_id": "obeka-brute-chronologist:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 2,
+    "declared_mana_line_count": 2,
+    "direct_commander_piece_line_count": 1,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "other_infinite": 2
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 2,
+    "max_stack_action_proxy": 4,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 2
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_native_combo": 1,
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 2,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Obeka, Brute Chronologist",
+     "Sundial of the Infinite"
+    ],
+    "common_to_every_line": [
+     "Final Fortune",
+     "Isochron Scepter"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Final Fortune",
+     "Isochron Scepter",
+     "Obeka, Brute Chronologist",
+     "Sundial of the Infinite"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_participation_varies_within_family",
+    "low_independent_signal_piece_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 2,
+    "low_independent_signal_pieces": [
+     "Dualcaster Mage",
+     "Twinflame"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "147-1235"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/obeka-brute-chronologist.json#147-1235",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-brute-chronologist.json#147-1235"
+   ],
+   "family_id": "obeka-brute-chronologist:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "etb_ltb_death": 1,
+     "storm": 1,
+     "tokens": 1
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 4,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 1,
+    "structural_hints": {
+     "commander_independent_power_package": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Dualcaster Mage",
+     "Twinflame"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Dualcaster Mage",
+     "Twinflame"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Kiki-Jiki, Mirror Breaker"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "282-618"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/obeka-brute-chronologist.json#282-618",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-brute-chronologist.json#282-618"
+   ],
+   "family_id": "obeka-brute-chronologist:family:003",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "etb_ltb_death": 1,
+     "tokens": 1
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 2,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 1,
+    "structural_hints": {
+     "commander_independent_power_package": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Delina, Wild Mage",
+     "Kiki-Jiki, Mirror Breaker"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Delina, Wild Mage",
+     "Kiki-Jiki, Mirror Breaker"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/obeka-brute-chronologist.json",
+  "combo_quality": "data/grixis/combo_quality/obeka-brute-chronologist.json",
+  "power_core": "data/grixis/power_core/obeka-brute-chronologist.json"
+ },
+ "schema_version": 1,
+ "slug": "obeka-brute-chronologist",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 2,
+  "family_count": 3,
+  "largest_family_line_count": 2,
+  "line_count": 4,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 2,
+  "singleton_family_count": 2
+ }
+}

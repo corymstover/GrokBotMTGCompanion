@@ -1,0 +1,93 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "deck_id": "Tetsuo_Umezawa",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "283-4091"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/tetsuo-umezawa.json#283-4091",
+    "combo_line_semantics:data/grixis/combo_line_semantics/tetsuo-umezawa.json#283-4091"
+   ],
+   "family_id": "tetsuo-umezawa:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "mana": 1,
+     "untap": 1
+    },
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Aphetto Alchemist",
+     "Illusionist's Bracers"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Aphetto Alchemist",
+     "Illusionist's Bracers"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/tetsuo-umezawa.json",
+  "combo_quality": "data/grixis/combo_quality/tetsuo-umezawa.json",
+  "power_core": "data/grixis/power_core/tetsuo-umezawa.json"
+ },
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 1,
+  "largest_family_line_count": 1,
+  "line_count": 1,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 1
+ }
+}

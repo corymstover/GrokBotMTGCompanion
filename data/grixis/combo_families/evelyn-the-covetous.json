@@ -1,0 +1,259 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "deck_id": "Evelyn__the_Covetous",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Tainted Pact"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1295-3093",
+    "742-1295"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#1295-3093",
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#742-1295",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#1295-3093",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#742-1295"
+   ],
+   "family_id": "evelyn-the-covetous:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 2,
+    "declared_mana_line_count": 2,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 1,
+    "endpoint_hints": {
+     "mill": 1
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 0,
+    "max_stack_action_proxy": 2,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 2
+    },
+    "power_core_review_line_count": 2,
+    "structural_hints": {
+     "commander_independent_power_package": 2
+    }
+   },
+   "line_count": 2,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Demonic Consultation",
+     "Tainted Pact"
+    ],
+    "common_to_every_line": [
+     "Thassa's Oracle"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Demonic Consultation",
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 2,
+    "low_independent_signal_pieces": [
+     "Brain Freeze",
+     "Lion's Eye Diamond"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1368-1414-4856",
+    "1368-3518-4856"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#1368-1414-4856",
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#1368-3518-4856",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#1368-1414-4856",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#1368-3518-4856"
+   ],
+   "family_id": "evelyn-the-covetous:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 2,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 2,
+    "endpoint_hints": {
+     "mana": 1,
+     "mill": 2,
+     "storm": 2
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 2,
+    "max_stack_action_proxy": 5,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 2
+    },
+    "power_core_review_line_count": 2,
+    "structural_hints": {
+     "commander_independent_power_package": 2
+    }
+   },
+   "line_count": 2,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Lion's Eye Diamond",
+     "Lotus Petal"
+    ],
+    "common_to_every_line": [
+     "Brain Freeze",
+     "Underworld Breach"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Brain Freeze",
+     "Lion's Eye Diamond",
+     "Lotus Petal",
+     "Underworld Breach"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "2896-4846",
+    "3605-4846",
+    "4812-4846"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#2896-4846",
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#3605-4846",
+    "combo_quality:data/grixis/combo_quality/evelyn-the-covetous.json#4812-4846",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#2896-4846",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#3605-4846",
+    "combo_line_semantics:data/grixis/combo_line_semantics/evelyn-the-covetous.json#4812-4846"
+   ],
+   "family_id": "evelyn-the-covetous:family:003",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 3,
+    "declared_mana_line_count": 3,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "etb_ltb_death": 3,
+     "mana": 3
+    },
+    "external_payoff_or_enabler_line_count": 3,
+    "infinite_line_count": 3,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 3
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 3
+    }
+   },
+   "line_count": 3,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Animate Dead",
+     "Dance of the Dead",
+     "Necromancy"
+    ],
+    "common_to_every_line": [
+     "Worldgorger Dragon"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Animate Dead",
+     "Dance of the Dead",
+     "Necromancy",
+     "Worldgorger Dragon"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/evelyn-the-covetous.json",
+  "combo_quality": "data/grixis/combo_quality/evelyn-the-covetous.json",
+  "power_core": "data/grixis/power_core/evelyn-the-covetous.json"
+ },
+ "schema_version": 1,
+ "slug": "evelyn-the-covetous",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 2,
+  "family_count": 3,
+  "largest_family_line_count": 3,
+  "line_count": 7,
+  "multi_line_family_count": 3,
+  "power_core_family_count": 2,
+  "singleton_family_count": 0
+ }
+}

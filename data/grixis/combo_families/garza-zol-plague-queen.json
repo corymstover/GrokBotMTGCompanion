@@ -1,0 +1,169 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Grafted Exoskeleton"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "2822-3681"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/garza-zol-plague-queen.json#2822-3681",
+    "combo_line_semantics:data/grixis/combo_line_semantics/garza-zol-plague-queen.json#2822-3681"
+   ],
+   "family_id": "garza-zol-plague-queen:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {},
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 0,
+    "max_stack_action_proxy": 1,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Grafted Exoskeleton",
+     "Kediss, Emberclaw Familiar"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Grafted Exoskeleton",
+     "Kediss, Emberclaw Familiar"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present",
+    "low_independent_signal_piece_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "3750-5039",
+    "900-3750"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/garza-zol-plague-queen.json#3750-5039",
+    "combo_quality:data/grixis/combo_quality/garza-zol-plague-queen.json#900-3750",
+    "combo_line_semantics:data/grixis/combo_line_semantics/garza-zol-plague-queen.json#3750-5039",
+    "combo_line_semantics:data/grixis/combo_line_semantics/garza-zol-plague-queen.json#900-3750"
+   ],
+   "family_id": "garza-zol-plague-queen:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 2,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 1,
+    "endpoint_hints": {
+     "damage": 1,
+     "etb_ltb_death": 1,
+     "mana": 1,
+     "other_infinite": 1,
+     "tokens": 1,
+     "untap": 1
+    },
+    "external_payoff_or_enabler_line_count": 2,
+    "infinite_line_count": 2,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 2
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 2
+    }
+   },
+   "line_count": 2,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Sword of Feast and Famine",
+     "The Reaver Cleaver"
+    ],
+    "common_to_every_line": [
+     "Aggravated Assault"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Aggravated Assault",
+     "Sword of Feast and Famine",
+     "The Reaver Cleaver"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/garza-zol-plague-queen.json",
+  "combo_quality": "data/grixis/combo_quality/garza-zol-plague-queen.json",
+  "power_core": "data/grixis/power_core/garza-zol-plague-queen.json"
+ },
+ "schema_version": 1,
+ "slug": "garza-zol-plague-queen",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 2,
+  "largest_family_line_count": 2,
+  "line_count": 3,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 0,
+  "singleton_family_count": 1
+ }
+}

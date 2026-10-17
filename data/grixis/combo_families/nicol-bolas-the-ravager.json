@@ -1,0 +1,110 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Rowan's Talent"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1124-1543-2247",
+    "652-1543-2247",
+    "787-1124"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/nicol-bolas-the-ravager.json#1124-1543-2247",
+    "combo_quality:data/grixis/combo_quality/nicol-bolas-the-ravager.json#652-1543-2247",
+    "combo_quality:data/grixis/combo_quality/nicol-bolas-the-ravager.json#787-1124",
+    "combo_line_semantics:data/grixis/combo_line_semantics/nicol-bolas-the-ravager.json#1124-1543-2247",
+    "combo_line_semantics:data/grixis/combo_line_semantics/nicol-bolas-the-ravager.json#652-1543-2247",
+    "combo_line_semantics:data/grixis/combo_line_semantics/nicol-bolas-the-ravager.json#787-1124"
+   ],
+   "family_id": "nicol-bolas-the-ravager:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 3,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "draw": 1,
+     "mana": 1,
+     "other_infinite": 2
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 3,
+    "max_stack_action_proxy": 7,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 3
+    },
+    "power_core_review_line_count": 3,
+    "structural_hints": {
+     "commander_independent_power_package": 3
+    }
+   },
+   "line_count": 3,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Ichormoon Gauntlet",
+     "Rowan's Talent",
+     "Teferi, Master of Time",
+     "Teferi, Temporal Archmage",
+     "The Chain Veil"
+    ],
+    "common_to_every_line": [],
+    "max_piece_count": 3,
+    "min_piece_count": 2,
+    "union": [
+     "Ichormoon Gauntlet",
+     "Rowan's Talent",
+     "Teferi, Master of Time",
+     "Teferi, Temporal Archmage",
+     "The Chain Veil"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/nicol-bolas-the-ravager.json",
+  "combo_quality": "data/grixis/combo_quality/nicol-bolas-the-ravager.json",
+  "power_core": "data/grixis/power_core/nicol-bolas-the-ravager.json"
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 1,
+  "family_count": 1,
+  "largest_family_line_count": 3,
+  "line_count": 3,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 1,
+  "singleton_family_count": 0
+ }
+}
