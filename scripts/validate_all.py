@@ -216,6 +216,7 @@ def main(argv):
              ("combo-families", ["scripts/grixis_combo_families.py", "--check"]),  # Step B: near-variant redundancy networks
              ("combo-quality-gain", ["scripts/grixis_combo_quality_gain.py", "--check"]),  # Step B acceptance criterion 9
              ("mana-step", ["scripts/grixis_mana_step.py", "--check"]),  # Step C: cache-independent layers + explicit 68.3 pending/validated closure
+             ("commander-step", ["scripts/grixis_commander_step.py", "--check"]),  # Step D: structural/integration layers + explicit local dynamic closure
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []
