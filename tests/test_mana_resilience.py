@@ -22,17 +22,20 @@ def test_one_source_unavailable_is_structural_delta_not_library_shrink():
     r=mr.one_source_sensitivity(masks,labels,7,{"U":1,"B":1,"R":1})
     assert 0<=r["baseline"]<=1
     assert 0<=r["mean_delta"]<=r["worst_delta"]<=1
+    assert 0<=r["mean_relative_delta"]<=r["worst_relative_delta"]<=1
     assert r["sources_tested"]==9
     assert r["worst_sources"]
 
 
-def test_redundant_sources_reduce_one_source_fragility():
+def test_redundant_sources_reduce_relative_one_source_fragility():
+    # Absolute delta need not fall when the denser base has a much higher baseline success rate.
+    # Relative loss of baseline is the comparable redundancy diagnostic.
     sparse=["U","B","R"]+[""]*9
     dense=["U","U","B","B","R","R"]+[""]*6
     labels=[str(i) for i in range(12)]
     a=mr.one_source_sensitivity(sparse,labels,7,{"U":1,"B":1,"R":1})
     b=mr.one_source_sensitivity(dense,labels,7,{"U":1,"B":1,"R":1})
-    assert b["worst_delta"] < a["worst_delta"]
+    assert b["worst_relative_delta"] < a["worst_relative_delta"]
 
 
 def test_fetch_resilience_marks_single_color_target_points():
@@ -59,3 +62,4 @@ def test_real_kess_build_is_non_deciding_and_bounded():
                 assert 0<=v<=1
         s=row["one_strict_source_unavailable_UBR"]
         assert 0<=s["mean_delta"]<=s["worst_delta"]<=1
+        assert 0<=s["mean_relative_delta"]<=s["worst_relative_delta"]<=1
