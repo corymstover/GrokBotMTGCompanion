@@ -1,0 +1,67 @@
+{
+ "add": "Grinding Station",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "base_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "coverage": [
+  "Model v1.1 coverage of the swapped cards: Chrome Mox [condition, mana source] → Grinding Station [no effect modelled beyond being a castable card]."
+ ],
+ "cut": "Chrome Mox",
+ "deck_id": "Abaddon_the_Despoiler",
+ "limitations": [
+  "Grinding Station mill/untap/escape engine is not modeled in paired simulator",
+  "Chrome Mox imprint behavior is simplified",
+  "Simulator cannot assess the value of Underworld Breach combo line or multiplayer interaction",
+  "No existing Step C all-fast-mana counterfactual may be cited as a one-card Chrome Mox removal test"
+ ],
+ "m5_packet_sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84",
+ "model": "1.1",
+ "model_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "phase_b_complete": false,
+ "preregistration_sha256": "sha256:99f17d40596827e2e80f61078677f344f9a5b8b1c0d836ebc43d0cc8e208b80b",
+ "results": [
+  {
+   "baseline": 0.51,
+   "challenger": 0.468,
+   "ci95": [
+    -0.05644,
+    -0.02756
+   ],
+   "diff": -0.042,
+   "method": "paired goldfish, 1000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+   "metric": "commander_cast_by_t4"
+  },
+  {
+   "baseline": 4.632,
+   "challenger": 4.552,
+   "ci95": [
+    -0.10493,
+    -0.05507
+   ],
+   "diff": -0.08,
+   "method": "paired goldfish, 1000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+   "metric": "mana_available_t4"
+  },
+  {
+   "baseline": 17.372,
+   "challenger": 17.583,
+   "ci95": [
+    0.09508,
+    0.32692
+   ],
+   "diff": 0.211,
+   "method": "paired goldfish, 1000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+   "metric": "mana_spent_t1_t6"
+  }
+ ],
+ "samples": 1000,
+ "schema_version": 1,
+ "seed": 84017,
+ "slug": "abaddon-the-despoiler",
+ "stage": "M6_partial_mana_paired_test",
+ "supports_improvement_claim": false,
+ "swap_id": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334"
+}

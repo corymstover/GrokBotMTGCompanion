@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "stage": "M6_targeted_mana_pair_preregistration",
+  "date": "2026-10-17",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "baseline_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "swap_id": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334",
+  "cut": "Chrome Mox",
+  "add": "Grinding Station",
+  "samples": 1000,
+  "seed": 84017,
+  "turns": 10,
+  "model": "1.1",
+  "endpoints": [
+    "commander_cast_by_t4",
+    "mana_available_t4",
+    "mana_spent_t1_t6"
+  ],
+  "pairing": "identical library permutations with one-for-one aligned cut/add",
+  "hypothesis": "Replacing a conditional zero-mana Chrome Mox with a two-mana non-mana Grinding Station will reduce modeled early mana availability and/or early Abaddon casting frequency.",
+  "measures_only": "Bounded early-mana and commander-access simulator endpoints. No combat/interaction, outcome, card-power, optimization or overall game win-rate claim.",
+  "coverage_omissions": [
+    "Grinding Station mill/untap/escape engine is not modeled in paired simulator",
+    "Chrome Mox imprint behavior is simplified",
+    "Simulator cannot assess the value of Underworld Breach combo line or multiplayer interaction",
+    "No existing Step C all-fast-mana counterfactual may be cited as a one-card Chrome Mox removal test"
+  ],
+  "status": "registered_not_run",
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+}

@@ -1,0 +1,81 @@
+name: ChatGPT cycle 84 - Abaddon registered mana-pair evidence
+on:
+  push:
+    branches:
+      - chatgpt-cycle84-abaddon-mana-pair
+    paths:
+      - .github/workflows/chatgpt-cycle84-mana-pair.yml
+      - scripts/grixis_m6_abaddon_mana_pair.py
+      - data/grixis/m6/phase_b_plans/abaddon_chrome_mox_pair_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: c84-m6-abaddon-pair
+  cancel-in-progress: true
+jobs:
+  paired-mana:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle84-abaddon-mana-pair
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore SHA-256-verified original frozen development snapshot (offline after this step)
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request
+          source=[
+           ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+           ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+           ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8'),
+          ]
+          d=pathlib.Path('.cache');d.mkdir(exist_ok=True)
+          for kind,name,want in source:
+              url='https://data.scryfall.io/'+kind+'/'+name
+              dest=d/name
+              urllib.request.urlretrieve(url,dest)
+              got=hashlib.sha256(dest.read_bytes()).hexdigest()
+              if got!=want:
+                  raise SystemExit('FROZEN SNAPSHOT HASH MISMATCH: '+name)
+              print('verified unchanged frozen snapshot',name,dest.stat().st_size)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Run strictly pre-registered identical-seed one-swap mana evidence
+        run: python scripts/grixis_m6_abaddon_mana_pair.py --build --check
+      - name: No canonical or approval changes
+        run: |
+          git diff --name-only HEAD
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unexpected authority or canonical path modified' >&2
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          x=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_mana_pair_chrome_mox.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert x['supports_improvement_claim'] is False and x['phase_b_complete'] is False
+          assert all(v is False for v in x['authority'].values())
+          assert x['samples']==1000 and x['seed']==84017
+          print('Paired mana endpoints only; no deck changes or approvals')
+          PY
+      - name: Commit registered evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_mana_pair_chrome_mox.json
+          if git diff --cached --quiet; then
+            echo 'Paired evidence unchanged'
+          else
+            git commit -m 'Cycle 84: record exact seeded Abaddon early-mana counterfactual [skip ci]'
+            git pull --rebase origin chatgpt-cycle84-abaddon-mana-pair
+            git push origin HEAD:chatgpt-cycle84-abaddon-mana-pair
+          fi
