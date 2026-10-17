@@ -408,3 +408,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - Accepted Blueprint commander-role judgments are preserved verbatim as context; the script does not replace them with a synthetic score.
 - Absence of an explicit commander reference is not treated as proof of zero commander value. Dynamic card economy/action/combo/recovery deltas are deferred to the counterfactual simulator batches.
 - All 62 records validate; no deck state or decision changes.
+
+
+### Step D batch 69.2: paired commander counterfactual simulator architecture
+
+- `scripts/grixis_commander_counterfactual.py` defines paired v1.1 goldfish modes using identical library permutations and RNG seeds: normal commander access, commander unavailable, +2 starting commander-tax sensitivity, and the existing bounded commander-removal stress proxy.
+- Commander-unavailable keeps the same 99-card library and removes command-zone access; it does not invent a replacement card. Commander-containing combo lines therefore remain unavailable in that mode.
+- Metrics remain separated: commander casting, mana available/spent, extra draw, tutors, fast-mana use, first key-set access, combo assembly/win proxy, and disruption/recast recovery. No scalar commander-value score is produced.
+- The legacy simulator does not expose a trustworthy meaningful-action event count, so that dimension is explicitly left unmodeled rather than approximated with an invented composite.
+- Synthetic paired tests validate the four modes in cache-free CI. Real 62-deck output generation requires the frozen local Scryfall cache and remains pending.
