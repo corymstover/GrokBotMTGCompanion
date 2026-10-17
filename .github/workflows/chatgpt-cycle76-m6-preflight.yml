@@ -1,0 +1,106 @@
+name: ChatGPT cycle 76 - M6 refinement preflight
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle76-m6-refinement
+    paths:
+      - .github/workflows/chatgpt-cycle76-m6-preflight.yml
+      - scripts/grixis_m6.py
+      - data/grixis/schemas/zero_improvement_certificate.schema.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chatgpt-cycle76-m6-preflight
+  cancel-in-progress: true
+
+jobs:
+  m6-preflight:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle76-m6-refinement
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Build and check M6 preflight
+        run: python scripts/grixis_m6.py --build --check
+
+      - name: Independent authority invariants
+        env:
+          BASE_SHA: 45e323d010bfeef15c5ed6f1d1cc6a27d1b10f8c
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          from pathlib import Path
+
+          base = os.environ['BASE_SHA']
+          before = json.loads(subprocess.check_output(
+              ['git', 'show', f'{base}:data/grixis/registry.json'], text=True
+          ))
+          after = json.loads(Path('data/grixis/registry.json').read_text())
+
+          assert before['decks'] == after['decks'], 'M6 preflight changed deck authority/state'
+          assert before['program']['milestones']['M5'] == after['program']['milestones']['M5'], 'M5 acceptance changed'
+          assert after['program']['milestones']['M6']['status'] == 'in_progress'
+          assert after['program']['milestones']['M6']['accepted_by'] is None
+          assert after['program']['milestones']['M6']['accepted_date'] is None
+
+          preflight = json.loads(Path('data/grixis/m6/preflight.json').read_text())
+          queue = json.loads(Path('data/grixis/m6/decision_queue.json').read_text())
+          assert preflight['counts']['decks'] == 62
+          assert preflight['counts']['accepted_m5_input_complete'] == 62
+          assert preflight['counts']['approval_ready'] == 0
+          assert len(queue['decks']) == 62
+          assert preflight['authority']['can_approve_or_lock'] is False
+          assert queue['authority']['can_apply_swap'] is False
+          print('authority invariants: PASS')
+          print(json.dumps(preflight['counts'], sort_keys=True))
+          PY
+
+          changed="$(git diff --name-only "$BASE_SHA" --)"
+          echo "$changed"
+          if printf '%s\n' "$changed" | grep -Eq '^(grixis/decks/|exports/grixis-archidekt/|data/grixis/approvals\.json$)'; then
+            echo 'Forbidden canonical/approval path changed during M6 preflight' >&2
+            exit 1
+          fi
+
+      - name: Commit M6 preflight evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/registry.json data/grixis/m6
+          if git diff --cached --quiet; then
+            echo "No generated M6 changes to commit"
+          else
+            git commit -m "Cycle 76: generate M6 refinement preflight [skip ci]"
+            git pull --rebase origin chatgpt-cycle76-m6-refinement
+            git push origin HEAD:chatgpt-cycle76-m6-refinement
+          fi
+
+      - name: Gate summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/grixis/m6/preflight.json')
+          if not p.exists():
+              print('M6 preflight artifact not generated')
+          else:
+              d=json.loads(p.read_text())
+              print('stage:', d['stage'])
+              print('counts:', json.dumps(d['counts'], sort_keys=True))
+              print('can_approve_or_lock:', d['authority']['can_approve_or_lock'])
+              print('can_apply_swap:', d['authority']['can_apply_swap'])
+          PY
