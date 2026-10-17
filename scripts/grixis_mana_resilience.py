@@ -44,22 +44,29 @@ def masks_from_timing(timing,N,include_mdfc=False,field="potential_colors"):
 
 
 def one_source_sensitivity(masks,labels,n,requirements):
-    """Exact source-presence delta if any one currently useful source is unavailable from the opening deck."""
+    """Exact source-presence delta if any one currently useful source is unavailable from the opening deck.
+
+    Absolute delta can be larger in a stronger/redundant mana base simply because its baseline success probability is
+    much higher, so the record also reports delta as a fraction of baseline. Neither quantity is a cut threshold.
+    """
     base=mt.distinct_source_match_probability(masks,n,requirements)
     rows=[]
     for i,m in enumerate(masks):
         if not m: continue
         alt=list(masks); alt[i]=""
         p=mt.distinct_source_match_probability(alt,n,requirements)
-        rows.append((max(0.0,base-p), labels[i] if i<len(labels) else "<source>", m))
+        delta=max(0.0,base-p)
+        rows.append((delta,(delta/base if base>0 else 0.0),labels[i] if i<len(labels) else "<source>",m))
     if not rows:
-        return {"baseline":round(base,6),"worst_delta":0.0,"mean_delta":0.0,"worst_sources":[],"sources_tested":0}
-    worst=max(x[0] for x in rows)
+        return {"baseline":round(base,6),"worst_delta":0.0,"mean_delta":0.0,"worst_relative_delta":0.0,"mean_relative_delta":0.0,"worst_sources":[],"sources_tested":0}
+    worst=max(x[0] for x in rows); worst_rel=max(x[1] for x in rows)
     return {
         "baseline":round(base,6),
         "worst_delta":round(worst,6),
         "mean_delta":round(sum(x[0] for x in rows)/len(rows),6),
-        "worst_sources":sorted({x[1] for x in rows if abs(x[0]-worst)<1e-12}),
+        "worst_relative_delta":round(worst_rel,6),
+        "mean_relative_delta":round(sum(x[1] for x in rows)/len(rows),6),
+        "worst_sources":sorted({x[2] for x in rows if abs(x[0]-worst)<1e-12}),
         "sources_tested":len(rows),
     }
 
@@ -135,6 +142,7 @@ def build_one(did,entry):
         "limitations":[
             "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
             "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+            "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
             "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
             "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
             "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
