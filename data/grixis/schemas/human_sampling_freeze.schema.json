@@ -1,0 +1,13 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/human_sampling_freeze.schema.json",
+ "title":"Human sampling policy freeze record",
+ "type":"object",
+ "required":["schema_version","policy_path","policy_sha256","seed","frozen_before_m6_outputs","m6_status_at_freeze","basis_commit","authority","note"],
+ "properties":{
+  "schema_version":{"const":1},"policy_path":{"const":"data/grixis/human_sampling_policy.json"},"policy_sha256":{"type":"string","pattern":"^sha256:[0-9a-f]{64}$"},"seed":{"type":"string"},"frozen_before_m6_outputs":{"const":true},"m6_status_at_freeze":{"const":"not_started"},"basis_commit":{"type":"string","minLength":7},
+  "authority":{"type":"object","required":["can_decide","requires_cory_to_supersede"],"properties":{"can_decide":{"const":false},"requires_cory_to_supersede":{"const":true}},"additionalProperties":false},
+  "note":{"type":"string"}
+ },
+ "additionalProperties":false
+}
