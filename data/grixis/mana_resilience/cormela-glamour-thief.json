@@ -1,0 +1,305 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Cormela, Glamour Thief",
+   "one_strict_source_unavailable": {
+    "baseline": 0.668826,
+    "mean_delta": 0.028364,
+    "mean_relative_delta": 0.042409,
+    "sources_tested": 29,
+    "worst_delta": 0.029799,
+    "worst_relative_delta": 0.044554,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.331174,
+   "unconditional_colored_failure": 0.360973,
+   "untapped_capable_colored_failure": 0.358958
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Cormela__Glamour_Thief",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 1,
+   "U": 4
+  },
+  "early_pips_mv_le_2": {
+   "B": 16.0,
+   "R": 7.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 20.0,
+   "R": 14.0,
+   "U": 19.0
+  },
+  "land_source_count": {
+   "B": 18,
+   "R": 17,
+   "U": 19
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3934,
+   "R": 0.2295,
+   "U": 0.377
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.75,
+   "R": 1.2143,
+   "U": 0.8261
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/cormela-glamour-thief.json",
+  "mana_timing": "data/grixis/mana_timing/cormela-glamour-thief.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 7,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.177649,
+   "missing_any_UBR_potential_source_match": 0.489887,
+   "missing_any_UBR_unconditional_source_match": 0.519535,
+   "missing_any_UBR_untapped_capable_source_match": 0.517679,
+   "missing_any_UBR_with_mdfc_option": 0.489887,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.150712,
+    "R": 0.169293,
+    "U": 0.133967
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.510113,
+    "mean_delta": 0.028306,
+    "mean_relative_delta": 0.05549,
+    "sources_tested": 29,
+    "worst_delta": 0.029648,
+    "worst_relative_delta": 0.05812,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.177649
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.364422,
+   "missing_any_UBR_potential_source_match": 0.405953,
+   "missing_any_UBR_unconditional_source_match": 0.436312,
+   "missing_any_UBR_untapped_capable_source_match": 0.434338,
+   "missing_any_UBR_with_mdfc_option": 0.405953,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.12057,
+    "R": 0.137316,
+    "U": 0.105685
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.594047,
+    "mean_delta": 0.028943,
+    "mean_relative_delta": 0.048721,
+    "sources_tested": 29,
+    "worst_delta": 0.03036,
+    "worst_relative_delta": 0.051106,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.364422
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.560288,
+   "missing_any_UBR_potential_source_match": 0.331174,
+   "missing_any_UBR_unconditional_source_match": 0.360973,
+   "missing_any_UBR_untapped_capable_source_match": 0.358958,
+   "missing_any_UBR_with_mdfc_option": 0.331174,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.096185,
+    "R": 0.111087,
+    "U": 0.083123
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.668826,
+    "mean_delta": 0.028364,
+    "mean_relative_delta": 0.042409,
+    "sources_tested": 29,
+    "worst_delta": 0.029799,
+    "worst_relative_delta": 0.044554,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.560288
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.725551,
+   "missing_any_UBR_potential_source_match": 0.266314,
+   "missing_any_UBR_unconditional_source_match": 0.294556,
+   "missing_any_UBR_untapped_capable_source_match": 0.292569,
+   "missing_any_UBR_with_mdfc_option": 0.266314,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.076511,
+    "R": 0.089627,
+    "U": 0.065176
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.733686,
+    "mean_delta": 0.026839,
+    "mean_relative_delta": 0.036581,
+    "sources_tested": 29,
+    "worst_delta": 0.028242,
+    "worst_relative_delta": 0.038494,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.725551
+  }
+ }
+}

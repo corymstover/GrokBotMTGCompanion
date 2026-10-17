@@ -1,0 +1,341 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 14,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Garza Zol, Plague Queen",
+   "one_strict_source_unavailable": {
+    "baseline": 0.925745,
+    "mean_delta": 0.011795,
+    "mean_relative_delta": 0.012741,
+    "sources_tested": 35,
+    "worst_delta": 0.012668,
+    "worst_relative_delta": 0.013684,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Plaza of Heroes",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.074255,
+   "unconditional_colored_failure": 0.117568,
+   "untapped_capable_colored_failure": 0.096867
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 1,
+   "R": 2,
+   "U": 2
+  },
+  "early_pips_mv_le_2": {
+   "B": 5.0,
+   "R": 4.0,
+   "U": 10.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 6.0,
+   "R": 11.0,
+   "U": 13.0
+  },
+  "land_source_count": {
+   "B": 23,
+   "R": 20,
+   "U": 21
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2432,
+   "R": 0.4054,
+   "U": 0.3514
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 2.5556,
+   "R": 1.3333,
+   "U": 1.6154
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/garza-zol-plague-queen.json",
+  "mana_timing": "data/grixis/mana_timing/garza-zol-plague-queen.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "garza-zol-plague-queen",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.074664,
+   "missing_any_UBR_potential_source_match": 0.337317,
+   "missing_any_UBR_unconditional_source_match": 0.417503,
+   "missing_any_UBR_untapped_capable_source_match": 0.382924,
+   "missing_any_UBR_with_mdfc_option": 0.337317,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.082302,
+    "R": 0.118895,
+    "U": 0.10535
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.662683,
+    "mean_delta": 0.024321,
+    "mean_relative_delta": 0.036701,
+    "sources_tested": 35,
+    "worst_delta": 0.025772,
+    "worst_relative_delta": 0.03889,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Plaza of Heroes",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.074664
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.18097,
+   "missing_any_UBR_potential_source_match": 0.257974,
+   "missing_any_UBR_unconditional_source_match": 0.334236,
+   "missing_any_UBR_untapped_capable_source_match": 0.300679,
+   "missing_any_UBR_with_mdfc_option": 0.257974,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061269,
+    "R": 0.092474,
+    "U": 0.080769
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.742026,
+    "mean_delta": 0.022669,
+    "mean_relative_delta": 0.030551,
+    "sources_tested": 35,
+    "worst_delta": 0.024078,
+    "worst_relative_delta": 0.032449,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Plaza of Heroes",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.18097
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.324304,
+   "missing_any_UBR_potential_source_match": 0.193613,
+   "missing_any_UBR_unconditional_source_match": 0.263094,
+   "missing_any_UBR_untapped_capable_source_match": 0.231891,
+   "missing_any_UBR_with_mdfc_option": 0.193613,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.045435,
+    "R": 0.071693,
+    "U": 0.061711
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.806387,
+    "mean_delta": 0.020228,
+    "mean_relative_delta": 0.025085,
+    "sources_tested": 35,
+    "worst_delta": 0.021539,
+    "worst_relative_delta": 0.02671,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Plaza of Heroes",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.324304
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.481075,
+   "missing_any_UBR_potential_source_match": 0.142843,
+   "missing_any_UBR_unconditional_source_match": 0.203934,
+   "missing_any_UBR_untapped_capable_source_match": 0.17593,
+   "missing_any_UBR_with_mdfc_option": 0.142843,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.03356,
+    "R": 0.055399,
+    "U": 0.046984
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.857157,
+    "mean_delta": 0.017407,
+    "mean_relative_delta": 0.020307,
+    "sources_tested": 35,
+    "worst_delta": 0.018584,
+    "worst_relative_delta": 0.021681,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Plaza of Heroes",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.481075
+  }
+ }
+}

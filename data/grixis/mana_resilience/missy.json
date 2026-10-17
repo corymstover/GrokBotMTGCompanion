@@ -1,0 +1,253 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 13,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Missy",
+   "one_strict_source_unavailable": {
+    "baseline": 0.827918,
+    "mean_delta": 0.020106,
+    "mean_relative_delta": 0.024285,
+    "sources_tested": 32,
+    "worst_delta": 0.023785,
+    "worst_relative_delta": 0.028729,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.172082,
+   "unconditional_colored_failure": 0.195867,
+   "untapped_capable_colored_failure": 0.195867
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Missy",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 1,
+   "U": 3
+  },
+  "early_pips_mv_le_2": {
+   "B": 11.0,
+   "R": 8.0,
+   "U": 10.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 19.0,
+   "R": 10.0,
+   "U": 14.0
+  },
+  "land_source_count": {
+   "B": 22,
+   "R": 18,
+   "U": 21
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.4848,
+   "R": 0.2121,
+   "U": 0.303
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.6875,
+   "R": 1.2857,
+   "U": 1.05
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 13
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/missy.json",
+  "mana_timing": "data/grixis/mana_timing/missy.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "missy",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 3,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.436186,
+   "missing_any_UBR_unconditional_source_match": 0.466295,
+   "missing_any_UBR_untapped_capable_source_match": 0.466295,
+   "missing_any_UBR_with_mdfc_option": 0.436186,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.093194,
+    "R": 0.150712,
+    "U": 0.10535
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.563814,
+    "mean_delta": 0.026166,
+    "mean_relative_delta": 0.04641,
+    "sources_tested": 32,
+    "worst_delta": 0.030109,
+    "worst_relative_delta": 0.053403,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.353288,
+   "missing_any_UBR_unconditional_source_match": 0.383285,
+   "missing_any_UBR_untapped_capable_source_match": 0.383285,
+   "missing_any_UBR_with_mdfc_option": 0.353288,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.070414,
+    "R": 0.12057,
+    "U": 0.080769
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.646712,
+    "mean_delta": 0.025906,
+    "mean_relative_delta": 0.040057,
+    "sources_tested": 32,
+    "worst_delta": 0.029997,
+    "worst_relative_delta": 0.046384,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.281738,
+   "missing_any_UBR_unconditional_source_match": 0.310409,
+   "missing_any_UBR_untapped_capable_source_match": 0.310409,
+   "missing_any_UBR_with_mdfc_option": 0.281738,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.053008,
+    "R": 0.096185,
+    "U": 0.061711
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.718262,
+    "mean_delta": 0.024595,
+    "mean_relative_delta": 0.034243,
+    "sources_tested": 32,
+    "worst_delta": 0.028671,
+    "worst_relative_delta": 0.039918,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.221573,
+   "missing_any_UBR_unconditional_source_match": 0.248062,
+   "missing_any_UBR_untapped_capable_source_match": 0.248062,
+   "missing_any_UBR_with_mdfc_option": 0.221573,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.039756,
+    "R": 0.076511,
+    "U": 0.046984
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.778427,
+    "mean_delta": 0.022562,
+    "mean_relative_delta": 0.028984,
+    "sources_tested": 32,
+    "worst_delta": 0.026489,
+    "worst_relative_delta": 0.034029,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

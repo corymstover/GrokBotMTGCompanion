@@ -1,0 +1,296 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 9,
+   "colored_requirements": {
+    "R": 1,
+    "U": 1
+   },
+   "name": "Bjorna, Nightfall Alchemist",
+   "one_strict_source_unavailable": {
+    "baseline": 0.719526,
+    "mean_delta": 0.020433,
+    "mean_relative_delta": 0.028397,
+    "sources_tested": 30,
+    "worst_delta": 0.027252,
+    "worst_relative_delta": 0.037876,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Fabled Passage",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Shivan Reef",
+     "Steam Vents",
+     "Stormcarved Coast",
+     "Sulfur Falls",
+     "Training Center",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.280474,
+   "unconditional_colored_failure": 0.280474,
+   "untapped_capable_colored_failure": 0.336874
+  },
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Cecily, Haunted Mage",
+   "one_strict_source_unavailable": {
+    "baseline": 0.677289,
+    "mean_delta": 0.027033,
+    "mean_relative_delta": 0.039913,
+    "sources_tested": 30,
+    "worst_delta": 0.03131,
+    "worst_relative_delta": 0.046228,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Fabled Passage",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.322711,
+   "unconditional_colored_failure": 0.322711,
+   "untapped_capable_colored_failure": 0.410306
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 5,
+   "U": 8
+  },
+  "early_pips_mv_le_2": {
+   "B": 5.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 7.0,
+   "R": 12.0,
+   "U": 18.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 18,
+   "U": 19
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2442,
+   "R": 0.3372,
+   "U": 0.4186
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.9048,
+   "R": 0.6207,
+   "U": 0.5278
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": false,
+   "card": "Fabled Passage",
+   "colors_with_only_one_target": {
+    "B": [
+     "Swamp"
+    ],
+    "R": [
+     "Mountain"
+    ]
+   },
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/bjorna-nightfall-alchemist-cecily.json",
+  "mana_timing": "data/grixis/mana_timing/bjorna-nightfall-alchemist-cecily.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 2,
+  "fetch_color_single_points": 2,
+  "fetches": 4,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.126158,
+   "missing_any_UBR_potential_source_match": 0.479742,
+   "missing_any_UBR_unconditional_source_match": 0.479742,
+   "missing_any_UBR_untapped_capable_source_match": 0.565447,
+   "missing_any_UBR_with_mdfc_option": 0.479742,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.130785,
+    "R": 0.147363,
+    "U": 0.130785
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.520258,
+    "mean_delta": 0.027356,
+    "mean_relative_delta": 0.052581,
+    "sources_tested": 30,
+    "worst_delta": 0.03135,
+    "worst_relative_delta": 0.060258,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Fabled Passage",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.126158
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.278384,
+   "missing_any_UBR_potential_source_match": 0.396436,
+   "missing_any_UBR_unconditional_source_match": 0.396436,
+   "missing_any_UBR_untapped_capable_source_match": 0.484895,
+   "missing_any_UBR_with_mdfc_option": 0.396436,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.102865,
+    "R": 0.117559,
+    "U": 0.102865
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.603564,
+    "mean_delta": 0.027769,
+    "mean_relative_delta": 0.046008,
+    "sources_tested": 30,
+    "worst_delta": 0.031988,
+    "worst_relative_delta": 0.052998,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Fabled Passage",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.278384
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.457133,
+   "missing_any_UBR_potential_source_match": 0.322711,
+   "missing_any_UBR_unconditional_source_match": 0.322711,
+   "missing_any_UBR_untapped_capable_source_match": 0.410306,
+   "missing_any_UBR_with_mdfc_option": 0.322711,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.080655,
+    "R": 0.093513,
+    "U": 0.080655
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.677289,
+    "mean_delta": 0.027033,
+    "mean_relative_delta": 0.039913,
+    "sources_tested": 30,
+    "worst_delta": 0.03131,
+    "worst_relative_delta": 0.046228,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Fabled Passage",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.457133
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.626638,
+   "missing_any_UBR_potential_source_match": 0.259146,
+   "missing_any_UBR_unconditional_source_match": 0.259146,
+   "missing_any_UBR_untapped_capable_source_match": 0.342985,
+   "missing_any_UBR_with_mdfc_option": 0.259146,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.063041,
+    "R": 0.074166,
+    "U": 0.063041
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.740854,
+    "mean_delta": 0.025426,
+    "mean_relative_delta": 0.03432,
+    "sources_tested": 30,
+    "worst_delta": 0.029619,
+    "worst_relative_delta": 0.039979,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Fabled Passage",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.626638
+  }
+ }
+}

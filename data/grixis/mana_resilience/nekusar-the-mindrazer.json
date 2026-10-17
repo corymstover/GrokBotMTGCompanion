@@ -1,0 +1,331 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Nekusar, the Mindrazer",
+   "one_strict_source_unavailable": {
+    "baseline": 0.775095,
+    "mean_delta": 0.023782,
+    "mean_relative_delta": 0.030683,
+    "sources_tested": 31,
+    "worst_delta": 0.025591,
+    "worst_relative_delta": 0.033016,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.224905,
+   "unconditional_colored_failure": 0.250496,
+   "untapped_capable_colored_failure": 0.271667
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 4,
+   "U": 8
+  },
+  "early_pips_mv_le_2": {
+   "B": 9.0,
+   "R": 7.0,
+   "U": 11.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 15.0,
+   "R": 18.0,
+   "U": 21.0
+  },
+  "land_source_count": {
+   "B": 18,
+   "R": 17,
+   "U": 18
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2875,
+   "R": 0.3,
+   "U": 0.4125
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.7826,
+   "R": 0.7083,
+   "U": 0.5455
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/nekusar-the-mindrazer.json",
+  "mana_timing": "data/grixis/mana_timing/nekusar-the-mindrazer.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.442979,
+   "missing_any_UBR_unconditional_source_match": 0.47202,
+   "missing_any_UBR_untapped_capable_source_match": 0.495413,
+   "missing_any_UBR_with_mdfc_option": 0.442979,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.150712,
+    "R": 0.169293,
+    "U": 0.150712
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.557021,
+    "mean_delta": 0.027169,
+    "mean_relative_delta": 0.048776,
+    "sources_tested": 31,
+    "worst_delta": 0.02904,
+    "worst_relative_delta": 0.052135,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.359104,
+   "missing_any_UBR_unconditional_source_match": 0.388085,
+   "missing_any_UBR_untapped_capable_source_match": 0.411643,
+   "missing_any_UBR_with_mdfc_option": 0.359104,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.12057,
+    "R": 0.137316,
+    "U": 0.12057
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.640896,
+    "mean_delta": 0.027056,
+    "mean_relative_delta": 0.042217,
+    "sources_tested": 31,
+    "worst_delta": 0.028981,
+    "worst_relative_delta": 0.04522,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.286343,
+   "missing_any_UBR_unconditional_source_match": 0.31406,
+   "missing_any_UBR_untapped_capable_source_match": 0.33679,
+   "missing_any_UBR_with_mdfc_option": 0.286343,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.096185,
+    "R": 0.111087,
+    "U": 0.096185
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.713657,
+    "mean_delta": 0.025819,
+    "mean_relative_delta": 0.036178,
+    "sources_tested": 31,
+    "worst_delta": 0.027717,
+    "worst_relative_delta": 0.038838,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.224905,
+   "missing_any_UBR_unconditional_source_match": 0.250496,
+   "missing_any_UBR_untapped_capable_source_match": 0.271667,
+   "missing_any_UBR_with_mdfc_option": 0.224905,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.076511,
+    "R": 0.089627,
+    "U": 0.076511
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.775095,
+    "mean_delta": 0.023782,
+    "mean_relative_delta": 0.030683,
+    "sources_tested": 31,
+    "worst_delta": 0.025591,
+    "worst_relative_delta": 0.033016,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

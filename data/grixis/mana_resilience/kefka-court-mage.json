@@ -1,0 +1,343 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 8,
+   "colored_requirements": {},
+   "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "one_strict_source_unavailable": {
+    "baseline": 1.0,
+    "mean_delta": 0.0,
+    "mean_relative_delta": 0.0,
+    "sources_tested": 26,
+    "worst_delta": 0.0,
+    "worst_relative_delta": 0.0,
+    "worst_sources": [
+     "Arena of Glory",
+     "Arid Mesa",
+     "Badlands",
+     "Blood Crypt",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Island",
+     "Luxury Suite",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Morphic Pool",
+     "Otawara, Soaring City",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Steam Vents",
+     "Underground Sea",
+     "Verdant Catacombs",
+     "Volcanic Island",
+     "Watery Grave",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.0,
+   "unconditional_colored_failure": 0.0,
+   "untapped_capable_colored_failure": 0.0
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Kefka__Court_Mage",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 1,
+   "U": 4
+  },
+  "early_pips_mv_le_2": {
+   "B": 15.0,
+   "R": 11.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 21.0,
+   "R": 15.0,
+   "U": 19.0
+  },
+  "land_source_count": {
+   "B": 16,
+   "R": 16,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3881,
+   "R": 0.2537,
+   "U": 0.3582
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.6154,
+   "R": 0.9412,
+   "U": 0.7083
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/kefka-court-mage.json",
+  "mana_timing": "data/grixis/mana_timing/kefka-court-mage.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "kefka-court-mage",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.215114,
+   "missing_any_UBR_potential_source_match": 0.56812,
+   "missing_any_UBR_unconditional_source_match": 0.597886,
+   "missing_any_UBR_untapped_capable_source_match": 0.56812,
+   "missing_any_UBR_with_mdfc_option": 0.56812,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.189883,
+    "R": 0.189883,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.43188,
+    "mean_delta": 0.029339,
+    "mean_relative_delta": 0.067933,
+    "sources_tested": 26,
+    "worst_delta": 0.029767,
+    "worst_relative_delta": 0.068923,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.215114
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.421624,
+   "missing_any_UBR_potential_source_match": 0.486832,
+   "missing_any_UBR_unconditional_source_match": 0.518561,
+   "missing_any_UBR_untapped_capable_source_match": 0.486832,
+   "missing_any_UBR_with_mdfc_option": 0.486832,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.156126,
+    "R": 0.156126,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.513168,
+    "mean_delta": 0.031265,
+    "mean_relative_delta": 0.060925,
+    "sources_tested": 26,
+    "worst_delta": 0.031729,
+    "worst_relative_delta": 0.06183,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.421624
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.622719,
+   "missing_any_UBR_potential_source_match": 0.411323,
+   "missing_any_UBR_unconditional_source_match": 0.443753,
+   "missing_any_UBR_untapped_capable_source_match": 0.411323,
+   "missing_any_UBR_with_mdfc_option": 0.411323,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.128059,
+    "R": 0.128059,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.588677,
+    "mean_delta": 0.031946,
+    "mean_relative_delta": 0.054268,
+    "sources_tested": 26,
+    "worst_delta": 0.032431,
+    "worst_relative_delta": 0.055091,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.622719
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.779825,
+   "missing_any_UBR_potential_source_match": 0.343007,
+   "missing_any_UBR_unconditional_source_match": 0.375026,
+   "missing_any_UBR_untapped_capable_source_match": 0.343007,
+   "missing_any_UBR_with_mdfc_option": 0.343007,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.104775,
+    "R": 0.104775,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.656993,
+    "mean_delta": 0.03153,
+    "mean_relative_delta": 0.047992,
+    "sources_tested": 26,
+    "worst_delta": 0.032018,
+    "worst_relative_delta": 0.048735,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.779825
+  }
+ }
+}

@@ -1,0 +1,331 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Zevlor, Elturel Exile",
+   "one_strict_source_unavailable": {
+    "baseline": 0.752913,
+    "mean_delta": 0.023259,
+    "mean_relative_delta": 0.030892,
+    "sources_tested": 33,
+    "worst_delta": 0.025678,
+    "worst_relative_delta": 0.034105,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.247087,
+   "unconditional_colored_failure": 0.272765,
+   "untapped_capable_colored_failure": 0.272765
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Zevlor__Elturel_Exile",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 2,
+   "U": 11
+  },
+  "early_pips_mv_le_2": {
+   "B": 8.0,
+   "R": 9.0,
+   "U": 21.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 14.0,
+   "R": 14.0,
+   "U": 28.0
+  },
+  "land_source_count": {
+   "B": 18,
+   "R": 18,
+   "U": 19
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2584,
+   "R": 0.236,
+   "U": 0.5056
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.7826,
+   "R": 0.8571,
+   "U": 0.4222
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/zevlor-elturel-exile.json",
+  "mana_timing": "data/grixis/mana_timing/zevlor-elturel-exile.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "zevlor-elturel-exile",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.117605,
+   "missing_any_UBR_potential_source_match": 0.399446,
+   "missing_any_UBR_unconditional_source_match": 0.427736,
+   "missing_any_UBR_untapped_capable_source_match": 0.427736,
+   "missing_any_UBR_with_mdfc_option": 0.399446,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.150712,
+    "R": 0.150712,
+    "U": 0.133967
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.600554,
+    "mean_delta": 0.025797,
+    "mean_relative_delta": 0.042955,
+    "sources_tested": 33,
+    "worst_delta": 0.028291,
+    "worst_relative_delta": 0.047107,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.117605
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.263007,
+   "missing_any_UBR_potential_source_match": 0.316865,
+   "missing_any_UBR_unconditional_source_match": 0.344397,
+   "missing_any_UBR_untapped_capable_source_match": 0.344397,
+   "missing_any_UBR_with_mdfc_option": 0.316865,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.12057,
+    "R": 0.12057,
+    "U": 0.105685
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.683135,
+    "mean_delta": 0.025025,
+    "mean_relative_delta": 0.036632,
+    "sources_tested": 33,
+    "worst_delta": 0.027532,
+    "worst_relative_delta": 0.040303,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.263007
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.437272,
+   "missing_any_UBR_potential_source_match": 0.247087,
+   "missing_any_UBR_unconditional_source_match": 0.272765,
+   "missing_any_UBR_untapped_capable_source_match": 0.272765,
+   "missing_any_UBR_with_mdfc_option": 0.247087,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.096185,
+    "R": 0.096185,
+    "U": 0.083123
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.752913,
+    "mean_delta": 0.023259,
+    "mean_relative_delta": 0.030892,
+    "sources_tested": 33,
+    "worst_delta": 0.025678,
+    "worst_relative_delta": 0.034105,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.437272
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.606092,
+   "missing_any_UBR_potential_source_match": 0.189702,
+   "missing_any_UBR_unconditional_source_match": 0.212822,
+   "missing_any_UBR_untapped_capable_source_match": 0.212822,
+   "missing_any_UBR_with_mdfc_option": 0.189702,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.076511,
+    "R": 0.076511,
+    "U": 0.065176
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.810298,
+    "mean_delta": 0.020867,
+    "mean_relative_delta": 0.025752,
+    "sources_tested": 33,
+    "worst_delta": 0.02312,
+    "worst_relative_delta": 0.028533,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.606092
+  }
+ }
+}

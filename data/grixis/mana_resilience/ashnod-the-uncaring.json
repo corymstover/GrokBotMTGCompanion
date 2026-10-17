@@ -1,0 +1,243 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Ashnod the Uncaring",
+   "one_strict_source_unavailable": {
+    "baseline": 0.612782,
+    "mean_delta": 0.029827,
+    "mean_relative_delta": 0.048674,
+    "sources_tested": 27,
+    "worst_delta": 0.038404,
+    "worst_relative_delta": 0.062671,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.387218,
+   "unconditional_colored_failure": 0.425621,
+   "untapped_capable_colored_failure": 0.425621
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Ashnod_the_Uncaring",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 1,
+   "R": 0,
+   "U": 2
+  },
+  "early_pips_mv_le_2": {
+   "B": 8.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 10.0,
+   "R": 13.0,
+   "U": 15.0
+  },
+  "land_source_count": {
+   "B": 15,
+   "R": 14,
+   "U": 16
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2889,
+   "R": 0.3111,
+   "U": 0.4
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.1538,
+   "R": 1.0,
+   "U": 0.8889
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 13
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/ashnod-the-uncaring.json",
+  "mana_timing": "data/grixis/mana_timing/ashnod-the-uncaring.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 3,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.130877,
+   "missing_any_UBR_potential_source_match": 0.604611,
+   "missing_any_UBR_unconditional_source_match": 0.638033,
+   "missing_any_UBR_untapped_capable_source_match": 0.638033,
+   "missing_any_UBR_with_mdfc_option": 0.604611,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.212669,
+    "R": 0.237854,
+    "U": 0.189883
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.395389,
+    "mean_delta": 0.026511,
+    "mean_relative_delta": 0.06705,
+    "sources_tested": 27,
+    "worst_delta": 0.033422,
+    "worst_relative_delta": 0.084529,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.130877
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.286602,
+   "missing_any_UBR_potential_source_match": 0.527272,
+   "missing_any_UBR_unconditional_source_match": 0.563629,
+   "missing_any_UBR_untapped_capable_source_match": 0.563629,
+   "missing_any_UBR_with_mdfc_option": 0.527272,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.177224,
+    "R": 0.200854,
+    "U": 0.156126
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.472728,
+    "mean_delta": 0.028644,
+    "mean_relative_delta": 0.060593,
+    "sources_tested": 27,
+    "worst_delta": 0.036357,
+    "worst_relative_delta": 0.07691,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.286602
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.467406,
+   "missing_any_UBR_potential_source_match": 0.454328,
+   "missing_any_UBR_unconditional_source_match": 0.492314,
+   "missing_any_UBR_untapped_capable_source_match": 0.492314,
+   "missing_any_UBR_with_mdfc_option": 0.454328,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.147355,
+    "R": 0.169259,
+    "U": 0.128059
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.545672,
+    "mean_delta": 0.029718,
+    "mean_relative_delta": 0.054461,
+    "sources_tested": 27,
+    "worst_delta": 0.037986,
+    "worst_relative_delta": 0.069614,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.467406
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.636911,
+   "missing_any_UBR_potential_source_match": 0.387218,
+   "missing_any_UBR_unconditional_source_match": 0.425621,
+   "missing_any_UBR_untapped_capable_source_match": 0.425621,
+   "missing_any_UBR_with_mdfc_option": 0.387218,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.122238,
+    "R": 0.142332,
+    "U": 0.104775
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.612782,
+    "mean_delta": 0.029827,
+    "mean_relative_delta": 0.048674,
+    "sources_tested": 27,
+    "worst_delta": 0.038404,
+    "worst_relative_delta": 0.062671,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.636911
+  }
+ }
+}

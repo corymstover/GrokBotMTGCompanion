@@ -1,0 +1,258 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 13,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Be'lakor, the Dark Master",
+   "one_strict_source_unavailable": {
+    "baseline": 0.854648,
+    "mean_delta": 0.017352,
+    "mean_relative_delta": 0.020303,
+    "sources_tested": 34,
+    "worst_delta": 0.021306,
+    "worst_relative_delta": 0.024929,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.145352,
+   "unconditional_colored_failure": 0.190378,
+   "untapped_capable_colored_failure": 0.231163
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 17,
+   "R": 3,
+   "U": 3
+  },
+  "early_pips_mv_le_2": {
+   "B": 8.0,
+   "R": 0.0,
+   "U": 3.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 15.0,
+   "R": 4.0,
+   "U": 5.0
+  },
+  "land_source_count": {
+   "B": 23,
+   "R": 19,
+   "U": 21
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.6322,
+   "R": 0.2184,
+   "U": 0.1494
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.4182,
+   "R": 1.0,
+   "U": 1.6154
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 14
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 15
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 13
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/belakor-the-dark-master.json",
+  "mana_timing": "data/grixis/mana_timing/belakor-the-dark-master.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "belakor-the-dark-master",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 3,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.094217,
+   "missing_any_UBR_potential_source_match": 0.397364,
+   "missing_any_UBR_unconditional_source_match": 0.457286,
+   "missing_any_UBR_untapped_capable_source_match": 0.507013,
+   "missing_any_UBR_with_mdfc_option": 0.397364,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.082302,
+    "R": 0.133967,
+    "U": 0.10535
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.602636,
+    "mean_delta": 0.024788,
+    "mean_relative_delta": 0.041132,
+    "sources_tested": 34,
+    "worst_delta": 0.029429,
+    "worst_relative_delta": 0.048834,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.094217
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.219507,
+   "missing_any_UBR_potential_source_match": 0.315879,
+   "missing_any_UBR_unconditional_source_match": 0.374791,
+   "missing_any_UBR_untapped_capable_source_match": 0.424785,
+   "missing_any_UBR_with_mdfc_option": 0.315879,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061269,
+    "R": 0.105685,
+    "U": 0.080769
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.684121,
+    "mean_delta": 0.023966,
+    "mean_relative_delta": 0.035032,
+    "sources_tested": 34,
+    "worst_delta": 0.028675,
+    "worst_relative_delta": 0.041915,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.219507
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.379054,
+   "missing_any_UBR_potential_source_match": 0.247177,
+   "missing_any_UBR_unconditional_source_match": 0.302771,
+   "missing_any_UBR_untapped_capable_source_match": 0.351001,
+   "missing_any_UBR_with_mdfc_option": 0.247177,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.045435,
+    "R": 0.083123,
+    "U": 0.061711
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.752823,
+    "mean_delta": 0.022227,
+    "mean_relative_delta": 0.029525,
+    "sources_tested": 34,
+    "worst_delta": 0.026812,
+    "worst_relative_delta": 0.035615,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.379054
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.543586,
+   "missing_any_UBR_potential_source_match": 0.190733,
+   "missing_any_UBR_unconditional_source_match": 0.241468,
+   "missing_any_UBR_untapped_capable_source_match": 0.286451,
+   "missing_any_UBR_with_mdfc_option": 0.190733,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.03356,
+    "R": 0.065176,
+    "U": 0.046984
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.809267,
+    "mean_delta": 0.019922,
+    "mean_relative_delta": 0.024617,
+    "sources_tested": 34,
+    "worst_delta": 0.024239,
+    "worst_relative_delta": 0.029952,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.543586
+  }
+ }
+}

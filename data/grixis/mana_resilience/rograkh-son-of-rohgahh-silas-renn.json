@@ -1,0 +1,368 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 8,
+   "colored_requirements": {},
+   "name": "Rograkh, Son of Rohgahh",
+   "one_strict_source_unavailable": {
+    "baseline": 1.0,
+    "mean_delta": 0.0,
+    "mean_relative_delta": 0.0,
+    "sources_tested": 22,
+    "worst_delta": 0.0,
+    "worst_relative_delta": 0.0,
+    "worst_sources": [
+     "Arid Mesa",
+     "Badlands",
+     "Blood Crypt",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Otawara, Soaring City",
+     "Phyrexian Tower",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Steam Vents",
+     "Undercity Sewers",
+     "Underground Sea",
+     "Verdant Catacombs",
+     "Volcanic Island",
+     "Watery Grave",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.0,
+   "unconditional_colored_failure": 0.0,
+   "untapped_capable_colored_failure": 0.0
+  },
+  {
+   "cards_seen_by_base_resource_turn": 10,
+   "colored_requirements": {
+    "B": 1,
+    "U": 1
+   },
+   "name": "Silas Renn, Seeker Adept",
+   "one_strict_source_unavailable": {
+    "baseline": 0.69967,
+    "mean_delta": 0.028374,
+    "mean_relative_delta": 0.040553,
+    "sources_tested": 22,
+    "worst_delta": 0.02924,
+    "worst_relative_delta": 0.041791,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Undercity Sewers",
+     "Underground Sea",
+     "Verdant Catacombs",
+     "Watery Grave",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.30033,
+   "unconditional_colored_failure": 0.30033,
+   "untapped_capable_colored_failure": 0.32957
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "RogSi",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 3,
+   "U": 4
+  },
+  "early_pips_mv_le_2": {
+   "B": 12.0,
+   "R": 12.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 22.0,
+   "R": 18.0,
+   "U": 20.0
+  },
+  "land_source_count": {
+   "B": 14,
+   "R": 12,
+   "U": 14
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.4,
+   "R": 0.2571,
+   "U": 0.3429
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.5,
+   "R": 0.6667,
+   "U": 0.5833
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/rograkh-son-of-rohgahh-silas-renn.json",
+  "mana_timing": "data/grixis/mana_timing/rograkh-son-of-rohgahh-silas-renn.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 2,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.300089,
+   "missing_any_UBR_potential_source_match": 0.676779,
+   "missing_any_UBR_unconditional_source_match": 0.676779,
+   "missing_any_UBR_untapped_capable_source_match": 0.705143,
+   "missing_any_UBR_with_mdfc_option": 0.676779,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.233936,
+    "R": 0.29222,
+    "U": 0.233936
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.323221,
+    "mean_delta": 0.029061,
+    "mean_relative_delta": 0.08991,
+    "sources_tested": 22,
+    "worst_delta": 0.029319,
+    "worst_relative_delta": 0.090709,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.300089
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.537692,
+   "missing_any_UBR_potential_source_match": 0.604889,
+   "missing_any_UBR_unconditional_source_match": 0.604889,
+   "missing_any_UBR_untapped_capable_source_match": 0.636764,
+   "missing_any_UBR_with_mdfc_option": 0.604889,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.197137,
+    "R": 0.25282,
+    "U": 0.197137
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.395111,
+    "mean_delta": 0.032677,
+    "mean_relative_delta": 0.082703,
+    "sources_tested": 22,
+    "worst_delta": 0.032974,
+    "worst_relative_delta": 0.083454,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.537692
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.735695,
+   "missing_any_UBR_potential_source_match": 0.534375,
+   "missing_any_UBR_unconditional_source_match": 0.534375,
+   "missing_any_UBR_untapped_capable_source_match": 0.568745,
+   "missing_any_UBR_with_mdfc_option": 0.534375,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.165774,
+    "R": 0.218344,
+    "U": 0.165774
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.465625,
+    "mean_delta": 0.035257,
+    "mean_relative_delta": 0.07572,
+    "sources_tested": 22,
+    "worst_delta": 0.035585,
+    "worst_relative_delta": 0.076423,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.735695
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.867128,
+   "missing_any_UBR_potential_source_match": 0.466957,
+   "missing_any_UBR_unconditional_source_match": 0.466957,
+   "missing_any_UBR_untapped_capable_source_match": 0.502782,
+   "missing_any_UBR_with_mdfc_option": 0.466957,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.139098,
+    "R": 0.188228,
+    "U": 0.139098
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.533043,
+    "mean_delta": 0.036773,
+    "mean_relative_delta": 0.068987,
+    "sources_tested": 22,
+    "worst_delta": 0.037122,
+    "worst_relative_delta": 0.069642,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.867128
+  }
+ }
+}

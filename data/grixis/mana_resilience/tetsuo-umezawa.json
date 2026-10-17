@@ -1,0 +1,269 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 10,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Tetsuo Umezawa",
+   "one_strict_source_unavailable": {
+    "baseline": 0.632398,
+    "mean_delta": 0.024,
+    "mean_relative_delta": 0.037951,
+    "sources_tested": 34,
+    "worst_delta": 0.032658,
+    "worst_relative_delta": 0.051642,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.367602,
+   "unconditional_colored_failure": 0.40026,
+   "untapped_capable_colored_failure": 0.417894
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Tetsuo_Umezawa",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 6,
+   "U": 3
+  },
+  "early_pips_mv_le_2": {
+   "B": 7.0,
+   "R": 6.0,
+   "U": 12.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 13.0,
+   "R": 11.0,
+   "U": 17.0
+  },
+  "land_source_count": {
+   "B": 18,
+   "R": 15,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2615,
+   "R": 0.3846,
+   "U": 0.3538
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.0588,
+   "R": 0.6,
+   "U": 0.7391
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 18
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 18
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/tetsuo-umezawa.json",
+  "mana_timing": "data/grixis/mana_timing/tetsuo-umezawa.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 5,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.094217,
+   "missing_any_UBR_potential_source_match": 0.449203,
+   "missing_any_UBR_unconditional_source_match": 0.481706,
+   "missing_any_UBR_untapped_capable_source_match": 0.49938,
+   "missing_any_UBR_with_mdfc_option": 0.449203,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.150712,
+    "R": 0.212669,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.550797,
+    "mean_delta": 0.024128,
+    "mean_relative_delta": 0.043805,
+    "sources_tested": 34,
+    "worst_delta": 0.032503,
+    "worst_relative_delta": 0.059011,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.219507,
+   "missing_any_UBR_potential_source_match": 0.367602,
+   "missing_any_UBR_unconditional_source_match": 0.40026,
+   "missing_any_UBR_untapped_capable_source_match": 0.417894,
+   "missing_any_UBR_with_mdfc_option": 0.367602,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.12057,
+    "R": 0.177224,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.632398,
+    "mean_delta": 0.024,
+    "mean_relative_delta": 0.037951,
+    "sources_tested": 34,
+    "worst_delta": 0.032658,
+    "worst_relative_delta": 0.051642,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.379054,
+   "missing_any_UBR_potential_source_match": 0.296716,
+   "missing_any_UBR_unconditional_source_match": 0.328246,
+   "missing_any_UBR_untapped_capable_source_match": 0.34514,
+   "missing_any_UBR_with_mdfc_option": 0.296716,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.096185,
+    "R": 0.147355,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.703284,
+    "mean_delta": 0.022934,
+    "mean_relative_delta": 0.032609,
+    "sources_tested": 34,
+    "worst_delta": 0.031531,
+    "worst_relative_delta": 0.044833,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.543586,
+   "missing_any_UBR_potential_source_match": 0.236618,
+   "missing_any_UBR_unconditional_source_match": 0.26609,
+   "missing_any_UBR_untapped_capable_source_match": 0.281746,
+   "missing_any_UBR_with_mdfc_option": 0.236618,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.076511,
+    "R": 0.122238,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.763382,
+    "mean_delta": 0.021211,
+    "mean_relative_delta": 0.027786,
+    "sources_tested": 34,
+    "worst_delta": 0.029472,
+    "worst_relative_delta": 0.038607,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

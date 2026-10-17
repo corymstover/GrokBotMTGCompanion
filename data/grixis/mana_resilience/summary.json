@@ -1,0 +1,508 @@
+{
+ "decks": [
+  {
+   "commanders": 1,
+   "deck_id": "Abaddon_the_Despoiler",
+   "fetch_color_single_points": 0,
+   "fetches": 7,
+   "single_target_fetches": 0,
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Admiral_Beckett_Brass",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Anhelo__the_Painter",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "fetch_color_single_points": 0,
+   "fetches": 2,
+   "single_target_fetches": 0,
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Ashnod_the_Uncaring",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "commanders": 2,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "fetch_color_single_points": 2,
+   "fetches": 4,
+   "single_target_fetches": 0,
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Cormela__Glamour_Thief",
+   "fetch_color_single_points": 0,
+   "fetches": 7,
+   "single_target_fetches": 0,
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Crosis__the_Purger",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "crosis-the-purger"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Cult_of_Skaro",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "cult-of-skaro"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Davros__Dalek_Creator",
+   "fetch_color_single_points": 0,
+   "fetches": 5,
+   "single_target_fetches": 0,
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "fetch_color_single_points": 3,
+   "fetches": 4,
+   "single_target_fetches": 0,
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Don_Andres__the_Renegade",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Dr__Eggman",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "dr-eggman"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Edward_Kenway",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "edward-kenway"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Evelyn__the_Covetous",
+   "fetch_color_single_points": 0,
+   "fetches": 7,
+   "single_target_fetches": 0,
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Fire_Lord_Azula",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "fire-lord-azula"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "fetch_color_single_points": 2,
+   "fetches": 4,
+   "single_target_fetches": 0,
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "commanders": 2,
+   "deck_id": "Grixistax___October_2026",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Kefka__Court_Mage",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "kefka-court-mage"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Kess__Dissident_Mage",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Loki__the_Deceiver",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Lord_of_Tresserhorn",
+   "fetch_color_single_points": 0,
+   "fetches": 5,
+   "single_target_fetches": 0,
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Lord_Xander__the_Collector",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mai_and_Zuko",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "mai-and-zuko"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mairsil__the_Pretender",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mishra__Eminent_One",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Missy",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "missy"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nicol_Bolas",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "nicol-bolas"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "norman-osborn"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "fetch_color_single_points": 0,
+   "fetches": 8,
+   "single_target_fetches": 0,
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "commanders": 2,
+   "deck_id": "RogSi",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Saruman__the_White_Hand",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sedris__the_Traitor_King",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "fetch_color_single_points": 0,
+   "fetches": 6,
+   "single_target_fetches": 0,
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Tetsuo_Umezawa",
+   "fetch_color_single_points": 0,
+   "fetches": 5,
+   "single_target_fetches": 0,
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "The_Madcap_Jester",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "the-madcap-jester"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "The_Rani",
+   "fetch_color_single_points": 0,
+   "fetches": 4,
+   "single_target_fetches": 0,
+   "slug": "the-rani"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "The_Valeyard",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "the-valeyard"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Thraximundar",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "thraximundar"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "fetch_color_single_points": 0,
+   "fetches": 3,
+   "single_target_fetches": 0,
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "fetch_color_single_points": 0,
+   "fetches": 4,
+   "single_target_fetches": 0,
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "fetch_color_single_points": 0,
+   "fetches": 9,
+   "single_target_fetches": 0,
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "generated_by": "scripts/grixis_mana_resilience.py v1",
+ "schema_version": 1,
+ "totals": {
+  "commander_records": 65,
+  "decks": 62,
+  "fetch_color_single_points": 7,
+  "single_target_fetches": 0
+ }
+}

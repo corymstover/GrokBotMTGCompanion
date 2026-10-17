@@ -1,0 +1,323 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Parnesse, the Subtle Brush",
+   "one_strict_source_unavailable": {
+    "baseline": 0.832343,
+    "mean_delta": 0.019216,
+    "mean_relative_delta": 0.023087,
+    "sources_tested": 34,
+    "worst_delta": 0.02116,
+    "worst_relative_delta": 0.025423,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.167657,
+   "unconditional_colored_failure": 0.211894,
+   "untapped_capable_colored_failure": 0.204886
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 1,
+   "R": 11,
+   "U": 4
+  },
+  "early_pips_mv_le_2": {
+   "B": 4.0,
+   "R": 11.0,
+   "U": 15.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 5.0,
+   "R": 27.0,
+   "U": 19.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 20,
+   "U": 21
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.1235,
+   "R": 0.5185,
+   "U": 0.358
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.9,
+   "R": 0.4762,
+   "U": 0.7241
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/parnesse-the-subtle-brush.json",
+  "mana_timing": "data/grixis/mana_timing/parnesse-the-subtle-brush.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 8,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.094217,
+   "missing_any_UBR_potential_source_match": 0.370826,
+   "missing_any_UBR_unconditional_source_match": 0.426442,
+   "missing_any_UBR_untapped_capable_source_match": 0.41867,
+   "missing_any_UBR_with_mdfc_option": 0.370826,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.133967,
+    "R": 0.118895,
+    "U": 0.10535
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.629174,
+    "mean_delta": 0.025092,
+    "mean_relative_delta": 0.03988,
+    "sources_tested": 34,
+    "worst_delta": 0.027334,
+    "worst_relative_delta": 0.043445,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.219507,
+   "missing_any_UBR_potential_source_match": 0.289543,
+   "missing_any_UBR_unconditional_source_match": 0.343182,
+   "missing_any_UBR_untapped_capable_source_match": 0.335371,
+   "missing_any_UBR_with_mdfc_option": 0.289543,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.105685,
+    "R": 0.092474,
+    "U": 0.080769
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.710457,
+    "mean_delta": 0.023907,
+    "mean_relative_delta": 0.03365,
+    "sources_tested": 34,
+    "worst_delta": 0.026131,
+    "worst_relative_delta": 0.036781,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.379054,
+   "missing_any_UBR_potential_source_match": 0.222103,
+   "missing_any_UBR_unconditional_source_match": 0.271679,
+   "missing_any_UBR_untapped_capable_source_match": 0.264151,
+   "missing_any_UBR_with_mdfc_option": 0.222103,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.083123,
+    "R": 0.071693,
+    "U": 0.061711
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.777897,
+    "mean_delta": 0.021819,
+    "mean_relative_delta": 0.028048,
+    "sources_tested": 34,
+    "worst_delta": 0.023935,
+    "worst_relative_delta": 0.030769,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.543586,
+   "missing_any_UBR_potential_source_match": 0.167657,
+   "missing_any_UBR_unconditional_source_match": 0.211894,
+   "missing_any_UBR_untapped_capable_source_match": 0.204886,
+   "missing_any_UBR_with_mdfc_option": 0.167657,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.065176,
+    "R": 0.055399,
+    "U": 0.046984
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.832343,
+    "mean_delta": 0.019216,
+    "mean_relative_delta": 0.023087,
+    "sources_tested": 34,
+    "worst_delta": 0.02116,
+    "worst_relative_delta": 0.025423,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

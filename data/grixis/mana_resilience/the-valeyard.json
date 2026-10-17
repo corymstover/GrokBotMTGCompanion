@@ -1,0 +1,336 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "The Valeyard",
+   "one_strict_source_unavailable": {
+    "baseline": 0.871432,
+    "mean_delta": 0.016039,
+    "mean_relative_delta": 0.018406,
+    "sources_tested": 36,
+    "worst_delta": 0.017336,
+    "worst_relative_delta": 0.019893,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gallifrey Council Chamber",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.128568,
+   "unconditional_colored_failure": 0.164972,
+   "untapped_capable_colored_failure": 0.145904
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "The_Valeyard",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 2,
+   "U": 5
+  },
+  "early_pips_mv_le_2": {
+   "B": 6.0,
+   "R": 0.0,
+   "U": 8.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 6.0,
+   "R": 3.0,
+   "U": 11.0
+  },
+  "land_source_count": {
+   "B": 21,
+   "R": 21,
+   "U": 22
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3243,
+   "R": 0.2432,
+   "U": 0.4324
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.875,
+   "R": 1.1667,
+   "U": 0.6875
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/the-valeyard.json",
+  "mana_timing": "data/grixis/mana_timing/the-valeyard.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "the-valeyard",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.094217,
+   "missing_any_UBR_potential_source_match": 0.316158,
+   "missing_any_UBR_unconditional_source_match": 0.367447,
+   "missing_any_UBR_untapped_capable_source_match": 0.341277,
+   "missing_any_UBR_with_mdfc_option": 0.316158,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.10535,
+    "R": 0.10535,
+    "U": 0.093194
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.683842,
+    "mean_delta": 0.023457,
+    "mean_relative_delta": 0.034302,
+    "sources_tested": 36,
+    "worst_delta": 0.025119,
+    "worst_relative_delta": 0.036732,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gallifrey Council Chamber",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.094217
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.219507,
+   "missing_any_UBR_potential_source_match": 0.238628,
+   "missing_any_UBR_unconditional_source_match": 0.286285,
+   "missing_any_UBR_untapped_capable_source_match": 0.261756,
+   "missing_any_UBR_with_mdfc_option": 0.238628,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.080769,
+    "R": 0.080769,
+    "U": 0.070414
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.761372,
+    "mean_delta": 0.021536,
+    "mean_relative_delta": 0.028286,
+    "sources_tested": 36,
+    "worst_delta": 0.023128,
+    "worst_relative_delta": 0.030377,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gallifrey Council Chamber",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.219507
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.379054,
+   "missing_any_UBR_potential_source_match": 0.176686,
+   "missing_any_UBR_unconditional_source_match": 0.219093,
+   "missing_any_UBR_untapped_capable_source_match": 0.197075,
+   "missing_any_UBR_with_mdfc_option": 0.176686,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061711,
+    "R": 0.061711,
+    "U": 0.053008
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.823314,
+    "mean_delta": 0.018927,
+    "mean_relative_delta": 0.022988,
+    "sources_tested": 36,
+    "worst_delta": 0.020389,
+    "worst_relative_delta": 0.024764,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gallifrey Council Chamber",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.379054
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.543586,
+   "missing_any_UBR_potential_source_match": 0.128568,
+   "missing_any_UBR_unconditional_source_match": 0.164972,
+   "missing_any_UBR_untapped_capable_source_match": 0.145904,
+   "missing_any_UBR_with_mdfc_option": 0.128568,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.046984,
+    "R": 0.046984,
+    "U": 0.039756
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.871432,
+    "mean_delta": 0.016039,
+    "mean_relative_delta": 0.018406,
+    "sources_tested": 36,
+    "worst_delta": 0.017336,
+    "worst_relative_delta": 0.019893,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gallifrey Council Chamber",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.543586
+  }
+ }
+}

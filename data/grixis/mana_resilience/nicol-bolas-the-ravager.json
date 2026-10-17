@@ -1,0 +1,346 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 8,
+   "colored_requirements": {},
+   "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "one_strict_source_unavailable": {
+    "baseline": 1.0,
+    "mean_delta": 0.0,
+    "mean_relative_delta": 0.0,
+    "sources_tested": 31,
+    "worst_delta": 0.0,
+    "worst_relative_delta": 0.0,
+    "worst_sources": [
+     "Arid Mesa",
+     "Badlands",
+     "Blood Crypt",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Island",
+     "Luxury Suite",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Morphic Pool",
+     "Mountain",
+     "Otawara, Soaring City",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Steam Vents",
+     "Swamp",
+     "Takenuma, Abandoned Mire",
+     "Training Center",
+     "Underground Sea",
+     "Verdant Catacombs",
+     "Volcanic Island",
+     "Watery Grave",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.0,
+   "unconditional_colored_failure": 0.0,
+   "untapped_capable_colored_failure": 0.0
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 7,
+   "R": 1,
+   "U": 9
+  },
+  "early_pips_mv_le_2": {
+   "B": 7.0,
+   "R": 1.0,
+   "U": 9.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 10.0,
+   "R": 2.0,
+   "U": 16.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 17,
+   "U": 19
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3684,
+   "R": 0.1316,
+   "U": 0.5
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.6786,
+   "R": 1.7,
+   "U": 0.5
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/nicol-bolas-the-ravager.json",
+  "mana_timing": "data/grixis/mana_timing/nicol-bolas-the-ravager.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.117605,
+   "missing_any_UBR_potential_source_match": 0.439184,
+   "missing_any_UBR_unconditional_source_match": 0.497358,
+   "missing_any_UBR_untapped_capable_source_match": 0.467941,
+   "missing_any_UBR_with_mdfc_option": 0.439184,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.133967,
+    "R": 0.169293,
+    "U": 0.133967
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.560816,
+    "mean_delta": 0.027234,
+    "mean_relative_delta": 0.048561,
+    "sources_tested": 31,
+    "worst_delta": 0.028756,
+    "worst_relative_delta": 0.051276,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.117605
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.263007,
+   "missing_any_UBR_potential_source_match": 0.35528,
+   "missing_any_UBR_unconditional_source_match": 0.413676,
+   "missing_any_UBR_untapped_capable_source_match": 0.383908,
+   "missing_any_UBR_with_mdfc_option": 0.35528,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.105685,
+    "R": 0.137316,
+    "U": 0.105685
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.64472,
+    "mean_delta": 0.027066,
+    "mean_relative_delta": 0.041981,
+    "sources_tested": 31,
+    "worst_delta": 0.028629,
+    "worst_relative_delta": 0.044405,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.263007
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.437272,
+   "missing_any_UBR_potential_source_match": 0.282648,
+   "missing_any_UBR_unconditional_source_match": 0.33883,
+   "missing_any_UBR_untapped_capable_source_match": 0.309958,
+   "missing_any_UBR_with_mdfc_option": 0.282648,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.083123,
+    "R": 0.111087,
+    "U": 0.083123
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.717352,
+    "mean_delta": 0.025773,
+    "mean_relative_delta": 0.035927,
+    "sources_tested": 31,
+    "worst_delta": 0.02731,
+    "worst_relative_delta": 0.038071,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.437272
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.606092,
+   "missing_any_UBR_potential_source_match": 0.221457,
+   "missing_any_UBR_unconditional_source_match": 0.273643,
+   "missing_any_UBR_untapped_capable_source_match": 0.246605,
+   "missing_any_UBR_with_mdfc_option": 0.221457,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.065176,
+    "R": 0.089627,
+    "U": 0.065176
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.778543,
+    "mean_delta": 0.023687,
+    "mean_relative_delta": 0.030424,
+    "sources_tested": 31,
+    "worst_delta": 0.025148,
+    "worst_relative_delta": 0.032302,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Reflecting Pool",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.606092
+  }
+ }
+}

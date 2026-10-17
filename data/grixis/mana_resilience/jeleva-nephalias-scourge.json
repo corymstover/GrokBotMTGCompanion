@@ -1,0 +1,331 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Jeleva, Nephalia's Scourge",
+   "one_strict_source_unavailable": {
+    "baseline": 0.55502,
+    "mean_delta": 0.032888,
+    "mean_relative_delta": 0.059255,
+    "sources_tested": 25,
+    "worst_delta": 0.033612,
+    "worst_relative_delta": 0.06056,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.44498,
+   "unconditional_colored_failure": 0.478592,
+   "untapped_capable_colored_failure": 0.44498
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 1,
+   "U": 5
+  },
+  "early_pips_mv_le_2": {
+   "B": 10.0,
+   "R": 11.0,
+   "U": 16.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 20.0,
+   "R": 15.0,
+   "U": 23.0
+  },
+  "land_source_count": {
+   "B": 15,
+   "R": 14,
+   "U": 16
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3623,
+   "R": 0.2174,
+   "U": 0.4203
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.6,
+   "R": 0.9333,
+   "U": 0.5517
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/jeleva-nephalias-scourge.json",
+  "mana_timing": "data/grixis/mana_timing/jeleva-nephalias-scourge.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "jeleva-nephalias-scourge",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.235857,
+   "missing_any_UBR_potential_source_match": 0.598946,
+   "missing_any_UBR_unconditional_source_match": 0.628846,
+   "missing_any_UBR_untapped_capable_source_match": 0.598946,
+   "missing_any_UBR_with_mdfc_option": 0.598946,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.212669,
+    "R": 0.237854,
+    "U": 0.189883
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.401054,
+    "mean_delta": 0.029284,
+    "mean_relative_delta": 0.073017,
+    "sources_tested": 25,
+    "worst_delta": 0.0299,
+    "worst_relative_delta": 0.074554,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.235857
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.451586,
+   "missing_any_UBR_potential_source_match": 0.519725,
+   "missing_any_UBR_unconditional_source_match": 0.552095,
+   "missing_any_UBR_untapped_capable_source_match": 0.519725,
+   "missing_any_UBR_with_mdfc_option": 0.519725,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.177224,
+    "R": 0.200854,
+    "U": 0.156126
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.480275,
+    "mean_delta": 0.031688,
+    "mean_relative_delta": 0.06598,
+    "sources_tested": 25,
+    "worst_delta": 0.03237,
+    "worst_relative_delta": 0.0674,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.451586
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.65358,
+   "missing_any_UBR_potential_source_match": 0.44498,
+   "missing_any_UBR_unconditional_source_match": 0.478592,
+   "missing_any_UBR_untapped_capable_source_match": 0.44498,
+   "missing_any_UBR_with_mdfc_option": 0.44498,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.147355,
+    "R": 0.169259,
+    "U": 0.128059
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.55502,
+    "mean_delta": 0.032888,
+    "mean_relative_delta": 0.059255,
+    "sources_tested": 25,
+    "worst_delta": 0.033612,
+    "worst_relative_delta": 0.06056,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.65358
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.805075,
+   "missing_any_UBR_potential_source_match": 0.376275,
+   "missing_any_UBR_unconditional_source_match": 0.409997,
+   "missing_any_UBR_untapped_capable_source_match": 0.376275,
+   "missing_any_UBR_with_mdfc_option": 0.376275,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.122238,
+    "R": 0.142332,
+    "U": 0.104775
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.623725,
+    "mean_delta": 0.032978,
+    "mean_relative_delta": 0.052873,
+    "sources_tested": 25,
+    "worst_delta": 0.033722,
+    "worst_relative_delta": 0.054066,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.805075
+  }
+ }
+}
