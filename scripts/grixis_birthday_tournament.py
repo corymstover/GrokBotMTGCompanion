@@ -2,7 +2,7 @@
 """Current cEDH meta snapshot for the Birthday authority boundary.
 
 The authority snapshot needs a current, provenance-bearing tournament/meta view, but
-it must not eagerly re-query every historical candidate card.  Card-level EDHTop16
+it must not eagerly re-query every historical candidate card. Card-level EDHTop16
 rows are challenger/review evidence and are refreshed later by the Birthday M5 delta
 for the decks/candidates the impact audit says are affected.
 
@@ -13,6 +13,7 @@ It is observational evidence only and cannot decide a swap.
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import json
 import time
 from pathlib import Path
@@ -20,14 +21,23 @@ from pathlib import Path
 import grixis_authority as ga
 import grixis_tournament as tr
 
-VERSION = 1
+VERSION = 2
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def sha_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return "sha256:" + h.hexdigest()
 
 
 def refresh(out_root: Path):
     target = out_root / "tournament"
     target.mkdir(parents=True, exist_ok=True)
     summ = {v["slug"]: v for v in ga.summary().values()}
-    old_root = Path(__file__).resolve().parent.parent / "data/grixis/candidates/tournament"
+    old_root = ROOT / "data/grixis/candidates/tournament"
     docs = {}
     problems = []
     today = dt.date.today().isoformat()
@@ -77,7 +87,9 @@ def refresh(out_root: Path):
             "old_sample_size": None if old is None else old.get("sample_size"),
             "sample_size_delta": None if old is None else doc["sample_size"] - (old.get("sample_size") or 0),
             "card_rows_status": doc["card_rows_status"],
-            "file": str(p.relative_to(Path(__file__).resolve().parent.parent)),
+            "file": str(p.relative_to(ROOT)),
+            "sha256": sha_file(p),
+            "bytes": p.stat().st_size,
         }
         print(f"  {slug}: {doc['status']}, sample {doc['sample_size']} (card rows deferred)", flush=True)
         time.sleep(0.25)
