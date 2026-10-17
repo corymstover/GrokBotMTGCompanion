@@ -1,0 +1,116 @@
+{
+ "after": {
+  "available_dimensions": [
+   "card count",
+   "mana-value/setup proxy",
+   "declared Spellbook mana",
+   "zone evidence",
+   "commander requirement",
+   "setup/enablers",
+   "timing/type proxy",
+   "interaction-window proxy",
+   "tutor accessibility",
+   "redundancy",
+   "dead-card-burden proxy",
+   "resilience",
+   "recovery",
+   "immediate-win uncertainty",
+   "required payoff",
+   "independent usefulness",
+   "commander contribution",
+   "line action counts",
+   "endpoint hints",
+   "variant-family redundancy networks"
+  ],
+  "governance_guards": [
+   "Infinite never implies immediate win.",
+   "Primary/secondary/backup/incidental/value-loop priority remains unresolved strategic judgment.",
+   "power_core overlay cannot rewrite accepted M2 Blueprints or auto-reopen M2.",
+   "Variant-family components are redundancy evidence, not claims that every transitive member is strategically identical.",
+   "Exact/colored mana remains Step C when not explicitly supported by cached line evidence."
+  ],
+  "model": "Step-B combo-quality evidence vector + line semantics + power_core overlay + variant families"
+ },
+ "before": {
+  "available_fields": [
+   "Spellbook combo membership",
+   "piece names",
+   "infinite flag",
+   "produces/requires snapshot"
+  ],
+  "limitations": [
+   "No normalized commander-contribution distinction.",
+   "No explicit external-payoff vs self-contained distinction.",
+   "No deck-specific tutor/recovery/dead-card/redundancy vector.",
+   "No D5 power_core review overlay/materiality gate.",
+   "No line-step/mana/zone/action evidence or variant-family redundancy network integrated into combo review."
+  ],
+  "model": "pre-Step-B combo presence model"
+ },
+ "conclusion": "Step B demonstrably improves decision resolution over binary combo presence by separating commander contribution, external payoff/setup, deck-specific support, redundancy/recovery/dead-card signals, community line semantics, variant-family redundancy and D5 power-core review, while making zero automatic strategic-priority decisions.",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "This is a capability/decision-resolution comparison, not a claim that Step B already chose the correct deck changes.",
+  "Commander Spellbook steps are community-maintained and not official rules; official rules/M1 remain authoritative.",
+  "Several dimensions are intentionally proxies or unresolved; Step C, D, stress testing and M6 judgment add later evidence.",
+  "Variant families are transitive connected components under a near-variant rule and require judgment before strategic equivalence is asserted.",
+  "The retrospective benchmark is separately contamination-flagged; this record is not presented as blind benchmark accuracy."
+ ],
+ "measured_deltas": {
+  "blueprint_linked_lines": 349,
+  "commander_independent_win_hints": 205,
+  "compact_power_core_candidates": 195,
+  "declared_mana_records": 165,
+  "direct_commander_piece_lines": 78,
+  "direct_endpoint_hints": 121,
+  "multi_line_variant_families": 64,
+  "power_core_review_candidates": 205,
+  "spellbook_lines": 418,
+  "step_records": 418,
+  "strategic_priority_auto_decisions": 0,
+  "variant_families": 95,
+  "zone_mentions": 1148
+ },
+ "schema_version": 1,
+ "status": "demonstrated_decision_quality_gain",
+ "worked_examples": [
+  {
+   "after": "Step B marks the line commander_independent_power_package and records external Blueprint payoff/enabler cards ['Wheel of Fortune', 'Windfall']; immediate-win remains test_required.",
+   "before": "The old layer could report that the Spellbook line exists/infinite but did not distinguish commander independence or Blueprint external payoff/enabler dependence.",
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-1414-4856",
+   "kind": "commander_independent_external_payoff",
+   "slug": "abaddon-the-despoiler",
+   "why_it_matters": "A compact infinite-looking line can otherwise be mistaken for a self-contained commander-native win package."
+  },
+  {
+   "after": "Step B records direct commander piece(s) [\"Be'lakor, the Dark Master\"] and preserves the line as commander_native_combo while leaving strategic priority unresolved.",
+   "before": "The old layer represented this primarily as combo membership/infinite status.",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Rite of Replication"
+   ],
+   "combo_id": "1744-4071",
+   "kind": "commander_native",
+   "slug": "belakor-the-dark-master",
+   "why_it_matters": "Commander-first optimization needs to distinguish native lines from generic power packages without automatically preferring either one."
+  },
+  {
+   "after": "Step B flags this compact commander-independent Blueprint-win line as a power_core_review_candidate under the D5 overlay, without editing the accepted Blueprint or reopening M2.",
+   "before": "The old combo-presence layer had no explicit post-M2 materiality path for generic compact win packages.",
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-1414-4856",
+   "kind": "power_core_review",
+   "slug": "abaddon-the-despoiler",
+   "why_it_matters": "This creates an auditable Commander-first review population instead of silently protecting or deleting generic power packages."
+  }
+ ]
+}

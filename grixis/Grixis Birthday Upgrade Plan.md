@@ -43,8 +43,8 @@ Batch = one 20–35 minute bot batch. Estimates are estimates (standing rule 5),
 |---|---|---|---|---|---|
 | 1 | **G0** benchmark corpus freeze | 3–4 (took 4: 64.1–64.4) | — | snap-20261016 | **Complete pending merge of PR #142.** 612 items, frozen in Bot cycle 64.4. Only the prospective holdout grows. |
 | 2 | **A** adaptive candidate saturation (**next**) | 6–8 | G0 frozen | snap-20261016 (dev) | Removes `UNIVERSE_MAX = 500` (61/62 decks hit it). Multi-pass discovery, yield-based stop rule, per-deck saturation certificate, tiered testing (decision 1). |
-| 3 | **E** mechanic test modules (sim v1.2) | 10–14 | A | dev | Priority by `not_modelable` counts (9,040 / 25,940 swaps in the stored files; 9,044 was the cycle-61 figure, see `data/grixis/mechanics/not_modelable_reconciliation.json`). Opponent-facing parts as bounded proxies (decision 4). v1.0/v1.1 stay runnable. |
-| 4 | **B** combo quality model + `power_core` backfill overlay | 4–6 | E | dev | Backfill follows decision 5 (overlay + materiality gate). |
+| 3 | **E** mechanic test modules (sim v1.2) | 10–14 est. (15 engineering batches/sub-batches so far) | A | dev | **Code-complete through 66.13; local frozen-cache validation still required.** 21 bounded modules; residual death/sacrifice/token wording and commander-specific hooks remain explicit judgment/not-modelable rather than fake generic simulation. v1.0/v1.1 stay runnable. |
+| 4 | **B** combo quality model + `power_core` backfill overlay | 4–6 (took 5: 67.1–67.5) | E | dev | **Complete as evidence infrastructure.** Quality vectors, D5 overlay, cached line semantics and near-variant family networks are integrated; all strategic priority remains unresolved for judgment. |
 | 4 | **C** mana-base optimizer | 5–7 | E (parallel with B) | dev | Lands evaluated like spells; MDFC back faces. |
 | 5 | **D** commander marginal value | 3–4 | E | dev | Adds a commander-unavailable simulator mode. |
 | 6 | **F** bracket stress suites | 4–5 | E | dev | B5/B4 suites, weights pre-registered before any run. |
@@ -373,3 +373,11 @@ Not yet done, carried to the next batch:
 - graveyard_tutoring / repeatable_tutors / stack modules.
 
 v1.1 outputs are unchanged (golden test), and the build ran offline under the dev snapshot lock.
+
+## Step B completion — ChatGPT cycles 67.1–67.5
+
+Step B is complete as **evidence infrastructure**, not as a deck decision. It records all frozen Commander Spellbook lines with quality vectors, D5 `power_core` review overlays, cached community line semantics, and deterministic near-variant redundancy networks. Variant families explicitly warn that transitive membership is not strategic equivalence. The D5 overlay changes no accepted M2 Blueprint field and requests no automatic M2 reopen.
+
+The demonstrated-gain record shows materially finer decision resolution than binary combo presence while preserving **zero automatic primary/secondary/backup/incidental/value-loop priority decisions**. Exact/colored mana remains Step C; commander marginal value remains Step D; final priority remains judgment/M6.
+
+Step E is code-closed through 66.13 but still waits on one local frozen-cache rebuild/full-validation gate before it is called fully validated.

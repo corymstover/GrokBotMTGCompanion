@@ -116,9 +116,19 @@
         "66.1 framework, router, attack + recursion",
         "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation",
         "66.2a death-trigger semantics correction (Cory t56u): death_triggers v2, death events in the shared layer",
-        "66.3 cast triggers, repeatable draw, activated engines, token makers, sacrifice as additional cost; tokens as death-event victims; dev snapshot lock"
+        "66.3 cast triggers, repeatable draw, activated engines, token makers, sacrifice as additional cost; tokens as death-event victims; dev snapshot lock",
+        "66.5a attack-trigger semantic audit",
+        "66.5b graveyard-recursion semantic audit",
+        "66.6 counterspell and stack-protection readiness",
+        "66.7 X-spell capacity and alternate-cost semantics",
+        "66.8 graveyard setup and repeatable tutors",
+        "66.9 bounded opponent-dependent draw",
+        "66.10 category-specific stax/tax proxy",
+        "66.11 LED/Breach startup-resource semantics",
+        "66.12 bounded table life-loss and discard-pressure semantics",
+        "66.13 residual/judgment routing closure (no fake generic simulator for residual or commander-specific text)"
       ],
-      "status": "in_progress",
+      "status": "code_complete_pending_local_cache_validation",
       "depends_on": [
         "A"
       ],
@@ -130,15 +140,26 @@
       "schema": "data/grixis/schemas/mechanic_module.schema.json",
       "implemented_modules": [
         "activated_engines",
+        "alternate_costs",
         "attack_trigger_proxy",
         "cast_triggers",
+        "counterspell_density",
         "death_triggers",
+        "discard",
         "graveyard_recursion",
+        "graveyard_tutoring",
+        "led_breach_sequences",
+        "life_loss",
+        "opponent_dependent_draw",
         "repeatable_draw",
+        "repeatable_tutors",
         "sacrifice_additional_cost",
         "sacrifice_costs",
         "self_recursion",
-        "token_makers"
+        "stack_protection",
+        "stax_tax",
+        "token_makers",
+        "x_spells"
       ],
       "legacy_not_modelable_routed": {
         "routed": 6775,
@@ -261,23 +282,59 @@
             "graveyard_tutoring / repeatable_tutors / stack modules"
           ]
         }
-      ]
+      ],
+      "validation_gate": "Full legacy mechanics coverage/examples rebuild and final real-deck/full validate_all require the frozen local Scryfall cache. Code-level module/routing semantics are closed; do not mark Step E fully validated until the local gate passes.",
+      "routing_closure": {
+        "genuine_planned_module_families_remaining": 0,
+        "residual_review_families": [
+          "death_other",
+          "sacrifice_other",
+          "tokens_other"
+        ],
+        "commander_specific_policy": "Commander-specific hooks remain Commander-first judgment / Step D unless a bounded dedicated module exists."
+      }
     },
     {
       "order": 4,
       "id": "B",
       "name": "combo quality model + power_core backfill overlay",
       "batches": [
-        4,
-        6
+        "67.1 combo-quality evidence vectors across all 62 decks",
+        "67.2 D5 power_core overlay + materiality gate",
+        "67.3 Commander Spellbook line-semantics evidence",
+        "67.4 combo near-variant redundancy-family synthesis",
+        "67.5 validate_all integration + decision-quality gain proof + Step B closure"
       ],
-      "status": "not_started",
+      "status": "complete",
       "depends_on": [
         "E"
       ],
       "decisions": [
         "D5"
-      ]
+      ],
+      "artifacts": [
+        "data/grixis/combo_quality/",
+        "data/grixis/combo_line_semantics/",
+        "data/grixis/combo_families/",
+        "data/grixis/power_core/",
+        "data/grixis/combo_quality/decision_quality_gain.json"
+      ],
+      "metrics": {
+        "spellbook_lines": 418,
+        "infinite_lines": 369,
+        "blueprint_win_linked_lines": 349,
+        "direct_commander_piece_lines": 78,
+        "commander_independent_win_hints": 205,
+        "compact_power_core_candidates": 195,
+        "step_records": 418,
+        "declared_mana_records": 165,
+        "zone_mentions": 1148,
+        "direct_endpoint_hints": 121,
+        "variant_families": 95,
+        "multi_line_variant_families": 64,
+        "strategic_priority_auto_decisions": 0
+      },
+      "next": "Step C mana-base optimizer; Step B evidence remains provisional and decision-bearing combo priority waits for judgment/M6."
     },
     {
       "order": 4,
@@ -486,7 +543,7 @@
   ],
   "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
   "launch_tracker": {
-    "updated": "Bot cycle 66.4 (2026-10-16)",
+    "updated": "ChatGPT cycle 67.5 (2026-10-16)",
     "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
     "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
     "stages": [
@@ -506,17 +563,17 @@
       },
       {
         "id": "E",
-        "estimated_batches": 12,
-        "batches_done": 5,
-        "status": "in_progress",
-        "note": "est 10-14; done 66.1, 66.2, 66.2a, 66.3 (incl. 66.3b lock), 66.4 (semantic self-audit)"
+        "estimated_batches": 16,
+        "batches_done": 15,
+        "status": "code_complete_pending_local_cache_validation",
+        "note": "15 engineering batches/sub-batches complete through 66.13; reserve 1 batch-equivalent for frozen-cache coverage/examples rebuild + full local validation."
       },
       {
         "id": "B",
         "estimated_batches": 5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 4-6"
+        "batches_done": 5,
+        "status": "complete",
+        "note": "took 5 ChatGPT batches (67.1-67.5): 62-deck vectors, D5 overlay, line semantics, variant families, integration/gain proof."
       },
       {
         "id": "C",
@@ -582,8 +639,8 @@
         "note": "est 6-9"
       }
     ],
-    "total_estimated_batches": 58.5,
-    "batches_done": 12,
-    "percent_complete": 20.5
+    "total_estimated_batches": 62.5,
+    "batches_done": 27.0,
+    "percent_complete": 43.2
   }
 }
