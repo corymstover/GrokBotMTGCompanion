@@ -374,10 +374,11 @@
    "id": "D",
    "name": "commander marginal value",
    "batches": [
-    3,
-    4
+    "69.1 structural commander marginality: Blueprint routes, engines/packages and Step-B combo route dependence",
+    "69.2 counterfactual simulator modes: normal / commander unavailable / commander taxed-disrupted (planned)",
+    "69.3 dynamic marginal-value deltas + integration/gain proof (planned; full outputs require frozen local cache)"
    ],
-   "status": "not_started",
+   "status": "in_progress",
    "depends_on": [
     "E"
    ]
@@ -563,7 +564,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 68.6 (2026-10-16)",
+  "updated": "ChatGPT cycle 69.1 (2026-10-16)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -605,9 +606,9 @@
    {
     "id": "D",
     "estimated_batches": 3.5,
-    "batches_done": 0,
-    "status": "not_started",
-    "note": "est 3-4"
+    "batches_done": 1,
+    "status": "in_progress",
+    "note": "1/3.5 batch-equivalents complete: 62-deck structural commander-dependence evidence. Dynamic counterfactual simulator/output layers remain."
    },
    {
     "id": "F",
@@ -660,7 +661,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 32,
-  "percent_complete": 51.2
+  "batches_done": 33,
+  "percent_complete": 52.8
  }
 }

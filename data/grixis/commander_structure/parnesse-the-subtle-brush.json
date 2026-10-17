@@ -1,0 +1,397 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax).",
+  "level": "supporting"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Parnesse, the Subtle Brush"
+    ],
+    "id": "copy-politics",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "cast-copy-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:spell-copy",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:trigger-multipliers",
+    "min_count": 2,
+    "required": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:cantrips-rituals",
+    "min_count": 6,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "narset-reversal-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "copy-mana-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "dualcaster-tech",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Twinning Staff",
+    "Narset's Reversal"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-2539",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Narset's Reversal",
+    "Reiterate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-3368",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Narset's Reversal",
+    "Increasing Vengeance"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-4285",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Narset's Reversal",
+    "Reverberate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-5026",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Narset's Reversal",
+    "Return the Favor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-5940",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Dualcaster Mage",
+    "Replication Technique"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-1883",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Reiterate",
+    "Jeska's Will"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1878-3368",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Reiterate",
+    "Mana Geyser"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2091-3368",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Thousand-Year Storm",
+    "Reiterate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3368-3584",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Alania, Divergent Storm",
+    "Reiterate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3368-5959",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Pyromancer's Goggles",
+    "Reiterate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3368-6790",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Prismari, the Inspiration",
+    "Reiterate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3368-7683",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Alania, Divergent Storm",
+    "Increasing Vengeance"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4285-5959",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Pyromancer's Goggles",
+    "Increasing Vengeance"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4285-6790",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Prismari, the Inspiration",
+    "Increasing Vengeance"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4285-7683",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Alania, Divergent Storm",
+    "Reverberate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5026-5959",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Pyromancer's Goggles",
+    "Reverberate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5026-6790",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Prismari, the Inspiration",
+    "Reverberate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5026-7683",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Alania, Divergent Storm",
+    "Return the Favor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5940-5959",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Pyromancer's Goggles",
+    "Return the Favor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5940-6790",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Prismari, the Inspiration",
+    "Return the Favor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5940-7683",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Narset's Reversal"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-1484-2196",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Narset's Reversal",
+    "Storm-Kiln Artist",
+    "Bonus Round"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-2492-5195",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Storm-Kiln Artist",
+    "Thousand-Year Storm",
+    "Narset's Reversal"
+   ],
+   "direct_commander_pieces": [],
+   "id": "11-3584-5195",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Reiterate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1484-2196-3368",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Parnesse, the Subtle Brush"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 0,
+  "blueprint_wins_structurally_independent": 3,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 25,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 25
+ }
+}

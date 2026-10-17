@@ -1,0 +1,656 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Marchesa, the Black Rose"
+    ],
+    "id": "dethrone-return",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "sac-value",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:sac-outlets",
+    "min_count": 7,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:persist-undying",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:drain-payoffs",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "persist-reset-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "mikaeus-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "spark-double-loops",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Murderous Redcap",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1657-5805",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Murderous Redcap",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1657-5961",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Thran Vigil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2131--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Viscera Seer",
+    "Thran Vigil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2131-2292--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Thran Vigil",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2131-2438--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Thran Vigil",
+    "Yahenni, Undying Partisan"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2131-3967--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Phyrexian Altar",
+    "Thran Vigil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2131-4050--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Goblin Bombardment",
+    "Thran Vigil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2131-5147--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Altar of Dementia",
+    "Thran Vigil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2131-5256--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Viscera Seer",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2292-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Viscera Seer",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2292-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Carrion Feeder",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Carrion Feeder",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Murderous Redcap",
+    "Metallic Mimic"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-1657",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Metallic Mimic"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-2034--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Viscera Seer",
+    "Metallic Mimic"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-2292--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Metallic Mimic",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-2438--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Metallic Mimic",
+    "Yahenni, Undying Partisan"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-3967--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Phyrexian Altar",
+    "Metallic Mimic"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-4050--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Goblin Bombardment",
+    "Metallic Mimic"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-5147--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Altar of Dementia",
+    "Metallic Mimic"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-5256--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Yahenni, Undying Partisan",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3967-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Yahenni, Undying Partisan",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3967-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Phyrexian Altar",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4050-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Phyrexian Altar",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4050-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Goblin Bombardment",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5147-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Goblin Bombardment",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5147-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Altar of Dementia",
+    "Gev, Scaled Scorch"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5256-5805--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Altar of Dementia",
+    "Uncivil Unrest"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5256-5961--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-2034--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Viscera Seer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-2292--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-2438--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Yahenni, Undying Partisan"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-3967--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-4050--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Goblin Bombardment"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-5147--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Altar of Dementia"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-5256--5",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Flayer of the Hatebound",
+    "Sage of Fables"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1123-2034-4866",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Spark Double",
+    "Murderous Redcap",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1657-2034-3908",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Spark Double",
+    "Murderous Redcap",
+    "Viscera Seer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1657-2292-3908",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Spark Double",
+    "Glen Elendra Archmage",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2831-3908",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Spark Double",
+    "River Kelpie",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-3607-3908",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Spark Double",
+    "Puppeteer Clique",
+    "Altar of Dementia"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3020-3908-5256",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Yawgmoth, Thran Physician",
+    "Gray Merchant of Asphodel"
+   ],
+   "direct_commander_pieces": [],
+   "id": "328-628-4279",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Murderous Redcap",
+    "Metallic Mimic",
+    "Viscera Seer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "345-1657-2292",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Sage of Fables",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-2034-4866",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Warren Soultrader",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "628-2842-5670--5",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Marchesa, the Black Rose"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Marchesa__the_Black_Rose",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 0,
+  "blueprint_wins_structurally_independent": 3,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 48,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 48
+ }
+}

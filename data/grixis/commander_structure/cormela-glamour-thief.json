@@ -1,0 +1,441 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Cormela is a ritual on a hasty body and the recursion piece of a dozen Spellbook loops; most of the deck's infinites name her.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The compact Thassa's Oracle and Breach wins don't need her, which is correct for cEDH resilience; the ledger keeps them as failovers, not the identity.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cormela, Glamour Thief"
+    ],
+    "id": "restricted-mana",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cormela, Glamour Thief"
+    ],
+    "id": "death-recursion",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:cormela-loops",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:cedh-failover",
+    "min_count": 3,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:fast-mana",
+    "min_count": 12,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:stack-interaction",
+    "min_count": 10,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cormela, Glamour Thief"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "saw-in-half",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cormela, Glamour Thief"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "reanimate-altar",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "molten-duplication",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "thoracle",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1295-3093",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Dualcaster Mage",
+    "Saw in Half"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-500",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Dualcaster Mage",
+    "Molten Duplication"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-5487",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "742-1295",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1414-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1878-2706",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-2706-3518",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-3518-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Dualcaster Mage",
+    "Shallow Grave"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-1893-2034",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Phyrexian Altar",
+    "Dualcaster Mage",
+    "Shallow Grave"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-1893-4050",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Ashnod's Altar",
+    "Dualcaster Mage",
+    "Demonic Gifts"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-2034-3440",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Phyrexian Altar",
+    "Dualcaster Mage",
+    "Demonic Gifts"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-3440-4050",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Shallow Grave",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "1893-2034-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Shallow Grave",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "1893-4050-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Demonic Gifts",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "2034-3440-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "2034-3599-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Demonic Gifts",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "3440-4050-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "3599-4050-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Molten Duplication"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "392-4867-5487",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Jeska's Will"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "500-1878-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Dark Ritual"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "500-2701-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Seething Song"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "500-4036-4867",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Cabal Ritual"
+   ],
+   "direct_commander_pieces": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "500-4867-4923",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Cormela, Glamour Thief"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Cormela__Glamour_Thief",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 5,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 3,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 12,
+  "combo_direct_commander_piece": 11,
+  "engines": 2,
+  "engines_explicit_commander": 2,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 23
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Sol'Kanar is repeatable end-step value, and his fourth mode is a political gift.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Honest call: significant, not central. All four Spellbook combos (Demonic Pact + Donate / Harmless Offering / Blim / Coveted Falcon) work without him. He adds value through blink resets but the kills are the cursed-gift package. The source calls the plan slower and more board-dependent than cEDH (blueprint L22).",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Sol'Kanar the Tainted"
+    ],
+    "id": "mode-reset",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "cursed-gift",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:transfer",
+    "min_count": 7,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:curses",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:reset",
+    "min_count": 3,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:ownership",
+    "min_count": 2,
+    "required": false
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "pact-donate",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "coil-bog",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Sol'Kanar the Tainted"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "audience-and-drain",
+    "kind": "alternate"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Pact",
+    "Donate"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2770-6676",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Pact",
+    "Harmless Offering"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3090-6676",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Pact",
+    "Blim, Comedic Genius"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3769-6676",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Pact",
+    "Coveted Falcon"
+   ],
+   "direct_commander_pieces": [],
+   "id": "6676-6922",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Sol'Kanar the Tainted"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Sol_kanar_the_Tainted",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 4,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 4
+ }
+}

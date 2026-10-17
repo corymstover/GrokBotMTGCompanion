@@ -1,0 +1,379 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "id": "warform-value",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "warform-conversion",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:extra-turn-pieces",
+    "min_count": 4,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:etb-ltb-artifacts",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:artifact-tutors",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "aether-heart-turns",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "urza-helm",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "reservoir-kci",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "artifact-backups",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Emry, Lurker of the Loch",
+    "Mindslaver"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1167-1329",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mindslaver",
+    "Academy Ruins"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1167-1384",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Esoteric Duplicator",
+    "Mindslaver"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1167-5483",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The One Ring",
+    "Master Transmuter"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1999-3363",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Aetherflux Reservoir"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "4740-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Emry, Lurker of the Loch",
+    "The One Ring",
+    "Krark-Clan Ironworks"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1329-3363-4659",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Brudiclad, Telchor Engineer"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "1953-4636-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Strionic Resonator"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "2751-4636-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Strionic Resonator",
+    "Krark-Clan Ironworks"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "2751-4659-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Lithoform Engine"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "3094-4636-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Lithoform Engine",
+    "Krark-Clan Ironworks"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "3094-4659-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Determined Iteration"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "3934-4636-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Worldwalker Helm"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "4636-5159-5491",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Etherium Sculptor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "985-1976-5078",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Enthusiastic Mechanaut"
+   ],
+   "direct_commander_pieces": [],
+   "id": "985-4908-5078",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Etherium Sculptor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-1976-2866-4659",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Enthusiastic Mechanaut"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2866-4659-4908",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Mindslaver",
+    "Lithoform Engine",
+    "Strionic Resonator"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "1167-2751-3094-5159",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mishra, Eminent One",
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm",
+    "Thousand-Year Elixir"
+   ],
+   "direct_commander_pieces": [
+    "Mishra, Eminent One"
+   ],
+   "id": "457-5159-5295-5491",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Mishra, Eminent One"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Mishra__Eminent_One",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 4,
+  "blueprint_wins_explicit_commander": 3,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 9,
+  "combo_direct_commander_piece": 10,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 19
+ }
+}

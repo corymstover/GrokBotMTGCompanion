@@ -1,0 +1,140 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cult of Skaro"
+    ],
+    "id": "cult-attack",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "extra-combats",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:attack-protection",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:trigger-multipliers",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:artifact-creature-army",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:artifact-lords",
+    "min_count": 3,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cult of Skaro"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "sword-assault",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "multiplied-attacks",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "artifact-swarm",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [
+    "Cult of Skaro"
+   ],
+   "cards": [
+    "Sword of Feast and Famine",
+    "Aggravated Assault"
+   ],
+   "direct_commander_pieces": [],
+   "id": "900-3750",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  }
+ ],
+ "commanders": [
+  "Cult of Skaro"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Cult_of_Skaro",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "cult-of-skaro",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 1,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 1
+ }
+}

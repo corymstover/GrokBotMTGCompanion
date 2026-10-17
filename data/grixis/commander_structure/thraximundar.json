@@ -1,0 +1,324 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Thraximundar"
+    ],
+    "id": "any-sacrifice-growth",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pact-dictate",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:edicts",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:outlets",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:loop-pieces",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:commander-mana",
+    "min_count": 6,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "zombie-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Thraximundar"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "commander-damage",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4050",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Zulaport Cutthroat"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1385-2577-5670",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Pitiless Plunderer",
+    "Ashnod's Altar",
+    "Reassembling Skeleton"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1580-2034-4871",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Pitiless Plunderer",
+    "Reassembling Skeleton",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1580-4050-4871",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2452-2577",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-2452-2577",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Goblin Bombardment"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2452-2577-5147",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Altar of Dementia"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2452-2577-5256",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-2842-5670",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Goblin Bombardment"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4871-5147",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Altar of Dementia"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4871-5256",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Grimgrin, Corpse-Born"
+   ],
+   "direct_commander_pieces": [],
+   "id": "728-2452-2577",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Grimgrin, Corpse-Born"
+   ],
+   "direct_commander_pieces": [],
+   "id": "728-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Warren Soultrader",
+    "Pitiless Plunderer",
+    "Zulaport Cutthroat",
+    "Reassembling Skeleton"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1385-1580-4871-5670",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Warren Soultrader",
+    "Pitiless Plunderer",
+    "Reassembling Skeleton",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1580-2842-4871-5670",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Thraximundar"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Thraximundar",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "thraximundar",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 17,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 17
+ }
+}

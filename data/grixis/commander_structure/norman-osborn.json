@@ -1,0 +1,210 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Green Goblin's mayhem and cost reduction turn the loot/discard package into virtual card advantage. Norman is a blue legendary that turns on Mox Amber.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Its registry id was corrected in Bot cycle 55 from the stale source tracker id Goben__Gene_Splice_Savant to Norman_Osborn_Green_Goblin (registry deck_id_provenance). M1 review (norman-01..09, all verified) confirms the mayhem, cost-stacking and Breach lines.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Norman Osborn // Green Goblin"
+    ],
+    "id": "mayhem",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "fast-mana",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:discard-into-mayhem",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:timing",
+    "min_count": 2,
+    "required": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:tutors",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:stack",
+    "min_count": 8,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "oracle",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Norman Osborn // Green Goblin"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach-station",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1295-3093",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "cards": [
+    "Underworld Breach",
+    "Grinding Station"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-3698--44",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "742-1295",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1414-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1878-2706",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-2706-3518",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-3518-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Norman Osborn // Green Goblin"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "norman-osborn",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 1,
+  "combo_commander_independent": 6,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 7
+ }
+}

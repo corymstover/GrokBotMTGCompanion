@@ -1,0 +1,134 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas"
+    ],
+    "id": "bolas-damage",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "discard-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:bolas-sourced-damage",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:discard-payoffs",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:mana",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:protection",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "sword-assault",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "discard-lock",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [
+    "Nicol Bolas"
+   ],
+   "cards": [
+    "Sword of Feast and Famine",
+    "Aggravated Assault"
+   ],
+   "direct_commander_pieces": [],
+   "id": "900-3750",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  }
+ ],
+ "commanders": [
+  "Nicol Bolas"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Nicol_Bolas",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 1,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 1
+ }
+}

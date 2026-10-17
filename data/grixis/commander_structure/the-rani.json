@@ -1,0 +1,112 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "The Rani makes the goad and is the main Clue trigger for opposing creatures' combat damage.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native forced combat. Spellbook finds no combos; Time Sieve is kept as a payoff, not a deterministic loop (decisions L48). Source note: the decisions file still says 'working decision closeout; not user approval' (L7), but the approval record (approvals L8) shows APPROVED / LOCKED on 2026-10-15; the approval record is the authority.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "The Rani"
+    ],
+    "id": "mark-and-investigate",
+    "online_condition_mentions_commander": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "token-multiplier",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "The Rani"
+    ],
+    "id": "rani-blink",
+    "online_condition_mentions_commander": true
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:goad",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:artifact-payoff",
+    "min_count": 6,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "The Rani"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "forced-combat",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "artifact-payoffs",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "combo_routes": [],
+ "commanders": [
+  "The Rani"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "The_Rani",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "the-rani",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 3,
+  "engines_explicit_commander": 2,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 0
+ }
+}

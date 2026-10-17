@@ -1,0 +1,370 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Missy is the recursion engine and a piece in every one of the 17 Spellbook infinites in the list.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "This is genuinely commander-native: Missy + free outlet + Ruthless Ripper/Dragon's Eye Savants/Horde Ambusher is three cards, two of them tutorable. The cost is a six-mana commander, which the source names as the main reason for Bracket 4 (blueprint L42). The cycle 51 M1 review (missy-01..09, all verified) confirms the loop rules.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Missy"
+    ],
+    "id": "cyberman-conversion",
+    "online_condition_mentions_commander": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "aristocrats",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:zero-cost-morphs",
+    "min_count": 3,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:morph-utility",
+    "min_count": 4,
+    "required": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:free-outlets",
+    "min_count": 4,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:cybermen",
+    "min_count": 3,
+    "required": false
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Missy"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "missy-morph-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Missy"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "haruspex-ixidor",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Missy"
+    ],
+    "confidence": "high",
+    "evidence_class": "fact",
+    "id": "villainous-choice",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Ashnod's Altar",
+    "Horde Ambusher"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1045-2034-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Viscera Seer",
+    "Horde Ambusher"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1045-2292-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Horde Ambusher"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1045-4050-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Goblin Bombardment",
+    "Horde Ambusher"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1045-4424-5147",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Altar of Dementia",
+    "Horde Ambusher"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1045-4424-5256",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Ashnod's Altar",
+    "Ruthless Ripper"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1794-2034-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Viscera Seer",
+    "Ruthless Ripper"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1794-2292-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Ruthless Ripper"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1794-4050-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Goblin Bombardment",
+    "Ruthless Ripper"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1794-4424-5147",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Altar of Dementia",
+    "Ruthless Ripper"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "1794-4424-5256",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Ashnod's Altar",
+    "Dragon's Eye Savants"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "2034-3565-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Viscera Seer",
+    "Dragon's Eye Savants"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "2292-3565-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Dragon's Eye Savants"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "3565-4050-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Goblin Bombardment",
+    "Dragon's Eye Savants"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "3565-4424-5147",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Altar of Dementia",
+    "Dragon's Eye Savants"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "3565-4424-5256",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Grim Haruspex"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "631-4050-4424",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Missy",
+    "Ixidor, Reality Sculptor",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [
+    "Missy"
+   ],
+   "id": "419-2034-4424-4871",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Missy"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Missy",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "missy",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 3,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 17,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 17
+ }
+}

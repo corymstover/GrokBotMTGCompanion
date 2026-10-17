@@ -1,0 +1,172 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Obeka's end-the-turn is what makes the risky extra turns and temporary effects profitable.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native identity with one commander combo (Scepter + Final Fortune + Obeka). Sundial of the Infinite does the same job without her, and the Kiki/Dualcaster infinites are commander-free. On opponents' turns the active player decides whether to end the turn, so she can't erase liabilities then (blueprint L17). M1 review (obekabc-01..05, all verified) confirms the end-the-turn timing and both combos.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Brute Chronologist"
+    ],
+    "id": "end-the-turn",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "temporary-to-permanent",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:risky-turns",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:temporary-effects",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:deploy-activate",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Brute Chronologist"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "scepter-fortune",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "clone-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Brute Chronologist"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "risky-turns",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "direct_commander_pieces": [],
+   "id": "147-1235",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Delina, Wild Mage"
+   ],
+   "direct_commander_pieces": [],
+   "id": "282-618",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [
+    "Obeka, Brute Chronologist"
+   ],
+   "cards": [
+    "Isochron Scepter",
+    "Final Fortune",
+    "Sundial of the Infinite"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1173-2160-5261",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Isochron Scepter",
+    "Final Fortune",
+    "Obeka, Brute Chronologist"
+   ],
+   "direct_commander_pieces": [
+    "Obeka, Brute Chronologist"
+   ],
+   "id": "126-1173-5261",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Obeka, Brute Chronologist"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Obeka__Brute_Chronologist",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "obeka-brute-chronologist",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 1,
+  "combo_commander_independent": 2,
+  "combo_direct_commander_piece": 1,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 4
+ }
+}

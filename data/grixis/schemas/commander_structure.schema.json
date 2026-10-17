@@ -1,0 +1,25 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/commander_structure.schema.json",
+ "title":"Step D structural commander marginality evidence",
+ "type":"object",
+ "required":["schema_version","deck_id","slug","canonical_hash","status","evidence_class","confidence","authority","commanders","accepted_blueprint_role","blueprint_routes","combo_routes","summary","counterfactual_questions","limitations"],
+ "properties":{
+  "schema_version":{"const":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^lh1:"},
+  "status":{"const":"provisional_evidence"},"evidence_class":{"const":"derived_metric"},"confidence":{"enum":["moderate","low"]},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "commanders":{"type":"array","minItems":1,"items":{"type":"string"}},
+  "accepted_blueprint_role":{"type":"object","required":["level","advances_plan","honest_note","evidence_class","confidence"]},
+  "blueprint_routes":{"type":"object","required":["wins","engines","packages"],"properties":{"wins":{"type":"array","items":{"$ref":"#/$defs/win"}},"engines":{"type":"array","items":{"$ref":"#/$defs/engine"}},"packages":{"type":"array","items":{"$ref":"#/$defs/package"}}},"additionalProperties":false},
+  "combo_routes":{"type":"array","items":{"$ref":"#/$defs/combo"}},
+  "summary":{"type":"object","required":["blueprint_wins","blueprint_wins_explicit_commander","blueprint_wins_structurally_independent","engines","engines_explicit_commander","required_packages","required_packages_explicit_commander","spellbook_lines","combo_direct_commander_piece","combo_blueprint_supported","combo_commander_independent"],"additionalProperties":{"type":"integer","minimum":0}},
+  "counterfactual_questions":{"type":"array","minItems":4,"items":{"type":"string"}},"limitations":{"type":"array","minItems":4,"items":{"type":"string"}}
+ },
+ "$defs":{
+  "win":{"type":"object","required":["id","kind","commander_refs","commander_explicit","evidence_class","confidence"],"properties":{"id":{"type":"string"},"kind":{"type":["string","null"]},"commander_refs":{"type":"array","items":{"type":"string"}},"commander_explicit":{"type":"boolean"},"evidence_class":{"type":"string"},"confidence":{"type":"string"}},"additionalProperties":false},
+  "engine":{"type":"object","required":["id","commander_refs","commander_explicit","online_condition_mentions_commander"],"properties":{"id":{"type":"string"},"commander_refs":{"type":"array","items":{"type":"string"}},"commander_explicit":{"type":"boolean"},"online_condition_mentions_commander":{"type":"boolean"}},"additionalProperties":false},
+  "package":{"type":"object","required":["id","required","min_count","commander_refs","commander_explicit"],"properties":{"id":{"type":"string"},"required":{"type":"boolean"},"min_count":{"type":["integer","null"]},"commander_refs":{"type":"array","items":{"type":"string"}},"commander_explicit":{"type":"boolean"}},"additionalProperties":false},
+  "combo":{"type":"object","required":["id","cards","mode","direct_commander_pieces","blueprint_commander_support","structural_hint"],"properties":{"id":{"type":"string"},"cards":{"type":"array","items":{"type":"string"}},"mode":{"enum":["direct_commander_piece","blueprint_supported","commander_independent"]},"direct_commander_pieces":{"type":"array","items":{"type":"string"}},"blueprint_commander_support":{"type":"array","items":{"type":"string"}},"structural_hint":{"type":["string","null"]}},"additionalProperties":false}
+ },
+ "additionalProperties":false
+}

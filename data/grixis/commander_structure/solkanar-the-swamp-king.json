@@ -1,0 +1,303 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander. M1 review (solkanar-01..06, all verified) confirms the trigger and loop rules.",
+  "level": "supporting"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Sol'kanar the Swamp King"
+    ],
+    "id": "black-spell-gain",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "swamp-mana",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:life-loop",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:swamp",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:black-spells",
+    "min_count": 4,
+    "required": false
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Sol'kanar the Swamp King"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "life-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Sol'kanar the Swamp King"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "reservoir-activation",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "painter-grindstone",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "citadel-top-reservoir",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "wheel-pressure",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Painter's Servant",
+    "Grindstone"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1078-2302",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Marauding Blight-Priest",
+    "Exquisite Blood"
+   ],
+   "direct_commander_pieces": [],
+   "id": "110-3966",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Marauding Blight-Priest",
+    "Bloodthirsty Conqueror"
+   ],
+   "direct_commander_pieces": [],
+   "id": "110-6191",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Vito, Thorn of the Dusk Rose",
+    "Exquisite Blood"
+   ],
+   "direct_commander_pieces": [],
+   "id": "314-3966",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Vito, Thorn of the Dusk Rose",
+    "Bloodthirsty Conqueror"
+   ],
+   "direct_commander_pieces": [],
+   "id": "314-6191",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Aetherflux Reservoir",
+    "Exquisite Blood"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3966-4740",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Exquisite Blood",
+    "Enduring Tenacity"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3966-5755",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Exquisite Blood",
+    "Starscape Cleric"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3966-5867",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Aetherflux Reservoir",
+    "Bloodthirsty Conqueror"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4740-6191",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Enduring Tenacity",
+    "Bloodthirsty Conqueror"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5755-6191",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cards": [
+    "Starscape Cleric",
+    "Bloodthirsty Conqueror"
+   ],
+   "direct_commander_pieces": [],
+   "id": "5867-6191",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Sheoldred, the Apocalypse"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2173-2498-5078",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Sensei's Divining Top",
+    "Aetherflux Reservoir",
+    "Bolas's Citadel"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2173-4740-5078",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Sol'kanar the Swamp King"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 5,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 3,
+  "combo_blueprint_supported": 10,
+  "combo_commander_independent": 3,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 13
+ }
+}

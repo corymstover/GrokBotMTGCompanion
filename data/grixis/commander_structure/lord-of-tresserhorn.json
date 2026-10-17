@@ -1,0 +1,379 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Lord's 10 power is the kill; the infect and double-strike cards only work on him.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The enter trigger is a real cost: lose 2, sacrifice two creatures (Lord himself if needed; regeneration doesn't help) and an opponent draws two (M1 tresserhorn-01). The source admits the Torpor Orb/Karn slots trade away flexibility (tresserhorn-13). The sacrifice loops win without him.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "drawback-suppression",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "recursive-fodder",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:suppression",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:evasion-haste-protection",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:ten-power-conversion",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lord of Tresserhorn"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "infect-lord",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lord of Tresserhorn"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "big-hits",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lord of Tresserhorn"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "sac-loops",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Kediss, Emberclaw Familiar",
+    "Tainted Strike"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1218-2822",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4050",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Lord of Tresserhorn",
+    "Tainted Strike"
+   ],
+   "direct_commander_pieces": [
+    "Lord of Tresserhorn"
+   ],
+   "id": "264-1218",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Lord of Tresserhorn",
+    "Phyresis"
+   ],
+   "direct_commander_pieces": [
+    "Lord of Tresserhorn"
+   ],
+   "id": "264-4651",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Kediss, Emberclaw Familiar",
+    "Phyresis"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2822-4651",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Zulaport Cutthroat"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1385-2577-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Pitiless Plunderer",
+    "Ashnod's Altar",
+    "Reassembling Skeleton"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1580-2034-4871",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Pitiless Plunderer",
+    "Reassembling Skeleton",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1580-4050-4871",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2452-2577",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2577-4871",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Viscera Seer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2292-2452-2577",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Viscera Seer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2292-2577-4871",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-2452-2577",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Rooftop Storm",
+    "Goblin Bombardment"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2452-2577-5147",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-2842-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Goblin Bombardment"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4871-5147",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Pitiless Plunderer",
+    "Zulaport Cutthroat",
+    "Reassembling Skeleton"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1385-1580-4871-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Lord of Tresserhorn"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Pitiless Plunderer",
+    "Reassembling Skeleton",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1580-2842-4871-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  }
+ ],
+ "commanders": [
+  "Lord of Tresserhorn"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Lord_of_Tresserhorn",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 3,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 14,
+  "combo_commander_independent": 3,
+  "combo_direct_commander_piece": 2,
+  "engines": 2,
+  "engines_explicit_commander": 0,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 19
+ }
+}

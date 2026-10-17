@@ -1,0 +1,179 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Goro-Goro and Satoru"
+    ],
+    "id": "fresh-attackers",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "dragon-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:ninjutsu-entrants",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:extra-combat",
+    "min_count": 4,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:combat-token-makers",
+    "min_count": 4,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Goro-Goro and Satoru"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "dragon-army",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Goro-Goro and Satoru"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "goro-breath",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breath-token-makers",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Breath of Fury",
+    "Urabrask's Forge"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1347-3259",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Breath of Fury",
+    "Daring Piracy"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1674-3259",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Breath of Fury"
+   ],
+   "direct_commander_pieces": [
+    "Goro-Goro and Satoru"
+   ],
+   "id": "2237-3259",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Breath of Fury",
+    "Determined Iteration"
+   ],
+   "direct_commander_pieces": [],
+   "id": "3259-3934",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Breath of Fury",
+    "Loyal Apprentice"
+   ],
+   "direct_commander_pieces": [],
+   "id": "33-3259",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Goro-Goro and Satoru"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Goro_Goro_and_Satoru",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "goro-goro-and-satoru",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 4,
+  "combo_direct_commander_piece": 1,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 5
+ }
+}

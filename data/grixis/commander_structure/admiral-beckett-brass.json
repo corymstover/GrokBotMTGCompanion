@@ -1,0 +1,127 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Admiral Beckett Brass"
+    ],
+    "id": "end-step-theft",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "combat-draw-and-treasure",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:evasion",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:pirate-bodies-and-tokens",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Admiral Beckett Brass"
+    ],
+    "id": "pkg:pirate-lords",
+    "min_count": 3,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:creature-theft",
+    "min_count": 3,
+    "required": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:interaction-protection",
+    "min_count": 8,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Admiral Beckett Brass"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "pirate-beats-and-theft",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "port-razer-combats",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+ "combo_routes": [],
+ "commanders": [
+  "Admiral Beckett Brass"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Admiral_Beckett_Brass",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "admiral-beckett-brass",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 1,
+  "spellbook_lines": 0
+ }
+}

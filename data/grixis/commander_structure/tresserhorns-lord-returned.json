@@ -1,0 +1,397 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "sacrifice-draw",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "fodder",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:fodder",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:outlets",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:drain",
+    "min_count": 4,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "locust-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "gravecrawler-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "commander-combat",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4050",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Ashnod's Altar",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "direct_commander_pieces": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "id": "1339-2034-7920",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Viscera Seer",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "direct_commander_pieces": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "id": "1339-2292-7920",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Carrion Feeder",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "direct_commander_pieces": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "id": "1339-2438-7920",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Yawgmoth, Thran Physician",
+    "The Locust God",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1339-2842-4279",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Phyrexian Altar",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "direct_commander_pieces": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "id": "1339-4050-7920",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Yawgmoth, Thran Physician",
+    "The Locust God",
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1339-4279-6578",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Goblin Bombardment",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "direct_commander_pieces": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "id": "1339-5147-7920",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Zulaport Cutthroat"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1385-2577-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2577-4871",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Skullclamp",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "228-1339-2034",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Skullclamp",
+    "Phyrexian Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "228-1339-4050",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Skullclamp",
+    "Pitiless Plunderer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "228-1339-4871",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Viscera Seer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2292-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2438-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Blood Artist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-2842-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Bastion of Remembrance"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-3025-5670",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Goblin Bombardment"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-4871-5147",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2577-5670-6578",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "The Locust God",
+    "Woe Strider",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "direct_commander_pieces": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "id": "997-1339-7920",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Woe Strider"
+   ],
+   "direct_commander_pieces": [],
+   "id": "997-2577-4871",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  }
+ ],
+ "commanders": [
+  "Tresserhorn's Lord, Returned"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "tresserhorns-lord-returned",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 3,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 5,
+  "combo_commander_independent": 10,
+  "combo_direct_commander_piece": 6,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 21
+ }
+}

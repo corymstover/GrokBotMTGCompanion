@@ -1,0 +1,220 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03).",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nekusar, the Mindrazer"
+    ],
+    "id": "draw-punish",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nekusar, the Mindrazer"
+    ],
+    "id": "wizard-multipliers",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:wheels",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:punishers",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:interaction",
+    "min_count": 6,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nekusar, the Mindrazer"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "peer-punish",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach-wheel",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "curiosity-niv",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nekusar, the Mindrazer"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "wheel-damage",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Curiosity",
+    "Niv-Mizzet, Parun"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1089-2353",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Peer into the Abyss"
+   ],
+   "direct_commander_pieces": [
+    "Nekusar, the Mindrazer"
+   ],
+   "id": "1561-1972",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cards": [
+    "Sheoldred, the Apocalypse",
+    "Peer into the Abyss"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1561-2498",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cards": [
+    "Peer into the Abyss",
+    "Underworld Dreams"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1561-2720",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cards": [
+    "Orcish Bowmasters",
+    "Peer into the Abyss"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1561-3862",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cards": [
+    "Razorkin Needlehead",
+    "Peer into the Abyss"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1561-5919",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1878-2706",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Nekusar, the Mindrazer"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Nekusar__the_Mindrazer",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 4,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 4,
+  "combo_commander_independent": 2,
+  "combo_direct_commander_piece": 1,
+  "engines": 2,
+  "engines_explicit_commander": 2,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 7
+ }
+}

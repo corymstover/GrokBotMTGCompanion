@@ -399,3 +399,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - Commander-mana 68.3 is handled explicitly: zero generated records is `pending_local_cache_validation`, 1–61 is an error, and 62 records are validated normally. CI therefore cannot silently mistake missing local-cache work for completion.
 - `data/grixis/mana_quality_gain.json` demonstrates real before/after decision resolution for timing/conditional sources, MDFC optionality, utility-land burden versus Commander-first support, and source/fetch resilience. It makes zero automatic land-swap decisions.
 - `validate_all` now includes the `mana-step` gate. Step C is code-complete except for the declared 68.3 frozen-local-cache output/validation closure item.
+
+
+### Step D batch 69.1: structural commander marginality
+
+- `scripts/grixis_commander_structure.py` builds one non-deciding record for every canonical deck from accepted Blueprints and Step-B combo-quality evidence.
+- It partitions declared wins, engines/packages and Spellbook lines into explicit commander dependence/support versus structural independence.
+- Accepted Blueprint commander-role judgments are preserved verbatim as context; the script does not replace them with a synthetic score.
+- Absence of an explicit commander reference is not treated as proof of zero commander value. Dynamic card economy/action/combo/recovery deltas are deferred to the counterfactual simulator batches.
+- All 62 records validate; no deck state or decision changes.

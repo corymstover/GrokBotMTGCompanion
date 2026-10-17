@@ -1,0 +1,225 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Flash for Allies and artifacts lets the combo and value pieces land on opponents' turns, and firebending adds combat mana.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Every Spellbook infinite in the list (Monolith + Rings, the Top loops, Breach) works without Mai and Zuko; the commander adds speed and instant-speed safety, not the kill.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mai and Zuko"
+    ],
+    "id": "flash-artifacts",
+    "online_condition_mentions_commander": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "combat-and-off-turn",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:artifact-combo",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:allies",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:fast-mana",
+    "min_count": 8,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "monolith-rings",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mai and Zuko"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "top-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Rings of Brighthearth",
+    "Basalt Monolith"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4131-4235",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1414-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-3518-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [
+    "Mai and Zuko"
+   ],
+   "cards": [
+    "Sensei's Divining Top",
+    "Aetherflux Reservoir",
+    "Bolas's Citadel"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2173-4740-5078",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Mai and Zuko"
+   ],
+   "cards": [
+    "Sensei's Divining Top",
+    "Foundry Inspector",
+    "Mystic Forge"
+   ],
+   "direct_commander_pieces": [],
+   "id": "777-985-5078",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Mai and Zuko"
+   ],
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Etherium Sculptor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "985-1976-5078",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Mai and Zuko"
+   ],
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Enthusiastic Mechanaut"
+   ],
+   "direct_commander_pieces": [],
+   "id": "985-4908-5078",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Mai and Zuko"
+   ],
+   "cards": [
+    "Sensei's Divining Top",
+    "Longshot, Rebel Bowman",
+    "Mystic Forge"
+   ],
+   "direct_commander_pieces": [],
+   "id": "985-5078-7356",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  }
+ ],
+ "commanders": [
+  "Mai and Zuko"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Mai_and_Zuko",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "mai-and-zuko",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 5,
+  "combo_commander_independent": 3,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 8
+ }
+}
