@@ -99,7 +99,7 @@
    {
     "basic_fetch": false,
     "card": "Arid Mesa",
-    "potential_source_colors": "WR",
+    "potential_source_colors": "R",
     "types": [
      "Plains",
      "Mountain"
@@ -117,7 +117,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -126,7 +126,7 @@
    {
     "basic_fetch": false,
     "card": "Marsh Flats",
-    "potential_source_colors": "WB",
+    "potential_source_colors": "B",
     "types": [
      "Plains",
      "Swamp"
@@ -135,7 +135,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -162,7 +162,7 @@
    {
     "basic_fetch": false,
     "card": "Verdant Catacombs",
-    "potential_source_colors": "BG",
+    "potential_source_colors": "B",
     "types": [
      "Swamp",
      "Forest"
@@ -171,7 +171,7 @@
    {
     "basic_fetch": false,
     "card": "Wooded Foothills",
-    "potential_source_colors": "RG",
+    "potential_source_colors": "R",
     "types": [
      "Mountain",
      "Forest"

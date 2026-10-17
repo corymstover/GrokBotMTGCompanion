@@ -108,7 +108,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -117,7 +117,7 @@
    {
     "basic_fetch": false,
     "card": "Marsh Flats",
-    "potential_source_colors": "WB",
+    "potential_source_colors": "B",
     "types": [
      "Plains",
      "Swamp"
@@ -126,7 +126,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"

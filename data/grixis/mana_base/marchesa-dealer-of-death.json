@@ -56,12 +56,12 @@
  "counts": {
   "conditional_mana_lands": 3,
   "conditional_tapped_lands": 5,
-  "fast_mana": 16,
+  "fast_mana": 14,
   "fetchlands": 6,
   "flex_land_mdfcs": 0,
   "lands": 29,
   "library_cards": 99,
-  "one_shot_mana": 5,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 13,
   "rituals": 3,
   "unconditional_tapped_lands": 1,
@@ -76,13 +76,11 @@
   "Cabal Ritual",
   "Dark Ritual",
   "Fellwar Stone",
-  "Lion's Eye Diamond",
   "Lotus Petal",
   "Mana Vault",
   "Mox Amber",
   "Mox Diamond",
   "Mox Opal",
-  "Rain of Filth",
   "Rite of Flame",
   "Sol Ring",
   "Talisman of Creativity",
@@ -114,7 +112,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -123,7 +121,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -150,7 +148,7 @@
    {
     "basic_fetch": false,
     "card": "Verdant Catacombs",
-    "potential_source_colors": "BG",
+    "potential_source_colors": "B",
     "types": [
      "Swamp",
      "Forest"
@@ -173,13 +171,7 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [
-  "An Offer You Can't Refuse",
-  "Lion's Eye Diamond",
-  "Lotus Petal",
-  "Rain of Filth",
-  "Storm-Kiln Artist"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 50,
   "double_pip_spell_count": {

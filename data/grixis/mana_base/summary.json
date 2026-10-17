@@ -2,7 +2,7 @@
  "decks": [
   {
    "deck_id": "Abaddon_the_Despoiler",
-   "fast_mana": 11,
+   "fast_mana": 10,
    "flex_land_mdfcs": 0,
    "lands": 34,
    "slug": "abaddon-the-despoiler",
@@ -66,7 +66,7 @@
   },
   {
    "deck_id": "Cormela__Glamour_Thief",
-   "fast_mana": 15,
+   "fast_mana": 14,
    "flex_land_mdfcs": 0,
    "lands": 30,
    "slug": "cormela-glamour-thief",
@@ -138,7 +138,7 @@
   },
   {
    "deck_id": "Evelyn__the_Covetous",
-   "fast_mana": 15,
+   "fast_mana": 14,
    "flex_land_mdfcs": 0,
    "lands": 26,
    "slug": "evelyn-the-covetous",
@@ -146,7 +146,7 @@
   },
   {
    "deck_id": "Fire_Lord_Azula",
-   "fast_mana": 16,
+   "fast_mana": 15,
    "flex_land_mdfcs": 0,
    "lands": 26,
    "slug": "fire-lord-azula",
@@ -170,7 +170,7 @@
   },
   {
    "deck_id": "Grixistax___October_2026",
-   "fast_mana": 13,
+   "fast_mana": 12,
    "flex_land_mdfcs": 0,
    "lands": 26,
    "slug": "grixistax-october-2026",
@@ -178,7 +178,7 @@
   },
   {
    "deck_id": "Gwendlyn_Di_Corci",
-   "fast_mana": 8,
+   "fast_mana": 7,
    "flex_land_mdfcs": 0,
    "lands": 35,
    "slug": "gwendlyn-di-corci",
@@ -186,7 +186,7 @@
   },
   {
    "deck_id": "Inalla__Archmage_Ritualist",
-   "fast_mana": 17,
+   "fast_mana": 15,
    "flex_land_mdfcs": 0,
    "lands": 27,
    "slug": "inalla-archmage-ritualist",
@@ -194,7 +194,7 @@
   },
   {
    "deck_id": "Jeleva__Nephalia_s_Scourge",
-   "fast_mana": 15,
+   "fast_mana": 14,
    "flex_land_mdfcs": 0,
    "lands": 27,
    "slug": "jeleva-nephalias-scourge",
@@ -202,7 +202,7 @@
   },
   {
    "deck_id": "Kefka__Court_Mage",
-   "fast_mana": 16,
+   "fast_mana": 15,
    "flex_land_mdfcs": 0,
    "lands": 28,
    "slug": "kefka-court-mage",
@@ -210,7 +210,7 @@
   },
   {
    "deck_id": "Kess__Dissident_Mage",
-   "fast_mana": 16,
+   "fast_mana": 15,
    "flex_land_mdfcs": 0,
    "lands": 27,
    "slug": "kess-dissident-mage",
@@ -234,7 +234,7 @@
   },
   {
    "deck_id": "Lord_Xander__the_Collector",
-   "fast_mana": 11,
+   "fast_mana": 10,
    "flex_land_mdfcs": 0,
    "lands": 33,
    "slug": "lord-xander-the-collector",
@@ -242,7 +242,7 @@
   },
   {
    "deck_id": "Lynde__Cheerful_Tormentor",
-   "fast_mana": 8,
+   "fast_mana": 7,
    "flex_land_mdfcs": 0,
    "lands": 35,
    "slug": "lynde-cheerful-tormentor",
@@ -250,7 +250,7 @@
   },
   {
    "deck_id": "Mai_and_Zuko",
-   "fast_mana": 12,
+   "fast_mana": 11,
    "flex_land_mdfcs": 0,
    "lands": 31,
    "slug": "mai-and-zuko",
@@ -266,7 +266,7 @@
   },
   {
    "deck_id": "Marchesa__Dealer_of_Death",
-   "fast_mana": 16,
+   "fast_mana": 14,
    "flex_land_mdfcs": 0,
    "lands": 29,
    "slug": "marchesa-dealer-of-death",
@@ -338,7 +338,7 @@
   },
   {
    "deck_id": "Norman_Osborn_Green_Goblin",
-   "fast_mana": 17,
+   "fast_mana": 16,
    "flex_land_mdfcs": 0,
    "lands": 23,
    "slug": "norman-osborn",
@@ -370,7 +370,7 @@
   },
   {
    "deck_id": "RogSi",
-   "fast_mana": 19,
+   "fast_mana": 17,
    "flex_land_mdfcs": 0,
    "lands": 24,
    "slug": "rograkh-son-of-rohgahh-silas-renn",
@@ -442,7 +442,7 @@
   },
   {
    "deck_id": "The_Madcap_Jester",
-   "fast_mana": 13,
+   "fast_mana": 12,
    "flex_land_mdfcs": 0,
    "lands": 34,
    "slug": "the-madcap-jester",
@@ -450,7 +450,7 @@
   },
   {
    "deck_id": "The_Rani",
-   "fast_mana": 10,
+   "fast_mana": 9,
    "flex_land_mdfcs": 0,
    "lands": 33,
    "slug": "the-rani",
@@ -501,7 +501,7 @@
  "schema_version": 1,
  "totals": {
   "decks": 62,
-  "fast_mana": 661,
+  "fast_mana": 640,
   "flex_land_mdfcs": 11,
   "lands": 2031,
   "unresolved": 0

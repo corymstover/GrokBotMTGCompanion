@@ -61,7 +61,7 @@
   "flex_land_mdfcs": 4,
   "lands": 31,
   "library_cards": 99,
-  "one_shot_mana": 2,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 8,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
@@ -104,7 +104,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -113,7 +113,7 @@
    {
     "basic_fetch": false,
     "card": "Marsh Flats",
-    "potential_source_colors": "WB",
+    "potential_source_colors": "B",
     "types": [
      "Plains",
      "Swamp"
@@ -122,7 +122,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -168,10 +168,7 @@
   "Shatterskull Smashing // Shatterskull, the Hammer Pass",
   "Sink into Stupor // Soporific Springs"
  ],
- "one_shot_mana_cards": [
-  "Storm-Kiln Artist",
-  "Swarming of Moria"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 56,
   "double_pip_spell_count": {

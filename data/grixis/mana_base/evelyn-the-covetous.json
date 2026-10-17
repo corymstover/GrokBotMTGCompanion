@@ -52,12 +52,12 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 4,
-  "fast_mana": 15,
+  "fast_mana": 14,
   "fetchlands": 7,
   "flex_land_mdfcs": 0,
   "lands": 26,
   "library_cards": 99,
-  "one_shot_mana": 3,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 10,
   "rituals": 4,
   "unconditional_tapped_lands": 1,
@@ -73,7 +73,6 @@
   "Culling the Weak",
   "Dark Ritual",
   "Fellwar Stone",
-  "Lion's Eye Diamond",
   "Lotus Petal",
   "Mana Vault",
   "Mox Diamond",
@@ -100,7 +99,7 @@
    {
     "basic_fetch": false,
     "card": "Arid Mesa",
-    "potential_source_colors": "WR",
+    "potential_source_colors": "R",
     "types": [
      "Plains",
      "Mountain"
@@ -118,7 +117,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -127,7 +126,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -154,7 +153,7 @@
    {
     "basic_fetch": false,
     "card": "Wooded Foothills",
-    "potential_source_colors": "RG",
+    "potential_source_colors": "R",
     "types": [
      "Mountain",
      "Forest"
@@ -177,11 +176,7 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [
-  "An Offer You Can't Refuse",
-  "Lion's Eye Diamond",
-  "Lotus Petal"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 56,
   "double_pip_spell_count": {

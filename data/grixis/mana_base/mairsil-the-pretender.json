@@ -61,7 +61,7 @@
   "flex_land_mdfcs": 0,
   "lands": 32,
   "library_cards": 99,
-  "one_shot_mana": 2,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 16,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
@@ -144,10 +144,7 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [
-  "An Offer You Can't Refuse",
-  "Lotus Petal"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 45,
   "double_pip_spell_count": {

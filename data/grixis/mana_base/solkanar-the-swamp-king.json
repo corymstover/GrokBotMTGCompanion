@@ -61,7 +61,7 @@
   "flex_land_mdfcs": 1,
   "lands": 35,
   "library_cards": 99,
-  "one_shot_mana": 1,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 11,
   "rituals": 1,
   "unconditional_tapped_lands": 4,
@@ -110,7 +110,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -119,7 +119,7 @@
    {
     "basic_fetch": false,
     "card": "Marsh Flats",
-    "potential_source_colors": "WB",
+    "potential_source_colors": "B",
     "types": [
      "Plains",
      "Swamp"
@@ -128,7 +128,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -171,9 +171,7 @@
  "mdfc_cards": [
   "Fell the Profane // Fell Mire"
  ],
- "one_shot_mana_cards": [
-  "Lotus Petal"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 42,
   "double_pip_spell_count": {

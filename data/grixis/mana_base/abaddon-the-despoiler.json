@@ -56,12 +56,12 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 11,
+  "fast_mana": 10,
   "fetchlands": 7,
   "flex_land_mdfcs": 0,
   "lands": 34,
   "library_cards": 99,
-  "one_shot_mana": 3,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 8,
   "rituals": 3,
   "unconditional_tapped_lands": 1,
@@ -74,7 +74,6 @@
   "Arcane Signet",
   "Cabal Ritual",
   "Dark Ritual",
-  "Lion's Eye Diamond",
   "Lotus Petal",
   "Mana Vault",
   "Rite of Flame",
@@ -109,7 +108,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -118,7 +117,7 @@
    {
     "basic_fetch": false,
     "card": "Marsh Flats",
-    "potential_source_colors": "WB",
+    "potential_source_colors": "B",
     "types": [
      "Plains",
      "Swamp"
@@ -127,7 +126,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -154,7 +153,7 @@
    {
     "basic_fetch": false,
     "card": "Verdant Catacombs",
-    "potential_source_colors": "BG",
+    "potential_source_colors": "B",
     "types": [
      "Swamp",
      "Forest"
@@ -177,11 +176,7 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [
-  "Lion's Eye Diamond",
-  "Lotus Petal",
-  "Storm-Kiln Artist"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 51,
   "double_pip_spell_count": {

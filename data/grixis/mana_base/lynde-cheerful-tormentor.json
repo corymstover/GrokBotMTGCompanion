@@ -56,12 +56,12 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 8,
+  "fast_mana": 7,
   "fetchlands": 6,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
-  "one_shot_mana": 1,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 7,
   "rituals": 0,
   "unconditional_tapped_lands": 2,
@@ -72,7 +72,6 @@
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
   "Arcane Signet",
-  "Curse of Opulence",
   "Dimir Signet",
   "Rakdos Signet",
   "Sol Ring",
@@ -106,7 +105,7 @@
    {
     "basic_fetch": false,
     "card": "Flooded Strand",
-    "potential_source_colors": "WU",
+    "potential_source_colors": "U",
     "types": [
      "Plains",
      "Island"
@@ -115,7 +114,7 @@
    {
     "basic_fetch": false,
     "card": "Marsh Flats",
-    "potential_source_colors": "WB",
+    "potential_source_colors": "B",
     "types": [
      "Plains",
      "Swamp"
@@ -124,7 +123,7 @@
    {
     "basic_fetch": false,
     "card": "Misty Rainforest",
-    "potential_source_colors": "UG",
+    "potential_source_colors": "U",
     "types": [
      "Island",
      "Forest"
@@ -165,9 +164,7 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [
-  "Curse of Opulence"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 54,
   "double_pip_spell_count": {

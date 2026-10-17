@@ -61,7 +61,7 @@
   "flex_land_mdfcs": 1,
   "lands": 34,
   "library_cards": 99,
-  "one_shot_mana": 3,
+  "one_shot_mana": 0,
   "repeatable_nonland_sources": 13,
   "rituals": 1,
   "unconditional_tapped_lands": 2,
@@ -143,11 +143,7 @@
  "mdfc_cards": [
   "Primal Amulet // Primal Wellspring"
  ],
- "one_shot_mana_cards": [
-  "An Offer You Can't Refuse",
-  "Big Score",
-  "Storm-Kiln Artist"
- ],
+ "one_shot_mana_cards": [],
  "pip_demand": {
   "colored_spell_count": 53,
   "double_pip_spell_count": {
