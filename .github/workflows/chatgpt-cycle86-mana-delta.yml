@@ -1,0 +1,62 @@
+name: ChatGPT cycle 86 - Abaddon corrected static mana only
+on:
+  push:
+    branches:
+      - chatgpt-cycle86-abaddon-mana-delta
+    paths:
+      - .github/workflows/chatgpt-cycle86-mana-delta.yml
+      - scripts/grixis_m6_abaddon_mox_static_delta.py
+      - tests/test_m6_abaddon_mox_delta.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle86-abaddon-static
+  cancel-in-progress: true
+jobs:
+  corrected-static:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle86-abaddon-mana-delta
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify independent read-only classification
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_mox_delta.py' -v
+      - name: Compare new Abaddon static classification with frozen Step C
+        run: python scripts/grixis_m6_abaddon_mox_static_delta.py --build --check
+      - name: Fail on canonical or authority writes
+        run: |
+          git diff --name-only HEAD
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/classifier_corrections/' | grep -q .; then
+            echo 'Unauthorized path changed'
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          v=json.loads(Path('data/grixis/m6/classifier_corrections/abaddon_static_delta.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert v['commander_cast_probability_recomputed'] is False
+          assert not any(v['authority'].values())
+          print('conditional inventory data only, no deck approval or overwrite of Step C')
+          PY
+      - name: Commit non-authoritative delta
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/classifier_corrections/abaddon_static_delta.json
+          if git diff --cached --quiet; then
+            echo 'static delta current'
+          else
+            git commit -m 'Cycle 86: Abaddon conditional Chrome Mox static delta [skip ci]'
+            git pull --rebase origin chatgpt-cycle86-abaddon-mana-delta
+            git push origin HEAD:chatgpt-cycle86-abaddon-mana-delta
+          fi

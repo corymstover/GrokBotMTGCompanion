@@ -1,0 +1,50 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "color_probability_claim": false,
+ "commander_cast_probability_recomputed": false,
+ "corrected_classifier_sha256": "sha256:5eed919db7c2bcea33147d23348a807116f6a0014906cb85b9abe92b402cec74",
+ "deck_id": "Abaddon_the_Despoiler",
+ "downstream_actions": [
+  "Do not infer an automatic one-turn improvement from inventory count changes",
+  "Recompute conditional source availability with actual imprint resources before replacing historical commander mana records",
+  "Retain Cycle 84 exact one-card paired Chrome Mox comparison as separate simulator evidence"
+ ],
+ "frozen_step_c_sha256": "sha256:bc98168062576f357165c01063d016c6a14061d6e1e6da176e46d95b2083737a",
+ "legacy_commander_mana_report_recomputed": false,
+ "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "metrics": {
+  "fast_mana_inventory": {
+   "corrected": 12,
+   "frozen": 11
+  },
+  "land_plus_repeatable_potential_colors": {
+   "corrected": {
+    "B": 23,
+    "R": 20,
+    "U": 23
+   },
+   "frozen": {
+    "B": 22,
+    "R": 19,
+    "U": 22
+   }
+  },
+  "lands": {
+   "corrected": 34,
+   "frozen": 34
+  },
+  "repeatable_nonland_sources": {
+   "corrected": 7,
+   "frozen": 6
+  }
+ },
+ "newly_recognized": "Chrome Mox, conditional imprint-linked zero-mana artifact",
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "stage": "M6_Abaddon_conditional_Chrome_Mox_static_delta",
+ "status": "corrected_static_only_downstream_pending"
+}
