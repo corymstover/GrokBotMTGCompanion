@@ -1,0 +1,368 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:1b373a41992e2c43a1bfc0ab73d0a307fc057cdc658b7abcb7f4d6fd8c52cfc0",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Ashnod_the_Uncaring",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz"
+  ],
+  "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:ashnod-the-uncaring:performance:v1",
+  "recommendations": [
+   {
+    "add": "Arcane Denial",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:8b574772a910",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:cd4a82feab74ca61"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:ecb483e8ac0f",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:ebe38ee4cc2357ed"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Urza, Lord High Artificer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:a51015d3f209",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:7a31cc5325642acc"
+    ]
+   },
+   {
+    "add": "Callidus Assassin",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:795a837813e8",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:f2f7708f205e962a"
+    ]
+   },
+   {
+    "add": "Chakram Retriever",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:85c1191d8716",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:ea5cfb3733ad0e2f"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:b343bd8b35cd",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:208a6bf3c53d267c"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Urza, Lord High Artificer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:715ecae56caf",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:6db50b1c5edfc527"
+    ]
+   },
+   {
+    "add": "Cryogen Relic",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:dd4a902c5753",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:cef5ce9c2f50326b"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:cff9a7eb4422",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:d6a103f2f9d7a752"
+    ]
+   },
+   {
+    "add": "Debtors' Transport",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:3cbed9e47edc",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:17409bcad27d5ba6"
+    ]
+   },
+   {
+    "add": "Decorum Dissertation",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:15b29156dd94",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:265baef0a19d5747"
+    ]
+   },
+   {
+    "add": "Detective's Satchel",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:0298cc8543cb",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:1d6f61eaa37b8eb5"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:494c2afb8d76",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:6dde0a038b9fc078"
+    ]
+   },
+   {
+    "add": "Dreamstone Hedron",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:bba3ebd8c932",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:c5d345bb8dab42ae"
+    ]
+   },
+   {
+    "add": "Fiery Encore",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:47986a418634",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:1af43ffc3ff05f28"
+    ]
+   },
+   {
+    "add": "Filigree Sages",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:04ddb6c62889",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:a8a431e0a4ae3eec"
+    ]
+   },
+   {
+    "add": "Hedron Archive",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:868e615d4492",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:0deaacd47fc2d5d3"
+    ]
+   },
+   {
+    "add": "Hedron Archive",
+    "cut": "Urza, Lord High Artificer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:d1286936a594",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:67a3d0d063ee8188"
+    ]
+   },
+   {
+    "add": "Ichor Wellspring",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:b7c2af405898",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:15026cabf1c4dbf7"
+    ]
+   },
+   {
+    "add": "Last Thoughts",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:aceefed792f8",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:ed28594dbfd3d90b"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:d5c6efb0b294",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:b606f1185bc2fa0d"
+    ]
+   },
+   {
+    "add": "Magnetic Snuffler",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:8747bc977227",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:1e74685f7d7c8e9d"
+    ]
+   },
+   {
+    "add": "Mentor's Guidance",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:4e19167d455f",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:ff83ebef57130197"
+    ]
+   },
+   {
+    "add": "Mindslaver",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:86eda3903c4c",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:8262bc9f48326773"
+    ]
+   },
+   {
+    "add": "Mycosynth Lattice",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:e685ead76818",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:4558992e99c4ac91"
+    ]
+   },
+   {
+    "add": "Nadier, Agent of the Duskenel",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:c61ce1ef1c02",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:9cd0559b6a5c97fc"
+    ]
+   },
+   {
+    "add": "Ominous Harvest",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:75df185ca5ac",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:a31a8ef17550ea60"
+    ]
+   },
+   {
+    "add": "Padeem, Consul of Innovation",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:871f9287bae6",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:dc120c9c3be3bb1d"
+    ]
+   },
+   {
+    "add": "Planar Gate",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:0ba71b3d585d",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:ce2c89a6ca210164"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:fe819e317ba6",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:e8892a9a084959fd"
+    ]
+   },
+   {
+    "add": "Salvaging Station",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:f10bac8a860c",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:9f7a0f65fd91b394"
+    ]
+   },
+   {
+    "add": "Stone Retrieval Unit",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:6a57bcf8d980",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:abf5a49437d46104"
+    ]
+   },
+   {
+    "add": "Sublime Epiphany",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:b120941eade6",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:6beb8b35642964a7"
+    ]
+   },
+   {
+    "add": "The Immortal Sun",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:830144dd991b",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:7935215a9c8fa1cb"
+    ]
+   },
+   {
+    "add": "Thirst for Knowledge",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:a6c3be51a5b4",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:6760d4706bcda165"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:e7ba6b3ae46f",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:0ec75b6c950f9e1c"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:50322c1bd750",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:749e1995c58dd29b"
+    ]
+   },
+   {
+    "add": "Thought Monitor",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:7bffb6429a01",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:5b13e46a1e410c6c"
+    ]
+   },
+   {
+    "add": "Thoughtcast",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:b9a0a26d61e3",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:d2aec07237becfe2"
+    ]
+   },
+   {
+    "add": "Train of Thought",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:4bcf8894c62f",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:7a8e7537cb8bcd82"
+    ]
+   },
+   {
+    "add": "Wurmcoil Engine",
+    "cut": "Dockside Chef",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=swap:ashnod-the-uncaring:m5:e012c1367fe1",
+     "m5_test:data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz#id=test:ashnod-the-uncaring:goldfish:129cee4cc8218ed6"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

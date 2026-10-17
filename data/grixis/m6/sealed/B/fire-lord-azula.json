@@ -1,0 +1,248 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:a2ff291f8b07e54e88eb8703a73a0682aea16b66d779aa38996dea507c2828e9",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Fire_Lord_Azula",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz"
+  ],
+  "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:fire-lord-azula:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:86b1c0f75631",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:9265f0e939193c14"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:cf206fa33a50",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:db39efbdd21d17b6"
+    ]
+   },
+   {
+    "add": "Ashling, Flame Dancer",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2b4a4b296c33",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:1e4eedbdeea378d6"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:b853ff704a02",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:c4714ac1163d7c58"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1256af36c870",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:dc24500ab3b28659"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:d2da786492e6",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:cd5e360559b2f43c"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1753fc3f24a1",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:037dd9970effed78"
+    ]
+   },
+   {
+    "add": "Enduring Curiosity",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:ed884c73d86a",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:c4ac2f27e5cb650b"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2a611c4b8ff6",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:cf110640a3a8287c"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:dbc55743b545",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:31a8bac0a9652ee6"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:4e3860f6b1a4",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:866215173a1444ff"
+    ]
+   },
+   {
+    "add": "Opt",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0e680ada0cc2",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:fe56fb744a27b818"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:5496b0d2d955",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:c04bb3e62e96f414"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:8cde9ffc6087",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:468b608e099d0a05"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:c551a887f994",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:85332b1814dd89d3"
+    ]
+   },
+   {
+    "add": "Primal Amulet // Primal Wellspring",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:f08ab863ab38",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:ec0c5b0059b75c2e"
+    ]
+   },
+   {
+    "add": "Quicksilver Elemental",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3ca211984041",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:cfc9d482bfbfb25e"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0f293d71695c",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:0292b0a4ddf13032"
+    ]
+   },
+   {
+    "add": "Saheeli, Sublime Artificer",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:cbcdb0e0f5c3",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:db2813794fbfb0d8"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:06d4f8e91fd2",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:b3db79b1c0702645"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0bb5940827a8",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:d37139c0b51f382d"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:11b6c6c4974d",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:644834e5b97b3c9f"
+    ]
+   },
+   {
+    "add": "Thrill of Possibility",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:6421e9a47de6",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:111029729a89d256"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:db10f04ce7e4",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:022175cc4561f8ae"
+    ]
+   },
+   {
+    "add": "Twinning Staff",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1274326c35d3",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:1141ca3b5345a4b2"
+    ]
+   },
+   {
+    "add": "Unexpected Windfall",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:9a199866f9b7",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:0fa1209e49d60f9a"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

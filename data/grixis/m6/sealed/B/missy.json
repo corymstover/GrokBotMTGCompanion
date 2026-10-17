@@ -1,0 +1,64 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:0b24ad9cb9810af4a09299d0fad3e40a37162d0cb98d7ff2f94930f128c527d9",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Missy",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/missy.json.gz"
+  ],
+  "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:missy:performance:v1",
+  "recommendations": [
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Otawara, Soaring City",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ac2ab4045d17",
+     "m5_test:data/grixis/birthday_m5/regen/missy.json.gz#id=test:missy:goldfish:ae9fd62afed0ef13"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Otawara, Soaring City",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:06ca905d8252",
+     "m5_test:data/grixis/birthday_m5/regen/missy.json.gz#id=test:missy:goldfish:650ad9233b0579f0"
+    ]
+   },
+   {
+    "add": "Temple of the False God",
+    "cut": "Otawara, Soaring City",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d202a2609318",
+     "m5_test:data/grixis/birthday_m5/regen/missy.json.gz#id=test:missy:goldfish:9e55a7e52bfa7cb6"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

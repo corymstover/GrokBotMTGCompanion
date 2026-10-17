@@ -1,0 +1,264 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:bda1e0342ea5e18445cbca61563908ec0515d6d628c6d20ec2363d3330374d9f",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Mishra__Eminent_One",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz"
+  ],
+  "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:mishra-eminent-one:performance:v1",
+  "recommendations": [
+   {
+    "add": "Basalt Monolith",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3d84d2889ffb",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:23d7a3005d4edd35"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:fdb621f132db",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:bb7e982bf936b9ed"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2e0e56fc5f2b",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:b097cd4a85cc09b3"
+    ]
+   },
+   {
+    "add": "Cursed Mirror",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4d0be29e9cbe",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:6f1db762f35b5827"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Academy Ruins",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:7a051341367f",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:05fa228fe3935c70"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d0e061f02189",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:c2ddf93ad743df65"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e130e040d0ed",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:8b2dd11be9b49470"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:8069df9e7aa8",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:839786ea89b72456"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e02e9203f80d",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:73293081bc43f95f"
+    ]
+   },
+   {
+    "add": "Fabricate",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a7a324a98efd",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:a592e7ad70c0306b"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:85c36f826229",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:1f48eeaa5963b9b6"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:220a7814eead",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:10de720e460fe864"
+    ]
+   },
+   {
+    "add": "Hedron Archive",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a929afcf32cf",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:d8540dece5e92db6"
+    ]
+   },
+   {
+    "add": "Hedron Archive",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ea847258ceaf",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:829dc264bace7831"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:179caea010fc",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:f21175fdff6bcea5"
+    ]
+   },
+   {
+    "add": "Liquimetal Torque",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b77f62b37c6e",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:5b30c82c9d98f3b5"
+    ]
+   },
+   {
+    "add": "Liquimetal Torque",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:dc0b95933e52",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:1ad88fcae48aca87"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ab7fc5859c95",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:2f2e5eb89716bb20"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3d11b545a786",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:77970e57e76838d0"
+    ]
+   },
+   {
+    "add": "Prophetic Prism",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d06c93f14cc6",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:16095087e5a097a4"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:1a35f5aa4d00",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:7065668a42d5325e"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cfdf62422fa0",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:45163c6fb97778d2"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f3bd57542d72",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:9e24c789a424ae69"
+    ]
+   },
+   {
+    "add": "Thirst for Knowledge",
+    "cut": "Esoteric Duplicator",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:53dedc8e552f",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:6bf0194ace694636"
+    ]
+   },
+   {
+    "add": "Thirst for Knowledge",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a2852299cfc3",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:9d28c9204c039484"
+    ]
+   },
+   {
+    "add": "Thoughtcast",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cdc6c98bfd23",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:37911b2c672aaf3a"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:bfffcd1d6b74",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:acce038d0ce6c392"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f07a90d79ee1",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:c88d411e22bc504c"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

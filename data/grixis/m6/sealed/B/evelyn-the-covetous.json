@@ -1,0 +1,296 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:6cf07ce279f52058a55c15d7c159c512f6d940fe11fa01f4ba694b1632907a74",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Evelyn__the_Covetous",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz"
+  ],
+  "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:evelyn-the-covetous:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:2f4b5caad270",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:29a1ab74a44bd699"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:4989e09bc482",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:9d41561a67522649"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:3991fadfb4cf",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:2a6b9c38a0f863cc"
+    ]
+   },
+   {
+    "add": "Bloodtithe Harvester",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:5fbfc5135531",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:64740ef2faeb3386"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:8b1ed0008491",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:e5c66e4df6bc71d9"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:33f85ebc5926",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:0f28c5e4ff721b26"
+    ]
+   },
+   {
+    "add": "Dusk Legion Zealot",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:4b302dd514a5",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:f74fd2cb22ecc892"
+    ]
+   },
+   {
+    "add": "Glass-Cast Heart",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c87226d1874c",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:8ec3e4039b0f6e1e"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Tainted Pact",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:015494684b87",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:ce0fe12df48654c5"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:1a9adc07779d",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:119fbc6643db4d84"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:2e925c0dfd91",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:e027bf1cf8828751"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c808c193324a",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:e15b61087ca036b8"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c7ed12d9072a",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:be9ebdd4686810fe"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:e16531fa6263",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:a561b831206af2aa"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:75ffbac16123",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:6df05d3d1a045792"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:a60cfe9c512f",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:1a571e9b9e40f18d"
+    ]
+   },
+   {
+    "add": "Panharmonicon",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:8ad47625b2ad",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:d08864fddd0a71bf"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c91752e83c12",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:71abda05d971be2f"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:63d1df1ad5a0",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:5936d41dd5998fd2"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:e2f5a82baa8a",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:e243854a0a29229f"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:358f55c47aee",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:da7af587094be508"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:594e9a68b657",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:7997f48a5b1876dc"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:2f3b8e46550f",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:a6c6389d6e0f9771"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:0efa7d074e0a",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:454b8d7c225f1c37"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:98d096046ee9",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:dd514596e57c2d93"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:e2d5293e41c1",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:9368ddf5aa682d56"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:8aec5e354eea",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:7e09c2ddd2f8b76c"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:5921540f1aa1",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:6d7c14bd6c2c938e"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:d3f7515f2363",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:b79ba99a1712bdc0"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:6328083b193e",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:c3121c63901e27b1"
+    ]
+   },
+   {
+    "add": "Vampires' Vengeance",
+    "cut": "Redirect Lightning",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c2489fe1f4c5",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:0e4ebc77a53c2881"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:093fa73b7e5d",
+     "m5_test:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=test:evelyn-the-covetous:goldfish:7158c59653a0950f"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

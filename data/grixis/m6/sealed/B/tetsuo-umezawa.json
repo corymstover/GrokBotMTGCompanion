@@ -1,0 +1,72 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:77a4dd412e573471d760197550a310256a10c397a2fb6670173d7e0ae66b9eb7",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Tetsuo_Umezawa",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz"
+  ],
+  "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:tetsuo-umezawa:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Aphetto Alchemist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:92bb1efcae52",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:d9da3912259cb4c8"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:dab56b1256ff",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:49ef9da3c416932c"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:54741a0c43f1",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:021e7518b3000b53"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:cea2789f6762",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:54b7440aeb78b49b"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

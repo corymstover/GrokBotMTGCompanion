@@ -1,0 +1,104 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:40576e070403c7e483d668bb56076511f18ccea3e199cc5bf94f12e6b4a60e12",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz"
+  ],
+  "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:solkanar-the-swamp-king:performance:v1",
+  "recommendations": [
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Aetherflux Reservoir",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:9b9613dda6f5",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:aadd038be025e7fb"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ff6a922276cd",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:2ce0c49d4a721703"
+    ]
+   },
+   {
+    "add": "Liliana of the Dark Realms",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:01504fb432bb",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:6bdd460e3cf46ea3"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Sensei's Divining Top",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:85856307b34c",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:6dc39a1d32963012"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:788fcaa9d09b",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:4f59a7f914cd8d2a"
+    ]
+   },
+   {
+    "add": "Mindcrank",
+    "cut": "Grindstone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:2d572c3b914f",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:ec0ce07c2273ce67"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Grindstone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:885f31cabadc",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:1bd19c6d6eab2b79"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Grindstone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:09bc17fb4fe2",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:e71c44e3dc98466f"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

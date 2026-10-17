@@ -1,0 +1,464 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:bc4f8384bf23d88dc5e8cf592c60fd0c278f6796a8e324825b8cdbff5dcd54d6",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Kefka__Court_Mage",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz"
+  ],
+  "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:kefka-court-mage:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:5c0ee1bba1fb",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:9707c759fe93bbe5"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:ac4503d2de1b",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:710cc205cb839ceb"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:6bdfda73ff51",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:09b904bd73bb6409"
+    ]
+   },
+   {
+    "add": "Arcane Denial",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:dcac689dbca9",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:61ae42b4bcaf4c2c"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:068ff2e18ff6",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:9028e6c8bfb5730a"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:84ac3af6f8ad",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:ae490e82f1e52473"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:bd2654cdea87",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:3506e3f25875b8e5"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:47bbd98dd89a",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:6b0ec271533a3f34"
+    ]
+   },
+   {
+    "add": "Carnage, Crimson Chaos",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:547f9e886d59",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:778edbd0fbcfd943"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:62b2ffd066aa",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:dde83b25b645488e"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:af71ea58a6de",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:05ad136593150168"
+    ]
+   },
+   {
+    "add": "Crypt Champion",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:38e232fb8fdb",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:38192b92b841332a"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:1b245a2e0450",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:5a052a858c2c5349"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:b1140c1870b0",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:9e793514e3ba5912"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:8f18ee6414ef",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:a08d55acb76a4471"
+    ]
+   },
+   {
+    "add": "Faithless Looting",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:bb1f943e6d45",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:202d66d256da0eb9"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:18d4ddd91039",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:4a8522b24a37927c"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:6392d3829216",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:b33a4308ded00a9b"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:3e828dc3b3d9",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:922045f2f390a4a4"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:7d47e9658c18",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:a54548c8ea96de00"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:576cc2cc3744",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:e984f59482ae7d04"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:79dd88a1ea1b",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:8f56f91d2b3b50ac"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:62ad11c3f724",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:e7ca879b2978329a"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:8536698b1f1a",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:628731b9ca856d8a"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:973337290768",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:7b4eb0f03d211efc"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:355e472cf65e",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:dd874dc7bbf448b6"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:93977c1fd102",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:de9be8cdb73c8f5b"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:84ca486a1330",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:f34d0a1c9252c010"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:8f3e36a49f64",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:84d160679a5e7b67"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:77b16e3133a7",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:11fffacd54ccf6d8"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:5ce1be370829",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:07f1d5711a7fcfa2"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:e39b7ba59dc2",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:d4dccdff507028df"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:3830504e51e7",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:3d3fa489264dc2b0"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:73a47646e914",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:7ddf7b179ea6b21a"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:e38a973a7a13",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:07a50d7f0461bc0d"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:1b87b594ed00",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:38dfd8d5f1bccd26"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:d72960b1fe24",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:c2d233336ea24738"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:82838c452b4c",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:9e5d2a7788051bc8"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:2c907e1b3bf0",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:c662694a6cfff485"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:2ffdb881fffd",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:c14f1b0f8024ed87"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:aa6166c6d2c4",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:08bb36c51268ea12"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:8e95d1101ee0",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:b5bf9ddc8fd389d6"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:002061f07bcc",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:06e993171028e185"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:77b267a42f40",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:eb2b92061eb495f6"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:e64e1dee72ef",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:e9214ad1827214c0"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:1bd7f9af62ac",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:d75c2503b7daa4dc"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:fafd755c1ad7",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:8104b1da264b26b8"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:86f97c92a404",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:19beb4cf469fd7db"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:0e512103c88b",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:a42228fbb5b123c5"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:f138f8ed4fbe",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:8e4ec59819755eb4"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:84415670b2bf",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:fef3eff236f19a6f"
+    ]
+   },
+   {
+    "add": "Windfall",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:6ab8cbdba0dc",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:a469bfe93d1036b7"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:803ae4fc1ec3",
+     "m5_test:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=test:kefka-court-mage:goldfish:55f5afa74094bfda"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

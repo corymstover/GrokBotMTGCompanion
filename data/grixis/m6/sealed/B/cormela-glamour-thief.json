@@ -1,0 +1,904 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:2f07d441a6dc605727ce9486cf5a15ceb891a68cb5af350504ab97a073f7011d",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Cormela__Glamour_Thief",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz"
+  ],
+  "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:cormela-glamour-thief:performance:v1",
+  "recommendations": [
+   {
+    "add": "Abstract Paintmage",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:fd0867b3795c",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5039b8f026235485"
+    ]
+   },
+   {
+    "add": "Abstract Performance",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:eac840003f7f",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:2e05c034a38d2e64"
+    ]
+   },
+   {
+    "add": "Altar of Dementia",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d11893807409",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:4a54fdbe147513f1"
+    ]
+   },
+   {
+    "add": "Arcane Denial",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7210145b39e2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:7c9909a655c23a25"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b170df1f8164",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:7f1a8e8e949c6a2d"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:45d038f27ac5",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:9c3dbb2df20dd16b"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0af121881000",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:c4d0744380eef187"
+    ]
+   },
+   {
+    "add": "Big Score",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f344ef66d958",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:af9736c1b6a15bb8"
+    ]
+   },
+   {
+    "add": "Big Score",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5d90991e19db",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:6b652038eef61895"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:bd85a750040a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5fc6bb0da99e485a"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d903684c26f9",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:3770fbd1e71532f9"
+    ]
+   },
+   {
+    "add": "Blasphemous Act",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:85bcadcc2999",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:e858183011789eab"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dd736d8a6aa3",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:6b1596c8fbd605ac"
+    ]
+   },
+   {
+    "add": "Blood Money",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6c878e7892dc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:fccd61c4026ce164"
+    ]
+   },
+   {
+    "add": "Brainsurge",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b60d9feac54d",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:76b13e379ddd9f4d"
+    ]
+   },
+   {
+    "add": "Brainsurge",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:83bbd13872d3",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:4a8d3971e004b816"
+    ]
+   },
+   {
+    "add": "Carrion Feeder",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:bf72197a797d",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:6dee0d784e349086"
+    ]
+   },
+   {
+    "add": "Chaos Warp",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a5697154adf9",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:0930faf37591cfe9"
+    ]
+   },
+   {
+    "add": "Clone Legion",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:34f31f7ff3cf",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:0481f893c5c42596"
+    ]
+   },
+   {
+    "add": "Creative Outburst",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:60cb3ca611cc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:37823ad0df4e1b3c"
+    ]
+   },
+   {
+    "add": "Cruel Ultimatum",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:aa1acedd162d",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:4398a3a2c186e1e1"
+    ]
+   },
+   {
+    "add": "Cruel Ultimatum",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5c9c3a8ab335",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:663f42ade4e92b12"
+    ]
+   },
+   {
+    "add": "Cursed Recording",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2645e8720095",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5365746b9b7ab647"
+    ]
+   },
+   {
+    "add": "Decorum Dissertation",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:25fb3a0a9128",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:e763d62c3ec7c9ba"
+    ]
+   },
+   {
+    "add": "Dig Through Time",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:594c76180a4b",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:0f03d8a8408f3d99"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e9ec1d3c2b12",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:d341a1896bf2b66a"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f53f6aa12106",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8be554e2abc05478"
+    ]
+   },
+   {
+    "add": "Dream Harvest",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:8c03adde7ed9",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:b44468cced25475d"
+    ]
+   },
+   {
+    "add": "Dream Harvest",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:cd764d267a41",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:3b29d5dba6bd4136"
+    ]
+   },
+   {
+    "add": "Echocasting Symposium",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2af28590066a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:26e3c12f5b1128e6"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1119d4c85df3",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:1f02818280dfc2d2"
+    ]
+   },
+   {
+    "add": "Fevered Suspicion",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d6068ae55d90",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:382a6215739a21b2"
+    ]
+   },
+   {
+    "add": "Fevered Suspicion",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:534719166a4f",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5f799bc0c7b82d1e"
+    ]
+   },
+   {
+    "add": "Galvanic Iteration",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5fdb34625dda",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:bb3412a249a64790"
+    ]
+   },
+   {
+    "add": "Goblin Electromancer",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f47acef49bf7",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:2212036b6c30a3e9"
+    ]
+   },
+   {
+    "add": "Grimgrin, Corpse-Born",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5e22f70caed3",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:52f92a75818d5d51"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dc498b499b38",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:e987cd6d06d91b5b"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a64d9406067b",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:fb1727cd27ab7f85"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7a15b1e936fc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:22027441d4f97600"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:8c1c9a8c177c",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:256786a1736afcb3"
+    ]
+   },
+   {
+    "add": "Guttersnipe",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:4735f4c5f3cc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:57c5e8f5ebc168c0"
+    ]
+   },
+   {
+    "add": "Hostile Takeover",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d0de1faa8ffb",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:d7a437b88c7939cc"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1da7f513cefe",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:430b741e8ff950de"
+    ]
+   },
+   {
+    "add": "Ill-Timed Explosion",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:4f0b829c0f0c",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:a6946b07c1045658"
+    ]
+   },
+   {
+    "add": "Ill-Timed Explosion",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c04b1c022a55",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:66e4622c0c637fff"
+    ]
+   },
+   {
+    "add": "Improvisation Capstone",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:72fe36543dcb",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:4ca051fc24697ed8"
+    ]
+   },
+   {
+    "add": "Improvisation Capstone",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a563d9ba682c",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:e830279a7b979e00"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3bad691d0db2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:171dfc86c12ad484"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a059bf49432e",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:d1ed7fedffe11224"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5e1809ef8be2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:10eb15fd3a1b3e25"
+    ]
+   },
+   {
+    "add": "Kolaghan's Command",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:55364658877c",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:c3dc451c0a9e40dd"
+    ]
+   },
+   {
+    "add": "Liliana, Untouched by Death",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5b91ee4347c4",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:dd57fed6fce6a047"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:67dc8d418e21",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:0802c9d2d8b11efc"
+    ]
+   },
+   {
+    "add": "Mizzix's Mastery",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:29cccb2df882",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:d034d9d4c79d3373"
+    ]
+   },
+   {
+    "add": "Mnemonic Deluge",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:246ec0767ddc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:f60e1b7bd9aee144"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f4d81b29c6fe",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:ea8d8611f134f85c"
+    ]
+   },
+   {
+    "add": "Mutinous Massacre",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5e1edefac585",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:f9ff01ad1e13a2cf"
+    ]
+   },
+   {
+    "add": "Mutinous Massacre",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:04288368bd88",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:6bb07613da294ffd"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:8c867a35b3a3",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:aefa89e4674c3d45"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9d13ff91f591",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:276b77e281f26098"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b2db366074f4",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8abb1160a3067103"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3a979db80ea4",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:19c50a933106e4fe"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0821ebf0071b",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:c55cbefdd0cdbeeb"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a0dbd65aa25a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:6b32291f7b4aace4"
+    ]
+   },
+   {
+    "add": "Overwhelming Surge",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f1d92511d488",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:35c86aa76c0b7d81"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:571b1ed50899",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:74ddd26ad29f2f08"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0258405ebc4a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:bf20f86d41970b9d"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5380eaffc90a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:f835d9409f578a2a"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f8ea6a9434f2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:7bdba5931a98fcd5"
+    ]
+   },
+   {
+    "add": "Prismari Command",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:192bcb79faba",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:ff3470f914985969"
+    ]
+   },
+   {
+    "add": "Prismari Command",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:8074a1dff76f",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8e006f0eae38e311"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b3c1786e1f72",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:67fc481256e3489d"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ebf8e652e7bc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:929ebf2405a633e1"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:da4563f4a936",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:35789d2ca537ee1d"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b9aa9de296a7",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:2b8f079dd55d990e"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9b1b2b748b46",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:a5edb824fd445735"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dba4e68f0e6a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:fed568369c5388d1"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:456b749c341c",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:ca5c546b0e145470"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:905949561e11",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:88cfa61bd601f24a"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:724e2cf9f94f",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:35abe86f3db07268"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6371ef310c12",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:934336b21d05010f"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6ada449d4675",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:312c1bf4c5a21ee2"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a9f219b634d3",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:a3f12eda8bfe0ecf"
+    ]
+   },
+   {
+    "add": "Solve the Equation",
+    "cut": "Entomb",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:849c45d55166",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8f381804f5db124f"
+    ]
+   },
+   {
+    "add": "Solve the Equation",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:334472c319cb",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:d83d8ed69819bed6"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5c1a64f662ae",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:a1de95ed8d16e1bd"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dd47c3b64c39",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:be83199b73fc2f2e"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:678d0084ffd7",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:38dcdad1df103c5c"
+    ]
+   },
+   {
+    "add": "Stock Up",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:31f3c1a57642",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:e7b4ca43496a80f5"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e19c1fd0adc2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:f707ab5e2701469e"
+    ]
+   },
+   {
+    "add": "Tablet of Discovery",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:8a8b744991cc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5b2e5474640d7dfd"
+    ]
+   },
+   {
+    "add": "Tablet of Discovery",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:eb6612a48bc2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5f53a2963f8fed70"
+    ]
+   },
+   {
+    "add": "The Dawning Archaic",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d92d42ece7f9",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:efca545116834785"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e3e206812b70",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:450f9ea78e28eda2"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0ab1c68410e2",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:c0644091c3105d04"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ec5845b0b62a",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:9f5f45537aadad1d"
+    ]
+   },
+   {
+    "add": "Toxic Deluge",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2d5fcbb34056",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:fe20f04ea6454fbd"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:61bda60807af",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:5f47a17a9d82d1a5"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:cd2a902a3b32",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:6e65f9be7d087fcc"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d92a3b21e717",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:505ac83e1dbfef7b"
+    ]
+   },
+   {
+    "add": "Urabrask // The Great Work",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b5594104a6fc",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8703da3601f3f844"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9d070266bc3f",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8534fe03a1877585"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:59ea46f07b31",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:760e7b885b05e3ba"
+    ]
+   },
+   {
+    "add": "Viscera Seer",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:917d6f794878",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8319279a4c70e0b1"
+    ]
+   },
+   {
+    "add": "Withering Torment",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ee2117caa794",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:bfee60e67112bb62"
+    ]
+   },
+   {
+    "add": "Woe Strider",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1a92eedb6949",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:8ec06e68aff13a3f"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b4cc755f9b07",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:05d30a28c6b745ae"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9ea3271c289d",
+     "m5_test:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=test:cormela-glamour-thief:goldfish:34b7e998b28a488f"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

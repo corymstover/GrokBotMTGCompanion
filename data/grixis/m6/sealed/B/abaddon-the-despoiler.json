@@ -1,0 +1,560 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:659c6fe6b0ae19e236ce3154e5d4af27410c47d582111cf37740276536ec0909",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Abaddon_the_Despoiler",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz"
+  ],
+  "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:abaddon-the-despoiler:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aggravated Assault",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:fb5e4ee80c19",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:51aecb20b2537a99"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:4b6f1578aaaf",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:e45300c482570778"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:45f7597f51d6",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:758be79a95c1faf0"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:4bb72a3b1e56",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:93d1c0a21bf9847e"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:bf73beb77b03",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:cbbaf9bd44400e61"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:473ff77bd648",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:98e9caef218c084e"
+    ]
+   },
+   {
+    "add": "Chimil, the Inner Sun",
+    "cut": "Call Forth the Tempest",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:3e2773dfdbec",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:721b090f5220b882"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:31aa2924e1ce",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:8c2e8aed606b95d2"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:e4166fdc2d89",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:2a8a84b6c2c70f4f"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:8be8462cd1c6",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:7885b8c44e49c8bb"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:24d3fc1b5a24",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:dff05010a560bd04"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:0ce51b9d077c",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:6bb9cfd7bf8e6ebd"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:8101687e402e",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:430d9d3996086e5d"
+    ]
+   },
+   {
+    "add": "Decree of Pain",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:511921b450ed",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:fca49b4c79dddc70"
+    ]
+   },
+   {
+    "add": "Drach'Nyen",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:f99decb19881",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:84c37852895b178a"
+    ]
+   },
+   {
+    "add": "Ebonblade Reaper",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:3735a01329b1",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:3af3d71455541161"
+    ]
+   },
+   {
+    "add": "Ebonblade Reaper",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:4947451a8b38",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:408e6ef0adb0325c"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:a422bb219722",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:3c8b6b5e2a5e02be"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:98ee0bbd44e5",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:dcc39819694ddbe7"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:2ddc10abdf77",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:a2eed08ada6418db"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:dbd469562eea",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:b0c0daab19de4686"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:1eb1c0ea9334",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:76e9d6f3db633713"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:b8c5af2bd237",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:ac91620a6cf7ca87"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:3960d66cebdb",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:c86647ba1b640663"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:c877ad57943d",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:a6ca6ae2909b48dc"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:d17609747acc",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:b45a441f5c450116"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:5ac285a18b7a",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:da038ce64fce4ec9"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:40f7e9b89e9e",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:0333b631b1216c20"
+    ]
+   },
+   {
+    "add": "Lord of Change",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:d7f615398a83",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:9206177283439c07"
+    ]
+   },
+   {
+    "add": "Mutalith Vortex Beast",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:0413b89b013c",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:6f8c682ca0458260"
+    ]
+   },
+   {
+    "add": "Past in Flames",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:5e5204ba4044",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:b65ecac16617df61"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:15b7ad0f2f10",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:a60db9a1c5275f8d"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:661f7b9b8a54",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:6762c3485811ecdc"
+    ]
+   },
+   {
+    "add": "Primordial Mist",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:3a47843171a1",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:d0690620b8f8af6e"
+    ]
+   },
+   {
+    "add": "Primordial Mist",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:268a7ecc79b6",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:c8aebd7ce29cfe06"
+    ]
+   },
+   {
+    "add": "Quicksilver Elemental",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:9d3d5ee0e25e",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:7b764435867741ec"
+    ]
+   },
+   {
+    "add": "Quicksilver Elemental",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:aba40f15116f",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:69dde61aa84b7621"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:655b84003664",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:615addd03175d04c"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:171a976b0f1f",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:bae635f2e2c27d15"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:1b2946245eed",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:eeac6da28a84d289"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:3ff7c14b5782",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:1301b88ac6066c8a"
+    ]
+   },
+   {
+    "add": "Rush of Dread",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:f0fa67084d10",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:b979e204106164a1"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:1ebc923c1da7",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:c9f6f7cefdcd48fc"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:9db35ecfd4d1",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:05ab95ebb2027176"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:6649f3828177",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:dbac0149f4f50d75"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:e7899508f4aa",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:064d4fde51672465"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:ae5626b8a462",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:d48a42e0dd24d4a4"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:f042c87e6e25",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:ce64aa0792aa1de5"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:e03993a91dd5",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:8fef24c5f958e06e"
+    ]
+   },
+   {
+    "add": "Stormfist Crusader",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:ad35c239c30a",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:bd7be6b2aa42a1a4"
+    ]
+   },
+   {
+    "add": "Temple of the False God",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:23f4a51d478d",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:3479b8f33806b40c"
+    ]
+   },
+   {
+    "add": "Temporal Manipulation",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:4c730bb08aec",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:5b28a7d6bbb5334e"
+    ]
+   },
+   {
+    "add": "Temporal Manipulation",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:d096604c09fa",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:57cf5651623dbb20"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:ef288a12ddb8",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:290f8602c7ab010e"
+    ]
+   },
+   {
+    "add": "Time Warp",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:a94c44712fd6",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:d3cfdc03acae18e5"
+    ]
+   },
+   {
+    "add": "Time Warp",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:4433178b13db",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:33d577ee63e29874"
+    ]
+   },
+   {
+    "add": "Torgaar, Famine Incarnate",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:8c2692798997",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:8031732fb70b06b2"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:a38527bc92f0d97b"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:ba42cedcaa2f",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:11dd41ffe1e4ea3a"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:6432e5a5e524",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:5b4a402f9daddc8e"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:233e4c4842b1",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:9d8ff50b9d6b887b"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:d33a57451017",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:796397f17ce47be5"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Kessig Flamebreather",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:c19d306c0a89",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:9a5582b3851d6509"
+    ]
+   },
+   {
+    "add": "Walk the Aeons",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:c968f6d13e33",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:628f12df7f7a8132"
+    ]
+   },
+   {
+    "add": "Walk the Aeons",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=swap:abaddon-the-despoiler:m5:e41dede3c37e",
+     "m5_test:data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz#id=test:abaddon-the-despoiler:goldfish:16ba0007b81900d2"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

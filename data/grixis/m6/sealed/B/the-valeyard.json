@@ -1,0 +1,88 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:6883e6771b49ed699d3f0c93d88ff44bf3b9859d3b455c65936f65cedc569e5b",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "The_Valeyard",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-valeyard.json.gz"
+  ],
+  "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:the-valeyard:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f9ca4cb91063",
+     "m5_test:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=test:the-valeyard:goldfish:0f282b075cb70588"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:095bdbc52900",
+     "m5_test:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=test:the-valeyard:goldfish:14be59dd32731ee1"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:bf011ab33c85",
+     "m5_test:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=test:the-valeyard:goldfish:24b5fe8b9b1b6352"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f8f227ecdc26",
+     "m5_test:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=test:the-valeyard:goldfish:9a6d3426d01e5a31"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:2527cb9a0cc0",
+     "m5_test:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=test:the-valeyard:goldfish:c4ac37fa203f4260"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:ea84e14dcbdf",
+     "m5_test:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=test:the-valeyard:goldfish:c36c036b0dfd724a"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

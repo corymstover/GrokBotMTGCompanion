@@ -1,0 +1,64 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:896ea7b2d412cc7ee8a2a05d65b945cf85a861a7395f7d6a9aabdd49204098a4",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz"
+  ],
+  "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:tresserhorns-lord-returned:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e12d4241cf22",
+     "m5_test:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=test:tresserhorns-lord-returned:goldfish:2c3cfb17cc9abc31"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8a04c69ec596",
+     "m5_test:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=test:tresserhorns-lord-returned:goldfish:1efdfeb2bd275c36"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:6146373ad46c",
+     "m5_test:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=test:tresserhorns-lord-returned:goldfish:18e2e71b81643d26"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

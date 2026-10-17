@@ -1,0 +1,80 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:3e8b53f4a6db5b645cb486d9a441fed51bf8fd5d6d46248980e8f402b806ca9f",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz"
+  ],
+  "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:lynde-cheerful-tormentor:performance:v1",
+  "recommendations": [
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:433eb3cb35e2283c"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:199a1905953b340c"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:add8c7970357",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:889204d8f0d4676b"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:737409132ff9",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:27ef4d0e7cb6c3eb"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:936292f7c53983dd"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

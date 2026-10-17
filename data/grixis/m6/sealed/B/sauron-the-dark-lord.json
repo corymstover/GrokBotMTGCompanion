@@ -1,0 +1,104 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:c03b56401ccda24fbc82e312a090398a15af1c80fa21c709f4040290be7901bf",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Sauron__the_Dark_Lord",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz"
+  ],
+  "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:sauron-the-dark-lord:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:8323452e6b52",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:5216cf6fa5ecdf84"
+    ]
+   },
+   {
+    "add": "Inherited Envelope",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:59339efe992d",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:8590b7327656e433"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:ba1330f30952",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:77f5eebe8676aa7f"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:8608a444c167",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:7efe83592e1e3b4c"
+    ]
+   },
+   {
+    "add": "Phial of Galadriel",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:b9557d5b3926",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:b5d36b530339f0bd"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:4a01e9cf111f",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:1c5eb4790b80da84"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:99c9c90172f1",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:3b218440a466833d"
+    ]
+   },
+   {
+    "add": "Worn Powerstone",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:d7e891cce6ff",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=test:sauron-the-dark-lord:goldfish:40711fca44659267"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

@@ -1,0 +1,64 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:607789edad821c9c5d978224305b0aa162352e37ca05ece8768dd3d38e298cd1",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Davros__Dalek_Creator",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz"
+  ],
+  "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:davros-dalek-creator:performance:v1",
+  "recommendations": [
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Geier Reach Sanitarium",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:9ac844fe87d5",
+     "m5_test:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=test:davros-dalek-creator:goldfish:dad37c442aec7c88"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:20f9073cc50d",
+     "m5_test:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=test:davros-dalek-creator:goldfish:a7ad36c49683fa53"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Geier Reach Sanitarium",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:f5e3c4abdd12",
+     "m5_test:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=test:davros-dalek-creator:goldfish:2226a19a1b188b7a"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

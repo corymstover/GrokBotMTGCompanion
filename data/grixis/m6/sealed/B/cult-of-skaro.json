@@ -1,0 +1,104 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:33bde872583a975e39b5f5be23e751767676485915c44f05a984ac49bc9c64f1",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Cult_of_Skaro",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz"
+  ],
+  "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:cult-of-skaro:performance:v1",
+  "recommendations": [
+   {
+    "add": "Commander's Sphere",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:ebbcf2693a4a",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:ed529cbad985540e"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Urborg, Tomb of Yawgmoth",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1d2a8566cb6f",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:dd4143f020cef972"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:9b84ce8b3aec",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:604d0afe9fed1f5b"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:6bec6e4b2c62",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:a6cf2d20785bdac1"
+    ]
+   },
+   {
+    "add": "Ornithopter of Paradise",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:50ec5e20b6a6",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:abce025795764d02"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:684c1e93de68",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:c189a292bb321ba1"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Urborg, Tomb of Yawgmoth",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:6310caf6cb6f",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:13adb7093d4a856c"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:9473abfe63cc",
+     "m5_test:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=test:cult-of-skaro:goldfish:6f451db6021ae2d6"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

@@ -1,0 +1,144 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:eae4edac9202ae886d149c26899a556118df82bafdcda39ab6d45b78195e3275",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Mairsil__the_Pretender",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz"
+  ],
+  "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:mairsil-the-pretender:performance:v1",
+  "recommendations": [
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:b17e3cb3be57",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:7807134379fb0030"
+    ]
+   },
+   {
+    "add": "Cathartic Reunion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:3f7f26a528c1",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:1662ac9ba2b93b20"
+    ]
+   },
+   {
+    "add": "Conjurer's Closet",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:b3ab955282fa",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:861989f7f1faca0f"
+    ]
+   },
+   {
+    "add": "Coveted Jewel",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:9149c2cda9ae",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:3eec843c8ce5ba53"
+    ]
+   },
+   {
+    "add": "Fabricate",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:986ddba18b20",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:1ab62c442903ee19"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:1f12d0ed3a13",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:dc55d72ff593e6cf"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:94949a1a8682",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:8328767c4b3aeaf6"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:ed2b061e2628",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:792ec09cd3ad599c"
+    ]
+   },
+   {
+    "add": "Mirage Mirror",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:531c1bd0c5f4",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:fd4f56793e1921f5"
+    ]
+   },
+   {
+    "add": "Ovinomancer",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:34546041920d",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:f8660ec50c155777"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:3413b95052ff",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:67fbb4e1006d3ce1"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:fcc9dca9384d",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:ffd011c72d2eb784"
+    ]
+   },
+   {
+    "add": "Wound Reflection",
+    "cut": "Training Grounds",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:cf9d6f7e0cbd",
+     "m5_test:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=test:mairsil-the-pretender:goldfish:4218b7067bb1f77c"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

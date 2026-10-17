@@ -1,0 +1,128 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:870333349325effc84e4c698446b14144cae9bc55e0fb432389e9a6f4412397e",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "The_Rani",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-rani.json.gz"
+  ],
+  "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:the-rani:performance:v1",
+  "recommendations": [
+   {
+    "add": "Basalt Monolith",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:fd1cdb42c594",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:c370c2e13b4e2d03"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:d043721eed33",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:4008796f621273f6"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:a30a72c0ebcd",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:4ff9cd140585b16c"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Curse of Opulence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:225ed1a7c9c4",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:2a82fc833e4e52d6"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:eea2f32e0a0a",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:c5749ef0f9853e16"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:98e20eca7bcb",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:237f9e0f46402a02"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:c933ec364290",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:7e8e822b6e61941c"
+    ]
+   },
+   {
+    "add": "Tamiyo's Journal",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:b6ece43e1995",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:247e9ea915b8d418"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Curse of Opulence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:b1d0a8f8aef3",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:7d09a5bf5237ac4c"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:4494642d83ca",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:2679f0d650ad9925"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6ef4d433eb28",
+     "m5_test:data/grixis/birthday_m5/regen/the-rani.json.gz#id=test:the-rani:goldfish:fc2a7ede22ff77b7"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

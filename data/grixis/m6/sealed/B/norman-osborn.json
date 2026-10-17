@@ -1,0 +1,360 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:664237aa1358122e947eba9e3b382b30ae50c8ef3ca4a43dc82f69860ea10c5a",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Norman_Osborn_Green_Goblin",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/norman-osborn.json.gz"
+  ],
+  "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:norman-osborn:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:14a23f7ba8ad",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:6564fadfd5f3c20b"
+    ]
+   },
+   {
+    "add": "Archfiend of Ifnir",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:785e599fcff8",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:1f3c7d9f91738b6a"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Tainted Pact",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:11e5fec5fffb",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:59c60cc6bf389e7b"
+    ]
+   },
+   {
+    "add": "Baron Strucker, HYDRA Overlord",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:636d6ad2e948",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:55ca80344aecf073"
+    ]
+   },
+   {
+    "add": "Captain Howler, Sea Scourge",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:faff1ce602f1",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:89876eedc52a7a2f"
+    ]
+   },
+   {
+    "add": "Carnage, Crimson Chaos",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:ec002207c881",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:f61a4cf07080ae41"
+    ]
+   },
+   {
+    "add": "Cathartic Reunion",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:44a805f62b07",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:cc3a84edb648c9af"
+    ]
+   },
+   {
+    "add": "Chameleon, Master of Disguise",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:8230efd907e2",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:b083b5ab0ccf6393"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:c4a1b817eea8",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:e63cd9198dfe1b72"
+    ]
+   },
+   {
+    "add": "Doctor Octopus, Master Planner",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:77a3d4ce50b0",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:2c689f891243d3e6"
+    ]
+   },
+   {
+    "add": "Emet-Selch of the Third Seat",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:a7e2bb9b151e",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:01e3979f5734cb9e"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:bff11cd8543e",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:da25498c1464a5dd"
+    ]
+   },
+   {
+    "add": "Green Goblin, Revenant",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:1b72f961b1ab",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:0fea995e2d873353"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:f12ed085e218",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:02bc534a754188e1"
+    ]
+   },
+   {
+    "add": "Iron Monger, Sadistic Tycoon",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:5a1c96f44a0d",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:9b9661c1e7a7e1eb"
+    ]
+   },
+   {
+    "add": "Laughing Mad",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:fd677c965b6d",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:ec47c8a16ad93c8d"
+    ]
+   },
+   {
+    "add": "Leader, Super-Genius",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:e3de15a9d92e",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:56771dbbeead1aec"
+    ]
+   },
+   {
+    "add": "Likeness Looter",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:3c85754e4800",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:916b087fd203fcbe"
+    ]
+   },
+   {
+    "add": "Lórien Revealed",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:6b3c382b6d70",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:5fd0354a0f77f93f"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:653f0780e8d2",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:6b7f4b202182dc63"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:7b16425c8e43",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:30f63e5ed31db3b5"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:2348653286dd",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:061f5457cd42b2a3"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:0dfe622c50e7",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:3ee6db39992bfc7e"
+    ]
+   },
+   {
+    "add": "Pumpkin Bombs",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:5e089267f4dd",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:a578346eb7e1f882"
+    ]
+   },
+   {
+    "add": "Reforge the Soul",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:5de3d9a4a515",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:6049738cf0e68aa5"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Tainted Pact",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:fcdd0d03f2a8",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:5dc062c7576ce210"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:ac01372428eb",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:5667d45885e727d5"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:c0b35ae6fea8",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:80d9bf56ccd85979"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Tainted Pact",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:f00593214ed6",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:e14f90d9cc6463b4"
+    ]
+   },
+   {
+    "add": "Secrets of the Dead",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:40816b673876",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:679d501eb7df36c3"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:1d64312274e3",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:0259d2fa6a7a2c34"
+    ]
+   },
+   {
+    "add": "Shriek, Treblemaker",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:8b5023212fe4",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:6cc909755792b1d7"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:8aee87bf33a0",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:c334f248e05e7d33"
+    ]
+   },
+   {
+    "add": "Thrill of Possibility",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:b6afa8a8d569",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:db13369f91bf697e"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:729c590d318a",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:a713faa851fbd570"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:3d7714413979",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:3e03f55a918cbacb"
+    ]
+   },
+   {
+    "add": "Tombstone, Career Criminal",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:c13e7eb4eb2c",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:8686bcf5b7bc805c"
+    ]
+   },
+   {
+    "add": "Villainous Wrath",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:bc009f45ea87",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:f1642823d92b46ba"
+    ]
+   },
+   {
+    "add": "Wheel of Misfortune",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:635f51ab2b2b",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:529d24b42d2aacf7"
+    ]
+   },
+   {
+    "add": "Winternight Stories",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=swap:norman-osborn:m5:cb5219f5aabc",
+     "m5_test:data/grixis/birthday_m5/regen/norman-osborn.json.gz#id=test:norman-osborn:goldfish:b31829165ea47c6b"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

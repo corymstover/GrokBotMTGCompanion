@@ -1,0 +1,112 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:9273458be9149bc86a5fcdf5cc1f2aa6d3f6e3714c04bfb3e9e15731dca81a44",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Ashad__the_Lone_Cyberman",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz"
+  ],
+  "list_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:ashad-the-lone-cyberman:performance:v1",
+  "recommendations": [
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Great Furnace",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:04e036dc2719",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:67028cad1263286e"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:417076afb524",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:d3aec7d0895c1db9"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:5ece3f30d5da",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:7beb02b20381e65f"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:7ad0e870c75d",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:03ae691d38fa8109"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:c266607eeda7",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:faa0aa5de7bc452b"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:d6e5ffee66ef",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:ce6a4b7b5a25549a"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Great Furnace",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:91dc2b6e4fbc",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:45c3e94ac02590f1"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:61653ea6e230",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:c347bff5553bdf14"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=swap:ashad-the-lone-cyberman:m5:c10429e24fef",
+     "m5_test:data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz#id=test:ashad-the-lone-cyberman:goldfish:1aa607fbee5d7d46"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

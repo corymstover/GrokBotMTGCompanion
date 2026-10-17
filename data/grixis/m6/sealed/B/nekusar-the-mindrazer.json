@@ -1,0 +1,240 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:866a52ecd8777e8170ee6b23e83b7785a680eda026b2c47b2d6f1c9c6efef285",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nekusar__the_Mindrazer",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz"
+  ],
+  "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nekusar-the-mindrazer:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ashling's Command",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:145f96178240",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:81d8f8773c4b2d87"
+    ]
+   },
+   {
+    "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:8a813ee0397f",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:cd1ee6ea09a09a44"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:713da20642d9",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:64ee019a9b9220c6"
+    ]
+   },
+   {
+    "add": "Compulsive Research",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:7ad580a989988ed2"
+    ]
+   },
+   {
+    "add": "Day's Undoing",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:10138750a421",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:bd95f55dcc5b141e"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:00044bb5e5cb",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:2c5a8638ebccd192"
+    ]
+   },
+   {
+    "add": "Electro, Assaulting Battery",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:f0901d7a7c9f",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:8ac3106441361687"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7f944fad66b1",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:b6afb7eec26dbbb3"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0007af92b04d",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:e7185edf975b265a"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Niv-Mizzet, Parun",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7bd9e2b3948a",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:099a060723f8f49a"
+    ]
+   },
+   {
+    "add": "Midnight Clock",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:c727a55b9ec61757"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:3e2ed57894bc",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:e6b1c35e425c4dcf"
+    ]
+   },
+   {
+    "add": "Mind Spiral",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:aa75e99df824",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:777ad8eca7e7c193"
+    ]
+   },
+   {
+    "add": "Path of the Enigma",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:8c408285415d",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ab91eaadd6a6d1f9"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:ac7a55678194",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ebaac34b315f2cd8"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:a5e1d40e1805",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ad19e5f9137bafdc"
+    ]
+   },
+   {
+    "add": "Prismari Command",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:c0f3c4f5809e",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:d09f8f84a9fc7ac4"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:428c257d306d",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:b55090ba9a27d6ec"
+    ]
+   },
+   {
+    "add": "Runaway Steam-Kin",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:26d1c9dd99ad",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:3b7c7d98230f02dd"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:78d70565ed0a",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:b3d93544ed4327f5"
+    ]
+   },
+   {
+    "add": "Stunning Reversal",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0dd305d162ca",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:77e1e1e371a6b75b"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:963f0971ebef",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:fe4ff0e14bc689f5"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:4d6f76460de7",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:52aae92d89d7540a"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:c5c760b70379",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ac26c5ad2d20bd0b"
+    ]
+   },
+   {
+    "add": "Timetwister",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:9005d0a135d7",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ee8630771789a3bd"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

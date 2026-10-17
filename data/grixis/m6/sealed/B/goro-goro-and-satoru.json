@@ -1,0 +1,72 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:079ecb3d43c664d14daca63e4915bb7fb8ff1ded6cd1bd5dd6a4c6e2159187c7",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Goro_Goro_and_Satoru",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz"
+  ],
+  "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:goro-goro-and-satoru:performance:v1",
+  "recommendations": [
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Otawara, Soaring City",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:49c884af8c70",
+     "m5_test:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=test:goro-goro-and-satoru:goldfish:7979fe79f8dc13e5"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:cc3db942bf8c",
+     "m5_test:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=test:goro-goro-and-satoru:goldfish:3655ac650e845ea8"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c578828d4cc5",
+     "m5_test:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=test:goro-goro-and-satoru:goldfish:10a101e2c28f3157"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:229354e67b9f",
+     "m5_test:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=test:goro-goro-and-satoru:goldfish:025048eec8f4d1b1"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

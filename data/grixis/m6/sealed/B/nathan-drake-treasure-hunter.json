@@ -1,0 +1,112 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:56edbdc2a0b6d82cc96002bf7b920025cbdd4bde8e7219fa61fe763df60016a8",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nathan_Drake__Treasure_Hunter",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz"
+  ],
+  "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nathan-drake-treasure-hunter:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Nalfeshnee",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fe9757680744",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:e719245215114929"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:393b1008d363",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:8b72e5c5c2ce33f6"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a0187caf03e2",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:e917cc1c46bd0c9d"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6bce5af9c27b",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:1f0468ba48511f73"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:983ceab085919093"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:aad8de996e60",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:19a9063dd3be61ca"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7c07ef8e6f7c",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:0993386d0d336856"
+    ]
+   },
+   {
+    "add": "Ratcatcher",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fb592ac37246",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:51f8771d108f82f6"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ea4c4b6f415b",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:899387fc73d791f3"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

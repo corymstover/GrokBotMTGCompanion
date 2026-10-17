@@ -1,0 +1,568 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:817cc9223ceaaa86cdf1d175154d2b249777a08f72354a26d8807f8daa14b308",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz"
+  ],
+  "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:inalla-archmage-ritualist:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4c892a9b36d3",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:fc5b847d27b7a3a5"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c850a038a68e",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:0ebb5e97276f41d0"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:294fcc6f1f9c",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:fedd8cea160e89dd"
+    ]
+   },
+   {
+    "add": "Ashnod the Uncaring",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5d83cfccb6ca",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:2d85d05bd6b02d31"
+    ]
+   },
+   {
+    "add": "Basalt Ravager",
+    "cut": "Saw in Half",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2bd00963ed38",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:0e0263ca8058c066"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0c8a2fa58f31",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:a2cdf76bb8440a0c"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9e54b1e38ac7",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:eb3401712f4774f2"
+    ]
+   },
+   {
+    "add": "Circle of Power",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:475661c242f0",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:59151ed170c6e1a1"
+    ]
+   },
+   {
+    "add": "Circle of Power",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9f1fae8214a3",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:45369b4eb2db6fd3"
+    ]
+   },
+   {
+    "add": "Cloudkin Seer",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6cdea1945735",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:7bdb36ce76a1ebe1"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d6c8e50e2e91",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:5112914a65edbdc5"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:58e3361bab03",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:1489497e032c9b72"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:22df067c6817",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:7854ba3ad431a1da"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4613c4bb1938",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:72a7e030daac993b"
+    ]
+   },
+   {
+    "add": "Displace",
+    "cut": "Shallow Grave",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8ed16b1412b9",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:533c9ecc8c789d0c"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:52b0d832b761",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:9c78acf551c5389a"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d274b39899ff",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:ba30c911e1ed0663"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Saw in Half",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:61f0dacf53de",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:33d7e4384b82208f"
+    ]
+   },
+   {
+    "add": "Flame of Anor",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9adee6df4114",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:f6370d3cb34f66df"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Shallow Grave",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:40916ce5f7d4",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:f81ff2c2a7ec8e5d"
+    ]
+   },
+   {
+    "add": "Glen Elendra Archmage",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1b6965bd6b26",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:b9da21649f6a3ec9"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6c1c94bdc2f4",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:0dc55aa6d30a5a33"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:907832c45f93",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:f17cf785a90fedd9"
+    ]
+   },
+   {
+    "add": "Herald's Horn",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b9e520aa547e",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:0fd192780bcfa8a3"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1f8ae6bf69d6",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:0433b7b4c6ef163b"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Saw in Half",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:69aebac158f2",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:250f934f315d99b9"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:264fab977d60",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:4a9b21c6b6581901"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d14ce9050e2b",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:ccbccdad8238b4ec"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:57b0045c7738",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:87435c12965d13cb"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c503efb85cb5",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:f809e070899b1981"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9a8556c9a90d",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:8780f977ad33b99e"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:417f3f634c1c",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:ddaf3fe58d6263b0"
+    ]
+   },
+   {
+    "add": "Molten Echoes",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:781701b5f7ac",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:515782d76aba79ad"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:de530fb69fc4",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:9b8892e46d89fee8"
+    ]
+   },
+   {
+    "add": "Panharmonicon",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d2028985c019",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:30608241292117f1"
+    ]
+   },
+   {
+    "add": "Panharmonicon",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:94d772650a0b",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:665422f9d69ab6f0"
+    ]
+   },
+   {
+    "add": "Phyrexian Altar",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f9fc95d07999",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:ba6348294849a0fc"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:217e55a1ecd0",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:173f2803b24c2703"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5267f77722ca",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:36b37534ddf56f78"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:854d49534882",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:810de0396e73e66b"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:46151826503d",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:f085e7cbc6ea63bb"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ad7f175c020c",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:40f30ed7bc755580"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7c53af905da3",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:8f58757304505766"
+    ]
+   },
+   {
+    "add": "Reflections of Littjara",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9da970ad6f69",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:9c398d1c5ee581c9"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:92f69cc16ca8",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:65197096eeb7a7c1"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1c3086bcb1b6",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:e44baea27a1855d5"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:12f11206e882",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:029ff954f5d3a0bd"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:12055f3a8474",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:9edc525ea9affdb1"
+    ]
+   },
+   {
+    "add": "Serum Visionary",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:970064dd8421",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:8fed1ada9418e249"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b0cedc4c0dac",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:dddf9b258c7b3af4"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:99c3a5a00dff",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:38ae751d27eb1fca"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c623700dd06c",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:7c9226a14fa42185"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f2f4560466d8",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:27d887d21e45ec46"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d90ece26297f",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:4cebf931cd012c6c"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4d91c5519014",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:ea51f0f5554871a8"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7081487bea08",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:5a8b3e2cf4419c6d"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:96576b27f49c",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:54da458a815b3703"
+    ]
+   },
+   {
+    "add": "Tribute Mage",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c518952f1985",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:a419598379159fd8"
+    ]
+   },
+   {
+    "add": "Trinket Mage",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6e339b02b1a3",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:809eeec43a24fc39"
+    ]
+   },
+   {
+    "add": "Trophy Mage",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:64aa863aa89a",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:43380c936989a118"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:271bc783aae5",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:6c13ea03171aee37"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Saw in Half",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4ec637507390",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:52ad7462a07fd2f2"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dfc0996dbc6f",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:42f6c9c6cb43b2c0"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:50d9e4c06167",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:aa16df0416c7df00"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a31e584e5306",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:41047e8fcf6b2d3a"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1b0145396508",
+     "m5_test:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=test:inalla-archmage-ritualist:goldfish:0cab17faa8e226ad"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

@@ -1,0 +1,144 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:c04cd0a91ed990f7038adfd1c3e5961444be58ff7e926453272f62000cde7f4f",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Grixistax___October_2026",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz"
+  ],
+  "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:grixistax-october-2026:performance:v1",
+  "recommendations": [
+   {
+    "add": "Arcane Signet",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3275294198a3",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:18728b1a99c4ae4f"
+    ]
+   },
+   {
+    "add": "Arcane Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:80120dee7b2b",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:9ba00ea8152bd0ba"
+    ]
+   },
+   {
+    "add": "City of Traitors",
+    "cut": "Arid Mesa",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:646bdfe8bea2",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:c610101f53cd2565"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:ecf08f18a85e",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:67dceb9a97090fe9"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a1022056d40f",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:54a870d43c299aec"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:08d169da6e9a",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:cc3fc5335ab6b063"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4cb7837789c1",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:e4c1caf57a3b934b"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:cdcf06342bec",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:a124effaf4a6f26f"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a5da61df82e3",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:d78d19383a92baf7"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c8bde234544b",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:ea40e02b782c6dce"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:0a6871701d46",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:636689fbab5e5e41"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f238e858fbb6",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:32c5afcc3c1cd5f4"
+    ]
+   },
+   {
+    "add": "Thieving Varmint",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f81f06eac81f",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:b6dbf85327643277"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

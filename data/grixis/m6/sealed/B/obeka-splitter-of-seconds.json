@@ -1,0 +1,56 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:4e2d52b1127cf9dbf8f616580a93c780bc51bce0d99375f6a97c0dc00d5a025d",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz"
+  ],
+  "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:obeka-splitter-of-seconds:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=test:obeka-splitter-of-seconds:goldfish:5e90c9b2da6a764b"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=test:obeka-splitter-of-seconds:goldfish:5b30e7848461ecd0"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

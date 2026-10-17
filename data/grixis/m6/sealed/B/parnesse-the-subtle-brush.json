@@ -1,0 +1,72 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:1ecd96d8eac928c7220684781d5716b83662ad2b3910d83b57b1081285dc898c",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Parnesse__the_Subtle_Brush",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz"
+  ],
+  "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:parnesse-the-subtle-brush:performance:v1",
+  "recommendations": [
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Arid Mesa",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:c003c00d2d9d",
+     "m5_test:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=test:parnesse-the-subtle-brush:goldfish:9214a6d806635fcf"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:c84c4aa33fe2",
+     "m5_test:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=test:parnesse-the-subtle-brush:goldfish:9ec477720248c8ee"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:eadaab4561c4",
+     "m5_test:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=test:parnesse-the-subtle-brush:goldfish:62909a726546f671"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:4ca6fa285bfb",
+     "m5_test:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=test:parnesse-the-subtle-brush:goldfish:198cf5435a3c24f8"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}
