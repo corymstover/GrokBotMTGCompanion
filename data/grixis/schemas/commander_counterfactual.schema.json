@@ -1,0 +1,23 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/commander_counterfactual.schema.json",
+ "title":"Step D paired commander counterfactual test evidence",
+ "type":"object",
+ "required":["schema_version","deck_id","slug","canonical_hash","status","evidence_class","confidence","authority","model","structural_context","metrics","normal_minus_counterfactual","unmodeled_required_dimensions","limitations"],
+ "properties":{
+  "schema_version":{"const":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^lh1:"},
+  "status":{"const":"provisional_test_evidence"},"evidence_class":{"const":"test_result"},"confidence":{"enum":["low","moderate"]},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "model":{"type":"object","required":["simulator","samples","seed","turns","paired_library_permutations","modes"]},
+  "structural_context":{"type":"object","required":["path","accepted_blueprint_role","summary"]},
+  "metrics":{"type":"object","required":["normal","unavailable","taxed","disrupted"],"properties":{"normal":{"$ref":"#/$defs/metrics"},"unavailable":{"$ref":"#/$defs/metrics"},"taxed":{"$ref":"#/$defs/metrics"},"disrupted":{"$ref":"#/$defs/metrics"}},"additionalProperties":false},
+  "normal_minus_counterfactual":{"type":"object","required":["unavailable","taxed","disrupted"]},
+  "unmodeled_required_dimensions":{"type":"array","minItems":3,"items":{"type":"string"}},
+  "limitations":{"type":"array","minItems":5,"items":{"type":"string"}}
+ },
+ "$defs":{
+  "numNull":{"type":["number","null"]},
+  "metrics":{"type":"object","required":["samples","commander_cast_by_turn6","commander_turn_mean_when_cast","mana_spent_t1_6_mean","mana_available_t1_6_mean","extra_cards_drawn_mean","tutors_resolved_mean","fast_mana_uses_mean","first_key_set_access_by_turn4","combo_assembled_by_turn6","win_proxy_by_turn6","note"],"properties":{"samples":{"type":"integer","minimum":1},"commander_cast_by_turn6":{"type":"number","minimum":0,"maximum":1},"commander_turn_mean_when_cast":{"$ref":"#/$defs/numNull"},"mana_spent_t1_6_mean":{"$ref":"#/$defs/numNull"},"mana_available_t1_6_mean":{"$ref":"#/$defs/numNull"},"extra_cards_drawn_mean":{"$ref":"#/$defs/numNull"},"tutors_resolved_mean":{"$ref":"#/$defs/numNull"},"fast_mana_uses_mean":{"$ref":"#/$defs/numNull"},"first_key_set_access_by_turn4":{"type":"object","additionalProperties":{"type":"number","minimum":0,"maximum":1}},"combo_assembled_by_turn6":{"$ref":"#/$defs/numNull"},"win_proxy_by_turn6":{"$ref":"#/$defs/numNull"},"note":{"type":"string"},"disruption_recovery":{"type":"object"}},"additionalProperties":false}
+ },
+ "additionalProperties":false
+}
