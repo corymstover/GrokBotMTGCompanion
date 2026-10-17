@@ -44,7 +44,7 @@ UTILITY_PATTERNS={
     "graveyard":r"\bgraveyard\b|\bmill\b",
     "sacrifice":r"\bsacrifice\b",
     "token":r"\bcreate\b[^.]*\btoken",
-    "removal_or_damage":r"\bdestroy target\b|\bexile target\b|\bdeals? \d+ damage\b|\bdamage to\b",
+    "removal_or_damage":r"\bdestroy target\b|\bexile target\b|\bdeals? (?:\d+|X|that much) damage to (?:any target|target|each opponent|an opponent|target opponent)\b|\bdamage to (?:any target|target|each opponent|an opponent|target opponent)\b",
     "tutor_or_search":r"\bsearch your library\b",
     "recursion":r"\breturn target\b[^.]*\bfrom your graveyard\b|\breturn\b[^.]*\bfrom your graveyard\b",
     "creature_mode":r"\bbecomes? a\b[^.]*\bcreature\b|\bcreate\b[^.]*\bcreature token",

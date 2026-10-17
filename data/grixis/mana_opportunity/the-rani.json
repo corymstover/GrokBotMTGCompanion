@@ -40,44 +40,18 @@
  "slug": "the-rani",
  "status": "provisional_evidence",
  "summary": {
-  "blueprint_named_utility_lands": 1,
+  "blueprint_named_utility_lands": 0,
   "commander_land_hook_count": 0,
   "mdfc_count": 0,
   "utility_burden_flags": {
    "single_color_source": 1
   },
-  "utility_land_count": 2,
+  "utility_land_count": 1,
   "utility_support_flags": {
-   "named_in_blueprint": 1,
-   "nonmana_utility_text": 2
+   "nonmana_utility_text": 1
   }
  },
  "utility_lands": [
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": true,
-   "burden_flags": [],
-   "card": "City of Brass",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "named_in_blueprint",
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "removal_or_damage"
-   ]
-  },
   {
    "authority": {
     "can_decide": false,

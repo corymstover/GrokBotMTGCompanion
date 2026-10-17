@@ -54,12 +54,12 @@
    "no_usable_grixis_color": 1,
    "single_color_source": 3
   },
-  "utility_land_count": 6,
+  "utility_land_count": 5,
   "utility_support_flags": {
    "graph_identity_core": 1,
    "graph_package_member": 3,
    "named_in_blueprint": 4,
-   "nonmana_utility_text": 4
+   "nonmana_utility_text": 3
   }
  },
  "utility_lands": [
@@ -90,30 +90,6 @@
    ],
    "unconditional_colors": "B",
    "utility_categories": []
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "City of Brass",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "removal_or_damage"
-   ]
   },
   {
    "authority": {
