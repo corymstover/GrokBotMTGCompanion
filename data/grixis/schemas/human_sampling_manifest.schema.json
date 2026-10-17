@@ -1,0 +1,22 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/human_sampling_manifest.schema.json",
+ "title":"Deterministic pre-M6 human sampling manifest",
+ "type":"object",
+ "required":["schema_version","status","generated_by","policy_path","policy_sha256","freeze_path","seed","authority","strata","deduped_static_workload","dynamic_hooks","limitations"],
+ "properties":{
+  "schema_version":{"const":1},
+  "status":{"const":"static_strata_frozen_dynamic_strata_awaiting_inputs"},
+  "generated_by":{"type":"string"},
+  "policy_path":{"const":"data/grixis/human_sampling_policy.json"},
+  "policy_sha256":{"type":"string","pattern":"^sha256:[0-9a-f]{64}$"},
+  "freeze_path":{"const":"data/grixis/human_sampling_freeze.json"},
+  "seed":{"type":"string"},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "strata":{"type":"array","minItems":9,"maxItems":9,"items":{"type":"object","required":["id","timing","status","quota","eligible_count","selected_count","selected"],"properties":{"id":{"type":"string"},"timing":{"type":"string"},"status":{"enum":["selected","awaiting_future_inputs"]},"quota":{"oneOf":[{"type":"integer","minimum":1},{"const":"all"}]},"eligible_count":{"type":["integer","null"],"minimum":0},"selected_count":{"type":"integer","minimum":0},"selected":{"type":"array","items":{"type":"object","required":["rank","slug","selection_inputs"],"properties":{"rank":{"type":"integer","minimum":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"selection_inputs":{"type":"object"}},"additionalProperties":false}},"additionalProperties":false}},
+  "deduped_static_workload":{"type":"array","items":{"type":"object","required":["slug","memberships"],"properties":{"slug":{"type":"string"},"memberships":{"type":"array","minItems":1,"items":{"type":"string"}}},"additionalProperties":false}},
+  "dynamic_hooks":{"type":"object","required":["high_optimizer_disagreement","major_change"]},
+  "limitations":{"type":"array","minItems":4,"items":{"type":"string"}}
+ },
+ "additionalProperties":false
+}
