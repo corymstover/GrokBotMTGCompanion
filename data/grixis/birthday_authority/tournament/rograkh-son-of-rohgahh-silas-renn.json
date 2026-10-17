@@ -26,7 +26,7 @@
   }
  },
  "commander_query": "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept",
- "generated_by": "scripts/grixis_birthday_tournament.py v1",
+ "generated_by": "scripts/grixis_birthday_tournament.py v2",
  "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
  "retrieved": "2026-10-17",
  "sample_size": 3906,

@@ -1,0 +1,566 @@
+{
+ "authority_note": "This snapshot supplies facts/derived evidence. It cannot approve a deck or decide an M5 swap; only Cory can accept M5 and approve/lock decks.",
+ "canonical_deck_legality": {
+  "blockers": [],
+  "counts": {
+   "blocked": 0,
+   "decks": 62,
+   "with_authorized_nonlegal": 3
+  },
+  "decks": {
+   "abaddon-the-despoiler": {
+    "authorized_nonlegal": [],
+    "deck_id": "Abaddon_the_Despoiler",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "admiral-beckett-brass": {
+    "authorized_nonlegal": [],
+    "deck_id": "Admiral_Beckett_Brass",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "admiral-brass-unsinkable": {
+    "authorized_nonlegal": [],
+    "deck_id": "Admiral_Brass__Unsinkable",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "anhelo-the-painter": {
+    "authorized_nonlegal": [],
+    "deck_id": "Anhelo__the_Painter",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "ashad-the-lone-cyberman": {
+    "authorized_nonlegal": [],
+    "deck_id": "Ashad__the_Lone_Cyberman",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "ashnod-the-uncaring": {
+    "authorized_nonlegal": [],
+    "deck_id": "Ashnod_the_Uncaring",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "belakor-the-dark-master": {
+    "authorized_nonlegal": [],
+    "deck_id": "Be_lakor__the_Dark_Master",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "bjorna-nightfall-alchemist-cecily": {
+    "authorized_nonlegal": [
+     {
+      "authorization": "AUTHORIZED_EXCEPTION",
+      "card": "Trade Secrets",
+      "legal_from": null,
+      "official": "banned"
+     },
+     {
+      "authorization": "AUTHORIZED_EXCEPTION",
+      "card": "Yawgmoth's Bargain",
+      "legal_from": null,
+      "official": "banned"
+     },
+     {
+      "authorization": "AUTHORIZED_EXCEPTION",
+      "card": "Lutri, the Spellchaser",
+      "official": "banned_as_companion"
+     }
+    ],
+    "deck_id": "Cecily__Bjorna__Lutri",
+    "status": "pass_with_authorized_exception",
+    "unexpected_issues": []
+   },
+   "cormela-glamour-thief": {
+    "authorized_nonlegal": [],
+    "deck_id": "Cormela__Glamour_Thief",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "crosis-the-purger": {
+    "authorized_nonlegal": [],
+    "deck_id": "Crosis__the_Purger",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "cult-of-skaro": {
+    "authorized_nonlegal": [],
+    "deck_id": "Cult_of_Skaro",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "davros-dalek-creator": {
+    "authorized_nonlegal": [],
+    "deck_id": "Davros__Dalek_Creator",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "doctor-doom-king-of-latveria": {
+    "authorized_nonlegal": [],
+    "deck_id": "Doctor_Doom__King_of_Latveria",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "don-andres-the-renegade": {
+    "authorized_nonlegal": [],
+    "deck_id": "Don_Andres__the_Renegade",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "dr-eggman": {
+    "authorized_nonlegal": [],
+    "deck_id": "Dr__Eggman",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "edea-possessed-sorceress": {
+    "authorized_nonlegal": [],
+    "deck_id": "Edea__Possessed_Sorceress",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "edward-kenway": {
+    "authorized_nonlegal": [],
+    "deck_id": "Edward_Kenway",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "evelyn-the-covetous": {
+    "authorized_nonlegal": [],
+    "deck_id": "Evelyn__the_Covetous",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "fire-lord-azula": {
+    "authorized_nonlegal": [],
+    "deck_id": "Fire_Lord_Azula",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "garza-zol-plague-queen": {
+    "authorized_nonlegal": [],
+    "deck_id": "Garza_Zol__Plague_Queen",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "goro-goro-and-satoru": {
+    "authorized_nonlegal": [],
+    "deck_id": "Goro_Goro_and_Satoru",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "grixistax-october-2026": {
+    "authorized_nonlegal": [],
+    "deck_id": "Grixistax___October_2026",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "gwendlyn-di-corci": {
+    "authorized_nonlegal": [],
+    "deck_id": "Gwendlyn_Di_Corci",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "inalla-archmage-ritualist": {
+    "authorized_nonlegal": [],
+    "deck_id": "Inalla__Archmage_Ritualist",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "jeleva-nephalias-scourge": {
+    "authorized_nonlegal": [],
+    "deck_id": "Jeleva__Nephalia_s_Scourge",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "kefka-court-mage": {
+    "authorized_nonlegal": [],
+    "deck_id": "Kefka__Court_Mage",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "kess-dissident-mage": {
+    "authorized_nonlegal": [],
+    "deck_id": "Kess__Dissident_Mage",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "loki-the-deceiver": {
+    "authorized_nonlegal": [],
+    "deck_id": "Loki__the_Deceiver",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "lord-of-tresserhorn": {
+    "authorized_nonlegal": [],
+    "deck_id": "Lord_of_Tresserhorn",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "lord-xander-the-collector": {
+    "authorized_nonlegal": [],
+    "deck_id": "Lord_Xander__the_Collector",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "lynde-cheerful-tormentor": {
+    "authorized_nonlegal": [],
+    "deck_id": "Lynde__Cheerful_Tormentor",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "mai-and-zuko": {
+    "authorized_nonlegal": [],
+    "deck_id": "Mai_and_Zuko",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "mairsil-the-pretender": {
+    "authorized_nonlegal": [],
+    "deck_id": "Mairsil__the_Pretender",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "marchesa-dealer-of-death": {
+    "authorized_nonlegal": [],
+    "deck_id": "Marchesa__Dealer_of_Death",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "marchesa-the-black-rose": {
+    "authorized_nonlegal": [],
+    "deck_id": "Marchesa__the_Black_Rose",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "mishra-artificer-prodigy": {
+    "authorized_nonlegal": [],
+    "deck_id": "Mishra__Artificer_Prodigy",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "mishra-eminent-one": {
+    "authorized_nonlegal": [],
+    "deck_id": "Mishra__Eminent_One",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "missy": {
+    "authorized_nonlegal": [],
+    "deck_id": "Missy",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "nathan-drake-treasure-hunter": {
+    "authorized_nonlegal": [],
+    "deck_id": "Nathan_Drake__Treasure_Hunter",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "nekusar-the-mindrazer": {
+    "authorized_nonlegal": [],
+    "deck_id": "Nekusar__the_Mindrazer",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "nicol-bolas": {
+    "authorized_nonlegal": [],
+    "deck_id": "Nicol_Bolas",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "nicol-bolas-the-ravager": {
+    "authorized_nonlegal": [],
+    "deck_id": "Nicol_Bolas__the_Ravager",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "norman-osborn": {
+    "authorized_nonlegal": [],
+    "deck_id": "Norman_Osborn_Green_Goblin",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "obeka-brute-chronologist": {
+    "authorized_nonlegal": [],
+    "deck_id": "Obeka__Brute_Chronologist",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "obeka-splitter-of-seconds": {
+    "authorized_nonlegal": [],
+    "deck_id": "Obeka__Splitter_of_Seconds",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "parnesse-the-subtle-brush": {
+    "authorized_nonlegal": [],
+    "deck_id": "Parnesse__the_Subtle_Brush",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "rograkh-son-of-rohgahh-silas-renn": {
+    "authorized_nonlegal": [],
+    "deck_id": "RogSi",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "saruman-the-white-hand": {
+    "authorized_nonlegal": [],
+    "deck_id": "Saruman__the_White_Hand",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "sauron-lord-of-the-rings": {
+    "authorized_nonlegal": [],
+    "deck_id": "Sauron__Lord_of_the_Rings",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "sauron-the-dark-lord": {
+    "authorized_nonlegal": [],
+    "deck_id": "Sauron__the_Dark_Lord",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "sedris-the-traitor-king": {
+    "authorized_nonlegal": [],
+    "deck_id": "Sedris__the_Traitor_King",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "solkanar-the-swamp-king": {
+    "authorized_nonlegal": [],
+    "deck_id": "Sol_kanar_the_Swamp_King",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "solkanar-the-tainted": {
+    "authorized_nonlegal": [],
+    "deck_id": "Sol_kanar_the_Tainted",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "tetsuo-imperial-champion": {
+    "authorized_nonlegal": [],
+    "deck_id": "Tetsuo__Imperial_Champion",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "tetsuo-umezawa": {
+    "authorized_nonlegal": [],
+    "deck_id": "Tetsuo_Umezawa",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "the-madcap-jester": {
+    "authorized_nonlegal": [
+     {
+      "authorization": "AUTHORIZED_FUTURE_RELEASE",
+      "card": "The Madcap Jester",
+      "legal_from": "2026-11-13",
+      "official": "not_legal"
+     },
+     {
+      "authorization": "AUTHORIZED_FUTURE_RELEASE",
+      "card": "Dragon's Smile",
+      "legal_from": "2026-11-13",
+      "official": "not_legal"
+     }
+    ],
+    "deck_id": "The_Madcap_Jester",
+    "status": "pass_with_authorized_exception",
+    "unexpected_issues": []
+   },
+   "the-rani": {
+    "authorized_nonlegal": [],
+    "deck_id": "The_Rani",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "the-valeyard": {
+    "authorized_nonlegal": [],
+    "deck_id": "The_Valeyard",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "thraximundar": {
+    "authorized_nonlegal": [],
+    "deck_id": "Thraximundar",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "tresserhorns-lord-returned": {
+    "authorized_nonlegal": [
+     {
+      "authorization": "AUTHORIZED_FUTURE_RELEASE",
+      "card": "Tresserhorn's Lord, Returned",
+      "legal_from": "2026-11-13",
+      "official": "not_legal"
+     }
+    ],
+    "deck_id": "Tresserhorn_s_Lord__Returned",
+    "status": "pass_with_authorized_exception",
+    "unexpected_issues": []
+   },
+   "wick-the-whorled-mind": {
+    "authorized_nonlegal": [],
+    "deck_id": "Wick__the_Whorled_Mind",
+    "status": "pass",
+    "unexpected_issues": []
+   },
+   "zevlor-elturel-exile": {
+    "authorized_nonlegal": [],
+    "deck_id": "Zevlor__Elturel_Exile",
+    "status": "pass",
+    "unexpected_issues": []
+   }
+  },
+  "source": "Scryfall current legalities.commander + data/grixis/exceptions.json companion/future overlays"
+ },
+ "frozen_baseline": {
+  "lock": "data/grixis/dev_snapshot_lock.json",
+  "note": "Fresh data is isolated; A-F continue to reproduce against snap-20261016.",
+  "preserved": true,
+  "rules_sha256": "sha256:8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca",
+  "sha256": {
+   "default-cards": "sha256:f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8",
+   "oracle-cards": "sha256:ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+   "rulings": "sha256:3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"
+  },
+  "snapshot_id": "snap-20261016"
+ },
+ "generated_by": "scripts/grixis_birthday_snapshot.py v1",
+ "hard_blockers": [],
+ "kind": "birthday_authority_snapshot",
+ "pending_release_status": {
+  "The_Madcap_Jester": {
+   "cards": {
+    "Dragon's Smile": {
+     "commander_legality": "not_legal",
+     "present": true,
+     "released_at": "2026-10-19"
+    },
+    "The Madcap Jester": {
+     "commander_legality": "not_legal",
+     "present": true,
+     "released_at": "2026-10-19"
+    }
+   },
+   "legal_from": "2026-11-13"
+  },
+  "Tresserhorn_s_Lord__Returned": {
+   "cards": {
+    "Tresserhorn's Lord, Returned": {
+     "commander_legality": "not_legal",
+     "present": true,
+     "released_at": "2026-10-19"
+    }
+   },
+   "legal_from": "2026-11-13"
+  }
+ },
+ "retrieved_utc": "2026-10-17T09:45:57+00:00",
+ "schema_version": 1,
+ "snapshot_id": "birthday-20261017-6e5c604e1459",
+ "sources": {
+  "commander_spellbook": {
+   "artifact": "data/grixis/birthday_authority/spellbook_almost.json",
+   "decks": 62,
+   "near_miss_variants": 6684,
+   "retrieved": "2026-10-17",
+   "sha256": "sha256:c37aa870a59ab40242bdc50c2d1c360627b59ea1fdc337923c1bed0d7bbea7e1",
+   "source": "https://backend.commanderspellbook.com/find-my-combos",
+   "status": "collected"
+  },
+  "comprehensive_rules": {
+   "bytes": 977752,
+   "changed_vs_frozen": false,
+   "effective_date": "September 25, 2026",
+   "file": "MagicCompRules%2020260925.txt",
+   "frozen_sha256": "sha256:8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca",
+   "page_sha256": "sha256:439dff6ba20396933767a4490f42b17824cc9b2ee6fab0db2f5128fa7675728b",
+   "page_url": "https://magic.wizards.com/en/rules",
+   "sha256": "sha256:8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca",
+   "status": "collected",
+   "url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt"
+  },
+  "edhrec": {
+   "artifact": "data/grixis/birthday_authority/edhrec_current.json.gz",
+   "artifact_sha256": "sha256:d0d4cd57b260ee16da7cd21038694d59d60ebe56b853f699e2a07fd22c5a34f4",
+   "counts": {
+    "collected": 62,
+    "expected_unavailable": 0,
+    "unavailable": 0
+   },
+   "source": "https://json.edhrec.com/pages/commanders/<commander-slug>.json",
+   "status": "collected"
+  },
+  "edhtop16": {
+   "card_rows_status": "deferred_to_birthday_m5_delta",
+   "class": "derived_metric",
+   "counts": {
+    "collected_files": 13,
+    "expected_cedh": 13
+   },
+   "note": "Current commander/meta stats collected at authority boundary; per-card EDHTop16 rows are refreshed only for affected M5 review work.",
+   "problems": [],
+   "source": "https://edhtop16.com/api/graphql",
+   "status": "collected"
+  },
+  "official_commander_legality": {
+   "bytes": 222570,
+   "commander_section_detected": true,
+   "file": "wizards-banned-restricted.html",
+   "normalized_text_sha256": "sha256:b20393340a7b8174f95f2014a5ffbde68bdb3129d7de9f42fa14be5ceab79307",
+   "sha256": "sha256:0623b7ffc55599dfc943a2f6c2b6c82f7a1b0c589be3fd4652d7fdbde88742ed",
+   "status": "collected",
+   "url": "https://magic.wizards.com/en/banned-restricted-list"
+  },
+  "scryfall": {
+   "default-cards": {
+    "bytes": 79734550,
+    "content_type": null,
+    "file": "default-cards-20261017090548.jsonl.gz",
+    "kind": "default-cards",
+    "metadata_sha256": "sha256:02c7ab47f8d699515ff4983dabcbd0660e25f4fc3142a8aff1f506cd56c1f8db",
+    "metadata_url": "https://api.scryfall.com/bulk-data/default-cards",
+    "scryfall_id": "e2ef41e3-5778-4bc2-af3f-78eca4dd9c23",
+    "sha256": "sha256:daa76ebce64a8a962165fd805a53e4793d7f6c4520e28e70b726ebc136e6b50d",
+    "status": "collected",
+    "updated_at": "2026-10-17T09:05:48.905+00:00",
+    "url": "https://data.scryfall.io/default-cards/default-cards-20261017090548.jsonl.gz"
+   },
+   "oracle-cards": {
+    "bytes": 24950067,
+    "content_type": null,
+    "file": "oracle-cards-20261017090158.jsonl.gz",
+    "kind": "oracle-cards",
+    "metadata_sha256": "sha256:f1857dcad0c8dc02598999d39339949f254802b578e8d92822ae6df478683349",
+    "metadata_url": "https://api.scryfall.com/bulk-data/oracle-cards",
+    "scryfall_id": "27bf3214-1271-490b-bdfe-c0be6c23d02e",
+    "sha256": "sha256:f278ae30bc51657e8e7fcb897984fafe0df0c93ed511160fe60429bbb0e29a71",
+    "status": "collected",
+    "updated_at": "2026-10-17T09:01:58.799+00:00",
+    "url": "https://data.scryfall.io/oracle-cards/oracle-cards-20261017090158.jsonl.gz"
+   },
+   "rulings": {
+    "bytes": 5422271,
+    "content_type": null,
+    "file": "rulings-20261017090034.jsonl.gz",
+    "kind": "rulings",
+    "metadata_sha256": "sha256:fb9392eeb5eb85668b8a41e13679f9c663e0a9d0a84fcc2c90773dcb9db1e31b",
+    "metadata_url": "https://api.scryfall.com/bulk-data/rulings",
+    "scryfall_id": "06f54c0b-ab9c-452d-b35a-8297db5eb940",
+    "sha256": "sha256:34a1f2ddf2899af80fdc4d2e65cd769269bbdac0854c074cc177fb9556ecb7d8",
+    "status": "collected",
+    "updated_at": "2026-10-17T09:00:34.555+00:00",
+    "url": "https://data.scryfall.io/rulings/rulings-20261017090034.jsonl.gz"
+   }
+  }
+ },
+ "status": "ready"
+}
