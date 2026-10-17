@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/grixis/schemas/mana_base.schema.json",
+  "title": "Grixis Step C mana-base static baseline v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "deck_id", "slug", "canonical_hash", "status", "evidence_class", "confidence", "authority", "inputs", "deck_color_identity", "counts", "colored_sources", "pip_demand", "turn_access_proxies", "commander_casting", "land_type_coverage", "utility_opportunity_cost", "fast_mana_cards", "ritual_cards", "one_shot_mana_cards", "mdfc_cards", "unresolved_cards", "limitations"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "deck_id": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "minLength": 1},
+    "canonical_hash": {"type": "string", "pattern": "^lh1:"},
+    "status": {"const": "provisional_evidence"},
+    "evidence_class": {"const": "derived_metric"},
+    "confidence": {"enum": ["moderate", "low"]},
+    "authority": {"type": "object", "additionalProperties": false, "required": ["can_decide", "note"], "properties": {"can_decide": {"const": false}, "note": {"type": "string", "minLength": 1}}},
+    "inputs": {"type": "object", "additionalProperties": false, "required": ["canonical_export", "card_index", "card_shards"], "properties": {"canonical_export": {"type": "string"}, "card_index": {"const": "data/card_index.csv"}, "card_shards": {"type": "string"}}},
+    "deck_color_identity": {"const": "UBR"},
+    "counts": {"type": "object", "additionalProperties": false, "required": ["library_cards", "lands", "flex_land_mdfcs", "repeatable_nonland_sources", "fast_mana", "rituals", "one_shot_mana", "fetchlands", "utility_lands", "unconditional_tapped_lands", "conditional_tapped_lands", "conditional_mana_lands"], "properties": {
+      "library_cards": {"type": "integer", "minimum": 97, "maximum": 99},
+      "lands": {"type": "integer", "minimum": 0, "maximum": 99},
+      "flex_land_mdfcs": {"type": "integer", "minimum": 0},
+      "repeatable_nonland_sources": {"type": "integer", "minimum": 0},
+      "fast_mana": {"type": "integer", "minimum": 0},
+      "rituals": {"type": "integer", "minimum": 0},
+      "one_shot_mana": {"type": "integer", "minimum": 0},
+      "fetchlands": {"type": "integer", "minimum": 0},
+      "utility_lands": {"type": "integer", "minimum": 0},
+      "unconditional_tapped_lands": {"type": "integer", "minimum": 0},
+      "conditional_tapped_lands": {"type": "integer", "minimum": 0},
+      "conditional_mana_lands": {"type": "integer", "minimum": 0}
+    }},
+    "colored_sources": {"type": "object", "additionalProperties": false, "required": ["land_sources", "land_plus_repeatable_nonland", "untapped_or_conditionally_untapped_land_sources", "unconditional_land_sources", "conditional_land_sources"], "properties": {
+      "land_sources": {"$ref": "#/$defs/ubr_count"},
+      "land_plus_repeatable_nonland": {"$ref": "#/$defs/ubr_count"},
+      "untapped_or_conditionally_untapped_land_sources": {"$ref": "#/$defs/ubr_count"},
+      "unconditional_land_sources": {"$ref": "#/$defs/ubr_count"},
+      "conditional_land_sources": {"$ref": "#/$defs/ubr_count"}
+    }},
+    "pip_demand": {"type": "object", "additionalProperties": false, "required": ["colored_spell_count", "raw_colored_pip_equivalents", "share", "mv_le_2", "mv_le_3", "double_pip_spell_count"], "properties": {
+      "colored_spell_count": {"type": "integer", "minimum": 0},
+      "raw_colored_pip_equivalents": {"$ref": "#/$defs/ubr_number"},
+      "share": {"$ref": "#/$defs/ubr_probability"},
+      "mv_le_2": {"$ref": "#/$defs/ubr_number"},
+      "mv_le_3": {"$ref": "#/$defs/ubr_number"},
+      "double_pip_spell_count": {"$ref": "#/$defs/ubr_count"}
+    }},
+    "turn_access_proxies": {"type": "object", "additionalProperties": false, "required": ["2", "3", "4", "5"], "properties": {"2": {"$ref": "#/$defs/turn"}, "3": {"$ref": "#/$defs/turn"}, "4": {"$ref": "#/$defs/turn"}, "5": {"$ref": "#/$defs/turn"}}},
+    "commander_casting": {"type": "array", "minItems": 1, "maxItems": 2, "items": {"type": "object", "additionalProperties": false, "required": ["name", "mana_cost", "mana_value", "colored_requirements", "base_resource_target", "first_recast_resource_target", "second_recast_resource_target", "per_color_source_presence_by_base_turn", "all_required_colors_present_by_base_turn"], "properties": {
+      "name": {"type": "string"}, "mana_cost": {"type": "string"}, "mana_value": {"type": "number", "minimum": 0},
+      "colored_requirements": {"type": "object", "propertyNames": {"enum": ["U", "B", "R"]}, "additionalProperties": {"type": "integer", "minimum": 1}},
+      "base_resource_target": {"type": "integer", "minimum": 1}, "first_recast_resource_target": {"type": "integer", "minimum": 3}, "second_recast_resource_target": {"type": "integer", "minimum": 5},
+      "per_color_source_presence_by_base_turn": {"type": "object", "propertyNames": {"enum": ["U", "B", "R"]}, "additionalProperties": {"$ref": "#/$defs/probability"}},
+      "all_required_colors_present_by_base_turn": {"$ref": "#/$defs/probability"}
+    }}},
+    "land_type_coverage": {"type": "object", "additionalProperties": false, "required": ["basic_counts", "typed_land_counts", "fetches"], "properties": {
+      "basic_counts": {"$ref": "#/$defs/basic_type_count"}, "typed_land_counts": {"$ref": "#/$defs/basic_type_count"},
+      "fetches": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["card", "types", "basic_fetch", "potential_source_colors"], "properties": {"card": {"type": "string"}, "types": {"type": "array", "items": {"enum": ["Plains", "Island", "Swamp", "Mountain", "Forest"]}, "uniqueItems": true}, "basic_fetch": {"type": "boolean"}, "potential_source_colors": {"type": "string"}}}}
+    }},
+    "utility_opportunity_cost": {"type": "object", "additionalProperties": false, "required": ["colorless_only_utility_lands", "tapped_utility_lands", "utility_lands"], "properties": {"colorless_only_utility_lands": {"$ref": "#/$defs/str_array"}, "tapped_utility_lands": {"$ref": "#/$defs/str_array"}, "utility_lands": {"$ref": "#/$defs/str_array"}}},
+    "fast_mana_cards": {"$ref": "#/$defs/str_array"}, "ritual_cards": {"$ref": "#/$defs/str_array"}, "one_shot_mana_cards": {"$ref": "#/$defs/str_array"}, "mdfc_cards": {"$ref": "#/$defs/str_array"},
+    "unresolved_cards": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["card", "reason"], "properties": {"card": {"type": "string"}, "reason": {"type": "string"}}}},
+    "limitations": {"type": "array", "minItems": 5, "items": {"type": "string", "minLength": 1}}
+  },
+  "$defs": {
+    "probability": {"type": "number", "minimum": 0, "maximum": 1},
+    "ubr_count": {"type": "object", "additionalProperties": false, "required": ["U", "B", "R"], "properties": {"U": {"type": "integer", "minimum": 0}, "B": {"type": "integer", "minimum": 0}, "R": {"type": "integer", "minimum": 0}}},
+    "ubr_number": {"type": "object", "additionalProperties": false, "required": ["U", "B", "R"], "properties": {"U": {"type": "number", "minimum": 0}, "B": {"type": "number", "minimum": 0}, "R": {"type": "number", "minimum": 0}}},
+    "ubr_probability": {"type": "object", "additionalProperties": false, "required": ["U", "B", "R"], "properties": {"U": {"$ref": "#/$defs/probability"}, "B": {"$ref": "#/$defs/probability"}, "R": {"$ref": "#/$defs/probability"}}},
+    "turn": {"type": "object", "additionalProperties": false, "required": ["cards_seen_no_mulligan", "strict_land_drop_probability", "flex_land_drop_probability", "all_three_land_source_presence", "per_color_at_least_one_land_source"], "properties": {"cards_seen_no_mulligan": {"type": "integer", "minimum": 0}, "strict_land_drop_probability": {"$ref": "#/$defs/probability"}, "flex_land_drop_probability": {"$ref": "#/$defs/probability"}, "all_three_land_source_presence": {"$ref": "#/$defs/probability"}, "per_color_at_least_one_land_source": {"$ref": "#/$defs/ubr_probability"}}},
+    "basic_type_count": {"type": "object", "additionalProperties": false, "required": ["Plains", "Island", "Swamp", "Mountain", "Forest"], "properties": {"Plains": {"type": "integer", "minimum": 0}, "Island": {"type": "integer", "minimum": 0}, "Swamp": {"type": "integer", "minimum": 0}, "Mountain": {"type": "integer", "minimum": 0}, "Forest": {"type": "integer", "minimum": 0}}},
+    "str_array": {"type": "array", "items": {"type": "string"}}
+  }
+}
