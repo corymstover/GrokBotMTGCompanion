@@ -76,8 +76,8 @@
    "deck_id": "Cormela__Glamour_Thief",
    "slug": "cormela-glamour-thief",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -159,8 +159,8 @@
    "deck_id": "Evelyn__the_Covetous",
    "slug": "evelyn-the-covetous",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -170,8 +170,8 @@
    "deck_id": "Fire_Lord_Azula",
    "slug": "fire-lord-azula",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -199,8 +199,8 @@
    "deck_id": "Grixistax___October_2026",
    "slug": "grixistax-october-2026",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -219,8 +219,8 @@
    "deck_id": "Inalla__Archmage_Ritualist",
    "slug": "inalla-archmage-ritualist",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -230,8 +230,8 @@
    "deck_id": "Jeleva__Nephalia_s_Scourge",
    "slug": "jeleva-nephalias-scourge",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -241,8 +241,8 @@
    "deck_id": "Kefka__Court_Mage",
    "slug": "kefka-court-mage",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -252,8 +252,8 @@
    "deck_id": "Kess__Dissident_Mage",
    "slug": "kess-dissident-mage",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -317,8 +317,8 @@
    "deck_id": "Marchesa__Dealer_of_Death",
    "slug": "marchesa-dealer-of-death",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -337,8 +337,8 @@
    "deck_id": "Mishra__Artificer_Prodigy",
    "slug": "mishra-artificer-prodigy",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -402,8 +402,8 @@
    "deck_id": "Norman_Osborn_Green_Goblin",
    "slug": "norman-osborn",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -440,8 +440,8 @@
    "deck_id": "RogSi",
    "slug": "rograkh-son-of-rohgahh-silas-renn",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -523,8 +523,8 @@
    "deck_id": "The_Madcap_Jester",
    "slug": "the-madcap-jester",
    "statuses": {
+    "executed_deck_level_module_result": 2,
     "judgment_required": 1,
-    "pending_deck_level_module_execution": 2,
     "reused_existing_test_result": 4,
     "reused_goldfish_readiness": 1
    },
@@ -585,7 +585,7 @@
    "suite_family": "B4_resilience"
   }
  ],
- "generated_by": "scripts/grixis_bracket_stress_runner.py v1",
+ "generated_by": "scripts/grixis_bracket_stress_runner.py v2",
  "schema_version": 1,
  "totals": {
   "decks": 62

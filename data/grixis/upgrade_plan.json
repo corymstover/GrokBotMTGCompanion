@@ -396,13 +396,14 @@
     "70.3 build frozen bracket-specific red-team packets for all 62 decks; script assembles Blueprint/audit/commander-structure/test context but leaves every judgment pending and non-deciding",
     "70.4 Step-F integration + real B5/B4 gain proof + validate_all gate; code complete, deck-level Step-E module execution/full local validation remains closure item"
    ],
-   "status": "code_complete_pending_local_cache_validation",
+   "status": "complete",
    "depends_on": [
     "E"
    ],
    "decisions": [
     "D4"
-   ]
+   ],
+   "completed": "ChatGPT cycle 72.5 frozen-cache validation"
   },
   {
    "order": 7,
@@ -570,7 +571,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 72.4 (2026-10-17)",
+  "updated": "ChatGPT cycle 72.5 (2026-10-17)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -619,9 +620,9 @@
    {
     "id": "F",
     "estimated_batches": 4.5,
-    "batches_done": 4,
-    "status": "code_complete_pending_local_cache_validation",
-    "note": "4/4.5 batch-equivalents complete. 62 suites, routed packets and red-team packets plus gain/integration gate are validated; remaining 0.5 equivalent = frozen-local deck-level Step-E module execution/full validation."
+    "batches_done": 4.5,
+    "status": "complete",
+    "note": "62-deck bracket stress/routing/red-team architecture closed; all B5 Step-E mechanic items executed on frozen canonical decks with hash/snapshot provenance; judgment prompts remain human-only."
    },
    {
     "id": "H",
@@ -667,7 +668,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 44.0,
-  "percent_complete": 70.4
+  "batches_done": 44.5,
+  "percent_complete": 71.2
  }
 }

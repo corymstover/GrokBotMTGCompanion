@@ -1,0 +1,206 @@
+{
+ "decks": [
+  {
+   "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "deck_id": "Cormela__Glamour_Thief",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "cormela-glamour-thief",
+   "supported_card_counts": {
+    "counterspell_density": 7,
+    "stack_protection": 0,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "deck_id": "Evelyn__the_Covetous",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "evelyn-the-covetous",
+   "supported_card_counts": {
+    "counterspell_density": 7,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "deck_id": "Fire_Lord_Azula",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "fire-lord-azula",
+   "supported_card_counts": {
+    "counterspell_density": 8,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "deck_id": "Grixistax___October_2026",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "grixistax-october-2026",
+   "supported_card_counts": {
+    "counterspell_density": 8,
+    "stack_protection": 0,
+    "stax_tax": 4
+   }
+  },
+  {
+   "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "inalla-archmage-ritualist",
+   "supported_card_counts": {
+    "counterspell_density": 5,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "jeleva-nephalias-scourge",
+   "supported_card_counts": {
+    "counterspell_density": 7,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "deck_id": "Kefka__Court_Mage",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "kefka-court-mage",
+   "supported_card_counts": {
+    "counterspell_density": 7,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "deck_id": "Kess__Dissident_Mage",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "kess-dissident-mage",
+   "supported_card_counts": {
+    "counterspell_density": 7,
+    "stack_protection": 0,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "marchesa-dealer-of-death",
+   "supported_card_counts": {
+    "counterspell_density": 10,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "mishra-artificer-prodigy",
+   "supported_card_counts": {
+    "counterspell_density": 5,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "norman-osborn",
+   "supported_card_counts": {
+    "counterspell_density": 5,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "deck_id": "RogSi",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "supported_card_counts": {
+    "counterspell_density": 7,
+    "stack_protection": 1,
+    "stax_tax": 0
+   }
+  },
+  {
+   "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "deck_id": "The_Madcap_Jester",
+   "required_module_ids": [
+    "counterspell_density",
+    "stack_protection",
+    "stax_tax"
+   ],
+   "slug": "the-madcap-jester",
+   "supported_card_counts": {
+    "counterspell_density": 6,
+    "stack_protection": 0,
+    "stax_tax": 0
+   }
+  }
+ ],
+ "development_snapshot": "snap-20261016",
+ "generated_by": "scripts/grixis_bracket_mechanics.py v1",
+ "schema_version": 1,
+ "totals": {
+  "b5_decks": 13,
+  "module_executions": 39
+ }
+}

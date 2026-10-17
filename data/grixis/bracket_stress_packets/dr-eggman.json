@@ -2,7 +2,7 @@
  "aggregate_score": null,
  "authority": {
   "can_decide": false,
-  "note": "The packet routes preregistered stresses to evidence or pending review; it never aggregates outcomes or decides swaps."
+  "note": "The packet routes preregistered stresses to evidence or judgment review; it never aggregates outcomes or decides swaps."
  },
  "bracket": {
   "source": "grok_estimated_ceiling",
@@ -452,7 +452,7 @@
  "limitations": [
   "Existing M3 stress records are reused rather than silently rerun under new thresholds.",
   "Goldfish readiness is not multiplayer win probability.",
-  "Step-E mechanic modules remain bounded/readiness proxies and may require local deck-level execution.",
+  "Step-E mechanic results are bounded canonical-deck availability/friction proxies, not opponent simulation or automatic verdicts.",
   "Judgment prompts remain unanswered by automation.",
   "Priority weights allocate attention only and are not outcome weights."
  ],

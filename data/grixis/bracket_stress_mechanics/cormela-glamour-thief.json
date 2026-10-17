@@ -1,0 +1,368 @@
+{
+ "aggregate_score": null,
+ "authority": {
+  "can_decide": false,
+  "note": "Deck-level Step-E outputs are bounded evidence for Step-F review. They cannot approve/reject a deck, decide a swap, or substitute for Commander-first judgment."
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "deck_id": "Cormela__Glamour_Thief",
+ "evidence_class": "test_result",
+ "limitations": [
+  "The underlying trace is the deterministic one-player v1.1 goldfish model, not a multiplayer simulator.",
+  "Counter/protection outputs measure readiness or availability, not whether an opponent presents a valuable legal target.",
+  "Stax/tax outputs preserve category-specific ranges and self-burden; unlike effects are never summed into one score.",
+  "Unsupported card semantics remain outside the bounded modules and require later judgment rather than invented numeric evidence."
+ ],
+ "module_results": [
+  {
+   "evidence_class": "test_result",
+   "metric_semantics": "Per supported card: average number of end-of-own-turn checkpoints through the stated turn at which the counter is available under the Step-E readiness model. Cards are not summed into a universal protection score.",
+   "module_id": "counterspell_density",
+   "module_version": "1",
+   "spec": {
+    "assumptions": [
+     "end-of-own-turn unspent mana is a proxy for mana held through the following opponent turn cycle",
+     "normal spell cost uses mana value rather than exact colored pips, so readiness is an upper bound when colors are constrained",
+     "readiness is opportunity count, not number of counters actually cast"
+    ],
+    "confidence": "low",
+    "determinism": "seeded paired v1.1 games; readiness is a deterministic function of the zone/mana trace",
+    "does_not_model": [
+     "whether an opponent actually casts a legal/important target",
+     "soft counters ('unless ... pays')",
+     "conditional target qualifiers",
+     "Force-of-Will-style pitch/resource alternate costs",
+     "colored-mana hold-up",
+     "activation costs for permanent counter abilities",
+     "multiplayer win rates (never produced)"
+    ],
+    "evidence_class": "test_result",
+    "family": "counterspell readiness",
+    "id": "counterspell_density",
+    "limitations": [
+     "Does not evaluate counterspell quality, target breadth or opponent pressure; scope is reported but not weighted."
+    ],
+    "metrics": [
+     "counter_ready_turns_by_turn"
+    ],
+    "models": [
+     "turns by 4/6/8/10 on which a supported counterspell is in hand and normal-cost mana remains unspent",
+     "Fierce-Guardianship-style explicit 'control a commander -> cast without paying' readiness",
+     "supported activated counter abilities: battlefield-available turns (cost not reconstructed)"
+    ],
+    "parameters": {
+     "turns": [
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "test_file": "tests/test_mech_stack_semantics.py",
+    "version": "1"
+   },
+   "status": "executed_deck_level_test_result",
+   "supported_card_count": 7,
+   "supported_cards": [
+    {
+     "card": "An Offer You Can't Refuse",
+     "counter_ready_turns_by_turn": {
+      "10": 0.0167,
+      "4": 0.0033,
+      "6": 0.0067,
+      "8": 0.0133
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": false,
+       "mode": "spell",
+       "scope": [
+        "noncreature_spell"
+       ]
+      }
+     }
+    },
+    {
+     "card": "Fierce Guardianship",
+     "counter_ready_turns_by_turn": {
+      "10": 0.08,
+      "4": 0.06,
+      "6": 0.0667,
+      "8": 0.0733
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": true,
+       "mode": "spell",
+       "scope": [
+        "noncreature_spell"
+       ]
+      }
+     }
+    },
+    {
+     "card": "Force of Negation",
+     "counter_ready_turns_by_turn": {
+      "10": 0.02,
+      "4": 0.02,
+      "6": 0.02,
+      "8": 0.02
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": false,
+       "mode": "spell",
+       "scope": [
+        "noncreature_spell"
+       ]
+      }
+     }
+    },
+    {
+     "card": "Force of Will",
+     "counter_ready_turns_by_turn": {
+      "10": 0.0,
+      "4": 0.0,
+      "6": 0.0,
+      "8": 0.0
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": false,
+       "mode": "spell",
+       "scope": [
+        "spell"
+       ]
+      }
+     }
+    },
+    {
+     "card": "Pact of Negation",
+     "counter_ready_turns_by_turn": {
+      "10": 0.0,
+      "4": 0.0,
+      "6": 0.0,
+      "8": 0.0
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": false,
+       "mode": "spell",
+       "scope": [
+        "spell"
+       ]
+      }
+     }
+    },
+    {
+     "card": "Red Elemental Blast",
+     "counter_ready_turns_by_turn": {
+      "10": 0.0267,
+      "4": 0.0267,
+      "6": 0.0267,
+      "8": 0.0267
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": false,
+       "mode": "spell",
+       "scope": [
+        "spell"
+       ]
+      }
+     }
+    },
+    {
+     "card": "Swan Song",
+     "counter_ready_turns_by_turn": {
+      "10": 0.0333,
+      "4": 0.0333,
+      "6": 0.0333,
+      "8": 0.0333
+     },
+     "semantics": {
+      "not_modelable": null,
+      "rule": {
+       "free_with_commander": false,
+       "mode": "spell",
+       "scope": [
+        "spell"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "evidence_class": "test_result",
+   "metric_semantics": "Per supported card: average number of end-of-own-turn checkpoints through the stated turn with reactive protection ready or static/activated protection active under Step-E semantics. Cards are not collapsed into a universal protection score.",
+   "module_id": "stack_protection",
+   "module_version": "1",
+   "spec": {
+    "assumptions": [
+     "normal spell cost uses mana value rather than exact colored pips",
+     "active-turn/readiness counts are opportunities, not uses or prevented interactions"
+    ],
+    "confidence": "low",
+    "determinism": "seeded paired v1.1 games; readiness is a deterministic function of the zone/mana trace",
+    "does_not_model": [
+     "whether protection has a valuable legal target",
+     "colored mana",
+     "ward cost/effect magnitude",
+     "conditional protection",
+     "redirects/copies, bounce-as-protection, prevention, regeneration, protection-from-color, Teferi-style timing locks",
+     "multiplayer win rates (never produced)"
+    ],
+    "evidence_class": "test_result",
+    "family": "protection availability",
+    "id": "stack_protection",
+    "limitations": [
+     "Protection modes differ materially; this module reports availability only and does not claim a universal value conversion."
+    ],
+    "metrics": [
+     "protection_ready_or_active_turns_by_turn"
+    ],
+    "models": [
+     "supported reactive protection spells: turns in hand with normal-cost mana left unspent",
+     "supported activated/static team/self protection permanents: battlefield-active turns",
+     "direct hexproof/indestructible/phase-out protection and explicit 'spells you control can't be countered'"
+    ],
+    "parameters": {
+     "turns": [
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "test_file": "tests/test_mech_stack_semantics.py",
+    "version": "1"
+   },
+   "status": "executed_deck_level_test_result",
+   "supported_card_count": 0,
+   "supported_cards": []
+  },
+  {
+   "evidence_class": "test_result",
+   "metric_semantics": "Per supported permanent and per category only. Opponent extra-mana demand, blocked spells, blocked draws and static-lock activity remain separate; symmetric self-burden is explicit. No composite stax score is produced.",
+   "module_id": "stax_tax",
+   "module_version": "1",
+   "spec": {
+    "assumptions": [
+     "three opponents; opponent spells per turn is swept over 1/2/3, noncreature share over 0.5/0.7/0.9, opponent cards drawn per turn over 1/2/3",
+     "if the permanent is present at your end step, its static text applies through the following opponent turn cycle",
+     "spell-tax mana is friction demanded, not mana actually paid; cap metrics are upper-bound prevented-event counts given the declared activity point"
+    ],
+    "confidence": "low",
+    "determinism": "seeded paired v1.1 battlefield trace plus closed-form declared opponent-activity grid",
+    "does_not_model": [
+     "whether opponents can/will pay taxes, exact opponent mana curves, or which spells are most important",
+     "Trinisphere-style minimum total costs, dynamic per-spell taxes, type/color/subtype-specific locks outside supported families",
+     "resource denial, mana-base conversion, combat restrictions, graveyard replacement effects, or removal timing",
+     "a universal conversion between tax mana, blocked spells, blocked draws and static-lock uptime",
+     "multiplayer win rates (never produced)"
+    ],
+    "evidence_class": "test_result",
+    "family": "stax/tax static effects",
+    "id": "stax_tax",
+    "limitations": [
+     "Category metrics are intentionally not summed. M6 judgment must consider self-burden, asymmetry and commander-specific leverage.",
+     "Static-lock active rounds measure availability only; opponent dependence is handled later by bracket stress/red-team review."
+    ],
+    "metrics": [
+     "opponent_extra_mana_range",
+     "opponent_spells_blocked_range",
+     "opponent_draws_blocked_range",
+     "static_lock_active_rounds",
+     "self_burden"
+    ],
+    "models": [
+     "fixed spell taxes on opponents or all players: opponent extra-mana demand range",
+     "cast-per-turn caps: opponent spells blocked range under declared spell-volume sensitivity",
+     "draw-per-turn caps: opponent draws blocked range under declared draw-volume sensitivity",
+     "supported static locks (search, cast-during-your-turn, artifact ETB tapped, activated-ability, untap, graveyard-cast, creature-ETB-trigger): active rounds only",
+     "symmetric effects retain an explicit self_burden flag; no composite score hides that cost"
+    ],
+    "parameters": {
+     "noncreature_share": [
+      0.5,
+      0.7,
+      0.9
+     ],
+     "opponent_cards_drawn_per_turn": [
+      1.0,
+      2.0,
+      3.0
+     ],
+     "opponent_spells_per_turn": [
+      1.0,
+      2.0,
+      3.0
+     ],
+     "opponents": 3,
+     "turns": [
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "test_file": "tests/test_mech_stax_semantics.py",
+    "version": "1"
+   },
+   "status": "executed_deck_level_test_result",
+   "supported_card_count": 0,
+   "supported_cards": []
+  }
+ ],
+ "provenance": {
+  "development_snapshot": "snap-20261016",
+  "locked_files": {
+   "default-cards": "default-cards-20261015090541.jsonl.gz",
+   "oracle-cards": "oracle-cards-20261016090200.jsonl.gz",
+   "rulings": "rulings-20261015090033.jsonl.gz"
+  },
+  "locked_sha256": {
+   "default-cards": "sha256:f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8",
+   "oracle-cards": "sha256:ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+   "rulings": "sha256:3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"
+  },
+  "module_code_sha256": {
+   "stack": "sha256:a90641d4f795d6294210a621de7054ba3d5612efa7b2c2e55122c64592ee54bb",
+   "stax": "sha256:a70d2a87e510bbe3e2803a7f8788531f1954907e65f5878d3865f878b3a9da52"
+  },
+  "runner_sha256": "sha256:27d0b70fe1271306a8e38d31843c40ada3e0ee3b94bef5e6b5c6a2cd3b832f78",
+  "simulator": {
+   "model": "1.1",
+   "name": "grixis_sim",
+   "sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+   "version": "1.1"
+  },
+  "trace": {
+   "observer_sha256": "sha256:1bf39217b4733df071a7ed8f73fbe265d09da6427fa590f28aaa90d563ffc6a7",
+   "samples": 300,
+   "seed": 66,
+   "turns": [
+    4,
+    6,
+    8,
+    10
+   ]
+  }
+ },
+ "required_module_ids": [
+  "counterspell_density",
+  "stack_protection",
+  "stax_tax"
+ ],
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "status": "executed",
+ "suite_family": "B5_competitive"
+}
