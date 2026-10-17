@@ -1,0 +1,16 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/bracket_stress_gain.schema.json",
+ "title":"Step F bracket-stress decision-resolution gain proof",
+ "type":"object",
+ "required":["schema_version","status","evidence_class","authority","before","after","real_deck_examples","limitations","conclusion"],
+ "properties":{
+  "schema_version":{"const":1},"status":{"const":"demonstrated_decision_resolution_gain"},"evidence_class":{"const":"derived_metric"},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "before":{"type":"object","required":["model","decks","scenario_families","scenario_count","limitation"]},
+  "after":{"type":"object","required":["model","decks","suite_family_counts","routed_packets","red_team_packets","legacy_test_items_reused","goldfish_readiness_items_reused","module_items_pending_local_execution","judgment_items_pending_real_review","aggregate_outcome_scores"],"properties":{"model":{"type":"string"},"decks":{"const":62},"suite_family_counts":{"type":"object","required":["B5_competitive","B4_resilience"],"additionalProperties":{"type":"integer","minimum":0}},"routed_packets":{"const":62},"red_team_packets":{"const":62},"legacy_test_items_reused":{"type":"integer","minimum":0},"goldfish_readiness_items_reused":{"type":"integer","minimum":0},"module_items_pending_local_execution":{"type":"integer","minimum":0},"judgment_items_pending_real_review":{"type":"integer","minimum":0},"aggregate_outcome_scores":{"const":0}},"additionalProperties":false},
+  "real_deck_examples":{"type":"array","minItems":2,"maxItems":2,"items":{"type":"object","required":["slug","suite_family","bracket","stress_ids","routed_statuses","judgment_prompts","resolution_gain"]}},
+  "limitations":{"type":"array","minItems":4,"items":{"type":"string"}},"conclusion":{"type":"string","minLength":1}
+ },
+ "additionalProperties":false
+}
