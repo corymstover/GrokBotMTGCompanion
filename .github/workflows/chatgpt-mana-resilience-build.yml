@@ -30,12 +30,45 @@ jobs:
           python scripts/grixis_mana_resilience.py --check
       - name: Assert no development snapshot metadata changed
         run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
-      - name: Commit generated records
+      - name: Update Birthday plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json')
+          d=json.loads(p.read_text())
+          step=next(x for x in d['steps'] if x['id']=='C')
+          step['status']='in_progress'
+          step['batches']=[
+            '68.1 static mana-base baseline, pip demand, land/MDFC counts, fast mana and source inventory',
+            '68.2 source timing, fetch/dual target validation and exact distinct-source colored readiness',
+            '68.3 commander casting, fast-mana delta and tax recovery (code-ready; frozen-local-cache outputs/validation pending)',
+            '68.4 utility-land/MDFC opportunity-cost and Commander-first land/type signals',
+            '68.5 mana/color-screw complements, one-source-unavailable structural sensitivity and fetch-target redundancy',
+            '68.6 Step C integration and demonstrated decision-quality gain (planned)'
+          ]
+          tr=d['launch_tracker']
+          tr['updated']='ChatGPT cycle 68.5 (2026-10-16)'
+          c=next(x for x in tr['stages'] if x['id']=='C')
+          c['batches_done']=4
+          c['status']='in_progress'
+          c['note']='4/6 validated batch-equivalents complete (68.1, 68.2, 68.4, 68.5); 68.3 code-ready but separately pending frozen-local-cache validation; 68.6 integration planned.'
+          tr['batches_done']=31
+          tr['percent_complete']=49.6
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+"\n")
+
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md')
+          text=md.read_text()
+          marker='### Step C batch 68.5: mana/color-screw and structural source resilience'
+          if marker not in text:
+              text += '''\n\n### Step C batch 68.5: mana/color-screw and structural source resilience\n\n- `scripts/grixis_mana_resilience.py` consumes the committed 68.1/68.2 mana artifacts only; it does not refresh Scryfall or simulate opponents.\n- Records exact no-mulligan complements for land-drop and colored-source presence by turns 2–5. These are access failures, not game-loss or cast probabilities.\n- Adds a one-source-unavailable sensitivity probe. The library stays at 99 and one source mask is blanked; absolute and baseline-relative deltas are both retained. Equivalent source masks are collapsed exactly for runtime, not sampled.\n- Records fetch-target redundancy and single-color target points, plus demand/source context. No universal mana-quality score or automatic land cut is produced.\n- All 62 deck records validate against `mana_resilience.schema.json`; focused regression tests pass. The development snapshot metadata is unchanged.\n- 68.3 commander-casting/tax evidence remains code-ready but requires the frozen local Scryfall cache, so it is not counted complete yet.\n'''
+              md.write_text(text)
+          PY
+      - name: Commit final 68.5 artifacts and remove temporary workflow
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/grixis/mana_resilience
-          if ! git diff --cached --quiet; then
-            git commit -m "ChatGPT cycle 68.5: generate mana resilience evidence [skip ci]"
-            git push
-          fi
+          git rm .github/workflows/chatgpt-mana-resilience-build.yml
+          git add data/grixis/mana_resilience data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 68.5: finalize mana resilience batch [skip ci]"
+          git push
