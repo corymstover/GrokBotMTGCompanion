@@ -1,0 +1,217 @@
+{
+ "affected_count": 25,
+ "affected_decks": [
+  {
+   "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "deck_id": "Abaddon_the_Despoiler",
+   "frozen_step_c_sha256": "sha256:bc98168062576f357165c01063d016c6a14061d6e1e6da176e46d95b2083737a",
+   "historically_omitted": true,
+   "slug": "abaddon-the-despoiler",
+   "source_export_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff"
+  },
+  {
+   "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "deck_id": "Cormela__Glamour_Thief",
+   "frozen_step_c_sha256": "sha256:6eaace31340e7b4af33ac66f932404519b450ed4058e43702a4001c523aa8abc",
+   "historically_omitted": true,
+   "slug": "cormela-glamour-thief",
+   "source_export_sha256": "sha256:29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578"
+  },
+  {
+   "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "deck_id": "Crosis__the_Purger",
+   "frozen_step_c_sha256": "sha256:5e4e90912264d4b1544a1a36c93f8604430f58df381e53ec04c30c8661ee3b63",
+   "historically_omitted": true,
+   "slug": "crosis-the-purger",
+   "source_export_sha256": "sha256:04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d"
+  },
+  {
+   "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "deck_id": "Edward_Kenway",
+   "frozen_step_c_sha256": "sha256:e3c186cf48008928b93dc0657f4043fa8890e6373c8b2a5aee9ab6526739ed9e",
+   "historically_omitted": true,
+   "slug": "edward-kenway",
+   "source_export_sha256": "sha256:1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b"
+  },
+  {
+   "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "deck_id": "Evelyn__the_Covetous",
+   "frozen_step_c_sha256": "sha256:7acbb8904a88080f61972ddcdfa24759d5f05ff63c366ee08cd3b39f93e5ed2d",
+   "historically_omitted": true,
+   "slug": "evelyn-the-covetous",
+   "source_export_sha256": "sha256:e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f"
+  },
+  {
+   "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "deck_id": "Fire_Lord_Azula",
+   "frozen_step_c_sha256": "sha256:cac12d228f1ef0a498e5f34767a0f5b2ba9f8c66646ff92b0b337fd39eb613ca",
+   "historically_omitted": true,
+   "slug": "fire-lord-azula",
+   "source_export_sha256": "sha256:e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4"
+  },
+  {
+   "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "deck_id": "Grixistax___October_2026",
+   "frozen_step_c_sha256": "sha256:d552664f14856b6616f0d0fbd6dba1c23113d360c23e0d832c06764b9bbe6d5f",
+   "historically_omitted": true,
+   "slug": "grixistax-october-2026",
+   "source_export_sha256": "sha256:f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08"
+  },
+  {
+   "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "deck_id": "Gwendlyn_Di_Corci",
+   "frozen_step_c_sha256": "sha256:6530bb8bf4fd2d5dc8b15ac7fdb272feb1f423b6a55680af64b4ec7b408ea8c7",
+   "historically_omitted": true,
+   "slug": "gwendlyn-di-corci",
+   "source_export_sha256": "sha256:4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4"
+  },
+  {
+   "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "frozen_step_c_sha256": "sha256:ee6aa0b4c77f79484c6337ad17576148c1c184bcf76a732b7c6f70cfcbec6132",
+   "historically_omitted": true,
+   "slug": "inalla-archmage-ritualist",
+   "source_export_sha256": "sha256:45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598"
+  },
+  {
+   "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "frozen_step_c_sha256": "sha256:9ad62e204ff2f73010c4f7151e8d750f6cbc5c11f48aaf50f99b617b40f8520e",
+   "historically_omitted": true,
+   "slug": "jeleva-nephalias-scourge",
+   "source_export_sha256": "sha256:900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af"
+  },
+  {
+   "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "deck_id": "Kefka__Court_Mage",
+   "frozen_step_c_sha256": "sha256:6cb8f98e244e672171d30cf52b1a2fc8ff2764b03b91680ea58aa39f7f71c28e",
+   "historically_omitted": true,
+   "slug": "kefka-court-mage",
+   "source_export_sha256": "sha256:1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391"
+  },
+  {
+   "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "deck_id": "Kess__Dissident_Mage",
+   "frozen_step_c_sha256": "sha256:9c79e6f372bcba44d0abe1647592cb9bcd2b9c2a8fd57b4dc6b68c65e2330b54",
+   "historically_omitted": true,
+   "slug": "kess-dissident-mage",
+   "source_export_sha256": "sha256:94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd"
+  },
+  {
+   "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "deck_id": "Mai_and_Zuko",
+   "frozen_step_c_sha256": "sha256:66bb13251df772dea08e0be091f6edcbe8eb384d81a68b996112acee06f43aca",
+   "historically_omitted": true,
+   "slug": "mai-and-zuko",
+   "source_export_sha256": "sha256:0e399fea73acb804044395007e7bb9d9416863b41e09c9f10cd1c3f4c5b9651e"
+  },
+  {
+   "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "deck_id": "Mairsil__the_Pretender",
+   "frozen_step_c_sha256": "sha256:81d5931c21612eac0423eea9f9034525749a3f4863eb54953561ff4488c9431c",
+   "historically_omitted": true,
+   "slug": "mairsil-the-pretender",
+   "source_export_sha256": "sha256:843c09811f41b7bcdf5d7e4aec1c27de69d48dfa071cd3cc905541618bf10e94"
+  },
+  {
+   "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "frozen_step_c_sha256": "sha256:9d0a295d9e55b8ea2ab48297b81f9611f66c8ee98194356913fb50e4c88a6dd7",
+   "historically_omitted": true,
+   "slug": "marchesa-dealer-of-death",
+   "source_export_sha256": "sha256:0f07ba66bdbfb883b3513098988621df7b83092eb5cc08cf01669416b961d4cb"
+  },
+  {
+   "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "frozen_step_c_sha256": "sha256:467a884d4288bfccc37cfac7b1c46ab87b180a6f72cfaf9b95cd7aa0b727fc37",
+   "historically_omitted": true,
+   "slug": "mishra-artificer-prodigy",
+   "source_export_sha256": "sha256:33e1354d2064b12b56108f4cbc4b663e0d1bb51c1449d40588172a2c1a2680b7"
+  },
+  {
+   "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "deck_id": "Mishra__Eminent_One",
+   "frozen_step_c_sha256": "sha256:b2d87264f923fbff1c956489de2c915312481f0dbf3919669db97753dbc3a7a6",
+   "historically_omitted": true,
+   "slug": "mishra-eminent-one",
+   "source_export_sha256": "sha256:13f54e4dd95e420371a70b002cd959c580fcbc9d7f360367288c8784da86caaf"
+  },
+  {
+   "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "deck_id": "Nekusar__the_Mindrazer",
+   "frozen_step_c_sha256": "sha256:f61dc58b13e934a4283ae5ce522a3f7e1d0a414c2ca6b015a622fca80ecf3830",
+   "historically_omitted": true,
+   "slug": "nekusar-the-mindrazer",
+   "source_export_sha256": "sha256:485e4aa8caea97c607374dde3e15c052ee87e15502ee2161a37cc0ecfbe2cf5f"
+  },
+  {
+   "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "deck_id": "Nicol_Bolas",
+   "frozen_step_c_sha256": "sha256:73a6c1bc3f4593df6dc3d0a1ec00fec97d6929a1e6d27d793c439d1dd49e74b2",
+   "historically_omitted": true,
+   "slug": "nicol-bolas",
+   "source_export_sha256": "sha256:1c271131d2cb3f824a292391932dbb111c3eb9653051424c16db76a6c16e91b0"
+  },
+  {
+   "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "frozen_step_c_sha256": "sha256:b62730f1e79c69539c079a7ade1e5701f8d53b2a22eafe5e1f9d54a969a54510",
+   "historically_omitted": true,
+   "slug": "nicol-bolas-the-ravager",
+   "source_export_sha256": "sha256:ff0f90a467b05c94bdf58371d37a848946877ec707115ac5e47c2260bc40c1f4"
+  },
+  {
+   "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "frozen_step_c_sha256": "sha256:54c852a56ceab6c86c7a3a446b9bf0c18e85200da0b16010c8fda8fec5cdfb27",
+   "historically_omitted": true,
+   "slug": "norman-osborn",
+   "source_export_sha256": "sha256:6017ff8c9557b58ede769d4a467093fb84f780b3e3fe09cd580880cd7c91382f"
+  },
+  {
+   "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "deck_id": "Obeka__Brute_Chronologist",
+   "frozen_step_c_sha256": "sha256:fed3cb4a5dcfc1bfc14586a7024054e0d13b5f650901876c07d3ae869fb4f036",
+   "historically_omitted": true,
+   "slug": "obeka-brute-chronologist",
+   "source_export_sha256": "sha256:76fc5a3f9a098d4999c8ce85f8226a0ceef9a5077822b0335e01b8a594b5ea4d"
+  },
+  {
+   "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "deck_id": "RogSi",
+   "frozen_step_c_sha256": "sha256:e9460d3aa40dc3f712502610a345336d7a6f9f2ed7af2a6beb6571648535cf09",
+   "historically_omitted": true,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "source_export_sha256": "sha256:74b8f96561a79946547da9f34f1926dc4bab81b65fab224e8edb1b7198cbb57a"
+  },
+  {
+   "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "frozen_step_c_sha256": "sha256:6586b7d2b0b7fb882b018f3746499af7cb3f74881b1091049b1d886f920b842a",
+   "historically_omitted": true,
+   "slug": "solkanar-the-swamp-king",
+   "source_export_sha256": "sha256:bf475d9c7048874d439972282b85de5684e0fde03095a2257e9249cdb7661ccd"
+  },
+  {
+   "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "deck_id": "The_Madcap_Jester",
+   "frozen_step_c_sha256": "sha256:dd78eab8e4581e467bc28d737b99844116e7f0ca828e3e9333a8183457763d41",
+   "historically_omitted": true,
+   "slug": "the-madcap-jester",
+   "source_export_sha256": "sha256:1ce93f38a1dc81a07c3f499beb168ba2ac0512da1718ea02ab4204cefb0d8f03"
+  }
+ ],
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "classification": "conditionally available colored fast mana (imprint required)",
+ "classifier_sha256": "sha256:5eed919db7c2bcea33147d23348a807116f6a0014906cb85b9abe92b402cec74",
+ "decks_examined": 62,
+ "downstream_status": "Step C and commander_mana derived data require scoped review",
+ "historical_omissions": 25,
+ "schema_version": 1,
+ "stage": "M6_Chrome_Mox_conditional_fast_mana_audit"
+}

@@ -178,6 +178,17 @@ def classify(d,deck_ci):
     elif basic_fetch: colors|=ci
     basic_types=[t for t in BASIC_TYPE_COLOR if t in tl]; colors|={BASIC_TYPE_COLOR[t] for t in basic_types}; colors={c for c in colors if c=="C" or c in ci}
     direct=_direct_lines(text); direct_text="\n".join(direct); low=direct_text.lower()
+    # Chrome Mox produces a chosen color only when its imprint trigger has
+    # exiled a suitable colored nonartifact, nonland card. The color is not
+    # printed as {U}/{B}/{R} or "any color"; ordinary Add-clause parsing
+    # therefore incorrectly excluded it from low-MV repeatable fast mana.
+    # Use deck colors as POTENTIAL colors, never unconditional availability.
+    imprint_linked_mana=(d["name"]=="Chrome Mox" and
+                         bool(re.search(r"\{T\}:\s*Add one mana of any of the exiled card['’]s colors",direct_text,re.I)) and
+                         "imprint" in low)
+    if imprint_linked_mana:
+        colors|=ci
+        conditional=True
     tapped=bool(re.search(r"enters(?: the battlefield)? tapped",low)); tapped_uncond=tapped and not any(x in low for x in ("unless","if you don't","you may pay","if you control","as long as")); tapped_cond=tapped and not tapped_uncond
     nonmana=[x for x in direct if ":" in x and "Add " not in x and "add " not in x and "Search your library" not in x]
     static=any(k in low for k in ("you have no maximum hand size","creatures you control","spells you cast","whenever you cast","at the beginning of your")); utility=land and bool(nonmana or static)
@@ -187,7 +198,7 @@ def classify(d,deck_ci):
     repeatable=permanent_nonland and not flex_land and not one_shot and bool(colors) and direct_mana and ("{T}" in direct_text or "tap an untapped" in low)
     ritual=not land and ("Instant" in first_face or "Sorcery" in first_face) and bool(re.search(r"\bAdd (?:\{[^}]+\}){2,}",direct_text))
     fast=(repeatable and d["mv"]<=2) or (ritual and d["mv"]<=2) or (one_shot and d["mv"]<=2)
-    return {**d,"cost":cost,"land":land,"flex_land":flex_land,"source_colors":"".join(c for c in COLORS+"C" if c in colors),"source_amount_proxy":amount,"conditional_source":conditional,"fetch_types":fetch_types,"basic_fetch":basic_fetch,"basic_types":basic_types,"tapped_unconditional":tapped_uncond,"tapped_conditional":tapped_cond,"utility_land":utility,"repeatable_nonland_source":repeatable,"ritual":ritual,"one_shot_mana":one_shot,"fast_mana":fast}
+    return {**d,"cost":cost,"land":land,"flex_land":flex_land,"source_colors":"".join(c for c in COLORS+"C" if c in colors),"source_amount_proxy":amount,"conditional_source":conditional,"imprint_dependent_mana":imprint_linked_mana,"fetch_types":fetch_types,"basic_fetch":basic_fetch,"basic_types":basic_types,"tapped_unconditional":tapped_uncond,"tapped_conditional":tapped_cond,"utility_land":utility,"repeatable_nonland_source":repeatable,"ritual":ritual,"one_shot_mana":one_shot,"fast_mana":fast}
 
 
 def parse_export(path):

@@ -1,0 +1,64 @@
+name: ChatGPT cycle 85 - Chrome Mox conditional mana audit
+on:
+  push:
+    branches:
+      - chatgpt-cycle85-conditional-mox-audit
+    paths:
+      - .github/workflows/chatgpt-cycle85-mox.yml
+      - scripts/grixis_mana_base.py
+      - scripts/grixis_m6_chrome_mox_audit.py
+      - tests/test_m6_chrome_mox_classification.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+concurrency:
+  group: cycle85-conditional-mox
+  cancel-in-progress: true
+jobs:
+  focused-classifier-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle85-conditional-mox-audit
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Conditional/imprint mana regression and negative tests
+        run: python -m unittest discover -s tests -p 'test_m6_chrome_mox_classification.py' -v
+      - name: Audit omission scope using existing 62 frozen baseline exports
+        run: python scripts/grixis_m6_chrome_mox_audit.py --build --check
+      - name: Protect canonical and historical accepted evidence
+        run: |
+          git diff --name-only HEAD
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/classifier_corrections/' | grep -q .; then
+            echo 'Unexpected protected output changed'
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          a=json.loads(Path('data/grixis/m6/classifier_corrections/chrome_mox.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert a['affected_count']>=1
+          assert not any(a['authority'].values())
+          print('source classifier corrected; frozen evidence preserved and marked for scoped downstream review')
+          PY
+      - name: Commit only non-authoritative impact ledger
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/classifier_corrections/chrome_mox.json
+          if git diff --cached --quiet; then
+            echo 'audit ledger current'
+          else
+            git commit -m 'Cycle 85: scope historical conditional-Mox omissions [skip ci]'
+            git pull --rebase origin chatgpt-cycle85-conditional-mox-audit
+            git push origin HEAD:chatgpt-cycle85-conditional-mox-audit
+          fi
