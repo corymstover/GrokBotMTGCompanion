@@ -1,0 +1,118 @@
+{
+ "schema_version": 1,
+ "status": "frozen_before_m6_outputs",
+ "recorded_cycle": "ChatGPT cycle 71.1",
+ "seed": "grixis-birthday-human-sampling-v1-2026-10-16",
+ "purpose": "Pre-register deterministic human-quality sampling before any M6 optimizer outputs exist, preventing result-aware cherry-picking while ensuring high-risk strata receive review.",
+ "scope": "sampling infrastructure only; selects review workload and never decides a deck change",
+ "authority": {
+  "can_decide": false,
+  "human_only_acceptance": true,
+  "note": "Selection into a review stratum creates an obligation to inspect; it is not negative evidence and never approves or rejects a deck."
+ },
+ "selection": {
+  "overlap_between_strata": "allowed_and_recorded",
+  "dedupe_for_total_workload": "yes_after_per_stratum_selection; every selected stratum membership remains visible",
+  "deterministic_tie_break": "ascending sha256(seed + '|' + stratum_id + '|' + slug)",
+  "quota_shortfall": "select all eligible candidates; never pad from ineligible decks",
+  "policy_mutation_after_freeze": "forbidden without Cory explicit approval; any change requires a superseding version and keeps this v1 file/hash in history"
+ },
+ "strata": [
+  {
+   "id": "random",
+   "timing": "pre_m6_static",
+   "quota": 8,
+   "candidate_rule": "all 62 registry decks",
+   "ranking_rule": "deterministic_tie_break_only",
+   "rationale": "Unbiased coverage catches defects not anticipated by targeted risk strata."
+  },
+  {
+   "id": "anomaly",
+   "timing": "pre_m6_static",
+   "quota": 8,
+   "candidate_rule": "saturation certificate universe.by_escalation_reason.anomaly_source_disagreement > 0",
+   "ranking_rule": "anomaly count descending, then deterministic tie break",
+   "rationale": "Cards whose structural and popularity/evidence signals disagree are likely places for ranking/model mistakes."
+  },
+  {
+   "id": "exception",
+   "timing": "pre_m6_static",
+   "quota": "all",
+   "candidate_rule": "registry deck has project_exceptions or project_authorization_status is not none",
+   "ranking_rule": "all eligible, deterministic display order",
+   "rationale": "Project authorization must remain separate from official legality and is too consequential to sample away."
+  },
+  {
+   "id": "pending_release",
+   "timing": "pre_m6_static",
+   "quota": "all",
+   "candidate_rule": "registry state is PENDING_RELEASE or official_commander_compliance.status is pending_release",
+   "ranking_rule": "all eligible, deterministic display order",
+   "rationale": "Future-release legality and snapshot transitions require explicit human attention."
+  },
+  {
+   "id": "cedh",
+   "timing": "pre_m6_static",
+   "quota": 8,
+   "candidate_rule": "resolved ceiling is 5 when present, otherwise grok_estimated_ceiling/source_ceiling is 5",
+   "ranking_rule": "deterministic tie break only",
+   "rationale": "B5 decks have tighter timing, stack and compact-win tolerances than B4 decks."
+  },
+  {
+   "id": "low_commander_dependence",
+   "timing": "pre_m6_static",
+   "quota": 8,
+   "candidate_rule": "all decks with commander_structure evidence",
+   "ranking_rule": "accepted role rank supporting < significant < central; then commander-linked combo fraction ascending; then explicit-commander Blueprint win fraction ascending; then deterministic tie break",
+   "rationale": "These are the decks most at risk of drifting into generically powerful Grixis shells despite Commander-first goals."
+  },
+  {
+   "id": "rules_sensitive",
+   "timing": "pre_m6_static",
+   "quota": 8,
+   "candidate_rule": "all decks with M1 interaction review",
+   "ranking_rule": "rules-risk score descending: 3 * non-verified interaction count + key interaction count + Blueprint construction-rule count + 2 if project-exception/pending-release; then deterministic tie break",
+   "rationale": "Dense or unresolved rules dependencies are high-risk for superficially plausible but invalid refinements."
+  },
+  {
+   "id": "high_optimizer_disagreement",
+   "timing": "after_pass_a_b_commit_before_reveal_reconciliation",
+   "quota": 8,
+   "candidate_rule": "both independently blinded optimizer outputs are committed and hashed for the deck",
+   "ranking_rule": "challenger-list hash disagreement first; then swap-pair symmetric-difference count descending; then count of cards cut by one pass and retained by the other descending; then deterministic tie break",
+   "rationale": "Human review must concentrate where the two independent objective functions disagree most; the formula is frozen before results exist."
+  },
+  {
+   "id": "major_change",
+   "timing": "after_reconciliation_before_approval_ready",
+   "quota": 8,
+   "candidate_rule": "reconciled challenger has at least 5 swaps OR changes a declared win route/package OR changes at least 3 mana-base slots",
+   "ranking_rule": "win-route change first; then required-package change count descending; then total swaps descending; then mana-base changes descending; then deterministic tie break",
+   "rationale": "Large structural changes deserve mandatory review even when optimizer agreement is high; the trigger and ranking are frozen before M6 results exist."
+  }
+ ],
+ "future_result_contract": {
+  "high_optimizer_disagreement": {
+   "required_fields": ["slug", "pass_a_hash", "pass_b_hash", "pass_a_challenger_hash", "pass_b_challenger_hash", "pass_a_swaps", "pass_b_swaps"],
+   "swap_identity": "ordered cut=>add pair string; pair order within each pass ignored for set comparison"
+  },
+  "major_change": {
+   "required_fields": ["slug", "total_swaps", "win_route_changed", "required_package_change_count", "mana_base_change_count"],
+   "note": "Selection occurs before APPROVAL_READY and before Cory sees a recommendation packet; no post-hoc reviewer choice changes the formula."
+  }
+ },
+ "review_output_requirement": {
+  "record_memberships": true,
+  "record_selection_inputs": true,
+  "record_policy_hash": true,
+  "review_status_initial": "pending",
+  "script_may_author_judgment": false
+ },
+ "limitations": [
+  "Sampling improves human oversight coverage; it does not prove unsampled decks are correct.",
+  "Strata may overlap substantially and that overlap is intentional.",
+  "Static risk metrics are review-priority diagnostics, not deck-quality scores.",
+  "Future dynamic strata cannot be populated until their pre-registered M6-stage inputs exist.",
+  "Cory may review more decks than the sampler selects; the sampler is a minimum review obligation, not a maximum."
+ ]
+}
