@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 10,
   "rituals": 0,
   "unconditional_tapped_lands": 3,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Sedris__the_Traitor_King",
@@ -249,14 +249,11 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Otawara, Soaring City",
    "Sokenzan, Crucible of Defiance",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

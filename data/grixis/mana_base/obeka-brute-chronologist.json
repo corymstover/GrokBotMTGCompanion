@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 8,
   "rituals": 0,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Obeka__Brute_Chronologist",
@@ -277,14 +277,11 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Minamo, School at Water's Edge",
    "Otawara, Soaring City",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

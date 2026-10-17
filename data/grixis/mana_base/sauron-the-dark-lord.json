@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 7,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 7
+  "utility_lands": 6
  },
  "deck_color_identity": "UBR",
  "deck_id": "Sauron__the_Dark_Lord",
@@ -250,17 +250,14 @@
   "colorless_only_utility_lands": [
    "Rogue's Passage"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Barad-dûr",
    "Minas Morgul, Dark Fortress",
    "Mount Doom",
    "Otawara, Soaring City",
    "Rogue's Passage",
-   "The Black Gate",
-   "Xander's Lounge"
+   "The Black Gate"
   ]
  }
 }

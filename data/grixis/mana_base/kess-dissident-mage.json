@@ -11,9 +11,9 @@
    "U": 0
   },
   "land_plus_repeatable_nonland": {
-   "B": 21,
-   "R": 22,
-   "U": 24
+   "B": 20,
+   "R": 21,
+   "U": 23
   },
   "land_sources": {
    "B": 14,
@@ -56,13 +56,13 @@
  "counts": {
   "conditional_mana_lands": 0,
   "conditional_tapped_lands": 7,
-  "fast_mana": 16,
+  "fast_mana": 15,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 27,
   "library_cards": 99,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 11,
+  "repeatable_nonland_sources": 10,
   "rituals": 3,
   "unconditional_tapped_lands": 0,
   "utility_lands": 3
@@ -71,7 +71,6 @@
  "deck_id": "Kess__Dissident_Mage",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Cabal Ritual",
   "Dark Ritual",

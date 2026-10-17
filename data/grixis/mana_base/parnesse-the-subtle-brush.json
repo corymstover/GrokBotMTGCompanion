@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 28,
-   "R": 31,
-   "U": 30
+   "B": 25,
+   "R": 28,
+   "U": 27
   },
   "land_sources": {
    "B": 19,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 6,
-  "fast_mana": 10,
+  "fast_mana": 9,
   "fetchlands": 8,
   "flex_land_mdfcs": 1,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 13,
+  "repeatable_nonland_sources": 10,
   "rituals": 1,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 2
+  "utility_lands": 1
  },
  "deck_color_identity": "UBR",
  "deck_id": "Parnesse__the_Subtle_Brush",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dark Ritual",
   "Fellwar Stone",
@@ -271,12 +270,9 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Otawara, Soaring City",
-   "Xander's Lounge"
+   "Otawara, Soaring City"
   ]
  }
 }

@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 9,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 2
+  "utility_lands": 1
  },
  "deck_color_identity": "UBR",
  "deck_id": "Tetsuo__Imperial_Champion",
@@ -249,12 +249,9 @@
   "colorless_only_utility_lands": [
    "Academy Ruins"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Academy Ruins",
-   "Xander's Lounge"
+   "Academy Ruins"
   ]
  }
 }

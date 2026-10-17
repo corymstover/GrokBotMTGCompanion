@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 10,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Crosis__the_Purger",
@@ -257,14 +257,11 @@
   "colorless_only_utility_lands": [
    "Geier Reach Sanitarium"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Geier Reach Sanitarium",
    "Plaza of Heroes",
-   "Shizo, Death's Storehouse",
-   "Xander's Lounge"
+   "Shizo, Death's Storehouse"
   ]
  }
 }

@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 26,
-   "R": 24,
-   "U": 25
+   "B": 25,
+   "R": 23,
+   "U": 24
   },
   "land_sources": {
    "B": 18,
@@ -62,10 +62,10 @@
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 11,
   "rituals": 1,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 3
+  "utility_lands": 2
  },
  "deck_color_identity": "UBR",
  "deck_id": "Tetsuo_Umezawa",
@@ -247,13 +247,10 @@
   "colorless_only_utility_lands": [
    "Maze of Ith"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Maze of Ith",
-   "Minamo, School at Water's Edge",
-   "Xander's Lounge"
+   "Minamo, School at Water's Edge"
   ]
  }
 }

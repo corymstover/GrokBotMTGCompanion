@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 25,
-   "R": 22,
-   "U": 24
+   "B": 23,
+   "R": 20,
+   "U": 22
   },
   "land_sources": {
    "B": 19,
@@ -62,10 +62,10 @@
   "lands": 31,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 8,
+  "repeatable_nonland_sources": 6,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 5
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Saruman__the_White_Hand",
@@ -250,15 +250,12 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Barad-dûr",
    "Mount Doom",
    "Otawara, Soaring City",
-   "The Black Gate",
-   "Xander's Lounge"
+   "The Black Gate"
   ]
  }
 }

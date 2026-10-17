@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 24,
-   "R": 24,
-   "U": 25
+   "B": 23,
+   "R": 23,
+   "U": 24
   },
   "land_sources": {
    "B": 18,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 7,
-  "fast_mana": 7,
+  "fast_mana": 6,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 8,
+  "repeatable_nonland_sources": 7,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 3
+  "utility_lands": 2
  },
  "deck_color_identity": "UBR",
  "deck_id": "Obeka__Splitter_of_Seconds",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Fellwar Stone",
   "Sol Ring",
@@ -273,13 +272,10 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Otawara, Soaring City",
-   "Shizo, Death's Storehouse",
-   "Xander's Lounge"
+   "Shizo, Death's Storehouse"
   ]
  }
 }

@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 25,
-   "R": 26,
-   "U": 25
+   "B": 23,
+   "R": 24,
+   "U": 23
   },
   "land_sources": {
    "B": 18,
@@ -56,13 +56,13 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 8,
-  "fast_mana": 10,
+  "fast_mana": 9,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 1,
-  "repeatable_nonland_sources": 9,
+  "repeatable_nonland_sources": 7,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
   "utility_lands": 3
@@ -71,7 +71,6 @@
  "deck_id": "Nathan_Drake__Treasure_Hunter",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dark Ritual",
   "Fellwar Stone",
@@ -280,13 +279,11 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
+   "Fire Nation Palace",
    "Otawara, Soaring City",
-   "Shizo, Death's Storehouse",
-   "Xander's Lounge"
+   "Shizo, Death's Storehouse"
   ]
  }
 }

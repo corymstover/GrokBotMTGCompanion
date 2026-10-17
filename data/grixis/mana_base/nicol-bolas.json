@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 12,
   "rituals": 3,
   "unconditional_tapped_lands": 3,
-  "utility_lands": 5
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Nicol_Bolas",
@@ -286,15 +286,12 @@
   "colorless_only_utility_lands": [
    "Command Beacon"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Command Beacon",
    "Otawara, Soaring City",
    "Shizo, Death's Storehouse",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

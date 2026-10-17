@@ -11,9 +11,9 @@
    "U": 3
   },
   "land_plus_repeatable_nonland": {
-   "B": 31,
-   "R": 30,
-   "U": 33
+   "B": 27,
+   "R": 26,
+   "U": 29
   },
   "land_sources": {
    "B": 22,
@@ -62,10 +62,10 @@
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 8,
   "rituals": 0,
   "unconditional_tapped_lands": 3,
-  "utility_lands": 2
+  "utility_lands": 1
  },
  "deck_color_identity": "UBR",
  "deck_id": "Admiral_Brass__Unsinkable",
@@ -222,12 +222,9 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Otawara, Soaring City",
-   "Xander's Lounge"
+   "Otawara, Soaring City"
   ]
  }
 }

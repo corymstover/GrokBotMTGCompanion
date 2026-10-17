@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 10,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 2
+  "utility_lands": 1
  },
  "deck_color_identity": "UBR",
  "deck_id": "The_Valeyard",
@@ -278,12 +278,9 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Otawara, Soaring City",
-   "Xander's Lounge"
+   "Otawara, Soaring City"
   ]
  }
 }

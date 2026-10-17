@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 31,
-   "R": 24,
-   "U": 25
+   "B": 28,
+   "R": 21,
+   "U": 22
   },
   "land_sources": {
    "B": 23,
@@ -62,10 +62,10 @@
   "lands": 36,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 9,
   "rituals": 1,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 3
+  "utility_lands": 2
  },
  "deck_color_identity": "UBR",
  "deck_id": "Thraximundar",
@@ -226,13 +226,10 @@
   "colorless_only_utility_lands": [
    "Command Beacon"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Command Beacon",
-   "Shizo, Death's Storehouse",
-   "Xander's Lounge"
+   "Shizo, Death's Storehouse"
   ]
  }
 }

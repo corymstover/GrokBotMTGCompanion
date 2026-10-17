@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 28,
-   "R": 20,
-   "U": 24
+   "B": 27,
+   "R": 19,
+   "U": 23
   },
   "land_sources": {
    "B": 23,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 7,
-  "fast_mana": 8,
+  "fast_mana": 7,
   "fetchlands": 3,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 6,
+  "repeatable_nonland_sources": 5,
   "rituals": 1,
   "unconditional_tapped_lands": 3,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Gwendlyn_Di_Corci",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dark Ritual",
   "Lion's Eye Diamond",
@@ -225,14 +224,11 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Minamo, School at Water's Edge",
    "Otawara, Soaring City",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

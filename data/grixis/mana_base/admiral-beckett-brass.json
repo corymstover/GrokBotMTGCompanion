@@ -11,9 +11,9 @@
    "U": 3
   },
   "land_plus_repeatable_nonland": {
-   "B": 30,
-   "R": 31,
-   "U": 35
+   "B": 26,
+   "R": 27,
+   "U": 31
   },
   "land_sources": {
    "B": 21,
@@ -62,10 +62,10 @@
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 8,
   "rituals": 0,
   "unconditional_tapped_lands": 3,
-  "utility_lands": 2
+  "utility_lands": 1
  },
  "deck_color_identity": "UBR",
  "deck_id": "Admiral_Beckett_Brass",
@@ -220,12 +220,9 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Otawara, Soaring City",
-   "Xander's Lounge"
+   "Otawara, Soaring City"
   ]
  }
 }

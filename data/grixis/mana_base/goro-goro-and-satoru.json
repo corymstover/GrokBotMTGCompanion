@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 26,
-   "R": 26,
-   "U": 30
+   "B": 24,
+   "R": 24,
+   "U": 28
   },
   "land_sources": {
    "B": 20,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 10,
-  "fast_mana": 7,
+  "fast_mana": 6,
   "fetchlands": 4,
   "flex_land_mdfcs": 0,
   "lands": 33,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 8,
+  "repeatable_nonland_sources": 6,
   "rituals": 0,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 3
+  "utility_lands": 2
  },
  "deck_color_identity": "UBR",
  "deck_id": "Goro_Goro_and_Satoru",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Fellwar Stone",
   "Sol Ring",
@@ -227,13 +226,10 @@
   "colorless_only_utility_lands": [
    "Rogue's Passage"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Otawara, Soaring City",
-   "Rogue's Passage",
-   "Xander's Lounge"
+   "Rogue's Passage"
   ]
  }
 }

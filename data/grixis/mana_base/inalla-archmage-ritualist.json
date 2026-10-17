@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 23,
-   "R": 20,
-   "U": 23
+   "B": 22,
+   "R": 19,
+   "U": 22
   },
   "land_sources": {
    "B": 16,
@@ -56,13 +56,13 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 4,
-  "fast_mana": 17,
+  "fast_mana": 16,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 27,
   "library_cards": 99,
   "one_shot_mana": 3,
-  "repeatable_nonland_sources": 10,
+  "repeatable_nonland_sources": 9,
   "rituals": 4,
   "unconditional_tapped_lands": 0,
   "utility_lands": 1
@@ -71,7 +71,6 @@
  "deck_id": "Inalla__Archmage_Ritualist",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Blood Pet",
   "Cabal Ritual",

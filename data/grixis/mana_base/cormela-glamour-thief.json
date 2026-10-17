@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 24,
-   "R": 23,
-   "U": 25
+   "B": 23,
+   "R": 22,
+   "U": 24
   },
   "land_sources": {
    "B": 18,
@@ -56,13 +56,13 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 15,
+  "fast_mana": 14,
   "fetchlands": 7,
   "flex_land_mdfcs": 0,
   "lands": 30,
   "library_cards": 99,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 9,
+  "repeatable_nonland_sources": 8,
   "rituals": 5,
   "unconditional_tapped_lands": 1,
   "utility_lands": 1
@@ -71,7 +71,6 @@
  "deck_id": "Cormela__Glamour_Thief",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Cabal Ritual",
   "Culling the Weak",

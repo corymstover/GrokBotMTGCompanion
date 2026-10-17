@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 23,
-   "R": 20,
-   "U": 23
+   "B": 22,
+   "R": 19,
+   "U": 22
   },
   "land_sources": {
    "B": 19,
@@ -62,10 +62,10 @@
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 7,
+  "repeatable_nonland_sources": 6,
   "rituals": 3,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 3
+  "utility_lands": 2
  },
  "deck_color_identity": "UBR",
  "deck_id": "Abaddon_the_Despoiler",
@@ -266,13 +266,10 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Otawara, Soaring City",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

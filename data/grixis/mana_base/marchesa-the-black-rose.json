@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 28,
-   "R": 24,
-   "U": 28
+   "B": 24,
+   "R": 20,
+   "U": 24
   },
   "land_sources": {
    "B": 20,
@@ -56,24 +56,22 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 8,
+  "fast_mana": 6,
   "fetchlands": 6,
   "flex_land_mdfcs": 0,
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 10,
+  "repeatable_nonland_sources": 6,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 5
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Marchesa__the_Black_Rose",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
-  "Deadly Dispute",
   "Fellwar Stone",
   "Sol Ring",
   "Talisman of Creativity",
@@ -250,15 +248,12 @@
    "Forge of Heroes",
    "High Market"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Forge of Heroes",
    "High Market",
    "Otawara, Soaring City",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

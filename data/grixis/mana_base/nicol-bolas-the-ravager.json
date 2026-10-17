@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 29,
-   "R": 27,
-   "U": 29
+   "B": 27,
+   "R": 25,
+   "U": 27
   },
   "land_sources": {
    "B": 19,
@@ -48,22 +48,21 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 6,
-  "fast_mana": 14,
+  "fast_mana": 13,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 1,
-  "repeatable_nonland_sources": 14,
+  "repeatable_nonland_sources": 12,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Nicol_Bolas__the_Ravager",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dimir Signet",
   "Fellwar Stone",
@@ -276,14 +275,11 @@
   "colorless_only_utility_lands": [
    "Karn's Bastion"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Karn's Bastion",
    "Otawara, Soaring City",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

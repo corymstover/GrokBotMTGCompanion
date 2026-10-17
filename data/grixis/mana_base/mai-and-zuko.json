@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 26,
-   "R": 25,
-   "U": 26
+   "B": 25,
+   "R": 23,
+   "U": 25
   },
   "land_sources": {
    "B": 18,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 12,
+  "fast_mana": 11,
   "fetchlands": 6,
   "flex_land_mdfcs": 0,
   "lands": 31,
   "library_cards": 99,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 14,
+  "repeatable_nonland_sources": 12,
   "rituals": 0,
   "unconditional_tapped_lands": 3,
-  "utility_lands": 6
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Mai_and_Zuko",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Fellwar Stone",
   "Lion's Eye Diamond",
@@ -253,19 +252,13 @@
  },
  "unresolved_cards": [],
  "utility_opportunity_cost": {
-  "colorless_only_utility_lands": [
-   "Urza's Saga"
-  ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Ally Encampment",
    "Otawara, Soaring City",
    "Sokenzan, Crucible of Defiance",
-   "Takenuma, Abandoned Mire",
-   "Urza's Saga",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

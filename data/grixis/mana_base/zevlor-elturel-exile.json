@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 23,
-   "R": 23,
-   "U": 25
+   "B": 21,
+   "R": 21,
+   "U": 23
   },
   "land_sources": {
    "B": 18,
@@ -62,10 +62,10 @@
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 8,
+  "repeatable_nonland_sources": 6,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 5
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Zevlor__Elturel_Exile",
@@ -273,15 +273,12 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Minamo, School at Water's Edge",
    "Otawara, Soaring City",
    "Sokenzan, Crucible of Defiance",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

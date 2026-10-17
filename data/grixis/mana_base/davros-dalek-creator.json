@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 7,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 6
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Davros__Dalek_Creator",
@@ -237,19 +237,14 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [
-   "Geier Reach Sanitarium",
-   "Urza's Saga"
+   "Geier Reach Sanitarium"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Fiery Islet",
    "Geier Reach Sanitarium",
    "Otawara, Soaring City",
-   "Plaza of Heroes",
-   "Urza's Saga",
-   "Xander's Lounge"
+   "Plaza of Heroes"
   ]
  }
 }

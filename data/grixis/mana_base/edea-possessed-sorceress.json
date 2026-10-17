@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 28,
-   "R": 26,
-   "U": 27
+   "B": 24,
+   "R": 22,
+   "U": 23
   },
   "land_sources": {
    "B": 19,
@@ -56,24 +56,22 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 9,
-  "fast_mana": 8,
+  "fast_mana": 6,
   "fetchlands": 3,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 11,
+  "repeatable_nonland_sources": 7,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Edea__Possessed_Sorceress",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
-  "Deadly Dispute",
   "Fellwar Stone",
   "Sol Ring",
   "Talisman of Creativity",
@@ -223,14 +221,11 @@
    "Arcane Lighthouse",
    "High Market"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Arcane Lighthouse",
    "High Market",
-   "Otawara, Soaring City",
-   "Xander's Lounge"
+   "Otawara, Soaring City"
   ]
  }
 }

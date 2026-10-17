@@ -11,9 +11,9 @@
    "U": 3
   },
   "land_plus_repeatable_nonland": {
-   "B": 30,
-   "R": 27,
-   "U": 28
+   "B": 29,
+   "R": 26,
+   "U": 27
   },
   "land_sources": {
    "B": 23,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 3,
   "conditional_tapped_lands": 6,
-  "fast_mana": 12,
+  "fast_mana": 11,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 38,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 11,
   "rituals": 0,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 7
+  "utility_lands": 6
  },
  "deck_color_identity": "UBR",
  "deck_id": "Garza_Zol__Plague_Queen",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dimir Signet",
   "Fellwar Stone",
@@ -281,17 +280,14 @@
    "Command Beacon",
    "Rogue's Passage"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Command Beacon",
    "Otawara, Soaring City",
    "Plaza of Heroes",
    "Rogue's Passage",
    "Shizo, Death's Storehouse",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

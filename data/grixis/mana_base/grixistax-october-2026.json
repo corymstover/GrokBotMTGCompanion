@@ -11,9 +11,9 @@
    "U": 0
   },
   "land_plus_repeatable_nonland": {
-   "B": 20,
-   "R": 18,
-   "U": 21
+   "B": 19,
+   "R": 17,
+   "U": 20
   },
   "land_sources": {
    "B": 15,
@@ -69,13 +69,13 @@
  "counts": {
   "conditional_mana_lands": 0,
   "conditional_tapped_lands": 4,
-  "fast_mana": 13,
+  "fast_mana": 12,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 26,
   "library_cards": 98,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 9,
+  "repeatable_nonland_sources": 8,
   "rituals": 2,
   "unconditional_tapped_lands": 0,
   "utility_lands": 1
@@ -84,7 +84,6 @@
  "deck_id": "Grixistax___October_2026",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Culling the Weak",
   "Dark Ritual",
   "Grim Monolith",

@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 28,
-   "R": 24,
-   "U": 24
+   "B": 24,
+   "R": 20,
+   "U": 20
   },
   "land_sources": {
    "B": 20,
@@ -56,16 +56,16 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 6,
-  "fast_mana": 8,
+  "fast_mana": 7,
   "fetchlands": 3,
   "flex_land_mdfcs": 1,
   "lands": 33,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 10,
+  "repeatable_nonland_sources": 6,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 4
+  "utility_lands": 3
  },
  "deck_color_identity": "UBR",
  "deck_id": "Tresserhorn_s_Lord__Returned",
@@ -73,7 +73,6 @@
  "fast_mana_cards": [
   "Arcane Signet",
   "Dark Ritual",
-  "Deadly Dispute",
   "Fellwar Stone",
   "Sol Ring",
   "Talisman of Creativity",
@@ -227,14 +226,11 @@
    "High Market",
    "Kher Keep"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "High Market",
    "Kher Keep",
-   "Shizo, Death's Storehouse",
-   "Xander's Lounge"
+   "Shizo, Death's Storehouse"
   ]
  }
 }

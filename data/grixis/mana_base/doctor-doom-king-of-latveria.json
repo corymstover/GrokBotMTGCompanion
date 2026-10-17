@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 35,
-   "R": 28,
-   "U": 31
+   "B": 32,
+   "R": 25,
+   "U": 28
   },
   "land_sources": {
    "B": 27,
@@ -62,10 +62,10 @@
   "lands": 38,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 10,
+  "repeatable_nonland_sources": 7,
   "rituals": 0,
   "unconditional_tapped_lands": 5,
-  "utility_lands": 8
+  "utility_lands": 5
  },
  "deck_color_identity": "UBR",
  "deck_id": "Doctor_Doom__King_of_Latveria",
@@ -228,20 +228,13 @@
    "Desolate Lighthouse",
    "Geier Reach Sanitarium"
   ],
-  "tapped_utility_lands": [
-   "Canyon Slough",
-   "Fetid Pools",
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Canyon Slough",
    "Desolate Lighthouse",
-   "Fetid Pools",
    "Geier Reach Sanitarium",
    "Otawara, Soaring City",
    "Takenuma, Abandoned Mire",
-   "Villainous Hideout",
-   "Xander's Lounge"
+   "Villainous Hideout"
   ]
  }
 }

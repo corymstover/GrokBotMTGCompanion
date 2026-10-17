@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 9,
   "rituals": 1,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 6
+  "utility_lands": 5
  },
  "deck_color_identity": "UBR",
  "deck_id": "Sauron__Lord_of_the_Rings",
@@ -252,16 +252,13 @@
   "colorless_only_utility_lands": [
    "Command Beacon"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Barad-dûr",
    "Command Beacon",
    "Mount Doom",
    "Otawara, Soaring City",
-   "The Black Gate",
-   "Xander's Lounge"
+   "The Black Gate"
   ]
  }
 }

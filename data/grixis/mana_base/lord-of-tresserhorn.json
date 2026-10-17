@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 32,
-   "R": 25,
-   "U": 26
+   "B": 29,
+   "R": 22,
+   "U": 23
   },
   "land_sources": {
    "B": 23,
@@ -56,16 +56,16 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 7,
-  "fast_mana": 9,
+  "fast_mana": 8,
   "fetchlands": 5,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 11,
+  "repeatable_nonland_sources": 8,
   "rituals": 0,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 6
+  "utility_lands": 5
  },
  "deck_color_identity": "UBR",
  "deck_id": "Lord_of_Tresserhorn",
@@ -75,7 +75,6 @@
   "Dimir Signet",
   "Fellwar Stone",
   "Rakdos Signet",
-  "Shambling Ghast",
   "Sol Ring",
   "Talisman of Creativity",
   "Talisman of Dominance",
@@ -242,16 +241,13 @@
    "High Market",
    "Rogue's Passage"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "High Market",
    "Otawara, Soaring City",
    "Rogue's Passage",
    "Shizo, Death's Storehouse",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

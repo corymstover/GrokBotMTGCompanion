@@ -11,9 +11,9 @@
    "U": 0
   },
   "land_plus_repeatable_nonland": {
-   "B": 22,
-   "R": 19,
-   "U": 22
+   "B": 20,
+   "R": 17,
+   "U": 20
   },
   "land_sources": {
    "B": 14,
@@ -65,13 +65,13 @@
  "counts": {
   "conditional_mana_lands": 0,
   "conditional_tapped_lands": 3,
-  "fast_mana": 18,
+  "fast_mana": 16,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 24,
   "library_cards": 98,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 11,
+  "repeatable_nonland_sources": 9,
   "rituals": 5,
   "unconditional_tapped_lands": 1,
   "utility_lands": 1
@@ -80,7 +80,6 @@
  "deck_id": "RogSi",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Cabal Ritual",
   "Culling the Weak",
@@ -93,7 +92,6 @@
   "Mox Amber",
   "Mox Diamond",
   "Mox Opal",
-  "Paradise Mantle",
   "Rite of Flame",
   "Sol Ring",
   "Springleaf Drum",

@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 23,
-   "R": 22,
-   "U": 25
+   "B": 21,
+   "R": 20,
+   "U": 23
   },
   "land_sources": {
    "B": 15,
@@ -56,33 +56,34 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 12,
+  "fast_mana": 13,
   "fetchlands": 3,
   "flex_land_mdfcs": 0,
   "lands": 33,
   "library_cards": 99,
   "one_shot_mana": 1,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 13,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 7
+  "utility_lands": 5
  },
  "deck_color_identity": "UBR",
  "deck_id": "Ashnod_the_Uncaring",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Fellwar Stone",
+  "Great Furnace",
   "Lotus Petal",
   "Mind Stone",
-  "Moonsilver Key",
   "Mox Opal",
+  "Seat of the Synod",
   "Sol Ring",
   "Talisman of Creativity",
   "Talisman of Dominance",
   "Talisman of Indulgence",
-  "Wayfarer's Bauble"
+  "Treasure Vault",
+  "Vault of Whispers"
  ],
  "inputs": {
   "canonical_export": "exports/grixis-archidekt/ashnod-the-uncaring.txt",
@@ -229,20 +230,15 @@
    "Academy Ruins",
    "Buried Ruin",
    "Inventors' Fair",
-   "Treasure Vault",
-   "Urza's Saga"
+   "Treasure Vault"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Academy Ruins",
    "Buried Ruin",
    "Inventors' Fair",
    "Otawara, Soaring City",
-   "Treasure Vault",
-   "Urza's Saga",
-   "Xander's Lounge"
+   "Treasure Vault"
   ]
  }
 }

@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 21,
-   "R": 21,
-   "U": 22
+   "B": 20,
+   "R": 20,
+   "U": 21
   },
   "land_sources": {
    "B": 13,
@@ -54,7 +54,7 @@
   "lands": 23,
   "library_cards": 99,
   "one_shot_mana": 2,
-  "repeatable_nonland_sources": 12,
+  "repeatable_nonland_sources": 11,
   "rituals": 4,
   "unconditional_tapped_lands": 0,
   "utility_lands": 1

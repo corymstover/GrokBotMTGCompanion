@@ -11,9 +11,9 @@
    "U": 0
   },
   "land_plus_repeatable_nonland": {
-   "B": 25,
-   "R": 23,
-   "U": 28
+   "B": 24,
+   "R": 22,
+   "U": 27
   },
   "land_sources": {
    "B": 17,
@@ -56,32 +56,34 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 11,
+  "fast_mana": 13,
   "fetchlands": 6,
   "flex_land_mdfcs": 0,
   "lands": 34,
   "library_cards": 99,
   "one_shot_mana": 1,
-  "repeatable_nonland_sources": 14,
+  "repeatable_nonland_sources": 16,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 6
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Mishra__Eminent_One",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
+  "Darksteel Citadel",
+  "Great Furnace",
   "Lotus Petal",
   "Mana Vault",
   "Mox Diamond",
   "Mox Opal",
-  "Prized Statue",
+  "Seat of the Synod",
   "Sol Ring",
   "Talisman of Creativity",
   "Talisman of Dominance",
-  "Talisman of Indulgence"
+  "Talisman of Indulgence",
+  "Vault of Whispers"
  ],
  "inputs": {
   "canonical_export": "exports/grixis-archidekt/mishra-eminent-one.txt",
@@ -253,19 +255,14 @@
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [
    "Academy Ruins",
-   "Inventors' Fair",
-   "Urza's Saga"
+   "Inventors' Fair"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Academy Ruins",
    "Inventors' Fair",
    "Otawara, Soaring City",
-   "Takenuma, Abandoned Mire",
-   "Urza's Saga",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }

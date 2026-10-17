@@ -65,7 +65,7 @@
   "repeatable_nonland_sources": 7,
   "rituals": 0,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 1
+  "utility_lands": 0
  },
  "deck_color_identity": "UBR",
  "deck_id": "Lynde__Cheerful_Tormentor",
@@ -246,11 +246,7 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
-  "utility_lands": [
-   "Xander's Lounge"
-  ]
+  "tapped_utility_lands": [],
+  "utility_lands": []
  }
 }

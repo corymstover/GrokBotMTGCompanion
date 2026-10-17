@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 31,
-   "R": 30,
-   "U": 32
+   "B": 26,
+   "R": 25,
+   "U": 27
   },
   "land_sources": {
    "B": 20,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 6,
-  "fast_mana": 11,
+  "fast_mana": 10,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 1,
-  "repeatable_nonland_sources": 14,
+  "repeatable_nonland_sources": 9,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 3
+  "utility_lands": 1
  },
  "deck_color_identity": "UBR",
  "deck_id": "Edward_Kenway",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Fellwar Stone",
   "Lotus Petal",
@@ -278,16 +277,10 @@
  },
  "unresolved_cards": [],
  "utility_opportunity_cost": {
-  "colorless_only_utility_lands": [
-   "Urza's Saga"
-  ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
   "utility_lands": [
-   "Otawara, Soaring City",
-   "Urza's Saga",
-   "Xander's Lounge"
+   "Otawara, Soaring City"
   ]
  }
 }

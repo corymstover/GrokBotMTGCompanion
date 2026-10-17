@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 22,
-   "R": 21,
-   "U": 22
+   "B": 21,
+   "R": 20,
+   "U": 21
   },
   "land_sources": {
    "B": 18,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 9,
+  "fast_mana": 8,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 35,
   "library_cards": 99,
   "one_shot_mana": 0,
-  "repeatable_nonland_sources": 8,
+  "repeatable_nonland_sources": 7,
   "rituals": 1,
   "unconditional_tapped_lands": 2,
-  "utility_lands": 5
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Nekusar__the_Mindrazer",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dark Ritual",
   "Grim Monolith",
@@ -281,15 +280,12 @@
    "Mikokoro, Center of the Sea",
    "Reliquary Tower"
   ],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Geier Reach Sanitarium",
    "Mikokoro, Center of the Sea",
    "Otawara, Soaring City",
-   "Reliquary Tower",
-   "Xander's Lounge"
+   "Reliquary Tower"
   ]
  }
 }

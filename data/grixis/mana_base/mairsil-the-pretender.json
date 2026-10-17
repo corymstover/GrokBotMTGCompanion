@@ -11,9 +11,9 @@
    "U": 0
   },
   "land_plus_repeatable_nonland": {
-   "B": 27,
-   "R": 28,
-   "U": 29
+   "B": 26,
+   "R": 27,
+   "U": 28
   },
   "land_sources": {
    "B": 17,
@@ -56,22 +56,21 @@
  "counts": {
   "conditional_mana_lands": 0,
   "conditional_tapped_lands": 10,
-  "fast_mana": 14,
+  "fast_mana": 13,
   "fetchlands": 3,
   "flex_land_mdfcs": 0,
   "lands": 32,
   "library_cards": 99,
   "one_shot_mana": 1,
-  "repeatable_nonland_sources": 15,
+  "repeatable_nonland_sources": 14,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
-  "utility_lands": 5
+  "utility_lands": 4
  },
  "deck_color_identity": "UBR",
  "deck_id": "Mairsil__the_Pretender",
  "evidence_class": "derived_metric",
  "fast_mana_cards": [
-  "An Offer You Can't Refuse",
   "Arcane Signet",
   "Dimir Signet",
   "Fellwar Stone",
@@ -228,15 +227,12 @@
  "unresolved_cards": [],
  "utility_opportunity_cost": {
   "colorless_only_utility_lands": [],
-  "tapped_utility_lands": [
-   "Xander's Lounge"
-  ],
+  "tapped_utility_lands": [],
   "utility_lands": [
    "Minamo, School at Water's Edge",
    "Otawara, Soaring City",
    "Sokenzan, Crucible of Defiance",
-   "Takenuma, Abandoned Mire",
-   "Xander's Lounge"
+   "Takenuma, Abandoned Mire"
   ]
  }
 }
