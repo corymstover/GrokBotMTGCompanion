@@ -1,4 +1,3 @@
-import copy
 import sys
 from pathlib import Path
 
@@ -29,7 +28,7 @@ def test_disable_fast_mana_preserves_library_but_removes_mana_mode():
     o=next(x for x in z.library if x["name"]=="Other")
     assert f["source"] is None and f["cost"]["generic"]==99 and "oneshot" not in f["v11"]
     assert o["source"]==(frozenset("B"),1)
-    assert d.library[0]["source"]==(frozenset("C"),2)  # deep-copy: original untouched
+    assert d.library[0]["source"]==(frozenset("C"),2)
 
 
 def test_isolate_commander_keeps_99_and_color_identity():
@@ -42,12 +41,7 @@ def test_isolate_commander_keeps_99_and_color_identity():
 
 
 def test_recovery_metrics_condition_on_actual_removal():
-    recs=[
-        {"removals":[2],"recasts":[4]},
-        {"removals":[3],"recasts":[4]},
-        {"removals":[3],"recasts":[]},
-        {"removals":[],"recasts":[]},
-    ]
+    recs=[{"removals":[2],"recasts":[4]},{"removals":[3],"recasts":[4]},{"removals":[3],"recasts":[]},{"removals":[],"recasts":[]}]
     r=cm.recovery(recs,0)
     assert r["removal_event_share"]==0.75
     assert r["recast_share_given_removal"]==round(2/3,6)
@@ -57,14 +51,9 @@ def test_recovery_metrics_condition_on_actual_removal():
 
 
 def test_second_recovery_uses_second_event_only():
-    recs=[
-        {"removals":[2,5],"recasts":[3,8]},
-        {"removals":[2],"recasts":[4]},
-        {"removals":[3,7],"recasts":[4]},
-    ]
+    recs=[{"removals":[2,5],"recasts":[3,8]},{"removals":[2],"recasts":[4]},{"removals":[3,7],"recasts":[4]}]
     r=cm.recovery(recs,1)
-    assert r["event_count"]==2
-    assert r["recast_count"]==1
+    assert r["event_count"]==2 and r["recast_count"]==1
     assert r["recast_share_given_removal"]==0.5
     assert r["recovery_turns_mean_when_recast"]["value"]==3.0
 
@@ -78,14 +67,11 @@ def test_paired_fast_delta_sign():
 
 
 def test_real_abaddon_small_sample_smoke():
+    import random
     d=sim.load_deck("abaddon-the-despoiler")
     iso=cm.isolate_commander(d,"Abaddon the Despoiler")
     perms=cm.permutations(iso,samples=8,seed=123)
-    # Override the module seed only for RNG consumed after the fixed permutations; this is a structural smoke test.
-    rec=[]
-    for i,p in enumerate(perms):
-        import random
-        rec.append(sim.play_game(iso,random.Random(sim.seed_for(123,i)),turns=6,perm=p,scenario=None,model="1.1"))
+    rec=[sim.play_game(iso,random.Random(sim.seed_for(123,i)),turns=cm.TURNS,perm=p,scenario=None,model="1.1") for i,p in enumerate(perms)]
     s=cm.cast_summary(rec)
     assert 0<=s["cast_share_by_turn10"]<=1
-    assert len(s["mana_available_by_turn"])==6
+    assert len(s["mana_available_by_turn"])==cm.TURNS
