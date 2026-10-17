@@ -1,0 +1,237 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 24,
+   "R": 24,
+   "U": 24
+  },
+  "land_sources": {
+   "B": 17,
+   "R": 18,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 15,
+   "R": 16,
+   "U": 15
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 16,
+   "R": 17,
+   "U": 16
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.756794,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Cult of Skaro",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.888913,
+    "R": 0.903815,
+    "U": 0.888913
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 7,
+  "fast_mana": 12,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 34,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 12,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 3
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Cult_of_Skaro",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Great Furnace",
+  "Mana Vault",
+  "Mox Opal",
+  "Seat of the Synod",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "Vault of Whispers"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/cult-of-skaro.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 3,
+   "Mountain": 3,
+   "Plains": 0,
+   "Swamp": 3
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 8,
+   "Mountain": 8,
+   "Plains": 0,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 44,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 2,
+   "U": 6
+  },
+  "mv_le_2": {
+   "B": 3.0,
+   "R": 4.0,
+   "U": 10.0
+  },
+  "mv_le_3": {
+   "B": 6.0,
+   "R": 7.0,
+   "U": 16.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 22.0,
+   "R": 15.0,
+   "U": 33.0
+  },
+  "share": {
+   "B": 0.3143,
+   "R": 0.2143,
+   "U": 0.4714
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "cult-of-skaro",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.653977,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.882395,
+   "per_color_at_least_one_land_source": {
+    "B": 0.830707,
+    "R": 0.849288,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.882395
+  },
+  "3": {
+   "all_three_land_source_presence": 0.708849,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.736993,
+   "per_color_at_least_one_land_source": {
+    "B": 0.862684,
+    "R": 0.87943,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.736993
+  },
+  "4": {
+   "all_three_land_source_presence": 0.756794,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.562728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.888913,
+    "R": 0.903815,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.562728
+  },
+  "5": {
+   "all_three_land_source_presence": 0.798218,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.393908,
+   "per_color_at_least_one_land_source": {
+    "B": 0.910373,
+    "R": 0.923489,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.393908
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair",
+   "Plaza of Heroes"
+  ]
+ }
+}

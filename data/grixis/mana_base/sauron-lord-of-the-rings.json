@@ -1,0 +1,264 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 25,
+   "R": 20,
+   "U": 22
+  },
+  "land_sources": {
+   "B": 20,
+   "R": 15,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 19,
+   "R": 14,
+   "U": 16
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 19,
+   "R": 14,
+   "U": 16
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.882455,
+   "base_resource_target": 8,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 10,
+   "mana_cost": "{5}{U}{B}{R}",
+   "mana_value": 8.0,
+   "name": "Sauron, Lord of the Rings",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.974962,
+    "R": 0.931221,
+    "U": 0.953713
+   },
+   "second_recast_resource_target": 12
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 8,
+  "fast_mana": 9,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 32,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 9,
+  "rituals": 1,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 5
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Grim Monolith",
+  "Mana Vault",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/sauron-lord-of-the-rings.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 2
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 6,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 55,
+  "double_pip_spell_count": {
+   "B": 8,
+   "R": 1,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 12.0,
+   "R": 3.0,
+   "U": 6.0
+  },
+  "mv_le_3": {
+   "B": 21.0,
+   "R": 6.0,
+   "U": 10.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 44.0,
+   "R": 15.0,
+   "U": 18.0
+  },
+  "share": {
+   "B": 0.5714,
+   "R": 0.1948,
+   "U": 0.2338
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "sauron-lord-of-the-rings",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.650746,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.854726,
+   "per_color_at_least_one_land_source": {
+    "B": 0.881105,
+    "R": 0.787331,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.854726
+  },
+  "3": {
+   "all_three_land_source_presence": 0.704542,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.688604,
+   "per_color_at_least_one_land_source": {
+    "B": 0.907526,
+    "R": 0.822776,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.688604
+  },
+  "4": {
+   "all_three_land_source_presence": 0.751607,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.501949,
+   "per_color_at_least_one_land_source": {
+    "B": 0.928307,
+    "R": 0.852645,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.501949
+  },
+  "5": {
+   "all_three_land_source_presence": 0.792377,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.332793,
+   "per_color_at_least_one_land_source": {
+    "B": 0.944601,
+    "R": 0.877762,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.332793
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Command Beacon"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Barad-dûr",
+   "Command Beacon",
+   "Mount Doom",
+   "Otawara, Soaring City",
+   "The Black Gate"
+  ]
+ }
+}

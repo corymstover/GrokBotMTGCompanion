@@ -1,0 +1,238 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 24,
+   "R": 25,
+   "U": 29
+  },
+  "land_sources": {
+   "B": 19,
+   "R": 19,
+   "U": 21
+  },
+  "unconditional_land_sources": {
+   "B": 17,
+   "R": 17,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 18,
+   "R": 18,
+   "U": 20
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.820158,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "The Rani",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.916877,
+    "R": 0.916877,
+    "U": 0.938289
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 9,
+  "fast_mana": 9,
+  "fetchlands": 4,
+  "flex_land_mdfcs": 0,
+  "lands": 33,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 11,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 1
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "The_Rani",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Izzet Signet",
+  "Red Death, Shipwrecker",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/the-rani.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 3,
+   "Mountain": 3,
+   "Plains": 0,
+   "Swamp": 3
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 8,
+   "Mountain": 8,
+   "Plains": 0,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 52,
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 3,
+   "U": 4
+  },
+  "mv_le_2": {
+   "B": 6.0,
+   "R": 8.0,
+   "U": 10.0
+  },
+  "mv_le_3": {
+   "B": 10.5,
+   "R": 14.5,
+   "U": 15.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 15.5,
+   "R": 25.5,
+   "U": 28.0
+  },
+  "share": {
+   "B": 0.2246,
+   "R": 0.3696,
+   "U": 0.4058
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "the-rani",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.726323,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.869123,
+   "per_color_at_least_one_land_source": {
+    "B": 0.866033,
+    "R": 0.866033,
+    "U": 0.89465
+   },
+   "strict_land_drop_probability": 0.869123
+  },
+  "3": {
+   "all_three_land_source_presence": 0.777289,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.713398,
+   "per_color_at_least_one_land_source": {
+    "B": 0.894315,
+    "R": 0.894315,
+    "U": 0.919231
+   },
+   "strict_land_drop_probability": 0.713398
+  },
+  "4": {
+   "all_three_land_source_presence": 0.820158,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.532594,
+   "per_color_at_least_one_land_source": {
+    "B": 0.916877,
+    "R": 0.916877,
+    "U": 0.938289
+   },
+   "strict_land_drop_probability": 0.532594
+  },
+  "5": {
+   "all_three_land_source_presence": 0.855815,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.363089,
+   "per_color_at_least_one_land_source": {
+    "B": 0.934824,
+    "R": 0.934824,
+    "U": 0.953016
+   },
+   "strict_land_drop_probability": 0.363089
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City"
+  ]
+ }
+}

@@ -1,0 +1,305 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 19,
+   "R": 17,
+   "U": 20
+  },
+  "land_sources": {
+   "B": 15,
+   "R": 13,
+   "U": 15
+  },
+  "unconditional_land_sources": {
+   "B": 15,
+   "R": 13,
+   "U": 15
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 15,
+   "R": 13,
+   "U": 15
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.764049,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{3}{U}{R}",
+   "mana_value": 5.0,
+   "name": "Kraum, Ludevic's Opus",
+   "per_color_source_presence_by_base_turn": {
+    "R": 0.838037,
+    "U": 0.880773
+   },
+   "second_recast_resource_target": 9
+  },
+  {
+   "all_required_colors_present_by_base_turn": 0.880773,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{4}{B}",
+   "mana_value": 5.0,
+   "name": "Tevesh Szat, Doom of Fools",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.880773
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 0,
+  "conditional_tapped_lands": 4,
+  "fast_mana": 12,
+  "fetchlands": 9,
+  "flex_land_mdfcs": 0,
+  "lands": 26,
+  "library_cards": 98,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 8,
+  "rituals": 2,
+  "unconditional_tapped_lands": 0,
+  "utility_lands": 1
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Grixistax___October_2026",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Culling the Weak",
+  "Dark Ritual",
+  "Grim Monolith",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Amber",
+  "Mox Diamond",
+  "Mox Opal",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/grixistax-october-2026.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 5,
+   "Mountain": 5,
+   "Plains": 0,
+   "Swamp": 5
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 48,
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 0,
+   "U": 5
+  },
+  "mv_le_2": {
+   "B": 11.0,
+   "R": 5.0,
+   "U": 11.0
+  },
+  "mv_le_3": {
+   "B": 18.0,
+   "R": 10.0,
+   "U": 20.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 27.0,
+   "R": 10.0,
+   "U": 25.0
+  },
+  "share": {
+   "B": 0.4355,
+   "R": 0.1613,
+   "U": 0.4032
+  }
+ },
+ "ritual_cards": [
+  "Culling the Weak",
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.554486,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.748163,
+   "per_color_at_least_one_land_source": {
+    "B": 0.791129,
+    "R": 0.738361,
+    "U": 0.791129
+   },
+   "strict_land_drop_probability": 0.748163
+  },
+  "3": {
+   "all_three_land_source_presence": 0.609682,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.52597,
+   "per_color_at_least_one_land_source": {
+    "B": 0.826332,
+    "R": 0.776578,
+    "U": 0.826332
+   },
+   "strict_land_drop_probability": 0.52597
+  },
+  "4": {
+   "all_three_land_source_presence": 0.660075,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.323977,
+   "per_color_at_least_one_land_source": {
+    "B": 0.855934,
+    "R": 0.809583,
+    "U": 0.855934
+   },
+   "strict_land_drop_probability": 0.323977
+  },
+  "5": {
+   "all_three_land_source_presence": 0.705618,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.177125,
+   "per_color_at_least_one_land_source": {
+    "B": 0.880773,
+    "R": 0.838037,
+    "U": 0.880773
+   },
+   "strict_land_drop_probability": 0.177125
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City"
+  ]
+ }
+}

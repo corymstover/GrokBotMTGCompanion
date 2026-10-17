@@ -1,0 +1,258 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 30,
+   "R": 27,
+   "U": 30
+  },
+  "land_sources": {
+   "B": 23,
+   "R": 20,
+   "U": 23
+  },
+  "unconditional_land_sources": {
+   "B": 21,
+   "R": 18,
+   "U": 21
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 21,
+   "R": 18,
+   "U": 21
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.867794,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Don Andres, the Renegade",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.954565,
+    "R": 0.928307,
+    "U": 0.954565
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 9,
+  "fast_mana": 10,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 35,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 10,
+  "rituals": 0,
+  "unconditional_tapped_lands": 2,
+  "utility_lands": 2
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Don_Andres__the_Renegade",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Izzet Signet",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "Thieving Varmint"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/don-andres-the-renegade.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 52,
+  "double_pip_spell_count": {
+   "B": 9,
+   "R": 4,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 10.0,
+   "R": 5.0,
+   "U": 5.0
+  },
+  "mv_le_3": {
+   "B": 18.0,
+   "R": 13.0,
+   "U": 8.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 36.0,
+   "R": 27.0,
+   "U": 16.0
+  },
+  "share": {
+   "B": 0.4557,
+   "R": 0.3418,
+   "U": 0.2025
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "don-andres-the-renegade",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.784895,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.894597,
+   "per_color_at_least_one_land_source": {
+    "B": 0.917698,
+    "R": 0.881105,
+    "U": 0.917698
+   },
+   "strict_land_drop_probability": 0.894597
+  },
+  "3": {
+   "all_three_land_source_presence": 0.830692,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.759362,
+   "per_color_at_least_one_land_source": {
+    "B": 0.938731,
+    "R": 0.907526,
+    "U": 0.938731
+   },
+   "strict_land_drop_probability": 0.759362
+  },
+  "4": {
+   "all_three_land_source_presence": 0.867794,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.592219,
+   "per_color_at_least_one_land_source": {
+    "B": 0.954565,
+    "R": 0.928307,
+    "U": 0.954565
+   },
+   "strict_land_drop_probability": 0.592219
+  },
+  "5": {
+   "all_three_land_source_presence": 0.897521,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.425075,
+   "per_color_at_least_one_land_source": {
+    "B": 0.96644,
+    "R": 0.944601,
+    "U": 0.96644
+   },
+   "strict_land_drop_probability": 0.425075
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire"
+  ]
+ }
+}

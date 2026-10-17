@@ -1,0 +1,308 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 20,
+   "R": 17,
+   "U": 20
+  },
+  "land_sources": {
+   "B": 14,
+   "R": 12,
+   "U": 14
+  },
+  "unconditional_land_sources": {
+   "B": 14,
+   "R": 12,
+   "U": 14
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 13,
+   "R": 12,
+   "U": 13
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 1.0,
+   "base_resource_target": 1,
+   "colored_requirements": {},
+   "first_recast_resource_target": 3,
+   "mana_cost": "{0}",
+   "mana_value": 0.0,
+   "name": "Rograkh, Son of Rohgahh",
+   "per_color_source_presence_by_base_turn": {},
+   "second_recast_resource_target": 5
+  },
+  {
+   "all_required_colors_present_by_base_turn": 0.69557,
+   "base_resource_target": 3,
+   "colored_requirements": {
+    "B": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 5,
+   "mana_cost": "{1}{U}{B}",
+   "mana_value": 3.0,
+   "name": "Silas Renn, Seeker Adept",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.802863,
+    "U": 0.802863
+   },
+   "second_recast_resource_target": 7
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 0,
+  "conditional_tapped_lands": 3,
+  "fast_mana": 16,
+  "fetchlands": 9,
+  "flex_land_mdfcs": 0,
+  "lands": 24,
+  "library_cards": 98,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 9,
+  "rituals": 5,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 1
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "RogSi",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Culling the Weak",
+  "Dark Ritual",
+  "Grim Monolith",
+  "Infernal Plunge",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Amber",
+  "Mox Diamond",
+  "Mox Opal",
+  "Rite of Flame",
+  "Sol Ring",
+  "Springleaf Drum",
+  "Talisman of Dominance"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/rograkh-son-of-rohgahh-silas-renn.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 0,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 0
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 5,
+   "Mountain": 4,
+   "Plains": 0,
+   "Swamp": 5
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 54,
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 3,
+   "U": 4
+  },
+  "mv_le_2": {
+   "B": 12.0,
+   "R": 12.0,
+   "U": 13.0
+  },
+  "mv_le_3": {
+   "B": 22.0,
+   "R": 18.0,
+   "U": 20.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 28.0,
+   "R": 18.0,
+   "U": 24.0
+  },
+  "share": {
+   "B": 0.4,
+   "R": 0.2571,
+   "U": 0.3429
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Culling the Weak",
+  "Dark Ritual",
+  "Infernal Plunge",
+  "Rite of Flame"
+ ],
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.526831,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.699911,
+   "per_color_at_least_one_land_source": {
+    "B": 0.766064,
+    "R": 0.70778,
+    "U": 0.766064
+   },
+   "strict_land_drop_probability": 0.699911
+  },
+  "3": {
+   "all_three_land_source_presence": 0.580326,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.462308,
+   "per_color_at_least_one_land_source": {
+    "B": 0.802863,
+    "R": 0.74718,
+    "U": 0.802863
+   },
+   "strict_land_drop_probability": 0.462308
+  },
+  "4": {
+   "all_three_land_source_presence": 0.629727,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.264305,
+   "per_color_at_least_one_land_source": {
+    "B": 0.834226,
+    "R": 0.781656,
+    "U": 0.834226
+   },
+   "strict_land_drop_probability": 0.264305
+  },
+  "5": {
+   "all_three_land_source_presence": 0.674933,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.132872,
+   "per_color_at_least_one_land_source": {
+    "B": 0.860902,
+    "R": 0.811772,
+    "U": 0.860902
+   },
+   "strict_land_drop_probability": 0.132872
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City"
+  ]
+ }
+}

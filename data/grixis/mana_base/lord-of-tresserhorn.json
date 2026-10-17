@@ -1,0 +1,253 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 29,
+   "R": 22,
+   "U": 23
+  },
+  "land_sources": {
+   "B": 23,
+   "R": 17,
+   "U": 18
+  },
+  "unconditional_land_sources": {
+   "B": 21,
+   "R": 15,
+   "U": 16
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 21,
+   "R": 16,
+   "U": 17
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.798563,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Lord of Tresserhorn",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.954565,
+    "R": 0.888913,
+    "U": 0.903815
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 7,
+  "fast_mana": 8,
+  "fetchlands": 5,
+  "flex_land_mdfcs": 0,
+  "lands": 35,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 8,
+  "rituals": 0,
+  "unconditional_tapped_lands": 2,
+  "utility_lands": 5
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Lord_of_Tresserhorn",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/lord-of-tresserhorn.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 3
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 6,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 47,
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 1,
+   "U": 1
+  },
+  "mv_le_2": {
+   "B": 24.0,
+   "R": 3.0,
+   "U": 8.0
+  },
+  "mv_le_3": {
+   "B": 29.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 32.0,
+   "R": 11.0,
+   "U": 12.0
+  },
+  "share": {
+   "B": 0.5818,
+   "R": 0.2,
+   "U": 0.2182
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.701366,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.894597,
+   "per_color_at_least_one_land_source": {
+    "B": 0.917698,
+    "R": 0.830707,
+    "U": 0.849288
+   },
+   "strict_land_drop_probability": 0.894597
+  },
+  "3": {
+   "all_three_land_source_presence": 0.753905,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.759362,
+   "per_color_at_least_one_land_source": {
+    "B": 0.938731,
+    "R": 0.862684,
+    "U": 0.87943
+   },
+   "strict_land_drop_probability": 0.759362
+  },
+  "4": {
+   "all_three_land_source_presence": 0.798563,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.592219,
+   "per_color_at_least_one_land_source": {
+    "B": 0.954565,
+    "R": 0.888913,
+    "U": 0.903815
+   },
+   "strict_land_drop_probability": 0.592219
+  },
+  "5": {
+   "all_three_land_source_presence": 0.83613,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.425075,
+   "per_color_at_least_one_land_source": {
+    "B": 0.96644,
+    "R": 0.910373,
+    "U": 0.923489
+   },
+   "strict_land_drop_probability": 0.425075
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "High Market",
+   "Rogue's Passage"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "High Market",
+   "Otawara, Soaring City",
+   "Rogue's Passage",
+   "Shizo, Death's Storehouse",
+   "Takenuma, Abandoned Mire"
+  ]
+ }
+}

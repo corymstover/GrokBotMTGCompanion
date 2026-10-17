@@ -1,0 +1,230 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 28,
+   "R": 24,
+   "U": 25
+  },
+  "land_sources": {
+   "B": 23,
+   "R": 19,
+   "U": 21
+  },
+  "unconditional_land_sources": {
+   "B": 21,
+   "R": 17,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 19,
+   "R": 16,
+   "U": 18
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.904094,
+   "base_resource_target": 6,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 8,
+   "mana_cost": "{3}{U}{B}{R}",
+   "mana_value": 6.0,
+   "name": "Be'lakor, the Dark Master",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.975312,
+    "R": 0.949058,
+    "U": 0.964357
+   },
+   "second_recast_resource_target": 10
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 11,
+  "fast_mana": 8,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 36,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 7,
+  "rituals": 1,
+  "unconditional_tapped_lands": 4,
+  "utility_lands": 1
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/belakor-the-dark-master.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 3,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 4
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 9,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 10
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 52,
+  "double_pip_spell_count": {
+   "B": 17,
+   "R": 3,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 8.0,
+   "R": 0.0,
+   "U": 3.0
+  },
+  "mv_le_3": {
+   "B": 15.0,
+   "R": 4.0,
+   "U": 5.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 55.0,
+   "R": 19.0,
+   "U": 13.0
+  },
+  "share": {
+   "B": 0.6322,
+   "R": 0.2184,
+   "U": 0.1494
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "belakor-the-dark-master",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.754923,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.905783,
+   "per_color_at_least_one_land_source": {
+    "B": 0.917698,
+    "R": 0.866033,
+    "U": 0.89465
+   },
+   "strict_land_drop_probability": 0.905783
+  },
+  "3": {
+   "all_three_land_source_presence": 0.803995,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.780493,
+   "per_color_at_least_one_land_source": {
+    "B": 0.938731,
+    "R": 0.894315,
+    "U": 0.919231
+   },
+   "strict_land_drop_probability": 0.780493
+  },
+  "4": {
+   "all_three_land_source_presence": 0.84446,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.620946,
+   "per_color_at_least_one_land_source": {
+    "B": 0.954565,
+    "R": 0.916877,
+    "U": 0.938289
+   },
+   "strict_land_drop_probability": 0.620946
+  },
+  "5": {
+   "all_three_land_source_presence": 0.877455,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.456414,
+   "per_color_at_least_one_land_source": {
+    "B": 0.96644,
+    "R": 0.934824,
+    "U": 0.953016
+   },
+   "strict_land_drop_probability": 0.456414
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City"
+  ]
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 20,
+   "R": 20,
+   "U": 21
+  },
+  "land_sources": {
+   "B": 13,
+   "R": 13,
+   "U": 14
+  },
+  "unconditional_land_sources": {
+   "B": 12,
+   "R": 12,
+   "U": 13
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 13,
+   "R": 13,
+   "U": 14
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 1.0,
+   "base_resource_target": 1,
+   "colored_requirements": {},
+   "first_recast_resource_target": 3,
+   "mana_cost": "—",
+   "mana_value": 0.0,
+   "name": "Norman Osborn // Green Goblin",
+   "per_color_source_presence_by_base_turn": {},
+   "second_recast_resource_target": 5
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 3,
+  "fast_mana": 17,
+  "fetchlands": 9,
+  "flex_land_mdfcs": 0,
+  "lands": 23,
+  "library_cards": 99,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 11,
+  "rituals": 4,
+  "unconditional_tapped_lands": 0,
+  "utility_lands": 1
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Culling the Weak",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Grim Monolith",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Amber",
+  "Mox Diamond",
+  "Mox Opal",
+  "Rite of Flame",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/norman-osborn.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 0,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 0
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 4,
+   "Mountain": 4,
+   "Plains": 0,
+   "Swamp": 4
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 56,
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 12.0,
+   "R": 13.0,
+   "U": 16.0
+  },
+  "mv_le_3": {
+   "B": 14.0,
+   "R": 17.0,
+   "U": 22.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 19.0,
+   "R": 19.0,
+   "U": 26.0
+  },
+  "share": {
+   "B": 0.2969,
+   "R": 0.2969,
+   "U": 0.4062
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Culling the Weak",
+  "Dark Ritual",
+  "Rite of Flame"
+ ],
+ "schema_version": 1,
+ "slug": "norman-osborn",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.544132,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.667163,
+   "per_color_at_least_one_land_source": {
+    "B": 0.734345,
+    "R": 0.734345,
+    "U": 0.762146
+   },
+   "strict_land_drop_probability": 0.667163
+  },
+  "3": {
+   "all_three_land_source_presence": 0.595752,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.422194,
+   "per_color_at_least_one_land_source": {
+    "B": 0.772718,
+    "R": 0.772718,
+    "U": 0.799146
+   },
+   "strict_land_drop_probability": 0.422194
+  },
+  "4": {
+   "all_three_land_source_presence": 0.643293,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.229522,
+   "per_color_at_least_one_land_source": {
+    "B": 0.805916,
+    "R": 0.805916,
+    "U": 0.830741
+   },
+   "strict_land_drop_probability": 0.229522
+  },
+  "5": {
+   "all_three_land_source_presence": 0.686722,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.109102,
+   "per_color_at_least_one_land_source": {
+    "B": 0.834588,
+    "R": 0.834588,
+    "U": 0.857668
+   },
+   "strict_land_drop_probability": 0.109102
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City"
+  ]
+ }
+}

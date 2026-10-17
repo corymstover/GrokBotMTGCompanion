@@ -1,0 +1,240 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 24,
+   "R": 25,
+   "U": 27
+  },
+  "land_sources": {
+   "B": 15,
+   "R": 16,
+   "U": 16
+  },
+  "unconditional_land_sources": {
+   "B": 14,
+   "R": 15,
+   "U": 15
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 15,
+   "R": 16,
+   "U": 16
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.716693,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Mishra, Artificer Prodigy",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.852645,
+    "R": 0.871941,
+    "U": 0.871941
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 16,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 29,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 18,
+  "rituals": 0,
+  "unconditional_tapped_lands": 0,
+  "utility_lands": 2
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Great Furnace",
+  "Grim Monolith",
+  "Izzet Signet",
+  "Mana Vault",
+  "Mox Amber",
+  "Mox Diamond",
+  "Mox Opal",
+  "Seat of the Synod",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "Vault of Whispers"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/mishra-artificer-prodigy.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 5,
+   "Mountain": 5,
+   "Plains": 0,
+   "Swamp": 5
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 35,
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 7
+  },
+  "mv_le_2": {
+   "B": 4.0,
+   "R": 5.0,
+   "U": 10.0
+  },
+  "mv_le_3": {
+   "B": 7.0,
+   "R": 6.0,
+   "U": 20.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 11.0,
+   "R": 9.0,
+   "U": 29.0
+  },
+  "share": {
+   "B": 0.2245,
+   "R": 0.1837,
+   "U": 0.5918
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.614593,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.804276,
+   "per_color_at_least_one_land_source": {
+    "B": 0.787331,
+    "R": 0.810117,
+    "U": 0.810117
+   },
+   "strict_land_drop_probability": 0.804276
+  },
+  "3": {
+   "all_three_land_source_presence": 0.668557,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.607462,
+   "per_color_at_least_one_land_source": {
+    "B": 0.822776,
+    "R": 0.843874,
+    "U": 0.843874
+   },
+   "strict_land_drop_probability": 0.607462
+  },
+  "4": {
+   "all_three_land_source_presence": 0.716693,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.408436,
+   "per_color_at_least_one_land_source": {
+    "B": 0.852645,
+    "R": 0.871941,
+    "U": 0.871941
+   },
+   "strict_land_drop_probability": 0.408436
+  },
+  "5": {
+   "all_three_land_source_presence": 0.759219,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.246728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.877762,
+    "R": 0.895225,
+    "U": 0.895225
+   },
+   "strict_land_drop_probability": 0.246728
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair"
+  ]
+ }
+}
