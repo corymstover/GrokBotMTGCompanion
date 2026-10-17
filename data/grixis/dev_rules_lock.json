@@ -1,0 +1,22 @@
+{
+ "schema_version": 1,
+ "kind": "dev_rules_lock",
+ "snapshot": "snap-20261016",
+ "file": "MagicCompRules-20260925.txt",
+ "effective_date": "2026-09-25",
+ "size": 977752,
+ "sha256": "sha256:8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca",
+ "recovery_source": {
+  "repository": "muz/mtgrulediff",
+  "commit": "8ba7eb0d63a9b1e67aa1280fafb9fd0d16052592",
+  "commit_message": "Add 20260925 rules",
+  "path": "rules/MagicCompRules 20260925.txt",
+  "git_blob_sha1": "4dc4fead596288be1ca6aa9c913ea1739c680a29"
+ },
+ "upstream_identity": {
+  "wizards_url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "effective_date_sentence": "These rules are effective as of September 25, 2026."
+ },
+ "decision": "Recovery of the historical Comprehensive Rules input already named by the frozen Step-A/M5 snapshot; not a rules refresh.",
+ "note": "The archived Git source is pinned by commit, blob SHA-1, byte size, and SHA-256. A future Birthday authority refresh is separate from this frozen-development lock."
+}
