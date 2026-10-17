@@ -184,7 +184,7 @@ def classify(d,deck_ci):
     # therefore incorrectly excluded it from low-MV repeatable fast mana.
     # Use deck colors as POTENTIAL colors, never unconditional availability.
     imprint_linked_mana=(d["name"]=="Chrome Mox" and
-                         bool(re.search(r"\\{T\\}:\\s*Add one mana of any of the exiled card['’]s colors",direct_text,re.I)) and
+                         bool(re.search(r"\{T\}:\s*Add one mana of any of the exiled card['’]s colors",direct_text,re.I)) and
                          "imprint" in low)
     if imprint_linked_mana:
         colors|=ci
