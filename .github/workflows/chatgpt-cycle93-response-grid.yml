@@ -1,0 +1,60 @@
+name: ChatGPT cycle 93 - Abaddon turn window and interaction adversarial checks
+on:
+  push:
+    branches:
+      - chatgpt-cycle93-abaddon-interaction-grid
+    paths:
+      - .github/workflows/chatgpt-cycle93-response-grid.yml
+      - scripts/grixis_m6_abaddon_interaction_grid.py
+      - tests/test_m6_abaddon_interaction_grid.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle93-abaddon-response-grid
+  cancel-in-progress: true
+jobs:
+  response-windows:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle93-abaddon-interaction-grid
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial sources, replacement effects and cascade timing tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_interaction_grid.py' -v
+      - name: Replay bounded interaction grid
+        run: python scripts/grixis_m6_abaddon_interaction_grid.py --build --check
+      - name: Preserve canonical deck and human approval boundary
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unauthorized changed path';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_interaction_grid_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert d['phase_b_complete'] is False and d['supports_improvement_claim'] is False
+          assert all(not v for v in d['authority'].values())
+          assert len(d['examples'])==29
+          PY
+      - name: Commit only reproducible bounded scenario evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_interaction_grid_01.json
+          if git diff --cached --quiet; then
+            echo 'already current'
+          else
+            git commit -m 'Cycle 93: store rules-sourced Tree/Heartless response grid [skip ci]'
+            git pull --rebase origin chatgpt-cycle93-abaddon-interaction-grid
+            git push origin HEAD:chatgpt-cycle93-abaddon-interaction-grid
+          fi
