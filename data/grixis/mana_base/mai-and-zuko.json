@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 27,
-   "R": 26,
-   "U": 27
+   "B": 26,
+   "R": 25,
+   "U": 26
   },
   "land_sources": {
    "B": 18,
@@ -56,13 +56,13 @@
  "counts": {
   "conditional_mana_lands": 1,
   "conditional_tapped_lands": 6,
-  "fast_mana": 11,
+  "fast_mana": 12,
   "fetchlands": 6,
   "flex_land_mdfcs": 0,
   "lands": 31,
   "library_cards": 99,
-  "one_shot_mana": 0,
-  "repeatable_nonland_sources": 15,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 14,
   "rituals": 0,
   "unconditional_tapped_lands": 3,
   "utility_lands": 6
@@ -74,6 +74,7 @@
   "An Offer You Can't Refuse",
   "Arcane Signet",
   "Fellwar Stone",
+  "Lion's Eye Diamond",
   "Lotus Petal",
   "Mana Vault",
   "Mox Diamond",
@@ -168,7 +169,10 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
  "pip_demand": {
   "colored_spell_count": 43,
   "double_pip_spell_count": {

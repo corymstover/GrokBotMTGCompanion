@@ -11,9 +11,9 @@
    "U": 1
   },
   "land_plus_repeatable_nonland": {
-   "B": 24,
-   "R": 23,
-   "U": 26
+   "B": 23,
+   "R": 22,
+   "U": 25
   },
   "land_sources": {
    "B": 15,
@@ -61,8 +61,8 @@
   "flex_land_mdfcs": 0,
   "lands": 33,
   "library_cards": 99,
-  "one_shot_mana": 0,
-  "repeatable_nonland_sources": 13,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 12,
   "rituals": 0,
   "unconditional_tapped_lands": 1,
   "utility_lands": 7
@@ -142,7 +142,9 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
  "pip_demand": {
   "colored_spell_count": 36,
   "double_pip_spell_count": {

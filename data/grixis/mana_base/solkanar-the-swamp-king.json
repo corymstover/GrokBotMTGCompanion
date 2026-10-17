@@ -11,9 +11,9 @@
    "U": 0
   },
   "land_plus_repeatable_nonland": {
-   "B": 34,
-   "R": 20,
-   "U": 23
+   "B": 33,
+   "R": 19,
+   "U": 22
   },
   "land_sources": {
    "B": 26,
@@ -61,8 +61,8 @@
   "flex_land_mdfcs": 1,
   "lands": 35,
   "library_cards": 99,
-  "one_shot_mana": 0,
-  "repeatable_nonland_sources": 11,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 10,
   "rituals": 1,
   "unconditional_tapped_lands": 4,
   "utility_lands": 3
@@ -171,7 +171,9 @@
  "mdfc_cards": [
   "Fell the Profane // Fell Mire"
  ],
- "one_shot_mana_cards": [],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
  "pip_demand": {
   "colored_spell_count": 42,
   "double_pip_spell_count": {

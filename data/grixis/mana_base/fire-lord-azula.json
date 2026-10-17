@@ -11,9 +11,9 @@
    "U": 2
   },
   "land_plus_repeatable_nonland": {
-   "B": 24,
-   "R": 25,
-   "U": 25
+   "B": 23,
+   "R": 24,
+   "U": 24
   },
   "land_sources": {
    "B": 15,
@@ -56,13 +56,13 @@
  "counts": {
   "conditional_mana_lands": 2,
   "conditional_tapped_lands": 5,
-  "fast_mana": 15,
+  "fast_mana": 16,
   "fetchlands": 9,
   "flex_land_mdfcs": 0,
   "lands": 26,
   "library_cards": 99,
-  "one_shot_mana": 0,
-  "repeatable_nonland_sources": 13,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 12,
   "rituals": 3,
   "unconditional_tapped_lands": 0,
   "utility_lands": 2
@@ -77,6 +77,7 @@
   "Dark Ritual",
   "Fellwar Stone",
   "Grim Monolith",
+  "Lion's Eye Diamond",
   "Lotus Petal",
   "Mana Vault",
   "Mox Diamond",
@@ -199,7 +200,10 @@
   "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
  ],
  "mdfc_cards": [],
- "one_shot_mana_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
  "pip_demand": {
   "colored_spell_count": 56,
   "double_pip_spell_count": {
