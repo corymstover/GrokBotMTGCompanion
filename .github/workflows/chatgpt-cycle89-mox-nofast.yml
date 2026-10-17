@@ -1,0 +1,81 @@
+name: ChatGPT cycle 89 - corrected 25 deck no-fast mana replay
+on:
+  push:
+    branches:
+      - chatgpt-cycle89-mox-nofast-25
+    paths:
+      - .github/workflows/chatgpt-cycle89-mox-nofast.yml
+      - scripts/grixis_m6_mox_nofast_25.py
+      - tests/test_m6_mox_nofast_25.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+concurrency:
+  group: cycle89-mox-nofast-25
+  cancel-in-progress: true
+
+jobs:
+  corrected-nofast:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle89-mox-nofast-25
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore SHA-256-locked frozen development Scryfall data
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib,urllib.request
+          downloads=[
+             ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+             ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+             ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')
+          ]
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,want in downloads:
+              p=cache/name
+              urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,p)
+              if hashlib.sha256(p.read_bytes()).hexdigest()!=want:
+                  raise SystemExit('Frozen hash mismatch: '+name)
+              print('frozen snapshot restored and SHA checked:',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Negative source-scope tests
+        run: python -m unittest discover -s tests -p 'test_m6_mox_nofast_25.py' -v
+      - name: Reproduce historical no-fast proxy then correct Chrome Mox, 25 decks only
+        run: python -u scripts/grixis_m6_mox_nofast_25.py --build --check
+      - name: Protect prior evidence and all deck authority
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/mox_reconciliation/' | grep -q .; then
+            echo 'Unexpected protected file modified'; exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          m=json.loads(Path('data/grixis/m6/mox_reconciliation/nofast_manifest.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert m['count']==25
+          assert m['original_commander_mana_artifacts_modified'] is False
+          assert all(v is False for v in m['authority'].values())
+          print('25/25 paired mana package corrections; no acceptance or deck mutations')
+          PY
+      - name: Commit derived M6-only data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/mox_reconciliation/nofast data/grixis/m6/mox_reconciliation/nofast_manifest.json
+          if git diff --cached --quiet; then
+            echo 'corrected 25-deck no-fast evidence current'
+          else
+            git commit -m 'Cycle 89: 25 exact-seed Chrome Mox no-fast corrections [skip ci]'
+            git pull --rebase origin chatgpt-cycle89-mox-nofast-25
+            git push origin HEAD:chatgpt-cycle89-mox-nofast-25
+          fi
