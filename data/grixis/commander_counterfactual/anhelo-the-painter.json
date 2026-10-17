@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "confidence": "low",
+ "deck_id": "Anhelo__the_Painter",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.178,
+   "commander_cast_by_turn6": 0.986,
+   "commander_turn_mean_when_cast": 3.092184368737475,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9939879759519038,
+    "recovery_turns_mean": 1.2399193548387097,
+    "removal_event_share": 0.998,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.558,
+   "fast_mana_uses_mean": 0.404,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.658,
+    "pkg:copy-multipliers": 0.66,
+    "pkg:copy-worthy-spells": 0.54,
+    "pkg:interaction": 0.734
+   },
+   "mana_available_t1_6_mean": 24.652,
+   "mana_spent_t1_6_mean": 21.954,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.518,
+   "win_proxy_by_turn6": 0.152
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.186,
+   "commander_cast_by_turn6": 0.986,
+   "commander_turn_mean_when_cast": 3.092184368737475,
+   "extra_cards_drawn_mean": 0.558,
+   "fast_mana_uses_mean": 0.354,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.658,
+    "pkg:copy-multipliers": 0.66,
+    "pkg:copy-worthy-spells": 0.54,
+    "pkg:interaction": 0.734
+   },
+   "mana_available_t1_6_mean": 24.846,
+   "mana_spent_t1_6_mean": 18.802,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.522,
+   "win_proxy_by_turn6": 0.16
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.188,
+   "commander_cast_by_turn6": 0.928,
+   "commander_turn_mean_when_cast": 4.346076458752515,
+   "extra_cards_drawn_mean": 0.558,
+   "fast_mana_uses_mean": 0.344,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.654,
+    "pkg:copy-multipliers": 0.668,
+    "pkg:copy-worthy-spells": 0.54,
+    "pkg:interaction": 0.736
+   },
+   "mana_available_t1_6_mean": 25.0,
+   "mana_spent_t1_6_mean": 20.006,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.52,
+   "win_proxy_by_turn6": 0.164
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.186,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.558,
+   "fast_mana_uses_mean": 0.33,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.658,
+    "pkg:copy-multipliers": 0.67,
+    "pkg:copy-worthy-spells": 0.542,
+    "pkg:interaction": 0.738
+   },
+   "mana_available_t1_6_mean": 25.32,
+   "mana_spent_t1_6_mean": 16.824,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.524,
+   "win_proxy_by_turn6": 0.162
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.05,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.0,
+    "pkg:copy-multipliers": 0.0,
+    "pkg:copy-worthy-spells": 0.0,
+    "pkg:interaction": 0.0
+   },
+   "mana_available_t1_6_mean": 0.194,
+   "mana_spent_t1_6_mean": -3.152,
+   "tutors_resolved_mean": 0.004,
+   "win_proxy_by_turn6": 0.008
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.002,
+   "commander_cast_by_turn6": 0.058,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.01,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.004,
+    "pkg:copy-multipliers": -0.008,
+    "pkg:copy-worthy-spells": 0.0,
+    "pkg:interaction": -0.002
+   },
+   "mana_available_t1_6_mean": -0.154,
+   "mana_spent_t1_6_mean": -1.204,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": -0.004
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.986,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.024,
+   "first_key_set_access_by_turn4": {
+    "pkg:casualty-fodder": 0.0,
+    "pkg:copy-multipliers": -0.01,
+    "pkg:copy-worthy-spells": -0.002,
+    "pkg:interaction": -0.004
+   },
+   "mana_available_t1_6_mean": -0.474,
+   "mana_spent_t1_6_mean": 1.978,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": -0.002
+  }
+ },
+ "schema_version": 1,
+ "slug": "anhelo-the-painter",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+   "confidence": "moderate",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it.",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/anhelo-the-painter.json",
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 3,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 8,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 8
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "confidence": "low",
+ "deck_id": "Kess__Dissident_Mage",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.222,
+   "commander_cast_by_turn6": 0.906,
+   "commander_turn_mean_when_cast": 3.825102880658436,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.8930041152263375,
+    "recovery_turns_mean": 1.903225806451613,
+    "removal_event_share": 0.972,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 1.744,
+   "fast_mana_uses_mean": 0.626,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": 0.712,
+    "pkg:oracle-piles": 0.614,
+    "pkg:yard-stock": 0.522
+   },
+   "mana_available_t1_6_mean": 23.524,
+   "mana_spent_t1_6_mean": 19.138,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.256,
+   "win_proxy_by_turn6": 0.212
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.258,
+   "commander_cast_by_turn6": 0.906,
+   "commander_turn_mean_when_cast": 3.825102880658436,
+   "extra_cards_drawn_mean": 1.732,
+   "fast_mana_uses_mean": 0.37,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": 0.712,
+    "pkg:oracle-piles": 0.614,
+    "pkg:yard-stock": 0.522
+   },
+   "mana_available_t1_6_mean": 23.612,
+   "mana_spent_t1_6_mean": 15.34,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.258,
+   "win_proxy_by_turn6": 0.252
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.252,
+   "commander_cast_by_turn6": 0.654,
+   "commander_turn_mean_when_cast": 5.518018018018018,
+   "extra_cards_drawn_mean": 1.718,
+   "fast_mana_uses_mean": 0.516,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": 0.714,
+    "pkg:oracle-piles": 0.626,
+    "pkg:yard-stock": 0.522
+   },
+   "mana_available_t1_6_mean": 23.542,
+   "mana_spent_t1_6_mean": 15.86,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.254,
+   "win_proxy_by_turn6": 0.248
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.246,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 1.708,
+   "fast_mana_uses_mean": 0.32,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": 0.716,
+    "pkg:oracle-piles": 0.63,
+    "pkg:yard-stock": 0.522
+   },
+   "mana_available_t1_6_mean": 24.116,
+   "mana_spent_t1_6_mean": 12.302,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.264,
+   "win_proxy_by_turn6": 0.244
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.036,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": -0.012,
+   "fast_mana_uses_mean": -0.256,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": 0.0,
+    "pkg:oracle-piles": 0.0,
+    "pkg:yard-stock": 0.0
+   },
+   "mana_available_t1_6_mean": 0.088,
+   "mana_spent_t1_6_mean": -3.798,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.04
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.006,
+   "commander_cast_by_turn6": 0.252,
+   "extra_cards_drawn_mean": 0.014,
+   "fast_mana_uses_mean": -0.146,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": -0.002,
+    "pkg:oracle-piles": -0.012,
+    "pkg:yard-stock": 0.0
+   },
+   "mana_available_t1_6_mean": 0.07,
+   "mana_spent_t1_6_mean": -0.52,
+   "tutors_resolved_mean": 0.004,
+   "win_proxy_by_turn6": 0.004
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.012,
+   "commander_cast_by_turn6": 0.906,
+   "extra_cards_drawn_mean": 0.024,
+   "fast_mana_uses_mean": 0.05,
+   "first_key_set_access_by_turn4": {
+    "pkg:free-interaction": -0.004,
+    "pkg:oracle-piles": -0.016,
+    "pkg:yard-stock": 0.0
+   },
+   "mana_available_t1_6_mean": -0.504,
+   "mana_spent_t1_6_mean": 3.038,
+   "tutors_resolved_mean": -0.006,
+   "win_proxy_by_turn6": 0.008
+  }
+ },
+ "schema_version": 1,
+ "slug": "kess-dissident-mage",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Kess turns single tutors into complete Oracle wins and makes the Gifts/Intuition piles deterministic.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Her permission is once per your own turn at normal timing (M1 kess-01), so it doesn't help on opponents' turns. Oracle + Consultation and the Breach lines still win without her, just less efficiently.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/kess-dissident-mage.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 2,
+   "combo_commander_independent": 4,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 6
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

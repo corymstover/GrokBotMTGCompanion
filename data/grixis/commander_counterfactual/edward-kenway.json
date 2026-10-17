@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "confidence": "low",
+ "deck_id": "Edward_Kenway",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.316,
+   "commander_cast_by_turn6": 0.902,
+   "commander_turn_mean_when_cast": 4.469635627530365,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.8461538461538461,
+    "recovery_turns_mean": 2.3636363636363638,
+    "removal_event_share": 0.988,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.92,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.88,
+    "pkg:time-sieve": 0.344,
+    "pkg:vehicles": 0.74
+   },
+   "mana_available_t1_6_mean": 24.184,
+   "mana_spent_t1_6_mean": 21.64,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.32,
+   "win_proxy_by_turn6": 0.254
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.318,
+   "commander_cast_by_turn6": 0.902,
+   "commander_turn_mean_when_cast": 4.469635627530365,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.636,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.88,
+    "pkg:time-sieve": 0.344,
+    "pkg:vehicles": 0.74
+   },
+   "mana_available_t1_6_mean": 24.256,
+   "mana_spent_t1_6_mean": 19.9,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.322,
+   "win_proxy_by_turn6": 0.276
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.326,
+   "commander_cast_by_turn6": 0.452,
+   "commander_turn_mean_when_cast": 6.501187648456057,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.8,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.88,
+    "pkg:time-sieve": 0.344,
+    "pkg:vehicles": 0.74
+   },
+   "mana_available_t1_6_mean": 24.3,
+   "mana_spent_t1_6_mean": 19.85,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.322,
+   "win_proxy_by_turn6": 0.244
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.11,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.598,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.88,
+    "pkg:time-sieve": 0.344,
+    "pkg:vehicles": 0.74
+   },
+   "mana_available_t1_6_mean": 24.538,
+   "mana_spent_t1_6_mean": 17.834,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.324,
+   "win_proxy_by_turn6": 0.098
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.002,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.284,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.0,
+    "pkg:time-sieve": 0.0,
+    "pkg:vehicles": 0.0
+   },
+   "mana_available_t1_6_mean": 0.072,
+   "mana_spent_t1_6_mean": -1.74,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.022
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.008,
+   "commander_cast_by_turn6": 0.45,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.164,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.0,
+    "pkg:time-sieve": 0.0,
+    "pkg:vehicles": 0.0
+   },
+   "mana_available_t1_6_mean": -0.044,
+   "mana_spent_t1_6_mean": 0.05,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.032
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.208,
+   "commander_cast_by_turn6": 0.902,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.038,
+   "first_key_set_access_by_turn4": {
+    "pkg:pirates-assassins": 0.0,
+    "pkg:time-sieve": 0.0,
+    "pkg:vehicles": 0.0
+   },
+   "mana_available_t1_6_mean": -0.282,
+   "mana_spent_t1_6_mean": 2.066,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.178
+  }
+ },
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Edward converts every tapped Assassin, Pirate and Vehicle into Treasure and is half of the Edward + Time Sieve extra-turn loop.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Several of the deck's infinite lines (Reaver Cleaver, Luxurious Locomotive, Hoard Hauler + Time Sieve; Malcolm + Glint-Horn) work without Edward, and the ten-Game-Changer card pool does much of the lifting.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/edward-kenway.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 5,
+   "combo_direct_commander_piece": 1,
+   "engines": 2,
+   "engines_explicit_commander": 2,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 6
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

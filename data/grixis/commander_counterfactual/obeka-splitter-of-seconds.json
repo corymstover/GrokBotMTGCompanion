@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "confidence": "low",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.366,
+   "commander_cast_by_turn6": 0.948,
+   "commander_turn_mean_when_cast": 3.8424242424242423,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9515151515151515,
+    "recovery_turns_mean": 1.89171974522293,
+    "removal_event_share": 0.99,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.906,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.61,
+    "pkg:damage-trigger-scaling": 0.554,
+    "pkg:suspend": 0.46,
+    "pkg:upkeep-engines": 0.848
+   },
+   "mana_available_t1_6_mean": 22.874,
+   "mana_spent_t1_6_mean": 20.562,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.44,
+   "win_proxy_by_turn6": 0.292
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.372,
+   "commander_cast_by_turn6": 0.948,
+   "commander_turn_mean_when_cast": 3.8424242424242423,
+   "extra_cards_drawn_mean": 1.006,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.61,
+    "pkg:damage-trigger-scaling": 0.554,
+    "pkg:suspend": 0.46,
+    "pkg:upkeep-engines": 0.848
+   },
+   "mana_available_t1_6_mean": 22.9,
+   "mana_spent_t1_6_mean": 19.23,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.448,
+   "win_proxy_by_turn6": 0.348
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.368,
+   "commander_cast_by_turn6": 0.708,
+   "commander_turn_mean_when_cast": 5.826271186440678,
+   "extra_cards_drawn_mean": 1.022,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.608,
+    "pkg:damage-trigger-scaling": 0.552,
+    "pkg:suspend": 0.46,
+    "pkg:upkeep-engines": 0.852
+   },
+   "mana_available_t1_6_mean": 23.012,
+   "mana_spent_t1_6_mean": 19.74,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.45,
+   "win_proxy_by_turn6": 0.316
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 1.11,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.608,
+    "pkg:damage-trigger-scaling": 0.56,
+    "pkg:suspend": 0.46,
+    "pkg:upkeep-engines": 0.852
+   },
+   "mana_available_t1_6_mean": 23.096,
+   "mana_spent_t1_6_mean": 17.892,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.452,
+   "win_proxy_by_turn6": 0.0
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.006,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.1,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.0,
+    "pkg:damage-trigger-scaling": 0.0,
+    "pkg:suspend": 0.0,
+    "pkg:upkeep-engines": 0.0
+   },
+   "mana_available_t1_6_mean": 0.026,
+   "mana_spent_t1_6_mean": -1.332,
+   "tutors_resolved_mean": 0.008,
+   "win_proxy_by_turn6": 0.056
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.004,
+   "commander_cast_by_turn6": 0.24,
+   "extra_cards_drawn_mean": -0.016,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.002,
+    "pkg:damage-trigger-scaling": 0.002,
+    "pkg:suspend": 0.0,
+    "pkg:upkeep-engines": -0.004
+   },
+   "mana_available_t1_6_mean": -0.112,
+   "mana_spent_t1_6_mean": -0.51,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.032
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.372,
+   "commander_cast_by_turn6": 0.948,
+   "extra_cards_drawn_mean": -0.104,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:connection": 0.002,
+    "pkg:damage-trigger-scaling": -0.006,
+    "pkg:suspend": 0.0,
+    "pkg:upkeep-engines": -0.004
+   },
+   "mana_available_t1_6_mean": -0.196,
+   "mana_spent_t1_6_mean": 1.338,
+   "tutors_resolved_mean": -0.004,
+   "win_proxy_by_turn6": 0.348
+  }
+ },
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03).",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/obeka-splitter-of-seconds.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 3,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 5,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 5
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+ "confidence": "low",
+ "deck_id": "Thraximundar",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.124,
+   "commander_cast_by_turn6": 0.572,
+   "commander_turn_mean_when_cast": 5.953744493392071,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.6894273127753304,
+    "recovery_turns_mean": 2.3450479233226837,
+    "removal_event_share": 0.908,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.616,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.608,
+    "pkg:edicts": 0.736,
+    "pkg:loop-pieces": 0.648,
+    "pkg:outlets": 0.582
+   },
+   "mana_available_t1_6_mean": 25.876,
+   "mana_spent_t1_6_mean": 22.07,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.484,
+   "win_proxy_by_turn6": 0.12
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.124,
+   "commander_cast_by_turn6": 0.572,
+   "commander_turn_mean_when_cast": 5.953744493392071,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.442,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.608,
+    "pkg:edicts": 0.736,
+    "pkg:loop-pieces": 0.648,
+    "pkg:outlets": 0.582
+   },
+   "mana_available_t1_6_mean": 25.904,
+   "mana_spent_t1_6_mean": 20.974,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.486,
+   "win_proxy_by_turn6": 0.12
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.126,
+   "commander_cast_by_turn6": 0.204,
+   "commander_turn_mean_when_cast": 7.468468468468468,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.568,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.608,
+    "pkg:edicts": 0.736,
+    "pkg:loop-pieces": 0.648,
+    "pkg:outlets": 0.582
+   },
+   "mana_available_t1_6_mean": 25.996,
+   "mana_spent_t1_6_mean": 19.608,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.484,
+   "win_proxy_by_turn6": 0.122
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.126,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.334,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.608,
+    "pkg:edicts": 0.736,
+    "pkg:loop-pieces": 0.648,
+    "pkg:outlets": 0.582
+   },
+   "mana_available_t1_6_mean": 26.188,
+   "mana_spent_t1_6_mean": 17.972,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.486,
+   "win_proxy_by_turn6": 0.122
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.174,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.0,
+    "pkg:edicts": 0.0,
+    "pkg:loop-pieces": 0.0,
+    "pkg:outlets": 0.0
+   },
+   "mana_available_t1_6_mean": 0.028,
+   "mana_spent_t1_6_mean": -1.096,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.0
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.002,
+   "commander_cast_by_turn6": 0.368,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.126,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.0,
+    "pkg:edicts": 0.0,
+    "pkg:loop-pieces": 0.0,
+    "pkg:outlets": 0.0
+   },
+   "mana_available_t1_6_mean": -0.092,
+   "mana_spent_t1_6_mean": 1.366,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": -0.002
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": -0.002,
+   "commander_cast_by_turn6": 0.572,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.108,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-mana": 0.0,
+    "pkg:edicts": 0.0,
+    "pkg:loop-pieces": 0.0,
+    "pkg:outlets": 0.0
+   },
+   "mana_available_t1_6_mean": -0.284,
+   "mana_spent_t1_6_mean": 3.002,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": -0.002
+  }
+ },
+ "schema_version": 1,
+ "slug": "thraximundar",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/thraximundar.json",
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 17,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 17
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

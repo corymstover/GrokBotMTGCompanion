@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "confidence": "low",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.422,
+   "commander_cast_by_turn6": 0.912,
+   "commander_turn_mean_when_cast": 4.622983870967742,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9334677419354839,
+    "recovery_turns_mean": 2.0669546436285096,
+    "removal_event_share": 0.992,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 8.592,
+   "fast_mana_uses_mean": 0.534,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": 0.672,
+    "pkg:punishers": 0.726,
+    "pkg:wheels": 0.776
+   },
+   "mana_available_t1_6_mean": 23.762,
+   "mana_spent_t1_6_mean": 20.714,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.666,
+   "win_proxy_by_turn6": 0.13
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.464,
+   "commander_cast_by_turn6": 0.912,
+   "commander_turn_mean_when_cast": 4.622983870967742,
+   "extra_cards_drawn_mean": 9.104,
+   "fast_mana_uses_mean": 0.438,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": 0.672,
+    "pkg:punishers": 0.726,
+    "pkg:wheels": 0.776
+   },
+   "mana_available_t1_6_mean": 23.834,
+   "mana_spent_t1_6_mean": 19.314,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.704,
+   "win_proxy_by_turn6": 0.204
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.476,
+   "commander_cast_by_turn6": 0.532,
+   "commander_turn_mean_when_cast": 6.380341880341881,
+   "extra_cards_drawn_mean": 9.142,
+   "fast_mana_uses_mean": 0.512,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": 0.692,
+    "pkg:punishers": 0.744,
+    "pkg:wheels": 0.778
+   },
+   "mana_available_t1_6_mean": 23.954,
+   "mana_spent_t1_6_mean": 19.094,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.702,
+   "win_proxy_by_turn6": 0.222
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.268,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 9.358,
+   "fast_mana_uses_mean": 0.38,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": 0.696,
+    "pkg:punishers": 0.742,
+    "pkg:wheels": 0.72
+   },
+   "mana_available_t1_6_mean": 24.336,
+   "mana_spent_t1_6_mean": 16.95,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.714,
+   "win_proxy_by_turn6": 0.118
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.042,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.512,
+   "fast_mana_uses_mean": -0.096,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": 0.0,
+    "pkg:punishers": 0.0,
+    "pkg:wheels": 0.0
+   },
+   "mana_available_t1_6_mean": 0.072,
+   "mana_spent_t1_6_mean": -1.4,
+   "tutors_resolved_mean": 0.038,
+   "win_proxy_by_turn6": 0.074
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.012,
+   "commander_cast_by_turn6": 0.38,
+   "extra_cards_drawn_mean": -0.038,
+   "fast_mana_uses_mean": -0.074,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": -0.02,
+    "pkg:punishers": -0.018,
+    "pkg:wheels": -0.002
+   },
+   "mana_available_t1_6_mean": -0.12,
+   "mana_spent_t1_6_mean": 0.22,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": -0.018
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.196,
+   "commander_cast_by_turn6": 0.912,
+   "extra_cards_drawn_mean": -0.254,
+   "fast_mana_uses_mean": 0.058,
+   "first_key_set_access_by_turn4": {
+    "pkg:interaction": -0.024,
+    "pkg:punishers": -0.016,
+    "pkg:wheels": 0.056
+   },
+   "mana_available_t1_6_mean": -0.502,
+   "mana_spent_t1_6_mean": 2.364,
+   "tutors_resolved_mean": -0.01,
+   "win_proxy_by_turn6": 0.086
+  }
+ },
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03).",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/nekusar-the-mindrazer.json",
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 4,
+   "combo_commander_independent": 2,
+   "combo_direct_commander_piece": 1,
+   "engines": 2,
+   "engines_explicit_commander": 2,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 7
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

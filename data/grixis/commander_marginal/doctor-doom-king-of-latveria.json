@@ -1,0 +1,325 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "confidence": "low",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 3.75,
+    "tutors_resolved_mean": 0.424
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.018,
+    "win_proxy_by_turn6": 0.016
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.99,
+    "mana_spent_t1_6_mean": 22.12,
+    "spent_over_available_proxy": 0.922051
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.018,
+    "commander_cast_by_turn6": 0.992,
+    "expected_key_sets_first_accessed_by_turn4": 2.228,
+    "extra_cards_drawn_mean": 3.75,
+    "tutors_resolved_mean": 0.424
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.228,
+    "first_key_set_access_by_turn4": {
+     "pkg:doom-copies": 0.286,
+     "pkg:land-discard-outlets": 0.648,
+     "pkg:land-recursion": 0.584,
+     "pkg:villains-connive": 0.71
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.992,
+    "recovery_turns_mean": 1.5584677419354838,
+    "removal_event_share": 1.0,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 3.64,
+    "tutors_resolved_mean": 0.422
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.022,
+    "win_proxy_by_turn6": 0.02
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.138,
+    "mana_spent_t1_6_mean": 19.922,
+    "spent_over_available_proxy": 0.825338
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.022,
+    "commander_cast_by_turn6": 0.992,
+    "expected_key_sets_first_accessed_by_turn4": 2.228,
+    "extra_cards_drawn_mean": 3.64,
+    "tutors_resolved_mean": 0.422
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.228,
+    "first_key_set_access_by_turn4": {
+     "pkg:doom-copies": 0.286,
+     "pkg:land-discard-outlets": 0.648,
+     "pkg:land-recursion": 0.584,
+     "pkg:villains-connive": 0.71
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 3.658,
+    "tutors_resolved_mean": 0.426
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.016,
+    "win_proxy_by_turn6": 0.016
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.502,
+    "mana_spent_t1_6_mean": 20.916,
+    "spent_over_available_proxy": 0.853645
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.016,
+    "commander_cast_by_turn6": 0.898,
+    "expected_key_sets_first_accessed_by_turn4": 2.276,
+    "extra_cards_drawn_mean": 3.658,
+    "tutors_resolved_mean": 0.426
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.276,
+    "first_key_set_access_by_turn4": {
+     "pkg:doom-copies": 0.29,
+     "pkg:land-discard-outlets": 0.664,
+     "pkg:land-recursion": 0.596,
+     "pkg:villains-connive": 0.726
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 3.596,
+    "tutors_resolved_mean": 0.424
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.018,
+    "win_proxy_by_turn6": 0.018
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.706,
+    "mana_spent_t1_6_mean": 18.108,
+    "spent_over_available_proxy": 0.732939
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.018,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 2.316,
+    "extra_cards_drawn_mean": 3.596,
+    "tutors_resolved_mean": 0.424
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.316,
+    "first_key_set_access_by_turn4": {
+     "pkg:doom-copies": 0.3,
+     "pkg:land-discard-outlets": 0.672,
+     "pkg:land-recursion": 0.606,
+     "pkg:villains-connive": 0.738
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.11,
+    "tutors_resolved_mean": -0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.004,
+    "win_proxy_by_turn6": 0.004
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.148,
+    "mana_spent_t1_6_mean": -2.198,
+    "spent_over_available_proxy": -0.096713
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.004,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": -0.11,
+    "tutors_resolved_mean": -0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.018,
+    "tutors_resolved_mean": -0.004
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.006,
+    "win_proxy_by_turn6": 0.004
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.364,
+    "mana_spent_t1_6_mean": -0.994,
+    "spent_over_available_proxy": -0.028307
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.006,
+    "commander_cast_by_turn6": 0.094,
+    "expected_key_sets_first_accessed_by_turn4": -0.048,
+    "extra_cards_drawn_mean": -0.018,
+    "tutors_resolved_mean": -0.004
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.048
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.044,
+    "tutors_resolved_mean": -0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.004,
+    "win_proxy_by_turn6": 0.002
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.568,
+    "mana_spent_t1_6_mean": 1.814,
+    "spent_over_available_proxy": 0.092399
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.004,
+    "commander_cast_by_turn6": 0.992,
+    "expected_key_sets_first_accessed_by_turn4": -0.088,
+    "extra_cards_drawn_mean": 0.044,
+    "tutors_resolved_mean": -0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.088
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [
+     "Doctor Doom, King of Latveria"
+    ],
+    "cards": [
+     "Surly Badgersaur",
+     "Tectonic Reformation",
+     "Dakmor Salvage"
+    ],
+    "direct_commander_pieces": [],
+    "id": "779-2546-4467",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Doctor Doom, King of Latveria"
+    ],
+    "id": "land-discard-drain",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "land-recursion",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Doctor Doom, King of Latveria"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "badgersaur-reformation-dakmor",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "fact",
+    "id": "trade-routes-engine",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "repeated-drain",
+    "kind": "natural"
+   }
+  ]
+ }
+}

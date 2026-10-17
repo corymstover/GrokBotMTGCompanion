@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "confidence": "low",
+ "deck_id": "Sedris__the_Traitor_King",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.07,
+   "commander_cast_by_turn6": 0.688,
+   "commander_turn_mean_when_cast": 5.512658227848101,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.6814345991561181,
+    "recovery_turns_mean": 2.2693498452012384,
+    "removal_event_share": 0.948,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 1.23,
+   "fast_mana_uses_mean": 0.346,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.634,
+    "pkg:rescue": 0.56,
+    "pkg:self-mill": 0.636
+   },
+   "mana_available_t1_6_mean": 24.378,
+   "mana_spent_t1_6_mean": 21.412,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.638,
+   "win_proxy_by_turn6": 0.02
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.084,
+   "commander_cast_by_turn6": 0.688,
+   "commander_turn_mean_when_cast": 5.512658227848101,
+   "extra_cards_drawn_mean": 1.222,
+   "fast_mana_uses_mean": 0.318,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.634,
+    "pkg:rescue": 0.56,
+    "pkg:self-mill": 0.636
+   },
+   "mana_available_t1_6_mean": 24.414,
+   "mana_spent_t1_6_mean": 20.39,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.64,
+   "win_proxy_by_turn6": 0.03
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.088,
+   "commander_cast_by_turn6": 0.292,
+   "commander_turn_mean_when_cast": 7.026785714285714,
+   "extra_cards_drawn_mean": 1.178,
+   "fast_mana_uses_mean": 0.322,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.634,
+    "pkg:rescue": 0.568,
+    "pkg:self-mill": 0.636
+   },
+   "mana_available_t1_6_mean": 24.45,
+   "mana_spent_t1_6_mean": 19.85,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.634,
+   "win_proxy_by_turn6": 0.032
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.088,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 1.174,
+   "fast_mana_uses_mean": 0.286,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.634,
+    "pkg:rescue": 0.572,
+    "pkg:self-mill": 0.636
+   },
+   "mana_available_t1_6_mean": 24.594,
+   "mana_spent_t1_6_mean": 18.284,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.638,
+   "win_proxy_by_turn6": 0.038
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.014,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": -0.008,
+   "fast_mana_uses_mean": -0.028,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.0,
+    "pkg:rescue": 0.0,
+    "pkg:self-mill": 0.0
+   },
+   "mana_available_t1_6_mean": 0.036,
+   "mana_spent_t1_6_mean": -1.022,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.01
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.004,
+   "commander_cast_by_turn6": 0.396,
+   "extra_cards_drawn_mean": 0.044,
+   "fast_mana_uses_mean": -0.004,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.0,
+    "pkg:rescue": -0.008,
+    "pkg:self-mill": 0.0
+   },
+   "mana_available_t1_6_mean": -0.036,
+   "mana_spent_t1_6_mean": 0.54,
+   "tutors_resolved_mean": 0.006,
+   "win_proxy_by_turn6": -0.002
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": -0.004,
+   "commander_cast_by_turn6": 0.688,
+   "extra_cards_drawn_mean": 0.048,
+   "fast_mana_uses_mean": 0.032,
+   "first_key_set_access_by_turn4": {
+    "pkg:etb-targets": 0.0,
+    "pkg:rescue": -0.012,
+    "pkg:self-mill": 0.0
+   },
+   "mana_available_t1_6_mean": -0.18,
+   "mana_spent_t1_6_mean": 2.106,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": -0.008
+  }
+ },
+ "schema_version": 1,
+ "slug": "sedris-the-traitor-king",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence. M1 review (sedris-01..06, all verified) confirms the unearth and rescue rules.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/sedris-the-traitor-king.json",
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 1,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

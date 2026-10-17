@@ -1,0 +1,388 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Jeleva is the spell-cheating card-advantage engine the top-deck setup is built for.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "She has to resolve, gain haste and survive to attack before she does anything, and all the compact wins (Oracle, Doomsday, Breach) are commander-independent. She's a strong value engine, not the deck's kill.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "confidence": "low",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.656,
+    "tutors_resolved_mean": 1.014
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.208,
+    "win_proxy_by_turn6": 0.184
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.502,
+    "mana_spent_t1_6_mean": 18.312,
+    "spent_over_available_proxy": 0.779168
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.208,
+    "commander_cast_by_turn6": 0.9,
+    "expected_key_sets_first_accessed_by_turn4": 1.354,
+    "extra_cards_drawn_mean": 1.656,
+    "tutors_resolved_mean": 1.014
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.354,
+    "first_key_set_access_by_turn4": {
+     "pkg:free-cast-targets": 0.474,
+     "pkg:haste": 0.26,
+     "pkg:top-tutors": 0.62
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9100204498977505,
+    "recovery_turns_mean": 1.9033707865168539,
+    "removal_event_share": 0.978,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.65,
+    "tutors_resolved_mean": 1.014
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.226,
+    "win_proxy_by_turn6": 0.206
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.628,
+    "mana_spent_t1_6_mean": 14.756,
+    "spent_over_available_proxy": 0.624513
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.226,
+    "commander_cast_by_turn6": 0.9,
+    "expected_key_sets_first_accessed_by_turn4": 1.354,
+    "extra_cards_drawn_mean": 1.65,
+    "tutors_resolved_mean": 1.014
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.354,
+    "first_key_set_access_by_turn4": {
+     "pkg:free-cast-targets": 0.474,
+     "pkg:haste": 0.26,
+     "pkg:top-tutors": 0.62
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.616,
+    "tutors_resolved_mean": 1.012
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.232,
+    "win_proxy_by_turn6": 0.212
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.478,
+    "mana_spent_t1_6_mean": 15.27,
+    "spent_over_available_proxy": 0.650396
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.232,
+    "commander_cast_by_turn6": 0.666,
+    "expected_key_sets_first_accessed_by_turn4": 1.36,
+    "extra_cards_drawn_mean": 1.616,
+    "tutors_resolved_mean": 1.012
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.36,
+    "first_key_set_access_by_turn4": {
+     "pkg:free-cast-targets": 0.476,
+     "pkg:haste": 0.264,
+     "pkg:top-tutors": 0.62
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.62,
+    "tutors_resolved_mean": 1.016
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.23,
+    "win_proxy_by_turn6": 0.212
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.124,
+    "mana_spent_t1_6_mean": 11.654,
+    "spent_over_available_proxy": 0.483087
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.23,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.364,
+    "extra_cards_drawn_mean": 1.62,
+    "tutors_resolved_mean": 1.016
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.364,
+    "first_key_set_access_by_turn4": {
+     "pkg:free-cast-targets": 0.48,
+     "pkg:haste": 0.264,
+     "pkg:top-tutors": 0.62
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.006,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.018,
+    "win_proxy_by_turn6": 0.022
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.126,
+    "mana_spent_t1_6_mean": -3.556,
+    "spent_over_available_proxy": -0.154655
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.018,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": -0.006,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.034,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.006,
+    "win_proxy_by_turn6": -0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.15,
+    "mana_spent_t1_6_mean": -0.514,
+    "spent_over_available_proxy": -0.025883
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.006,
+    "commander_cast_by_turn6": 0.234,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": 0.034,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.03,
+    "tutors_resolved_mean": -0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.004,
+    "win_proxy_by_turn6": -0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.496,
+    "mana_spent_t1_6_mean": 3.102,
+    "spent_over_available_proxy": 0.141426
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.004,
+    "commander_cast_by_turn6": 0.9,
+    "expected_key_sets_first_accessed_by_turn4": -0.01,
+    "extra_cards_drawn_mean": 0.03,
+    "tutors_resolved_mean": -0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.01
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "jeleva-nephalias-scourge",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1295-3093",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Doomsday",
+     "Thassa's Oracle"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1295-3189",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "direct_commander_pieces": [],
+    "id": "742-1295",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-1414-4856",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-1878-2706",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-2706-3518",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-3518-4856",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Jeleva, Nephalia's Scourge"
+    ],
+    "id": "exile-and-cast",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "top-staging",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 7,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 7
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "oracle-doomsday",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Jeleva, Nephalia's Scourge"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "free-haymaker",
+    "kind": "natural"
+   }
+  ]
+ }
+}

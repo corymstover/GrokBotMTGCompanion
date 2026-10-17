@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "confidence": "low",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.224,
+   "commander_cast_by_turn6": 0.912,
+   "commander_turn_mean_when_cast": 3.794297352342159,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9389002036659878,
+    "recovery_turns_mean": 1.8373101952277657,
+    "removal_event_share": 0.982,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.18,
+   "fast_mana_uses_mean": 0.276,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.76,
+    "pkg:parity-stax": 0.558,
+    "pkg:stack-protection": 0.374
+   },
+   "mana_available_t1_6_mean": 24.878,
+   "mana_spent_t1_6_mean": 22.366,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.742,
+   "win_proxy_by_turn6": 0.152
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.246,
+   "commander_cast_by_turn6": 0.912,
+   "commander_turn_mean_when_cast": 3.794297352342159,
+   "extra_cards_drawn_mean": 0.192,
+   "fast_mana_uses_mean": 0.224,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.76,
+    "pkg:parity-stax": 0.558,
+    "pkg:stack-protection": 0.374
+   },
+   "mana_available_t1_6_mean": 25.144,
+   "mana_spent_t1_6_mean": 20.118,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.748,
+   "win_proxy_by_turn6": 0.19
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.25,
+   "commander_cast_by_turn6": 0.664,
+   "commander_turn_mean_when_cast": 5.476190476190476,
+   "extra_cards_drawn_mean": 0.188,
+   "fast_mana_uses_mean": 0.24,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.76,
+    "pkg:parity-stax": 0.558,
+    "pkg:stack-protection": 0.374
+   },
+   "mana_available_t1_6_mean": 24.984,
+   "mana_spent_t1_6_mean": 20.348,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.748,
+   "win_proxy_by_turn6": 0.184
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.25,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.2,
+   "fast_mana_uses_mean": 0.222,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.76,
+    "pkg:parity-stax": 0.558,
+    "pkg:stack-protection": 0.374
+   },
+   "mana_available_t1_6_mean": 25.15,
+   "mana_spent_t1_6_mean": 17.738,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.748,
+   "win_proxy_by_turn6": 0.202
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.022,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.012,
+   "fast_mana_uses_mean": -0.052,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.0,
+    "pkg:parity-stax": 0.0,
+    "pkg:stack-protection": 0.0
+   },
+   "mana_available_t1_6_mean": 0.266,
+   "mana_spent_t1_6_mean": -2.248,
+   "tutors_resolved_mean": 0.006,
+   "win_proxy_by_turn6": 0.038
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.004,
+   "commander_cast_by_turn6": 0.248,
+   "extra_cards_drawn_mean": 0.004,
+   "fast_mana_uses_mean": -0.016,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.0,
+    "pkg:parity-stax": 0.0,
+    "pkg:stack-protection": 0.0
+   },
+   "mana_available_t1_6_mean": 0.16,
+   "mana_spent_t1_6_mean": -0.23,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.006
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": -0.004,
+   "commander_cast_by_turn6": 0.912,
+   "extra_cards_drawn_mean": -0.008,
+   "fast_mana_uses_mean": 0.002,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-tutors": 0.0,
+    "pkg:parity-stax": 0.0,
+    "pkg:stack-protection": 0.0
+   },
+   "mana_available_t1_6_mean": -0.006,
+   "mana_spent_t1_6_mean": 2.38,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": -0.012
+  }
+ },
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Mishra turns the deck's own symmetrical counters into one-sided stax: with both triggers ordered, a countered artifact still reaches the battlefield from the graveyard (or from the library after Possibility Storm).",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Mishra is central to the stax half, but none of the 20 Spellbook combos in the list uses him. The kills are generic artifact engines, so without Mishra the deck is a weaker, self-locking artifact pile. His trigger finds only same-name cards; in singleton that means the spell he just cast, after it has left the stack. The cycle 51 M1 review (mishraap-01..10) flags two anti-synergies: the stax hits your own non-artifact spells (mishraap-04), and Void Mirror/Bauble break your own loops without Mishra (mishraap-05). That raises his real importance to the kills too.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/mishra-artificer-prodigy.json",
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 0,
+   "blueprint_wins_structurally_independent": 4,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 20,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 20
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "confidence": "low",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.018,
+   "commander_cast_by_turn6": 0.992,
+   "commander_turn_mean_when_cast": 3.606,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.992,
+    "recovery_turns_mean": 1.5584677419354838,
+    "removal_event_share": 1.0,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 3.75,
+   "fast_mana_uses_mean": 0.424,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": 0.286,
+    "pkg:land-discard-outlets": 0.648,
+    "pkg:land-recursion": 0.584,
+    "pkg:villains-connive": 0.71
+   },
+   "mana_available_t1_6_mean": 23.99,
+   "mana_spent_t1_6_mean": 22.12,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.424,
+   "win_proxy_by_turn6": 0.016
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.022,
+   "commander_cast_by_turn6": 0.992,
+   "commander_turn_mean_when_cast": 3.606,
+   "extra_cards_drawn_mean": 3.64,
+   "fast_mana_uses_mean": 0.37,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": 0.286,
+    "pkg:land-discard-outlets": 0.648,
+    "pkg:land-recursion": 0.584,
+    "pkg:villains-connive": 0.71
+   },
+   "mana_available_t1_6_mean": 24.138,
+   "mana_spent_t1_6_mean": 19.922,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.422,
+   "win_proxy_by_turn6": 0.02
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.016,
+   "commander_cast_by_turn6": 0.898,
+   "commander_turn_mean_when_cast": 5.203219315895372,
+   "extra_cards_drawn_mean": 3.658,
+   "fast_mana_uses_mean": 0.39,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": 0.29,
+    "pkg:land-discard-outlets": 0.664,
+    "pkg:land-recursion": 0.596,
+    "pkg:villains-connive": 0.726
+   },
+   "mana_available_t1_6_mean": 24.502,
+   "mana_spent_t1_6_mean": 20.916,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.426,
+   "win_proxy_by_turn6": 0.016
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.018,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 3.596,
+   "fast_mana_uses_mean": 0.364,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": 0.3,
+    "pkg:land-discard-outlets": 0.672,
+    "pkg:land-recursion": 0.606,
+    "pkg:villains-connive": 0.738
+   },
+   "mana_available_t1_6_mean": 24.706,
+   "mana_spent_t1_6_mean": 18.108,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.424,
+   "win_proxy_by_turn6": 0.018
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.004,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": -0.11,
+   "fast_mana_uses_mean": -0.054,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": 0.0,
+    "pkg:land-discard-outlets": 0.0,
+    "pkg:land-recursion": 0.0,
+    "pkg:villains-connive": 0.0
+   },
+   "mana_available_t1_6_mean": 0.148,
+   "mana_spent_t1_6_mean": -2.198,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.004
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.006,
+   "commander_cast_by_turn6": 0.094,
+   "extra_cards_drawn_mean": -0.018,
+   "fast_mana_uses_mean": -0.02,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": -0.004,
+    "pkg:land-discard-outlets": -0.016,
+    "pkg:land-recursion": -0.012,
+    "pkg:villains-connive": -0.016
+   },
+   "mana_available_t1_6_mean": -0.364,
+   "mana_spent_t1_6_mean": -0.994,
+   "tutors_resolved_mean": -0.004,
+   "win_proxy_by_turn6": 0.004
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.004,
+   "commander_cast_by_turn6": 0.992,
+   "extra_cards_drawn_mean": 0.044,
+   "fast_mana_uses_mean": 0.006,
+   "first_key_set_access_by_turn4": {
+    "pkg:doom-copies": -0.014,
+    "pkg:land-discard-outlets": -0.024,
+    "pkg:land-recursion": -0.022,
+    "pkg:villains-connive": -0.028
+   },
+   "mana_available_t1_6_mean": -0.568,
+   "mana_spent_t1_6_mean": 1.814,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.002
+  }
+ },
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/doctor-doom-king-of-latveria.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

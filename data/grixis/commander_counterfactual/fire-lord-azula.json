@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "confidence": "low",
+ "deck_id": "Fire_Lord_Azula",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.26,
+   "commander_cast_by_turn6": 0.88,
+   "commander_turn_mean_when_cast": 3.8983402489626555,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.8879668049792531,
+    "recovery_turns_mean": 2.133177570093458,
+    "removal_event_share": 0.964,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 1.582,
+   "fast_mana_uses_mean": 0.934,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": 0.592,
+    "pkg:copy-payoffs": 0.564,
+    "pkg:free-interaction": 0.7
+   },
+   "mana_available_t1_6_mean": 22.398,
+   "mana_spent_t1_6_mean": 18.498,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.9,
+   "win_proxy_by_turn6": 0.198
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.284,
+   "commander_cast_by_turn6": 0.88,
+   "commander_turn_mean_when_cast": 3.8983402489626555,
+   "extra_cards_drawn_mean": 1.59,
+   "fast_mana_uses_mean": 0.616,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": 0.592,
+    "pkg:copy-payoffs": 0.564,
+    "pkg:free-interaction": 0.7
+   },
+   "mana_available_t1_6_mean": 22.488,
+   "mana_spent_t1_6_mean": 15.364,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.914,
+   "win_proxy_by_turn6": 0.242
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.286,
+   "commander_cast_by_turn6": 0.602,
+   "commander_turn_mean_when_cast": 5.6880733944954125,
+   "extra_cards_drawn_mean": 1.592,
+   "fast_mana_uses_mean": 0.776,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": 0.592,
+    "pkg:copy-payoffs": 0.566,
+    "pkg:free-interaction": 0.706
+   },
+   "mana_available_t1_6_mean": 22.484,
+   "mana_spent_t1_6_mean": 15.616,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.916,
+   "win_proxy_by_turn6": 0.216
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.212,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 1.808,
+   "fast_mana_uses_mean": 0.684,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": 0.6,
+    "pkg:copy-payoffs": 0.556,
+    "pkg:free-interaction": 0.708
+   },
+   "mana_available_t1_6_mean": 23.196,
+   "mana_spent_t1_6_mean": 12.696,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.934,
+   "win_proxy_by_turn6": 0.198
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.024,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.008,
+   "fast_mana_uses_mean": -0.318,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": 0.0,
+    "pkg:copy-payoffs": 0.0,
+    "pkg:free-interaction": 0.0
+   },
+   "mana_available_t1_6_mean": 0.09,
+   "mana_spent_t1_6_mean": -3.134,
+   "tutors_resolved_mean": 0.014,
+   "win_proxy_by_turn6": 0.044
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.002,
+   "commander_cast_by_turn6": 0.278,
+   "extra_cards_drawn_mean": -0.002,
+   "fast_mana_uses_mean": -0.16,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": 0.0,
+    "pkg:copy-payoffs": -0.002,
+    "pkg:free-interaction": -0.006
+   },
+   "mana_available_t1_6_mean": 0.004,
+   "mana_spent_t1_6_mean": -0.252,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.026
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.072,
+   "commander_cast_by_turn6": 0.88,
+   "extra_cards_drawn_mean": -0.218,
+   "fast_mana_uses_mean": -0.068,
+   "first_key_set_access_by_turn4": {
+    "pkg:combat-timing": -0.008,
+    "pkg:copy-payoffs": 0.008,
+    "pkg:free-interaction": -0.008
+   },
+   "mana_available_t1_6_mean": -0.708,
+   "mana_spent_t1_6_mean": 2.668,
+   "tutors_resolved_mean": -0.02,
+   "win_proxy_by_turn6": 0.044
+  }
+ },
+ "schema_version": 1,
+ "slug": "fire-lord-azula",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Copies every spell cast while she attacks; two of the deck's infinites need her.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Her copy only works during combat on an attack, so sorceries need flash enablers and she has to survive to attack. The Breach and Oracle lines (M1 azula-07, azula-08) win without her, and the list is built like a generic Grixis cEDH deck around her.",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/fire-lord-azula.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 7,
+   "combo_direct_commander_piece": 2,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 9
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "confidence": "low",
+ "deck_id": "Grixistax___October_2026",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.206,
+   "commander_cast_by_turn6": 0.704,
+   "commander_turn_mean_when_cast": 5.028199566160521,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.911062906724512,
+    "recovery_turns_mean": 1.45,
+    "removal_event_share": 0.922,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.358,
+   "fast_mana_uses_mean": 0.718,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.776,
+    "pkg:free-interaction": 0.694,
+    "pkg:prison": 0.892
+   },
+   "mana_available_t1_6_mean": 20.522,
+   "mana_spent_t1_6_mean": 18.328,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.936,
+   "win_proxy_by_turn6": 0.146
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.208,
+   "commander_cast_by_turn6": 0.704,
+   "commander_turn_mean_when_cast": 5.028199566160521,
+   "extra_cards_drawn_mean": 0.352,
+   "fast_mana_uses_mean": 0.62,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.776,
+    "pkg:free-interaction": 0.694,
+    "pkg:prison": 0.892
+   },
+   "mana_available_t1_6_mean": 20.56,
+   "mana_spent_t1_6_mean": 17.648,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.94,
+   "win_proxy_by_turn6": 0.154
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.216,
+   "commander_cast_by_turn6": 0.238,
+   "commander_turn_mean_when_cast": 7.053511705685619,
+   "extra_cards_drawn_mean": 0.342,
+   "fast_mana_uses_mean": 0.7,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.776,
+    "pkg:free-interaction": 0.696,
+    "pkg:prison": 0.896
+   },
+   "mana_available_t1_6_mean": 20.656,
+   "mana_spent_t1_6_mean": 15.478,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.936,
+   "win_proxy_by_turn6": 0.172
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.216,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.332,
+   "fast_mana_uses_mean": 0.478,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.776,
+    "pkg:free-interaction": 0.696,
+    "pkg:prison": 0.896
+   },
+   "mana_available_t1_6_mean": 20.892,
+   "mana_spent_t1_6_mean": 13.522,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.934,
+   "win_proxy_by_turn6": 0.172
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.002,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": -0.006,
+   "fast_mana_uses_mean": -0.098,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.0,
+    "pkg:free-interaction": 0.0,
+    "pkg:prison": 0.0
+   },
+   "mana_available_t1_6_mean": 0.038,
+   "mana_spent_t1_6_mean": -0.68,
+   "tutors_resolved_mean": 0.004,
+   "win_proxy_by_turn6": 0.008
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.008,
+   "commander_cast_by_turn6": 0.466,
+   "extra_cards_drawn_mean": 0.01,
+   "fast_mana_uses_mean": -0.08,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.0,
+    "pkg:free-interaction": -0.002,
+    "pkg:prison": -0.004
+   },
+   "mana_available_t1_6_mean": -0.096,
+   "mana_spent_t1_6_mean": 2.17,
+   "tutors_resolved_mean": 0.004,
+   "win_proxy_by_turn6": -0.018
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": -0.008,
+   "commander_cast_by_turn6": 0.704,
+   "extra_cards_drawn_mean": 0.02,
+   "fast_mana_uses_mean": 0.142,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-mana": 0.0,
+    "pkg:free-interaction": -0.002,
+    "pkg:prison": -0.004
+   },
+   "mana_available_t1_6_mean": -0.332,
+   "mana_spent_t1_6_mean": 4.126,
+   "tutors_resolved_mean": 0.006,
+   "win_proxy_by_turn6": -0.018
+  }
+ },
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Tevesh Szat is the parity engine (Thrulls pay Contamination, feed Skullclamp, Phyrexian Tower and Culling the Weak); Kraum is evasive pressure and a draw trigger.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Both win lines (Helm + Leyline/Dauthi, Breach) are commander-independent, and Kraum is close to incidental: he only draws when an opponent casts a second spell, which this deck's own taxes suppress. The pair is chosen for parity breaking, not as an engine the deck can't run without (source: decisions L28).",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/grixistax-october-2026.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 6,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 6
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "confidence": "low",
+ "deck_id": "Nicol_Bolas",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.038,
+   "commander_cast_by_turn6": 0.364,
+   "commander_turn_mean_when_cast": 6.900966183574879,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.6135265700483091,
+    "recovery_turns_mean": 2.1535433070866143,
+    "removal_event_share": 0.828,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.582,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.522,
+    "pkg:discard-payoffs": 0.578,
+    "pkg:mana": 0.82,
+    "pkg:protection": 0.596
+   },
+   "mana_available_t1_6_mean": 26.74,
+   "mana_spent_t1_6_mean": 19.5,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.294,
+   "win_proxy_by_turn6": 0.038
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.038,
+   "commander_cast_by_turn6": 0.364,
+   "commander_turn_mean_when_cast": 6.900966183574879,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.396,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.522,
+    "pkg:discard-payoffs": 0.578,
+    "pkg:mana": 0.82,
+    "pkg:protection": 0.596
+   },
+   "mana_available_t1_6_mean": 26.764,
+   "mana_spent_t1_6_mean": 18.85,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.298,
+   "win_proxy_by_turn6": 0.038
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.038,
+   "commander_cast_by_turn6": 0.108,
+   "commander_turn_mean_when_cast": 8.033898305084746,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.512,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.522,
+    "pkg:discard-payoffs": 0.578,
+    "pkg:mana": 0.82,
+    "pkg:protection": 0.596
+   },
+   "mana_available_t1_6_mean": 26.754,
+   "mana_spent_t1_6_mean": 17.278,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.298,
+   "win_proxy_by_turn6": 0.038
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.038,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.242,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.522,
+    "pkg:discard-payoffs": 0.578,
+    "pkg:mana": 0.82,
+    "pkg:protection": 0.596
+   },
+   "mana_available_t1_6_mean": 26.854,
+   "mana_spent_t1_6_mean": 16.196,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.298,
+   "win_proxy_by_turn6": 0.038
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.186,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.0,
+    "pkg:discard-payoffs": 0.0,
+    "pkg:mana": 0.0,
+    "pkg:protection": 0.0
+   },
+   "mana_available_t1_6_mean": 0.024,
+   "mana_spent_t1_6_mean": -0.65,
+   "tutors_resolved_mean": 0.004,
+   "win_proxy_by_turn6": 0.0
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.256,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.116,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.0,
+    "pkg:discard-payoffs": 0.0,
+    "pkg:mana": 0.0,
+    "pkg:protection": 0.0
+   },
+   "mana_available_t1_6_mean": 0.01,
+   "mana_spent_t1_6_mean": 1.572,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.364,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.154,
+   "first_key_set_access_by_turn4": {
+    "pkg:bolas-sourced-damage": 0.0,
+    "pkg:discard-payoffs": 0.0,
+    "pkg:mana": 0.0,
+    "pkg:protection": 0.0
+   },
+   "mana_available_t1_6_mean": -0.09,
+   "mana_spent_t1_6_mean": 2.654,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  }
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/nicol-bolas.json",
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

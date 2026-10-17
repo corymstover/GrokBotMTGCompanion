@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "confidence": "low",
+ "deck_id": "Tetsuo_Umezawa",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.058,
+   "commander_cast_by_turn6": 0.956,
+   "commander_turn_mean_when_cast": 3.261663286004057,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9918864097363083,
+    "recovery_turns_mean": 1.2024539877300613,
+    "removal_event_share": 0.986,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.794,
+   "fast_mana_uses_mean": 0.178,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": 0.454,
+    "pkg:target-makers": 0.774,
+    "pkg:untap": 0.724
+   },
+   "mana_available_t1_6_mean": 24.506,
+   "mana_spent_t1_6_mean": 22.354,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.312,
+   "win_proxy_by_turn6": 0.058
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.066,
+   "commander_cast_by_turn6": 0.956,
+   "commander_turn_mean_when_cast": 3.261663286004057,
+   "extra_cards_drawn_mean": 0.804,
+   "fast_mana_uses_mean": 0.15,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": 0.454,
+    "pkg:target-makers": 0.774,
+    "pkg:untap": 0.724
+   },
+   "mana_available_t1_6_mean": 24.636,
+   "mana_spent_t1_6_mean": 19.846,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.314,
+   "win_proxy_by_turn6": 0.066
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.064,
+   "commander_cast_by_turn6": 0.896,
+   "commander_turn_mean_when_cast": 4.376016260162602,
+   "extra_cards_drawn_mean": 0.804,
+   "fast_mana_uses_mean": 0.158,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": 0.456,
+    "pkg:target-makers": 0.776,
+    "pkg:untap": 0.72
+   },
+   "mana_available_t1_6_mean": 24.818,
+   "mana_spent_t1_6_mean": 20.984,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.314,
+   "win_proxy_by_turn6": 0.064
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.066,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.804,
+   "fast_mana_uses_mean": 0.148,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": 0.456,
+    "pkg:target-makers": 0.776,
+    "pkg:untap": 0.728
+   },
+   "mana_available_t1_6_mean": 24.996,
+   "mana_spent_t1_6_mean": 18.346,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.316,
+   "win_proxy_by_turn6": 0.066
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.01,
+   "fast_mana_uses_mean": -0.028,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": 0.0,
+    "pkg:target-makers": 0.0,
+    "pkg:untap": 0.0
+   },
+   "mana_available_t1_6_mean": 0.13,
+   "mana_spent_t1_6_mean": -2.508,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.008
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.002,
+   "commander_cast_by_turn6": 0.06,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.008,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": -0.002,
+    "pkg:target-makers": -0.002,
+    "pkg:untap": 0.004
+   },
+   "mana_available_t1_6_mean": -0.182,
+   "mana_spent_t1_6_mean": -1.138,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.002
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.956,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.002,
+   "first_key_set_access_by_turn4": {
+    "pkg:payoffs": -0.002,
+    "pkg:target-makers": -0.002,
+    "pkg:untap": -0.004
+   },
+   "mana_available_t1_6_mean": -0.36,
+   "mana_spent_t1_6_mean": 1.5,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.0
+  }
+ },
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43).",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/tetsuo-umezawa.json",
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 3,
+   "engines_explicit_commander": 1,
+   "required_packages": 2,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

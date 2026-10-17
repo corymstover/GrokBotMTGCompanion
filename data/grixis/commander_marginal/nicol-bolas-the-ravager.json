@@ -1,0 +1,342 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "confidence": "low",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.462,
+    "tutors_resolved_mean": 0.658
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.078,
+    "win_proxy_by_turn6": 0.028
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.07,
+    "mana_spent_t1_6_mean": 23.164,
+    "spent_over_available_proxy": 0.888531
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.078,
+    "commander_cast_by_turn6": 0.966,
+    "expected_key_sets_first_accessed_by_turn4": 1.488,
+    "extra_cards_drawn_mean": 0.462,
+    "tutors_resolved_mean": 0.658
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.488,
+    "first_key_set_access_by_turn4": {
+     "pkg:etb-reset": 0.166,
+     "pkg:planeswalkers": 0.756,
+     "pkg:proliferate": 0.566
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9759036144578314,
+    "recovery_turns_mean": 1.6131687242798354,
+    "removal_event_share": 0.996,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.468,
+    "tutors_resolved_mean": 0.664
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.086,
+    "win_proxy_by_turn6": 0.056
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.146,
+    "mana_spent_t1_6_mean": 21.396,
+    "spent_over_available_proxy": 0.818328
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.086,
+    "commander_cast_by_turn6": 0.966,
+    "expected_key_sets_first_accessed_by_turn4": 1.488,
+    "extra_cards_drawn_mean": 0.468,
+    "tutors_resolved_mean": 0.664
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.488,
+    "first_key_set_access_by_turn4": {
+     "pkg:etb-reset": 0.166,
+     "pkg:planeswalkers": 0.756,
+     "pkg:proliferate": 0.566
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.466,
+    "tutors_resolved_mean": 0.664
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.09,
+    "win_proxy_by_turn6": 0.052
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.242,
+    "mana_spent_t1_6_mean": 21.86,
+    "spent_over_available_proxy": 0.833016
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.09,
+    "commander_cast_by_turn6": 0.802,
+    "expected_key_sets_first_accessed_by_turn4": 1.492,
+    "extra_cards_drawn_mean": 0.466,
+    "tutors_resolved_mean": 0.664
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.492,
+    "first_key_set_access_by_turn4": {
+     "pkg:etb-reset": 0.166,
+     "pkg:planeswalkers": 0.76,
+     "pkg:proliferate": 0.566
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.468,
+    "tutors_resolved_mean": 0.662
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.09,
+    "win_proxy_by_turn6": 0.062
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.422,
+    "mana_spent_t1_6_mean": 19.568,
+    "spent_over_available_proxy": 0.740595
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.09,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.494,
+    "extra_cards_drawn_mean": 0.468,
+    "tutors_resolved_mean": 0.662
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.494,
+    "first_key_set_access_by_turn4": {
+     "pkg:etb-reset": 0.166,
+     "pkg:planeswalkers": 0.762,
+     "pkg:proliferate": 0.566
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.006,
+    "tutors_resolved_mean": 0.006
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.028
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.076,
+    "mana_spent_t1_6_mean": -1.768,
+    "spent_over_available_proxy": -0.070203
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.006,
+    "tutors_resolved_mean": 0.006
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.002,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.004,
+    "win_proxy_by_turn6": 0.004
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.096,
+    "mana_spent_t1_6_mean": -0.464,
+    "spent_over_available_proxy": -0.014688
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.004,
+    "commander_cast_by_turn6": 0.164,
+    "expected_key_sets_first_accessed_by_turn4": -0.004,
+    "extra_cards_drawn_mean": 0.002,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.004
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.004,
+    "win_proxy_by_turn6": -0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.276,
+    "mana_spent_t1_6_mean": 1.828,
+    "spent_over_available_proxy": 0.077733
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.004,
+    "commander_cast_by_turn6": 0.966,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Teferi, Temporal Archmage",
+     "The Chain Veil"
+    ],
+    "direct_commander_pieces": [],
+    "id": "787-1124",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Teferi, Master of Time",
+     "Ichormoon Gauntlet",
+     "The Chain Veil"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1124-1543-2247",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Teferi, Master of Time",
+     "Ichormoon Gauntlet",
+     "Rowan's Talent"
+    ],
+    "direct_commander_pieces": [],
+    "id": "652-1543-2247",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+    ],
+    "id": "transform",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "loyalty-multiplication",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 3,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 2,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 3
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "teferi-veil",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "arisen-ultimate",
+    "kind": "alternate"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "superfriends-value",
+    "kind": "natural"
+   }
+  ]
+ }
+}

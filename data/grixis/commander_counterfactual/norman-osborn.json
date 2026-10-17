@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "confidence": "low",
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.174,
+   "commander_cast_by_turn6": 0.95,
+   "commander_turn_mean_when_cast": 2.1417004048582995,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9878542510121457,
+    "recovery_turns_mean": 1.2684426229508197,
+    "removal_event_share": 0.988,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 3.426,
+   "fast_mana_uses_mean": 0.69,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": 0.782,
+    "pkg:stack": 0.808,
+    "pkg:timing": 0.23,
+    "pkg:tutors": 0.712
+   },
+   "mana_available_t1_6_mean": 22.912,
+   "mana_spent_t1_6_mean": 18.486,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.142,
+   "win_proxy_by_turn6": 0.162
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.234,
+   "commander_cast_by_turn6": 0.95,
+   "commander_turn_mean_when_cast": 2.1417004048582995,
+   "extra_cards_drawn_mean": 3.496,
+   "fast_mana_uses_mean": 0.488,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": 0.782,
+    "pkg:stack": 0.808,
+    "pkg:timing": 0.23,
+    "pkg:tutors": 0.712
+   },
+   "mana_available_t1_6_mean": 23.308,
+   "mana_spent_t1_6_mean": 13.512,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.154,
+   "win_proxy_by_turn6": 0.22
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.236,
+   "commander_cast_by_turn6": 0.884,
+   "commander_turn_mean_when_cast": 3.6775510204081634,
+   "extra_cards_drawn_mean": 3.472,
+   "fast_mana_uses_mean": 0.59,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": 0.786,
+    "pkg:stack": 0.802,
+    "pkg:timing": 0.226,
+    "pkg:tutors": 0.708
+   },
+   "mana_available_t1_6_mean": 22.858,
+   "mana_spent_t1_6_mean": 15.08,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.168,
+   "win_proxy_by_turn6": 0.224
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.238,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 3.524,
+   "fast_mana_uses_mean": 0.548,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": 0.784,
+    "pkg:stack": 0.81,
+    "pkg:timing": 0.236,
+    "pkg:tutors": 0.718
+   },
+   "mana_available_t1_6_mean": 23.326,
+   "mana_spent_t1_6_mean": 12.052,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.174,
+   "win_proxy_by_turn6": 0.224
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.06,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.07,
+   "fast_mana_uses_mean": -0.202,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": 0.0,
+    "pkg:stack": 0.0,
+    "pkg:timing": 0.0,
+    "pkg:tutors": 0.0
+   },
+   "mana_available_t1_6_mean": 0.396,
+   "mana_spent_t1_6_mean": -4.974,
+   "tutors_resolved_mean": 0.012,
+   "win_proxy_by_turn6": 0.058
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.002,
+   "commander_cast_by_turn6": 0.066,
+   "extra_cards_drawn_mean": 0.024,
+   "fast_mana_uses_mean": -0.102,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": -0.004,
+    "pkg:stack": 0.006,
+    "pkg:timing": 0.004,
+    "pkg:tutors": 0.004
+   },
+   "mana_available_t1_6_mean": 0.45,
+   "mana_spent_t1_6_mean": -1.568,
+   "tutors_resolved_mean": -0.014,
+   "win_proxy_by_turn6": -0.004
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": -0.004,
+   "commander_cast_by_turn6": 0.95,
+   "extra_cards_drawn_mean": -0.028,
+   "fast_mana_uses_mean": -0.06,
+   "first_key_set_access_by_turn4": {
+    "pkg:discard-into-mayhem": -0.002,
+    "pkg:stack": -0.002,
+    "pkg:timing": -0.006,
+    "pkg:tutors": -0.006
+   },
+   "mana_available_t1_6_mean": -0.018,
+   "mana_spent_t1_6_mean": 1.46,
+   "tutors_resolved_mean": -0.02,
+   "win_proxy_by_turn6": -0.004
+  }
+ },
+ "schema_version": 1,
+ "slug": "norman-osborn",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Green Goblin's mayhem and cost reduction turn the loot/discard package into virtual card advantage. Norman is a blue legendary that turns on Mox Amber.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Its registry id was corrected in Bot cycle 55 from the stale source tracker id Goben__Gene_Splice_Savant to Norman_Osborn_Green_Goblin (registry deck_id_provenance). M1 review (norman-01..09, all verified) confirms the mayhem, cost-stacking and Breach lines.",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/norman-osborn.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 6,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 7
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

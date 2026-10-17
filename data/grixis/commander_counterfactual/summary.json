@@ -1,0 +1,320 @@
+{
+ "decks": [
+  {
+   "deck_id": "Abaddon_the_Despoiler",
+   "role": "central",
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "deck_id": "Admiral_Beckett_Brass",
+   "role": "central",
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "role": "central",
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "deck_id": "Anhelo__the_Painter",
+   "role": "significant",
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "role": "significant",
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "deck_id": "Ashnod_the_Uncaring",
+   "role": "central",
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "role": "central",
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "role": "supporting",
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "deck_id": "Cormela__Glamour_Thief",
+   "role": "central",
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "deck_id": "Crosis__the_Purger",
+   "role": "central",
+   "slug": "crosis-the-purger"
+  },
+  {
+   "deck_id": "Cult_of_Skaro",
+   "role": "central",
+   "slug": "cult-of-skaro"
+  },
+  {
+   "deck_id": "Davros__Dalek_Creator",
+   "role": "central",
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "role": "central",
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "deck_id": "Don_Andres__the_Renegade",
+   "role": "central",
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "deck_id": "Dr__Eggman",
+   "role": "central",
+   "slug": "dr-eggman"
+  },
+  {
+   "deck_id": "Edea__Possessed_Sorceress",
+   "role": "central",
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "deck_id": "Edward_Kenway",
+   "role": "central",
+   "slug": "edward-kenway"
+  },
+  {
+   "deck_id": "Evelyn__the_Covetous",
+   "role": "significant",
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "deck_id": "Fire_Lord_Azula",
+   "role": "significant",
+   "slug": "fire-lord-azula"
+  },
+  {
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "role": "central",
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "deck_id": "Goro_Goro_and_Satoru",
+   "role": "central",
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "deck_id": "Grixistax___October_2026",
+   "role": "significant",
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "deck_id": "Gwendlyn_Di_Corci",
+   "role": "central",
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "role": "central",
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "role": "significant",
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "deck_id": "Kefka__Court_Mage",
+   "role": "central",
+   "slug": "kefka-court-mage"
+  },
+  {
+   "deck_id": "Kess__Dissident_Mage",
+   "role": "central",
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "deck_id": "Loki__the_Deceiver",
+   "role": "central",
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "deck_id": "Lord_of_Tresserhorn",
+   "role": "central",
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "deck_id": "Lord_Xander__the_Collector",
+   "role": "central",
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "role": "central",
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "deck_id": "Mai_and_Zuko",
+   "role": "significant",
+   "slug": "mai-and-zuko"
+  },
+  {
+   "deck_id": "Mairsil__the_Pretender",
+   "role": "central",
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "role": "significant",
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "deck_id": "Marchesa__the_Black_Rose",
+   "role": "significant",
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "role": "central",
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "deck_id": "Mishra__Eminent_One",
+   "role": "central",
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "deck_id": "Missy",
+   "role": "central",
+   "slug": "missy"
+  },
+  {
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "role": "central",
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "deck_id": "Nekusar__the_Mindrazer",
+   "role": "significant",
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "deck_id": "Nicol_Bolas",
+   "role": "central",
+   "slug": "nicol-bolas"
+  },
+  {
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "role": "significant",
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "role": "significant",
+   "slug": "norman-osborn"
+  },
+  {
+   "deck_id": "Obeka__Brute_Chronologist",
+   "role": "central",
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "role": "central",
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "role": "supporting",
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "deck_id": "RogSi",
+   "role": "significant",
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "deck_id": "Saruman__the_White_Hand",
+   "role": "central",
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "role": "central",
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "deck_id": "Sauron__the_Dark_Lord",
+   "role": "central",
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "deck_id": "Sedris__the_Traitor_King",
+   "role": "central",
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "role": "supporting",
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "deck_id": "Sol_kanar_the_Tainted",
+   "role": "significant",
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "role": "central",
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "deck_id": "Tetsuo_Umezawa",
+   "role": "central",
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "deck_id": "The_Madcap_Jester",
+   "role": "significant",
+   "slug": "the-madcap-jester"
+  },
+  {
+   "deck_id": "The_Rani",
+   "role": "central",
+   "slug": "the-rani"
+  },
+  {
+   "deck_id": "The_Valeyard",
+   "role": "central",
+   "slug": "the-valeyard"
+  },
+  {
+   "deck_id": "Thraximundar",
+   "role": "significant",
+   "slug": "thraximundar"
+  },
+  {
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "role": "central",
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "deck_id": "Wick__the_Whorled_Mind",
+   "role": "central",
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "deck_id": "Zevlor__Elturel_Exile",
+   "role": "central",
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "generated_by": "scripts/grixis_commander_counterfactual.py v1",
+ "samples_per_mode": 500,
+ "schema_version": 1,
+ "totals": {
+  "decks": 62
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "confidence": "low",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.262,
+   "commander_cast_by_turn6": 0.96,
+   "commander_turn_mean_when_cast": 3.61336032388664,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.937246963562753,
+    "recovery_turns_mean": 2.1447084233261338,
+    "removal_event_share": 0.988,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.164,
+   "fast_mana_uses_mean": 0.236,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.502,
+    "pkg:rats": 0.884,
+    "pkg:snail-growth": 0.358,
+    "pkg:type-changers": 0.302
+   },
+   "mana_available_t1_6_mean": 22.102,
+   "mana_spent_t1_6_mean": 20.67,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.452,
+   "win_proxy_by_turn6": 0.194
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.264,
+   "commander_cast_by_turn6": 0.96,
+   "commander_turn_mean_when_cast": 3.61336032388664,
+   "extra_cards_drawn_mean": 0.164,
+   "fast_mana_uses_mean": 0.166,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.502,
+    "pkg:rats": 0.884,
+    "pkg:snail-growth": 0.358,
+    "pkg:type-changers": 0.302
+   },
+   "mana_available_t1_6_mean": 22.122,
+   "mana_spent_t1_6_mean": 18.948,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.454,
+   "win_proxy_by_turn6": 0.238
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.256,
+   "commander_cast_by_turn6": 0.654,
+   "commander_turn_mean_when_cast": 5.989247311827957,
+   "extra_cards_drawn_mean": 0.164,
+   "fast_mana_uses_mean": 0.198,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.502,
+    "pkg:rats": 0.884,
+    "pkg:snail-growth": 0.358,
+    "pkg:type-changers": 0.298
+   },
+   "mana_available_t1_6_mean": 22.214,
+   "mana_spent_t1_6_mean": 19.33,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.454,
+   "win_proxy_by_turn6": 0.216
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.082,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.164,
+   "fast_mana_uses_mean": 0.158,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.494,
+    "pkg:rats": 0.884,
+    "pkg:snail-growth": 0.358,
+    "pkg:type-changers": 0.242
+   },
+   "mana_available_t1_6_mean": 22.268,
+   "mana_spent_t1_6_mean": 16.806,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.454,
+   "win_proxy_by_turn6": 0.068
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.002,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.07,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.0,
+    "pkg:rats": 0.0,
+    "pkg:snail-growth": 0.0,
+    "pkg:type-changers": 0.0
+   },
+   "mana_available_t1_6_mean": 0.02,
+   "mana_spent_t1_6_mean": -1.722,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.044
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.306,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.032,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.0,
+    "pkg:rats": 0.0,
+    "pkg:snail-growth": 0.0,
+    "pkg:type-changers": 0.004
+   },
+   "mana_available_t1_6_mean": -0.092,
+   "mana_spent_t1_6_mean": -0.382,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.022
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.182,
+   "commander_cast_by_turn6": 0.96,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.008,
+   "first_key_set_access_by_turn4": {
+    "pkg:outlets": 0.008,
+    "pkg:rats": 0.0,
+    "pkg:snail-growth": 0.0,
+    "pkg:type-changers": 0.06
+   },
+   "mana_available_t1_6_mean": -0.146,
+   "mana_spent_t1_6_mean": 2.142,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.17
+  }
+ },
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/wick-the-whorled-mind.json",
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 4,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 12,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 13
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

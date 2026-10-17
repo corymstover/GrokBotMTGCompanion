@@ -1,0 +1,410 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+  "confidence": "moderate",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "confidence": "low",
+ "deck_id": "Anhelo__the_Painter",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.518
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.178,
+    "win_proxy_by_turn6": 0.152
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.652,
+    "mana_spent_t1_6_mean": 21.954,
+    "spent_over_available_proxy": 0.890557
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.178,
+    "commander_cast_by_turn6": 0.986,
+    "expected_key_sets_first_accessed_by_turn4": 2.592,
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.518
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.592,
+    "first_key_set_access_by_turn4": {
+     "pkg:casualty-fodder": 0.658,
+     "pkg:copy-multipliers": 0.66,
+     "pkg:copy-worthy-spells": 0.54,
+     "pkg:interaction": 0.734
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9939879759519038,
+    "recovery_turns_mean": 1.2399193548387097,
+    "removal_event_share": 0.998,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.522
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.186,
+    "win_proxy_by_turn6": 0.16
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.846,
+    "mana_spent_t1_6_mean": 18.802,
+    "spent_over_available_proxy": 0.756742
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.186,
+    "commander_cast_by_turn6": 0.986,
+    "expected_key_sets_first_accessed_by_turn4": 2.592,
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.522
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.592,
+    "first_key_set_access_by_turn4": {
+     "pkg:casualty-fodder": 0.658,
+     "pkg:copy-multipliers": 0.66,
+     "pkg:copy-worthy-spells": 0.54,
+     "pkg:interaction": 0.734
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.52
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.188,
+    "win_proxy_by_turn6": 0.164
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.0,
+    "mana_spent_t1_6_mean": 20.006,
+    "spent_over_available_proxy": 0.80024
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.188,
+    "commander_cast_by_turn6": 0.928,
+    "expected_key_sets_first_accessed_by_turn4": 2.598,
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.52
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.598,
+    "first_key_set_access_by_turn4": {
+     "pkg:casualty-fodder": 0.654,
+     "pkg:copy-multipliers": 0.668,
+     "pkg:copy-worthy-spells": 0.54,
+     "pkg:interaction": 0.736
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.524
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.186,
+    "win_proxy_by_turn6": 0.162
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.32,
+    "mana_spent_t1_6_mean": 16.824,
+    "spent_over_available_proxy": 0.664455
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.186,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 2.608,
+    "extra_cards_drawn_mean": 0.558,
+    "tutors_resolved_mean": 0.524
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.608,
+    "first_key_set_access_by_turn4": {
+     "pkg:casualty-fodder": 0.658,
+     "pkg:copy-multipliers": 0.67,
+     "pkg:copy-worthy-spells": 0.542,
+     "pkg:interaction": 0.738
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.004
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.008
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.194,
+    "mana_spent_t1_6_mean": -3.152,
+    "spent_over_available_proxy": -0.133815
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.004
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.002,
+    "win_proxy_by_turn6": -0.004
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.154,
+    "mana_spent_t1_6_mean": -1.204,
+    "spent_over_available_proxy": -0.043498
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.002,
+    "commander_cast_by_turn6": 0.058,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": -0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": -0.002
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.474,
+    "mana_spent_t1_6_mean": 1.978,
+    "spent_over_available_proxy": 0.092287
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.986,
+    "expected_key_sets_first_accessed_by_turn4": -0.016,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": -0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.016
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "anhelo-the-painter",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-2539",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Narset's Reversal",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Dualcaster Mage",
+     "Twinflame"
+    ],
+    "direct_commander_pieces": [],
+    "id": "147-1235",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1878-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Reiterate",
+     "Mana Geyser"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2091-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Primal Amulet // Primal Wellspring",
+     "Frantic Search",
+     "Narset's Reversal"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-1484-2196",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Cormela, Glamour Thief",
+     "Storm-Kiln Artist",
+     "Twinflame"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1235-4867-5195",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Primal Amulet // Primal Wellspring",
+     "Frantic Search",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1484-2196-3368",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Anhelo, the Painter"
+    ],
+    "id": "casualty-copy",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "spell-recursion",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 3,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 8,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 8
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "narset-reversal-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "dualcaster-twinflame",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "reiterate-mana",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Anhelo, the Painter"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "copied-extra-turns",
+    "kind": "natural"
+   }
+  ]
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "confidence": "low",
+ "deck_id": "Cult_of_Skaro",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.716,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.21,
+    "mana_spent_t1_6_mean": 20.77,
+    "spent_over_available_proxy": 0.894873
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.938,
+    "expected_key_sets_first_accessed_by_turn4": 2.054,
+    "extra_cards_drawn_mean": 0.716,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.054,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-creature-army": 0.704,
+     "pkg:artifact-lords": 0.264,
+     "pkg:attack-protection": 0.566,
+     "pkg:trigger-multipliers": 0.52
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9393939393939394,
+    "recovery_turns_mean": 1.946236559139785,
+    "removal_event_share": 0.99,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.816,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.284,
+    "mana_spent_t1_6_mean": 19.744,
+    "spent_over_available_proxy": 0.847964
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.938,
+    "expected_key_sets_first_accessed_by_turn4": 2.054,
+    "extra_cards_drawn_mean": 0.816,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.054,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-creature-army": 0.704,
+     "pkg:artifact-lords": 0.264,
+     "pkg:attack-protection": 0.566,
+     "pkg:trigger-multipliers": 0.52
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.876,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.332,
+    "mana_spent_t1_6_mean": 19.914,
+    "spent_over_available_proxy": 0.853506
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.706,
+    "expected_key_sets_first_accessed_by_turn4": 2.058,
+    "extra_cards_drawn_mean": 0.876,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.058,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-creature-army": 0.708,
+     "pkg:artifact-lords": 0.262,
+     "pkg:attack-protection": 0.566,
+     "pkg:trigger-multipliers": 0.522
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.916,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 23.424,
+    "mana_spent_t1_6_mean": 18.39,
+    "spent_over_available_proxy": 0.785092
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 2.06,
+    "extra_cards_drawn_mean": 0.916,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.06,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-creature-army": 0.708,
+     "pkg:artifact-lords": 0.264,
+     "pkg:attack-protection": 0.566,
+     "pkg:trigger-multipliers": 0.522
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.1,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.074,
+    "mana_spent_t1_6_mean": -1.026,
+    "spent_over_available_proxy": -0.046909
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.1,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.06,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.048,
+    "mana_spent_t1_6_mean": -0.17,
+    "spent_over_available_proxy": -0.005542
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.232,
+    "expected_key_sets_first_accessed_by_turn4": -0.004,
+    "extra_cards_drawn_mean": -0.06,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.004
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.1,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.14,
+    "mana_spent_t1_6_mean": 1.354,
+    "spent_over_available_proxy": 0.062872
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.938,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": -0.1,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "cult-of-skaro",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [
+     "Cult of Skaro"
+    ],
+    "cards": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "direct_commander_pieces": [],
+    "id": "900-3750",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cult of Skaro"
+    ],
+    "id": "cult-attack",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "extra-combats",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Cult of Skaro"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "sword-assault",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "multiplied-attacks",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "artifact-swarm",
+    "kind": "natural"
+   }
+  ]
+ }
+}

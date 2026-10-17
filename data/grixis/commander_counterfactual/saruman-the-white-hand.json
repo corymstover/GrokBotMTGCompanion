@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "confidence": "low",
+ "deck_id": "Saruman__the_White_Hand",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.078,
+   "commander_cast_by_turn6": 0.946,
+   "commander_turn_mean_when_cast": 3.866396761133603,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9433198380566802,
+    "recovery_turns_mean": 1.8776824034334765,
+    "removal_event_share": 0.988,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 2.738,
+   "fast_mana_uses_mean": 0.088,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": 0.504,
+    "pkg:high-mv-cheap": 0.73,
+    "pkg:mdfc-spells": 0.374
+   },
+   "mana_available_t1_6_mean": 22.53,
+   "mana_spent_t1_6_mean": 19.958,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.684,
+   "win_proxy_by_turn6": 0.0
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.112,
+   "commander_cast_by_turn6": 0.946,
+   "commander_turn_mean_when_cast": 3.866396761133603,
+   "extra_cards_drawn_mean": 2.786,
+   "fast_mana_uses_mean": 0.066,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": 0.504,
+    "pkg:high-mv-cheap": 0.73,
+    "pkg:mdfc-spells": 0.374
+   },
+   "mana_available_t1_6_mean": 22.6,
+   "mana_spent_t1_6_mean": 18.692,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.694,
+   "win_proxy_by_turn6": 0.002
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.11,
+   "commander_cast_by_turn6": 0.72,
+   "commander_turn_mean_when_cast": 5.817021276595745,
+   "extra_cards_drawn_mean": 2.722,
+   "fast_mana_uses_mean": 0.07,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": 0.512,
+    "pkg:high-mv-cheap": 0.748,
+    "pkg:mdfc-spells": 0.376
+   },
+   "mana_available_t1_6_mean": 22.814,
+   "mana_spent_t1_6_mean": 18.976,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.692,
+   "win_proxy_by_turn6": 0.004
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.116,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 2.758,
+   "fast_mana_uses_mean": 0.068,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": 0.516,
+    "pkg:high-mv-cheap": 0.754,
+    "pkg:mdfc-spells": 0.382
+   },
+   "mana_available_t1_6_mean": 22.874,
+   "mana_spent_t1_6_mean": 17.024,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.694,
+   "win_proxy_by_turn6": 0.004
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.034,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.048,
+   "fast_mana_uses_mean": -0.022,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": 0.0,
+    "pkg:high-mv-cheap": 0.0,
+    "pkg:mdfc-spells": 0.0
+   },
+   "mana_available_t1_6_mean": 0.07,
+   "mana_spent_t1_6_mean": -1.266,
+   "tutors_resolved_mean": 0.01,
+   "win_proxy_by_turn6": 0.002
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.002,
+   "commander_cast_by_turn6": 0.226,
+   "extra_cards_drawn_mean": 0.064,
+   "fast_mana_uses_mean": -0.004,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": -0.008,
+    "pkg:high-mv-cheap": -0.018,
+    "pkg:mdfc-spells": -0.002
+   },
+   "mana_available_t1_6_mean": -0.214,
+   "mana_spent_t1_6_mean": -0.284,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": -0.002
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": -0.004,
+   "commander_cast_by_turn6": 0.946,
+   "extra_cards_drawn_mean": 0.028,
+   "fast_mana_uses_mean": -0.002,
+   "first_key_set_access_by_turn4": {
+    "pkg:army-payoffs": -0.012,
+    "pkg:high-mv-cheap": -0.024,
+    "pkg:mdfc-spells": -0.008
+   },
+   "mana_available_t1_6_mean": -0.274,
+   "mana_spent_t1_6_mean": 1.668,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": -0.002
+  }
+ },
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck. M1 review (saruman-01..07) verifies the mana-value and copy rules and flags a documentation error about The Black Gate (saruman-07).",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/saruman-the-white-hand.json",
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 2,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

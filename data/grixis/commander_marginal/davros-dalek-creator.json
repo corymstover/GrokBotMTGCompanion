@@ -1,0 +1,302 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "confidence": "low",
+ "deck_id": "Davros__Dalek_Creator",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.446,
+    "tutors_resolved_mean": 0.162
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.726,
+    "mana_spent_t1_6_mean": 19.932,
+    "spent_over_available_proxy": 0.877057
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.92,
+    "expected_key_sets_first_accessed_by_turn4": 2.116,
+    "extra_cards_drawn_mean": 0.446,
+    "tutors_resolved_mean": 0.162
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.116,
+    "first_key_set_access_by_turn4": {
+     "pkg:discard-punishers": 0.384,
+     "pkg:interaction-protection": 0.754,
+     "pkg:three-life-enablers": 0.596,
+     "pkg:trigger-multipliers": 0.382
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9336016096579477,
+    "recovery_turns_mean": 2.0086206896551726,
+    "removal_event_share": 0.994,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.52,
+    "tutors_resolved_mean": 0.166
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.83,
+    "mana_spent_t1_6_mean": 18.976,
+    "spent_over_available_proxy": 0.831187
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.92,
+    "expected_key_sets_first_accessed_by_turn4": 2.116,
+    "extra_cards_drawn_mean": 0.52,
+    "tutors_resolved_mean": 0.166
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.116,
+    "first_key_set_access_by_turn4": {
+     "pkg:discard-punishers": 0.384,
+     "pkg:interaction-protection": 0.754,
+     "pkg:three-life-enablers": 0.596,
+     "pkg:trigger-multipliers": 0.382
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.574,
+    "tutors_resolved_mean": 0.166
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.846,
+    "mana_spent_t1_6_mean": 18.984,
+    "spent_over_available_proxy": 0.830955
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.662,
+    "expected_key_sets_first_accessed_by_turn4": 2.118,
+    "extra_cards_drawn_mean": 0.574,
+    "tutors_resolved_mean": 0.166
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.118,
+    "first_key_set_access_by_turn4": {
+     "pkg:discard-punishers": 0.384,
+     "pkg:interaction-protection": 0.754,
+     "pkg:three-life-enablers": 0.596,
+     "pkg:trigger-multipliers": 0.384
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.614,
+    "tutors_resolved_mean": 0.166
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.876,
+    "mana_spent_t1_6_mean": 17.404,
+    "spent_over_available_proxy": 0.760797
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 2.118,
+    "extra_cards_drawn_mean": 0.614,
+    "tutors_resolved_mean": 0.166
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.118,
+    "first_key_set_access_by_turn4": {
+     "pkg:discard-punishers": 0.384,
+     "pkg:interaction-protection": 0.754,
+     "pkg:three-life-enablers": 0.596,
+     "pkg:trigger-multipliers": 0.384
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.074,
+    "tutors_resolved_mean": 0.004
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.104,
+    "mana_spent_t1_6_mean": -0.956,
+    "spent_over_available_proxy": -0.04587
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.074,
+    "tutors_resolved_mean": 0.004
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.054,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.016,
+    "mana_spent_t1_6_mean": -0.008,
+    "spent_over_available_proxy": 0.000232
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.258,
+    "expected_key_sets_first_accessed_by_turn4": -0.002,
+    "extra_cards_drawn_mean": -0.054,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.002
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.094,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": null,
+    "win_proxy_by_turn6": null
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.046,
+    "mana_spent_t1_6_mean": 1.572,
+    "spent_over_available_proxy": 0.07039
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": null,
+    "commander_cast_by_turn6": 0.92,
+    "expected_key_sets_first_accessed_by_turn4": -0.002,
+    "extra_cards_drawn_mean": -0.094,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.002
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "davros-dalek-creator",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Davros, Dalek Creator"
+    ],
+    "id": "end-step-davros",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "three-life-enablers",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 0
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Davros, Dalek Creator"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "dalek-army",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "drain-and-discard",
+    "kind": "natural"
+   }
+  ]
+ }
+}

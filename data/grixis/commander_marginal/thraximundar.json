@@ -1,0 +1,508 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+ "confidence": "low",
+ "deck_id": "Thraximundar",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.484
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.124,
+    "win_proxy_by_turn6": 0.12
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.876,
+    "mana_spent_t1_6_mean": 22.07,
+    "spent_over_available_proxy": 0.852914
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.124,
+    "commander_cast_by_turn6": 0.572,
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.484
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "first_key_set_access_by_turn4": {
+     "pkg:commander-mana": 0.608,
+     "pkg:edicts": 0.736,
+     "pkg:loop-pieces": 0.648,
+     "pkg:outlets": 0.582
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.6894273127753304,
+    "recovery_turns_mean": 2.3450479233226837,
+    "removal_event_share": 0.908,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.486
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.124,
+    "win_proxy_by_turn6": 0.12
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.904,
+    "mana_spent_t1_6_mean": 20.974,
+    "spent_over_available_proxy": 0.809682
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.124,
+    "commander_cast_by_turn6": 0.572,
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.486
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "first_key_set_access_by_turn4": {
+     "pkg:commander-mana": 0.608,
+     "pkg:edicts": 0.736,
+     "pkg:loop-pieces": 0.648,
+     "pkg:outlets": 0.582
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.484
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.126,
+    "win_proxy_by_turn6": 0.122
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.996,
+    "mana_spent_t1_6_mean": 19.608,
+    "spent_over_available_proxy": 0.75427
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.126,
+    "commander_cast_by_turn6": 0.204,
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.484
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "first_key_set_access_by_turn4": {
+     "pkg:commander-mana": 0.608,
+     "pkg:edicts": 0.736,
+     "pkg:loop-pieces": 0.648,
+     "pkg:outlets": 0.582
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.486
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.126,
+    "win_proxy_by_turn6": 0.122
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.188,
+    "mana_spent_t1_6_mean": 17.972,
+    "spent_over_available_proxy": 0.686269
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.126,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.486
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.574,
+    "first_key_set_access_by_turn4": {
+     "pkg:commander-mana": 0.608,
+     "pkg:edicts": 0.736,
+     "pkg:loop-pieces": 0.648,
+     "pkg:outlets": 0.582
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.028,
+    "mana_spent_t1_6_mean": -1.096,
+    "spent_over_available_proxy": -0.043232
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.002,
+    "win_proxy_by_turn6": -0.002
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.092,
+    "mana_spent_t1_6_mean": 1.366,
+    "spent_over_available_proxy": 0.055412
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.002,
+    "commander_cast_by_turn6": 0.368,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.002,
+    "win_proxy_by_turn6": -0.002
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.284,
+    "mana_spent_t1_6_mean": 3.002,
+    "spent_over_available_proxy": 0.123413
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.002,
+    "commander_cast_by_turn6": 0.572,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "thraximundar",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-4050",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Zulaport Cutthroat"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1385-2577-5670",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1580-2034-4871",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1580-4050-4871",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Ashnod's Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2034-2452-2577",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2034-2577-4871",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Carrion Feeder"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2438-2452-2577",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Carrion Feeder"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2438-2577-4871",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Goblin Bombardment"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2452-2577-5147",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Altar of Dementia"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2452-2577-5256",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Blood Artist"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-2842-5670",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Goblin Bombardment"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-4871-5147",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Altar of Dementia"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-4871-5256",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Grimgrin, Corpse-Born"
+    ],
+    "direct_commander_pieces": [],
+    "id": "728-2452-2577",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Grimgrin, Corpse-Born"
+    ],
+    "direct_commander_pieces": [],
+    "id": "728-2577-4871",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Zulaport Cutthroat",
+     "Reassembling Skeleton"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1385-1580-4871-5670",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Blood Artist"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1580-2842-4871-5670",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Thraximundar"
+    ],
+    "id": "any-sacrifice-growth",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pact-dictate",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 17,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 17
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "zombie-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Thraximundar"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "commander-damage",
+    "kind": "natural"
+   }
+  ]
+ }
+}

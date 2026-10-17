@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "confidence": "low",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.312,
+   "commander_cast_by_turn6": 0.914,
+   "commander_turn_mean_when_cast": 4.288032454361055,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.922920892494929,
+    "recovery_turns_mean": 2.024175824175824,
+    "removal_event_share": 0.986,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 1.7,
+   "fast_mana_uses_mean": 0.374,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": 0.42,
+    "pkg:life-loop": 0.482,
+    "pkg:swamp": 0.548
+   },
+   "mana_available_t1_6_mean": 25.46,
+   "mana_spent_t1_6_mean": 23.418,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.634,
+   "win_proxy_by_turn6": 0.264
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.336,
+   "commander_cast_by_turn6": 0.914,
+   "commander_turn_mean_when_cast": 4.288032454361055,
+   "extra_cards_drawn_mean": 1.666,
+   "fast_mana_uses_mean": 0.276,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": 0.42,
+    "pkg:life-loop": 0.482,
+    "pkg:swamp": 0.548
+   },
+   "mana_available_t1_6_mean": 25.5,
+   "mana_spent_t1_6_mean": 20.87,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.632,
+   "win_proxy_by_turn6": 0.298
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.33,
+   "commander_cast_by_turn6": 0.544,
+   "commander_turn_mean_when_cast": 6.171052631578948,
+   "extra_cards_drawn_mean": 1.65,
+   "fast_mana_uses_mean": 0.308,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": 0.424,
+    "pkg:life-loop": 0.486,
+    "pkg:swamp": 0.548
+   },
+   "mana_available_t1_6_mean": 25.612,
+   "mana_spent_t1_6_mean": 21.03,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.634,
+   "win_proxy_by_turn6": 0.306
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.332,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 1.636,
+   "fast_mana_uses_mean": 0.25,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": 0.424,
+    "pkg:life-loop": 0.484,
+    "pkg:swamp": 0.548
+   },
+   "mana_available_t1_6_mean": 25.762,
+   "mana_spent_t1_6_mean": 18.134,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.636,
+   "win_proxy_by_turn6": 0.308
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.024,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": -0.034,
+   "fast_mana_uses_mean": -0.098,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": 0.0,
+    "pkg:life-loop": 0.0,
+    "pkg:swamp": 0.0
+   },
+   "mana_available_t1_6_mean": 0.04,
+   "mana_spent_t1_6_mean": -2.548,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": 0.034
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.006,
+   "commander_cast_by_turn6": 0.37,
+   "extra_cards_drawn_mean": 0.016,
+   "fast_mana_uses_mean": -0.032,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": -0.004,
+    "pkg:life-loop": -0.004,
+    "pkg:swamp": 0.0
+   },
+   "mana_available_t1_6_mean": -0.112,
+   "mana_spent_t1_6_mean": -0.16,
+   "tutors_resolved_mean": -0.002,
+   "win_proxy_by_turn6": -0.008
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.004,
+   "commander_cast_by_turn6": 0.914,
+   "extra_cards_drawn_mean": 0.03,
+   "fast_mana_uses_mean": 0.026,
+   "first_key_set_access_by_turn4": {
+    "pkg:black-spells": -0.004,
+    "pkg:life-loop": -0.002,
+    "pkg:swamp": 0.0
+   },
+   "mana_available_t1_6_mean": -0.262,
+   "mana_spent_t1_6_mean": 2.736,
+   "tutors_resolved_mean": -0.004,
+   "win_proxy_by_turn6": -0.01
+  }
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander. M1 review (solkanar-01..06, all verified) confirms the trigger and loop rules.",
+   "level": "supporting"
+  },
+  "path": "data/grixis/commander_structure/solkanar-the-swamp-king.json",
+  "summary": {
+   "blueprint_wins": 5,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 3,
+   "combo_blueprint_supported": 10,
+   "combo_commander_independent": 3,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 2,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 13
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

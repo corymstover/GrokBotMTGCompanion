@@ -1,0 +1,584 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax).",
+  "level": "supporting"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "confidence": "low",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.884,
+    "tutors_resolved_mean": 0.186
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.31,
+    "win_proxy_by_turn6": 0.24
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.012,
+    "mana_spent_t1_6_mean": 21.988,
+    "spent_over_available_proxy": 0.879098
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.31,
+    "commander_cast_by_turn6": 0.944,
+    "expected_key_sets_first_accessed_by_turn4": 1.792,
+    "extra_cards_drawn_mean": 1.884,
+    "tutors_resolved_mean": 0.186
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.792,
+    "first_key_set_access_by_turn4": {
+     "pkg:cantrips-rituals": 0.598,
+     "pkg:spell-copy": 0.91,
+     "pkg:trigger-multipliers": 0.284
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9474747474747475,
+    "recovery_turns_mean": 1.8422174840085288,
+    "removal_event_share": 0.99,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.88,
+    "tutors_resolved_mean": 0.186
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.326,
+    "win_proxy_by_turn6": 0.26
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.116,
+    "mana_spent_t1_6_mean": 19.63,
+    "spent_over_available_proxy": 0.781573
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.326,
+    "commander_cast_by_turn6": 0.944,
+    "expected_key_sets_first_accessed_by_turn4": 1.792,
+    "extra_cards_drawn_mean": 1.88,
+    "tutors_resolved_mean": 0.186
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.792,
+    "first_key_set_access_by_turn4": {
+     "pkg:cantrips-rituals": 0.598,
+     "pkg:spell-copy": 0.91,
+     "pkg:trigger-multipliers": 0.284
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.852,
+    "tutors_resolved_mean": 0.186
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.32,
+    "win_proxy_by_turn6": 0.254
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.43,
+    "mana_spent_t1_6_mean": 19.648,
+    "spent_over_available_proxy": 0.772631
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.32,
+    "commander_cast_by_turn6": 0.626,
+    "expected_key_sets_first_accessed_by_turn4": 1.792,
+    "extra_cards_drawn_mean": 1.852,
+    "tutors_resolved_mean": 0.186
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.792,
+    "first_key_set_access_by_turn4": {
+     "pkg:cantrips-rituals": 0.598,
+     "pkg:spell-copy": 0.908,
+     "pkg:trigger-multipliers": 0.286
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.84,
+    "tutors_resolved_mean": 0.186
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.322,
+    "win_proxy_by_turn6": 0.27
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.602,
+    "mana_spent_t1_6_mean": 16.768,
+    "spent_over_available_proxy": 0.654949
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.322,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.798,
+    "extra_cards_drawn_mean": 1.84,
+    "tutors_resolved_mean": 0.186
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.798,
+    "first_key_set_access_by_turn4": {
+     "pkg:cantrips-rituals": 0.598,
+     "pkg:spell-copy": 0.912,
+     "pkg:trigger-multipliers": 0.288
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.004,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.016,
+    "win_proxy_by_turn6": 0.02
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.104,
+    "mana_spent_t1_6_mean": -2.358,
+    "spent_over_available_proxy": -0.097525
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.016,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": -0.004,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.028,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.006,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.314,
+    "mana_spent_t1_6_mean": -0.018,
+    "spent_over_available_proxy": 0.008942
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.006,
+    "commander_cast_by_turn6": 0.318,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.028,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.04,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.004,
+    "win_proxy_by_turn6": -0.01
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.486,
+    "mana_spent_t1_6_mean": 2.862,
+    "spent_over_available_proxy": 0.126624
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.004,
+    "commander_cast_by_turn6": 0.944,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": 0.04,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-2539",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Narset's Reversal",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Narset's Reversal",
+     "Increasing Vengeance"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-4285",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Narset's Reversal",
+     "Reverberate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-5026",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Narset's Reversal",
+     "Return the Favor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-5940",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Dualcaster Mage",
+     "Replication Technique"
+    ],
+    "direct_commander_pieces": [],
+    "id": "147-1883",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1878-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Reiterate",
+     "Mana Geyser"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2091-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Thousand-Year Storm",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "3368-3584",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Alania, Divergent Storm",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "3368-5959",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Pyromancer's Goggles",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "3368-6790",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Prismari, the Inspiration",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "3368-7683",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Alania, Divergent Storm",
+     "Increasing Vengeance"
+    ],
+    "direct_commander_pieces": [],
+    "id": "4285-5959",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Pyromancer's Goggles",
+     "Increasing Vengeance"
+    ],
+    "direct_commander_pieces": [],
+    "id": "4285-6790",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Prismari, the Inspiration",
+     "Increasing Vengeance"
+    ],
+    "direct_commander_pieces": [],
+    "id": "4285-7683",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Alania, Divergent Storm",
+     "Reverberate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5026-5959",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Pyromancer's Goggles",
+     "Reverberate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5026-6790",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Prismari, the Inspiration",
+     "Reverberate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5026-7683",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Alania, Divergent Storm",
+     "Return the Favor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5940-5959",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Pyromancer's Goggles",
+     "Return the Favor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5940-6790",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Prismari, the Inspiration",
+     "Return the Favor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5940-7683",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Primal Amulet // Primal Wellspring",
+     "Frantic Search",
+     "Narset's Reversal"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-1484-2196",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Narset's Reversal",
+     "Storm-Kiln Artist",
+     "Bonus Round"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-2492-5195",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Storm-Kiln Artist",
+     "Thousand-Year Storm",
+     "Narset's Reversal"
+    ],
+    "direct_commander_pieces": [],
+    "id": "11-3584-5195",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Primal Amulet // Primal Wellspring",
+     "Frantic Search",
+     "Reiterate"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1484-2196-3368",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Parnesse, the Subtle Brush"
+    ],
+    "id": "copy-politics",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "cast-copy-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 0,
+   "blueprint_wins_structurally_independent": 3,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 25,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 2,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 25
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "narset-reversal-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "copy-mana-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "dualcaster-tech",
+    "kind": "combo"
+   }
+  ]
+ }
+}

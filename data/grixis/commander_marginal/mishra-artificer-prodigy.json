@@ -1,0 +1,554 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Mishra turns the deck's own symmetrical counters into one-sided stax: with both triggers ordered, a countered artifact still reaches the battlefield from the graveyard (or from the library after Possibility Storm).",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Mishra is central to the stax half, but none of the 20 Spellbook combos in the list uses him. The kills are generic artifact engines, so without Mishra the deck is a weaker, self-locking artifact pile. His trigger finds only same-name cards; in singleton that means the spell he just cast, after it has left the stack. The cycle 51 M1 review (mishraap-01..10) flags two anti-synergies: the stax hits your own non-artifact spells (mishraap-04), and Void Mirror/Bauble break your own loops without Mishra (mishraap-05). That raises his real importance to the kills too.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "confidence": "low",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.18,
+    "tutors_resolved_mean": 0.742
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.224,
+    "win_proxy_by_turn6": 0.152
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.878,
+    "mana_spent_t1_6_mean": 22.366,
+    "spent_over_available_proxy": 0.899027
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.224,
+    "commander_cast_by_turn6": 0.912,
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "extra_cards_drawn_mean": 0.18,
+    "tutors_resolved_mean": 0.742
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.76,
+     "pkg:parity-stax": 0.558,
+     "pkg:stack-protection": 0.374
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9389002036659878,
+    "recovery_turns_mean": 1.8373101952277657,
+    "removal_event_share": 0.982,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.192,
+    "tutors_resolved_mean": 0.748
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.246,
+    "win_proxy_by_turn6": 0.19
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.144,
+    "mana_spent_t1_6_mean": 20.118,
+    "spent_over_available_proxy": 0.800111
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.246,
+    "commander_cast_by_turn6": 0.912,
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "extra_cards_drawn_mean": 0.192,
+    "tutors_resolved_mean": 0.748
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.76,
+     "pkg:parity-stax": 0.558,
+     "pkg:stack-protection": 0.374
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.188,
+    "tutors_resolved_mean": 0.748
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.25,
+    "win_proxy_by_turn6": 0.184
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 24.984,
+    "mana_spent_t1_6_mean": 20.348,
+    "spent_over_available_proxy": 0.814441
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.25,
+    "commander_cast_by_turn6": 0.664,
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "extra_cards_drawn_mean": 0.188,
+    "tutors_resolved_mean": 0.748
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.76,
+     "pkg:parity-stax": 0.558,
+     "pkg:stack-protection": 0.374
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.2,
+    "tutors_resolved_mean": 0.748
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.25,
+    "win_proxy_by_turn6": 0.202
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.15,
+    "mana_spent_t1_6_mean": 17.738,
+    "spent_over_available_proxy": 0.705288
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.25,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "extra_cards_drawn_mean": 0.2,
+    "tutors_resolved_mean": 0.748
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.692,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.76,
+     "pkg:parity-stax": 0.558,
+     "pkg:stack-protection": 0.374
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.012,
+    "tutors_resolved_mean": 0.006
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.022,
+    "win_proxy_by_turn6": 0.038
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.266,
+    "mana_spent_t1_6_mean": -2.248,
+    "spent_over_available_proxy": -0.098916
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.022,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.012,
+    "tutors_resolved_mean": 0.006
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.004,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.004,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.16,
+    "mana_spent_t1_6_mean": -0.23,
+    "spent_over_available_proxy": -0.01433
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.004,
+    "commander_cast_by_turn6": 0.248,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.004,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.008,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.004,
+    "win_proxy_by_turn6": -0.012
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.006,
+    "mana_spent_t1_6_mean": 2.38,
+    "spent_over_available_proxy": 0.094823
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.004,
+    "commander_cast_by_turn6": 0.912,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": -0.008,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2552-3263",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Karn, the Great Creator",
+     "Mycosynth Lattice"
+    ],
+    "direct_commander_pieces": [],
+    "id": "3263-5089",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Karn, the Great Creator",
+     "Aetherflux Reservoir"
+    ],
+    "direct_commander_pieces": [],
+    "id": "4740-5089",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Void Mirror",
+     "Possibility Storm"
+    ],
+    "direct_commander_pieces": [],
+    "id": "507-3741",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Vexing Bauble",
+     "Possibility Storm"
+    ],
+    "direct_commander_pieces": [],
+    "id": "507-6614",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Emry, Lurker of the Loch",
+     "The One Ring",
+     "Krark-Clan Ironworks"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1329-3363-4659",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Etherium Sculptor",
+     "The Reality Chip"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1976-5078-5243",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Cloud Key",
+     "The Reality Chip"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2146-5078-5243",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Aetherflux Reservoir",
+     "Bolas's Citadel"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2173-4740-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Enthusiastic Mechanaut",
+     "The Reality Chip"
+    ],
+    "direct_commander_pieces": [],
+    "id": "4908-5078-5243",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Foundry Inspector",
+     "The Reality Chip"
+    ],
+    "direct_commander_pieces": [],
+    "id": "777-5078-5243",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Foundry Inspector",
+     "Mystic Forge"
+    ],
+    "direct_commander_pieces": [],
+    "id": "777-985-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Etherium Sculptor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "985-1976-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Cloud Key"
+    ],
+    "direct_commander_pieces": [],
+    "id": "985-2146-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Enthusiastic Mechanaut"
+    ],
+    "direct_commander_pieces": [],
+    "id": "985-4908-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Etherium Sculptor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1020-1976-2866-4659",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Cloud Key"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1020-2146-2866-4659",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Enthusiastic Mechanaut"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1020-2866-4659-4908",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Foundry Inspector"
+    ],
+    "direct_commander_pieces": [],
+    "id": "777-1020-2866-4659",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Sol Ring",
+     "Junk Diver"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1020-1117-2866-4659-5034",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Artificer Prodigy"
+    ],
+    "id": "self-counter-recovery",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "artifact-mana",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 0,
+   "blueprint_wins_structurally_independent": 4,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 20,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 20
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "top-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "aetherflux",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "kci-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "fact",
+    "id": "lattice-lock",
+    "kind": "alternate"
+   }
+  ]
+ }
+}

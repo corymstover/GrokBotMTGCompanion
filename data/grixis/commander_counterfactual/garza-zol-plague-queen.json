@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "confidence": "low",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.106,
+   "commander_cast_by_turn6": 0.574,
+   "commander_turn_mean_when_cast": 6.027659574468085,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.6936170212765957,
+    "recovery_turns_mean": 2.371165644171779,
+    "removal_event_share": 0.94,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.166,
+   "fast_mana_uses_mean": 0.278,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.518,
+    "pkg:evasion-protection": 0.722,
+    "pkg:fast-mana": 0.754
+   },
+   "mana_available_t1_6_mean": 25.69,
+   "mana_spent_t1_6_mean": 21.062,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.338,
+   "win_proxy_by_turn6": 0.104
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.106,
+   "commander_cast_by_turn6": 0.574,
+   "commander_turn_mean_when_cast": 6.027659574468085,
+   "extra_cards_drawn_mean": 0.166,
+   "fast_mana_uses_mean": 0.212,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.518,
+    "pkg:evasion-protection": 0.722,
+    "pkg:fast-mana": 0.754
+   },
+   "mana_available_t1_6_mean": 25.704,
+   "mana_spent_t1_6_mean": 19.908,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.338,
+   "win_proxy_by_turn6": 0.104
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.106,
+   "commander_cast_by_turn6": 0.168,
+   "commander_turn_mean_when_cast": 7.65406976744186,
+   "extra_cards_drawn_mean": 0.166,
+   "fast_mana_uses_mean": 0.252,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.518,
+    "pkg:evasion-protection": 0.722,
+    "pkg:fast-mana": 0.754
+   },
+   "mana_available_t1_6_mean": 25.794,
+   "mana_spent_t1_6_mean": 17.748,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.338,
+   "win_proxy_by_turn6": 0.104
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.106,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.166,
+   "fast_mana_uses_mean": 0.16,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.518,
+    "pkg:evasion-protection": 0.722,
+    "pkg:fast-mana": 0.754
+   },
+   "mana_available_t1_6_mean": 25.954,
+   "mana_spent_t1_6_mean": 16.338,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.338,
+   "win_proxy_by_turn6": 0.104
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.066,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.0,
+    "pkg:evasion-protection": 0.0,
+    "pkg:fast-mana": 0.0
+   },
+   "mana_available_t1_6_mean": 0.014,
+   "mana_spent_t1_6_mean": -1.154,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.406,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.04,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.0,
+    "pkg:evasion-protection": 0.0,
+    "pkg:fast-mana": 0.0
+   },
+   "mana_available_t1_6_mean": -0.09,
+   "mana_spent_t1_6_mean": 2.16,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.574,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": 0.052,
+   "first_key_set_access_by_turn4": {
+    "pkg:deathtouch-damage": 0.0,
+    "pkg:evasion-protection": 0.0,
+    "pkg:fast-mana": 0.0
+   },
+   "mana_available_t1_6_mean": -0.25,
+   "mana_spent_t1_6_mean": 3.57,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  }
+ },
+ "schema_version": 1,
+ "slug": "garza-zol-plague-queen",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Garza is the only real threat: her damage triggers the growth, her hits draw, and every closer is aimed at her.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Seven mana with a rising commander tax, and every plan runs through one creature: removal or a chump-proof blocker stalls the deck (source: blueprint L44). Her draw clause is a 'may' that only works on player hits.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/garza-zol-plague-queen.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 3,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 3,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 2,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 3
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,446 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Every copy, reanimation and mill-doubler exists to multiply Xander's three triggers, and his attack is half of two Spellbook infinites.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Seven mana, so the deck relies on reanimation and clones to make him realistic. Halving rounds down, so an odd library leaves one card (M1 xander-05). Guildmage + Mindcrank, Monument/Bruvac + Cacophony, Sword + Assault and Breach all win without him.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "confidence": "low",
+ "deck_id": "Lord_Xander__the_Collector",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.438,
+    "tutors_resolved_mean": 0.846
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.576,
+    "win_proxy_by_turn6": 0.294
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.658,
+    "mana_spent_t1_6_mean": 16.824,
+    "spent_over_available_proxy": 0.742519
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.576,
+    "commander_cast_by_turn6": 0.316,
+    "expected_key_sets_first_accessed_by_turn4": 1.712,
+    "extra_cards_drawn_mean": 0.438,
+    "tutors_resolved_mean": 0.846
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.712,
+    "first_key_set_access_by_turn4": {
+     "pkg:copy-trigger": 0.708,
+     "pkg:mill-finish": 0.622,
+     "pkg:reanimation": 0.382
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.4418604651162791,
+    "recovery_turns_mean": 2.538011695906433,
+    "removal_event_share": 0.774,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.438,
+    "tutors_resolved_mean": 0.85
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.576,
+    "win_proxy_by_turn6": 0.306
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.658,
+    "mana_spent_t1_6_mean": 16.668,
+    "spent_over_available_proxy": 0.735634
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.576,
+    "commander_cast_by_turn6": 0.316,
+    "expected_key_sets_first_accessed_by_turn4": 1.712,
+    "extra_cards_drawn_mean": 0.438,
+    "tutors_resolved_mean": 0.85
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.712,
+    "first_key_set_access_by_turn4": {
+     "pkg:copy-trigger": 0.708,
+     "pkg:mill-finish": 0.622,
+     "pkg:reanimation": 0.382
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.438,
+    "tutors_resolved_mean": 0.85
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.578,
+    "win_proxy_by_turn6": 0.298
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.774,
+    "mana_spent_t1_6_mean": 15.294,
+    "spent_over_available_proxy": 0.671555
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.578,
+    "commander_cast_by_turn6": 0.06,
+    "expected_key_sets_first_accessed_by_turn4": 1.712,
+    "extra_cards_drawn_mean": 0.438,
+    "tutors_resolved_mean": 0.85
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.712,
+    "first_key_set_access_by_turn4": {
+     "pkg:copy-trigger": 0.708,
+     "pkg:mill-finish": 0.622,
+     "pkg:reanimation": 0.382
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.444,
+    "tutors_resolved_mean": 0.848
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.294,
+    "win_proxy_by_turn6": 0.28
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.928,
+    "mana_spent_t1_6_mean": 14.78,
+    "spent_over_available_proxy": 0.644627
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.294,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.554,
+    "extra_cards_drawn_mean": 0.444,
+    "tutors_resolved_mean": 0.848
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.554,
+    "first_key_set_access_by_turn4": {
+     "pkg:copy-trigger": 0.708,
+     "pkg:mill-finish": 0.462,
+     "pkg:reanimation": 0.384
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.004
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.012
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.0,
+    "mana_spent_t1_6_mean": -0.156,
+    "spent_over_available_proxy": -0.006885
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.004
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": -0.002,
+    "win_proxy_by_turn6": 0.008
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.116,
+    "mana_spent_t1_6_mean": 1.374,
+    "spent_over_available_proxy": 0.064079
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": -0.002,
+    "commander_cast_by_turn6": 0.256,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.006,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.282,
+    "win_proxy_by_turn6": 0.026
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.27,
+    "mana_spent_t1_6_mean": 1.888,
+    "spent_over_available_proxy": 0.091007
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.282,
+    "commander_cast_by_turn6": 0.316,
+    "expected_key_sets_first_accessed_by_turn4": 0.158,
+    "extra_cards_drawn_mean": -0.006,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.158
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "lord-xander-the-collector",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Riverchurn Monument",
+     "Lord Xander, the Collector"
+    ],
+    "direct_commander_pieces": [
+     "Lord Xander, the Collector"
+    ],
+    "id": "1022-6285",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Duskmantle Guildmage",
+     "Maddening Cacophony"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5069-5080",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Riverchurn Monument",
+     "Maddening Cacophony"
+    ],
+    "direct_commander_pieces": [],
+    "id": "5080-6285",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [
+     "Lord Xander, the Collector"
+    ],
+    "cards": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "direct_commander_pieces": [],
+    "id": "900-3750",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Duskmantle Guildmage",
+     "Mindcrank"
+    ],
+    "direct_commander_pieces": [],
+    "id": "936-5069",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Bruvac the Grandiloquent",
+     "Lord Xander, the Collector"
+    ],
+    "direct_commander_pieces": [
+     "Lord Xander, the Collector"
+    ],
+    "id": "95-1022",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Bruvac the Grandiloquent",
+     "Maddening Cacophony"
+    ],
+    "direct_commander_pieces": [],
+    "id": "95-5080",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [
+     "Lord Xander, the Collector"
+    ],
+    "cards": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-1414-4856",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Lord Xander, the Collector"
+    ],
+    "cards": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-1878-2706",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Lord Xander, the Collector"
+    ],
+    "cards": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-2706-3518",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Lord Xander, the Collector"
+    ],
+    "cards": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-3518-4856",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "xander-copies",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "reanimation",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 5,
+   "combo_commander_independent": 4,
+   "combo_direct_commander_piece": 2,
+   "engines": 2,
+   "engines_explicit_commander": 0,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 11
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lord Xander, the Collector"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "xander-mill",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "mill-combos",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lord Xander, the Collector"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "assault-breach",
+    "kind": "combo"
+   }
+  ]
+ }
+}

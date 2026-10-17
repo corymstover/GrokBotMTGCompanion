@@ -380,10 +380,11 @@
     "69.2 paired counterfactual simulator architecture: normal / unavailable / +2 tax / bounded removal-disruption proxy; synthetic validation complete, real 62 outputs pending frozen local cache",
     "69.3 marginal-value vector integration + real structural gain proof + validate_all gate; code complete, dynamic 62-deck generation/integration pending frozen local cache"
    ],
-   "status": "code_complete_pending_local_cache_validation",
+   "status": "complete",
    "depends_on": [
     "E"
-   ]
+   ],
+   "completed": "ChatGPT cycle 72.4 frozen-cache validation"
   },
   {
    "order": 6,
@@ -569,7 +570,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 72.3 (2026-10-17)",
+  "updated": "ChatGPT cycle 72.4 (2026-10-17)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -611,9 +612,9 @@
    {
     "id": "D",
     "estimated_batches": 3.5,
-    "batches_done": 3,
-    "status": "code_complete_pending_local_cache_validation",
-    "note": "3/3.5 batch-equivalents complete. Structural, paired counterfactual, non-scoring marginal vector and integration gate are implemented. Remaining 0.5 equivalent = frozen-local-cache 62-deck dynamic generation + marginal integration validation."
+    "batches_done": 3.5,
+    "status": "complete",
+    "note": "62-deck paired commander counterfactuals and marginal vectors generated and validated on frozen development snapshot; no scalar commander-value score introduced."
    },
    {
     "id": "F",
@@ -666,7 +667,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 43.5,
-  "percent_complete": 69.6
+  "batches_done": 44.0,
+  "percent_complete": 70.4
  }
 }

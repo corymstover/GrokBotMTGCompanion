@@ -1,0 +1,318 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "confidence": "low",
+ "deck_id": "Nicol_Bolas",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.294
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.038,
+    "win_proxy_by_turn6": 0.038
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.74,
+    "mana_spent_t1_6_mean": 19.5,
+    "spent_over_available_proxy": 0.729245
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.038,
+    "commander_cast_by_turn6": 0.364,
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.294
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "first_key_set_access_by_turn4": {
+     "pkg:bolas-sourced-damage": 0.522,
+     "pkg:discard-payoffs": 0.578,
+     "pkg:mana": 0.82,
+     "pkg:protection": 0.596
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.6135265700483091,
+    "recovery_turns_mean": 2.1535433070866143,
+    "removal_event_share": 0.828,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.298
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.038,
+    "win_proxy_by_turn6": 0.038
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.764,
+    "mana_spent_t1_6_mean": 18.85,
+    "spent_over_available_proxy": 0.704304
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.038,
+    "commander_cast_by_turn6": 0.364,
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.298
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "first_key_set_access_by_turn4": {
+     "pkg:bolas-sourced-damage": 0.522,
+     "pkg:discard-payoffs": 0.578,
+     "pkg:mana": 0.82,
+     "pkg:protection": 0.596
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.298
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.038,
+    "win_proxy_by_turn6": 0.038
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.754,
+    "mana_spent_t1_6_mean": 17.278,
+    "spent_over_available_proxy": 0.64581
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.038,
+    "commander_cast_by_turn6": 0.108,
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.298
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "first_key_set_access_by_turn4": {
+     "pkg:bolas-sourced-damage": 0.522,
+     "pkg:discard-payoffs": 0.578,
+     "pkg:mana": 0.82,
+     "pkg:protection": 0.596
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.298
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.038,
+    "win_proxy_by_turn6": 0.038
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.854,
+    "mana_spent_t1_6_mean": 16.196,
+    "spent_over_available_proxy": 0.603113
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.038,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.298
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 2.516,
+    "first_key_set_access_by_turn4": {
+     "pkg:bolas-sourced-damage": 0.522,
+     "pkg:discard-payoffs": 0.578,
+     "pkg:mana": 0.82,
+     "pkg:protection": 0.596
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.004
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.024,
+    "mana_spent_t1_6_mean": -0.65,
+    "spent_over_available_proxy": -0.024941
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.004
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.01,
+    "mana_spent_t1_6_mean": 1.572,
+    "spent_over_available_proxy": 0.058494
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.256,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.09,
+    "mana_spent_t1_6_mean": 2.654,
+    "spent_over_available_proxy": 0.101191
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.364,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [
+     "Nicol Bolas"
+    ],
+    "cards": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "direct_commander_pieces": [],
+    "id": "900-3750",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas"
+    ],
+    "id": "bolas-damage",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "discard-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "sword-assault",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "discard-lock",
+    "kind": "natural"
+   }
+  ]
+ }
+}

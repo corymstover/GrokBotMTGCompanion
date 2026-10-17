@@ -1,0 +1,351 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Marchesa converts the deck's interaction into card selection and graveyard setup.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "All three win packages work without her, and the list is the exact copy of a tournament-winning list (Takeda Ryuhei, 2026-10-11), a 48-card rebuild from the source baseline (decisions L10, L12). She is a selection engine in a generic Grixis cEDH shell, not a kill. The cycle 51 M1 review (marchdod-01..08, all verified) confirms the crime rules and the three wins.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "confidence": "low",
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.122,
+    "tutors_resolved_mean": 0.63
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.128,
+    "win_proxy_by_turn6": 0.122
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.358,
+    "mana_spent_t1_6_mean": 18.79,
+    "spent_over_available_proxy": 0.840415
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.128,
+    "commander_cast_by_turn6": 0.93,
+    "expected_key_sets_first_accessed_by_turn4": 1.842,
+    "extra_cards_drawn_mean": 0.122,
+    "tutors_resolved_mean": 0.63
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.842,
+    "first_key_set_access_by_turn4": {
+     "pkg:crime-sources": 0.528,
+     "pkg:free-interaction": 0.83,
+     "pkg:tutors": 0.484
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9448979591836735,
+    "recovery_turns_mean": 1.548596112311015,
+    "removal_event_share": 0.98,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.124,
+    "tutors_resolved_mean": 0.632
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.136,
+    "win_proxy_by_turn6": 0.13
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.592,
+    "mana_spent_t1_6_mean": 14.794,
+    "spent_over_available_proxy": 0.654834
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.136,
+    "commander_cast_by_turn6": 0.93,
+    "expected_key_sets_first_accessed_by_turn4": 1.842,
+    "extra_cards_drawn_mean": 0.124,
+    "tutors_resolved_mean": 0.632
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.842,
+    "first_key_set_access_by_turn4": {
+     "pkg:crime-sources": 0.528,
+     "pkg:free-interaction": 0.83,
+     "pkg:tutors": 0.484
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.124,
+    "tutors_resolved_mean": 0.63
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.132,
+    "win_proxy_by_turn6": 0.128
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.434,
+    "mana_spent_t1_6_mean": 15.814,
+    "spent_over_available_proxy": 0.704912
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.132,
+    "commander_cast_by_turn6": 0.778,
+    "expected_key_sets_first_accessed_by_turn4": 1.844,
+    "extra_cards_drawn_mean": 0.124,
+    "tutors_resolved_mean": 0.63
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.844,
+    "first_key_set_access_by_turn4": {
+     "pkg:crime-sources": 0.528,
+     "pkg:free-interaction": 0.832,
+     "pkg:tutors": 0.484
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.124,
+    "tutors_resolved_mean": 0.632
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.134,
+    "win_proxy_by_turn6": 0.13
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.536,
+    "mana_spent_t1_6_mean": 12.47,
+    "spent_over_available_proxy": 0.553337
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.134,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.844,
+    "extra_cards_drawn_mean": 0.124,
+    "tutors_resolved_mean": 0.632
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.844,
+    "first_key_set_access_by_turn4": {
+     "pkg:crime-sources": 0.528,
+     "pkg:free-interaction": 0.832,
+     "pkg:tutors": 0.484
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.002,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.008
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.234,
+    "mana_spent_t1_6_mean": -3.996,
+    "spent_over_available_proxy": -0.185581
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.002,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.004,
+    "win_proxy_by_turn6": 0.002
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.158,
+    "mana_spent_t1_6_mean": -1.02,
+    "spent_over_available_proxy": -0.050078
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.004,
+    "commander_cast_by_turn6": 0.152,
+    "expected_key_sets_first_accessed_by_turn4": -0.002,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.002
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.002,
+    "win_proxy_by_turn6": 0.0
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.056,
+    "mana_spent_t1_6_mean": 2.324,
+    "spent_over_available_proxy": 0.101497
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.002,
+    "commander_cast_by_turn6": 0.93,
+    "expected_key_sets_first_accessed_by_turn4": -0.002,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.002
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "marchesa-dealer-of-death",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1295-3093",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Hawkeye's Bow",
+     "Aphetto Alchemist"
+    ],
+    "direct_commander_pieces": [],
+    "id": "4091-7786",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-1414-4856",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1368-3518-4856",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Marchesa, Dealer of Death"
+    ],
+    "id": "crime-selection",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "fast-mana-draw",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 0,
+   "blueprint_wins_structurally_independent": 3,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 4,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 4
+  },
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "oracle-pact",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breach",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "bow-alchemist",
+    "kind": "combo"
+   }
+  ]
+ }
+}

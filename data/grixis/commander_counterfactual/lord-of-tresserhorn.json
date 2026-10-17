@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "confidence": "low",
+ "deck_id": "Lord_of_Tresserhorn",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.39,
+   "commander_cast_by_turn6": 0.964,
+   "commander_turn_mean_when_cast": 3.670020120724346,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9698189134808853,
+    "recovery_turns_mean": 1.8008298755186722,
+    "removal_event_share": 0.994,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.154,
+   "fast_mana_uses_mean": 0.32,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.786,
+    "pkg:suppression": 0.424,
+    "pkg:ten-power-conversion": 0.58
+   },
+   "mana_available_t1_6_mean": 23.808,
+   "mana_spent_t1_6_mean": 21.828,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.312,
+   "win_proxy_by_turn6": 0.356
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.392,
+   "commander_cast_by_turn6": 0.964,
+   "commander_turn_mean_when_cast": 3.670020120724346,
+   "extra_cards_drawn_mean": 0.154,
+   "fast_mana_uses_mean": 0.19,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.786,
+    "pkg:suppression": 0.424,
+    "pkg:ten-power-conversion": 0.58
+   },
+   "mana_available_t1_6_mean": 23.894,
+   "mana_spent_t1_6_mean": 18.84,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.312,
+   "win_proxy_by_turn6": 0.384
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.392,
+   "commander_cast_by_turn6": 0.758,
+   "commander_turn_mean_when_cast": 5.489669421487603,
+   "extra_cards_drawn_mean": 0.154,
+   "fast_mana_uses_mean": 0.246,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.786,
+    "pkg:suppression": 0.424,
+    "pkg:ten-power-conversion": 0.586
+   },
+   "mana_available_t1_6_mean": 24.026,
+   "mana_spent_t1_6_mean": 19.392,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.312,
+   "win_proxy_by_turn6": 0.376
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.148,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.154,
+   "fast_mana_uses_mean": 0.198,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.786,
+    "pkg:suppression": 0.424,
+    "pkg:ten-power-conversion": 0.582
+   },
+   "mana_available_t1_6_mean": 24.184,
+   "mana_spent_t1_6_mean": 16.206,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.31,
+   "win_proxy_by_turn6": 0.142
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.002,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.13,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.0,
+    "pkg:suppression": 0.0,
+    "pkg:ten-power-conversion": 0.0
+   },
+   "mana_available_t1_6_mean": 0.086,
+   "mana_spent_t1_6_mean": -2.988,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.028
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.206,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.056,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.0,
+    "pkg:suppression": 0.0,
+    "pkg:ten-power-conversion": -0.006
+   },
+   "mana_available_t1_6_mean": -0.132,
+   "mana_spent_t1_6_mean": -0.552,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.008
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.244,
+   "commander_cast_by_turn6": 0.964,
+   "extra_cards_drawn_mean": 0.0,
+   "fast_mana_uses_mean": -0.008,
+   "first_key_set_access_by_turn4": {
+    "pkg:evasion-haste-protection": 0.0,
+    "pkg:suppression": 0.0,
+    "pkg:ten-power-conversion": -0.002
+   },
+   "mana_available_t1_6_mean": -0.29,
+   "mana_spent_t1_6_mean": 2.634,
+   "tutors_resolved_mean": 0.002,
+   "win_proxy_by_turn6": 0.242
+  }
+ },
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Lord's 10 power is the kill; the infect and double-strike cards only work on him.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "The enter trigger is a real cost: lose 2, sacrifice two creatures (Lord himself if needed; regeneration doesn't help) and an opponent draws two (M1 tresserhorn-01). The source admits the Torpor Orb/Karn slots trade away flexibility (tresserhorn-13). The sacrifice loops win without him.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/lord-of-tresserhorn.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 3,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 14,
+   "combo_commander_independent": 3,
+   "combo_direct_commander_piece": 2,
+   "engines": 2,
+   "engines_explicit_commander": 0,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 19
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

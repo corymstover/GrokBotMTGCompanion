@@ -1,0 +1,366 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "confidence": "low",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.31
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.294,
+    "win_proxy_by_turn6": 0.262
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.302,
+    "mana_spent_t1_6_mean": 20.028,
+    "spent_over_available_proxy": 0.898036
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.294,
+    "commander_cast_by_turn6": 0.97,
+    "expected_key_sets_first_accessed_by_turn4": 1.548,
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.31
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.548,
+    "first_key_set_access_by_turn4": {
+     "pkg:combat-token-makers": 0.348,
+     "pkg:extra-combat": 0.438,
+     "pkg:ninjutsu-entrants": 0.762
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.9718875502008032,
+    "recovery_turns_mean": 1.3946280991735538,
+    "removal_event_share": 0.996,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.312
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.302,
+    "win_proxy_by_turn6": 0.292
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.33,
+    "mana_spent_t1_6_mean": 18.244,
+    "spent_over_available_proxy": 0.817017
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.302,
+    "commander_cast_by_turn6": 0.97,
+    "expected_key_sets_first_accessed_by_turn4": 1.548,
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.312
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.548,
+    "first_key_set_access_by_turn4": {
+     "pkg:combat-token-makers": 0.348,
+     "pkg:extra-combat": 0.438,
+     "pkg:ninjutsu-entrants": 0.762
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.312
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.302,
+    "win_proxy_by_turn6": 0.29
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.43,
+    "mana_spent_t1_6_mean": 19.266,
+    "spent_over_available_proxy": 0.858939
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.302,
+    "commander_cast_by_turn6": 0.85,
+    "expected_key_sets_first_accessed_by_turn4": 1.544,
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.312
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.544,
+    "first_key_set_access_by_turn4": {
+     "pkg:combat-token-makers": 0.348,
+     "pkg:extra-combat": 0.434,
+     "pkg:ninjutsu-entrants": 0.762
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.312
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.146,
+    "win_proxy_by_turn6": 0.134
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.542,
+    "mana_spent_t1_6_mean": 17.102,
+    "spent_over_available_proxy": 0.758673
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.146,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.554,
+    "extra_cards_drawn_mean": 0.168,
+    "tutors_resolved_mean": 0.312
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.554,
+    "first_key_set_access_by_turn4": {
+     "pkg:combat-token-makers": 0.348,
+     "pkg:extra-combat": 0.444,
+     "pkg:ninjutsu-entrants": 0.762
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.008,
+    "win_proxy_by_turn6": 0.03
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.028,
+    "mana_spent_t1_6_mean": -1.784,
+    "spent_over_available_proxy": -0.081019
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.008,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.002
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.1,
+    "mana_spent_t1_6_mean": -1.022,
+    "spent_over_available_proxy": -0.041922
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.12,
+    "expected_key_sets_first_accessed_by_turn4": 0.004,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.004
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.156,
+    "win_proxy_by_turn6": 0.158
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.212,
+    "mana_spent_t1_6_mean": 1.142,
+    "spent_over_available_proxy": 0.058344
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.156,
+    "commander_cast_by_turn6": 0.97,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "goro-goro-and-satoru",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Breath of Fury",
+     "Urabrask's Forge"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1347-3259",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Breath of Fury",
+     "Daring Piracy"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1674-3259",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Goro-Goro and Satoru",
+     "Breath of Fury"
+    ],
+    "direct_commander_pieces": [
+     "Goro-Goro and Satoru"
+    ],
+    "id": "2237-3259",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Breath of Fury",
+     "Determined Iteration"
+    ],
+    "direct_commander_pieces": [],
+    "id": "3259-3934",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Breath of Fury",
+     "Loyal Apprentice"
+    ],
+    "direct_commander_pieces": [],
+    "id": "33-3259",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Goro-Goro and Satoru"
+    ],
+    "id": "fresh-attackers",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "dragon-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 4,
+   "combo_direct_commander_piece": 1,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 5
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Goro-Goro and Satoru"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "dragon-army",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Goro-Goro and Satoru"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "goro-breath",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "breath-token-makers",
+    "kind": "combo"
+   }
+  ]
+ }
+}

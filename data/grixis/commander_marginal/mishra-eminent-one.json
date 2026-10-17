@@ -1,0 +1,566 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "confidence": "low",
+ "deck_id": "Mishra__Eminent_One",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.328,
+    "tutors_resolved_mean": 0.79
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.55,
+    "win_proxy_by_turn6": 0.414
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.586,
+    "mana_spent_t1_6_mean": 22.712,
+    "spent_over_available_proxy": 0.887673
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.55,
+    "commander_cast_by_turn6": 0.88,
+    "expected_key_sets_first_accessed_by_turn4": 1.686,
+    "extra_cards_drawn_mean": 1.328,
+    "tutors_resolved_mean": 0.79
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.686,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.65,
+     "pkg:etb-ltb-artifacts": 0.552,
+     "pkg:extra-turn-pieces": 0.484
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.8913934426229508,
+    "recovery_turns_mean": 1.9264367816091954,
+    "removal_event_share": 0.976,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.374,
+    "tutors_resolved_mean": 0.808
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.584,
+    "win_proxy_by_turn6": 0.478
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.666,
+    "mana_spent_t1_6_mean": 21.046,
+    "spent_over_available_proxy": 0.819995
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.584,
+    "commander_cast_by_turn6": 0.88,
+    "expected_key_sets_first_accessed_by_turn4": 1.686,
+    "extra_cards_drawn_mean": 1.374,
+    "tutors_resolved_mean": 0.808
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.686,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.65,
+     "pkg:etb-ltb-artifacts": 0.552,
+     "pkg:extra-turn-pieces": 0.484
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.452,
+    "tutors_resolved_mean": 0.806
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.574,
+    "win_proxy_by_turn6": 0.472
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 25.896,
+    "mana_spent_t1_6_mean": 20.934,
+    "spent_over_available_proxy": 0.808387
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.574,
+    "commander_cast_by_turn6": 0.556,
+    "expected_key_sets_first_accessed_by_turn4": 1.694,
+    "extra_cards_drawn_mean": 1.452,
+    "tutors_resolved_mean": 0.806
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.694,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.652,
+     "pkg:etb-ltb-artifacts": 0.558,
+     "pkg:extra-turn-pieces": 0.484
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 1.49,
+    "tutors_resolved_mean": 0.802
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.294,
+    "win_proxy_by_turn6": 0.23
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 26.244,
+    "mana_spent_t1_6_mean": 18.572,
+    "spent_over_available_proxy": 0.707667
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.294,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.704,
+    "extra_cards_drawn_mean": 1.49,
+    "tutors_resolved_mean": 0.802
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.704,
+    "first_key_set_access_by_turn4": {
+     "pkg:artifact-tutors": 0.652,
+     "pkg:etb-ltb-artifacts": 0.57,
+     "pkg:extra-turn-pieces": 0.482
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.046,
+    "tutors_resolved_mean": 0.018
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.034,
+    "win_proxy_by_turn6": 0.064
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.08,
+    "mana_spent_t1_6_mean": -1.666,
+    "spent_over_available_proxy": -0.067678
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.034,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.046,
+    "tutors_resolved_mean": 0.018
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.078,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.01,
+    "win_proxy_by_turn6": 0.006
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.23,
+    "mana_spent_t1_6_mean": 0.112,
+    "spent_over_available_proxy": 0.011608
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.01,
+    "commander_cast_by_turn6": 0.324,
+    "expected_key_sets_first_accessed_by_turn4": -0.008,
+    "extra_cards_drawn_mean": -0.078,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.008
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.116,
+    "tutors_resolved_mean": 0.006
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.29,
+    "win_proxy_by_turn6": 0.248
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.578,
+    "mana_spent_t1_6_mean": 2.474,
+    "spent_over_available_proxy": 0.112328
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.29,
+    "commander_cast_by_turn6": 0.88,
+    "expected_key_sets_first_accessed_by_turn4": -0.018,
+    "extra_cards_drawn_mean": -0.116,
+    "tutors_resolved_mean": 0.006
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.018
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Emry, Lurker of the Loch",
+     "Mindslaver"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1167-1329",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mindslaver",
+     "Academy Ruins"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1167-1384",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Esoteric Duplicator",
+     "Mindslaver"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1167-5483",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The One Ring",
+     "Master Transmuter"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1999-3363",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Aetherflux Reservoir"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "4740-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Emry, Lurker of the Loch",
+     "The One Ring",
+     "Krark-Clan Ironworks"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1329-3363-4659",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Gonti's Aether Heart",
+     "Brudiclad, Telchor Engineer"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "1953-4636-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Gonti's Aether Heart",
+     "Strionic Resonator"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "2751-4636-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Strionic Resonator",
+     "Krark-Clan Ironworks"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "2751-4659-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Gonti's Aether Heart",
+     "Lithoform Engine"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "3094-4636-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Lithoform Engine",
+     "Krark-Clan Ironworks"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "3094-4659-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Gonti's Aether Heart",
+     "Determined Iteration"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "3934-4636-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Gonti's Aether Heart",
+     "Worldwalker Helm"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "4636-5159-5491",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Etherium Sculptor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "985-1976-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Enthusiastic Mechanaut"
+    ],
+    "direct_commander_pieces": [],
+    "id": "985-4908-5078",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Etherium Sculptor"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1020-1976-2866-4659",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Enthusiastic Mechanaut"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1020-2866-4659-4908",
+    "mode": "commander_independent",
+    "structural_hint": "commander_independent_power_package"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Mindslaver",
+     "Lithoform Engine",
+     "Strionic Resonator"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "1167-2751-3094-5159",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Mishra, Eminent One",
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Thousand-Year Elixir"
+    ],
+    "direct_commander_pieces": [
+     "Mishra, Eminent One"
+    ],
+    "id": "457-5159-5295-5491",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "id": "warform-value",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "warform-conversion",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 4,
+   "blueprint_wins_explicit_commander": 3,
+   "blueprint_wins_structurally_independent": 1,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 9,
+   "combo_direct_commander_piece": 10,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 19
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "aether-heart-turns",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "urza-helm",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mishra, Eminent One"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "reservoir-kci",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "artifact-backups",
+    "kind": "combo"
+   }
+  ]
+ }
+}

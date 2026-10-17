@@ -1,0 +1,191 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "confidence": "low",
+ "deck_id": "RogSi",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.248,
+   "commander_cast_by_turn6": 1.0,
+   "commander_turn_mean_when_cast": 1.0,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.996,
+    "recovery_turns_mean": 1.0522088353413654,
+    "removal_event_share": 1.0,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.746,
+   "fast_mana_uses_mean": 0.58,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.692,
+    "pkg:protection": 0.77,
+    "pkg:tutors": 0.674
+   },
+   "mana_available_t1_6_mean": 22.616,
+   "mana_spent_t1_6_mean": 17.31,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.122,
+   "win_proxy_by_turn6": 0.218
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.274,
+   "commander_cast_by_turn6": 1.0,
+   "commander_turn_mean_when_cast": 1.0,
+   "extra_cards_drawn_mean": 0.736,
+   "fast_mana_uses_mean": 0.418,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.692,
+    "pkg:protection": 0.77,
+    "pkg:tutors": 0.674
+   },
+   "mana_available_t1_6_mean": 22.762,
+   "mana_spent_t1_6_mean": 13.488,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.132,
+   "win_proxy_by_turn6": 0.248
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.28,
+   "commander_cast_by_turn6": 0.984,
+   "commander_turn_mean_when_cast": 1.7675350701402806,
+   "extra_cards_drawn_mean": 0.746,
+   "fast_mana_uses_mean": 0.624,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.686,
+    "pkg:protection": 0.768,
+    "pkg:tutors": 0.664
+   },
+   "mana_available_t1_6_mean": 21.494,
+   "mana_spent_t1_6_mean": 15.948,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.12,
+   "win_proxy_by_turn6": 0.25
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.268,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.708,
+   "fast_mana_uses_mean": 0.418,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.688,
+    "pkg:protection": 0.77,
+    "pkg:tutors": 0.674
+   },
+   "mana_available_t1_6_mean": 21.684,
+   "mana_spent_t1_6_mean": 10.702,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 1.126,
+   "win_proxy_by_turn6": 0.238
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.026,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": -0.01,
+   "fast_mana_uses_mean": -0.162,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.0,
+    "pkg:protection": 0.0,
+    "pkg:tutors": 0.0
+   },
+   "mana_available_t1_6_mean": 0.146,
+   "mana_spent_t1_6_mean": -3.822,
+   "tutors_resolved_mean": 0.01,
+   "win_proxy_by_turn6": 0.03
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": -0.006,
+   "commander_cast_by_turn6": 0.016,
+   "extra_cards_drawn_mean": -0.01,
+   "fast_mana_uses_mean": -0.206,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.006,
+    "pkg:protection": 0.002,
+    "pkg:tutors": 0.01
+   },
+   "mana_available_t1_6_mean": 1.268,
+   "mana_spent_t1_6_mean": -2.46,
+   "tutors_resolved_mean": 0.012,
+   "win_proxy_by_turn6": -0.002
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.006,
+   "commander_cast_by_turn6": 1.0,
+   "extra_cards_drawn_mean": 0.028,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:commander-native": 0.004,
+    "pkg:protection": 0.0,
+    "pkg:tutors": 0.0
+   },
+   "mana_available_t1_6_mean": 1.078,
+   "mana_spent_t1_6_mean": 2.786,
+   "tutors_resolved_mean": 0.006,
+   "win_proxy_by_turn6": 0.01
+  }
+ },
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Rograkh is a free creature on turn 0 that turns on Mox Amber, Springleaf Drum, Paradise Mantle, the free sacrifice tutors (Culling the Weak, Infernal Plunge, Diabolic Intent) and the commander-conditional free spells (Fierce Guardianship, Deflecting Swat, Deadly Rollick, Jeska's Will, Flare of Duplication).",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "The pair is deliberately asymmetric (blueprint L11): Rograkh is a cost-free enabler, and Silas Renn is mostly color identity; the strongest games often never cast Silas (L14). None of the 7 Spellbook combos uses either commander; the wins are the generic cEDH Oracle and Breach lines. The commanders make those lines cheaper, not possible. M1 review (rogsi-01..08) verifies the partner and Silas rules and flags Vexing Bauble as a self-counter risk (rogsi-04).",
+   "level": "significant"
+  },
+  "path": "data/grixis/commander_structure/rograkh-son-of-rohgahh-silas-renn.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 0,
+   "blueprint_wins_structurally_independent": 3,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 7,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 7
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "confidence": "low",
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.264,
+   "commander_turn_mean_when_cast": 7.20911528150134,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.39946380697050937,
+    "recovery_turns_mean": 2.4161073825503356,
+    "removal_event_share": 0.746,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 1.454,
+   "fast_mana_uses_mean": 0.51,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.832,
+    "pkg:reanimation": 0.708,
+    "pkg:ring-orc": 0.704,
+    "pkg:targets": 0.638
+   },
+   "mana_available_t1_6_mean": 24.106,
+   "mana_spent_t1_6_mean": 19.062,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.332,
+   "win_proxy_by_turn6": null
+  },
+  "normal": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.264,
+   "commander_turn_mean_when_cast": 7.20911528150134,
+   "extra_cards_drawn_mean": 1.458,
+   "fast_mana_uses_mean": 0.462,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.832,
+    "pkg:reanimation": 0.708,
+    "pkg:ring-orc": 0.704,
+    "pkg:targets": 0.638
+   },
+   "mana_available_t1_6_mean": 24.112,
+   "mana_spent_t1_6_mean": 18.938,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.332,
+   "win_proxy_by_turn6": null
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.048,
+   "commander_turn_mean_when_cast": 8.286516853932584,
+   "extra_cards_drawn_mean": 1.45,
+   "fast_mana_uses_mean": 0.49,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.832,
+    "pkg:reanimation": 0.708,
+    "pkg:ring-orc": 0.704,
+    "pkg:targets": 0.638
+   },
+   "mana_available_t1_6_mean": 24.208,
+   "mana_spent_t1_6_mean": 17.952,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.336,
+   "win_proxy_by_turn6": null
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 1.452,
+   "fast_mana_uses_mean": 0.398,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.832,
+    "pkg:reanimation": 0.708,
+    "pkg:ring-orc": 0.704,
+    "pkg:targets": 0.638
+   },
+   "mana_available_t1_6_mean": 24.282,
+   "mana_spent_t1_6_mean": 17.528,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.336,
+   "win_proxy_by_turn6": null
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.004,
+   "fast_mana_uses_mean": -0.048,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.0,
+    "pkg:reanimation": 0.0,
+    "pkg:ring-orc": 0.0,
+    "pkg:targets": 0.0
+   },
+   "mana_available_t1_6_mean": 0.006,
+   "mana_spent_t1_6_mean": -0.124,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": null
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.216,
+   "extra_cards_drawn_mean": 0.008,
+   "fast_mana_uses_mean": -0.028,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.0,
+    "pkg:reanimation": 0.0,
+    "pkg:ring-orc": 0.0,
+    "pkg:targets": 0.0
+   },
+   "mana_available_t1_6_mean": -0.096,
+   "mana_spent_t1_6_mean": 0.986,
+   "tutors_resolved_mean": -0.004,
+   "win_proxy_by_turn6": null
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": null,
+   "commander_cast_by_turn6": 0.264,
+   "extra_cards_drawn_mean": 0.006,
+   "fast_mana_uses_mean": 0.064,
+   "first_key_set_access_by_turn4": {
+    "pkg:fast-mana": 0.0,
+    "pkg:reanimation": 0.0,
+    "pkg:ring-orc": 0.0,
+    "pkg:targets": 0.0
+   },
+   "mana_available_t1_6_mean": -0.17,
+   "mana_spent_t1_6_mean": 1.41,
+   "tutors_resolved_mean": -0.004,
+   "win_proxy_by_turn6": null
+  }
+ },
+ "schema_version": 1,
+ "slug": "sauron-lord-of-the-rings",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4. M1 review (sauronlotr-01..05, all verified) confirms the cast trigger and reanimation rules.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/sauron-lord-of-the-rings.json",
+  "summary": {
+   "blueprint_wins": 2,
+   "blueprint_wins_explicit_commander": 2,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 0,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 0
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Commander marginal-value vectors remain evidence; no scalar score or deck decision is emitted."
+ },
+ "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "confidence": "low",
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "dimension_status": {
+  "card_economy": "extra draws and tutors modeled by v1.1 only",
+  "combo_assembly": "dynamic assembly/win proxies plus structural route dependence",
+  "engines": "structural explicit-dependence evidence available; engine-online probability not modeled by v1.1",
+  "mana_efficiency": "spent/available resource proxy through turn 6",
+  "meaningful_actions": "reported as a non-collapsed meaningful-progress vector; no heterogeneous events are summed into one score",
+  "package_access": "dynamic first-member access only; not package completion",
+  "recovery": "bounded commander-removal/recast proxy",
+  "strategic_routes": "accepted Blueprint + Step-B structural route evidence"
+ },
+ "dynamic_vectors": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.768,
+    "tutors_resolved_mean": 0.48
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.23,
+    "win_proxy_by_turn6": 0.118
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.484,
+    "mana_spent_t1_6_mean": 20.43,
+    "spent_over_available_proxy": 0.908646
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.23,
+    "commander_cast_by_turn6": 0.836,
+    "expected_key_sets_first_accessed_by_turn4": 1.916,
+    "extra_cards_drawn_mean": 0.768,
+    "tutors_resolved_mean": 0.48
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.916,
+    "first_key_set_access_by_turn4": {
+     "pkg:drain": 0.436,
+     "pkg:fodder": 0.794,
+     "pkg:outlets": 0.686
+    }
+   },
+   "recovery": {
+    "recast_after_removal_share": 0.8253638253638254,
+    "recovery_turns_mean": 2.4055415617128464,
+    "removal_event_share": 0.962,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   }
+  },
+  "normal": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.768,
+    "tutors_resolved_mean": 0.486
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.232,
+    "win_proxy_by_turn6": 0.156
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.512,
+    "mana_spent_t1_6_mean": 19.488,
+    "spent_over_available_proxy": 0.865672
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.232,
+    "commander_cast_by_turn6": 0.836,
+    "expected_key_sets_first_accessed_by_turn4": 1.916,
+    "extra_cards_drawn_mean": 0.768,
+    "tutors_resolved_mean": 0.486
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.916,
+    "first_key_set_access_by_turn4": {
+     "pkg:drain": 0.436,
+     "pkg:fodder": 0.794,
+     "pkg:outlets": 0.686
+    }
+   },
+   "recovery": null
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.772,
+    "tutors_resolved_mean": 0.484
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.232,
+    "win_proxy_by_turn6": 0.146
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.586,
+    "mana_spent_t1_6_mean": 18.964,
+    "spent_over_available_proxy": 0.839635
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.232,
+    "commander_cast_by_turn6": 0.362,
+    "expected_key_sets_first_accessed_by_turn4": 1.924,
+    "extra_cards_drawn_mean": 0.772,
+    "tutors_resolved_mean": 0.484
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.924,
+    "first_key_set_access_by_turn4": {
+     "pkg:drain": 0.436,
+     "pkg:fodder": 0.794,
+     "pkg:outlets": 0.694
+    }
+   },
+   "recovery": null
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.77,
+    "tutors_resolved_mean": 0.486
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.112,
+    "win_proxy_by_turn6": 0.106
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 22.682,
+    "mana_spent_t1_6_mean": 17.402,
+    "spent_over_available_proxy": 0.767216
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.112,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 1.922,
+    "extra_cards_drawn_mean": 0.77,
+    "tutors_resolved_mean": 0.486
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 1.922,
+    "first_key_set_access_by_turn4": {
+     "pkg:drain": 0.436,
+     "pkg:fodder": 0.794,
+     "pkg:outlets": 0.692
+    }
+   },
+   "recovery": null
+  }
+ },
+ "evidence_class": "test_result",
+ "limitations": [
+  "No dimension is converted into a universal commander-value score.",
+  "Dynamic results inherit every grixis_sim v1.1 limitation and are not multiplayer win rates.",
+  "Meaningful progress is a vector of separately interpretable components, not a count of heterogeneous actions.",
+  "Package access is first access to any key-set member, not completion or engine-online probability.",
+  "Commander-native triggered/activated abilities missing from v1.1 can make dynamic deltas understate real commander value; structural Blueprint evidence remains mandatory context.",
+  "Partner-pair disruption remains a bounded one-at-a-time legacy stress proxy."
+ ],
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "card_economy": {
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.006
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.002,
+    "win_proxy_by_turn6": 0.038
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": 0.028,
+    "mana_spent_t1_6_mean": -0.942,
+    "spent_over_available_proxy": -0.042974
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.002,
+    "commander_cast_by_turn6": 0.0,
+    "expected_key_sets_first_accessed_by_turn4": 0.0,
+    "extra_cards_drawn_mean": 0.0,
+    "tutors_resolved_mean": 0.006
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": 0.0
+   }
+  },
+  "taxed": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.004,
+    "tutors_resolved_mean": 0.002
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.0,
+    "win_proxy_by_turn6": 0.01
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.074,
+    "mana_spent_t1_6_mean": 0.524,
+    "spent_over_available_proxy": 0.026037
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.0,
+    "commander_cast_by_turn6": 0.474,
+    "expected_key_sets_first_accessed_by_turn4": -0.008,
+    "extra_cards_drawn_mean": -0.004,
+    "tutors_resolved_mean": 0.002
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.008
+   }
+  },
+  "unavailable": {
+   "card_economy": {
+    "extra_cards_drawn_mean": -0.002,
+    "tutors_resolved_mean": 0.0
+   },
+   "combo_access": {
+    "combo_assembled_by_turn6": 0.12,
+    "win_proxy_by_turn6": 0.05
+   },
+   "mana_efficiency": {
+    "mana_available_t1_6_mean": -0.17,
+    "mana_spent_t1_6_mean": 2.086,
+    "spent_over_available_proxy": 0.098456
+   },
+   "meaningful_progress_vector": {
+    "combo_assembled_by_turn6": 0.12,
+    "commander_cast_by_turn6": 0.836,
+    "expected_key_sets_first_accessed_by_turn4": -0.006,
+    "extra_cards_drawn_mean": -0.002,
+    "tutors_resolved_mean": 0.0
+   },
+   "package_access": {
+    "expected_key_sets_first_accessed_by_turn4": -0.006
+   }
+  }
+ },
+ "schema_version": 1,
+ "slug": "tresserhorns-lord-returned",
+ "status": "provisional_marginal_value_evidence",
+ "structural_routes": {
+  "combo_routes": [
+   {
+    "blueprint_commander_support": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "cards": [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-4050",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Ashnod's Altar",
+     "Tresserhorn's Lord, Returned"
+    ],
+    "direct_commander_pieces": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "1339-2034-7920",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Viscera Seer",
+     "Tresserhorn's Lord, Returned"
+    ],
+    "direct_commander_pieces": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "1339-2292-7920",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Carrion Feeder",
+     "Tresserhorn's Lord, Returned"
+    ],
+    "direct_commander_pieces": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "1339-2438-7920",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Yawgmoth, Thran Physician",
+     "The Locust God",
+     "Blood Artist"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1339-2842-4279",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Phyrexian Altar",
+     "Tresserhorn's Lord, Returned"
+    ],
+    "direct_commander_pieces": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "1339-4050-7920",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Yawgmoth, Thran Physician",
+     "The Locust God",
+     "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1339-4279-6578",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Goblin Bombardment",
+     "Tresserhorn's Lord, Returned"
+    ],
+    "direct_commander_pieces": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "1339-5147-7920",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "cards": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Zulaport Cutthroat"
+    ],
+    "direct_commander_pieces": [],
+    "id": "1385-2577-5670",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2034-2577-4871",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Skullclamp",
+     "Ashnod's Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "228-1339-2034",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Skullclamp",
+     "Phyrexian Altar"
+    ],
+    "direct_commander_pieces": [],
+    "id": "228-1339-4050",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Skullclamp",
+     "Pitiless Plunderer"
+    ],
+    "direct_commander_pieces": [],
+    "id": "228-1339-4871",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Viscera Seer"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2292-2577-4871",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Carrion Feeder"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2438-2577-4871",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "cards": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Blood Artist"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-2842-5670",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "cards": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Bastion of Remembrance"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-3025-5670",
+    "mode": "blueprint_supported",
+    "structural_hint": "commander_supported_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Goblin Bombardment"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-4871-5147",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+    ],
+    "direct_commander_pieces": [],
+    "id": "2577-5670-6578",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "The Locust God",
+     "Woe Strider",
+     "Tresserhorn's Lord, Returned"
+    ],
+    "direct_commander_pieces": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "997-1339-7920",
+    "mode": "direct_commander_piece",
+    "structural_hint": "commander_native_combo"
+   },
+   {
+    "blueprint_commander_support": [],
+    "cards": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Woe Strider"
+    ],
+    "direct_commander_pieces": [],
+    "id": "997-2577-4871",
+    "mode": "commander_independent",
+    "structural_hint": "unlinked_spellbook_combo"
+   }
+  ],
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "id": "sacrifice-draw",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "fodder",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 3,
+   "blueprint_wins_structurally_independent": 0,
+   "combo_blueprint_supported": 5,
+   "combo_commander_independent": 10,
+   "combo_direct_commander_piece": 6,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 3,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 21
+  },
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "locust-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "gravecrawler-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tresserhorn's Lord, Returned"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "commander-combat",
+    "kind": "natural"
+   }
+  ]
+ }
+}

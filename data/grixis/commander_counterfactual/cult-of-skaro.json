@@ -1,0 +1,198 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander counterfactual simulator deltas are bounded test evidence only; they cannot decide commander value or deck changes."
+ },
+ "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "confidence": "low",
+ "deck_id": "Cult_of_Skaro",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish/proxy results are not multiplayer win rates or estimates of real-game win probability.",
+  "The unavailable mode removes commander access without adding a replacement library card; this isolates command-zone availability rather than changing deck size.",
+  "The taxed mode is a sensitivity point (+2 starting generic commander cost), not a distribution of commander tax in real games.",
+  "The disrupted mode reuses the legacy deterministic commander-removal stress hook; multi-commander decks receive a bounded one-at-a-time proxy, not simultaneous pair disruption.",
+  "First key-set access means access to any member, not package completion or engine-online probability.",
+  "v1.1 omits many commander-native mechanics; structural Blueprint evidence must be read alongside dynamic deltas.",
+  "No scalar commander-dependence score is produced."
+ ],
+ "metrics": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.938,
+   "commander_turn_mean_when_cast": 3.82020202020202,
+   "disruption_recovery": {
+    "recast_after_removal_share": 0.9393939393939394,
+    "recovery_turns_mean": 1.946236559139785,
+    "removal_event_share": 0.99,
+    "scenario": "commander_removed_twice from turn 4; for multi-commander decks the legacy stress hook removes one on-board commander at a time and is therefore only a bounded disruption proxy"
+   },
+   "extra_cards_drawn_mean": 0.716,
+   "fast_mana_uses_mean": 0.154,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": 0.704,
+    "pkg:artifact-lords": 0.264,
+    "pkg:attack-protection": 0.566,
+    "pkg:trigger-multipliers": 0.52
+   },
+   "mana_available_t1_6_mean": 23.21,
+   "mana_spent_t1_6_mean": 20.77,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.006
+  },
+  "normal": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.938,
+   "commander_turn_mean_when_cast": 3.82020202020202,
+   "extra_cards_drawn_mean": 0.816,
+   "fast_mana_uses_mean": 0.134,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": 0.704,
+    "pkg:artifact-lords": 0.264,
+    "pkg:attack-protection": 0.566,
+    "pkg:trigger-multipliers": 0.52
+   },
+   "mana_available_t1_6_mean": 23.284,
+   "mana_spent_t1_6_mean": 19.744,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.006
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.706,
+   "commander_turn_mean_when_cast": 5.740899357601713,
+   "extra_cards_drawn_mean": 0.876,
+   "fast_mana_uses_mean": 0.134,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": 0.708,
+    "pkg:artifact-lords": 0.262,
+    "pkg:attack-protection": 0.566,
+    "pkg:trigger-multipliers": 0.522
+   },
+   "mana_available_t1_6_mean": 23.332,
+   "mana_spent_t1_6_mean": 19.914,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.006
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.008,
+   "commander_cast_by_turn6": 0.0,
+   "commander_turn_mean_when_cast": null,
+   "extra_cards_drawn_mean": 0.916,
+   "fast_mana_uses_mean": 0.124,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": 0.708,
+    "pkg:artifact-lords": 0.264,
+    "pkg:attack-protection": 0.566,
+    "pkg:trigger-multipliers": 0.522
+   },
+   "mana_available_t1_6_mean": 23.424,
+   "mana_spent_t1_6_mean": 18.39,
+   "note": "first_key_set_access means first access to any member of the simulator key set; it is not package completion or engine-online probability.",
+   "samples": 500,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.006
+  }
+ },
+ "model": {
+  "modes": {
+   "disrupted": "existing commander_removed_twice stress proxy from turn 4",
+   "normal": "canonical commander(s) available",
+   "taxed": "+2 generic on every commander's first cast, then normal tax increments",
+   "unavailable": "commander(s) absent for entire game; 99-card library unchanged"
+  },
+  "paired_library_permutations": true,
+  "samples": 500,
+  "seed": 69,
+  "simulator": "grixis_sim v1.1",
+  "turns": 10
+ },
+ "normal_minus_counterfactual": {
+  "disrupted": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.0,
+   "extra_cards_drawn_mean": 0.1,
+   "fast_mana_uses_mean": -0.02,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": 0.0,
+    "pkg:artifact-lords": 0.0,
+    "pkg:attack-protection": 0.0,
+    "pkg:trigger-multipliers": 0.0
+   },
+   "mana_available_t1_6_mean": 0.074,
+   "mana_spent_t1_6_mean": -1.026,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  },
+  "taxed": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.232,
+   "extra_cards_drawn_mean": -0.06,
+   "fast_mana_uses_mean": 0.0,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": -0.004,
+    "pkg:artifact-lords": 0.002,
+    "pkg:attack-protection": 0.0,
+    "pkg:trigger-multipliers": -0.002
+   },
+   "mana_available_t1_6_mean": -0.048,
+   "mana_spent_t1_6_mean": -0.17,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  },
+  "unavailable": {
+   "combo_assembled_by_turn6": 0.0,
+   "commander_cast_by_turn6": 0.938,
+   "extra_cards_drawn_mean": -0.1,
+   "fast_mana_uses_mean": 0.01,
+   "first_key_set_access_by_turn4": {
+    "pkg:artifact-creature-army": -0.004,
+    "pkg:artifact-lords": 0.0,
+    "pkg:attack-protection": 0.0,
+    "pkg:trigger-multipliers": -0.002
+   },
+   "mana_available_t1_6_mean": -0.14,
+   "mana_spent_t1_6_mean": 1.354,
+   "tutors_resolved_mean": 0.0,
+   "win_proxy_by_turn6": 0.0
+  }
+ },
+ "schema_version": 1,
+ "slug": "cult-of-skaro",
+ "status": "provisional_test_evidence",
+ "structural_context": {
+  "accepted_blueprint_role": {
+   "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+   "confidence": "high",
+   "evidence_class": "strategic_judgment",
+   "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+   "level": "central"
+  },
+  "path": "data/grixis/commander_structure/cult-of-skaro.json",
+  "summary": {
+   "blueprint_wins": 3,
+   "blueprint_wins_explicit_commander": 1,
+   "blueprint_wins_structurally_independent": 2,
+   "combo_blueprint_supported": 1,
+   "combo_commander_independent": 0,
+   "combo_direct_commander_piece": 0,
+   "engines": 2,
+   "engines_explicit_commander": 1,
+   "required_packages": 4,
+   "required_packages_explicit_commander": 0,
+   "spellbook_lines": 1
+  }
+ },
+ "unmodeled_required_dimensions": [
+  "true meaningful-action count (v1.1 does not expose cast/action events)",
+  "commander-native triggered/activated value not represented by v1.1 mechanics",
+  "opponent interaction and multiplayer politics",
+  "exact partner-pair disruption of both commanders simultaneously"
+ ]
+}
