@@ -69,6 +69,7 @@ jobs:
           from pathlib import Path
           p=Path('scripts/grixis_birthday_snapshot.py')
           s=p.read_text(encoding='utf-8')
+
           old='url = next((x for x in links if "MagicCompRules" in x), links[0])'
           new='url = urllib.parse.quote(next((x for x in links if "MagicCompRules" in x), links[0]), safe=":/?=&%")'
           if old in s:
@@ -78,6 +79,18 @@ jobs:
               print('rules URL normalization already present')
           else:
               raise SystemExit('expected rules URL assignment not found')
+
+          marker='\ndef fresh_deck_legality(oracle_by_id: dict):\n'
+          helper='''\ndef preferred_name_index(oracle_by_id: dict):\n    """Resolve duplicate Scryfall names to the actual game card, not a same-name token/emblem.\n\n    Oracle bulk can contain separate Oracle IDs with identical English names (for example\n    Thundertrap Trainer and its offspring token).  Canonical deck legality must resolve the\n    playable object.  Non-game layouts/type lines therefore sort after ordinary cards;\n    legality is only a secondary tie-breaker and never overrides project exceptions.\n    """\n    out = {}\n    non_game_layouts = {"token", "double_faced_token", "emblem", "art_series", "vanguard", "scheme", "planar"}\n    def rank(c):\n        t = c.get("type_line") or ""\n        nongame = c.get("layout") in non_game_layouts or t.startswith(("Token ", "Emblem"))\n        ordinary_legality = c.get("commander_legality") in ("legal", "banned", "restricted")\n        return (1 if nongame else 0, 0 if ordinary_legality else 1, c.get("set") or "")\n    for oid, c in oracle_by_id.items():\n        name = c.get("name")\n        if not name:\n            continue\n        if name not in out or rank(c) < rank(out[name][1]):\n            out[name] = (oid, c)\n    return out\n\n\ndef fresh_deck_legality(oracle_by_id: dict):\n'''
+          if 'def preferred_name_index(oracle_by_id: dict):' not in s:
+              if marker not in s:
+                  raise SystemExit('fresh legality function marker not found')
+              s=s.replace(marker, helper, 1)
+              print('added duplicate-name playable-card resolver')
+          s=s.replace('    by_name = {v["name"]: (oid, v) for oid, v in oracle_by_id.items()}\n',
+                      '    by_name = preferred_name_index(oracle_by_id)\n', 1)
+          s=s.replace('    names = {v["name"]: v for v in oracle_now.values()}\n',
+                      '    names = {name: pair[1] for name, pair in preferred_name_index(oracle_now).items()}\n', 1)
 
           start=s.index('def refresh_tournament():')
           end=s.index('\ndef build():', start)
