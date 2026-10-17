@@ -1,0 +1,69 @@
+name: ChatGPT cycle 77 - M6 I/J input receipts
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle77-ij-sealing
+    paths:
+      - .github/workflows/chatgpt-cycle77-m6-ij.yml
+      - scripts/grixis_m6_ij.py
+      - tests/test_m6_ij_receipt.py
+      - data/grixis/schemas/m6_input_receipt.schema.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chatgpt-cycle77-m6-ij
+  cancel-in-progress: true
+
+jobs:
+  receipt-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle77-ij-sealing
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial receipt tests
+        run: python -m unittest discover -s tests -p 'test_m6_ij_receipt.py' -v
+      - name: Build and independently check all 62 receipts
+        run: python scripts/grixis_m6_ij.py --build --check
+      - name: Enforce zero deck or authority writes
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          changed = set(subprocess.check_output(['git','diff','--name-only'], text=True).splitlines())
+          permitted_prefix = 'data/grixis/m6/ij/input_receipts/'
+          if any(not p.startswith(permitted_prefix) for p in changed):
+              raise SystemExit('I/J attempted to change forbidden path: ' + repr(sorted(changed)))
+          reg = json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(reg['decks']) == 62
+          assert reg['program']['milestones']['M5']['status'] == 'accepted'
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert reg['program']['milestones']['M6']['accepted_date'] is None
+          assert not list(Path('data/grixis/m6/certificates').glob('*.json')) if Path('data/grixis/m6/certificates').exists() else True
+          print('authority write scope: PASS; no certification or approval')
+          PY
+      - name: Commit reproducibility input receipts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/m6/ij/input_receipts
+          if git diff --cached --quiet; then
+            echo "I/J receipts already current"
+          else
+            git commit -m "Cycle 77: attest 62 M6 I/J input receipts [skip ci]"
+            git pull --rebase origin chatgpt-cycle77-ij-sealing
+            git push origin HEAD:chatgpt-cycle77-ij-sealing
+          fi
+      - name: Summary
+        if: always()
+        run: |
+          echo 'I/J receipts bind source bytes only; Phase-B, judgments, seals, critique and certificates remain pending.'
