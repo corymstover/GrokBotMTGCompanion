@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/chatgpt-birthday-authority.yml
       - scripts/grixis_birthday_snapshot.py
+      - scripts/grixis_birthday_tournament.py
   workflow_dispatch:
 
 concurrency:
@@ -62,7 +63,7 @@ jobs:
           print('frozen rules verified',p.name,got)
           PY
 
-      - name: Normalize discovered Wizards rules URL
+      - name: Normalize current-source adapters
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -71,12 +72,23 @@ jobs:
           old='url = next((x for x in links if "MagicCompRules" in x), links[0])'
           new='url = urllib.parse.quote(next((x for x in links if "MagicCompRules" in x), links[0]), safe=":/?=&%")'
           if old in s:
-              p.write_text(s.replace(old,new,1),encoding='utf-8')
+              s=s.replace(old,new,1)
               print('patched rules URL normalization')
           elif new in s:
               print('rules URL normalization already present')
           else:
               raise SystemExit('expected rules URL assignment not found')
+
+          start=s.index('def refresh_tournament():')
+          end=s.index('\ndef build():', start)
+          replacement='''def refresh_tournament():\n    import grixis_birthday_tournament as bt\n    return bt.refresh(OUT)\n\n'''
+          old_block=s[start:end]
+          if 'grixis_birthday_tournament as bt' not in old_block:
+              s=s[:start]+replacement+s[end:]
+              print('scoped EDHTop16 authority refresh to commander/meta; per-card rows deferred to M5 delta')
+          else:
+              print('Birthday tournament adapter already present')
+          p.write_text(s,encoding='utf-8')
           PY
 
       - name: Collect current Birthday authority and evidence feeds
@@ -136,7 +148,7 @@ jobs:
           print('rules changed',x['comprehensive_rules']['changed_vs_frozen'],x['comprehensive_rules']['fresh_effective_date'])
           print('EDHREC',d['sources']['edhrec']['counts'])
           print('Spellbook',d['sources']['commander_spellbook']['decks'],'decks',d['sources']['commander_spellbook']['near_miss_variants'],'near-misses')
-          print('EDHTop16',d['sources']['edhtop16']['counts'])
+          print('EDHTop16',d['sources']['edhtop16']['counts'],d['sources']['edhtop16'].get('card_rows_status'))
           print('fresh deck legality',d['canonical_deck_legality']['counts'])
           PY
           fi
