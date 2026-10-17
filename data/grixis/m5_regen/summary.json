@@ -1,0 +1,517 @@
+{
+ "authority": {
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "note": "M5 regeneration output is screening evidence only. Cory acceptance is a later explicit milestone and approves no deck."
+ },
+ "cycle": 73,
+ "decks": [
+  {
+   "af_digest": "sha256:085a0d07d3d5b827bde2971178ccd6a7f6f97d2130d0e9e6ecbfa9e3c2077338",
+   "reviews": 152,
+   "slug": "abaddon-the-despoiler",
+   "swaps": 223,
+   "tests": 190,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:a8f64521c901954b9976a9b7ad6756b4cb21993da0c4f37d618336058f5d5948",
+   "reviews": 341,
+   "slug": "admiral-beckett-brass",
+   "swaps": 365,
+   "tests": 344,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:72a501f57b050092f2209732907fff838dfd0f532a649c3cb7d212e9d273b3b4",
+   "reviews": 306,
+   "slug": "admiral-brass-unsinkable",
+   "swaps": 273,
+   "tests": 228,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:f2d9838fbd9385c7054818392d8f081cb918d614f802c34de123e629be19d3ec",
+   "reviews": 360,
+   "slug": "anhelo-the-painter",
+   "swaps": 432,
+   "tests": 380,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:d921f026723eeba0e38827080c563e9270f5931fc14fb6c8dd847350eff4e46e",
+   "reviews": 481,
+   "slug": "ashad-the-lone-cyberman",
+   "swaps": 518,
+   "tests": 483,
+   "universe": 18461
+  },
+  {
+   "af_digest": "sha256:cafb5ccb9a17e884c647a6b489e3dfaccc4d20ac74864a35db475d0d4695755c",
+   "reviews": 569,
+   "slug": "ashnod-the-uncaring",
+   "swaps": 749,
+   "tests": 622,
+   "universe": 18461
+  },
+  {
+   "af_digest": "sha256:e05eca0bec41c69210028afd413746e0695b5a01ca3b9f34624c6aa7e26e8aea",
+   "reviews": 269,
+   "slug": "belakor-the-dark-master",
+   "swaps": 318,
+   "tests": 261,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:389cdf0f97cdb94f51d95d800cba422bb6de72e95de642d4a8bb8f685fb4b241",
+   "reviews": 236,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "swaps": 283,
+   "tests": 217,
+   "universe": 18458
+  },
+  {
+   "af_digest": "sha256:ba606e28c5524c430fe8954a8ea415ee8abf9bbc8803706440de8db4abe46242",
+   "reviews": 277,
+   "slug": "cormela-glamour-thief",
+   "swaps": 428,
+   "tests": 420,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:75c5a6a9625ba2f34fd4da84fd4dadacf0f07ce2ac0bb59af91ddd56e746cef5",
+   "reviews": 94,
+   "slug": "crosis-the-purger",
+   "swaps": 123,
+   "tests": 90,
+   "universe": 18464
+  },
+  {
+   "af_digest": "sha256:f71d32fb62662f0f62752d15cb809a70a8cf7a52982cbc8c10889c6da232a2a3",
+   "reviews": 149,
+   "slug": "cult-of-skaro",
+   "swaps": 198,
+   "tests": 152,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:1fc533050dc413f8211563d617aa03833ad4dca08afdfb5c8ba94f4f6320b70b",
+   "reviews": 131,
+   "slug": "davros-dalek-creator",
+   "swaps": 190,
+   "tests": 175,
+   "universe": 18461
+  },
+  {
+   "af_digest": "sha256:904ee18de91f99c19e70db7aaca6395e2817baa6ff11932925086204d149cd55",
+   "reviews": 318,
+   "slug": "doctor-doom-king-of-latveria",
+   "swaps": 333,
+   "tests": 287,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:4a730b29729a63daf021776ce4807bb43e2de69465167fa31c587b68cb2c65e1",
+   "reviews": 262,
+   "slug": "don-andres-the-renegade",
+   "swaps": 222,
+   "tests": 160,
+   "universe": 18457
+  },
+  {
+   "af_digest": "sha256:8bac112a635aa677b15791f5bbd2389ab40407437202c8b3e38f3d87c080592b",
+   "reviews": 290,
+   "slug": "dr-eggman",
+   "swaps": 323,
+   "tests": 280,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:309483a3499f17a3d0b6e3a201610563216dd88febda5d88d1eca88a8bfa168d",
+   "reviews": 153,
+   "slug": "edea-possessed-sorceress",
+   "swaps": 192,
+   "tests": 160,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:c662843fec2e3a18cd9dfcb544ecad96283f4bed4a5c2c21cfc7a3e745559def",
+   "reviews": 449,
+   "slug": "edward-kenway",
+   "swaps": 469,
+   "tests": 345,
+   "universe": 18458
+  },
+  {
+   "af_digest": "sha256:9e49dd79ac8a177d212fc7d36d00b393a3a7b670f8517973a6e96c993d9dba35",
+   "reviews": 176,
+   "slug": "evelyn-the-covetous",
+   "swaps": 232,
+   "tests": 165,
+   "universe": 18455
+  },
+  {
+   "af_digest": "sha256:59a06004b375ac6cbbc47d7784ee03fd1b63ffaed888ea913043b3a5cf29463d",
+   "reviews": 189,
+   "slug": "fire-lord-azula",
+   "swaps": 260,
+   "tests": 250,
+   "universe": 18453
+  },
+  {
+   "af_digest": "sha256:9de1f2c3f95988edb89b5c1542c311562efe9deb7095471addb2039018a5be9d",
+   "reviews": 115,
+   "slug": "garza-zol-plague-queen",
+   "swaps": 142,
+   "tests": 110,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:b94d0f34d9c18855f83ee9b8ddfb58263d20acf00bf6fe1c2667a796f1e6f950",
+   "reviews": 335,
+   "slug": "goro-goro-and-satoru",
+   "swaps": 356,
+   "tests": 273,
+   "universe": 18457
+  },
+  {
+   "af_digest": "sha256:18038db489fd7d3291a9f44ad4e726fb3c235ac126d4636bb00fd429b79b6120",
+   "reviews": 137,
+   "slug": "grixistax-october-2026",
+   "swaps": 165,
+   "tests": 140,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:1d09fdc0470b00bca0b405d9cb8eabd0ae2bec015b86c8d2bad56e9bf9931d16",
+   "reviews": 98,
+   "slug": "gwendlyn-di-corci",
+   "swaps": 129,
+   "tests": 91,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:1a009f35f5b08b2054b96714093197f230107e8c204b58e8a42702a93eeba75c",
+   "reviews": 381,
+   "slug": "inalla-archmage-ritualist",
+   "swaps": 481,
+   "tests": 314,
+   "universe": 18455
+  },
+  {
+   "af_digest": "sha256:9446f4bcf4e82bbbc018f5fefb152998952db9002fdbee0339d73d0564cb1efb",
+   "reviews": 185,
+   "slug": "jeleva-nephalias-scourge",
+   "swaps": 243,
+   "tests": 206,
+   "universe": 18455
+  },
+  {
+   "af_digest": "sha256:888ae0f7f36d0ba8d9aadf8e48c883ee1855fe4fd4cb954e7ecf8e20487cb327",
+   "reviews": 194,
+   "slug": "kefka-court-mage",
+   "swaps": 245,
+   "tests": 210,
+   "universe": 18454
+  },
+  {
+   "af_digest": "sha256:66f6f2cdd2b5fe5929a6a8e0020a310bd4c5a6b5e7f2597f76a107101fe3c36c",
+   "reviews": 182,
+   "slug": "kess-dissident-mage",
+   "swaps": 215,
+   "tests": 183,
+   "universe": 18453
+  },
+  {
+   "af_digest": "sha256:0e7e97db78e15ff6d669b4b6bf84a8cfc6df0100c4d623b3038d251cb0d34dc1",
+   "reviews": 449,
+   "slug": "loki-the-deceiver",
+   "swaps": 470,
+   "tests": 402,
+   "universe": 18461
+  },
+  {
+   "af_digest": "sha256:35dd57a79236a2d738686047cb51c416870b5ad4ccb2c707561b68ed92e732cf",
+   "reviews": 204,
+   "slug": "lord-of-tresserhorn",
+   "swaps": 316,
+   "tests": 289,
+   "universe": 18458
+  },
+  {
+   "af_digest": "sha256:ed7ab80c0fc45c40286cd19937369aa74b32a4ef59500f61772857413b20f582",
+   "reviews": 159,
+   "slug": "lord-xander-the-collector",
+   "swaps": 245,
+   "tests": 215,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:309cf660816f04e440203552b46cf27c9132a50266ae4ad178c8e8eec1005832",
+   "reviews": 79,
+   "slug": "lynde-cheerful-tormentor",
+   "swaps": 81,
+   "tests": 48,
+   "universe": 18463
+  },
+  {
+   "af_digest": "sha256:6911462699e61cb7e810f03cbae352ffe71105c3688852e72c0b07c5835f62f1",
+   "reviews": 345,
+   "slug": "mai-and-zuko",
+   "swaps": 417,
+   "tests": 341,
+   "universe": 18453
+  },
+  {
+   "af_digest": "sha256:808b83b8a310dd05998c7c190f28cd6d33f44e95bab896d9568d0cf6aedb273c",
+   "reviews": 143,
+   "slug": "mairsil-the-pretender",
+   "swaps": 200,
+   "tests": 183,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:014d09f1719d182b7a46dd48a0a69d0e2de438183bf5528d435509365809b7db",
+   "reviews": 193,
+   "slug": "marchesa-dealer-of-death",
+   "swaps": 217,
+   "tests": 153,
+   "universe": 18453
+  },
+  {
+   "af_digest": "sha256:11954600530abf6a7a856fadc7986cf37a98b2d6d30cfcbc10b9468b4683565a",
+   "reviews": 186,
+   "slug": "marchesa-the-black-rose",
+   "swaps": 303,
+   "tests": 282,
+   "universe": 18458
+  },
+  {
+   "af_digest": "sha256:586299b38df5d6ce1dd95e070e5bc871678bd445dcad5f5c644f974bb4a1bb56",
+   "reviews": 214,
+   "slug": "mishra-artificer-prodigy",
+   "swaps": 312,
+   "tests": 280,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:f5b92f2efcc74fb2f9c091bef6a76ef0c85ed9ef8cfe21f2b21f63e743ab693d",
+   "reviews": 326,
+   "slug": "mishra-eminent-one",
+   "swaps": 515,
+   "tests": 458,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:3405a85fba8fe87d8470c1136544bb864adc6fce03e3a2a67540b1afbc772e28",
+   "reviews": 345,
+   "slug": "missy",
+   "swaps": 374,
+   "tests": 215,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:bd706143645359f9bff00593bed46478821d0ada3574b852e954ce64272a8d18",
+   "reviews": 331,
+   "slug": "nathan-drake-treasure-hunter",
+   "swaps": 334,
+   "tests": 234,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:cce7dd93d2ff0bf1305bf6efbe89d2faf14e1afd5ffdfb6fdd88de76098da330",
+   "reviews": 255,
+   "slug": "nekusar-the-mindrazer",
+   "swaps": 295,
+   "tests": 186,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:eeca36b0960db742004df92e93daaeef4f5d66f071ef910df35c5e053c63c9ad",
+   "reviews": 134,
+   "slug": "nicol-bolas",
+   "swaps": 165,
+   "tests": 140,
+   "universe": 18457
+  },
+  {
+   "af_digest": "sha256:e2ea43c4a90e83ee7ab095843ddc52bb342a7acd9188cce5c54782329ea696df",
+   "reviews": 111,
+   "slug": "nicol-bolas-the-ravager",
+   "swaps": 141,
+   "tests": 109,
+   "universe": 18458
+  },
+  {
+   "af_digest": "sha256:01ca19dfff05bc3421eed63e19cbc0f3892ec9b287f41fdaea7ebd2488b012cf",
+   "reviews": 211,
+   "slug": "norman-osborn",
+   "swaps": 261,
+   "tests": 200,
+   "universe": 18453
+  },
+  {
+   "af_digest": "sha256:551cca850e28fd619079eeb9e9a435fc99c68ee1b2d3a28400beec218dea0162",
+   "reviews": 196,
+   "slug": "obeka-brute-chronologist",
+   "swaps": 294,
+   "tests": 267,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:11993df290774776dddbcaa589d29770fd24805a687bd1af61018e6a7991e428",
+   "reviews": 108,
+   "slug": "obeka-splitter-of-seconds",
+   "swaps": 120,
+   "tests": 91,
+   "universe": 18460
+  },
+  {
+   "af_digest": "sha256:906247f9622a321ec52890a4123eed290b9993f9e3ec75b572a6388906b92b09",
+   "reviews": 171,
+   "slug": "parnesse-the-subtle-brush",
+   "swaps": 257,
+   "tests": 222,
+   "universe": 18460
+  },
+  {
+   "af_digest": "sha256:d71dbc3a9aa6f17b7f740b42880e41ff99efa1766c1733543554bc536859740f",
+   "reviews": 92,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "swaps": 116,
+   "tests": 98,
+   "universe": 18453
+  },
+  {
+   "af_digest": "sha256:f7150d28bc3c19bc6947080147835fe19861aa2dd139a5ee92b5faf834952882",
+   "reviews": 154,
+   "slug": "saruman-the-white-hand",
+   "swaps": 171,
+   "tests": 131,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:2ed78065fd13aa9745946d96f8c43970ac8442f34d6d8ceb750991c36ea5c0c4",
+   "reviews": 127,
+   "slug": "sauron-lord-of-the-rings",
+   "swaps": 150,
+   "tests": 103,
+   "universe": 18460
+  },
+  {
+   "af_digest": "sha256:523c49ae80ec84c039b3af6eddc33e0fed610b1ecd7e2f156ebddbf0a66b0377",
+   "reviews": 142,
+   "slug": "sauron-the-dark-lord",
+   "swaps": 144,
+   "tests": 83,
+   "universe": 18465
+  },
+  {
+   "af_digest": "sha256:12c84472dc865410a88ba46a54b8e6457b4ec37cd2955130d58492e548f4ae61",
+   "reviews": 152,
+   "slug": "sedris-the-traitor-king",
+   "swaps": 199,
+   "tests": 166,
+   "universe": 18457
+  },
+  {
+   "af_digest": "sha256:46851c3687d684d08df17f4a1f453ef2af4dc7d6bd7ebb0bb71a1daa857db48a",
+   "reviews": 175,
+   "slug": "solkanar-the-swamp-king",
+   "swaps": 229,
+   "tests": 201,
+   "universe": 18459
+  },
+  {
+   "af_digest": "sha256:f3ac3d6f9b8971cb7db440ae2f522cad9c8e99dbcbf1d68b138f5a277762315a",
+   "reviews": 60,
+   "slug": "solkanar-the-tainted",
+   "swaps": 78,
+   "tests": 55,
+   "universe": 18463
+  },
+  {
+   "af_digest": "sha256:cab2757368ee0b6824001aa771d5994c8daa94ce5e84f10b166253d13fbca0fd",
+   "reviews": 123,
+   "slug": "tetsuo-imperial-champion",
+   "swaps": 156,
+   "tests": 122,
+   "universe": 18465
+  },
+  {
+   "af_digest": "sha256:d76bb1d61cfb6cbe6b5d6582580794f6e5001bd4c1f56abf488e70500236fd2d",
+   "reviews": 76,
+   "slug": "tetsuo-umezawa",
+   "swaps": 86,
+   "tests": 59,
+   "universe": 18469
+  },
+  {
+   "af_digest": "sha256:428e24cefd9544d6f98d7b8bb4e63eb3da32dc5f044244bd8613d090db7196ef",
+   "reviews": 123,
+   "slug": "the-madcap-jester",
+   "swaps": 149,
+   "tests": 120,
+   "universe": 18456
+  },
+  {
+   "af_digest": "sha256:02b9767a197247fbf5232a4755b4c834c2c356cb6e1d792f01689b7161bd4250",
+   "reviews": 131,
+   "slug": "the-rani",
+   "swaps": 173,
+   "tests": 119,
+   "universe": 18462
+  },
+  {
+   "af_digest": "sha256:b415bd0543a9f71fabf61d909bda72c58e2d5cd809d0f7d9a313295d0d2ae022",
+   "reviews": 82,
+   "slug": "the-valeyard",
+   "swaps": 96,
+   "tests": 65,
+   "universe": 18460
+  },
+  {
+   "af_digest": "sha256:dcad9f7c4d7f145f79736aa14d5615870a6dd0ec970826a8ff8b8f55dd3373c0",
+   "reviews": 234,
+   "slug": "thraximundar",
+   "swaps": 375,
+   "tests": 327,
+   "universe": 18463
+  },
+  {
+   "af_digest": "sha256:2ee8d6ebaee7899d3bcea4c49978e2d1d99d9ce4d74724d9f253e01debb0981e",
+   "reviews": 298,
+   "slug": "tresserhorns-lord-returned",
+   "swaps": 399,
+   "tests": 340,
+   "universe": 18464
+  },
+  {
+   "af_digest": "sha256:2a882495968d867d20faca48a369b0719987ad0d959123343b466fb19acc986e",
+   "reviews": 265,
+   "slug": "wick-the-whorled-mind",
+   "swaps": 375,
+   "tests": 356,
+   "universe": 18457
+  },
+  {
+   "af_digest": "sha256:eb3b3e508b0bde52eceb40a4f8632749a441711946adaaf22be55a53a70861ea",
+   "reviews": 186,
+   "slug": "zevlor-elturel-exile",
+   "swaps": 185,
+   "tests": 145,
+   "universe": 18459
+  }
+ ],
+ "development_snapshot": "snap-20261016",
+ "generated_by": "scripts/grixis_m5_regen.py v1",
+ "historical_raw_edhrec_required": false,
+ "schema_version": 1,
+ "status": "complete_corpus_generated",
+ "totals": {
+  "reviews": 13409,
+  "swaps": 16505,
+  "tests": 13541,
+  "universe": 1144440
+ }
+}

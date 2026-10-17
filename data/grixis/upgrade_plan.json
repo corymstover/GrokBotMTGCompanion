@@ -430,7 +430,7 @@
     2,
     3
    ],
-   "status": "not_started",
+   "status": "complete",
    "depends_on": [
     "A",
     "B",
@@ -438,7 +438,8 @@
     "D",
     "E",
     "F"
-   ]
+   ],
+   "completed": "ChatGPT cycle 73 frozen A-F regeneration"
   },
   {
    "order": 9,
@@ -571,7 +572,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 72.5 (2026-10-17)",
+  "updated": "ChatGPT cycle 73 (2026-10-17)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -634,9 +635,9 @@
    {
     "id": "rebuild_m5",
     "estimated_batches": 2.5,
-    "batches_done": 0,
-    "status": "not_started",
-    "note": "est 2-3"
+    "batches_done": 2.5,
+    "status": "complete",
+    "note": "62-deck uncapped Step-A candidate corpus regenerated on frozen snap-20261016; all escalation queues drained; screening hypotheses bound to validated B-F evidence/review obligations; no decisions or approvals."
    },
    {
     "id": "birthday_snapshot",
@@ -668,7 +669,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 44.5,
-  "percent_complete": 71.2
+  "batches_done": 47.0,
+  "percent_complete": 75.2
  }
 }
