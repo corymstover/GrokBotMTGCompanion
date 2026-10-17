@@ -27,7 +27,7 @@ def fmt(x):return json.dumps(x,sort_keys=True,indent=1,ensure_ascii=False)+"\n"
 def alternatives(plan,source,m5,blue):
     lines=ga.deck_block_text(plan["slug"]).splitlines()
     allnames=[line.split(" ",1)[-1].split(" [")[0].strip() for line in lines]
-    if len(allnames)!=92: # number of physical lines includes nine basic lands, 99+commander quantities
+    if len(allnames)!=94: # 94 name lines, with 3 each of Island/Mountain/Swamp = 100 total
         raise ValueError("Unexpected baseline physical-line count; verify source")
     if lines[0].split(" ",1)[-1].split(" [")[0]!="Abaddon the Despoiler":
         raise ValueError("commander identity changed")
