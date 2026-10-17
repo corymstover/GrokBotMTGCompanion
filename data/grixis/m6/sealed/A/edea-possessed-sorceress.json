@@ -1,0 +1,1070 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:2a5fd8101317ed04eb3239363d59ae95073ce0cafb7ee126a48fbc83db68b090",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Edea__Possessed_Sorceress",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz"
+  ],
+  "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:edea-possessed-sorceress:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Akki Battle Squad",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Akki Battle Squad",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:c3813a7667c1",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Akki Battle Squad",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Akki Battle Squad",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:20a239982ec9",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "Phyrexian Altar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:1d7ac45a5302",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:1b3a4cdedcf3",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:6f772b1ade26",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8230b82e5cb5",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:98219c8d9230",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Industrial Advancement",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:5ec6297d47bf",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:29740953398f",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e1f9ab8dafed",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:cd168e5d1518",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:7fbe4b4d04d5",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:b06f6e26e02a",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ff7e7789b0ad",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:02f693e71ea9",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:9f638aa96c28",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:22564fd85a42",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ff466050daf4",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e107fba355c7",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Eternal Scourge",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Eternal Scourge",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:4011b27ab1c2",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Eternal Scourge",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Eternal Scourge",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:cb3c58947734",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:54ffc4fd1c1a",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:732c2730464c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:a4fcc687d826",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Glen Elendra Archmage",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Glen Elendra Archmage",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:b6bf029885f4",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:53db2cfd534c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:7af9784fefbe",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Goblin Warrens",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Goblin Warrens",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e75d989c31b0",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Goblin Warrens",
+    "cut": "Industrial Advancement",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Goblin Warrens",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e2e8323b34b5",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8a386d9139be",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:169d541155b4",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:f7ced47b3f0d",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:07cbfcdc11d6",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:4d5f56a4dc66",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:56e45707a5d0",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:32275fc177b1",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:fc589c1300b3",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:270a09211a11",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:03db2fce1741",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:b840d42849b5",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:61a6e96f110c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:12bc75b67650",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:d79418ff69c1",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Lesser Masticore",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Lesser Masticore",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:b825561d35cb",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Lesser Masticore",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Lesser Masticore",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:1a2795367a39",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Liliana, Untouched by Death",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Liliana, Untouched by Death",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:7205bf059c0d",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Magistrate's Scepter",
+    "cut": "Phyrexian Altar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Magistrate's Scepter",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:2dc22b49a0e9",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Magistrate's Scepter",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Magistrate's Scepter",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:9b0c64e143ee",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Magmatic Galleon",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Magmatic Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:369c0a26981e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Magmatic Galleon",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Magmatic Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:a518aff3a99c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Magosi, the Waterveil",
+    "cut": "Otawara, Soaring City",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Magosi, the Waterveil",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:7bb94aa0c1cf",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:b0d56686d344",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:90b6cbcee27d",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Industrial Advancement",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:1224e6bfbbce",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:4202e58f1d67",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:a0155632c171",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:49a238de18b0",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e4d5f1b4547f",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Missy",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Missy",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:f942908cedfa",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Missy",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Missy",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ec64942fe027",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Mortuary",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Mortuary",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:b5ba7c0fa01d",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Murderous Redcap",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Murderous Redcap",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:73bf7155866f",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Murderous Redcap",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Murderous Redcap",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:02cfa97147ed",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:9fb1607e55eb",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:775ab018bd8c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Phyrexian Altar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:bf5bd8719c3a",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ae59d0e20ea5",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:a98a8b340d4a",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:a8d37265ebcc",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:6741b164523a",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:67d462b690df",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:d7700e2c6249",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:a7cc5a3d1db0",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Putrid Goblin",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Putrid Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:2f9dacdc09c9",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Putrid Goblin",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Putrid Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:28fb6fcded8e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:5cd74a4f8a64",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:80636b719e64",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:0206d6121131",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Reassembling Skeleton",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Reassembling Skeleton",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ed4ae4f28f81",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:2b54ea9fd54d",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Industrial Advancement",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:9ae97a8116f6",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "River Kelpie",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=River Kelpie",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:493cbdbbf472",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "River Kelpie",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=River Kelpie",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:94fe5fc8c8dc",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Phyrexian Altar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:1c0b1fa06915",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:84810d40481a",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Throne",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Scourge of the Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:df8b24b16e7f",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Throne",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Scourge of the Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:d08537cf87cf",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Scuttletide",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Scuttletide",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:42d60062d194",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:5ee5109ada37",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:226df82876e6",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:52d95a382f9b",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:eff1838ce44c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Smaug the Impenetrable",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Smaug the Impenetrable",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:3407109baa14",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Smaug the Impenetrable",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Smaug the Impenetrable",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:c85dffd5ef32",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:597ed7fc52cb",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:fda9a16434c3",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:66513b440edf",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ae84ec70ff40",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:2fd35bff4571",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:0e90684a24c5",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:acffb5d8656c",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:c005afdb673e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e7558d448c70",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "The Legend of Kuruk // Avatar Kuruk",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=The Legend of Kuruk // Avatar Kuruk",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:af6b634df06e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "The Legend of Kuruk // Avatar Kuruk",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=The Legend of Kuruk // Avatar Kuruk",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8a0ee8c44133",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ebdef0d5f4a0",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Seize the Spotlight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:2f80b37dbe1e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:5f2787335006",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:bbb754e36f5e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:4c9e8467c86b",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:ecc358c11e3e",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:900801524bae",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8a58f9be6ffc",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Industrial Advancement",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:eeb3793eff91",
+     "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

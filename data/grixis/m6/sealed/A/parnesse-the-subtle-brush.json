@@ -1,0 +1,1142 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:f584da0ac7fa70a1c6a2f40d579f21918c9d05b833d71fe0b498d17d37330de1",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Parnesse__the_Subtle_Brush",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz"
+  ],
+  "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:parnesse-the-subtle-brush:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Adaptive Training Post",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Adaptive Training Post",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:86b007d4e8aa",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:71f5a40e3958",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Baral's Expertise",
+    "cut": "Mizzix's Mastery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Baral's Expertise",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:3569dd99f23e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Battle Hymn",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Battle Hymn",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:bcafd46851a3",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Blinkmoth Infusion",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Blinkmoth Infusion",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:91f9c7be58ea",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Blue Sun's Twilight",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Blue Sun's Twilight",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:cb8c0469e553",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Blue Sun's Twilight",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Blue Sun's Twilight",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:6de7c0651e6a",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Blur",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Blur",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:0bb880769eca",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Bond of Insight",
+    "cut": "Mizzix's Mastery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Bond of Insight",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d15e9f37f0cc",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Brass's Bounty",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Brass's Bounty",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:e1b434103290",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Brightstone Ritual",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Brightstone Ritual",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:6693538730a6",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Burnt Offering",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Burnt Offering",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:82460c9d3488",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Cackling Counterpart",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Cackling Counterpart",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:134b391c877d",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Chain of Smog",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:60265f75adaa",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Coruscation Mage",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Coruscation Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:ad47daed586b",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Deekah, Fractal Theorist",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Deekah, Fractal Theorist",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d542e18daaa0",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Desperate Ritual",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Desperate Ritual",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:f6d73c48e4c6",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Devastating Onslaught",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Devastating Onslaught",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:3d0b6af49bd0",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Displace",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Displace",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:87b31261b056",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Diviner of Victory // Unwind History",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Diviner of Victory // Unwind History",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:229152702ea7",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Dragon's Desire",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Dragon's Desire",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:9f23232493bd",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Dramatic Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:cbe0a7303082",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Dual Strike",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Dual Strike",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:9b396447cc91",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Echo Mage",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Echo Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:f8cd783d6d84",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Electroduplicate",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Electroduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:9d81689974c1",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Ember Island Production",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Ember Island Production",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:81c90faecf23",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Conflict // Lightning Bolt",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Emeritus of Conflict // Lightning Bolt",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:729995e0b235",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Encouraging Aviator // Jump",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Encouraging Aviator // Jump",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:87d63bff7c10",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Essence Flux",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Essence Flux",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:48416e9dafc2",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Expansion // Explosion",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Expansion // Explosion",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:c102cf67cb66",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Explosive Welcome",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Explosive Welcome",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:5c36d7029d22",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:040a605bf19f",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b722e1ef12a8",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Fated Infatuation",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Fated Infatuation",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1120fb96f7ef",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Azula",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Fire Lord Azula",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1adfe5ea6637",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Flare of Duplication",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Flare of Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:9bfb179765e7",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Fork",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Fork",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:6c854aa77442",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d14354cd6428",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Ghostly Flicker",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:62f64c63c1ac",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Gogo, Master of Mimicry",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Gogo, Master of Mimicry",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:73384b71797b",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Gogo, Mysterious Mime",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Gogo, Mysterious Mime",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:6ecb67ac6022",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Harmonized Trio // Brainstorm",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Harmonized Trio // Brainstorm",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:25691a532e26",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:de08f6cda8bc",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Heat Shimmer",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Heat Shimmer",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:8707fd1d2f12",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Hidden Strings",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Hidden Strings",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b53be0953be0",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:900af5f25fa1",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:2dc66a9fad86",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Illusionist's Stratagem",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Illusionist's Stratagem",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:5d7498802bfe",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Insidious Will",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Insidious Will",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:f76a9e462028",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Inspired Skypainter // Maestro's Gift",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Inspired Skypainter // Maestro's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:fecee18cc112",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Invoke Calamity",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Invoke Calamity",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:a36ff58dd553",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Irenicus's Vile Duplication",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Irenicus's Vile Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:371a9d8104ff",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:25f78701bc9f",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:f62b411bc4db",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Kindle the Inner Flame",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Kindle the Inner Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:084d52bcf1ed",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:84bcdccd3e0a",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Krark, the Thumbless",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Krark, the Thumbless",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d912db383939",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Landscape Painter // Vibrant Idea",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Landscape Painter // Vibrant Idea",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:30d8dbf7337d",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Melek, Izzet Paragon",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Melek, Izzet Paragon",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:e25a2f162638",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Mirage Mockery",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Mirage Mockery",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:663ccc7940b2",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b9d79b4055f5",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1eed3264739f",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Molten Duplication",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Molten Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1d33595021de",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Molten-Core Maestro",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Molten-Core Maestro",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:7362ea3a0cbe",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Multiversal Incursion",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Multiversal Incursion",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:138d86527826",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Naktamun Lorespinner // Wheel of Fortune",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Naktamun Lorespinner // Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d4ece3115927",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1f02a5bc4ebd",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:7a6187e650de",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Necromantic Selection",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Necromantic Selection",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d23de9c32958",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Owlin Spiralmancer",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Owlin Spiralmancer",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:726c24bc8ed6",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Planar Incision",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Planar Incision",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:ae0ab73cbb27",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Planar Incision",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Planar Incision",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:216045032d46",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Pyretic Ritual",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Pyretic Ritual",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:0dfef0354688",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Quantum Misalignment",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Quantum Misalignment",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:61b58e9b1b6c",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Quasiduplicate",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Quasiduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b0a2d9720f3f",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Radiant Performer",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Radiant Performer",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b7fea2a66e24",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Reality Spasm",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Reality Spasm",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:36150b73fc89",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Redoubled Stormsinger",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Redoubled Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:4d708a6ca81f",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Refuse // Cooperate",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Refuse // Cooperate",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:dc07a946630b",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Release to the Wind",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Release to the Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:f4ef75db3d1e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Release to the Wind",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Release to the Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:77ea2bd7ac72",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Relm's Sketching",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Relm's Sketching",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:51ae11f5c30a",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Remand",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Remand",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:ab7301f90aa3",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:5cb03d27d65c",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Reset",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Reset",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:a1beaf1ecb8b",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:847fbcaee0fe",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:f2dc26174ea6",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mercurial Artist",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Rootha, Mercurial Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1afeb03f0efc",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Rousing Refrain",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Rousing Refrain",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:ece3a1b94ea4",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Saheeli's Artistry",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Saheeli's Artistry",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:4f252b24aed1",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Saw in Half",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Saw in Half",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:5e27c41d19a2",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Saw in Half",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Saw in Half",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d4c95a05adc9",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Seething Song",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:495afa65b52e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Self-Reflection",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Self-Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:265676f681e6",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Siren's Ruse",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Siren's Ruse",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:88e56cf52d84",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Skycoach Conductor // All Aboard",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Skycoach Conductor // All Aboard",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:278c3238cca4",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Spellbook Seeker // Careful Study",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Spellbook Seeker // Careful Study",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:866155b9486c",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Spelljack",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Spelljack",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:e820279a258e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Splash Portal",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Splash Portal",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b54ecfb1f45e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Stolen Identity",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Stolen Identity",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:1f710dee8903",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Sublime Epiphany",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Sublime Epiphany",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:09ea0c853888",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Swarm Intelligence",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Swarm Intelligence",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:82997f24312e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Teach by Example",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Teach by Example",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:a04cbd217fbe",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "The Twelfth Doctor",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=The Twelfth Doctor",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:ee530497bf68",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Theorix Metamage // Omit Variables",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Theorix Metamage // Omit Variables",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:79c0bae87ef5",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Three Steps Ahead",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Three Steps Ahead",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:beb0cdaa1a65",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:0c2b96aa6d81",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:76e1974269b5",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:4e50347dfbc9",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:9b96e3b0599e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Turnabout",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Turnabout",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d4b4126d0a8e",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Twincast",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Twincast",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:b9a95ae603fe",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Twinflame",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Twinflame",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:eebd98b68b80",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:534ea99c7543",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Unsubstantiate",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Unsubstantiate",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:63543c8fc6f9",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Unsubstantiate",
+    "cut": "Grapeshot",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Unsubstantiate",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:7c5f7fa878f4",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Variable Chaser // Arc of Fortune",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Variable Chaser // Arc of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:c52081d557c4",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Display of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=View from Above",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:3aeb284622f7",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Virtue of Knowledge // Vantress Visions",
+    "cut": "Wandering Archaic // Explore the Vastlands",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Virtue of Knowledge // Vantress Visions",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:a13cc3b70f25",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Wild Ricochet",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Wild Ricochet",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:d0e77962d773",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Will of the Temur",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Will of the Temur",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:798e896c3f10",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   },
+   {
+    "add": "Wizards of Thay",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#card=Wizards of Thay",
+     "m5_swap:data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz#id=swap:parnesse-the-subtle-brush:m5:fac864edca76",
+     "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

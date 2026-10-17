@@ -1,0 +1,2843 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:8c687886a1336225d91ce5afa73bdcdf4280d0c55871ff7b7c102b4cea53509d",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Admiral_Beckett_Brass",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz"
+  ],
+  "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:admiral-beckett-brass:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Fell Flagship",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fell Flagship",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:647b973c44b5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Fell Flagship",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fell Flagship",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:78081135cbf7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Slippery Scoundrel",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Slippery Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f01c06a357aa",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Adéwalé, Breaker of Chains",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Adéwalé, Breaker of Chains",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5674452aa4d2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Agent of Treachery",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Agent of Treachery",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6aa3cde1f19a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e9d59919b6d1",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Akroan Conscriptor",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Akroan Conscriptor",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2c5aaa6cfe46",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Aladdin",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Aladdin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a6285cca1420",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:45adb38dfa3d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7ca8cdc421ee",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Alexios, Deimos of Kosmos",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Alexios, Deimos of Kosmos",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5042e5031778",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Amphin Mutineer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Amphin Mutineer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:bc26c0ef5a54",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Angrath's Ambusher",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Angrath's Ambusher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b9ce4f23c2fc",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Angrath's Marauders",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Angrath's Marauders",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f0f8ad071e8b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6d1fdcfab875",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7ad43e77a22d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a2349b65be34",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Armed Assailant",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Armed Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e22404f98a9f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Armored Galleon",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Armored Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:21048b6af3b9",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a918c54fc1ec",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Avenger of the Fallen",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Avenger of the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:12d91dbb364f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ayara's Oathsworn",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ayara's Oathsworn",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:56a4cbe2d886",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Azure Fleet Admiral",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Azure Fleet Admiral",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f9c319e3e7fb",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Basim Ibn Ishaq",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Basim Ibn Ishaq",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9507f6c4ef51",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Beguiler of Wills",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Beguiler of Wills",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ef08ea650a06",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Bigfin Bouncer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Bigfin Bouncer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c4e43ddac822",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b045b2362f64",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Deadly Hunter",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Black Widow, Deadly Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fa45d544754f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Super Spy",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Black Widow, Super Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0f9ace346059",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Blighted Agent",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Blighted Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d99347327196",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Blue Marvel, Adam Brashear",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Blue Marvel, Adam Brashear",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f38ae66d96ef",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Bob, Reluctant HYDRA Agent",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Bob, Reluctant HYDRA Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1d079eff3a4b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Boomerang, Blade Flinger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Boomerang, Blade Flinger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3a02947fc0f8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Brazen Freebooter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Brazen Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:69ebf9630dc6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:01eb02b03ac0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:cf17c0cd0e0d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Brineborn Cutthroat",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Brineborn Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ee25b323f6f5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Broadside Bombardiers",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Broadside Bombardiers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:440bee5ec34f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Burdened Aerialist",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Burdened Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:da4591840388",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Calamity, Galloping Inferno",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Calamity, Galloping Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:718af53ee78a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Calamity, Galloping Inferno",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Calamity, Galloping Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f990c322d16d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Captain of Umbar",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Captain of Umbar",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:dbb471aa3eb8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Captain Ripley Vance",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Captain Ripley Vance",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5d1663f0ef19",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Captain Storm, Cosmium Raider",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Captain Storm, Cosmium Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0ae998c1b1e4",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Captain Vargus Wrath",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Captain Vargus Wrath",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6077c8cef877",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d73a200899cd",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Dire Fleet Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:968ca0af1ac5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f1cd404741a5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Dire Fleet Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:847530679eb9",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:296d8967ba36",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c6cf3f45741d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:409a88ead77b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Circu, Dimir Lobotomist",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Circu, Dimir Lobotomist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c765e84ac510",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cloud Pirates",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cloud Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6512746f41fb",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Coastline Marauders",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Coastline Marauders",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5ec9810e9c93",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fc309e39dacf",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1e34ad60f854",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Dire Fleet Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1a76e7778492",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:81ac62b5d63c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Crafty Cutpurse",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Crafty Cutpurse",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2a55922a0ea8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Crimson Cowl, Master of Evil",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Crimson Cowl, Master of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b73f9aaeb489",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Crimson Fleet Commodore",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Crimson Fleet Commodore",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b92502a30544",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ee6a575f7c89",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e4900044535d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cunning Bandit // Azamuki, Treachery Incarnate",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cunning Bandit // Azamuki, Treachery Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:dc2e0d9f71f5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cutthroat Negotiator",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cutthroat Negotiator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ad974df9ee8e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cynical Loner",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cynical Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:bdfd3cce07e8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Cytoplast Manipulator",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Cytoplast Manipulator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:78db61c77443",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Danny Pink",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Danny Pink",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3c2de48d5aa0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Daredevil, Fearless Fighter",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Daredevil, Fearless Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c42c73e33b97",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dargo, the Shipwrecker",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dargo, the Shipwrecker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0531a18d84ef",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Daring Buccaneer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Daring Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9f7782a177c9",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Daring Thief",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Daring Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9e09351d08f7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Deadeye Brawler",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Deadeye Brawler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2a7b4a8df910",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Deadeye Plunderers",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Deadeye Plunderers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:601593dd25d7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Deadeye Quartermaster",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Deadeye Quartermaster",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a279a0fef99c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Deadeye Rig-Hauler",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Deadeye Rig-Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d0c846a5382f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Deadeye Tormentor",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Deadeye Tormentor",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f5586d1655d2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Deadeye Tracker",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Deadeye Tracker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d1d79a6cfb1f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Delina, Wild Mage",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Delina, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1400b9d04982",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Delina, Wild Mage",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Delina, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c3012c40ea6c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Departed Deckhand",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Departed Deckhand",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ae49d9aaa63d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Desperate Castaways",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Desperate Castaways",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c3956ab0ac00",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dinosaur Hunter",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dinosaur Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8874395270a5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Daredevil",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dire Fleet Daredevil",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b00fbec916ca",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Hoarder",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dire Fleet Hoarder",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:cfaffb628a21",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Neckbreaker",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dire Fleet Neckbreaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:efe1f16c758e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Ravager",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dire Fleet Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8c71a57a63a8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Warmonger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dire Fleet Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4b6de6dea622",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, King of Latveria",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Doctor Doom, King of Latveria",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:19b8472824f3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Dreamcaller Siren",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Dreamcaller Siren",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e3d0fdf703b1",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Eardrum Rattler",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Eardrum Rattler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4b4acde6a4ea",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Edea, Possessed Sorceress",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Edea, Possessed Sorceress",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7ef78921315b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9342cd0019cf",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Enterprising Scallywag",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Enterprising Scallywag",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:68a6e22db192",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Enthralling Victor",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Enthralling Victor",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f83cc55d4126",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Expressive Firedancer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Expressive Firedancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9c1ff69bcb5f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a4506f62e3b2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Boarder",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fathom Fleet Boarder",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:785f628cc2c3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Cutthroat",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fathom Fleet Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e6685a684c45",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Firebrand",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fathom Fleet Firebrand",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:18e1a4e5de52",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6021eca47db6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Azula",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fire Lord Azula",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a239b425e816",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Ozai",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Fire Lord Ozai",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4a5c3aa57f1d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Firebending Student",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Firebending Student",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:24bc8d5a99e6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Firebird, Blazing Ranger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Firebird, Blazing Ranger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0cf87fbd9a3a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Frontier Warmonger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Frontier Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:eedd1c614e31",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Garland, Royal Kidnapper",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Garland, Royal Kidnapper",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4a30125e1b7a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Gemcutter Buccaneer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Gemcutter Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:cf32ecd14c13",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c8436b0064a6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ghost of Ramirez DePietro",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ghost of Ramirez DePietro",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:485d2a0e7f99",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ghost, Spectral Saboteur",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ghost, Spectral Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8ab8f6176f81",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Gisa, the Hellraiser",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Gisa, the Hellraiser",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:893e2ddd170b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Glamorous Grapplers",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Glamorous Grapplers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:215847cb2d5e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7f1e37c390fe",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:10750d15bdc5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Goblin Boarders",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Goblin Boarders",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:84a73b757059",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5e8d086e59f4",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Gorehorn Raider",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Gorehorn Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4bfccb26e40c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Grasping Scoundrel",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Grasping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:459b52fea3f2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ecec53bea975",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Graviton, Fundamental Force",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Graviton, Fundamental Force",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c0ed0f468518",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4a516f903b8e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:799e77440b42",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5277ad3a9c71",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Gríma, Saruman's Footman",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Gríma, Saruman's Footman",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a66975d8507e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Gutless Plunderer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Gutless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fec195a10685",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7158f9fbdb3a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5ed279bc09f7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:347408be70e8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8f5a5fa67a0d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Higure, the Still Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:47c2de4b11a6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Howler's Heavy",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Howler's Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7eaf3aee396e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:aade4d9dec7a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:315702ef089a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iguana Parrot",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iguana Parrot",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7c0b75db0b8c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Impulsive Pilferer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Impulsive Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8d59bef9f8ad",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ingenious Prodigy",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ingenious Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fca9a74e4da3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Invisible Stalker",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Invisible Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3d256396ee29",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:feabfcdba3e6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:93529f9f8e49",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2ff2ce545db0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:aaa7683b930d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Titan of Innovation",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iron Man, Titan of Innovation",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:04b2be3b3b80",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:834d726446fe",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fc596531f5ca",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:22955fc55995",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:eee9e7cc4372",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b5ebe8fab02c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kang Prime",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kang Prime",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a4f307d51848",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kang, Temporal Tyrant",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kang, Temporal Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2ff3e3bc1a55",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Keen Buccaneer",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Keen Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c7e601309d98",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fa841bbe0b75",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Keldon Overseer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Keldon Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:75fb63ed817f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f2f341bba89e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9386f0ad912f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1e7e0c1780ff",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4e56fdfe5bff",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:99b0eefd0170",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kitesail Corsair",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kitesail Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:59f661f3fbae",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Dire Fleet Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3432995c1600",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6602c8ad08db",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Kukemssa Pirates",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Kukemssa Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0e1c778288a0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Lagomos, Hand of Hatred",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Lagomos, Hand of Hatred",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7742551e0811",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:eb6f895d0a61",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Lightning-Rig Crew",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Lightning-Rig Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:06b2167fc9e2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:79aaef6c5663",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Lulu, Stern Guardian",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Lulu, Stern Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e453117547b8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Madame Hydra",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4e34de03313e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:00e73aca2eec",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ce3d47485d47",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:405bfbd7cee7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Magus of the Mind",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Magus of the Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7d61d546179c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Magus of the Unseen",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Magus of the Unseen",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2b9e39dfcd92",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Malcolm, the Eyes",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Malcolm, the Eyes",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c8d314ee1ff5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Marauding Looter",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Marauding Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:766bed2b94cb",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Marauding Mako",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Marauding Mako",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:700b8b0cc73c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Mary Read and Anne Bonny",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Mary Read and Anne Bonny",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:647970de115f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Massacre Girl",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:365f8bd9fe6e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Known Killer",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Massacre Girl, Known Killer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:da9c30b3119d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Master Thief",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Master Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2339a79a0d94",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Matterbending Mage",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Matterbending Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:14493d1a416f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Mindreaver",
+    "cut": "Fierce Guardianship",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Mindreaver",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:bb0ed797eb18",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Mine Raider",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Mine Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:96556b70b416",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Mirage Phalanx",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Mirage Phalanx",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:12deb33a5d1c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Mistblade Shinobi",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Mistblade Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:bde44bf2b9e8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Moon-Circuit Hacker",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Moon-Circuit Hacker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:480b232f9c7a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Nathan Drake, Treasure Hunter",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Nathan Drake, Treasure Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5d89994a9774",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ninja of the Deep Hours",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ninja of the Deep Hours",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5d615aa3fe1f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Oaken Siren",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Oaken Siren",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:358475baeef3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:cbf8b29132c5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Otepec Huntmaster",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Otepec Huntmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:12260d5e58d3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ozai, the Phoenix King",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ozai, the Phoenix King",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:cfffe129f095",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Phantom Steed",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Phantom Steed",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:68258f23e3ad",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Phantom Steed",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Phantom Steed",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d8ddd01a4909",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Photon, Mighty Marvel",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Photon, Mighty Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:add0cf15488d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:51a1810e71e1",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Pirate Peddlers",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Pirate Peddlers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d8e4c392fbc6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Pirate Ship",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Pirate Ship",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a6b67ee26fb3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Pirated Copy",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Pirated Copy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:15693da54869",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Pirated Copy",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Pirated Copy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0b6f5d898105",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:78f9307bce16",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Plundering Pirate",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Plundering Pirate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8d0dad3625b5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:faa699fbf503",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d0449f7004ec",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Prosperous Pirates",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Prosperous Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9aea60bde02e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Protean Raider",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Protean Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1666419330be",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Radioactive Man",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Radioactive Man",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7259c872051f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ramirez DePietro",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ramirez DePietro",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4983e572eca3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rangers of Ithilien",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rangers of Ithilien",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:175982f68a43",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Red Ghost, Intangible Genius",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Red Ghost, Intangible Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3c11abdb91ce",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Reef Pirates",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Reef Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c5de28903ecf",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3f3d90dc921a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:322f81d6b6c0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rigging Runner",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rigging Runner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5e9e814017d2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rikku, Resourceful Guardian",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rikku, Resourceful Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9d7c6dea8b2f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ace21432b202",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Riptide Entrancer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Riptide Entrancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ec8fe5458030",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rishadan Airship",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rishadan Airship",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:c7c547aff900",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rishadan Brigand",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rishadan Brigand",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ef17ab6d8cf1",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rishadan Cutpurse",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rishadan Cutpurse",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:8702d27a5d6a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rishadan Footpad",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rishadan Footpad",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f147520c6752",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rona, Disciple of Gix",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rona, Disciple of Gix",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9242b2583eec",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ronin Cliffrider",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ronin Cliffrider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:955cf21fdc50",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Rowdy Crew",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Rowdy Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e3ea38c04c53",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:1f47c8c12c61",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ruin Raider",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ruin Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b775e00defcb",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Ruthless Knave",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Ruthless Knave",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:16d96231061d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0d8d9e7cda47",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Sailor of Means",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Sailor of Means",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:632f5b73c0b7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Samut, Hazoret's Champion",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Samut, Hazoret's Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:089fac2d0740",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Sandstorm Crasher",
+    "cut": "Dire Fleet Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Sandstorm Crasher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:28dfc8cac3f2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Sandstorm Crasher",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Sandstorm Crasher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:bdc6c6ea8e4b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Satoru, the Infiltrator",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Satoru, the Infiltrator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a70f59f0a6e4",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Scrounging Skyray",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Scrounging Skyray",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f0d3ab355295",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2d4bc169002d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:58ab2efb6231",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Servant of the Stinger",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Servant of the Stinger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:96d9535e4367",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Looter",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Shipwreck Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ee4401bdfc53",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Sentry",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Shipwreck Sentry",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:89213a379b01",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Siren Lookout",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Siren Lookout",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ba4eab721a30",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Siren Reaver",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Siren Reaver",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:411818455afb",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Skeleton Crew",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Skeleton Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:83239765b08e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Skyship Buccaneer",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Skyship Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5f1a521eed10",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Smelt-Ward Gatekeepers",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Smelt-Ward Gatekeepers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:dd1490c000f2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Smuggler Captain",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Smuggler Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0550c74d0bc4",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:955dd3740edb",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Spawnbroker",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Spawnbroker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7ed38685cc99",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Hometown Hero",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Spider-Man, Hometown Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3dcbdb541acc",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Web-Spinner",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Spider-Man, Web-Spinner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2d7478aa0097",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Spider-Punk",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Spider-Punk",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2f431ab26883",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0edd023a00b6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:cbe038173494",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Stature, Size Shifter",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Stature, Size Shifter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:85e9096e182f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Staunch Crewmate",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Staunch Crewmate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b02e9af9e731",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Steam Frigate",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Steam Frigate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:fb18f3074d80",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Stilt-Man, Towering Terror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Stilt-Man, Towering Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:11ee9afb561b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3887063fb8fc",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Aerialist",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Storm Fleet Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0b4c5e142436",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Arsonist",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Storm Fleet Arsonist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e2bc7ef9dcaf",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Negotiator",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Storm Fleet Negotiator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5586015addb4",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Pyromancer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Storm Fleet Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3555d67b06b7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Spy",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Storm Fleet Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0e7d6b363f8b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Stormfist Crusader",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Stormfist Crusader",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5355f465f022",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Strongbox Raider",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Strongbox Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4d028d88bf30",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Swab Goblin",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Swab Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d7f7470d05d0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Swaggering Corsair",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Swaggering Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:34d2b8d24758",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:586e56902da8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Talas Air Ship",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Talas Air Ship",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:20966ee7ea47",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Talas Explorer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Talas Explorer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a384ff3241d2",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Talas Lookout",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Talas Lookout",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5a5302a2cac8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Talas Merchant",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Talas Merchant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4c3ff3707d47",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Talas Researcher",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Talas Researcher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6db5f0b95f1f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Talas Scout",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Talas Scout",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:0057e26a2112",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Fugitive",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Tetsuko Umezawa, Fugitive",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:76ebf5b8fd69",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Pursuer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Tetsuko Umezawa, Pursuer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:41fe4afd839b",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:87a119f6a895",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:86aa65043a38",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:071eedac2973",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Lord of Pain",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Lord of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:da6b468bcaaf",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Squadron Sinister",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Squadron Sinister",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:2a0e645fa42c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Wasp, Winsome Avenger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Wasp, Winsome Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:87b0e326f934",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:28440c684808",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Open into Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:d9e534df797f",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "The Whizzer, Classic Speedster",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=The Whizzer, Classic Speedster",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3fbc1dfc59b5",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Thunderhead Gunner",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Thunderhead Gunner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9502b749a1d8",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:821e59f8da4c",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4c7c5504bdfd",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Lightning Greaves",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:e058eb6f3b98",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:af80e68d593e",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3968c44f2ba0",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Titania, Proud Pummeler",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Titania, Proud Pummeler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a7a0ccf27214",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f9d623a1cc40",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Tolarian Entrancer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Tolarian Entrancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:be9d086e07f4",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:b3e9073e86b6",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "TVA Bureaucrat",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=TVA Bureaucrat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:566492605635",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Vaan, Street Thief",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Vaan, Street Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6c4041198d4a",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Varchild, Betrayer of Kjeldor",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Varchild, Betrayer of Kjeldor",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:db20ff6c0d6d",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:118e30bd9d67",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Wanted Scoundrels",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Wanted Scoundrels",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:7b686d3378f9",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:4e8636abbaa3",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Wasp, Shrinking Savior",
+    "cut": "Daring Saboteur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Wasp, Shrinking Savior",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:6a75334d9cc9",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Waylaying Pirates",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Waylaying Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ce83dec8fa10",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Whiplash, Vengeful Engineer",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Whiplash, Vengeful Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:13903de72988",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:a35306a4cdfc",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "White Widow, Yelena Belova",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=White Widow, Yelena Belova",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5b76075da8be",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Willbreaker",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Willbreaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:5835d699b953",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Wily Goblin",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Wily Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:31d92c2a2696",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Yuffie, Materia Hunter",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Yuffie, Materia Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:26acc46b3ca7",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Yuriko, the Tiger's Shadow",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Yuriko, the Tiger's Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:62fd8baa8c05",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Zara, Renegade Recruiter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#card=Zealous Conscripts",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:ed85d4462675",
+     "blueprint:data/grixis/blueprints/admiral-beckett-brass.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

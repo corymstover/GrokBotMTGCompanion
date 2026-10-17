@@ -1,0 +1,341 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:0e1665d73a9f28d6fdefb0c29d4079f4d1c05b3ef01c59b1d954380b8178132d",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Saruman__the_White_Hand",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz"
+  ],
+  "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:saruman-the-white-hand:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Chain of Smog",
+    "cut": "Harmonic Prodigy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:0f021246f201",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Chain of Smog",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:2c7ffb866f90",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Eternity Vessel",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Eternity Vessel",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:4fc8e88f63ba",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Eternity Vessel",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Eternity Vessel",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f1ae92edbc4b",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Everlasting Torment",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Everlasting Torment",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:ab4307c40656",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:988aba0491fd",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:0f64439331aa",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:34d389646cb2",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:d9c9951a17e1",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:96e59ae22a99",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "All Will Be One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:635e5fac39ca",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:453dd19c269b",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Night Dealings",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Night Dealings",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:ae835f629315",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Ob Nixilis, Captive Kingpin",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Ob Nixilis, Captive Kingpin",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:e74e5fe6c9f0",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:2ae6092b6a70",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Devourer",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Phyrexian Devourer",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:6fe440369cc9",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Quest for Pure Flame",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Quest for Pure Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:cbf953c2b185",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:791582107501",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:51c21864fa6b",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "All Will Be One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:3f027a35b6aa",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f3bbdde57af2",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:7d822479e25c",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Soul-Scar Mage",
+    "cut": "Storm-Kiln Artist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Soul-Scar Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:cbb835590e88",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Soul-Scar Mage",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Soul-Scar Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:cfe158375ec2",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Star of Extinction",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Star of Extinction",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:d2db94432684",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Talon of Pain",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Talon of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f39f5fe307d4",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "The Red Terror",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=The Red Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:20b97a56bb30",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:80b0a42cf7f8",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:8fb154be82a7",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Chandra's Ignition",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=View from Above",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f27391997456",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=View from Above",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:44775865e5bc",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "War Elemental",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=War Elemental",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:61b8a884d51f",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Worldfire",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Worldfire",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:dc034e988087",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

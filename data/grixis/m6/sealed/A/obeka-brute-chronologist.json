@@ -1,0 +1,1457 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:00c41601af9dd5d5a821c61a9858fa057c3526c6db606b9e7b4c2d2f6f67f4a1",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Obeka__Brute_Chronologist",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz"
+  ],
+  "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:obeka-brute-chronologist:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Akki Battle Squad",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Akki Battle Squad",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:9a6829382fc1",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Aphetto Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:d540ede6b9c1",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f08fd9ad0cb5",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Archipelagore",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Archipelagore",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:d202ece6bd03",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Ardent Elementalist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:bda4da10f4bb",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Auton Soldier",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Auton Soldier",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:80aa532e51d0",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Baral's Expertise",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Baral's Expertise",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7cf04a9b436f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Beacon of Tomorrows",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Beacon of Tomorrows",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b6207ff93660",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:db68ac4f9ee4",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Bloodthirster",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Bloodthirster",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f6a407d64ad4",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Blue Sun's Twilight",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Blue Sun's Twilight",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:9bb08f75177f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Blur",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Blur",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b45977e73c5d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Blur",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Blur",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:319bbc8a2762",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Bonus Round",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Bonus Round",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:2f9f1c6b78bc",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Brain Freeze",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Brain Freeze",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:01dd19d564f6",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Brain Freeze",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Brain Freeze",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:054224ad5ece",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Breaching Hippocamp",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Breaching Hippocamp",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:49c2f7f34c0d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Flameshadow Conjuring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:3fce49b12386",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:47c0d7593357",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cackling Counterpart",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cackling Counterpart",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f85657c7bdb0",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cackling Counterpart",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cackling Counterpart",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:0ca39cc040f3",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cavern Whisperer",
+    "cut": "Avaricious Dragon",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cavern Whisperer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b5198bf032e2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cavern Whisperer",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cavern Whisperer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8969821f26da",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8eb3362395d2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c1a2b835f396",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Chittering Harvester",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Chittering Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a0e8cb1ab1d8",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cloud of Faeries",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cloud of Faeries",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:2e0c85d3ad4f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cloud of Faeries",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cloud of Faeries",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f2e74338471e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cloudpiercer",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cloudpiercer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:3d2af64f79d2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Cloudpiercer",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Cloudpiercer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8538e7860ae0",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Coercive Recruiter",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Coercive Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a605a0848296",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a7db47aadde5",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Conspicuous Snoop",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Conspicuous Snoop",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4deab3b83a2f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Corridor Monitor",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Corridor Monitor",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:da3985b34382",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:eb5fb359be5f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Deceiver Exarch",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Deceiver Exarch",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5ff8ef5ab8aa",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Devastating Onslaught",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Devastating Onslaught",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:ec2537531e78",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dirge Bat",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dirge Bat",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:e6f654726fa2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Displace",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Displace",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:cb68189d6387",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Displace",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Displace",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:9e2733858cdf",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dominating Vampire",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dominating Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:e37ac709deb6",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dragon's Rage Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:cc821e172da4",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dramatic Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4c01724c3482",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dramatic Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:eb411e641477",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dreamtail Heron",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dreamtail Heron",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b738ba3a0c91",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Dreamtail Heron",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Dreamtail Heron",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5277fab3a453",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Drowned Secrets",
+    "cut": "Flameshadow Conjuring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Drowned Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:70e8885781a4",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Drowned Secrets",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Drowned Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f8f5da9885b7",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Electroduplicate",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Electroduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:6d3856178448",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Elite Arcanist",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Elite Arcanist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4e7dc12baeb8",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Ember Island Production",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Ember Island Production",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f971e44e65d9",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Essence Flux",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Essence Flux",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7e7a8a839e16",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Essence Flux",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Essence Flux",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c01acf923d88",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Everquill Phoenix",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Everquill Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:bfd063c09c1f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Exalted Flamer of Tzeentch",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Exalted Flamer of Tzeentch",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:67ad5d1d1b5d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Fated Infatuation",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Fated Infatuation",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5fe2ca806bee",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Fated Infatuation",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Fated Infatuation",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:cf96f5f6d8c6",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Fatestitcher",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Fatestitcher",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:afc6bf6872bd",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Fear of Missing Out",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Fear of Missing Out",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:12cc34a9c908",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Fear of Missing Out",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Fear of Missing Out",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f6019314ede9",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Azula",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Fire Lord Azula",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8e904a72f4fc",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Flameshadow Conjuring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:680ed642492a",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:1c70ab4a4f1a",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Ghostly Flicker",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:fa8fff41edff",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Ghostly Flicker",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a52ee9bbf84a",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Giant-Sized Flying Ant",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Giant-Sized Flying Ant",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:1385177a8395",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Glamermite",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Glamermite",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4344d973afee",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:78f6ac943c71",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:77d3c260fd16",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Great Whale",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Great Whale",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:ba8d8f4ce853",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b89cf47cd267",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Hazel's Brewmaster",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Hazel's Brewmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:3a5ff94be02d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Heat Shimmer",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Heat Shimmer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:d145cb0933b9",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b126b9c7e116",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:55bddda81d85",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Illusionist's Stratagem",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Illusionist's Stratagem",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8547cd9100a5",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Illusionist's Stratagem",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Illusionist's Stratagem",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b530821bde03",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Insatiable Hemophage",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Insatiable Hemophage",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c20118f17cbb",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Flameshadow Conjuring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f50a678b77b2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:394e5b9f9a52",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Irenicus's Vile Duplication",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Irenicus's Vile Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:6e176eab2365",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Janjeet Sentry",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Janjeet Sentry",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4eea15e4f0e5",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Kelpie Guide",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Kelpie Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:9d65c3ba1dc6",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Kindle the Inner Flame",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Kindle the Inner Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:6132bd016e90",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:87c750984202",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7b635ecd76d4",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Lightning Runner",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Lightning Runner",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a9d85a41082e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Lore Drakkis",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Lore Drakkis",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a5ee6fc591c2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Magar of the Magic Strings",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Magar of the Magic Strings",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:fc04f6493120",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Mana Echoes",
+    "cut": "Flameshadow Conjuring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Mana Echoes",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:42a3e9aec928",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Mana Echoes",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Mana Echoes",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:06b243ee1327",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Mesmeric Orb",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Mesmeric Orb",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:47de7a3b03e8",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Mindleecher",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Mindleecher",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:387cb5a87770",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Mirage Mockery",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Mirage Mockery",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8752ba03189b",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f5bd96332d6d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Molten Duplication",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Molten Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:27d9dcdedc36",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Multiversal Incursion",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Multiversal Incursion",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:04f2d6e218d7",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:36d1475aa7aa",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Necromantic Selection",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Necromantic Selection",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:caf9e803b469",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Necrotic Ooze",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Necrotic Ooze",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:58e78cedf74c",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Nexus of Fate",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Nexus of Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:aa0b8b26f49e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Nexus of Fate",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Nexus of Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:56bc348a7d78",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:cc58fa822b26",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f9a7c9bd3757",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Pemmin's Aura",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Pemmin's Aura",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:fe4291c503fc",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Peregrine Drake",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Peregrine Drake",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a6f7a32b87d5",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Pestermite",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Pestermite",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:e1ba160fd28c",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Planar Incision",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Planar Incision",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8ae5eb951df0",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5215ba005f1e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Porcuparrot",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Porcuparrot",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:ee75522b8fee",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Port Razer",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Port Razer",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:83cef2bc1a19",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Pouncing Shoreshark",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Pouncing Shoreshark",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b2b556a0c781",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Quantum Misalignment",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Quantum Misalignment",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:60a21be096ba",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Quasiduplicate",
+    "cut": "Avaricious Dragon",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Quasiduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:325cbd01ed6d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Quasiduplicate",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Quasiduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5cab576cf13b",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c285a0ff6899",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Glorious End",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:6a0092484f65",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Release to the Wind",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Release to the Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:283ea402bb4f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Relm's Sketching",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Relm's Sketching",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:2df97aa6d54f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Replication Technique",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Replication Technique",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:357de3240375",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Return the Favor",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Return the Favor",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8d12c41c41b2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:31fb10d53f43",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mercurial Artist",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Rootha, Mercurial Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:09a4bfa213d1",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Saheeli's Artistry",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Saheeli's Artistry",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c34e7b3b43d0",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Saw in Half",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Saw in Half",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:ead1f7d05d39",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Throne",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Scourge of the Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:2bef58611602",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Sea-Dasher Octopus",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Sea-Dasher Octopus",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:3fa15b63294c",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Sea-Dasher Octopus",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Sea-Dasher Octopus",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:288eed78c828",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Self-Reflection",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Self-Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f4eafb5b6478",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Siren's Ruse",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Siren's Ruse",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f9303160a79d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Siren's Ruse",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Siren's Ruse",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:801056bfb8c2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Skycoach Conductor // All Aboard",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Skycoach Conductor // All Aboard",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7130ca3e28a2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Souvenir Snatcher",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Souvenir Snatcher",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:96e7a354fd9a",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Spark Double",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Spark Double",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:83e08550d477",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Spellbinder",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Spellbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4fe0e16e1668",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Splash Portal",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Splash Portal",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:eaeac3de346d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Splash Portal",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Splash Portal",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:90f6504a5251",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Stolen Identity",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Stolen Identity",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:3462a8094953",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Sublime Epiphany",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Sublime Epiphany",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:605a10836e34",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Sublime Epiphany",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Sublime Epiphany",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:fa523402db7a",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Teardrop Kami",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Teardrop Kami",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b499520d8b56",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Terror of the Peaks",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Terror of the Peaks",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:d46f12945f21",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Flameshadow Conjuring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Thousand-Year Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7bfe09109b2e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Thousand-Year Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:15b0fcc98884",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Three Steps Ahead",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Three Steps Ahead",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:64e4f850dc2b",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Three Steps Ahead",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Three Steps Ahead",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:60ea88dc77e2",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:e3f5f548b18e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Tidewater Minion",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8b82ffdd4292",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:33edc01e585b",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Vizier of Tumbling Sands",
+    "cut": "Discontinuity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Vizier of Tumbling Sands",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f502156b5d68",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Vizier of Tumbling Sands",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Vizier of Tumbling Sands",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:33602ce8d84d",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b9d5f8c3ffcd",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:4658254c0fb7",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Will of the Temur",
+    "cut": "Jaxis, the Troublemaker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Will of the Temur",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c5b62dcb58e3",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Will of the Temur",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Will of the Temur",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:11155509f39e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:895e277ff08f",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Purphoros, Bronze-Blooded",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#card=Zealous Conscripts",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7e24e4894d2e",
+     "blueprint:data/grixis/blueprints/obeka-brute-chronologist.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

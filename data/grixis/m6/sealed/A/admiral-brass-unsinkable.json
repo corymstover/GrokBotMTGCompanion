@@ -1,0 +1,1889 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:f207329cdf9fe551b5304903a75390e857182e8f20cd0b70f0f60e8bbfcdde70",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Admiral_Brass__Unsinkable",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz"
+  ],
+  "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:admiral-brass-unsinkable:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Back in Town",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Back in Town",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:a3c94b69fe29",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kitesail Larcenist",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kitesail Larcenist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:895361d1151e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Soul Diviner",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Soul Diviner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:44d82489a1a2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Warkite Marauder",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Warkite Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:659d4730df8d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "A.I.M. Scientists",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=A.I.M. Scientists",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:77c4c4816790",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:442fbdee5ef2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:6bc294c66ed9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:db71e4642ced",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9e79d4b2b2a4",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:da51a9517285",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Arni, Humble Scribe",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Arni, Humble Scribe",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:f5800493cf29",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3df6c9794968",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Baral, Chief of Compliance",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Baral, Chief of Compliance",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0bc04bcb130d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Baron Helmut Zemo",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Baron Helmut Zemo",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e8418bb83eb4",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Baron Strucker, HYDRA Overlord",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Baron Strucker, HYDRA Overlord",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:090caf3154d9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Bigfin Bouncer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Bigfin Bouncer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b3612c336ca9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c73c28bcf841",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Brazen Freebooter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Brazen Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:54dde6045c03",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Brineborn Cutthroat",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Brineborn Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:246e5cf36fe1",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Bruvac the Grandiloquent",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Bruvac the Grandiloquent",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:1ff13226b507",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Bullseye, Death Dealer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Bullseye, Death Dealer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b4f91f55e795",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Burdened Aerialist",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Burdened Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:564b7e573240",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Calamity, Galloping Inferno",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Calamity, Galloping Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b19a7c5014c0",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Calamity, Galloping Inferno",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Calamity, Galloping Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0f08a5702450",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Captain Howler, Sea Scourge",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Captain Howler, Sea Scourge",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c43e93b557c5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Captain N'ghathrod",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Captain N'ghathrod",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:00023c0b4a0c",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Captain Storm, Cosmium Raider",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Captain Storm, Cosmium Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ef48a4057624",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Captain Vargus Wrath",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Captain Vargus Wrath",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9f9691daaeb2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c4491a6de62c",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:72f0283c0f2b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:bea98a4bf351",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Chainer, Dementia Master",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Chainer, Dementia Master",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3bd705aa606f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:33cc8fa08a04",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Chameleon, Master of Disguise",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Chameleon, Master of Disguise",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:4af7cc1faad4",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:dd57820db4da",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Chase Stein, Runaway",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Chase Stein, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d9c21c90b7f6",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:45acd91b45ac",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Cloud Pirates",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Cloud Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:7c9b2aaccde8",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d1d72b2be8ad",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:89534c7c2dc9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e1c29d7922d9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Cryotheory Adept",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Cryotheory Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0cdaa6002668",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9fcbbdf37cca",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Cutthroat Negotiator",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Cutthroat Negotiator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:04a41ce05417",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Daring Buccaneer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Daring Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0f59fb937c1f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Daring Saboteur",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Daring Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9b16beb4a290",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Dark Matter Manipulator",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Dark Matter Manipulator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:24f57f4b5109",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Deadeye Brawler",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Deadeye Brawler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:f1e6b57464c7",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Deadeye Plunderers",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Deadeye Plunderers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:661638dd7c57",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Deadeye Quartermaster",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Deadeye Quartermaster",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3234ae8d08db",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Deadeye Rig-Hauler",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Deadeye Rig-Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b7ac055cc0ec",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Delina, Wild Mage",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Delina, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c44cbb4af992",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Delina, Wild Mage",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Delina, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b8716e5fc955",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Departed Deckhand",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Departed Deckhand",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:29c45780f78a",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Desperate Castaways",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Desperate Castaways",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ff7fa65a3e1d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Dinosaur Hunter",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Dinosaur Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:43ff181dba2c",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Diplomatic Escort",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Diplomatic Escort",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9987149fbe3f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Captain",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Dire Fleet Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d7571b82e624",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Hoarder",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Dire Fleet Hoarder",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ada4ea9abf34",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Poisoner",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Dire Fleet Poisoner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:af14d5b031df",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Divining Witch",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Divining Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:bbda5968f8c0",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, King of Latveria",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Doctor Doom, King of Latveria",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:053d4218ff37",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Don Andres, the Renegade",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Don Andres, the Renegade",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:4b68ea321706",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Dragon's Rage Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e75cf209bdfd",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Emberwilde Captain",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Emberwilde Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:655be6cc14bd",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0321acb60f8f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:dabf0bce6bdb",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Fanatical Firebrand",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Fanatical Firebrand",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:a84baed96270",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Cutthroat",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Fathom Fleet Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ff9bf50534f9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Firebrand",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Fathom Fleet Firebrand",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:935b460613a6",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Gideon the Oathless",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Gideon the Oathless",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:dfdc3e975f77",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:85afc7e04dd9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Goblin Tomb Raider",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Goblin Tomb Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0e767dd13720",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Goblin Trailblazer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Goblin Trailblazer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:7e12170d9a6c",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Goblin Warrens",
+    "cut": "Animate Dead",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Goblin Warrens",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:37e0e707e7df",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Goblin Warrens",
+    "cut": "Shared Animosity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Goblin Warrens",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:2c93131e4a01",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:a8a19a3e87ac",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Gorehorn Raider",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Gorehorn Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e4cbf64e59fc",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Grasping Scoundrel",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Grasping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d0b78668de99",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c659c83416c0",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:8645c7c7062a",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:aa0cfa5b720b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:111fc2915a72",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Hakim, Loreweaver",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Hakim, Loreweaver",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:6745fb0014ac",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Hammer Mage",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Hammer Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:61a8cb8352ce",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Hawkeye, Master Marksman",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Hawkeye, Master Marksman",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:dc3263826ec2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Hell's Caretaker",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Hell's Caretaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:1b60e12a1d2f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:040a07f8e12c",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3c43e00a2051",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:5ddaba48a563",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:76050c511309",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c0ce432eef26",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Impulsive Pilferer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Impulsive Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d506c59c8aa1",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Inti, Seneschal of the Sun",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Inti, Seneschal of the Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d1c91e4265ee",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:aaf50ae92428",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e453dc00100d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b36920c6656e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Jaya Ballard, Task Mage",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Jaya Ballard, Task Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:17b360b40d13",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:76974a8c9857",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:79824113b366",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b7a6627dfb2d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c92710a1b3a1",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "K'un-Lun Warrior",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=K'un-Lun Warrior",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:1212627c2178",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kang, Temporal Tyrant",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kang, Temporal Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ce0b9bd15c67",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kari Zev, Skyship Raider",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kari Zev, Skyship Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:092add4ceb87",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kess, Dissident Mage",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kess, Dissident Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d8c4d20811b5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:cf99579c1366",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9d3430c3928b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kitesail Corsair",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kitesail Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:7030e7c9a4fd",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kitesail Freebooter",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kitesail Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:435cd6fac9fb",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:48df5a1827c5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:11b9705d47ea",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Kukemssa Pirates",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Kukemssa Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:8a0b9a972a96",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Lady Spider, Maybelle Reilly",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Lady Spider, Maybelle Reilly",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:45d971eb9202",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Liliana the Repentant",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Liliana the Repentant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:749cd10acab5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "MACH-1, Swooping Scoundrel",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=MACH-1, Swooping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:cce3a0e4e528",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9cc1ac2b8d16",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c316327f9b38",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9908cedb8b8a",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Malcolm, the Eyes",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Malcolm, the Eyes",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:912edc4abaf0",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Animate Dead",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:2a5e109a8c73",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Shared Animosity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ebfed5ec8653",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Metamorphosis Fanatic",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Metamorphosis Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:7c20a68cb9a8",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Mine Raider",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Mine Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:138c12e40933",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Mirage Phalanx",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Mirage Phalanx",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9e03bd8cf4a9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Mirage Phalanx",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Mirage Phalanx",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e03d7762685b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Misty Knight, Hero for Hire",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Misty Knight, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:832752d01d25",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Moon-Circuit Hacker",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Moon-Circuit Hacker",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:155fcc5abadd",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Moonstone, Harsh Mistress",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Moonstone, Harsh Mistress",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:485f0ef63cb3",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Nico Minoru, Runaway",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Nico Minoru, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ea457e6e73f2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Oaken Siren",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Oaken Siren",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:f39a41925995",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Phantom Steed",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Phantom Steed",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:2413a79cd88e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Phantom Steed",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Phantom Steed",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:7fcdaf4f79b5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Pharaoh Rama-Tut",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Pharaoh Rama-Tut",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b2729d7ed5c9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Pirate Ship",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Pirate Ship",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:97792192106e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Pirated Copy",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Pirated Copy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:84483031b9c6",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Plundering Pirate",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Plundering Pirate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:53fa0f0b0517",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Proft, Consulting Detective",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Proft, Consulting Detective",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:fc59ce12a00e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:aba323abb478",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Prosperous Pirates",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Prosperous Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:69a2a23dbf54",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Ragavan, Nimble Pilferer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Ragavan, Nimble Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:a284c178df08",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Reckless Lackey",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Reckless Lackey",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0897a3010c80",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Red Room Recruit",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Red Room Recruit",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:de09e5ca29c1",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:8f78e68a5326",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Rigging Runner",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Rigging Runner",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:5cddf43b72be",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:72452c340c1b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3c2ab0cfc77f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ee396832cccd",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b6afa8724f95",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Ruthless Knave",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Ruthless Knave",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:6ec970501d7e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c8df9a679346",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Sailor of Means",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Sailor of Means",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:df87da5d7256",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Sandstorm Crasher",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Sandstorm Crasher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b40ec0650b4b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Sandstorm Crasher",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Sandstorm Crasher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0d72f63ab306",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Seasoned Cryomancer",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Seasoned Cryomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3ca267d768a3",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Sentry",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Shipwreck Sentry",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:15a8965e2b52",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Skyship Buccaneer",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Skyship Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c6e269613b25",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Skyship Plunderer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Skyship Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:de3cf72fa5a2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Angrath's Marauders",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:51bb95db1792",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Edward Kenway",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c604800c90d2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Smuggler Captain",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Smuggler Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:49c1943f0830",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Snapcaster Mage",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Snapcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:9000fbdd2acf",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:cfb890273bb5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:f17901514d5e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Spectral Sailor",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Spectral Sailor",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:fffee49ec892",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, New Champion",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Spider-Man, New Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d120107a208a",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Animate Dead",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e8e6d75d3d08",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Shared Animosity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:6bb8c1cfda1b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Spyglass Siren",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Spyglass Siren",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:a4c0ae0a16e3",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Staunch Crewmate",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Staunch Crewmate",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:378efa24a5fe",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:414ffd2ce792",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Aerialist",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Storm Fleet Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:94e0843d28fd",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Negotiator",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Storm Fleet Negotiator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:75e406fe9b3e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Pyromancer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Storm Fleet Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:b8990b847daf",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Spy",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Storm Fleet Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:1db1c10ddc1f",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Swashbuckler",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Storm Fleet Swashbuckler",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:8e9589ad9331",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Swab Goblin",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Swab Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:89008782a4b9",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:36c56ebf971d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Talas Explorer",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Talas Explorer",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:46a126bf68ce",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Talas Merchant",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Talas Merchant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:1e049ee6475c",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Talas Researcher",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Talas Researcher",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:74de2f3a6fa0",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Talas Scout",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Talas Scout",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:5a6b0a5e6703",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:068098f3c298",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:4d5e0627753e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "The Masters of Evil",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=The Masters of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:2a97ca703361",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:295738ec4d22",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "The Squadron Sinister",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=The Squadron Sinister",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:2dcf92967480",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:7960fbe8cd06",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:4ba9948e4ec2",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:1a64e7803b8b",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:3f1f13f0ba5d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:dae8c17bfb23",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:5432c414359e",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Vaan, Street Thief",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Vaan, Street Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:69eacc0019a7",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Valentina Allegra de Fontaine",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Valentina Allegra de Fontaine",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:4b45dfe9977d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Variable Chaser // Arc of Fortune",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Variable Chaser // Arc of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:76cc6d9b2354",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Victor Mancha, Runaway",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Victor Mancha, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:a97a94633147",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Victor Timely, Wily Tycoon",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Victor Timely, Wily Tycoon",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c9f77612343d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Vizier of Tumbling Sands",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Vizier of Tumbling Sands",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:bfec53678cbf",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Wanted Scoundrels",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Wanted Scoundrels",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e6f64a927fbe",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Wily Goblin",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Wily Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:e45d42b13241",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Witch of the Moors",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Witch of the Moors",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d3e65d3a9f3d",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:954db006fb58",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Yawgmoth, Thran Physician",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Yawgmoth, Thran Physician",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:c99ccda60dd8",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   },
+   {
+    "add": "Yuriko, Hope from the Shadows",
+    "cut": "Mary Read and Anne Bonny",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#card=Yuriko, Hope from the Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:0d9e404f73b5",
+     "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

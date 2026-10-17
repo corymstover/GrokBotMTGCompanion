@@ -1,0 +1,2690 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:2d3bbf145fdff28ca9595ca95b7d48a5671a19ef2b71f9d179f9521e15d9fd2f",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Goro_Goro_and_Satoru",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz"
+  ],
+  "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:goro-goro-and-satoru:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c0e0c320abc3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:98c1eebbab33",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c7a04e47138a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c3d4f6145f16",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d39cb158be89",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Alexios, Deimos of Kosmos",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Alexios, Deimos of Kosmos",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9ad188d243b9",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1f6a3967e654",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:921e59c7d70a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:83479486e2cc",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d7756d975685",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:54ab50e7208b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Arco-Flagellant",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Arco-Flagellant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3192ce10aa87",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Armed Assailant",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Armed Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4b8a25f0e951",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Arni, Humble Scribe",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Arni, Humble Scribe",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3b589cddc70c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4edbe1a1fca7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ayara's Oathsworn",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ayara's Oathsworn",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:fdda8215d0bb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:dd7988c73d27",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a5d32f5fda30",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Baithook Angler // Hook-Haunt Drifter",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Baithook Angler // Hook-Haunt Drifter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1706dc6df394",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Basim Ibn Ishaq",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Basim Ibn Ishaq",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9636775b432b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Battle Cry Goblin",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Battle Cry Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:013fc6de1f00",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Battle Cry Goblin",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Battle Cry Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3d909f622fc7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:37d91ed757cb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Deadly Hunter",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Black Widow, Deadly Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d5ab06b4aff9",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Super Spy",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Black Widow, Super Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:aadc6f342de5",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8041e388c552",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Bladewing, Deathless Tyrant",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Bladewing, Deathless Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:bb47411ee17c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Bladewing, Deathless Tyrant",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Bladewing, Deathless Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c9872a607153",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Blighted Agent",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Blighted Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4f7a01153a24",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Blue Marvel, Adam Brashear",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Blue Marvel, Adam Brashear",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e173efb98c8b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Bob, Reluctant HYDRA Agent",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Bob, Reluctant HYDRA Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e012b94a1c1b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Boomerang, Blade Flinger",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Boomerang, Blade Flinger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:27311ffe9eca",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Brudiclad, Telchor Engineer",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Brudiclad, Telchor Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c282bc18a2f0",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Brudiclad, Telchor Engineer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Brudiclad, Telchor Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:76748be1af5b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Callow Jushi // Jaraku the Interloper",
+    "cut": "Arcane Denial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Callow Jushi // Jaraku the Interloper",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1c6ae754b964",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:24d983abc30a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8dc1093b477b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3a4ba560149f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:402adf982e82",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4066168668ec",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f126d80f761a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cloud of Faeries",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cloud of Faeries",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:41148ec2b764",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7f882d802e8f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:867b03107089",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Council of Reeds",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Council of Reeds",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c41c13ef72f6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Covert Cutpurse // Covetous Geist",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Covert Cutpurse // Covetous Geist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:68d3061ad982",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Covetous Castaway // Ghostly Castigator",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Covetous Castaway // Ghostly Castigator",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:48a1537b7319",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:dbe1d2e6b729",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Crimson Cowl, Master of Evil",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Crimson Cowl, Master of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:bd2fe1c1769e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cunning Bandit // Azamuki, Treachery Incarnate",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cunning Bandit // Azamuki, Treachery Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9ac4b1875305",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:14b868a6e538",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7c8dfc541e90",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Cynical Loner",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Cynical Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:43238f3fe7f7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Danny Pink",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Danny Pink",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:bd56a9bc3570",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Daredevil, Fearless Fighter",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Daredevil, Fearless Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c507906d4420",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Death Tyrant",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Death Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:777aebab2497",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Death Tyrant",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Death Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:dbef5f8bd8e7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Devastating Onslaught",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Devastating Onslaught",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a35c0798765b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Devastating Onslaught",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Devastating Onslaught",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:60bfe3e0798d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Doctor Doom",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ce471086be49",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, King of Latveria",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Doctor Doom, King of Latveria",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e8b2c171ece0",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Dokuchi Silencer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Dokuchi Silencer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:df1e69883f94",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Donatello, Gadget Master",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Donatello, Gadget Master",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:15dec40aee7b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Donatello, Gadget Master",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Donatello, Gadget Master",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:83fa30162ecc",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Dragonmaster Outcast",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Dragonmaster Outcast",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3afa9743ac79",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Dragonologist",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Dragonologist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:2ec962fc02c7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Dragonspeaker Shaman",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Dragonspeaker Shaman",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:eecabb5f3aa2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Dragonstorm Forecaster",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Dragonstorm Forecaster",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6649508a8b32",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Drider",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Drider",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:86d9bb8682d2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Drider",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Drider",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:bdb9b54809b8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Eardrum Rattler",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Eardrum Rattler",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3eced486399c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Edea, Possessed Sorceress",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Edea, Possessed Sorceress",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5f72ecfbaab2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Elite Arcanist",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Elite Arcanist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b7a8e5aaf6f3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d35f9e94311a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Endrek Sahr, Master Breeder",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Endrek Sahr, Master Breeder",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9f8d61112a6b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Expressive Firedancer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Expressive Firedancer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f3b1437f1b6a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7975957f8b88",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f7849564f42a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4ee7096cbabd",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Firebending Student",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Firebending Student",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:57d6c74ee3d4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Firebird, Blazing Ranger",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Firebird, Blazing Ranger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ee07d4e522ed",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Frontier Warmonger",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Frontier Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:38564d4b2f76",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "General Kreat, the Boltbringer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=General Kreat, the Boltbringer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a7c83c6abc24",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:239d41e21f49",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ghost, Spectral Saboteur",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ghost, Spectral Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7a69fb8db732",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ghoulcaller Gisa",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ghoulcaller Gisa",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:34b4b115d3c3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Glamorous Grapplers",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Glamorous Grapplers",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:2487da2d5b68",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Goblin Rabblemaster",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Goblin Rabblemaster",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:01be79ac02c2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Goblin Rabblemaster",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Goblin Rabblemaster",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a2c59f4510f8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e3f24b8484e6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Grave Titan",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Grave Titan",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f9813b98114e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Grave Titan",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Grave Titan",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7cad5ec86c54",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5225a9ddae80",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Graviton, Fundamental Force",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Graviton, Fundamental Force",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:cea7c3c67497",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Great Whale",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Great Whale",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8ec2bb686b50",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c6f378998fbb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4591e276d01a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Grim Haruspex",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Grim Haruspex",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:784b087c0ae0",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e0ac015dba15",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Grub, Storied Matriarch // Grub, Notorious Auntie",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Grub, Storied Matriarch // Grub, Notorious Auntie",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b7bd14b55b2d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Grub, Storied Matriarch // Grub, Notorious Auntie",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Grub, Storied Matriarch // Grub, Notorious Auntie",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:875a85b63d8f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Gríma, Saruman's Footman",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Gríma, Saruman's Footman",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c56e4a385e8b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Hanweir Garrison",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Hanweir Garrison",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:159f4dcad4ce",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Hanweir Garrison",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Hanweir Garrison",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:eb667b2788d2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Harried Dronesmith",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Harried Dronesmith",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:da6b5d80222f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Harried Dronesmith",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Harried Dronesmith",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:071905f59e6b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f932ff04d440",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:89d130c3a8c7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1993ff587fb5",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:985b998d878a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Higure, the Still Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ce60792822a1",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f5f2800251bd",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:fc1bc23f3a52",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9137558fdadb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:701d73f451a2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9cf1532bcc5c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Impostor Syndrome",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Impostor Syndrome",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:62a73f6a1ac3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Impostor Syndrome",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Impostor Syndrome",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3c00509360ac",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Indulge // Excess",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Indulge // Excess",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5711b2090aba",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ingenious Prodigy",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ingenious Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c7457d2be76a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ink-Eyes, Servant of Oni",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ink-Eyes, Servant of Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:17c8c6031417",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d9282d09cde8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Waterbender Ascension",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:69ca59bf38f2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Invisible Stalker",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Invisible Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:25217f895d48",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b267985a10d4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:32a96018e438",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:aef9a5a11ace",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:db573aaeeb36",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:115e016f73bb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Titan of Innovation",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Man, Titan of Innovation",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ebf92d27f0f6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a7ba36241738",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:2323a6ce0534",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d47cdf60a5d3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Jadar, Ghoulcaller of Nephalia",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Jadar, Ghoulcaller of Nephalia",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d6913666cb8c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:54ca04420a0b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:06182cfca41b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:fce6a99b7c62",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:47c091ae6947",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kang Prime",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kang Prime",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:95341494ad0d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kang, Temporal Tyrant",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kang, Temporal Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:69458d26dd47",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kargan Dragonrider",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kargan Dragonrider",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:16cd84ed90ca",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d89934cef047",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d5e3d35a9558",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8165cf46370d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6c14e1924aa6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:898b0081ec23",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:424865889323",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f8a133cc1b7e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f13dff5ab114",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Lagomos, Hand of Hatred",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Lagomos, Hand of Hatred",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d00febea3df0",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Legion Warboss",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Legion Warboss",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3d8b8c01fda8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Legion Warboss",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Legion Warboss",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d9797870922b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7008a312b96e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Living Laser",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Living Laser",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5077bb022a08",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Living Laser",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Living Laser",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:66d566f00508",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:dd992d27adeb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:0742a76b2e88",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Madame Hydra",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:95427b534ce1",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4e8666bdf460",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f27ad0914949",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Maestros Diabolist",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Maestros Diabolist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:32a7fb1410ff",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Maestros Diabolist",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Maestros Diabolist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a8001ef070e6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1342e290e525",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Magnus the Red",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Magnus the Red",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8d7e23b16cab",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Magnus the Red",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Magnus the Red",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f23b45bccf62",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Malevolent Hermit // Benevolent Geist",
+    "cut": "Arcane Denial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Malevolent Hermit // Benevolent Geist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c8c203d81760",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Marionette Apprentice",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Marionette Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ce27b3e5f14d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:955e413616e9",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Massacre Girl",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e59a6e355a90",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Known Killer",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Massacre Girl, Known Killer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a717d6b7fdef",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Master of Cruelties",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Master of Cruelties",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:19424e042782",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Master of Cruelties",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Master of Cruelties",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9fe7288d69fe",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Matterbending Mage",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Matterbending Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:48879f2100d1",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e997ad3adb31",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Mischievous Mystic",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Mischievous Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:2b5a38522ba3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Mishra, Claimed by Gix",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Mishra, Claimed by Gix",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5462fcc16f7e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:afe4c9e8e917",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e3a55b3eae20",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Mister Fantastic, Reed Richards",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Mister Fantastic, Reed Richards",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d393ba82013c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Moira, Urborg Haunt",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Moira, Urborg Haunt",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:74f567a570d4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Moira, Urborg Haunt",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Moira, Urborg Haunt",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:affc2afee5f2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Moonblade Shinobi",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Moonblade Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:786b5c4abff1",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Moonblade Shinobi",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Moonblade Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b593767dc642",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Murmuring Mystic",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Murmuring Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ded660643bb5",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:2afe5a613b71",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:055cf4fce2e7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Nested Ghoul",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Nested Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:713cb12cbbc7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ninja of the New Moon",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ninja of the New Moon",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:413cb04bae0a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ogre Chitterlord",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ogre Chitterlord",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:35d0d4b8cb0c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ogre Chitterlord",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ogre Chitterlord",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6b5df4ac8a17",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Olivia, Crimson Bride",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Olivia, Crimson Bride",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:bb6e94f4b598",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Olivia, Crimson Bride",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Olivia, Crimson Bride",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6a30acf33c4a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ophiomancer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ophiomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:faa6bb4aeb47",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Origin of the Hidden Ones",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Origin of the Hidden Ones",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e525e907dcb4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Origin of the Hidden Ones",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Origin of the Hidden Ones",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9056b066a528",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Orochi Soul-Reaver",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Orochi Soul-Reaver",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:792dca3ec3f4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4f21d9e5c7e9",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c0003a7f7727",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Otepec Huntmaster",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Otepec Huntmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3ba3681d32f2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8ca58e439f1d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Peregrine Drake",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Peregrine Drake",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9ba4c8fea049",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Pestered Wellguard",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Pestered Wellguard",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:261a05825939",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Photon, Mighty Marvel",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Photon, Mighty Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:19dbd3d59ee9",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:0e5138680444",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:50c17d9bf0a8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:765a62196cb2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4f2837332846",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:51d3e994fccc",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Pugnacious Pugilist",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Pugnacious Pugilist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:33ad590eee0f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Pugnacious Pugilist",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Pugnacious Pugilist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c827ff3703ae",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9ee86a439084",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Radioactive Man",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Radioactive Man",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:91deca5ef303",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Razorkin Hordecaller",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Razorkin Hordecaller",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:67ee10849322",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Razorkin Hordecaller",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Razorkin Hordecaller",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f4f01f2fbe8f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Red Ghost, Intangible Genius",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Red Ghost, Intangible Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5c46725230d2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Reinforced Ronin",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Reinforced Ronin",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:aecc185eaeb9",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Arcane Denial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:dd021caedaab",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:591870d730ba",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1e20a8bd11d5",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4e51d5169db6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:290f981d9b97",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ronin Cliffrider",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ronin Cliffrider",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c33a701371cb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mastering the Moment",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Rootha, Mastering the Moment",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:17fe6bc0a9a2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mastering the Moment",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Rootha, Mastering the Moment",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:df3983ee5e20",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ead9b1bc55ad",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8085b4d9da20",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7dfd2ace177e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:2112be9ea3c7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sarkhan, Soul Aflame",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sarkhan, Soul Aflame",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1fba701543b7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c509845655c0",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sengir Autocrat",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sengir Autocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d5d4002a29a4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b34f0bb1f6df",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Servant of the Stinger",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Servant of the Stinger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:51d417e93785",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:06762c5baa04",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Waterbender Ascension",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ba1c2906c4f3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Shark Shredder, Killer Clone",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Shark Shredder, Killer Clone",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6f95883f34da",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Shark Shredder, Killer Clone",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Shark Shredder, Killer Clone",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:195d524fdc4c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e210397e4e82",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Siege-Gang Lieutenant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Siege-Gang Lieutenant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:a21a04a17034",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Siege-Gang Lieutenant",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Siege-Gang Lieutenant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d1967ea88991",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Silent-Blade Oni",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Silent-Blade Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6b9a5da78e66",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Slash, Reptile Rampager",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Slash, Reptile Rampager",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:75c124c6d69e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Slash, Reptile Rampager",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Slash, Reptile Rampager",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:66b5866d030c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:5015228a71eb",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Spellbinder",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Spellbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f19355fb472b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Spellbinder",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Spellbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:81d143982517",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9897a37d10a2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Hometown Hero",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Spider-Man, Hometown Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:66c9ce47b2d8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Web-Spinner",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Spider-Man, Web-Spinner",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:fa92575177fa",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:346d8f171ff7",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ce6435b29a51",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Squee, Dubious Monarch",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Squee, Dubious Monarch",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f740af3a667a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Squee, Dubious Monarch",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Squee, Dubious Monarch",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:32cbacd51ade",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b8fe9b953383",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Stature, Size Shifter",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Stature, Size Shifter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:77848a04c304",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e864bcc51753",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b0872fd2fe11",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Stormfist Crusader",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Stormfist Crusader",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6998e984268e",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Sword of Feast and Famine",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Sword of Feast and Famine",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ec6954c19d84",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:cd42cee4ae67",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Pursuer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Tetsuko Umezawa, Pursuer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:14882bcdc93f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:02b41b684077",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Lord of Pain",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Lord of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e78b28961647",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:bf86660b8d3f",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:3d5b2e3e4b5d",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Squadron Sinister",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Squadron Sinister",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:e4d07307d4a5",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Wasp, Winsome Avenger",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Wasp, Winsome Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:98205df24a16",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "The Whizzer, Classic Speedster",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=The Whizzer, Classic Speedster",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:f1fcfb966453",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1ac4911ebfd2",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:8f8e1b9f3589",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Threefold Thunderhulk",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Threefold Thunderhulk",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d1dcbcb9dd2b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Threefold Thunderhulk",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Threefold Thunderhulk",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:81b0889f275c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Throat Slitter",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Throat Slitter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c9e3b91282ab",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9855aab5033a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Dragon Tempest",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:d89ea8aa8ab8",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c2a8fc0b1e1a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Titania, Proud Pummeler",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Titania, Proud Pummeler",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9e947eb16728",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c709030a6dec",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:799e623a9473",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "TVA Bureaucrat",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=TVA Bureaucrat",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:9b2ec596ed53",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:6a5be9dbb889",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Valduk, Keeper of the Flame",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Valduk, Keeper of the Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4c1752b94068",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Valduk, Keeper of the Flame",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Valduk, Keeper of the Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ff2d366027e3",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:342ad3d58f1a",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c1c8ffb6c2be",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Wasp, Shrinking Savior",
+    "cut": "Kaito, Bane of Nightmares",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Wasp, Shrinking Savior",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:c45c296b6848",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Whiplash, Vengeful Engineer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Whiplash, Vengeful Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:1d59274f4b89",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:b3986abcefb6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "White Widow, Yelena Belova",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=White Widow, Yelena Belova",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:47424dafb529",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Young Pyromancer",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Young Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ebd1432ee99b",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Zealous Conscripts",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:729a6e08db1c",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Zenos yae Galvus // Shinryu, Transcendent Rival",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:ea84dcf99ce5",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Éomer of the Riddermark",
+    "cut": "Raphael, the Nightwatcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Éomer of the Riddermark",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:7a7d2a26edf6",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   },
+   {
+    "add": "Éomer of the Riddermark",
+    "cut": "Satoru, the Infiltrator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#card=Éomer of the Riddermark",
+     "m5_swap:data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz#id=swap:goro-goro-and-satoru:m5:4cae909b5ae4",
+     "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

@@ -1,0 +1,755 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:709ca756c13053a8009a3b0dd807443444971bfa3253a75f4767f28a5af09b0b",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Cult_of_Skaro",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz"
+  ],
+  "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:cult-of-skaro:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Cybermat",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cybermat",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:4f171fc42795",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cybermat",
+    "cut": "Full Throttle",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cybermat",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:bfbd65e3c564",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Akki Battle Squad",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Akki Battle Squad",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:3a72e672fd1c",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:a72fb351de67",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:e1c34c67ea6a",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1d067f19b69b",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:9daa89e0fe0c",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:c2ab66e929ba",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:4bcd34a0330f",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Blazing Sunsteel",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Blazing Sunsteel",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:70b3622712bf",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:07c3cc19ef13",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:0b1b68429fbd",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:e7681e57c841",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:d657c82b3c58",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:6a408cc880aa",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:6d51e1c61ffd",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:dd38d0ec65cf",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:dc282b5c5f73",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:29867a6d9130",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:b29525435500",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:839753559dba",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:972343a9ff8f",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Elite Arcanist",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Elite Arcanist",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:daeec2ce010e",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Elite Arcanist",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Elite Arcanist",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:f2899f11e9e3",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Fear of Missing Out",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Fear of Missing Out",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:48f9d824f9e7",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Ganax, Astral Hunter",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Ganax, Astral Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:425d06a34bca",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Ganax, Astral Hunter",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Ganax, Astral Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:66f5ffcebeb3",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:f2ddf0ff21ef",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:0a0b6e315e7a",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:bb73c8bc7999",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Full Throttle",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:8beb47c0e7c0",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:a56a0a8f9496",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:a11d834d2f56",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:883bed071679",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:a59c2c9cee95",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:b5d0b5c72932",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:e504e0e7c8ed",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:458918e13455",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:97817fe0c559",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:5ea309c34194",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:d43c472cd008",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1d29454362b0",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Kormus Bell",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Kormus Bell",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:dbe7640355aa",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:f4fe4089899d",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:5abad034bdf4",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:13a672f6e46c",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:2734a9c26bba",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:77711c4841fc",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:0a8cfeb2bd95",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:75d987a206f0",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:f6e035f74fdb",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1139f79cecc8",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:49223b28d01e",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:908323243c54",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:bd1823c6f358",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:92a8cf58ea32",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:3d5289d870a7",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Port Razer",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Port Razer",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:8e1c76c27c19",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1181158e8e19",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Throne",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Scourge of the Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:6d1ddd4e72f3",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Biotransference",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:fb3297f9dbe7",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:2afef5160a1e",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Spellbinder",
+    "cut": "Adaptive Omnitool",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Spellbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:55a20db93a04",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:f15a9d32a51e",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:5c080d9f2c44",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:c29acd540cc3",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:3934eeb053b4",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:b694763d2212",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:16c2a3e9f761",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "There and Back Again",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=There and Back Again",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:7c75326eb6d1",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "There and Back Again",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=There and Back Again",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:10940f4492a9",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:4d8f1b81d4eb",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Great Train Heist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:47f130b6dd84",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:3ab59f5806bd",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:296df25b5685",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Dalek Squadron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1f593da2ed41",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Missy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:c40c3104d401",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Biotransference",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:1e51933583fd",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/cult-of-skaro.json.gz#id=swap:cult-of-skaro:m5:c0518c000b1a",
+     "blueprint:data/grixis/blueprints/cult-of-skaro.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

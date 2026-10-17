@@ -1,0 +1,431 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:0c330939a6ba2f62d3272580987b70556c099f8b535bce36d28b36d3f44f857b",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Kess__Dissident_Mage",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz"
+  ],
+  "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:kess-dissident-mage:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:2b618aa8c693",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:081fe9f023f9",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:18a085a21bc7",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:274d4d1d2f0a",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:0dfb173ae2cd",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:2bed71738c73",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:a1e42669305b",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:d8fddac5a56a",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:65128e3c8b8c",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:cfaa46b6809c",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:94bdf6095e2a",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:16cb730d688c",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:a4046febb4c9",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Frantic Search",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Frantic Search",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:226210190a77",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:aa6c96585692",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:11430cc7f3d2",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:e3f68d432119",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:c6a1ce465886",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:49904d9f8805",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Invasion of Arcavios // Invocation of the Founders",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Invasion of Arcavios // Invocation of the Founders",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:259a9cc49692",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Jeska's Will",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Jeska's Will",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:9b07e23b7a94",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Jeska's Will",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Jeska's Will",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:af41d3a2895a",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:8805dd706f64",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Memnite",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Memnite",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:6ca56ba4d9a3",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:b02d7e794454",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Mnemonic Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:7ef706dbc920",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:66a94402ea1f",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:e31dd340917b",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:70684229ad6d",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:6c0412a97001",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:dbf97df90409",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:80f0c7345014",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:1181827b141e",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:72559e09397d",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:8132b3227070",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Sublime Artificer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Saheeli, Sublime Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:57d0741ff2c0",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Shipwreck Dowser",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:73e0e6fac89e",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Tezzeret, Master of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:c7718a90ac57",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:469b541a7c0a",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:981b398ba4a7",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:acbbcfb4fc0f",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:599584b81816",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:84e498f96798",
+     "blueprint:data/grixis/blueprints/kess-dissident-mage.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

@@ -1,0 +1,2447 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:eb6b650ad6adfaf20ce7982589ab10961caa71b135c415399fe9b5025a0a3129",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Be_lakor__the_Dark_Master",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz"
+  ],
+  "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:belakor-the-dark-master:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Varragoth, Bloodsky Sire",
+    "cut": "Archfiend of Despair",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Varragoth, Bloodsky Sire",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:21d8f7e1c903",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Varragoth, Bloodsky Sire",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Varragoth, Bloodsky Sire",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7a2274fc49ef",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Abhorrent Overlord",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Abhorrent Overlord",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:6adc261313c2",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Abyssal Persecutor",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Abyssal Persecutor",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d5dec0e285c5",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Alpharael, Stonechosen",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5ec7c761631d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Alpharael, Stonechosen",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9268936e0926",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ammit Eternal",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ammit Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0d45b8c7722b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dcb37cc5c209",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9a9fb06595da",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Apocalypse Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Apocalypse Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:77c028d9930d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Arbiter of Woe",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Arbiter of Woe",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:07d6e5f25da6",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Archdemon of Paliano",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Archdemon of Paliano",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:adc6b146d846",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Archdemon of Unx",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Archdemon of Unx",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3a3bc023325a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Archfiend of Ifnir",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Archfiend of Ifnir",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8720d58ea82b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Archfiend of Spite",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Archfiend of Spite",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:61242d2e3115",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Archfiend of the Dross",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Archfiend of the Dross",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4356ca4a9e81",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Baleful Ammit",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Baleful Ammit",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:6e33723963c9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Blade of the Oni",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Blade of the Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:28388c9c676b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Ghostly Flicker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3dbb0e29eb61",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Blood Tribute",
+    "cut": "Patriarch's Bidding",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Blood Tribute",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:136336e4497b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Blood Tribute",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Blood Tribute",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0cccd1dc4c87",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bloodcrusher of Khorne",
+    "cut": "Archfiend of Despair",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bloodcrusher of Khorne",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:342a653d670c",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bloodcrusher of Khorne",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bloodcrusher of Khorne",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dea78921ebd0",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bloodgift Demon",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bloodgift Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c38e230b38ed",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bloodgift Demon",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bloodgift Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:592816b6b173",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Boggart Mob",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Boggart Mob",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:83cc34825dff",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Boggart Mob",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Boggart Mob",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:fc4762345e88",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bothersome Quasit",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bothersome Quasit",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a3953ca30224",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Bringer of the Last Gift",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Bringer of the Last Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:43a4cdcd2137",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Carnifex Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Carnifex Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:78959ae04df6",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Changeling Berserker",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Changeling Berserker",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e6565503ec3c",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Changeling Berserker",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Changeling Berserker",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e2f9ebca51f4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Conductor of Cacophony",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Conductor of Cacophony",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:223d7b96ab75",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Crabomination",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Crabomination",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c314b81c0d02",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7ed9255d616d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Urza's Incubator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7570ad01b4ea",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Curse of Fool's Wisdom",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Curse of Fool's Wisdom",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0b9ab8729808",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Curse of Fool's Wisdom",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Curse of Fool's Wisdom",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:cf7aedf611d5",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Curse-Marred Demon",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Curse-Marred Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e8d37aae4d2d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Death-Rattle Oni",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Death-Rattle Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7ef4e847df5d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Defiler of Souls",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Defiler of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f89be3548016",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Defiling Daemogoth",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Defiling Daemogoth",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8e25fc0792dd",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demon of Catastrophes",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demon of Catastrophes",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:61f0786cd153",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demon of Death's Gate",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demon of Death's Gate",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7b8469bc4a2b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demon of Fate's Design",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demon of Fate's Design",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:10aa680ab0bf",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demon of Loathing",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demon of Loathing",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7648df542fb4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demon of Wailing Agonies",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demon of Wailing Agonies",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e9ce53183a08",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demon Wall",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demon Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:6a666f2ac223",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demonic Hordes",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demonic Hordes",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:20f5596cfbf2",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demonic Taskmaster",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demonic Taskmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:762600ab7c25",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Demonlord Belzenlok",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Demonlord Belzenlok",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dca08d4f350a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Desecration Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Desecration Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:108162135c44",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Ravager",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dire Fleet Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:af68392818b4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Ravager",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dire Fleet Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f2b21ea12984",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Doomsday Excruciator",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Doomsday Excruciator",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:67753b654dbd",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dread Cacodemon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dread Cacodemon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9d0b99647930",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dreadfeast Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dreadfeast Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:20e40c1bc8ed",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dreadhound",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dreadhound",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:646b240e74b9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ceb016775929",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dfea847cb212",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Eater of Hope",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Eater of Hope",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:785b6ed61f2e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ebonblade Reaper",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ebonblade Reaper",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d9eea5c7a471",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ebonblade Reaper",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ebonblade Reaper",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8bbe224141bc",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Embodiment of Agonies",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Embodiment of Agonies",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:021dade0527a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Enemy of Enlightenment",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Enemy of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:375d51337c9d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Etched Host Doombringer",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Etched Host Doombringer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d2d1be3de2d1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Exalted Flamer of Tzeentch",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Exalted Flamer of Tzeentch",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8dee2889183c",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a3638df0c737",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Feaster of Fools",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Feaster of Fools",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:db4617806276",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Patriarch's Bidding",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:abeb937a03ac",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ea566347014a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Frenzied Raider",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Frenzied Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c640b3d97a02",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Goremand",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Goremand",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:04d4afd3b922",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Gray Merchant of Asphodel",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Gray Merchant of Asphodel",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5f740fd3e9a1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Gray Merchant of Asphodel",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Gray Merchant of Asphodel",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9e4d4d1deb17",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Ancient Cellarspawn",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Grievous Wound",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:82f7780fa647",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Grievous Wound",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c9a4f5d5a131",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Grinning Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Grinning Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d01e27464670",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Gurmag Rakshasa",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Gurmag Rakshasa",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3df3c87eebb9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Gutwrencher Oni",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Gutwrencher Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2107f213c5a9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Halo Hunter",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Halo Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0129cc81b8ec",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Harvester of Souls",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Harvester of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f7df45bd9f0b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Harvester of Souls",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Harvester of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:56123acee71d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Havoc Demon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Havoc Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1706ecf75973",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Havoc Festival",
+    "cut": "Ancient Cellarspawn",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Havoc Festival",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2a387083ebb9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Havoc Festival",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Havoc Festival",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4212db20826e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Heartless Hidetsugu",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:75f140ee5edb",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Heartless Hidetsugu",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:565ddcd569f0",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Hellcarver Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Hellcarver Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:030996ee9892",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Herald of Anguish",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Herald of Anguish",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1f5495c635e2",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Herald of Torment",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Herald of Torment",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4576f71b5c7a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Heralds of Tzeentch",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Heralds of Tzeentch",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9490ed4a5554",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Hezrou // Demonic Stench",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Hezrou // Demonic Stench",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e6e1b158caec",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Hidetsugu and Kairi",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Hidetsugu and Kairi",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8e6650d3e96b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Hidetsugu, Devouring Chaos",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Hidetsugu, Devouring Chaos",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9048cd8591e1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Hollowborn Barghest",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Hollowborn Barghest",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4ab0eea7f6f1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e4e129c4d7c1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Illusory Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Illusory Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:20bbbe4122ef",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Immersturm Raider",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Immersturm Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:fabeb7fd1e36",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Imskir Iron-Eater",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Imskir Iron-Eater",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:bf32bec29dac",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Indulgent Tormentor",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Indulgent Tormentor",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5a92e4e1cf5f",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Infernal Denizen",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Infernal Denizen",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0418003826fd",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Infernal Sovereign",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Infernal Sovereign",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f39060e8749b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Iron Giant",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Iron Giant",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3c3bfadd73b8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Kagemaro, First to Suffer",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Kagemaro, First to Suffer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0c64194c67f2",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Keeper of Secrets",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Keeper of Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:695357e3ab4f",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d04c7fd7c6e6",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:6de0952e1837",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a914563083e4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:813801a468d1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Kothophed, Soul Hoarder",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Kothophed, Soul Hoarder",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dffd39e9079b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Krav, the Unredeemed",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Krav, the Unredeemed",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d5c70b2e7190",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Kuro, Pitlord",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Kuro, Pitlord",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:70ac3e180754",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Kyoki, Sanity's Eclipse",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Kyoki, Sanity's Eclipse",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:de6220857086",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Lady Orca",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Lady Orca",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0354b3612af6",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Liege of the Pit",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Liege of the Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:35ec9258c22b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Lightning Crafter",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Lightning Crafter",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d62363c68025",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Lord of the Forsaken",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Lord of the Forsaken",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1f02c3382aca",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Lord of the Pit",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Lord of the Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8180b20f75b3",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Lord of the Void",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Lord of the Void",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:eb3e511f4325",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Lord Xander, the Collector",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Lord Xander, the Collector",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d123eb4ff0f1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Madame Null, Power Broker",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Madame Null, Power Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ebb1a8670e84",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Magnus the Red",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Magnus the Red",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7e55cf278244",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Malfegor",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Malfegor",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d1a324164af0",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Master of Cruelties",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Master of Cruelties",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8125db74c537",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Master of the Feast",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Master of the Feast",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:947ad8636b43",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Miasma Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Miasma Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8ef52f212fd4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mindwrack Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mindwrack Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f0d896be593e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Minion of Leshrac",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Minion of Leshrac",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e9396e6a38c0",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Minion of Tevesh Szat",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Minion of Tevesh Szat",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e6cb091d1ae8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mirage Phalanx",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mirage Phalanx",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4b76a559fc12",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mirage Phalanx",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mirage Phalanx",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c30d00f0c3f1",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e294f4de7a36",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c8a351d52232",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mistbind Clique",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mistbind Clique",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8ed49506f4dd",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mistbind Clique",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mistbind Clique",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8f769c05c1ba",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mold Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mold Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:54153c1d8473",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Mortarion, Daemon Primarch",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Mortarion, Daemon Primarch",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1129c1dd4cf9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nalfeshnee",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nalfeshnee",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:418bfa6d07be",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4bfc9878c134",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5dc1fae7bbfc",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Necropolis Fiend",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Necropolis Fiend",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:202f5402babe",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nefarox, Overlord of Grixis",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nefarox, Overlord of Grixis",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dd3bdf295f2f",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nested Ghoul",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nested Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7986ede11a35",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nested Ghoul",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nested Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e4ebdc8f4fec",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nightmare Shepherd",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nightmare Shepherd",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8f14ce41ac35",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nova Chaser",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nova Chaser",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ae60ebbf6aaf",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Nova Chaser",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Nova Chaser",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:262f74c94bae",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ob Nixilis, Captive Kingpin",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ob Nixilis, Captive Kingpin",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9ab3f3e5db52",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ob Nixilis, the Fallen",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ob Nixilis, the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4b29e08dbd3e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ob Nixilis, Unshackled",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ob Nixilis, Unshackled",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ff1e02f4b8b9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f1f795e22e00",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c3ed583abc1b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Oni of Wild Places",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Oni of Wild Places",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:b0424c83257b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Orca, Siege Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Orca, Siege Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:63050d6d73ee",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:b9ab3eb90466",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2059ab04fc1a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Overseer of the Damned",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Overseer of the Damned",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d9261cc2c214",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Painwracker Oni",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Painwracker Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8a70d45ce872",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:bce929d4ec3b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d2647ab17516",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:376345a43765",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5deb71809e56",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Pestilence Demon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Pestilence Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ebd254d5b299",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Pink Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Pink Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c2ae944110da",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Pit Spawn",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Pit Spawn",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:97684d18a32b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Plague Drone",
+    "cut": "Archfiend of Despair",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Plague Drone",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:19db49768aea",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Plague Drone",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Plague Drone",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7c042b01c1ee",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Patriarch's Bidding",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:23f3ff0182a4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:52a63a6a3442",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Primordial Mist",
+    "cut": "Ancient Cellarspawn",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Primordial Mist",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:95d6d4f33cca",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Primordial Mist",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Primordial Mist",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:19e3bf724895",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Prince of Thralls",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Prince of Thralls",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:354afa10d1b5",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5d4b2170668a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Urza's Incubator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ea48d3817d16",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rafter Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rafter Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:65795d8870a8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rakdos the Defiler",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rakdos the Defiler",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:58144119a2b3",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rakdos, the Muscle",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rakdos, the Muscle",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:76bf4f1e9fa3",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rakshasa Debaser",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rakshasa Debaser",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c8351d0da8c5",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rakshasa Gravecaller",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rakshasa Gravecaller",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:b6c777dd1a32",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1ee6ab95f0fa",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:749b4f141e34",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Ravenous Demon // Archdemon of Greed",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Ravenous Demon // Archdemon of Greed",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c86a4853d711",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Raving Dead",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Raving Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:bf1568e68094",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Raving Dead",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Raving Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:924494348f2f",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Razaketh, the Foulblooded",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Razaketh, the Foulblooded",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7a6c91f432a4",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Razorjaw Oni",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Razorjaw Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:b8afeea32837",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Reaper from the Abyss",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Reaper from the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:797080b7eeee",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Reiver Demon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Reiver Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:44df5017fcf2",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Renegade Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Renegade Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3aeba67cebde",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Ancient Cellarspawn",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2bfbd752645d",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3ec6b21f61d8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:93fb5ac62202",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f3b04570333a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rot-Curse Rakshasa",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rot-Curse Rakshasa",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c46980f0b3e0",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rush of Dread",
+    "cut": "Patriarch's Bidding",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rush of Dread",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a5d834275076",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Rush of Dread",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Rush of Dread",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:653c848e4347",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Savanti Romero, Time's Exile",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Savanti Romero, Time's Exile",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:22dfaffa0585",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Scourge of Numai",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Scourge of Numai",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:048dd2740db9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Scourge of the Skyclaves",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4cd9ab87b676",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Scourge of Valkas",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Scourge of Valkas",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:72a09f40c6a9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5221e6a565dc",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Urza's Incubator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2c18233646d7",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Seeker of Slaanesh",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Seeker of Slaanesh",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0b0934a5b372",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Seizan, Perverter of Truth",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Seizan, Perverter of Truth",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0274cce7643f",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shadowborn Demon",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shadowborn Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2d41bbaadb38",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shadowgrange Archfiend",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shadowgrange Archfiend",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:05e93c1cb790",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shard of the Nightbringer",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shard of the Nightbringer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:2d96093ab73e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shard of the Nightbringer",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shard of the Nightbringer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1a45f5cabacb",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shefet Archfiend",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shefet Archfiend",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:cfd0aac2e87c",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shelob, Dread Weaver",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shelob, Dread Weaver",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:f1586cffab64",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shimatsu the Bloodcloaked",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shimatsu the Bloodcloaked",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3c420fd2326e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shredder, Shadow Master",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:fc87039772e3",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Shredder, Shadow Master",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:d2c9a97975e3",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Silent-Blade Oni",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Silent-Blade Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8e88cf4c3deb",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Sire of Insanity",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Sire of Insanity",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:91342bdc14e5",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Sloppity Bilepiper",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Sloppity Bilepiper",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a35655d2050b",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Sol'kanar the Swamp King",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Sol'kanar the Swamp King",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a3541e56a66a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Soul Swindler",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Soul Swindler",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:94311f2bd8a8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Soulcage Fiend",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Soulcage Fiend",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:440ba84ce9aa",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Soulflayer",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Soulflayer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ef1bf39ba118",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Soulstinger",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Soulstinger",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9d6224c0c8c7",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Spawn of Mayhem",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Spawn of Mayhem",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:5a5722ab739c",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Spirit of the Night",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Spirit of the Night",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e6681b44df74",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Stronghold Overseer",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Stronghold Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4ea052d829e8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Summon: G.F. Ifrit",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Summon: G.F. Ifrit",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:52e8815148a6",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Supreme Exemplar",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Supreme Exemplar",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:49f2c4df4e58",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Supreme Exemplar",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Supreme Exemplar",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:ff4c46c92afa",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Taborax, Hope's Demise",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Taborax, Hope's Demise",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:26672cc9e049",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Terror of the Peaks",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Terror of the Peaks",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:7bcf1b61e677",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Terror of the Peaks",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Terror of the Peaks",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8fb92555b877",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Balrog of Moria",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Balrog of Moria",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:290e5305be89",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Balrog, Durin's Bane",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Balrog, Durin's Bane",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9df144e9fc8e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Balrog, Flame of Udûn",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Balrog, Flame of Udûn",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:66e2ec931fbb",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Beast, Deathless Prince",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Beast, Deathless Prince",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:56d5643d21ec",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Liliana's Contract",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:b319e78e514e",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0b386307fdbe",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Speed Demon",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Speed Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1a80df4f74ab",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Liliana's Contract",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:6b9a9bbbeafe",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:959e5ea50e41",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "The Wretched",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=The Wretched",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:aaef28b198d9",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Thraxodemon",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Thraxodemon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:bbe259c42cf8",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:80a794b9f26a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Tombstalker",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Tombstalker",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:64e20bc81225",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:4bb77bb557fc",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Torgaar, Famine Incarnate",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Torgaar, Famine Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:a7b0c37d8dac",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Torgaar, Famine Incarnate",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Torgaar, Famine Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:23ede2d0f992",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Tragedy Feaster",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Tragedy Feaster",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:03217da12256",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:85de96d10e89",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:8e8e8a507e2a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Tyrannical Pitlord",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Tyrannical Pitlord",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:79e9cf714d4f",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Ghostly Flicker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Unstoppable Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:1d35ca655023",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Valgavoth, Harrower of Souls",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Valgavoth, Harrower of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:24fd32bba968",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Venomcrawler",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Venomcrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:9320d280d62c",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Vile Mutilator",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Vile Mutilator",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:bf97fd00b527",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Virtus the Veiled",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:0cc3facf727a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Virtus the Veiled",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:aabec0bf513a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Volcano Hellion",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:41d6c90f0f70",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Volcano Hellion",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:c768f8e976cd",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Vrock",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Vrock",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:58a85a201fbb",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Demon of Dark Schemes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Wanderwine Prophets",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3204e73cd324",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Wanderwine Prophets",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:efb32bd8d6c7",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Woebringer Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Woebringer Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:76c0b724e576",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:63035cba203a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Xathrid Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Xathrid Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:93f713eea811",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Yawgmoth Demon",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Yawgmoth Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:cfabb299eb02",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   },
+   {
+    "add": "Yukora, the Prisoner",
+    "cut": "Sower of Discord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#card=Yukora, the Prisoner",
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3897f8f8a21a",
+     "blueprint:data/grixis/blueprints/belakor-the-dark-master.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

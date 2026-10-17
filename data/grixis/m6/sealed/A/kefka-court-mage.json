@@ -1,0 +1,638 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:bb1f6fe0b81a481557fd3f8104b8f32cd65351fc58f32dca0332f76ba4303788",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Kefka__Court_Mage",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz"
+  ],
+  "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:kefka-court-mage:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:f211b84823dc",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:93da4cee3b0e",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:eef726f6205c",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:3a1f3a9249f4",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Ardent Elementalist",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:2a02b489f725",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:c51f330d1fd0",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:66578a67b648",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:ce0b49cfc89c",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:9febe3efb06c",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Blazing Sunsteel",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Blazing Sunsteel",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:5df97c908319",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:032486cb5b5a",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:f971d09bc570",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Carnage, Crimson Chaos",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Carnage, Crimson Chaos",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:c6466208e4bb",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:7a0bad7f266e",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:d91736bc3f7a",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Cormela, Glamour Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:7ec7c71d0eda",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Crypt Champion",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Crypt Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:38e232fb8fdb",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:e946c24b66cf",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:9659e942c156",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:89a014632f0a",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:8e5c03548524",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:b8876c826009",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Feast of Sanity",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:18d4ddd91039",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Beseech the Mirror",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:c4ec3deb5f71",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:3e828dc3b3d9",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:81d0879b7e59",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:70c4ce29de3c",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:57909940fdc0",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:576cc2cc3744",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:69f58879c645",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Izzet Chronarch",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:d8279d04f9da",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:ed4414a6a39d",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:355e472cf65e",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:7eb79e2489ab",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:56bce2c750b7",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Mnemonic Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:9fb89d2fafc2",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:dbe90544aea3",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:d5501af864b9",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Niv-Mizzet, Parun",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:88fdfe2fe452",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:e39b7ba59dc2",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:8c356bcd1d1c",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:b6c7456285d2",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:be3ba7892b4d",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Pinnacle Monk // Mystic Peak",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Pinnacle Monk // Mystic Peak",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:d6a6f7683bff",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:a027a7c34089",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:20cf5b46cdc1",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Possessed Skaab",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:034367f689ea",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:6d3d1f0061e1",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:22ec036daf43",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:30d3cf4a303a",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:92d95e63bdd5",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:7253353145db",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:4cea26f9e112",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Revolutionist",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:d286606dca4e",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Salvager of Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:5e5a7a8dd4d9",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Scholar of the Ages",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:e3878d9f0e25",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Scrivener",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:77feb1b4b054",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Shipwreck Dowser",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:2dd8c07e9449",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:77b267a42f40",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Beseech the Mirror",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Stitcher's Supplier",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:34888aef5b30",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:86f97c92a404",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:0b00174b45d3",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:6d87e7c02ffc",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Vampire Charmseeker",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:ea4a68079c49",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:4afc9cb0fd6a",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#card=Zealous Lorecaster",
+     "m5_swap:data/grixis/birthday_m5/regen/kefka-court-mage.json.gz#id=swap:kefka-court-mage:m5:7be36770523e",
+     "blueprint:data/grixis/blueprints/kefka-court-mage.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

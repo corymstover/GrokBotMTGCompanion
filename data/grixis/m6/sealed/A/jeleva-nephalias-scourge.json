@@ -1,0 +1,395 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:d4b2f5eaf2fe5092e23017c45127413d778adfedbe9ee0cfda1dd425ce015e53",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Jeleva__Nephalia_s_Scourge",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz"
+  ],
+  "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:jeleva-nephalias-scourge:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Syphon",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Aether Syphon",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:15cb546dc67e",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Alhammarret's Archive",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Alhammarret's Archive",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:3d6c6faf560e",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:fcf686d66202",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:3130387a3c25",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Bloodletter of Aclazotz",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Bloodletter of Aclazotz",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:4777c1e6add2",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:96625389feb3",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:6ba1d1e57d89",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:8d502c50bd50",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:64a3c787d5bc",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:85afddcc19aa",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:15a63c92889d",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:a251155b43d3",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Feast of Sanity",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:2b7cc99673d5",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Fortune Teller's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:54d128b78999",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:1f5e76e9dc4a",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:19f28e67c566",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:626bed91f99e",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Hive Mind",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Hive Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:fa7047fb39fb",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:165ba56892d5",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:56e8d2bb993c",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:546ca6b894ed",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Nekusar, the Mindrazer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Nekusar, the Mindrazer",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:f1e6541d0570",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Orcish Bowmasters",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Orcish Bowmasters",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:deeefe82daee",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:e00d5f79bcfd",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:e6a40024eb58",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:8d3964e34d8b",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:4b6996ce61af",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Psychic Corrosion",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Psychic Corrosion",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:8e3b10f12c45",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Psychosis Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:f36c092ac23f",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Razorkin Needlehead",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Razorkin Needlehead",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:092ce94f3e0e",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:ac0914139114",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Sheoldred, the Apocalypse",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Sheoldred, the Apocalypse",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:ed35dc22461f",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Teferi's Ageless Insight",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Teferi's Ageless Insight",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:67b5286d86b5",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:4a39644ab068",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Thought Reflection",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Thought Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:5fdbc4e321b6",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:71162b1a9e97",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:c811b1eac62d",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Twenty-Toed Toad",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Twenty-Toed Toad",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:46f7a01264ce",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   },
+   {
+    "add": "Vnwxt, Verbose Host",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#card=Vnwxt, Verbose Host",
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:1b93fc36c2ac",
+     "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

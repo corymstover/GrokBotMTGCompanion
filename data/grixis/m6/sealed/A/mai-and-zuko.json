@@ -1,0 +1,2150 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:4caf06340f350703223b880cdfad29b66da68950e3e957f79480aaa7c84d6de9",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Mai_and_Zuko",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz"
+  ],
+  "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:mai-and-zuko:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Advanced Reconstruction",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Advanced Reconstruction",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:61ab9298cb54",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Agadeem Occultist",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Agadeem Occultist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:702ffa72f1de",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Akoum Battlesinger",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Akoum Battlesinger",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0684c6e61170",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Akoum Flameseeker",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Akoum Flameseeker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:62a73426b920",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a0d345acf627",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:14c358f24ed0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Animate Artifact",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Animate Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:4a4051813682",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:837238006218",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Armor Wars",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Armor Wars",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:7d0ff2957ca6",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Artist's Talent",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Artist's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6f6b2da92fff",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Azula, On the Hunt",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Azula, On the Hunt",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6077a0de9f3e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bala Ged Thief",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bala Ged Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:cb644e58b87b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ballad of the Black Flag",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ballad of the Black Flag",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:71fa641c3d3c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Basim Ibn Ishaq",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Basim Ibn Ishaq",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:497285309feb",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bilbo, Thief in the Night",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bilbo, Thief in the Night",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c7e0ca751f6d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c4909f24db93",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:889f8cef4c69",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Blazing Sunsteel",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Blazing Sunsteel",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:e16ffa50a4af",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bloodbond Vampire",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bloodbond Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a1dcd537439a",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bloodthirsty Conqueror",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bloodthirsty Conqueror",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8422747e1627",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bojuka Brigand",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bojuka Brigand",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d9b2a74ee0e2",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Brash Taunter",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Brash Taunter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5009b3ede214",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:03e1d6072c10",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Bullseye, Death Dealer",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Bullseye, Death Dealer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0299570a941c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d69852677e9f",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:affe50f7131b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:365b66eedfc5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Chakram Retriever",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Chakram Retriever",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ed673622fc18",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c041eff91c73",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Chasm Guide",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Chasm Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:65684f19c8a2",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Cheering Fanatic",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Cheering Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:89b3b5ad1649",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Chong and Lily, Nomads",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Chong and Lily, Nomads",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3cdf9db77de6",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Cloud Key",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Cloud Key",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:485d763be9f4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:59eaa1231151",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Coralhelm Guide",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Coralhelm Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a16638eceb46",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:9e73c0ef3559",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Crimson Operative",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Crimson Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:08edd24f5cb8",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Crystal Skull, Isu Spyglass",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Crystal Skull, Isu Spyglass",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c1636081ea0d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Cyberdrive Awakener",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Cyberdrive Awakener",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:cf80519b6183",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Deadeye Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:717cafdbc928",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Deserter's Disciple",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Deserter's Disciple",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:71c35eb5f63d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Disciple of the Vault",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Disciple of the Vault",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3a45b5b8cd61",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Displacer Kitten",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Displacer Kitten",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:00218f968032",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Dockside Chef",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Dockside Chef",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6977fc6a10db",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Doctor Doom",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8cc49306651d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:17f34696732e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Drana's Chosen",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Drana's Chosen",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:894a7904ace6",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Drana, Liberator of Malakir",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Drana, Liberator of Malakir",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:fa845cd78660",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Echoes of Eternity",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Echoes of Eternity",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:814979fc706b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Experimental Confectioner",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Experimental Confectioner",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:df31b0fc8c4c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Experimental Frenzy",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Experimental Frenzy",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f7774a6d821c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Exquisite Blood",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Exquisite Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c01d7444a9d1",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f983fba49996",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ad9c5469cbc8",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Fateful Discovery",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Fateful Discovery",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:268bf97f5df3",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:337e86d2eef0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Firemantle Mage",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Firemantle Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:235a4d13c5c3",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "First-Time Flyer",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=First-Time Flyer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:7ed5c63eebc5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Fixer, Techno Terror",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Fixer, Techno Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:689c4a5496d8",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Foggy Swamp Hunters",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Foggy Swamp Hunters",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:dc74c697f14a",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Foggy Swamp Spirit Keeper",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Foggy Swamp Spirit Keeper",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5e1131120b76",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Forensic Gadgeteer",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Forensic Gadgeteer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0d9cc982278c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Forsaken Monument",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Forsaken Monument",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:61ea112177f2",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Fortune Teller's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:bc3afb9612a0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Frantic Search",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Frantic Search",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c4c86d6c2718",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3889c0c9a7b5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Freedom Fighter Recruit",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Freedom Fighter Recruit",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:163e5b7f6008",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Future Sight",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Future Sight",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:78d9565a95b7",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Geist of Saint Thalia",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Geist of Saint Thalia",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0b74a43e4f0d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:206f3593a263",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Glaring Fleshraker",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Glaring Fleshraker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8894753c3faa",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:50bf2ad8d9b0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Goblin Freerunner",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Goblin Freerunner",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:313657318808",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Golem's Heart",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Golem's Heart",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:da18f2a8b1d6",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Gran-Gran",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Gran-Gran",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:152ed74518a3",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Gran-Gran",
+    "cut": "The Blue Spirit",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Gran-Gran",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:cd0a3b257002",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:35f64afebf1c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c186f92ce08f",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Gwenom, Remorseless",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Gwenom, Remorseless",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8c4706f3a689",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hagra Diabolist",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hagra Diabolist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:92dc61690278",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hagra Sharpshooter",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hagra Sharpshooter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8816c829a7d9",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Halimar Excavator",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Halimar Excavator",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6ceceeb2754e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Halimar Tidecaller",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Halimar Tidecaller",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d627f31a9ec0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hammer Mage",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hammer Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:00384ea32358",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:55e5817faa55",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Harsh Mentor",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Harsh Mentor",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:18bba0101d0e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:e2f17c953f66",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Helm of Awakening",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Helm of Awakening",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:37ecd0a12bb0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Herald of Kozilek",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Herald of Kozilek",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a1e690ad448e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Highland Berserker",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Highland Berserker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c615b62a24b6",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hostage Taker",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hostage Taker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f080603bb57d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a7138c90fb13",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ingenious Artillerist",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ingenious Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:66d6065ec49b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8cc9beedc45c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iroh, Dragon of the West",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iroh, Dragon of the West",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:78009832eaea",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iroh, Firebending Instructor",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iroh, Firebending Instructor",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:bef479a2ad05",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Diverging Destiny",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Lad, Diverging Destiny",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:db635123f330",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:345c2aaffd74",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:929f47852744",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:efc8f247f356",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Futurist Paragon",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Man, Futurist Paragon",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:35cc05c0184b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ce27d672c628",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:4957388d3ee0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:248c22ddf933",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Iron Monger, Sadistic Tycoon",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Iron Monger, Sadistic Tycoon",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:279b7168dcc5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ironheart, Clever Champion",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ironheart, Clever Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ee8ccae49218",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Jeong Jeong, the Deserter",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Jeong Jeong, the Deserter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:abaa6b9df65d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Jhoira's Familiar",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Jhoira's Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f9a2ed763faf",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:4deb1bac6234",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Jwari Shapeshifter",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Jwari Shapeshifter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:acdcd5f893c5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "K'un-Lun Warrior",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=K'un-Lun Warrior",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:41c3f3452436",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Kalastria Healer",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Kalastria Healer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:e1ac6274b0f3",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Kalastria Nightwatch",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Kalastria Nightwatch",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:897d97105d7c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Karn's Touch",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Karn's Touch",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:2b0356b89ca3",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Karn, Silver Golem",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Karn, Silver Golem",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5d5034c9f101",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Karn, the Great Creator",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Karn, the Great Creator",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:83b35b4210b4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Katara, Bending Prodigy",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Katara, Bending Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:1891f8fc42f1",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Katsumasa, the Animator",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Katsumasa, the Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d4b536a6510c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Kazuul Warlord",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Kazuul Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:28bd4694cc32",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:633d860577c4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:105f62da1132",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Kingpin's Enforcers",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Kingpin's Enforcers",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:1107a75eba87",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:befcd3632489",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:9b7786cf2222",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Loyal Fire Sage",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Loyal Fire Sage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a31b2c502d00",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:9a8dfb1c7595",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "MACH-1, Swooping Scoundrel",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=MACH-1, Swooping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:86268f898711",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Madame Web, Clairvoyant",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Madame Web, Clairvoyant",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c5bb273ef215",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Magus of the Future",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Magus of the Future",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d178bde190ec",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mai, Scornful Striker",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mai, Scornful Striker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:250a80fed17b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Malakir Soothsayer",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Malakir Soothsayer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:731f377f8e43",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:257a38b43302",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Marionette Apprentice",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Marionette Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:548503636777",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:b8076599af1d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Master Pakku",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Master Pakku",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:257f28923201",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Master Transmuter",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Master Transmuter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:818e42772210",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mephidross Vampire",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mephidross Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:9f4c9cba15a7",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Merchant of Many Hats",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Merchant of Many Hats",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a09d8cd735c9",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mesmeric Orb",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mesmeric Orb",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:147c418b18c8",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mica, Reader of Ruins",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mica, Reader of Ruins",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:4745c7e8a6c7",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mikaeus, the Unhallowed",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mikaeus, the Unhallowed",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5d2037ee2914",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:b5c3f718d1b9",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mirran Spy",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mirran Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:10380a347d02",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c24365aba3f8",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3e16fb4ce27d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:973b4f1240c0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mm'menon, the Right Hand",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mm'menon, the Right Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5a5989e46b04",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Moku, Meandering Drummer",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Moku, Meandering Drummer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:eee7725d3925",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Mortuary",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Mortuary",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:73bfa5e3db4b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Murasa Pyromancer",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Murasa Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5e5f655a0fa4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Myr Welder",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Myr Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:374105292c2e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Nimana Sell-Sword",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Nimana Sell-Sword",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:83817e354cf7",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Nirkana Assassin",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Nirkana Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ce281a08f28d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "North Pole Patrol",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=North Pole Patrol",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:195960d3a6f4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ondu Champion",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ondu Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:85aa8ce4fec8",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "One with the Multiverse",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=One with the Multiverse",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8dba11dc9877",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:47e1e1ad2e18",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Pemmin's Aura",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Pemmin's Aura",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:9bd834bad5fc",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6ab3349e4886",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:419999d3659c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ebb3b4e9928d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Princess Yue",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Princess Yue",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5ef082e823fc",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:446c84918a77",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Professor Zei, Anthropologist",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Professor Zei, Anthropologist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f9ccddcb8135",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Prosperous Thief",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Prosperous Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:da822e3e2bbb",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:dd28ff1042f5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Reckless Bushwhacker",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Reckless Bushwhacker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:350f7faa7d68",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Reckless Cohort",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Reckless Cohort",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:32e88f3f4c2c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Reckless Fireweaver",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Reckless Fireweaver",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3c0aeeacd419",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Rescue, Pepper Potts",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Rescue, Pepper Potts",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:caebabdb8422",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:39bf63878c2a",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Rook Turret",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Rook Turret",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d7556dcaf6f7",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Rowdy Snowballers",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Rowdy Snowballers",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3bfc6894d7b0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:20f9b18beea7",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Sage of the Beyond",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Sage of the Beyond",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0432f33e6c39",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:7ec5bb670306",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Scientist Supreme of A.I.M.",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Scientist Supreme of A.I.M.",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3c980944d023",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Sea Gate Loremaster",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Sea Gate Loremaster",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f5ab313bb546",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Seascape Aerialist",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Seascape Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:697e52b7ce7b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Semblance Anvil",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Semblance Anvil",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:43d7eb9e50ce",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Shatterskull Recruit",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Shatterskull Recruit",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8d83a0146191",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c616b992ebad",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Sheoldred, the Apocalypse",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Sheoldred, the Apocalypse",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c53f148d2abf",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:b70c2c0157b5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Skilled Animator",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Skilled Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:39e26191cb13",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Skirge Familiar",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Skirge Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f0fea220fd94",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Skyswimmer Koi",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Skyswimmer Koi",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6056226ac8e0",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Smellerbee, Rebel Fighter",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Smellerbee, Rebel Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a5005be4fe9c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:caf27ecacd5e",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ce8a554cd897",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Stone Calendar",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Stone Calendar",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:89c91880f01b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Teo, Spirited Glider",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Teo, Spirited Glider",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ad1c71174465",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Agent of Bolas",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Tezzeret, Agent of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0a71bb6d9d40",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Betrayer of Flesh",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Tezzeret, Betrayer of Flesh",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:93f25c189bcc",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:efea4143158c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "The Immortal Sun",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=The Immortal Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:7735b31690c4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "The Lunar Whale",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=The Lunar Whale",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f7775f785411",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "The Reality Chip",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=The Reality Chip",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8bbb46107c15",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "The Vision and Scarlet Witch",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=The Vision and Scarlet Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d4ab9750ddd2",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:bd3ec758a0ea",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Thornbite Staff",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Thornbite Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:b97ad1a4e5fd",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:153a9df25936",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8b14fad9f5ab",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:e8e1e1b9df30",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Toymaker",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Toymaker",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:65a60490c126",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Transplant Theorist",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Transplant Theorist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:7f1074f7a9a9",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Trazyn the Infinite",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Trazyn the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:72e6dcc09813",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Treasonous Ogre",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Treasonous Ogre",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:5b94baab5970",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Treetop Freedom Fighters",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Treetop Freedom Fighters",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:48e2d62ec2f6",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Tribute Mage",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Tribute Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8d4b8bc31a64",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Trinket Mage",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Trinket Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8da58747b51c",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Trophy Mage",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Trophy Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f7c9054fd1e4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Tuktuk Grunts",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Tuktuk Grunts",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6f41f8e7542a",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Ugin, the Ineffable",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Ugin, the Ineffable",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0d4fedace6ae",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Umara Entangler",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Umara Entangler",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a3d142250ed3",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Umara Raptor",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Umara Raptor",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:41065177d3dd",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:af09f221f4ba",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Valeria Richards, Precocious",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Valeria Richards, Precocious",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ebc5b4ec5516",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Vampire Envoy",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Vampire Envoy",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:fe5d0d40bdb2",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Victor Mancha, Runaway",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Victor Mancha, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:4cd1a37113f4",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Victor Timely, Wily Tycoon",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Victor Timely, Wily Tycoon",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:1ba912eeff21",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Wake Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ae7f99e5864b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:cc663fafb3a5",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Wartime Protestors",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Wartime Protestors",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d436818f034f",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:686184e1539b",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c32b1cc96851",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Words of Wind",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Words of Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f190b1815c8d",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Xenic Poltergeist",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Xenic Poltergeist",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:9c1055cc6124",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Yotia Declares War",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Yotia Declares War",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:a2d8b8105821",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Yue, the Moon Spirit",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Yue, the Moon Spirit",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:e2c647a57808",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Zada's Commando",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Zada's Commando",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:bb096ebe434f",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Zada, Hedron Grinder",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Zada, Hedron Grinder",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:1062e6996cc9",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Zulaport Chainmage",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Zulaport Chainmage",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:25966eb8f749",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   },
+   {
+    "add": "Zulaport Cutthroat",
+    "cut": "Avatar Roku, Firebender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#card=Zulaport Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:62ef0dfcaa1a",
+     "blueprint:data/grixis/blueprints/mai-and-zuko.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

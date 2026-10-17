@@ -1,0 +1,1007 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:51d4ef4ffc3851721b9467ea58c6d50bad25e3d1c14e3d089f75837ec5fa58b7",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Sedris__the_Traitor_King",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz"
+  ],
+  "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:sedris-the-traitor-king:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Ancestral Statue",
+    "cut": "Sepulchral Primordial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4e23e18c2b21",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:21801ec750c3",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Sepulchral Primordial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:0c9a92846767",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:c554e8a96aff",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Body Double",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Body Double",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:7821a4efce49",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Body Double",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Body Double",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:25aab187262b",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Boommobile",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Boommobile",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:9a21d9e99c7f",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Boommobile",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Boommobile",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:ea7640da8d19",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Brazen Freebooter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Brazen Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:2fea437352cf",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Burdened Aerialist",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Burdened Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:17369e21b953",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Casey & Raph, Hotheads",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Casey & Raph, Hotheads",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:62aeccb8ec4e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Cavern Harpy",
+    "cut": "Sepulchral Primordial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Cavern Harpy",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:2fbe59e97d83",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Cavern Harpy",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Cavern Harpy",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:eb3879738682",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:80e71397d280",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:1900c225091a",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:84cc971fd8c3",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Cloud of Faeries",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Cloud of Faeries",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:b68e1751d8cb",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Corpse Dance",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Corpse Dance",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:b74ffeb66460",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Corsair Captain",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Corsair Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:43b92e9297a4",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:e3d0bb1354e8",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:9228cb835eed",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Darksteel Angel",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Darksteel Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4f951b146980",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Darksteel Angel",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Darksteel Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:f34d30fb0b88",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Devastating Onslaught",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Devastating Onslaught",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:69357f1ae0df",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Dream Stalker",
+    "cut": "Sepulchral Primordial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Dream Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:095af46de291",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Dream Stalker",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Dream Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4eb2591a0629",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:91c256e1de76",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Exhibition Magician",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Exhibition Magician",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:2ae1cc28fc8e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Faceless Butcher",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Faceless Butcher",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:7abf6e5a03f6",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "First Day of Class",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=First Day of Class",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:3d6d09f0077d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Fool's Demise",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Fool's Demise",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:f59397e0c92e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Fool's Demise",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Fool's Demise",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:58100f0245b6",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Galazeth Prismari",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Galazeth Prismari",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:1e331b6118b8",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Gev, Scaled Scorch",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Gev, Scaled Scorch",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:ff150adc3a2c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Gev, Scaled Scorch",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Gev, Scaled Scorch",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:eda08d7fefea",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Great Whale",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Great Whale",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:a8a664f0da90",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Hexavus",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Hexavus",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:a577b738693d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Hexavus",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Hexavus",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:19be512b746c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:6670de1e54d2",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:c2930959af96",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:1a831fe07e3c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:29193efd728a",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4f978478f1a7",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Kalain, Reclusive Painter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Kalain, Reclusive Painter",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:0b972577bd84",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:104956bec4fe",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:39bd9ee8d2c1",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Man-o'-War",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Man-o'-War",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:f67136e143cf",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Man-o'-War",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Man-o'-War",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:129a7a97539c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Metallic Mimic",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Metallic Mimic",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:5217d88ed71d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Metallic Mimic",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Metallic Mimic",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:8da9fdd4dcc3",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Meticulous Artisan",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Meticulous Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:727185d881ef",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Mikaeus, the Unhallowed",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Mikaeus, the Unhallowed",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:b052ebb9140e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Mikaeus, the Unhallowed",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Mikaeus, the Unhallowed",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:2e7c9ffe265c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:6bd1dd86bb8c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Nested Ghoul",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Nested Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:6ead0c20384d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Sepulchral Primordial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:5a95cbf3455d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:769e00aa3007",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Izzet Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:bd8c571ecab3",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:3279532b1420",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:3b488382cef6",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Patron of the Arts",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Patron of the Arts",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:10dbb310b623",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Perigee Beckoner",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Perigee Beckoner",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:c818da9ee645",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Plundering Barbarian",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Plundering Barbarian",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:bf9863bc3464",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Plundering Pirate",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Plundering Pirate",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:0f51588c6870",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:37b2d3aa6395",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:e8ab77ef8616",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Prosperous Pirates",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Prosperous Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:40a69788f6f6",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Prowling Geistcatcher",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Prowling Geistcatcher",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:acc213e9520d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Prowling Geistcatcher",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Prowling Geistcatcher",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:b8da5fc6596e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Rapacious Dragon",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Rapacious Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:fa6d77aafeed",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:c40074d6c0b0",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4351bfe7d276",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Redcap Thief",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Redcap Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:415bbe0f39c8",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:88bccd3c130d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:086e7e9d9973",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4017a7947b14",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mercurial Artist",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Rootha, Mercurial Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:2fd77616fa9f",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mercurial Artist",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Rootha, Mercurial Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:a88efb1390bf",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Sage of Fables",
+    "cut": "Archon of Cruelty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Sage of Fables",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:9303321ee420",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Sage of Fables",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Sage of Fables",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:7faff6d5eaee",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Sailor of Means",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Sailor of Means",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:3ed8369d3c2d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Shrieking Drake",
+    "cut": "Sepulchral Primordial",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Shrieking Drake",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:d1a5c5f5489d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Shrieking Drake",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Shrieking Drake",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:54470fea21bb",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Skullport Merchant",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Skullport Merchant",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:01bff344856e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Spark Double",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Spark Double",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:170190e72989",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Spark Double",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Spark Double",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:2d6598a982f7",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:8e208b70b172",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Spider-Man 2099, Miguel O'Hara",
+    "cut": "Archon of Cruelty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Spider-Man 2099, Miguel O'Hara",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:ccc14ab814be",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Spider-Man 2099, Miguel O'Hara",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Spider-Man 2099, Miguel O'Hara",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:7e6df9f44778",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Swashbuckler Extraordinaire",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Swashbuckler Extraordinaire",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:577352a7c9c6",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:49fac154bb10",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "The Master, Formed Anew",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=The Master, Formed Anew",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:e01c1bab6d0b",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "The Master, Formed Anew",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=The Master, Formed Anew",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:c032d9bd0ba7",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Thran Vigil",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Thran Vigil",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:be97d7cc1c91",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:1189fd05d01d",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:dd878ed1535b",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:e17819d31614",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:4161b6370f16",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Uncivil Unrest",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Uncivil Unrest",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:91438169e562",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:731754aa32df",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:7c12a55eb1ea",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:a5b1571b5677",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Vivi Ornitier",
+    "cut": "Terror of the Peaks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Vivi Ornitier",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:bdac7d556e9c",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Vivi Ornitier",
+    "cut": "Vile Entomber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Vivi Ornitier",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:899a3b223879",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Wily Goblin",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Wily Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:fb7dc283e168",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:6ac3f938dd7e",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   },
+   {
+    "add": "Wormfang Drake",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#card=Wormfang Drake",
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:6372d130cbc0",
+     "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

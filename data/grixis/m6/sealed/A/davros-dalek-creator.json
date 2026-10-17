@@ -1,0 +1,611 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:407c86d4ae4ffe3590183f98b3ece3ffde1a0b4e6363425317731b60a6fd0c6c",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Davros__Dalek_Creator",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz"
+  ],
+  "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:davros-dalek-creator:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Doomsday Confluence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Alpharael, Stonechosen",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:4eb6b7df2329",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Torment of Hailfire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Alpharael, Stonechosen",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:1638f0639a02",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:a198a182ad60",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:4936d99aaf3e",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:ac713179c23a",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:3d079292bb1c",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:b11278aa9f42",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:cdcf640c793c",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:156efd4c8c93",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:202d621c2d34",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Ravager",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Dire Fleet Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:e38ac12977d2",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Ravager",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Dire Fleet Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:1ad50b3dbc9b",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:ba45a3d15c99",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Exterminate!",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:16aa85455fdd",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Doomsday Confluence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:921f7fddd9b1",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Torment of Hailfire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:4e909683ea63",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Death in Heaven",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Grievous Wound",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:9ccc01f58927",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Grievous Wound",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:674cc1306ef3",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Havoc Festival",
+    "cut": "Death in Heaven",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Havoc Festival",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:0a3ba511ee08",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Havoc Festival",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Havoc Festival",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:b5b7263252e8",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Heartless Hidetsugu",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:fd62a69f0eec",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Heartless Hidetsugu",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:8d9eeb941371",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:2c5167549085",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Exterminate!",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:4877203aae6b",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:32a2a7976ac0",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:1cc23cbb20d7",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:42b71494dd36",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:1e74bb3be5e3",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:7254426a557c",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:5a496260d7d4",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Doomsday Confluence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:b672fcf628e7",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Torment of Hailfire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:0b8f35eddd93",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:f6dffb5f5a36",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:571d03c7ea2a",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Raving Dead",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Raving Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:8d96d118b5ca",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Raving Dead",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Raving Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:9b07f1d78662",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Cyber Conversion",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:9f988dadfaaa",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Death in Heaven",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:67785f3b0f4d",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Wound Reflection",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:42f6f08828c6",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:a76b698e7290",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:df83c4d2aa06",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Scourge of the Skyclaves",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:0dace0bd43c5",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Scourge of the Skyclaves",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:c19d0735cc1e",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:902802375e05",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:b7383a0dff77",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Shard of the Nightbringer",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Shard of the Nightbringer",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:2c695a3038b4",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Shard of the Nightbringer",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Shard of the Nightbringer",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:b413c82ed76d",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Shredder, Shadow Master",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:11ff1d14c026",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Shredder, Shadow Master",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:f16a84fdfcdb",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:a4d4276f47a2",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Exterminate!",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:fda0c06604c8",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:e86263c0e523",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:079d9f572a85",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:8275794bc8e1",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Exterminate!",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:b08aeac1f64d",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Torgaar, Famine Incarnate",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Torgaar, Famine Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:eabb440b2964",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Torgaar, Famine Incarnate",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Torgaar, Famine Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:99d2bd4f8c57",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:8bce9a9fffd8",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:8dc91dfa93e1",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Death in Heaven",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:3be84ec0ee8f",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Wound Reflection",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:fe31eba33258",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Dauthi Voidwalker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Unstoppable Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:0a67525f4e31",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Labyrinth Raptor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#card=Unstoppable Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz#id=swap:davros-dalek-creator:m5:a34231fa86e4",
+     "blueprint:data/grixis/blueprints/davros-dalek-creator.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}
