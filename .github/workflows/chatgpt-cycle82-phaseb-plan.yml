@@ -1,0 +1,45 @@
+name: ChatGPT cycle 82 - Abaddon Phase B preregistration
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle82-abaddon-phaseb-plan
+    paths:
+      - .github/workflows/chatgpt-cycle82-phaseb-plan.yml
+      - scripts/grixis_m6_phaseb_plan.py
+      - tests/test_m6_phaseb_plan.py
+      - data/grixis/m6/phase_b_plans/abaddon_priority_01.json
+      - data/grixis/schemas/m6_phase_b_plan.schema.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preregistration-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle82-abaddon-phaseb-plan
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify model plan against accepted M5 identifiers
+        run: python scripts/grixis_m6_phaseb_plan.py
+      - name: Adversarial tests against false Phase B completion
+        run: python -m unittest discover -s tests -p 'test_m6_phaseb_plan.py' -v
+      - name: Preserve all decklist and approval authorities
+        run: |
+          git diff --exit-code
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(reg['decks'])==62
+          assert reg['program']['milestones']['M5']['status']=='accepted'
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          print('evidence plan only; no deck authority changed')
+          PY
