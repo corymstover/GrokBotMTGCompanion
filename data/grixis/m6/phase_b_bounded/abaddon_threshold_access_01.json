@@ -1,0 +1,332 @@
+{
+ "alternatives": [
+  {
+   "add": "Heartless Hidetsugu",
+   "coverage": [
+    "Model v1.1 coverage of the swapped cards: Birgi, God of Storytelling // Harnfel, Horn of Bounty [no effect modelled beyond being a castable card] → Heartless Hidetsugu [no effect modelled beyond being a castable card]."
+   ],
+   "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "cut_class": "registered_core_engine_cut",
+   "effect_aware_threshold_test_executed": false,
+   "metric_results": [
+    {
+     "baseline": 0.555,
+     "challenger": 0.555,
+     "ci95": [
+      -0.00462,
+      0.00462
+     ],
+     "diff": 0.0,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "commander_cast_by_t4"
+    },
+    {
+     "baseline": 4.685,
+     "challenger": 4.685,
+     "ci95": [
+      -0.00462,
+      0.00462
+     ],
+     "diff": 0.0,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "mana_available_t4"
+    },
+    {
+     "baseline": 17.87,
+     "challenger": 17.79167,
+     "ci95": [
+      -0.1362,
+      -0.02046
+     ],
+     "diff": -0.07833,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+     "metric": "mana_spent_t1_t6"
+    }
+   ],
+   "registered_m5_id": "swap:abaddon-the-despoiler:m5:d17609747acc",
+   "roles": {
+    "printed_cascade_after_cut": 5,
+    "removed_core_threshold": false
+   },
+   "supports_improvement_claim": false
+  },
+  {
+   "add": "Heartless Hidetsugu",
+   "coverage": [
+    "Model v1.1 coverage of the swapped cards: Kessig Flamebreather [no effect modelled beyond being a castable card] → Heartless Hidetsugu [no effect modelled beyond being a castable card]."
+   ],
+   "cut": "Kessig Flamebreather",
+   "cut_class": "registered_threshold_cut",
+   "effect_aware_threshold_test_executed": false,
+   "metric_results": [
+    {
+     "baseline": 0.545,
+     "challenger": 0.545,
+     "ci95": [
+      -0.00654,
+      0.00654
+     ],
+     "diff": 0.0,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "commander_cast_by_t4"
+    },
+    {
+     "baseline": 4.68,
+     "challenger": 4.68,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "diff": 0.0,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "mana_available_t4"
+    },
+    {
+     "baseline": 17.47333,
+     "challenger": 17.495,
+     "ci95": [
+      -0.03761,
+      0.08094
+     ],
+     "diff": 0.02167,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+     "metric": "mana_spent_t1_t6"
+    }
+   ],
+   "registered_m5_id": "swap:abaddon-the-despoiler:m5:5ac285a18b7a",
+   "roles": {
+    "printed_cascade_after_cut": 5,
+    "removed_core_threshold": true
+   },
+   "supports_improvement_claim": false
+  },
+  {
+   "add": "Heartless Hidetsugu",
+   "coverage": [
+    "Model v1.1 coverage of the swapped cards: Bituminous Blast [no effect modelled beyond being a castable card] → Heartless Hidetsugu [no effect modelled beyond being a castable card]."
+   ],
+   "cut": "Bituminous Blast",
+   "cut_class": "alternate_noncore_printed_cascade_cut",
+   "effect_aware_threshold_test_executed": false,
+   "metric_results": [
+    {
+     "baseline": 0.55667,
+     "challenger": 0.55833,
+     "ci95": [
+      -0.0016,
+      0.00493
+     ],
+     "diff": 0.00167,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "commander_cast_by_t4"
+    },
+    {
+     "baseline": 4.68167,
+     "challenger": 4.68833,
+     "ci95": [
+      0.00015,
+      0.01318
+     ],
+     "diff": 0.00667,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "mana_available_t4"
+    },
+    {
+     "baseline": 17.82333,
+     "challenger": 17.765,
+     "ci95": [
+      -0.10398,
+      -0.01268
+     ],
+     "diff": -0.05833,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+     "metric": "mana_spent_t1_t6"
+    }
+   ],
+   "registered_m5_id": null,
+   "roles": {
+    "printed_cascade_after_cut": 4,
+    "removed_core_threshold": false
+   },
+   "supports_improvement_claim": false
+  },
+  {
+   "add": "Tree of Perdition",
+   "coverage": [
+    "Model v1.1 coverage of the swapped cards: Birgi, God of Storytelling // Harnfel, Horn of Bounty [no effect modelled beyond being a castable card] → Tree of Perdition [no effect modelled beyond being a castable card]."
+   ],
+   "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "cut_class": "registered_core_engine_cut",
+   "effect_aware_threshold_test_executed": false,
+   "metric_results": [
+    {
+     "baseline": 0.555,
+     "challenger": 0.55667,
+     "ci95": [
+      -0.0016,
+      0.00493
+     ],
+     "diff": 0.00167,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "commander_cast_by_t4"
+    },
+    {
+     "baseline": 4.685,
+     "challenger": 4.68667,
+     "ci95": [
+      -0.0016,
+      0.00493
+     ],
+     "diff": 0.00167,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "mana_available_t4"
+    },
+    {
+     "baseline": 17.87,
+     "challenger": 17.93,
+     "ci95": [
+      0.00771,
+      0.11229
+     ],
+     "diff": 0.06,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+     "metric": "mana_spent_t1_t6"
+    }
+   ],
+   "registered_m5_id": "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+   "roles": {
+    "printed_cascade_after_cut": 5,
+    "removed_core_threshold": false
+   },
+   "supports_improvement_claim": false
+  },
+  {
+   "add": "Tree of Perdition",
+   "coverage": [
+    "Model v1.1 coverage of the swapped cards: Kessig Flamebreather [no effect modelled beyond being a castable card] → Tree of Perdition [no effect modelled beyond being a castable card]."
+   ],
+   "cut": "Kessig Flamebreather",
+   "cut_class": "registered_threshold_cut",
+   "effect_aware_threshold_test_executed": false,
+   "metric_results": [
+    {
+     "baseline": 0.545,
+     "challenger": 0.54,
+     "ci95": [
+      -0.0123,
+      0.0023
+     ],
+     "diff": -0.005,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "commander_cast_by_t4"
+    },
+    {
+     "baseline": 4.68,
+     "challenger": 4.68,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "diff": 0.0,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "mana_available_t4"
+    },
+    {
+     "baseline": 17.47333,
+     "challenger": 17.56,
+     "ci95": [
+      0.03162,
+      0.14171
+     ],
+     "diff": 0.08667,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+     "metric": "mana_spent_t1_t6"
+    }
+   ],
+   "registered_m5_id": "swap:abaddon-the-despoiler:m5:ba42cedcaa2f",
+   "roles": {
+    "printed_cascade_after_cut": 5,
+    "removed_core_threshold": true
+   },
+   "supports_improvement_claim": false
+  },
+  {
+   "add": "Tree of Perdition",
+   "coverage": [
+    "Model v1.1 coverage of the swapped cards: Bituminous Blast [no effect modelled beyond being a castable card] → Tree of Perdition [no effect modelled beyond being a castable card]."
+   ],
+   "cut": "Bituminous Blast",
+   "cut_class": "alternate_noncore_printed_cascade_cut",
+   "effect_aware_threshold_test_executed": false,
+   "metric_results": [
+    {
+     "baseline": 0.55667,
+     "challenger": 0.56,
+     "ci95": [
+      -0.00128,
+      0.00795
+     ],
+     "diff": 0.00333,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "commander_cast_by_t4"
+    },
+    {
+     "baseline": 4.68167,
+     "challenger": 4.69,
+     "ci95": [
+      0.00105,
+      0.01561
+     ],
+     "diff": 0.00833,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)",
+     "metric": "mana_available_t4"
+    },
+    {
+     "baseline": 17.82333,
+     "challenger": 17.90667,
+     "ci95": [
+      0.01368,
+      0.15298
+     ],
+     "diff": 0.08333,
+     "method": "paired goldfish, 600 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences",
+     "metric": "mana_spent_t1_t6"
+    }
+   ],
+   "registered_m5_id": null,
+   "roles": {
+    "printed_cascade_after_cut": 4,
+    "removed_core_threshold": false
+   },
+   "supports_improvement_claim": false
+  }
+ ],
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "baseline_export_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+ "blueprint_sha256": "sha256:6ba92f052b108f4f79792d3ba9ae488d3356e54415ad4207e85b30f1bf7a7f17",
+ "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "deck_id": "Abaddon_the_Despoiler",
+ "full_phase_b_complete": false,
+ "limits": [
+  "Mana and early commander access ONLY; both Heartless and Tree active effects unmodeled",
+  "Also missing Birgi mana-on-cast, Kessig ping and Bituminous Blast cascade effects",
+  "Fixed-shuffle goldfish has no interaction/summoning-sickness/survival policy",
+  "The alternate printed-cascade cut is not a recommended cut",
+  "True effect-aware comparison and mana/stack/opponent review remain unexecuted"
+ ],
+ "m5_review_packet_sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84",
+ "model": "1.1",
+ "preregistration_sha256": "sha256:faeb027740585cec688fc5ecc082f8beeb3c8cfc3e27d488781fb4556e6d3b78",
+ "samples": 600,
+ "schema_version": 1,
+ "seed": 92017,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "abaddon-the-despoiler",
+ "stage": "M6_Abaddon_threshold_mana_only_paired",
+ "supports_improvement_claim": false,
+ "turns": 10
+}
