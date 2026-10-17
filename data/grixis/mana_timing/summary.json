@@ -1,0 +1,446 @@
+{
+ "decks": [
+  {
+   "conditional_sources": 1,
+   "deck_id": "Abaddon_the_Despoiler",
+   "fetches": 7,
+   "slug": "abaddon-the-despoiler",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Admiral_Beckett_Brass",
+   "fetches": 3,
+   "slug": "admiral-beckett-brass",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "fetches": 3,
+   "slug": "admiral-brass-unsinkable",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Anhelo__the_Painter",
+   "fetches": 3,
+   "slug": "anhelo-the-painter",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "fetches": 2,
+   "slug": "ashad-the-lone-cyberman",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Ashnod_the_Uncaring",
+   "fetches": 3,
+   "slug": "ashnod-the-uncaring",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "fetches": 3,
+   "slug": "belakor-the-dark-master",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "fetches": 4,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Cormela__Glamour_Thief",
+   "fetches": 7,
+   "slug": "cormela-glamour-thief",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Crosis__the_Purger",
+   "fetches": 6,
+   "slug": "crosis-the-purger",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Cult_of_Skaro",
+   "fetches": 3,
+   "slug": "cult-of-skaro",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Davros__Dalek_Creator",
+   "fetches": 5,
+   "slug": "davros-dalek-creator",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "fetches": 4,
+   "slug": "doctor-doom-king-of-latveria",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Don_Andres__the_Renegade",
+   "fetches": 6,
+   "slug": "don-andres-the-renegade",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Dr__Eggman",
+   "fetches": 3,
+   "slug": "dr-eggman",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "fetches": 3,
+   "slug": "edea-possessed-sorceress",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Edward_Kenway",
+   "fetches": 9,
+   "slug": "edward-kenway",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Evelyn__the_Covetous",
+   "fetches": 7,
+   "slug": "evelyn-the-covetous",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Fire_Lord_Azula",
+   "fetches": 9,
+   "slug": "fire-lord-azula",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "fetches": 9,
+   "slug": "garza-zol-plague-queen",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "fetches": 4,
+   "slug": "goro-goro-and-satoru",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "Grixistax___October_2026",
+   "fetches": 9,
+   "slug": "grixistax-october-2026",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "fetches": 3,
+   "slug": "gwendlyn-di-corci",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "fetches": 9,
+   "slug": "inalla-archmage-ritualist",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "fetches": 9,
+   "slug": "jeleva-nephalias-scourge",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Kefka__Court_Mage",
+   "fetches": 9,
+   "slug": "kefka-court-mage",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "Kess__Dissident_Mage",
+   "fetches": 9,
+   "slug": "kess-dissident-mage",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Loki__the_Deceiver",
+   "fetches": 3,
+   "slug": "loki-the-deceiver",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Lord_of_Tresserhorn",
+   "fetches": 5,
+   "slug": "lord-of-tresserhorn",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "Lord_Xander__the_Collector",
+   "fetches": 6,
+   "slug": "lord-xander-the-collector",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "fetches": 6,
+   "slug": "lynde-cheerful-tormentor",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Mai_and_Zuko",
+   "fetches": 6,
+   "slug": "mai-and-zuko",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "Mairsil__the_Pretender",
+   "fetches": 3,
+   "slug": "mairsil-the-pretender",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "fetches": 6,
+   "slug": "marchesa-dealer-of-death",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "fetches": 6,
+   "slug": "marchesa-the-black-rose",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "fetches": 3,
+   "slug": "mishra-artificer-prodigy",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Mishra__Eminent_One",
+   "fetches": 6,
+   "slug": "mishra-eminent-one",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Missy",
+   "fetches": 3,
+   "slug": "missy",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "fetches": 9,
+   "slug": "nathan-drake-treasure-hunter",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "fetches": 9,
+   "slug": "nekusar-the-mindrazer",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Nicol_Bolas",
+   "fetches": 9,
+   "slug": "nicol-bolas",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "fetches": 9,
+   "slug": "nicol-bolas-the-ravager",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "fetches": 9,
+   "slug": "norman-osborn",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "fetches": 9,
+   "slug": "obeka-brute-chronologist",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "fetches": 9,
+   "slug": "obeka-splitter-of-seconds",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "fetches": 8,
+   "slug": "parnesse-the-subtle-brush",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "RogSi",
+   "fetches": 9,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Saruman__the_White_Hand",
+   "fetches": 6,
+   "slug": "saruman-the-white-hand",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "fetches": 6,
+   "slug": "sauron-lord-of-the-rings",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "fetches": 6,
+   "slug": "sauron-the-dark-lord",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 0,
+   "deck_id": "Sedris__the_Traitor_King",
+   "fetches": 6,
+   "slug": "sedris-the-traitor-king",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "fetches": 6,
+   "slug": "solkanar-the-swamp-king",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "fetches": 6,
+   "slug": "solkanar-the-tainted",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "fetches": 6,
+   "slug": "tetsuo-imperial-champion",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Tetsuo_Umezawa",
+   "fetches": 5,
+   "slug": "tetsuo-umezawa",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "The_Madcap_Jester",
+   "fetches": 9,
+   "slug": "the-madcap-jester",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "The_Rani",
+   "fetches": 4,
+   "slug": "the-rani",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "The_Valeyard",
+   "fetches": 9,
+   "slug": "the-valeyard",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Thraximundar",
+   "fetches": 3,
+   "slug": "thraximundar",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 2,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "fetches": 3,
+   "slug": "tresserhorns-lord-returned",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 3,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "fetches": 4,
+   "slug": "wick-the-whorled-mind",
+   "stranded_fetches": 0
+  },
+  {
+   "conditional_sources": 1,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "fetches": 9,
+   "slug": "zevlor-elturel-exile",
+   "stranded_fetches": 0
+  }
+ ],
+ "generated_by": "scripts/grixis_mana_timing.py v1",
+ "schema_version": 1,
+ "totals": {
+  "conditional_sources": 88,
+  "decks": 62,
+  "fetches": 372,
+  "stranded_fetches": 0
+ }
+}

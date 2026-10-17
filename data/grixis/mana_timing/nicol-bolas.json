@@ -1,0 +1,1583 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Timing/reliability diagnostics cannot decide mana-base swaps."
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "commander_colored_readiness": [
+  {
+   "cards_seen_by_base_resource_turn": 15,
+   "colored_requirements": {
+    "B": 2,
+    "R": 2,
+    "U": 2
+   },
+   "name": "Nicol Bolas",
+   "note": "Colored-source assignment only; generic mana, sequencing, rocks, rituals and commander tax are handled separately/later.",
+   "potential_distinct_source_match": 0.406103,
+   "unconditional_distinct_source_match": 0.301708,
+   "untapped_capable_distinct_source_match": 0.338317
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Nicol_Bolas",
+ "evidence_class": "derived_metric",
+ "fetch_validation": [
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Arid Mesa",
+   "search_types": [
+    "Plains",
+    "Mountain"
+   ],
+   "target_count": 6,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Mountain"
+     ],
+     "card": "Mountain",
+     "direct_colors": "R",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Steam Vents",
+     "Volcanic Island"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Bloodstained Mire",
+   "search_types": [
+    "Swamp",
+    "Mountain"
+   ],
+   "target_count": 9,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Mountain"
+     ],
+     "card": "Mountain",
+     "direct_colors": "R",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Swamp"
+     ],
+     "card": "Swamp",
+     "direct_colors": "B",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Flooded Strand",
+   "search_types": [
+    "Plains",
+    "Island"
+   ],
+   "target_count": 7,
+   "targets": [
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Marsh Flats",
+   "search_types": [
+    "Plains",
+    "Swamp"
+   ],
+   "target_count": 6,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Swamp"
+     ],
+     "card": "Swamp",
+     "direct_colors": "B",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt"
+    ],
+    "U": [
+     "Underground Sea",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Misty Rainforest",
+   "search_types": [
+    "Island",
+    "Forest"
+   ],
+   "target_count": 7,
+   "targets": [
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Polluted Delta",
+   "search_types": [
+    "Island",
+    "Swamp"
+   ],
+   "target_count": 10,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Swamp"
+     ],
+     "card": "Swamp",
+     "direct_colors": "B",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Scalding Tarn",
+   "search_types": [
+    "Island",
+    "Mountain"
+   ],
+   "target_count": 10,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island"
+     ],
+     "card": "Island",
+     "direct_colors": "U",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Mountain"
+     ],
+     "card": "Mountain",
+     "direct_colors": "R",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Island",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Verdant Catacombs",
+   "search_types": [
+    "Swamp",
+    "Forest"
+   ],
+   "target_count": 6,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Swamp"
+     ],
+     "card": "Swamp",
+     "direct_colors": "B",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Underground Sea",
+     "direct_colors": "UB",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp"
+     ],
+     "card": "Watery Grave",
+     "direct_colors": "UB",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt"
+    ],
+    "U": [
+     "Underground Sea",
+     "Watery Grave"
+    ]
+   }
+  },
+  {
+   "actual_target_colors": "UBR",
+   "basic_only": false,
+   "card": "Wooded Foothills",
+   "search_types": [
+    "Mountain",
+    "Forest"
+   ],
+   "target_count": 6,
+   "targets": [
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Badlands",
+     "direct_colors": "BR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Blood Crypt",
+     "direct_colors": "BR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Mountain"
+     ],
+     "card": "Mountain",
+     "direct_colors": "R",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Steam Vents",
+     "direct_colors": "UR",
+     "entry_timing": "conditional_untapped"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Mountain"
+     ],
+     "card": "Volcanic Island",
+     "direct_colors": "UR",
+     "entry_timing": "untapped_by_default"
+    },
+    {
+     "basic_types": [
+      "Island",
+      "Swamp",
+      "Mountain"
+     ],
+     "card": "Xander's Lounge",
+     "direct_colors": "UBR",
+     "entry_timing": "always_tapped"
+    }
+   ],
+   "targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt",
+     "Xander's Lounge"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ],
+    "U": [
+     "Steam Vents",
+     "Volcanic Island",
+     "Xander's Lounge"
+    ]
+   },
+   "untapped_capable_target_colors": "UBR",
+   "untapped_capable_targets_by_color": {
+    "B": [
+     "Badlands",
+     "Blood Crypt"
+    ],
+    "R": [
+     "Badlands",
+     "Blood Crypt",
+     "Mountain",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "U": [
+     "Steam Vents",
+     "Volcanic Island"
+    ]
+   }
+  }
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/nicol-bolas.txt",
+  "frozen_card_pages": "data/card_index.csv + cards/**",
+  "mana_baseline": "data/grixis/mana_base/nicol-bolas.json"
+ },
+ "limitations": [
+  "No source receives an invented real-game reliability percentage; context-dependent and ETB conditions remain categorical.",
+  "Distinct-source matching is exact for cards seen but does not prove those cards were deployed, survived, or can activate in sequence.",
+  "Fetch validation uses targets present at deck start and does not model target depletion after earlier fetches.",
+  "Untapped-capable includes conditional-untapped targets such as shock/check-style lands; guaranteed-untapped is retained separately at the source level.",
+  "MDFC land faces are an optional-source layer and do not silently increase the strict land count.",
+  "Rocks, rituals, one-shot mana, generic costs, commander tax and spell sequencing are not folded into these colored-land probabilities."
+ ],
+ "mdfc_optional_sources": [],
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "source_categories": {
+  "always_tapped": 3,
+  "conditional_mana_ability": 3,
+  "conditional_untapped": 7,
+  "no_usable_grixis_color": 3,
+  "untapped_by_default": 27
+ },
+ "status": "provisional_evidence",
+ "stranded_fetches": [],
+ "strict_land_sources": [
+  {
+   "card": "Ancient Tomb",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "",
+   "unconditional_colors": "",
+   "untapped_capable_colors": ""
+  },
+  {
+   "card": "Arena of Glory",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "R",
+   "unconditional_colors": "R",
+   "untapped_capable_colors": "R"
+  },
+  {
+   "card": "Arid Mesa",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 6,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Badlands",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "BR",
+   "kind": "direct_land",
+   "potential_colors": "BR",
+   "unconditional_colors": "BR",
+   "untapped_capable_colors": "BR"
+  },
+  {
+   "card": "Blood Crypt",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "BR",
+   "unconditional_colors": "BR",
+   "untapped_capable_colors": "BR"
+  },
+  {
+   "card": "Bloodstained Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 9,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Bojuka Bog",
+   "conditional_mana_ability": false,
+   "entry_timing": "always_tapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "B",
+   "unconditional_colors": "B",
+   "untapped_capable_colors": ""
+  },
+  {
+   "card": "Cavern of Souls",
+   "conditional_mana_ability": true,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "City of Brass",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Command Beacon",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "",
+   "unconditional_colors": "",
+   "untapped_capable_colors": ""
+  },
+  {
+   "card": "Command Tower",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Exotic Orchard",
+   "conditional_mana_ability": true,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Flooded Strand",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 7,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Hall of the Bandit Lord",
+   "conditional_mana_ability": false,
+   "entry_timing": "always_tapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "",
+   "unconditional_colors": "",
+   "untapped_capable_colors": ""
+  },
+  {
+   "card": "Island",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "U",
+   "kind": "direct_land",
+   "potential_colors": "U",
+   "unconditional_colors": "U",
+   "untapped_capable_colors": "U"
+  },
+  {
+   "card": "Island",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "U",
+   "kind": "direct_land",
+   "potential_colors": "U",
+   "unconditional_colors": "U",
+   "untapped_capable_colors": "U"
+  },
+  {
+   "card": "Luxury Suite",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "BR",
+   "unconditional_colors": "BR",
+   "untapped_capable_colors": "BR"
+  },
+  {
+   "card": "Mana Confluence",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Marsh Flats",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 6,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Misty Rainforest",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 7,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Morphic Pool",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "UB",
+   "unconditional_colors": "UB",
+   "untapped_capable_colors": "UB"
+  },
+  {
+   "card": "Mountain",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "R",
+   "kind": "direct_land",
+   "potential_colors": "R",
+   "unconditional_colors": "R",
+   "untapped_capable_colors": "R"
+  },
+  {
+   "card": "Otawara, Soaring City",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "U",
+   "kind": "direct_land",
+   "potential_colors": "U",
+   "unconditional_colors": "U",
+   "untapped_capable_colors": "U"
+  },
+  {
+   "card": "Polluted Delta",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 10,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Reflecting Pool",
+   "conditional_mana_ability": true,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Scalding Tarn",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 10,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Shizo, Death's Storehouse",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "B",
+   "kind": "direct_land",
+   "potential_colors": "B",
+   "unconditional_colors": "B",
+   "untapped_capable_colors": "B"
+  },
+  {
+   "card": "Steam Vents",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "UR",
+   "unconditional_colors": "UR",
+   "untapped_capable_colors": "UR"
+  },
+  {
+   "card": "Swamp",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "B",
+   "kind": "direct_land",
+   "potential_colors": "B",
+   "unconditional_colors": "B",
+   "untapped_capable_colors": "B"
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "B",
+   "kind": "direct_land",
+   "potential_colors": "B",
+   "unconditional_colors": "B",
+   "untapped_capable_colors": "B"
+  },
+  {
+   "card": "Training Center",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "UR",
+   "unconditional_colors": "UR",
+   "untapped_capable_colors": "UR"
+  },
+  {
+   "card": "Underground Sea",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UB",
+   "kind": "direct_land",
+   "potential_colors": "UB",
+   "unconditional_colors": "UB",
+   "untapped_capable_colors": "UB"
+  },
+  {
+   "card": "Verdant Catacombs",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 6,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Volcanic Island",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "UR",
+   "kind": "direct_land",
+   "potential_colors": "UR",
+   "unconditional_colors": "UR",
+   "untapped_capable_colors": "UR"
+  },
+  {
+   "card": "Watery Grave",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "UB",
+   "unconditional_colors": "UB",
+   "untapped_capable_colors": "UB"
+  },
+  {
+   "card": "Wooded Foothills",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "fetch_target_count": 6,
+   "guaranteed_untapped_colors": "UBR",
+   "kind": "fetch",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": "UBR"
+  },
+  {
+   "card": "Xander's Lounge",
+   "conditional_mana_ability": false,
+   "entry_timing": "always_tapped",
+   "fetch_target_count": 0,
+   "guaranteed_untapped_colors": "",
+   "kind": "direct_land",
+   "potential_colors": "UBR",
+   "unconditional_colors": "UBR",
+   "untapped_capable_colors": ""
+  }
+ ],
+ "turn_readiness": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.916011,
+   "flex_land_potential_distinct_source_match_UBR": 0.632965,
+   "potential_distinct_source_match_UBR": 0.632965,
+   "strict_land_drop_probability": 0.916011,
+   "unconditional_distinct_source_match_UBR": 0.549352,
+   "untapped_capable_distinct_source_match_UBR": 0.5853
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.80038,
+   "flex_land_potential_distinct_source_match_UBR": 0.714201,
+   "potential_distinct_source_match_UBR": 0.714201,
+   "strict_land_drop_probability": 0.80038,
+   "unconditional_distinct_source_match_UBR": 0.633097,
+   "untapped_capable_distinct_source_match_UBR": 0.668652
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.648804,
+   "flex_land_potential_distinct_source_match_UBR": 0.781443,
+   "potential_distinct_source_match_UBR": 0.781443,
+   "strict_land_drop_probability": 0.648804,
+   "unconditional_distinct_source_match_UBR": 0.706053,
+   "untapped_capable_distinct_source_match_UBR": 0.739758
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.487754,
+   "flex_land_potential_distinct_source_match_UBR": 0.835586,
+   "potential_distinct_source_match_UBR": 0.835586,
+   "strict_land_drop_probability": 0.487754,
+   "unconditional_distinct_source_match_UBR": 0.767933,
+   "untapped_capable_distinct_source_match_UBR": 0.798784
+  }
+ }
+}
