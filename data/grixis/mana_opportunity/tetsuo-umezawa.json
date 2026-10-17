@@ -73,44 +73,18 @@
   "mdfc_count": 1,
   "utility_burden_flags": {
    "always_enters_tapped": 1,
-   "conditional_untapped": 2,
    "no_usable_grixis_color": 1,
    "single_color_source": 2
   },
-  "utility_land_count": 10,
+  "utility_land_count": 3,
   "utility_support_flags": {
    "graph_identity_core": 1,
    "graph_package_member": 1,
    "named_in_blueprint": 1,
-   "nonmana_utility_text": 9
+   "nonmana_utility_text": 1
   }
  },
  "utility_lands": [
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Bloodstained Mire",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
   {
    "authority": {
     "can_decide": false,
@@ -135,85 +109,8 @@
    ],
    "unconditional_colors": "B",
    "utility_categories": [
-    "cost_reduction_or_ramp",
     "graveyard",
     "removal_or_damage"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Flooded Strand",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Luxury Suite",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
-   "potential_colors": "BR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "BR",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Marsh Flats",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
    ]
   },
   {
@@ -261,89 +158,10 @@
    "support_flags": [
     "graph_identity_core",
     "graph_package_member",
-    "named_in_blueprint",
-    "nonmana_utility_text"
+    "named_in_blueprint"
    ],
    "unconditional_colors": "U",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Misty Rainforest",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Polluted Delta",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Sulfur Falls",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
-   "potential_colors": "UR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UR",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
+   "utility_categories": []
   }
  ]
 }

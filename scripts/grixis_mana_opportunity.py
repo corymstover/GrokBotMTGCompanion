@@ -48,7 +48,7 @@ UTILITY_PATTERNS={
     "tutor_or_search":r"\bsearch your library\b",
     "recursion":r"\breturn target\b[^.]*\bfrom your graveyard\b|\breturn\b[^.]*\bfrom your graveyard\b",
     "creature_mode":r"\bbecomes? a\b[^.]*\bcreature\b|\bcreate\b[^.]*\bcreature token",
-    "cost_reduction_or_ramp":r"\bcosts? .* less\b|\badd \{?[WUBRGC]",
+    "cost_reduction_or_ramp":r"\bcosts? .* less\b",
     "protection":r"\bhexproof\b|\bindestructible\b|\bprotection from\b",
 }
 
@@ -76,8 +76,23 @@ def direct_oracle(card):
     return "\n".join(mb._direct_lines(card["oracle"]))
 
 
+def utility_text(card):
+    """Direct non-mana utility text. Pure mana abilities, fetch-fixing clauses and ETB-tapped boilerplate are excluded."""
+    keep=[]
+    for line in mb._direct_lines(card["oracle"]):
+        low=line.lower()
+        if "add " in low:
+            continue
+        if "search your library" in low and ("land card" in low or any(t.lower() in low for t in mb.BASIC_TYPE_COLOR)):
+            continue
+        if re.search(r"enters(?: the battlefield)? tapped",low) and not any(x in low for x in ("draw","exile","sacrifice","create","destroy","return","mill")):
+            continue
+        keep.append(line)
+    return "\n".join(keep)
+
+
 def utility_categories(card):
-    text=direct_oracle(card)
+    text=utility_text(card)
     return sorted(k for k,pat in UTILITY_PATTERNS.items() if re.search(pat,text,re.I))
 
 

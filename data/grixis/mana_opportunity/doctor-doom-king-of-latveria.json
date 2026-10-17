@@ -51,77 +51,23 @@
  "slug": "doctor-doom-king-of-latveria",
  "status": "provisional_evidence",
  "summary": {
-  "blueprint_named_utility_lands": 4,
+  "blueprint_named_utility_lands": 3,
   "commander_land_hook_count": 2,
   "mdfc_count": 0,
   "utility_burden_flags": {
-   "always_enters_tapped": 2,
+   "always_enters_tapped": 1,
    "conditional_mana_ability": 1,
-   "conditional_untapped": 7,
-   "no_usable_grixis_color": 3,
-   "single_color_source": 3
+   "no_usable_grixis_color": 2,
+   "single_color_source": 2
   },
-  "utility_land_count": 22,
+  "utility_land_count": 7,
   "utility_support_flags": {
-   "graph_identity_core": 1,
-   "graph_package_member": 4,
-   "named_in_blueprint": 4,
-   "nonmana_utility_text": 22
+   "graph_package_member": 3,
+   "named_in_blueprint": 3,
+   "nonmana_utility_text": 5
   }
  },
  "utility_lands": [
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "no_usable_grixis_color"
-   ],
-   "card": "Ancient Tomb",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
-   "potential_colors": "",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "",
-   "utility_categories": [
-    "cost_reduction_or_ramp",
-    "removal_or_damage"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Bloodstained Mire",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
   {
    "authority": {
     "can_decide": false,
@@ -153,38 +99,6 @@
    },
    "blueprint_named": true,
    "burden_flags": [
-    "single_color_source",
-    "always_enters_tapped"
-   ],
-   "card": "Dakmor Salvage",
-   "conditional_mana_ability": false,
-   "entry_timing": "always_tapped",
-   "graph_packages": [
-    "pkg:land-recursion"
-   ],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped.\n{T}: Add {B}.\nDredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)",
-   "potential_colors": "B",
-   "support_flags": [
-    "graph_identity_core",
-    "graph_package_member",
-    "named_in_blueprint",
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "B",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": true,
-   "burden_flags": [
     "no_usable_grixis_color"
    ],
    "card": "Desolate Lighthouse",
@@ -205,59 +119,7 @@
    ],
    "unconditional_colors": "",
    "utility_categories": [
-    "card_advantage",
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Drowned Catacomb",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}.",
-   "potential_colors": "UB",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UB",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Fabled Passage",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
+    "card_advantage"
    ]
   },
   {
@@ -282,91 +144,10 @@
    "potential_colors": "",
    "support_flags": [
     "graph_package_member",
-    "named_in_blueprint",
-    "nonmana_utility_text"
+    "named_in_blueprint"
    ],
    "unconditional_colors": "",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Haunted Ridge",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.",
-   "potential_colors": "BR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "BR",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Luxury Suite",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
-   "potential_colors": "BR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "BR",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Morphic Pool",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
-   "potential_colors": "UB",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UB",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
+   "utility_categories": []
   },
   {
    "authority": {
@@ -391,7 +172,6 @@
    ],
    "unconditional_colors": "UBR",
    "utility_categories": [
-    "cost_reduction_or_ramp",
     "graveyard"
    ]
   },
@@ -427,133 +207,6 @@
     "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
    },
    "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Polluted Delta",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Scalding Tarn",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
-   "potential_colors": "UBR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UBR",
-   "utility_categories": [
-    "sacrifice",
-    "tutor_or_search"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Shipwreck Marsh",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
-   "potential_colors": "UB",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UB",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Sulfur Falls",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
-   "potential_colors": "UR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UR",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Sulfurous Springs",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
-   "potential_colors": "BR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "BR",
-   "utility_categories": [
-    "cost_reduction_or_ramp",
-    "removal_or_damage"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
    "burden_flags": [
     "single_color_source"
    ],
@@ -581,57 +234,6 @@
     "can_decide": false,
     "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
    },
-   "blueprint_named": false,
-   "burden_flags": [
-    "conditional_untapped"
-   ],
-   "card": "Training Center",
-   "conditional_mana_ability": false,
-   "entry_timing": "conditional_untapped",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
-   "potential_colors": "UR",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UR",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
-   "blueprint_named": false,
-   "burden_flags": [],
-   "card": "Underground River",
-   "conditional_mana_ability": false,
-   "entry_timing": "untapped_by_default",
-   "graph_packages": [],
-   "graph_roles": [
-    "land"
-   ],
-   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
-   "potential_colors": "UB",
-   "support_flags": [
-    "nonmana_utility_text"
-   ],
-   "unconditional_colors": "UB",
-   "utility_categories": [
-    "cost_reduction_or_ramp",
-    "removal_or_damage"
-   ]
-  },
-  {
-   "authority": {
-    "can_decide": false,
-    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
-   },
    "blueprint_named": true,
    "burden_flags": [
     "conditional_mana_ability"
@@ -649,13 +251,10 @@
    "potential_colors": "UBR",
    "support_flags": [
     "graph_package_member",
-    "named_in_blueprint",
-    "nonmana_utility_text"
+    "named_in_blueprint"
    ],
    "unconditional_colors": "",
-   "utility_categories": [
-    "cost_reduction_or_ramp"
-   ]
+   "utility_categories": []
   }
  ]
 }
